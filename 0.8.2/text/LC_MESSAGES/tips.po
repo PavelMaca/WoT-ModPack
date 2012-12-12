@@ -1,0 +1,701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2012-11-21 19:01+0100\n"
+"Last-Translator: \n"
+"Language-Team: WoT Tým <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "tip0"
+msgstr "Bažinatý terén znatelně zpomaluje rychlost a otáčení vozidla."
+
+msgid "tip1"
+msgstr ""
+"K výběru munice použijte klávesy 1–3. Různé typy munice se liší průbojností "
+"a účinkem."
+
+msgid "tip10"
+msgstr ""
+"Pozici nepřátelského dělostřelectva lze zjistit sledováním tras jejich střel."
+
+msgid "tip100"
+msgstr ""
+"Členy posádek můžete přesunout do jiného vozidla nebo je poslat do kasáren."
+
+msgid "tip101"
+msgstr "Zraněný člen posádky dostává za bitvu méně zkušeností."
+
+msgid "tip102"
+msgstr "Nemůžete se účastnit bitvy s nekompletní posádkou."
+
+msgid "tip103"
+msgstr "Rychlost výcviku vaší posádky závisí na úspěších v bitvách."
+
+msgid "tip104"
+msgstr "Schopnosti velitele se projevují na schopnostech celé posádky."
+
+msgid "tip105"
+msgstr "Nemůžete přesunout člena posádky do vozidla jiné národnosti."
+
+msgid "tip106"
+msgstr ""
+"Volba [Zrychlit výcvik posádky] znamená přidělení 100% bonusových XP "
+"získaných v bitvě členu posádky s nejméně XP (ikona domečku)."
+
+msgid "tip107"
+msgstr "Změna typu vozidla velmi komplikuje přeškolení posádky."
+
+msgid "tip108"
+msgstr ""
+"Vycvičení posádky na 100% v jejich hlavní kvalifikaci otevírá další "
+"schopnosti a specializace."
+
+msgid "tip109"
+msgstr "Člen posádky se může naučit různé schopnosti a specializace."
+
+msgid "tip11"
+msgstr ""
+"Dělostřelectvo je vaší primární palebnou silou, nicméně v boji zblízka je "
+"velmi zranitelné."
+
+msgid "tip110"
+msgstr "Dobrý tankista umí několik dalších schopností a specializací."
+
+msgid "tip111"
+msgstr "Seznam dostupného příslušenství závisí na typu a národnosti vozidla."
+
+msgid "tip112"
+msgstr ""
+"Některé přídavné příslušenství, ale ne všechno, lze přemontovat na jiné "
+"vozidlo."
+
+msgid "tip113"
+msgstr "Čím vyšší jsou schopnosti střelce, tím rychleji zaměří cíl."
+
+msgid "tip114"
+msgstr "Schopnější velitel vytváří schopnější posádku."
+
+msgid "tip115"
+msgstr "Zkušený řidič používá výkon motoru efektivněji."
+
+msgid "tip116"
+msgstr "Zkušený nabíječ bude munici nabíjet rychleji."
+
+msgid "tip117"
+msgstr "Úroveň schopností velitele ovlivňuje dohled."
+
+msgid "tip118"
+msgstr "Schopný radista dokáže komunikovat na větší vzdálenosti."
+
+msgid "tip119"
+msgstr ""
+"Přídavné vybavení zlepšuje schopnosti posádky nebo charakteristiky vozidla."
+
+msgid "tip12"
+msgstr "Nepřátelské dělostřelectvo musí být vaším primárním cílem."
+
+msgid "tip120"
+msgstr "Vozidla jejichž výzkum je kompletně dokončen se stávají elitními."
+
+msgid "tip121"
+msgstr ""
+"Zkušenosti, získané na elitních vozidlech, lze konvertovat na volné "
+"zkušenosti."
+
+msgid "tip122"
+msgstr "Elitní stav vozidla nemá nic společného se schopnostmi posádky."
+
+msgid "tip123"
+msgstr ""
+"Administrátor se vás nikdy nebude ptát na heslo. Všechny takovéto požadavky "
+"jsou pokusem o podvod."
+
+msgid "tip124"
+msgstr ""
+"Moderátoři, podpora nebo vývojáři nepotřebují znát vaše heslo ze žádného "
+"důvodu."
+
+msgid "tip125"
+msgstr ""
+"Nesdílejte s nikým své heslo. Ani s těmi, kteří se tváří jako administrátoři."
+
+msgid "tip126"
+msgstr "Nikdy nevyrušujte svého protivníka, pokud dělá chybu. Není to slušné!"
+
+msgid "tip127"
+msgstr ""
+"Zničení všech nepřátel nepřináší žádný bonus. Obsazení nepřátelské základny "
+"je často ta nejefektivnější ceska k vítězství."
+
+msgid "tip128"
+msgstr ""
+"Někdy je obsazení základny nejsnazší a nejbezpečnější cesta. Zničením všech "
+"nepřátel nezískáte žádný bonus."
+
+msgid "tip129"
+msgstr ""
+"Zničená vozidla jsou uzamčena až do konce bitvy. Můžete se vrátit do garáže "
+"a vstoupit do další bitvy s jiným vozidlem."
+
+msgid "tip13"
+msgstr "Chraňte své dělostřelectvo, nebo bude pro nepřítele snadným cílem."
+
+msgid "tip130"
+msgstr ""
+"V bitvách rot a klanů je polovina zkušeností a kreditů získaných poraženým "
+"týmem přesunuta na účet vítězů."
+
+msgid "tip131"
+msgstr ""
+"Sdílení vašeho hesla a emailu s kýmkoliv jiným může mít za následek ztrátu "
+"účtu."
+
+msgid "tip132"
+msgstr ""
+"Sdílení herního účtu porušuje pravidla hry a múže vést ke ztrátě přístupu k "
+"účtu."
+
+msgid "tip133"
+msgstr ""
+"Pravidla hry zakazují sdílení účtů. Viníci mohou navždy přijít o oba herní "
+"účty."
+
+msgid "tip134"
+msgstr ""
+"Nedovolte nikomu používat váš účet. Můžete přijít o účet nebo o všechna vaše "
+"vozidla."
+
+msgid "tip135"
+msgstr "Nedovolte nikomu používat váš účet. Riskujete jeho smazání."
+
+msgid "tip136"
+msgstr "S nikým nesdílejte váš účet. Můžete o něj přijít."
+
+msgid "tip137"
+msgstr "Čím složitější je vaše heslo, tím lépe."
+
+msgid "tip138"
+msgstr ""
+"Pokud máte podezření, že vaše heslo bylo prozrazeno, okamžitě ho změňte!"
+
+msgid "tip139"
+msgstr "Čas od času změňte vaše heslo."
+
+msgid "tip14"
+msgstr "Stíhače tanků jsou určené k přepadům ze zálohy."
+
+msgid "tip140"
+msgstr "Složité heslo zvyšuje bezpečnost vašeho účtu."
+
+msgid "tip141"
+msgstr "Vytvoření silného hesla vám pomáhá předejít krádeži účtu."
+
+msgid "tip142"
+msgstr ""
+"Prověřte pomocí antivirového programu všechny aktualizace hry předtím, než "
+"je nainstalujete."
+
+msgid "tip143"
+msgstr ""
+"Pravidla hry zakazují nakupování a prodávání účtů. Pokud tyto pravidla "
+"porušíte, můžete o váš účet přijít."
+
+msgid "tip144"
+msgstr ""
+"Pravidla hry zakazují nákup účtu. Pokud si koupiíte účet, pravděpodobně je "
+"kradený."
+
+msgid "tip145"
+msgstr ""
+"Když si koupíte účet, riskujete nejen to, že budete podvedeni, ale také "
+"porušujete pravidla hry."
+
+msgid "tip146"
+msgstr ""
+"Nepoužívejte odkazy na neznámé stránky. Riskujete že budete podvedeni nebo "
+"okradeni."
+
+msgid "tip147"
+msgstr ""
+"Zlaťáky můžete koupit pouze na oficiální stránce World of Tanks. Pokud "
+"zkusíte koupit zlaťáky na jiných stránkách, jen přijdete o peníze."
+
+msgid "tip148"
+msgstr ""
+"Nabídky na zlaťáky zdarma nejsou nic víc než trik, jak ukrást váš účet."
+
+msgid "tip149"
+msgstr ""
+"Zlaťáky zdarma a cheaty jsou jen triky používané ke krádeži vašeho účtu."
+
+msgid "tip15"
+msgstr "Nejlepší obranou je útok! Defenzivní hraní úspěchy nepřináší."
+
+msgid "tip150"
+msgstr ""
+"Nikdy nepoužívejte váš herní email a heslo na jiných stránkách. Můžete "
+"přijít o váš účet."
+
+msgid "tip151"
+msgstr "Možnost [Uložit heslo] je výhodná, ale potenciálně nebezpečná."
+
+msgid "tip152"
+msgstr ""
+"Vymažte všechny zprávy ze hry z vaší emailové schránky. Mohout být použity "
+"ke krádeži vašeho účtu."
+
+msgid "tip153"
+msgstr "Zabezpečená emailová schránka zvyšuje bezpečnost vašeho účtu."
+
+msgid "tip154"
+msgstr ""
+"Nezapomeňte udržovat svou emailovou schránku v bezpečí, aby jí útočníci "
+"nemohli použít ke krádeži vašeho účtu."
+
+msgid "tip155"
+msgstr ""
+"Na portálu můžete najít instrukce, jak udržovat váš účet v bezpečí. Pozorně "
+"je přečtěte."
+
+msgid "tip156"
+msgstr ""
+"Vždy se ujistěte, že se přihlašujete na oficiální stránku World of Tanks. "
+"Podvodné stránky mohou vypadat podobně, jako ta oficiální."
+
+msgid "tip157"
+msgstr ""
+"Nikdy nepřijímejte dárky od neznámých lidí. Mouhou vést k uzamčení vašeho "
+"účtu."
+
+msgid "tip158"
+msgstr "Držte CTRL pro zobrazení kurzoru myši."
+
+msgid "tip159"
+msgstr "Kurzor myši může být zobrazen přidržením CTRL."
+
+msgid "tip16"
+msgstr "Ani ten nejtěžší tank nemůže zničit všechny nepřátele bez podpory."
+
+msgid "tip160"
+msgstr ""
+"Pro opravu příslušenství nebo vyléčení člena posádky klikněte na příslušnou "
+"ikonu v levé dolní části obrazovky."
+
+msgid "tip161"
+msgstr ""
+"Pro opravu poškozeného příslušenství klikněte na malou sadu nářadí ve spodní "
+"části obrazovky a vyberte, co chcete opravit."
+
+msgid "tip162"
+msgstr ""
+"Pro vyléčení zraňeného člena posádky klikněte na malou lékárničku ve spodní "
+"části obrazovky a vyberte, koho chcete vyléčit."
+
+msgid "tip163"
+msgstr ""
+"Použijte rychlé volby (ve výchozím nastavení 4-6) pro aktivaci spotřebních "
+"doplňků. Rychlé volby jsou označeny pod ikonami spotřebních doplňků."
+
+msgid "tip164"
+msgstr ""
+"Pro okamžitý posun kamery v dělostřeleckém režimu klikněte pravým tlačítkem "
+"myši na minimapu."
+
+msgid "tip165"
+msgstr "Pro změnu vzhledu seznamu týmů stiskněte CTRL+TAB."
+
+msgid "tip166"
+msgstr ""
+"Pro přidání hráče do seznamu přátel, seznamu ignorovaných nebo odeslání "
+"stížnosti,  klikněte pravým tlačítkem na jméno hráče v seznamu týmů."
+
+msgid "tip167"
+msgstr ""
+"Pro přidání hráče do seznamu přátel klikněte pravým tlačítkem na jeho jméno "
+"v seznamu týmů a vyberte Přidat do seznamu přátel."
+
+msgid "tip168"
+msgstr ""
+"Pro poslání stížnosti klikněte pravým tlačítkem na jméno hráče v seznamu "
+"týmů a vyberte \"Stížnost\"."
+
+msgid "tip169"
+msgstr ""
+"Pokud si všimnete, že někdo uráží ostatní hráče, klikněte pravým tlačítkem "
+"na jeho jméno a vyberte Stížnost > Urážky a provokace."
+
+msgid "tip17"
+msgstr ""
+"Automatické zaměřování nezaručuje 100% přesnost. Zkušení tankisté používají "
+"ruční zaměřování."
+
+msgid "tip18"
+msgstr ""
+"Kličkování pomáhá lehkým a středním tankům vyhnout se nepřátelské palbě."
+
+msgid "tip19"
+msgstr "I nejvíce opancéřovaná vozidla mají slabá místa - z boků a zezadu."
+
+msgid "tip2"
+msgstr ""
+"Lehké tanky jsou oči týmu. Použijte je k nalezení nepřítele pro vaše "
+"spoluhráče."
+
+msgid "tip20"
+msgstr "Pro namontování některé výbavy bude třeba vyměnit podvozek."
+
+msgid "tip21"
+msgstr "Kvůli některým dělům je třeba namontovat jinou věž."
+
+msgid "tip22"
+msgstr "Nezapomeňte sledovat vaše rádio, jinak budete v bitvě jako slepý."
+
+msgid "tip23"
+msgstr ""
+"Ráže není jediným měřítkem výkonu děla. Rychlost střelby a přesnost jsou "
+"také důležité."
+
+msgid "tip24"
+msgstr ""
+"Dobře obrněný cíl, který nemůže být zničen průbojnou municí, může být "
+"poměrně zranitelný municí explozivní."
+
+msgid "tip25"
+msgstr "Každý typ vozidel vyžaduje jinou taktiku boje."
+
+msgid "tip26"
+msgstr "Některá vozidla jsou nejlepší v boji na blízko, jiná v boji na dálku."
+
+msgid "tip27"
+msgstr ""
+"Vozidlo, které zastaví pod nepřátelskou palbou, se brzo promění v kouřící "
+"vrak."
+
+msgid "tip28"
+msgstr ""
+"Explozivní munice je efektivní proti lehkým vozidlům a dělostřelcům s "
+"otevřeným prostorem posádky."
+
+msgid "tip29"
+msgstr ""
+"Používejte zároveň střelbu a nárazy ke zničení lehkých tanků a "
+"dělostřelectva."
+
+msgid "tip3"
+msgstr ""
+"Čím déle se podaří lehkým tankům přežít mezi nepřáteli, tím úspěšnější bude "
+"výkon vašeho dělostřelectva a tím více nepřátel bude vyřazeno."
+
+msgid "tip30"
+msgstr "Křoví poskytuje skvělý úkryt až do chvíle, kdy vystřelíte."
+
+msgid "tip31"
+msgstr "Explozivní munice je skvělá pro dosažení kritického zásahu."
+
+msgid "tip32"
+msgstr "Pokud chcete tank zastavit, střílejte na jeho pásy."
+
+msgid "tip33"
+msgstr ""
+"Malá výška znamená lepší maskování vozidla, speciálně pokud je ukryto v "
+"křoví."
+
+msgid "tip34"
+msgstr "Pokud je průbojná munice neúčinná, použijte munici prémiovou."
+
+msgid "tip35"
+msgstr ""
+"Další specializace a schopnosti budou dustupné až poté, co vycvičíte vaší "
+"posádku na 100% jejich základní kvalifikace."
+
+msgid "tip36"
+msgstr ""
+"Stojící vozidlo je mnohem obtížnější odhalit, než takové, které se pohybuje."
+
+msgid "tip37"
+msgstr ""
+"Zkušenosti, získané na prémiových vozidlech, lze konvertovat na volné "
+"zkušenosti."
+
+msgid "tip38"
+msgstr "Když píšete zprávu, pište stručně, výstižně a k věci."
+
+msgid "tip39"
+msgstr ""
+"Použití přímé střelby ve správnou chvíli, dává dělostřelectvu dobrou šanci "
+"přežít souboj z blízka."
+
+msgid "tip4"
+msgstr "Lehký tank, bez dobrého rádia, se stane pro tým jen přítěží."
+
+msgid "tip40"
+msgstr ""
+"Nepřátelské dělostřelectvo může odhalit vaši pozici pokud porážíte stromy "
+"nebo ničíte budovy a infrastrukturu."
+
+msgid "tip41"
+msgstr "Lehký tank může stát nebo být nepoškozený, nikdy ne obojí."
+
+msgid "tip42"
+msgstr "Vždy má smysl koncentrovat palbu."
+
+msgid "tip43"
+msgstr ""
+"Pokud ochráníte dělostřelectvo před lehkými tanky, dělostřelectvo vás může "
+"ochránit před těmi těžkými."
+
+msgid "tip44"
+msgstr ""
+"Samohybné dělostřelectvo vyniká v nepřímé palbě, ale pokud je to nutné, může "
+"střílet také přímo."
+
+msgid "tip45"
+msgstr ""
+"Sledování trajektorií střel vám pomůže odhalit pozici nepřátelského "
+"dělostřelectva."
+
+msgid "tip46"
+msgstr "Dokonce i těžká vozidla potřebují podporu."
+
+msgid "tip47"
+msgstr ""
+"Čím více vozidel z vašeho týmu zabírá nepřátelsou základnu, tím rychleji "
+"bude základna obsazena."
+
+msgid "tip48"
+msgstr ""
+"Remíza znamená, že žádný z týmů nevyhrál, s vyjímkou režimu bitvy \"Útok\", "
+"kde tým obránců zvítězí, jakmile vyprší čas bitvy."
+
+msgid "tip49"
+msgstr "Obsazování základny je přerušeno, pokud je zabírající tank poškozen."
+
+msgid "tip5"
+msgstr ""
+"Pro lehký tank je všeobecně více důležitý podvozek, rádio a motor než dělo a "
+"věž."
+
+msgid "tip50"
+msgstr ""
+"Manévrovatelnost závisí na typu podvozku, výkonu motoru a celkové hmotnosti "
+"namontované výbavy."
+
+msgid "tip51"
+msgstr ""
+"Pravděpodobnost požáru závisí na typu motoru, zatímco posádka se schopností "
+"hašení a hasícím přístrojem uhasí požár rychleji."
+
+msgid "tip52"
+msgstr "Odhalení nepřátelských vozidel je odměněno kredity a zkušenostmi."
+
+msgid "tip53"
+msgstr ""
+"Budovy a zničená vozidla jsou použitelná jako štít proti nepřátelské palbě, "
+"toto nefunguje se stromy a křovím."
+
+msgid "tip54"
+msgstr ""
+"Poškozená věž se může zablokovat. Po opravě bude fungovat, ale rychlost "
+"rotace bude snížena."
+
+msgid "tip55"
+msgstr ""
+"Pokud je poškozeno dělo, může se zablokovat. Po opravě bude fungovat, ale "
+"bude velmi nepřesné."
+
+msgid "tip56"
+msgstr ""
+"Poškozená bedna s munici znamená pomalejší nabíjení, nebo, v některých "
+"případech, okamžitou explozi."
+
+msgid "tip57"
+msgstr "Poškozený pozorovací periskop snižuje dohled."
+
+msgid "tip58"
+msgstr "Rychlost střelby je závislá na typu věže a schopnosti nabíječe."
+
+msgid "tip59"
+msgstr ""
+"Zraněný řidič snižuje rychlost a zhoršuje manévrovací schopnosti vozidla."
+
+msgid "tip6"
+msgstr ""
+"Řidič lehkého nebo středního tanku, který věří že řídí těžký tank, nebude "
+"žít dlouho."
+
+msgid "tip60"
+msgstr "Pokud je váš nabíječ raněn, je snížena rychlost nabíjení."
+
+msgid "tip61"
+msgstr "Pokud je váš střelec raněn, je snížena přesnost střelby."
+
+msgid "tip62"
+msgstr ""
+"Jako bonus k více zkušenostem a kreditům vám prémiový účet přinese také "
+"pěkně čistou garáž."
+
+msgid "tip63"
+msgstr "Nenechávejte díry ve vaší obraně!"
+
+msgid "tip64"
+msgstr "Volné zkušenosti lze použít ke zkoumání libovolného vozidla."
+
+msgid "tip65"
+msgstr ""
+"Při zkoumání vozidel a jejich výzbroje jsou volné zkušenosti použity jako "
+"poslední."
+
+msgid "tip66"
+msgstr "Cenzuru lze vypnout v nastavení hry, ale dobře tento krok zvažte."
+
+msgid "tip67"
+msgstr ""
+"Nové vybavení může být příliš těžké. Pro zvýšení nosnosti, vylepšete "
+"podvozek."
+
+msgid "tip68"
+msgstr ""
+"Kredity a zkušenosti se udělují za odhalení a poškození nepřátelských "
+"vozidel, nikoliv jen za jejich zničení."
+
+msgid "tip69"
+msgstr ""
+"Výbuch bedny s municí nezávisí na typu munice nebo jejím množství. Prázdná "
+"bedna ovšem vybuchnout nemůže!"
+
+msgid "tip7"
+msgstr ""
+"Úkolem středního tanku jsou boční útoky a obchvaty, a následné stažení po "
+"zasazení úderu."
+
+msgid "tip70"
+msgstr "Střelba odkryje vaší pozici."
+
+msgid "tip71"
+msgstr ""
+"Kritický zásah znamená, že posádka byla zraněna a vybavení tanku poškozeno."
+
+msgid "tip72"
+msgstr ""
+"Pokud budete explozivní munici používat efektivně, můžete poškodit více "
+"vozidel jedním výstřelem."
+
+msgid "tip73"
+msgstr "APCR a HEAT granáty mají největší průbojnost."
+
+msgid "tip74"
+msgstr ""
+"Používejte nerovnosti terénu jako úkryt před přímou palbou a sledováním."
+
+msgid "tip75"
+msgstr "Dobře sehraný tým je vítězný tým."
+
+msgid "tip76"
+msgstr ""
+"Pokud už nemáte místo v garáži, zauvažujte nad prodejem starého vozidla, "
+"nebo nákupem dalšího stání."
+
+msgid "tip77"
+msgstr ""
+"Používejte sklad pro prodej vozidel, vybavení a munice, kterou nepotřebujete."
+
+msgid "tip78"
+msgstr ""
+"Pokud se vás někdo zeptá na heslo, je to podvod. Administrátoři nebudou "
+"nikdy potřebovat vaše heslo. Vždy udržujte své heslo v bezpečí."
+
+msgid "tip79"
+msgstr "Prémiové tanky mají levné opravy."
+
+msgid "tip8"
+msgstr "Smečka středních tanků může ulovit i nejsilnějšího protivníka."
+
+msgid "tip80"
+msgstr "Nestřílejte na spojence!"
+
+msgid "tip81"
+msgstr ""
+"Výkon rádiového signálu ovlivňuje vaší možnost výměny informací o pozicích "
+"nepřítele."
+
+msgid "tip82"
+msgstr ""
+"Dohled je maximální vzdálenost, na kterou můžete objevit nepřítele, pokud "
+"není skrytý."
+
+msgid "tip83"
+msgstr "Čím vyšší je vaše rychlost, tím horší je přesnost."
+
+msgid "tip84"
+msgstr ""
+"Otáčení věže a podvozku ovlivňuje přesnost střelby, takže po dokončení "
+"manévru počkejte, něž se zaměřovací kruh doostří na cíl."
+
+msgid "tip85"
+msgstr "Stíhače tanků jsou hůře odhalitelné, než ostatní vozidla."
+
+msgid "tip86"
+msgstr ""
+"Narozdíl od ostatních typů munice, průbojnost explozivní a HEAT munice není "
+"závislá na vzdálenosti od cíle."
+
+msgid "tip87"
+msgstr ""
+"Maximální rychlost je určená podvozkem. Zrychlení je závislé na výkonu "
+"motoru, hmotnosti vozidla a typu terénu."
+
+msgid "tip88"
+msgstr ""
+"Schopnosti podvozku překonávat překážky jsou ovlivněny typem terénu, jako "
+"cesty, pole nebo bažiny."
+
+msgid "tip89"
+msgstr ""
+"Úspěšnost nárazu závisí na poměru hmotnosti, rychlosti a pancířů vozidel."
+
+msgid "tip9"
+msgstr ""
+"Kdykoliv cítíte nebezpečí, přešuňte své dělostřelectvo. Přežijete déle."
+
+msgid "tip90"
+msgstr ""
+"Prostřelit čelní pancíř je vždy obtížné. Zaměřte se na boční a zadní pancíř."
+
+msgid "tip91"
+msgstr "Rychlost zaměření cíle závisí na typu děla a schopnostech střelce."
+
+msgid "tip92"
+msgstr "Zranění velitele snižuje dohled."
+
+msgid "tip93"
+msgstr "Automatické zaměřování se vypne pokud je cíl zničen nebo z dohledu."
+
+msgid "tip94"
+msgstr ""
+"Pokud je vozidlo zničeno, zůstává uzamčeno až do konce bitvy. Použít jej "
+"můžete až po ukončení bitvy a opravě."
+
+msgid "tip95"
+msgstr ""
+"Do bitvy můžete vstoupit pouze s kompletně opraveným vozidlem s posádkou."
+
+msgid "tip96"
+msgstr ""
+"Zaškrtněte [Automatické doplnění] a vaše munice bude vždy doplněna na stav "
+"před bitvou."
+
+msgid "tip97"
+msgstr ""
+"Náraz má smysl pouze tehdy, pokud je vaše vozidlo těžší a silnější než "
+"vozidlo nepřítele."
+
+msgid "tip98"
+msgstr "Skloněný pancíř zvyšuje šance na odražení střel."
+
+msgid "tip99"
+msgstr "Kasárna můžete v případě potřeby rozšířit."

@@ -1,0 +1,360 @@
+﻿<!--
+Автор: morotopitek
+-->
+<config>
+	<!-- Статистика после боя -->
+
+	<!-- 0 - Сортировка по урону, 1 - по Опыту 	-->
+
+	<teamSort type="0"/>
+
+	<!-- Достижения -->
+
+	<!-- Цифры - количество знаков после запятой, цифра 0 - не выводится ничего -->
+
+	<!-- фраги -->
+
+	<frags coeff=		"2"	/>
+
+	<!-- средний урон -->
+
+	<damageDealt coeff=	"4"	/>
+
+	<!-- победы -->
+
+	<wins coeff=		"3"	/>
+
+	<!-- выживаемость -->
+
+	<survivedBattles coeff=	"0"	/>
+
+	<!-- средний опыт -->
+
+	<avgExperience coeff=	"2"	/>
+
+
+
+  <!--  
+	Типы сортировок:
+
+		descend="1" - по убыванию
+		descend="0" - по возрастанию
+
+	Поля для сортировки:
+
+		fights - количество боев
+		wins   - процент побед	
+		name   - имя
+		level  - уровень
+		nation - нация
+		type   - тип танка
+
+  --> 
+
+  <sorts>
+	<!-- По боям -->
+
+	<s1 name="Bitev">
+		<f1 field="fights" 	descend="1"/>  
+	</s1>
+
+	<!-- По проценту побед -->
+
+	<s2 name="Vítězství">
+		<f1 field="wins" 	descend="1"/>
+	</s2>
+
+	<!-- Мастера -->
+
+	<s3 name="VT">
+		<f1 field="vehicleClass" descend="1"/>
+		<f2 field="level"	 descend="1"/>
+		<f3 field="name" 	 descend="0" />
+	</s3>
+
+
+	<!-- По Типу (втростепенные по типу танка, потом по имени) -->
+
+	<s4 name="Typ">
+		<f1 field="type" 	descend="1" />
+		<f2 field="level"	descend="1"/>
+		<f3 field="name" 	descend="0" /> 
+	</s4>
+
+	<!-- По Уровню (втростепенные по нации, потом по имени) -->
+
+	<s5 name="Tier">
+
+		<f1 field="level" 	descend="1" />
+		<f2 field="nation" 	descend="0"/>
+		<f3 field="name" 	descend="0" />
+	</s5>
+
+	<!-- По названию -->
+
+	<s6 name="Název">
+		<f1 field="name" 	descend="0"/>
+	</s6>
+
+  </sorts>
+  
+    <!-- Lt=1 Med=2 Hvy=3 TD=4 Arty=5-->
+
+    <tanks>                                  
+	<china-Ch01_Type59.png              type="2"				  />
+	<china-Ch02_Type62.png              type="1"				  />
+	<china-Ch03_WZ-111.png              type="3"				  />
+	<france-_105_leFH18B2.png           type="5"				  />
+	<france-AMX_105AM.png               type="5"				  />
+	<france-AMX_12t.png                 type="1"				  />
+	<france-AMX_13_75.png               type="1"				  />
+	<france-AMX_13_90.png               type="1"				  />
+	<france-AMX_13F3AM.png              type="5"				  />
+	<france-AMX_50_100.png              type="3"				  />
+	<france-AMX_50_120.png              type="3"				  />
+	<france-AMX_50Fosh_155.png          type="4"				  />
+	<france-AMX_AC_Mle1946.png          type="4"				  />
+	<france-AMX_AC_Mle1948.png          type="4"				  />
+	<france-AMX_M4_1945.png             type="3"				  />
+	<france-AMX38.png                   type="1"				  />
+	<france-AMX40.png                   type="1"				  />
+	<france-AMX50_Foch.png              type="4"				  />
+	<france-ARL_44.png                  type="3"				  />
+	<france-ARL_V39.png                 type="4"				  />
+	<france-B1.png                      type="3"				  />
+	<france-Bat_Chatillon155.png        type="5"				  />
+	<france-Bat_Chatillon25t.png        type="2"				  />
+	<france-BDR_G1B.png                 type="3"				  />
+	<france-D1.png                      type="1"				  />
+	<france-D2.png                      type="2"				  />
+	<france-ELC_AMX.png                 type="1"				  />
+	<france-F10_AMX_50B.png             type="3"				  />
+	<france-FCM_36Pak40.png             type="4"				  />
+	<france-FCM_50t.png                 type="3"				  />
+	<france-Hotchkiss_H35.png           type="1"				  />
+	<france-Lorraine155_50.png          type="5"				  />
+	<france-Lorraine155_51.png          type="5"				  />
+	<france-Lorraine39_L_AM.png         type="5"				  />
+	<france-Lorraine40t.png             type="2"				  />
+	<france-RenaultBS.png               type="5"				  />
+	<france-RenaultFT.png               type="1"				  />
+	<france-RenaultFT_AC.png            type="4"				  />
+	<france-RenaultUE57.png             type="4"				  />
+	<france-S_35CA.png                  type="4"				  />
+	<france-Somua_Sau_40.png            type="4"				  />
+	<germany-B-1bis_captured.png        type="3"				  />
+	<germany-Bison_I.png                type="5"				  />
+	<germany-DickerMax.png              type="4"				  />
+	<germany-E-100.png                  type="3"				  />
+	<germany-E-50.png                   type="2"				  />
+	<germany-E-75.png                   type="3"				  />
+	<germany-E50_Ausf_M.png             type="2"				  />
+	<germany-Ferdinand.png              type="4"				  />
+	<germany-G_E.png                    type="5"				  />
+	<germany-G_Panther.png              type="5"				  />
+	<germany-G_Tiger.png                type="5"				  />
+	<germany-G20_Marder_II.png          type="4"				  />
+	<germany-Grille.png                 type="5"				  />
+	<germany-H39_captured.png           type="1"				  />
+	<germany-Hetzer.png                 type="4"				  />
+	<germany-Hummel.png                 type="5"				  />
+	<germany-JagdPanther.png            type="4"				  />
+	<germany-JagdPantherII.png          type="4"				  />
+	<germany-JagdPz_E100.png            type="4"				  />
+	<germany-JagdPzIV.png               type="4"				  />
+	<germany-JagdTiger.png              type="4"				  />
+	<germany-JagdTiger_SdKfz_185.png    type="4"				  />
+	<germany-Lowe.png                   type="3"				  />
+	<germany-Ltraktor.png               type="1"				  />
+	<germany-marderiii.png              type="4"				  />
+	<germany-Maus.png                   type="3"				  />
+	<germany-Panther_II.png             type="2"				  />
+	<germany-Panther_M10.png            type="2"				  />
+	<germany-PanzerJager_I.png          type="4"				  />
+	<germany-Pz_IV_AusfGH.png           type="1"				  />
+	<germany-Pz35t.png                  type="1"				  />
+	<germany-Pz38_NA.png                type="1"				  />
+	<germany-Pz38t.png                  type="1"				  />
+	<germany-PzII.png                   type="1"				  />
+	<germany-PzII_J.png                 type="1"				  />
+	<germany-PzII_Luchs.png             type="1"				  />
+	<germany-PzIII.png                  type="2"				  />
+	<germany-PzIII_A.png                type="1"				  />
+	<germany-PzIII_IV.png               type="2"				  />
+	<germany-PzIV.png                   type="2"				  />
+	<germany-PzIV_Hydro.png             type="2"				  />
+	<germany-PzIV_schmalturm.png        type="2"				  />
+	<germany-PzV.png                    type="2"				  />
+	<germany-PzV_PzIV.png               type="2"				  />
+	<germany-PzV_PzIV_ausf_Alfa.png     type="2"				  />
+	<germany-PzVI.png                   type="3"				  />
+	<germany-PzVI_Tiger_P.png           type="3"				  />
+	<germany-PzVIB_Tiger_II.png         type="3"				  />
+	<germany-S35_captured.png           type="3"				  />
+	<germany-StuGIII.png                type="4"				  />
+	<germany-Sturmpanzer_II.png         type="5"				  />
+	<germany-T-15.png                   type="1"				  />
+	<germany-T-25.png                   type="2"				  />
+	<germany-VK1602.png                 type="1"				  />
+	<germany-VK2801.png                 type="1"				  />
+	<germany-VK3001H.png                type="2"				  />
+	<germany-VK3001P.png                type="2"				  />
+	<germany-VK3002DB.png               type="2"				  />
+	<germany-VK3601H.png                type="2"				  />
+	<germany-VK4502A.png                type="3"				  />
+	<germany-VK4502P.png                type="3"				  />
+	<germany-Wespe.png                  type="5"				  />
+	<germany_E50_Ausf.M.png             type="2"				  />
+	<noImage.png                        type="0"				  />
+	<uk-GB01_Medium_Mark_I.png          type="2"				  />
+	<uk-GB03_Cruiser_Mk_I.png           type="1"				  />
+	<uk-GB04_Valentine.png              type="1"				  />
+	<uk-GB05_Vickers_Medium_Mk_II.png   type="1"				  />
+	<uk-GB06_Vickers_Medium_Mk_III.png  type="1"				  />
+	<uk-GB07_Matilda.png                type="2"				  />
+	<uk-GB08_Churchill_I.png            type="3"				  />
+	<uk-GB09_Churchill_VII.png          type="3"				  />
+	<uk-GB10_Black_Prince.png           type="3"				  />
+	<uk-GB11_Caernarvon.png             type="3"				  />
+	<uk-GB12_Conqueror.png              type="3"				  />
+	<uk-GB13_FV215b.png                 type="3"				  />
+	<uk-GB20_Crusader.png               type="1"				  />
+	<uk-GB21_Cromwell.png               type="2"				  />
+	<uk-GB22_Comet.png                  type="2"				  />
+	<uk-GB23_Centurion.png              type="2"				  />
+	<uk-GB24_Centurion_Mk3.png          type="2"				  />
+	<uk-GB58_Cruiser_Mk_III.png         type="1"				  />
+	<uk-GB59_Cruiser_Mk_IV.png          type="1"				  />
+	<uk-GB60_Covenanter.png             type="1"				  />
+	<uk-GB63_TOG_II.png                 type="3"				  />
+	<uk-GB68_Matilda_Black_Prince.png   type="2"				  />
+	<uk-GB69_Cruiser_Mk_II.png          type="1"				  />
+	<uk-GB70_FV4202_105.png             type="2"				  />
+	<uk-GB71_AT_15A.png                 type="4"				  />
+	<usa-M10_Wolverine.png              type="4"				  />
+	<usa-M103.png                       type="3"				  />
+	<usa-M12.png                        type="5"				  />
+	<usa-M18_Hellcat.png                type="4"				  />
+	<usa-M2_lt.png                      type="1"				  />
+	<usa-M2_med.png                     type="1"				  />
+	<usa-M22_Locust.png                 type="1"				  />
+	<usa-M24_Chaffee.png                type="1"				  />
+	<usa-M3_Grant.png                   type="1"				  />
+	<usa-M3_Stuart.png                  type="1"				  />
+	<usa-M36_Slagger.png                type="4"				  />
+	<usa-M37.png                        type="5"				  />
+	<usa-M4_Sherman.png                 type="2"				  />
+	<usa-M40M43.png                     type="5"				  />
+	<usa-M41.png                        type="5"				  />
+	<usa-M46_Patton.png                 type="2"				  />
+	<usa-M48A1.png                      type="2"				  />
+	<usa-M4A2E4.png                     type="2"				  />
+	<usa-M4A3E8_Sherman.png             type="2"				  />
+	<usa-M5_Stuart.png                  type="1"				  />
+	<usa-M6.png                         type="3"				  />
+	<usa-M6A2E1.png                     type="3"				  />
+	<usa-M7_med.png                     type="2"				  />
+	<usa-M7_Priest.png                  type="5"				  />
+	<usa-M8A1.png                       type="4"				  />
+	<usa-MTLS-1G14.png                  type="1"				  />
+	<usa-Pershing.png                   type="2"				  />
+	<usa-Ram-II.png                     type="2"				  />
+	<usa-Sherman_Jumbo.png              type="2"				  />
+	<usa-T1_Cunningham.png              type="1"				  />
+	<usa-T1_E6.png                      type="3"				  />
+	<usa-T1_hvy.png                     type="3"				  />
+	<usa-T110.png                       type="3"				  />
+	<usa-T110E3.png                     type="4"				  />
+	<usa-T110E4.png                     type="4"				  />
+	<usa-T14.png                        type="3"				  />
+	<usa-T18.png                        type="4"				  />
+	<usa-T2_lt.png                      type="1"				  />
+	<usa-T2_med.png                     type="1"				  />
+	<usa-T20.png                        type="2"				  />
+	<usa-T25_2.png                      type="4"				  />
+	<usa-T25_AT.png                     type="4"				  />
+	<usa-T26_E4_SuperPershing.png       type="2"				  />
+	<usa-T28.png                        type="4"				  />
+	<usa-T28_Prototype.png              type="4"				  />
+	<usa-T29.png                        type="3"				  />
+	<usa-T30.png                        type="4"				  />
+	<usa-T32.png                        type="3"				  />
+	<usa-T34_hvy.png                    type="3"				  />
+	<usa-T40.png                        type="4"				  />
+	<usa-T49.png                        type="4"				  />
+	<usa-T57.png                        type="5"				  />
+	<usa-T82.png                        type="4"				  />
+	<usa-T92.png                        type="5"				  />
+	<usa-T95.png                        type="4"				  />
+	<ussr-62A.png                       type="2"				  />
+	<ussr-A-20.png                      type="1"				  />
+	<ussr-A-32.png                      type="1"				  />
+	<ussr-AT-1.png                      type="4"				  />
+	<ussr-BT-2.png                      type="1"				  />
+	<ussr-BT-7.png                      type="1"				  />
+	<ussr-BT-SV.png                     type="1"				  />
+	<ussr-Churchill_LL.png              type="3"				  />
+	<ussr-GAZ-74b.png                   type="4"				  />
+	<ussr-IS.png                        type="3"				  />
+	<ussr-IS-3.png                      type="3"				  />
+	<ussr-IS-4.png                      type="3"				  />
+	<ussr-IS-7.png                      type="3"				  />
+	<ussr-IS8.png                       type="3"				  />
+	<ussr-ISU-152.png                   type="4"				  />
+	<ussr-KV.png                        type="3"				  />
+	<ussr-KV-13.png                     type="2"				  />
+	<ussr-KV-1s.png                     type="3"				  />
+	<ussr-KV-220.png                    type="3"				  />
+	<ussr-KV-220_action.png             type="3"				  />
+	<ussr-kv-220_beta.png               type="3"				  />
+	<ussr-KV-3.png                      type="3"				  />
+	<ussr-KV-5.png                      type="3"				  />
+	<ussr-KV1.png                       type="3"				  />
+	<ussr-KV2.png                       type="3"				  />
+	<ussr-KV4.png                       type="3"				  />
+	<ussr-M3_Stuart_LL.png              type="1"				  />
+	<ussr-Matilda_II_LL.png             type="2"				  />
+	<ussr-MS-1.png                      type="1"				  />
+	<ussr-Object-261.png                type="5"				  />
+	<ussr-Object_212.png                type="5"				  />
+	<ussr-Object_252.png                type="3"				  />
+	<ussr-Object_261.png                type="5"				  />
+	<ussr-Object_704.png                type="4"				  />
+	<ussr-Object252.png                 type="3"				  />
+	<ussr-Object263.png                 type="4"				  />
+	<ussr-Object268.png                 type="4"				  />
+	<ussr-Observer.png                  type="0"				  />
+	<ussr-R80_KV1.png                   type="3"				  />
+	<ussr-S-51.png                      type="5"				  />
+	<ussr-ST_I.png                      type="3"				  />
+	<ussr-SU-100.png                    type="4"				  />
+	<ussr-SU-101.png                    type="4"				  />
+	<ussr-SU-14.png                     type="5"				  />
+	<ussr-SU-152.png                    type="4"				  />
+	<ussr-SU-18.png                     type="5"				  />
+	<ussr-SU-26.png                     type="5"				  />
+	<ussr-SU-5.png                      type="5"				  />
+	<ussr-SU-76.png                     type="4"				  />
+	<ussr-SU-8.png                      type="5"				  />
+	<ussr-SU-85.png                     type="4"				  />
+	<ussr-SU_85I.png                    type="4"				  />
+	<ussr-SU100M1.png                   type="4"				  />
+	<ussr-SU122_44.png                  type="4"				  />
+	<ussr-SU122_54.png                  type="4"				  />
+	<ussr-T-127.png                     type="1"				  />
+	<ussr-T-26.png                      type="1"				  />
+	<ussr-T-28.png                      type="2"				  />
+	<ussr-T-34.png                      type="2"				  />
+	<ussr-T-34-85.png                   type="2"				  />
+	<ussr-T-43.png                      type="2"				  />
+	<ussr-T-44.png                      type="2"				  />
+	<ussr-T-46.png                      type="1"				  />
+	<ussr-T-50.png                      type="1"				  />
+	<ussr-T-54.png                      type="2"				  />
+	<ussr-T_50_2.png                    type="1"				  />
+	<ussr-T150.png                      type="3"				  />
+	<ussr-T62A.png                      type="2"				  />
+	<ussr-Tetrarch_LL.png               type="1"				  />
+	<ussr-Valentine_LL.png	            type="1"				  />
+   </tanks>                                  
+   </config>
