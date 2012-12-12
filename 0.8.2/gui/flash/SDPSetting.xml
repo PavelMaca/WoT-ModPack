@@ -48,7 +48,7 @@
 		<location x="0" y="-100" center="true"/>
 		<text font="Cuprum" size="50" color="0xFF0000" alpha="100" align="center" bold="false"/> 
 		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/>
-		<format>Танк горит!</format> <!--Текст, который будет отображаться при поджоге нашего танка.-->
+		<format>Nádrž je v plamenech!!</format> <!--Текст, который будет отображаться при поджоге нашего танка.-->
 	</fireStyle>
 	
 	<!--Настройка иконки пожара-->
