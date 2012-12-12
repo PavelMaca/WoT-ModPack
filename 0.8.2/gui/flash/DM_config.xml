@@ -1,0 +1,363 @@
+﻿<mmms>
+  <config>
+    <strategic>
+      <gun>F803</gun>   
+	  <!-- Выбор модели артиллерии S-СССР, G-Германия, A-Америка, F-Франция; первая цифра - уровень артиллерии, вторая цифра цифра соответствует уровню орудия - топ-1/не топ-0 -->
+	  <!-- Список заранее сохраненных артиллериц -->
+	  <ARTAn1>F803</ARTAn1>
+	  <ARTAn2>F611</ARTAn2>
+	  <ARTAn3>F701</ARTAn3>
+	   <ARTAn4>0000</ARTAn4>
+	    <ARTAn5>0000</ARTAn5>
+		 <ARTAn6>A612</ARTAn6>
+		  <ARTAn7>0000</ARTAn7>
+		   <ARTAn8>0000</ARTAn8>
+		    <ARTAn9>0000</ARTAn9>
+			 <ARTAn10>0000</ARTAn10>
+      <circle0>0</circle0>   <!-- Отслеживаемая скорость в км/ч -->
+      <circle1>0</circle1>   <!-- Отслеживаемая скорость в км/ч -->
+	  <circle2>0</circle2>   <!-- Отслеживаемая скорость в км/ч -->
+	  <circle3>0</circle3>   <!-- Отслеживаемая скорость в км/ч -->
+	  <circle4>0</circle4>   <!-- Отслеживаемая скорость в км/ч -->
+	  <circle5>0</circle5>   <!-- Отслеживаемая скорость в км/ч -->
+	  <circle6>0</circle6>   <!-- Отслеживаемая скорость в км/ч -->
+	  <circle7>0</circle7>   <!-- Отслеживаемая скорость в км/ч -->
+	  <circle8>0</circle8>   <!-- Отслеживаемая скорость в км/ч -->
+	  <circle9>0</circle9>   <!-- Отслеживаемая скорость в км/ч -->
+	  <m2pix>8.5</m2pix>    
+	  <zoom>0.666667</zoom> <!-- Масштаб (=1 прпи стандартном удалении 40-100, при использовании зум модов выставлять пропорционально в зависимости от дальности, например при отдалении =200 метров будет равен = 0.5) -->
+	 
+
+	 	  
+	  <!--- ПАНЕЛЬ УГЛА ОРУДИЯ Ш = 28.00 В = 13.00 -->
+	  <angpanelDeg>0</angpanelDeg>    <!-- Поворот панели в градусах -->
+	  <angpanelX>-200.00</angpanelX>  <!-- Координата Х  -->
+	  <angpanelY>-160.00</angpanelY>  <!-- Координата У  -->
+	  <angpanelWH>100</angpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер -->
+	  <angpanelA>100</angpanelA>  <!-- Прозрачность 0-100 -->
+	  <angpanelbackA>50</angpanelbackA>  <!-- Прозрачность подложки 0-100 -->
+	  <angpanelColor>0x46FF00</angpanelColor> <!-- Цвет строки "Угол орудия" 0x46FF00 -->
+	  <angpanelbackColor>0x000000</angpanelbackColor>   <!-- Цвет подложки "Угол орудия" 0x000000 -->
+	
+	   <!--- ПАНЕЛЬ ВРЕМЕНИ ПОЛЕТА Ш = 46.00 В = 27.50 -->
+	   <timetoflypanelDeg>0</timetoflypanelDeg>    <!-- Поворот панели -->
+	  <timetoflypanelX>-170.00</timetoflypanelX>  <!-- Координата Х  -->
+	  <timetoflypanelY>-160.00</timetoflypanelY>  <!-- Координата У  -->
+	  <timetoflypanelWH>100</timetoflypanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+	  <timetoflypanelA>100</timetoflypanelA>  <!-- Прозрачность 0-100 -->
+	  <timetoflypanelbackA>50</timetoflypanelbackA>   <!-- Прозрачность подложки 0-100 -->
+	  <timetoflypanelColor>0x9CFAFF</timetoflypanelColor>    <!-- Цвет строки "Время полета" 0x9CFAFF -->
+	  <timetoflypanelbackColor>0x000000</timetoflypanelbackColor>     <!-- Цвет подложки "Время полета" 0x000000 -->
+	  
+	  <!--- ПАНЕЛЬ РАССТОЯНИЕ ДО ЦЕЛИ (ФАКТИЧЕСКАЯ) Ш = 37.00 В = 13.00 -->
+	   <distanceLblpanelDeg>0</distanceLblpanelDeg>    <!-- Поворот панели -->
+	  <distanceLblpanelX>-122.00</distanceLblpanelX>  <!-- Координата Х  -->
+	  <distanceLblpanelY>-160.00</distanceLblpanelY>  <!-- Координата У  -->
+	  <distanceLblpanelWH>100</distanceLblpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+	  <distanceLblpanelA>100</distanceLblpanelA>  <!-- Прозрачность 0-100 -->
+	  <distanceLblpanelbackA>50</distanceLblpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+	  <distanceLblpanelColor>0xFFCC00</distanceLblpanelColor> <!-- Цвет строки "Расстояние до цели" 0xFFCC00 -->
+	  <distanceLblpanelbackColor>0x000000</distanceLblpanelbackColor>   <!-- Цвет подложки "Расстояние до цели" 0x000000 -->
+	  
+	  	  <!--- ПАНЕЛЬ МАКСИМАЛЬНАЯ ДАЛЬНОСТЬ Ш = 36.00 В = 13.00 -->
+	   <distanceMAXMpanelDeg>0</distanceMAXMpanelDeg>    <!-- Поворот панели -->
+	  <distanceMAXMpanelX>-122.00</distanceMAXMpanelX>  <!-- Координата Х  -->
+	  <distanceMAXMpanelY>-145.50</distanceMAXMpanelY>  <!-- Координата У  -->
+	  <distanceMAXMpanelWH>100</distanceMAXMpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер -->
+	  <distanceMAXMpanelA>100</distanceMAXMpanelA>  <!-- Прозрачность 0-100 -->
+	  <distanceMAXMpanelbackA>50</distanceMAXMpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+	  <distanceMAXMpanelColor>0xFF0000</distanceMAXMpanelColor> <!-- Цвет строки "Максимальная дальность" 0xFF0000 -->
+	  <distanceMAXMpanelbackColor>0x000000</distanceMAXMpanelbackColor>   <!-- Цвет подложки "Максимальная дальность" 0x000000 -->
+	  
+	  <!--- ПАНЕЛЬ ГРАФ. ПЕРЕЗАРЯДКИ (РАСХОДЯЩИЕСЯ КРУГИ) -->
+	  <timeMC2A>50</timeMC2A>  <!-- Прозрачность 0-100 -->
+	  <timeMC2Color>0xFF0000</timeMC2Color> <!-- Цвет расходящихся кругов 0x000000 -->
+	  
+	       	<!--- ПАНЕЛЬ ВРЕМЕНИ ПЕРЕЗАРЯДКИ Ш = 84.00 В = 33.00 -->
+		<timeMCpanelDeg>0</timeMCpanelDeg>    <!-- Поворот панели -->
+		<timeMCpanelX>100.00</timeMCpanelX>  <!-- Координата Х  -->
+		<timeMCpanelY>137.00</timeMCpanelY>  <!-- Координата У  -->
+		<timeMCpanelWH>100</timeMCpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<timeMCpanelA>100</timeMCpanelA>  <!-- Прозрачность 0-100 -->
+		<timeMCpanelbackA>50</timeMCpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<timeMCpanelColor>0xffff00</timeMCpanelColor> <!-- Цвет строки "Время перезарядки" 0xFF0000 -->
+		<timeMCpanelbackColor>0x000000</timeMCpanelbackColor>   <!-- Цвет подложки "Время перезарядки" 0x000000 -->
+		
+		<!--- ПАНЕЛЬ ОБЩЕГО ВРЕМЕНИ ПЕРЕЗАРЯДКИ Ш = 14.00 В = 33.00 -->
+		<reloadsecMCpanelDeg>0</reloadsecMCpanelDeg>    <!-- Поворот панели -->
+		<reloadsecMCpanelX>186.00</reloadsecMCpanelX>  <!-- Координата Х  -->
+		<reloadsecMCpanelY>137.00</reloadsecMCpanelY>  <!-- Координата У  -->
+		<reloadsecMCpanelWH>100</reloadsecMCpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<reloadsecMCpanelA>100</reloadsecMCpanelA>  <!-- Прозрачность 0-100 -->
+		<reloadsecMCpanelbackA>50</reloadsecMCpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<reloadsecMCpanelColor>0x9CFAFF</reloadsecMCpanelColor> <!-- Цвет строки "Общее время перезарядки" 0x9CFAFF -->
+		<reloadsecMCpanelbackColor>0x000000</reloadsecMCpanelbackColor>   <!-- Цвет подложки "Общее время перезарядки" 0x000000 -->
+		
+		<!--- ПАНЕЛЬ СНАРЯДОВ (БК) Ш = 45.00 В = 20.00 -->
+		<bkpanelDeg>0</bkpanelDeg>    <!-- Поворот панели -->
+		<bkpanelX>202.00</bkpanelX>  <!-- Координата Х  -->
+		<bkpanelY>150.00</bkpanelY>  <!-- Координата У  -->
+		<bkpanelWH>100</bkpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<bkpanelA>100</bkpanelA>  <!-- Прозрачность 0-100 -->
+		<bkpanelbackA>50</bkpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<bkpanelColor>0x9CFAFF</bkpanelColor> <!-- Цвет строки "Боекомплект" 0x9CFAFF -->
+		<bkpanelbackColor>0x000000</bkpanelbackColor>   <!-- Цвет подложки "Боекомплект" 0x000000 -->
+		
+		<!--- ПАНЕЛЬ СНАРЯДОВ (БАРАБАН) Ш = 21.00 В = 13.00 -->
+		<barabanpanelDeg>0</barabanpanelDeg>    <!-- Поворот панели -->
+		<barabanpanelX>202.00</barabanpanelX>  <!-- Координата Х  -->
+		<barabanpanelY>137.00</barabanpanelY>  <!-- Координата У  -->
+		<barabanpanelWH>100</barabanpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<barabanpanelA>100</barabanpanelA>  <!-- Прозрачность 0-100 -->
+		<barabanpanelbackA>50</barabanpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<barabanpanelColor>0xff9900</barabanpanelColor> <!-- Цвет строки "Барабан" 0x9CFAFF -->
+		<barabanpanelbackColor>0x000000</barabanpanelbackColor>   <!-- Цвет подложки "Барабан" 0x000000 -->
+		
+		
+		<!--- ПАНЕЛЬ СНАРЯДОВ (ТИП СНАРЯДА) Ш = 24.00 В = 13.00 -->
+		<artatypepanelDeg>0</artatypepanelDeg>    <!-- Поворот панели -->
+		<artatypepanelX>223.00</artatypepanelX>  <!-- Координата Х  -->
+		<artatypepanelY>137.00</artatypepanelY>  <!-- Координата У  -->
+		<artatypepanelWH>100</artatypepanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<artatypepanelA>100</artatypepanelA>  <!-- Прозрачность 0-100 -->
+		<artatypepanelbackA>50</artatypepanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<artatypepanelColor>0x00ff00</artatypepanelColor> <!-- Цвет строки "тип снаряда" 0x9CFAFF -->
+		<artatypepanelbackColor>0x000000</artatypepanelbackColor>   <!-- Цвет подложки "Тип снаряда" 0x000000 -->
+		
+		
+		<!--- ПАНЕЛЬ НАЗВАНИЯ АРТИЛЛЕРИИ Ш = 163.00 В = 11.00 -->
+		<artaNamepanelDeg>0</artaNamepanelDeg>    <!-- Поворот панели -->
+		<artaNamepanelX>100.00</artaNamepanelX>  <!-- Координата Х  -->
+		<artaNamepanelY>171.50</artaNamepanelY>  <!-- Координата У  -->
+		<artaNamepanelWH>100</artaNamepanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<artaNamepanelA>100</artaNamepanelA>  <!-- Прозрачность 0-100 -->
+		<artaNamepanelbackA>50</artaNamepanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<artaNamepanelColor>0x00ff00</artaNamepanelColor> <!-- Цвет строки "Название артиллерии" 0xFF0000 -->
+		<artaNamepanelbackColor>0x000000</artaNamepanelbackColor> <!-- Цвет подложки "Название артиллерии" 0x000000 -->
+		
+		
+		<!--- ПАНЕЛЬ ХП Ш = 10.00 В = 30.00 -->
+		<healthpercentMCpanelDeg>90</healthpercentMCpanelDeg>    <!-- Поворот панели -->
+		<healthpercentMCpanelX>249.00</healthpercentMCpanelX>  <!-- Координата Х  -->
+		<healthpercentMCpanelY>137.00</healthpercentMCpanelY>  <!-- Координата У  -->
+		<healthpercentMCpanelWH>100</healthpercentMCpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<healthpercentMCpanelA>50</healthpercentMCpanelA>  <!-- Прозрачность 0-100 -->
+		<healthpercentMCpanelbackA>50</healthpercentMCpanelbackA>    <!-- Прозрачность подложки ХП 0-100 -->
+		<healthpice>0x00ABF0</healthpice> <!-- Цвет кубиков ХП 0xFF0000 -->
+		<healthpercentMCpanelbackColor>0x000000</healthpercentMCpanelbackColor> <!-- Цвет подложки ХП 0x000000 -->
+			
+		<!--- ПАНЕЛЬ СВОЙ ЧУЖОЙ Ш = 160.00 В = 13.00 -->
+		<targetpanelDeg>0</targetpanelDeg>    <!-- Поворот панели -->
+		<targetpanelX>128.00</targetpanelX>  <!-- Координата Х  -->
+		<targetpanelY>-146.00</targetpanelY>  <!-- Координата У  -->
+		<targetpanelWH>100</targetpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->	
+		<targetpanelA>100</targetpanelA>  <!-- Прозрачность 0-100 -->
+		<targetpanelbackA>50</targetpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<typebackColor>0x000000</typebackColor> <!-- Цвет подложки "СВой/чужой" 0x000000 -->	
+			
+		<!--- ПАНЕЛЬ СКОРОСТЬ ВПЕРЕД Ш = 22.00 В = 13.00 -->
+		<tankspeedFpanelDeg>0</tankspeedFpanelDeg>    <!-- Поворот панели -->	
+		<tankspeedFpanelX>104.00</tankspeedFpanelX>  <!-- Координата Х  -->
+		<tankspeedFpanelY>-154.00</tankspeedFpanelY>  <!-- Координата У  -->
+		<tankspeedFpanelWH>100</tankspeedFpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->		
+		<tankspeedFpanelA>100</tankspeedFpanelA>  <!-- Прозрачность 0-100 -->
+		<tankspeedFpanelbackA>50</tankspeedFpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<tankspeedFpanelColor>0x00ff00</tankspeedFpanelColor> <!-- Цвет строки "Скорость вперед" 0xFF0000 -->
+		<tankspeedFpanelbackColor>0x000000</tankspeedFpanelbackColor> <!-- Цвет подложки "Скорость вперед" 0x000000 -->	
+			
+		<!--- ПАНЕЛЬ СКОРОСТЬ НАЗАД Ш = 22.00 В = 13.00 -->
+		<tankspeedBpanelDeg>0</tankspeedBpanelDeg>    <!-- Поворот панели -->	
+		<tankspeedBpanelX>104.00</tankspeedBpanelX>  <!-- Координата Х  -->
+		<tankspeedBpanelY>-139.00</tankspeedBpanelY>  <!-- Координата У  -->
+		<tankspeedBpanelWH>100</tankspeedBpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->		
+		<tankspeedBpanelA>100</tankspeedBpanelA>  <!-- Прозрачность 0-100 -->
+		<tankspeedBpanelbackA>50</tankspeedBpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<tankspeedBpanelColor>0xFF0000</tankspeedBpanelColor> <!-- Цвет строки "Скорость назад" 0x00FF00 -->
+		<tankspeedBpanelbackColor>0x000000</tankspeedBpanelbackColor> <!-- Цвет подложки "Скорость назад" 0x000000 -->	
+			
+			
+		<!--- КОЛЬЦА ВПЕРЕД/НАЗАД -->
+		<circleFColor>0x00FF00</circleFColor> <!-- Цвет кольца - вперед -->
+		<circleFA>50</circleFA> <!-- Прозрачность кольца вперед 0-100 -->
+		<circleBColor>0xFF0000</circleBColor> <!-- Цвет кольца - назад -->
+		<circleBA>50</circleBA> <!-- Прозрачность кольца назад 0-100 -->
+	 	
+		<!--- СПЛЕШ  -->
+	 	<shellSpleshColor>0x00FFFF</shellSpleshColor> <!-- Цвет кольца сплеша -->
+		<shellSpleshA>50</shellSpleshA> <!-- Прозрачность кольца сплеша 0-100 -->
+		<!---  МАРКЕР -->
+		<markerColor>0x00FF00</markerColor>  <!-- Цвет центрального маркера -->
+		<marker1A>100</marker1A> <!-- Вкл/выкл центрального маркера 1 -->
+		<marker2A>0</marker2A> <!-- Вкл/выкл центрального маркера 2 -->
+		<marker3A>0</marker3A> <!-- Вкл/выкл центрального маркера 3 -->
+		<markerAlpha>100</markerAlpha>  <!-- Прозрачность центрального маркера 0-100 -->
+		<!---  ТЕНЬ ПАНЕЛЕЙ -->
+		<shadow>100</shadow>
+	 
+		
+    </strategic>
+	  </config>
+
+  
+  <gundata>
+	
+	<S201 artaname ="СУ-18" name="76 мм гаубица обр.1927 г." shell="76 мм УОФ-354К" type="ОФ" speed="400" gravity="290" splesh="0.92" />
+    <S202 artaname ="СУ-18" name="76 мм гаубица обр.1927 г." shell="76 мм БП-354" type="КС" speed="400" gravity="290" splesh="0"/>
+	
+	<S301 artaname ="СУ-26" name="76 мм гаубица обр.1927 г." shell="76 мм УОФ-354K" type="ОФ" speed="400" gravity="290" splesh="0.92" />
+    <S302 artaname ="СУ-26" name="76 мм гаубица обр.1927 г." shell="76 мм БП-354" type="КС" speed="400" gravity="290" splesh="0" />
+	<S311 artaname ="СУ-26" name="76 мм гаубица обр.1903/30 гг." shell="76 мм УОФ-354K" type="ОФ" speed="400" gravity="308" splesh="0.92"/>
+    <S312 artaname ="СУ-26" name="76 мм гаубица обр.1903/30 гг." shell="76 мм БП-354" type="КС" speed="400" gravity="308" splesh="0"/>
+	<S321 artaname ="СУ-26" name="122 мм гаубица обр.1930 г." shell="122 мм ОФ420СОМШ" type="ОФ" speed="530" gravity="440" splesh="2.36"/>
+    <S322 artaname ="СУ-26" name="122 мм гаубица обр.1930 г." shell="122 мм ОФ420СО" type="ОФ" speed="530" gravity="440" splesh="2.36"/>
+	<S323 artaname ="СУ-26" name="122 мм гаубица обр.1930 г." shell="122 мм БП450СO" type="КС" speed="430" gravity="290" splesh="0"/>
+	
+	<S401 artaname ="СУ-5" name="76 мм гаубица обр.1930 г." shell="76 мм УОФ-354K" type="ОФ" speed="400" gravity="308" splesh="0.92"/>
+    <S402 artaname ="СУ-5" name="76 мм гаубица обр.1930 г." shell="76 мм БП-354" type="КС" speed="400" gravity="308" splesh="0"/>
+	<S411 artaname ="СУ-5" name="122 мм гаубица обр.1930 г." shell="122 мм ОФ420СОМШ" type="ОФ" speed="530" gravity="440" splesh="2.36"/>
+    <S412 artaname ="СУ-5" name="122 мм гаубица обр.1930 г." shell="122 мм ОФ420СО" type="ОФ" speed="530" gravity="440" splesh="2.36"/>
+	<S413 artaname ="СУ-5" name="122 мм гаубица обр.1930 г." shell="122 мм БП450СO" type="КС" speed="430" gravity="290" splesh="0"/>
+	<S421 artaname ="СУ-5" name="152 мм мортира НМ обр.1931 г." shell="152 мм 53-ОФ500" type="ОФ" speed="440" gravity="320" splesh="3.67"/>
+	<S422 artaname ="СУ-5" name="152 мм мортира НМ обр.1931 г." shell="152 мм 53-БП520" type="КС" speed="440" gravity="320" splesh="0"/>
+	
+	<S501 artaname ="СУ-8" name="122 мм гаубица A-19" shell="122 мм УОФ-471" type="ОФ" speed="400" gravity="180" splesh="2.36"/>
+	<S502 artaname ="СУ-8" name="122 мм гаубица A-19" shell="122 мм УБР-471П" type="БП" speed="400" gravity="180" splesh="0"/>
+	<S511 artaname ="СУ-8" name="152 мм гаубица МЛ-20 обр.1931 г." shell="152 мм 53-ОФ-530" type="ОФ" speed="460" gravity="230" splesh="3.67" />
+	<S512 artaname ="СУ-8" name="152 мм гаубица МЛ-20 обр.1931 г." shell="152 мм 53БП540" type="КС" speed="500" gravity="270" splesh="0"/>
+	
+	<S601 artaname ="СУ-14/С-51" name="152 мм БР-2" shell="152 мм 53-ОФ-551" type="ОФ" speed="460" gravity="160.81" splesh="3.67"/>
+	<S602 artaname ="СУ-14/С-51" name="152 мм БР-2" shell="152 мм 53-Г-551" type="ББ" speed="460" gravity="160.81" splesh="0"/>
+	<S603 artaname ="СУ-14/С-51" name="152 мм БР-2" shell="152 мм 53-ОФ-551БМ" type="ОФ" speed="460" gravity="160.81" splesh="5.13"/>
+	<S611 artaname ="СУ-14/С-51" name="203 мм Б-4" shell="203 мм Ф-625Д" type="ОФ" speed="520" gravity="220" splesh="6.54"/>
+    <S612 artaname ="СУ-14/С-51" name="203 мм Б-4" shell="203 мм Г-620" type="ББ" speed="416" gravity="141" splesh="0"/>
+	<S613 artaname ="СУ-14/С-51" name="203 мм Б-4" shell="203 мм Ф-625ДБМ" type="ОФ" speed="520" gravity="220" splesh="9.16"/>
+	
+	<S701 artaname ="Объект 212" name="152 мм БР-2" shell="152 мм 53-ОФ-551" type="ОФ" speed="460" gravity="160.81" splesh="3.67"/>
+	<S702 artaname ="Объект 212" name="152 мм БР-2" shell="152 мм 53-ОФ-551БМ" type="ОФ" speed="460" gravity="160.81" splesh="3.67"/>
+	<S703 artaname ="Объект 212" name="152 мм БР-2" shell="152 мм 53-Г-551" type="ББ" speed="460" gravity="160.81" splesh="0"/>
+    <S711 artaname ="Объект 212" name="203 мм Б-4" shell="203 мм Ф-625Д" type="ОФ" speed="520" gravity="220" splesh="6.54"/>
+    <S712 artaname ="Объект 212" name="203 мм Б-4" shell="203 мм Г-620" type="ББ" speed="416" gravity="141" splesh="0"/>
+	<S713 artaname ="Объект 212" name="203 мм Б-4" shell="203 мм Ф-625ДБМ" type="ОФ" speed="520" gravity="220" splesh="9.16"/>
+    
+	<S801 artaname ="Объект 261" name="180 мм Б-1-П" shell="180 мм Ф-600Д" type="ОФ" speed="640" gravity="280" splesh="5.14"/>
+    <S802 artaname ="Объект 261" name="180 мм Б-1-П" shell="180 мм УБР-600" type="ББ" speed="512" gravity="179" splesh="0"/>
+	<S803 artaname ="Объект 261" name="180 мм Б-1-П" shell="180 мм Ф-600БМ" type="ОФ" speed="640" gravity="280" splesh="7.62"/>
+	
+	<A201 artaname ="T57" name="76 mm Gun M1918" shell="76 mm HE M42B1" type="ОФ" speed="400" gravity="290" splesh="0.92"/>
+	<A202 artaname ="T57" name="76 mm Gun M1918" shell="76 mm HEAT" type="КС" speed="400" gravity="290" splesh="0"/>
+	
+	<A301 artaname ="M37" name="105 mm Howitzer M3" shell="105 mm HE M1" type="ОФ" speed="311" gravity="220" splesh="1.75"/>
+	<A302 artaname ="M37" name="105 mm Howitzer M3" shell="105 mm HEAT M67" type="КС" speed="311" gravity="200" splesh="0"/>
+    <A311 artaname ="M37" name="105 mm Howitzer M4" shell="105 mm HE M1" type="ОФ" speed="472" gravity="230" splesh="1.75"/>
+    <A312 artaname ="M37" name="105 mm Howitzer M4" shell="105 mm HEAT M67" type="КС" speed="472" gravity="200" splesh="0"/>
+	
+	<A401 artaname ="M7 Priest" name="105 mm Howitzer M3" shell="105 mm HE M1" type="ОФ" speed="311" gravity="220" splesh="1.75"/>
+	<A402 artaname ="M7 Priest" name="105 mm Howitzer M3" shell="105 mm HEAT M67" type="КС" speed="311" gravity="200" splesh="0"/>
+    <A411 artaname ="M7 Priest" name="105 mm Howitzer M2A1" shell="105 mm HE M1" type="ОФ" speed="480" gravity="220" splesh="1.75"/>
+	<A412 artaname ="M7 Priest" name="105 mm Howitzer M2A1" shell="105 mm HEAT M67" type="КС" speed="450" gravity="200" splesh="0"/>
+	
+	<A501 artaname ="M41" name="155 mm Howitzer M1" shell="155 mm HE M102" type="ОФ" speed="440" gravity="160" splesh="3.81"/>
+    <A502 artaname ="M41" name="155 mm Howitzer M1" shell="155 mm HEAT M167" type="КС" speed="440" gravity="160" splesh="0"/>
+	<A511 artaname ="M41" name="155 mm Gun M1918M1" shell="155 mm HE M101" type="ОФ" speed="440" gravity="160" splesh="3.81"/>
+	<A512 artaname ="M41" name="155 mm Gun M1918M1" shell="155 mm HE M101M2" type="ОФ" speed="460" gravity="160.81" splesh="5.34"/>
+	
+	<A601 artaname ="M12" name="155 mm Gun M1918M1" shell="155 mm HE M101" type="ОФ" speed="440" gravity="160" splesh="3.81"/>
+	<A602 artaname ="M12" name="155 mm Gun M1918M1" shell="155 mm HE M101M2" type="ОФ" speed="460" gravity="160.81" splesh="5.34"/>
+	<A611 artaname ="M12" name="155 mm Gun M1A1" shell="155 mm HE M101M4" type="ОФ" speed="460" gravity="160.81" splesh="4"/>
+	<A612 artaname ="M12" name="155 mm Gun M1A1" shell="155 mm HE M101M6" type="ОФ" speed="460" gravity="160.81" splesh="5.38"/>
+	
+	<A701 artaname ="M40/M43" name="155 mm Gun M1A1" shell="155 mm HE M101M4" type="ОФ" speed="460" gravity="160.81" splesh="4"/>
+	<A702 artaname ="M40/M43" name="155 mm Gun M1A1" shell="155 mm HE M101M6" type="ОФ" speed="460" gravity="160.81" splesh="5.38"/>
+	<A711 artaname ="M40/M43" name="203 mm Howitzer M1" shell="203 mm HE M106" type="ОФ" speed="515" gravity="225" splesh="9.54"/>
+	<A712 artaname ="M40/M43" name="203 mm Howitzer M1" shell="203 mm M106 M78" type="ББ" speed="412" gravity="144" splesh="0"/>
+	<A713 artaname ="M40/M43" name="203 mm Howitzer M1" shell="203 mm HE A1M1" type="ОФ" speed="512" gravity="225" splesh="6.54"/>
+	
+	<A801 artaname ="T92" name="240 mm Howitzer M1" shell="240 mm HE M146" type="ОФ" speed="530" gravity="225" splesh="9.14"/>
+	<A802 artaname ="T92" name="240 mm Howitzer M1" shell="240 mm M114 M78" type="ББ" speed="424" gravity="144" splesh="0"/>
+	<A803 artaname ="T92" name="240 mm Howitzer M1" shell="240 mm HE M160" type="ОФ" speed="530" gravity="225" splesh="13.09"/>
+	
+	<G201 artaname ="Sturmpanzer I Bison" name="15 cm sIG33 L/11" shell="15 cm Sprg L.erz." type="ОФ" speed="440" gravity="320" splesh="3.57"/>
+	<G202 artaname ="Sturmpanzer I Bison" name="15 cm sIG33 L/11" shell="15 cm Sprg L" type="ОФ" speed="440" gravity="320" splesh="3.57"/>
+	<G203 artaname ="Sturmpanzer I Bison" name="15 cm sIG33 L/11" shell="15 cm Gr 39H1A L" type="КС" speed="440" gravity="320" splesh="0"/>
+	
+	<G301 artaname ="Sturmpanzer II" name="15 cm sIG33 L/11" shell="15 cm Sprg L.erz." type="ОФ" speed="440" gravity="320" splesh="3.57"/>
+	<G302 artaname ="Sturmpanzer II" name="15 cm sIG33 L/11" shell="15 cm Sprg L" type="ОФ" speed="440" gravity="320" splesh="3.57"/>
+	<G303 artaname ="Sturmpanzer II" name="15 cm sIG33 L/11" shell="15 cm Gr 39H1A L" type="КС" speed="440" gravity="320" splesh="0"/>
+	
+	<G401 artaname ="Grille" name="15 cm sIG33 L/11" shell="15 cm Sprg L.erz." type="ОФ" speed="440" gravity="320" splesh="3.57"/>
+	<G402 artaname ="Grille" name="15 cm sIG33 L/11" shell="15 cm Sprg L" type="ОФ" speed="440" gravity="320" splesh="3.57"/>
+	<G403 artaname ="Grille" name="15 сm sIG33 L/11" shell="15 cm Gr 39H1A L" type="КС" speed="440" gravity="320" splesh="0"/>
+	<G411 artaname ="Grille" name="15 cm sFH 13 L/17" shell="15 cm Sprg" type="ОФ" speed="440" gravity="160" splesh="3.57"/>           
+	<G412 artaname ="Grille" name="15 cm sFH 13 L/17" shell="15 cm Gr 39H1A" type="КС" speed="440" gravity="160" splesh="0"/>
+	
+	<G501 artaname ="Hummel" name="15 cm sFH 13 L/17" shell="15 cm Sprg" type="ОФ" speed="440" gravity="160" splesh="3.57"/>           
+	<G502 artaname ="Hummel" name="15 cm sFH 13 L/17" shell="15 cm Gr 39H1A" type="КС" speed="440" gravity="160" splesh="0"/>
+	<G511 artaname ="Hummel" name="15 cm sFH 18 L/30" shell="15 cm Sprg G" type="ОФ" speed="490" gravity="190" splesh="3.57"/>
+	<G512 artaname ="Hummel" name="15 cm sFH 18 L/30" shell="15 cm Gr 39H1A G" type="КС" speed="420" gravity="140" splesh="0"/>	
+	
+	<G601 artaname ="GW Panther" name="15 cm sFH 18 L/30" shell="15 cm Sprg G" type="ОФ" speed="490" gravity="190" splesh="3.57"/>
+	<G602 artaname ="GW Panther" name="15 cm sFH 18 L/30" shell="15 cm Gr 39H1A G" type="КС" speed="420" gravity="140" splesh="0"/>
+	<G611 artaname ="GW Panther" name="15 cm sFH 36 L/43" shell="15 cm Sprg G31" type="ОФ" speed="550" gravity="215" splesh="3.57"/>
+	<G612 artaname ="GW Panther" name="15 cm sFH 36 L/43" shell="15 cm Gr 39H2A G" type="КС" speed="444" gravity="140" splesh="0"/>
+	<G613 artaname ="GW Panther" name="15 cm sFH 36 L/43" shell="15 cm Sprg G36" type="ОФ" speed="550" gravity="215" splesh="5.11"/>
+	
+	<G701 artaname ="GW Tiger" name="17 cm K72(sf)" shell="17 cm Sprg 18" type="ОФ" speed="460" gravity="160.81" splesh="4.59"/>
+	<G702 artaname ="GW Tiger" name="17 cm K72(sf)" shell="17 cm Sprg 18 Ausf G" type="ОФ" speed="440" gravity="160.81" splesh="6.57"/>
+	<G711 artaname ="GW Tiger" name="21 cm Morser 18" shell="21 cm Sprg 18" type="ОФ" speed="510" gravity="222" splesh="7" />
+	<G712 artaname ="GW Tiger" name="21 cm Morser 18" shell="21 cm Gr.18 Be" type="ББ" speed="408" gravity="142" splesh="0"/>
+	<G713 artaname ="GW Tiger" name="21 cm Morser 18" shell="21 cm Gr.18" type="ОФ" speed="510" gravity="222" splesh="10.02"/>
+	
+	<G801 artaname ="GW Typ E" name="21 cm Morser 18/2" shell="21 cm Gr.18 Stg" type="ОФ" speed="510" gravity="222" splesh="7" />
+	<G802 artaname ="GW Typ E" name="21 cm Morser 18/2" shell="21 cm Gr.18 Be" type="ББ" speed="408" gravity="142" splesh="0"/>
+	<G803 artaname ="GW Typ E" name="21 cm Morser 18/2" shell="21 cm Gr.18" type="ОФ" speed="510" gravity="222" splesh="10.02"/>
+	
+	<G901 artaname ="Wespe" name="10.5 cm leFH16 L22" shell="10.5 cm Sprg K" type="ОФ" speed="480" gravity="230" splesh="1.75"/>
+	<G902 artaname ="Wespe" name="10.5 cm leFH16 L22" shell="10.5 cm Gr 39 H1A" type="КС" speed="450" gravity="200" splesh="0"/>
+	<G911 artaname ="Wespe" name="10.5 cm leFH18 L28" shell="10.5 cm Sprg K" type="ОФ" speed="490" gravity="240" splesh="1.75"/>
+	<G912 artaname ="Wespe" name="10.5 cm leFH18 L28" shell="10.5 cm Gr 39 H1A" type="КС" speed="440" gravity="190" splesh="0"/>
+	<G913 artaname ="Wespe" name="10.5 cm leFH18 L28" shell="10.5 cm PzGr 39 K" type="ББ" speed="440" gravity="190" splesh="0"/>
+	
+	<F201 artaname ="RenaultBS" name="76 mm Schneider" shell="76 mm OEO mle. 1917" type="ОФ" speed="300" gravity="200" splesh="0.92"/>
+	<F202 artaname ="RenaultBS" name="76 mm Schneider" shell="76 mm OCO mle. 1941" type="КС" speed="300" gravity="200" splesh="0"/>
+	
+	<F301 artaname ="Lorraine39 L AM" name="Canon de 105 court mle 1935B" shell="105 mm OE mle 1920" type="ОФ" speed="430" gravity="240" splesh="1.75"/>
+	<F302 artaname ="Lorraine39 L AM" name="Canon de 105 court mle 1935B" shell="105 mm OCO mle. 1936" type="КС" speed="385" gravity="190" splesh="0"/>
+	<F311 artaname ="Lorraine39 L AM" name="Canon de 105 court mle 1934S" shell="105 mm OE mle 1920" type="ОФ" speed="450" gravity="240" splesh="1.75"/>
+	<F312 artaname ="Lorraine39 L AM" name="Canon de 105 court mle 1934S" shell="105 mm OCO mle. 1936" type="КС" speed="400" gravity="190" splesh="0"/>
+  	
+	<F401 artaname ="AMX 105AM" name="Canon de 105 court mle 1934S" shell="105 mm OE mle 1920" type="ОФ" speed="450" gravity="240" splesh="1.75"/>
+	<F402 artaname ="AMX 105AM" name="Canon de 105 court mle 1934S" shell="105 mm OCO mle. 1936" type="КС" speed="400" gravity="190" splesh="0"/>
+  	<F411 artaname ="AMX 105AM" name="Canon de 105 mle 1930 Schneider AM" shell="105 mm OE mle 1930" type="ОФ" speed="500" gravity="250" splesh="1.75"/>
+	<F412 artaname ="AMX 105AM" name="Canon de 105 mle 1930 Schneider AM" shell="105 mm FrtPrf1943" type="БП" speed="500" gravity="250" splesh="0"/>
+  	
+	<F501 artaname ="AMX 13 F3 AM" name="Obusier de 155 mm C mle.1917" shell="155 mm OE mle 1917" type="ОФ" speed="420" gravity="160" splesh="3.60"/>
+	<F502 artaname ="AMX 13 F3 AM" name="Obusier de 155 mm C mle.1917" shell="155 mm OCO mle 1944" type="КС" speed="440" gravity="160" splesh="3.80"/> 
+    <F511 artaname ="AMX 13 F3 AM" name="Canon de 155 mm de 33 calibres" shell="155 OE mle 1956" type="ОФ" speed="500" gravity="200" splesh="3.80"/>
+	<F512 artaname ="AMX 13 F3 AM" name="Canon de 155 mm de 33 calibres" shell="M 107" type="ОФ" speed="500" gravity="200" splesh="5.20"/>
+	<F513 artaname ="AMX 13 F3 AM" name="Canon de 155 mm de 33 calibres" shell="Gr 39 H1A" type="КС" speed="430" gravity="150" splesh="0"/> 
+  	
+	<F601 artaname ="Lorraine155 50" name="Canon de 155 mm de 33 calibres" shell="155 OE mle 1956" type="ОФ" speed="500" gravity="200" splesh="3.80"/>
+	<F602 artaname ="Lorraine155 50" name="Canon de 155 mm de 33 calibres" shell="M 107" type="ОФ" speed="500" gravity="200" splesh="5.20"/>
+	<F603 artaname ="Lorraine155 50" name="Canon de 155 mm de 33 calibres" shell="Gr 39 H1A" type="КС" speed="430" gravity="150" splesh="0"/> 
+  	<F611 artaname ="Lorraine155 50" name="Obusier de 155 mm mle.1950" shell="155 OE mle 1956" type="ОФ" speed="520" gravity="225" splesh="3.80"/>
+	<F612 artaname ="Lorraine155 50" name="Obusier de 155 mm mle.1950" shell="M 107" type="ОФ" speed="520" gravity="225" splesh="5.20"/>
+	<F613 artaname ="Lorraine155 50" name="Obusier de 155 mm mle.1950" shell="Gr 39 H1A" type="КС" speed="425" gravity="150" splesh="0"/>
+  	
+	<F701 artaname ="Lorraine155 51" name="Obusier de 155 mm mle.1950" shell="155 OE mle 1956" type="ОФ" speed="520" gravity="225" splesh="3.80"/>
+	<F702 artaname ="Lorraine155 51" name="Obusier de 155 mm mle.1950" shell="M 107" type="ОФ" speed="520" gravity="225" splesh="5.20"/>
+	<F703 artaname ="Lorraine155 51" name="Obusier de 155 mm mle.1950" shell="Gr 39 H1A" type="КС" speed="425" gravity="150" splesh="0"/> 
+  	<F711 artaname ="Lorraine155 51" name="Canon de 155 mm L GPF" shell="155 mm OE M101M4" type="ОФ" speed="540" gravity="225" splesh="4"/>
+	<F712 artaname ="Lorraine155 51" name="Canon de 155 mm L GPF" shell=" 155 mm OE M101M6" type="ОФ" speed="540" gravity="225" splesh="5.38"/>
+	<F713 artaname ="Lorraine155 51" name="Canon de 155 mm L GPF" shell="Gr 39 H1A" type="КС" speed="430" gravity="145" splesh="0"/>
+  	
+	<F801 artaname ="Bat Chatillon 155" name="Canon de 155 mm" shell="155 mm OE M101M4" type="ОФ" speed="540" gravity="225" splesh="4"/>
+	<F802 artaname ="Bat Chatillon 155" name="Canon de 155 mm" shell="155 mm OE M101M6" type="ОФ" speed="540" gravity="225" splesh="5.38"/>
+	<F803 artaname ="Bat Chatillon 155" name="Canon de 155 mm" shell="Gr 39 H1A" type="КС" speed="430" gravity="145" splesh="0"/>
+	   
+	<F901 artaname ="105 leFH18B2" name="10.5 cm leFH18 L28" shell="10.5 cm Sprg K" type="ОФ" speed="490" gravity="240" splesh="1.75"/>
+	<F902 artaname ="105 leFH18B2" name="10.5 cm leFH18 L28" shell="10.5 cm Gr 39 H1A" type="КС" speed="440" gravity="190" splesh="0"/>
+	<F903 artaname ="105 leFH18B2" name="10.5 cm leFH18 L28" shell="10.5 cm PzGr 39 K" type="ББ" speed="440" gravity="190" splesh="0"/>
+  
+  </gundata>
+  </mmms>
+  
