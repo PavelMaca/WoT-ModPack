@@ -114,7 +114,7 @@ _(#messenger:battle/toolTips/duringChat)
   <htmlTemplatesSimple>
     <battleErrorMessage>&lt;font color='#FF3362'&gt;%(error)s&lt;/font&gt;</battleErrorMessage>
     <inviteToSpecialBattle>&lt;img src='%(icon)s' width='16' height='16' align='baseline' vspace='-1'/&gt;&amp;nbsp;&lt;font color='#FFFFFF'&gt;%(text)s&lt;/font&gt;</inviteToSpecialBattle>
-    <battleResultAchieves>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/achieves): &lt;font color='#3396FF'&gt;%(achieves)s&lt;/font&gt;&lt;/font&gt;</battleResultAchieves>
+    <battleResultAchieves>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/achieves): &lt;font color='#00FFFF'&gt;%(achieves)s&lt;/font&gt;&lt;/font&gt;</battleResultAchieves>
     <battleResultLocks>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/vehicleLock)&lt;/font&gt;</battleResultLocks>
     <battleResultGold>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/gold): &lt;font color='#FFC363'&gt;%(gold)s&lt;/font&gt;&lt;/font&gt;</battleResultGold>
     <goldAccruedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/goldAccrued): &lt;font color='#E2D2A2'&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</goldAccruedInvoiceReceived>
@@ -158,19 +158,19 @@ _(#messenger:battle/toolTips/duringChat)
       <message>&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </adminMessage>
     <battleVictoryResult>
-      <type>	green	</type>
+      <type>	battleResult	</type>
       <icon>	BattleResultIcon	</icon>
-      <message>&lt;font color='#66CC66'&gt;_(#messenger:serviceChannelMessages/battleResults/victory)&lt;/font&gt;&lt;font color='#929290'&gt;%(arenaName)s %(createdAt)s&lt;/font&gt;&lt;br /&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/tank): %(vehicleName)s&lt;/font&gt;&lt;br /&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#66CC66'&gt;%(xp)s&lt;/font&gt;%(xpEx)s&lt;/font&gt;%(gold)s &lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#66CC66'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;%(achieves)s%(lock)s</message>
+      <message>&lt;font color='#00EE00'&gt;_(#messenger:serviceChannelMessages/battleResults/victory)! &lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#00EE00'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#1E90FF'&gt;%(xp)s&lt;/font&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#EEEE00'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s</message>
     </battleVictoryResult>
     <battleDrawGameResult>
-      <type>	blue	</type>
+      <type>	battleResult	</type>
       <icon>	BattleResultIcon	</icon>
-      <message>&lt;font color='#0062FF'&gt;_(#messenger:serviceChannelMessages/battleResults/drawGame)&lt;/font&gt;&lt;font color='#929290'&gt; %(arenaName)s %(createdAt)s&lt;/font&gt;&lt;br /&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/tank): %(vehicleName)s&lt;/font&gt;&lt;br /&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#0062FF'&gt;%(xp)s&lt;/font&gt;%(xpEx)s&lt;/font&gt;%(gold)s &lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#0062FF'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;%(achieves)s%(lock)s</message>
+      <message>&lt;font color='#EE00EE'&gt;_(#messenger:serviceChannelMessages/battleResults/drawGame) &lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#EE00EE'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#1E90FF'&gt;%(xp)s&lt;/font&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#EEEE00'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s</message>
     </battleDrawGameResult>
     <battleDefeatResult>
-      <type>	red	</type>
+      <type>	battleResult	</type>
       <icon>	BattleResultIcon	</icon>
-      <message>&lt;font color='#f46262'&gt;_(#messenger:serviceChannelMessages/battleResults/defeat)&lt;/font&gt;&lt;font color='#929290'&gt; %(arenaName)s %(createdAt)s&lt;/font&gt;&lt;br /&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/tank): %(vehicleName)s&lt;/font&gt;&lt;br /&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#f46262'&gt;%(xp)s&lt;/font&gt;%(xpEx)s&lt;/font&gt;%(gold)s &lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#f46262'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt;%(achieves)s%(lock)s</message>
+      <message>&lt;font color='#EE0000'&gt;_(#messenger:serviceChannelMessages/battleResults/defeat) &lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#EE0000'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#1E90FF'&gt;%(xp)s&lt;/font&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#EEEE00'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s</message>
     </battleDefeatResult>
     <goldReceived>
       <type>yellow</type>
@@ -370,7 +370,7 @@ _(#messenger:battle/toolTips/duringChat)
     <PurchaseForCreditsSysMessage>
       <type>yellow</type>
       <icon>CreditsIcon</icon>
-      <message>&lt;font color='#c5ab5d'&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/purchase)&lt;/font&gt;&lt;br/&gt;&lt;font color='#FF8066'&gt;%(text)s&lt;/font&gt;</message>
+      <message>&lt;font color='#c5ab5d'&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/purchase)&lt;/font&gt;&lt;br/&gt;&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </PurchaseForCreditsSysMessage>
     <PurchaseForGoldSysMessage>
       <type>yellow</type>
@@ -390,7 +390,7 @@ _(#messenger:battle/toolTips/duringChat)
     <RepairSysMessage>
       <type>yellow</type>
       <icon>CreditsIcon</icon>
-      <message>&lt;font color='#c5ab5d'&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/repair)&lt;/font&gt;&lt;br/&gt;&lt;font color='#FF8066'&gt;%(text)s&lt;/font&gt;</message>
+      <message>&lt;font color='#c5ab5d'&gt;_(#messenger:serviceChannelMessages/sysMsg/titles/repair)&lt;/font&gt;&lt;br/&gt;&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </RepairSysMessage>
     <FinancialTransactionWithCreditsSysMessage>
       <type>yellow</type>
