@@ -1,0 +1,2223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2012-12-13 09:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: WoT Tým <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "A-20"
+msgstr "A-20"
+
+msgid "A-20_descr"
+msgstr ""
+"Testování zahájeno současně s A-32, prototypem T-34. Obě vozidla byla "
+"akceptována k zařazení do služby, ale A-20 nebyl nikdy vyráběno masově."
+
+msgid "A-20_mod_1938"
+msgstr "A-20 mod. 1938."
+
+msgid "A-20_mod_1941"
+msgstr "A-20 mod. 1941."
+
+msgid "A-20bis"
+msgstr "A-20 bis"
+
+msgid "A-32"
+msgstr "A-32"
+
+msgid "A-32_descr"
+msgstr ""
+"Experimentální střední tank testovaný souběžně s A-20 a zařazen do výzbroje "
+"jako T-34."
+
+msgid "A-32_mod_1939"
+msgstr "A-32 mod. 1932"
+
+msgid "AEC"
+msgstr "AEC"
+
+msgid "AEC3"
+msgstr "AEC3"
+
+msgid "AEC_A190"
+msgstr "AES A190"
+
+msgid "AMO-3"
+msgstr "AMO-3"
+
+msgid "AT-1"
+msgstr "AT-1"
+
+msgid "AT-1_descr"
+msgstr ""
+"Experimentální samohybné dělo umístěné na podvozku T-26. Nikdy nebylo "
+"vyráběno, vzniklo pouze několik prototypů a opancéřovaných nástaveb."
+
+msgid "AT-1bis"
+msgstr "AT-1 bis"
+
+msgid "Alarm_flags"
+msgstr "Signalizační vlajky"
+
+msgid "BD-2"
+msgstr "BD-2"
+
+msgid "BT-2"
+msgstr "BT-2"
+
+msgid "BT-2_bis"
+msgstr "BT-2"
+
+msgid "BT-2_cylindrical"
+msgstr "Christie"
+
+msgid "BT-2_descr"
+msgstr ""
+"Návrh tanku byl založen na Christieho tanku M1931 a vyráběn byl v "
+"Charkovském komunistickém lokomotivním závodě (KhPZ), kde bylo mezi lety "
+"1932 až 1935 vyrobeno 650 kusů BT-2 a 1 884 kusů BT-5."
+
+msgid "BT-2bis"
+msgstr "BT-2 Bis"
+
+msgid "BT-5"
+msgstr "BT-5"
+
+msgid "BT-5_cylindrical"
+msgstr "BT-5 cylindrická"
+
+msgid "BT-5_cylindrical_short"
+msgstr "BT-5 cylindr."
+
+msgid "BT-7"
+msgstr "BT-7"
+
+msgid "BT-7M"
+msgstr "BT-7M"
+
+msgid "BT-7_conic"
+msgstr "BT-7 kónická"
+
+msgid "BT-7_conic_short"
+msgstr "BT-5 kónic."
+
+msgid "BT-7_descr"
+msgstr ""
+"BT-7 reprezentuje modernizovanou verzi řady BT. Mezi lety 1935 až 1940 bylo "
+"vyrobeno 5 556 vozidel různých modifikací."
+
+msgid "BT-SV"
+msgstr "BT-SV"
+
+msgid "BT-SV_descr"
+msgstr ""
+"Experimentální tank vyvinutý Tsyganovovou skupinou v letech 1936 až 1938, "
+"který prošel armádními testy ale nikdy nebyl zařazen do služby."
+
+msgid "Bedford_Twin-Six"
+msgstr "Bedford Twin-Six"
+
+msgid "Chassis_IS-6"
+msgstr "IS-6"
+
+msgid "Chassis_IS8"
+msgstr "T-10"
+
+msgid "Chassis_IS8_2"
+msgstr "T-10M"
+
+msgid "Chassis_KV-13"
+msgstr "KV-13"
+
+msgid "Chassis_KV-13_2"
+msgstr "KV-13M"
+
+msgid "Chassis_KV-5"
+msgstr "KV-5"
+
+msgid "Chassis_KV1"
+msgstr "Mod. 1940"
+
+msgid "Chassis_KV1_2"
+msgstr "Mod. 1941"
+
+msgid "Chassis_KV2_1"
+msgstr "KV-2 Mod. 40"
+
+msgid "Chassis_KV2_2"
+msgstr "KV-2 Mod. 41"
+
+msgid "Chassis_KV4"
+msgstr "KV-4"
+
+msgid "Chassis_KV4_2"
+msgstr "KV-4 Bis"
+
+msgid "Chassis_Object252"
+msgstr "Objekt 252"
+
+msgid "Chassis_Object252_2"
+msgstr "Object 252M"
+
+msgid "Chassis_Object263"
+msgstr "Objekt 260"
+
+msgid "Chassis_Object268"
+msgstr "T-10M-S"
+
+msgid "Chassis_Object_212"
+msgstr "Objekt 212"
+
+msgid "Chassis_Object_212_2"
+msgstr "Objekt 212M"
+
+msgid "Chassis_Object_261"
+msgstr "Objekt 261"
+
+msgid "Chassis_Object_261_2"
+msgstr "Objekt 261M"
+
+msgid "Chassis_Object_704"
+msgstr "Objekt 704"
+
+msgid "Chassis_Object_704_2"
+msgstr "Objekt 704M"
+
+msgid "Chassis_PzV_capt"
+msgstr "T-5 Mod. A"
+
+msgid "Chassis_ST_I"
+msgstr "ST-I"
+
+msgid "Chassis_ST_I_2"
+msgstr "ST-I M"
+
+msgid "Chassis_SU-101"
+msgstr "SU-101"
+
+msgid "Chassis_SU-101_2"
+msgstr "SU-101M"
+
+msgid "Chassis_SU100M1"
+msgstr "SU-100M1"
+
+msgid "Chassis_SU100M1_2"
+msgstr "SU-100M1B"
+
+msgid "Chassis_SU100Y"
+msgstr "T-100"
+
+msgid "Chassis_SU122_44"
+msgstr "T-44A"
+
+msgid "Chassis_SU122_44_2"
+msgstr "T-44B"
+
+msgid "Chassis_SU122_54"
+msgstr "SU-122-54M1"
+
+msgid "Chassis_SU122_54_2"
+msgstr "SU-122-54M2"
+
+msgid "Chassis_SU_85I"
+msgstr "SU-85I"
+
+msgid "Chassis_T-127"
+msgstr "T-127"
+
+msgid "Chassis_T-50"
+msgstr "T-50"
+
+msgid "Chassis_T-50_2"
+msgstr "T-50M"
+
+msgid "Chassis_T-54_2"
+msgstr "T-54"
+
+msgid "Chassis_T-54_3"
+msgstr "T-54M"
+
+msgid "Chassis_T150"
+msgstr "T-150"
+
+msgid "Chassis_T150_2"
+msgstr "T-150M"
+
+msgid "Chassis_T62A"
+msgstr "Typ T-62"
+
+msgid "Chassis_T_50_2_1"
+msgstr "T-50-2"
+
+msgid "Chassis_T_50_2_2"
+msgstr "T-50-2M"
+
+msgid "Chassis_Tetrarch_LL"
+msgstr "Tetrarch"
+
+msgid "Churchill_LL"
+msgstr "Churchill III"
+
+msgid "Churchill_LL_descr"
+msgstr ""
+"Britský tank dodávaný do SSSR v rámci programu o půjčce a pronájmu. Sovětský "
+"svaz obdržel celkem 301 těchto vozidel, z nichž byla část ztracena na moři "
+"během transportu do Murmansku."
+
+msgid "Churchll"
+msgstr "Churchill"
+
+msgid "Churchll_mk_III"
+msgstr "Churchill MK III"
+
+msgid "Continental_W-670_LL"
+msgstr "Continental W-670"
+
+msgid "Continental_W-670_LL_short"
+msgstr ""
+"Continental\n"
+"W-670"
+
+msgid "D-36"
+msgstr "D-36"
+
+msgid "D-744"
+msgstr "D-744"
+
+msgid "D37812_LL"
+msgstr "D37812"
+
+msgid "Ford_V-8"
+msgstr "Ford V-8"
+
+msgid "GAZ-11"
+msgstr "GAZ-11"
+
+msgid "GAZ-203"
+msgstr "GAZ-203"
+
+msgid "GAZ-203F"
+msgstr "GAZ-203F"
+
+msgid "GAZ-34-BT"
+msgstr "GAM-34-BT"
+
+msgid "GAZ-74B"
+msgstr "SU-85A"
+
+msgid "GAZ-74b"
+msgstr "SU-85B"
+
+msgid "GAZ-74b_descr"
+msgstr ""
+"Modernizace SU-76 se zesíleným podvozkem, vyvíjená od zimy 1944 do roku "
+"1945, ale nikdy nevyráběná masově."
+
+msgid "GAZ-M1"
+msgstr "GAZ-M1"
+
+msgid "GMC"
+msgstr "GMC"
+
+msgid "IS"
+msgstr "IS"
+
+msgid "IS-1"
+msgstr "IS-1"
+
+msgid "IS-122"
+msgstr "IS-122"
+
+msgid "IS-2Bis"
+msgstr "IS-2 bis"
+
+msgid "IS-2M"
+msgstr "IS-2M"
+
+msgid "IS-3"
+msgstr "IS-3"
+
+msgid "IS-3M"
+msgstr "IS-3M"
+
+msgid "IS-3_K"
+msgstr "Kirovets-1"
+
+msgid "IS-3_descr"
+msgstr ""
+"Návrh pochází z roku 1944, 29 vozidel bylo postaveno do konce války a "
+"dalších 2 282 do poloviny roku 1946. Válečných bojů se již neúčastnil, ale "
+"byl na přehlídce na počest vítězů 7.9.1945."
+
+msgid "IS-4"
+msgstr "IS-4"
+
+msgid "IS-4M"
+msgstr "IS-4M"
+
+msgid "IS-4_descr"
+msgstr ""
+"Vývoj vozidla byl zahájen v dubnu 1944, několik prototypů bylo dokončeno "
+"ještě do konce války. IS-4 byl vyráběn v průběhu let 1947 až 1949, a bylo "
+"vyrobeno celkem 219 (wiki uvádí 250) vozidel. Měl být protiváhou Pz VI Ausf. "
+"B „Tiger II“, ale nesplnil armádní očekávání."
+
+msgid "IS-6"
+msgstr "IS-6"
+
+msgid "IS-6_descr"
+msgstr ""
+"Vyvinuto v průběhu léta 1944 v konstrukční kanceláři Kirových závodů v "
+"Leningradě. Prototyp prošel armádními testy na podzim, ale nikdy nebylo "
+"vyráběno ani zařazeno do služby."
+
+msgid "IS-7"
+msgstr "IS-7"
+
+msgid "IS-7_descr"
+msgstr ""
+"Vývoj vozidla byl zahájen na jaře 1945. První prototypy vyrobeny v letech "
+"1946 a 1947. IS-7 splnil vojskové testy v roce 1948, ale sériová výroba "
+"nebyla nikdy zahájena."
+
+msgid "IS-85"
+msgstr "IS-85"
+
+msgid "IS8"
+msgstr "IS-8"
+
+msgid "IS8_descr"
+msgstr ""
+"Vývoj vozidla byl zahájen v roce 1949 konstrukční kanceláří Kirovovy "
+"Čeljabinské továrny pod dohledem Josefa Kotina. Ve stádiu návrhu bylo "
+"vozidlo označeno jako Objekt 730. V roce 1950 byla zahájena výroba prvních "
+"deseti vozidel a v roce 1953, před zařazením do služby, bylo vozidlo "
+"přeznačeno na IS-8. Vozidlo bylo přijato do služby v druhé polovině roku "
+"1953 pod označením T-10. Celkový počet vyrobených vozidel se v závislosti na "
+"zdroji liší od 2500 do 8000 kusů."
+
+msgid "ISU-152"
+msgstr "ISU-152"
+
+msgid "ISU-152_01"
+msgstr "ISU-152"
+
+msgid "ISU-152_descr"
+msgstr ""
+"Původně navrženo na podvozku IS jako náhrada SU-152 kvůli ukončení produkce "
+"KV-1S. Od listopadu 1943 do června 1945 vyrobeno 4 635 vozidel."
+
+msgid "ISU-152_mod_1945"
+msgstr "ISU-152M"
+
+msgid "IS_descr"
+msgstr ""
+"IS (\"Josif Stalin\"). Po doplnění 122 mm dělem se stal pro německou armádu "
+"velmi nepříjemným překvapením. Vyráběn od října 1943 do června 1945, celkem "
+"vyrobeno 3 483 kusů IS-2 a 107 kusů IS-1."
+
+msgid "KRSTB"
+msgstr "KRSTB"
+
+msgid "KV"
+msgstr "KV"
+
+msgid "KV-13"
+msgstr "KV-13"
+
+msgid "KV-13_descr"
+msgstr ""
+"Vývoj vozidla zahájen na sklonku roku 1941 pod vedením S. Ginsburga. Po "
+"úspěšných testech na konci roku 1942 byl zahájen vývoj druhého prototypu."
+
+msgid "KV-1s"
+msgstr "KV-1S"
+
+msgid "KV-1s_bis"
+msgstr "KV-1S bis"
+
+msgid "KV-1s_descr"
+msgstr ""
+"Lehčí a modernizovaná verze KV-1, s celkem 1 370 vyrobenými sériovými kusy a "
+"148 vozidly v modifikaci KV-85. Tato varianta vznikla po přehodnocení a "
+"obnovení výroby těžkých tanků, jelikož střední T-34 nebyly schopny soupeřit "
+"s Německými Tygry a Pantery."
+
+msgid "KV-2"
+msgstr "KV-2"
+
+msgid "KV-220"
+msgstr "KV-220"
+
+msgid "KV-220-1"
+msgstr "KV-220 mod.1"
+
+msgid "KV-220_descr"
+msgstr ""
+"Jde o experimentální tank vyvíjený v průběhu jara a léta 1940. Jediný "
+"prototyp byl stažen z výroby kvůli selhání motoru."
+
+msgid "KV-220_mod"
+msgstr "Mod. KV-220"
+
+msgid "KV-220_test"
+msgstr "KV-220 Beta-Test"
+
+msgid "KV-220_test_short"
+msgstr "KV-220 T"
+
+msgid "KV-3"
+msgstr "KV-3"
+
+msgid "KV-3_descr"
+msgstr ""
+"KV-3, původně navržen jako náhrada KV-1, podvozek a trup byl vyprojektován "
+"na začátku války. KV-3 se nikdy nedostal do sériové výroby."
+
+msgid "KV-3bis"
+msgstr "KV-3 bis"
+
+msgid "KV-5"
+msgstr "KV-5"
+
+msgid "KV-5_descr"
+msgstr ""
+"Vývoj KV-5 byl zahájen v červnu 1941 a ukončen v srpnu. Prototyp nebyl ovšem "
+"kvůli blokádě Leningradu nikdy dokončen."
+
+msgid "KV1"
+msgstr "KV-1"
+
+msgid "KV1S_mod_42"
+msgstr "KV-1S mod. 1942"
+
+msgid "KV1S_mod_43"
+msgstr "KV-85"
+
+msgid "KV1_descr"
+msgstr ""
+"Vývoj zahájen na konci roku 1938. První prototyp byl vyroben v dubnu 1939. V "
+"prosinci 1939 byl poprvé nasazen do akce na Mannerheimově linii. Vozidlo "
+"bylo vyráběno od března 1940 do dubna 1942. Celkem vyrobeno 2 769 kusů."
+
+msgid "KV2"
+msgstr "KV-2"
+
+msgid "KV220"
+msgstr "KV-220"
+
+msgid "KV2_descr"
+msgstr ""
+"Těžký útočný tank vyvinutý v průběhu ledna 1940 na základě KV-1. Celkem bylo "
+"do roku 1941 vyrobeno 334 kusů. KV-2 byl použit v bojových akcích roku 1941 "
+"a převážná většina jich byla ještě téhož roku ztracena."
+
+msgid "KV4"
+msgstr "KV-4"
+
+msgid "KV4_descr"
+msgstr ""
+"Projekt N. L. Dukhova byl zahájen v dubnu 1941. V listopadu byl sestaven "
+"prototyp, ale další práce byly zastaveny z důvodu napadení SSSR."
+
+msgid "KV_1"
+msgstr "KV"
+
+msgid "KV_2"
+msgstr "KV-2"
+
+msgid "KV_2A"
+msgstr "KV"
+
+msgid "KV_2B"
+msgstr "KV-2"
+
+msgid "KV_descr"
+msgstr ""
+"KV (\"Kliment Vorošilov\"). Navrženo specialisty projekčního oddělení  č. 2 "
+"v Kirově továrně v Leningradu v roce 1939 a vyráběn od února 1940 do září "
+"1942. Celkem vyrobeno 2 769 vozidel KV-1 a 334 modelu KV-2."
+
+msgid "M-17E"
+msgstr "M-17E"
+
+msgid "M-17F"
+msgstr "M-17F"
+
+msgid "M-17FA"
+msgstr "M-17FO"
+
+msgid "M-17T"
+msgstr "M-17T"
+
+msgid "M-5-400"
+msgstr "M-5-400F"
+
+msgid "M-5-400F"
+msgstr "M-5-400F"
+
+msgid "M-5-400F_Bis"
+msgstr "M-5-400F Bis"
+
+msgid "M-50T"
+msgstr "M-50T"
+
+msgid "M-50TD"
+msgstr "M-50TD"
+
+msgid "M-6"
+msgstr "M-6"
+
+msgid "M-80"
+msgstr "M-80"
+
+msgid "M3_Stuart_LL"
+msgstr "M3 light"
+
+msgid "M3_Stuart_LL_descr"
+msgstr ""
+"Nejslavnější lehký tank 2. světové války. Od roku 1941 do září 1943 vyrobeno "
+"celkem 13 589 vozidel. 1 576 tanků (převážně v modifikaci M3A1) bylo "
+"poskytnuto SSSR v rámci programu o zápůjčce a pronájmu."
+
+msgid "M500"
+msgstr "M500"
+
+msgid "MS-1"
+msgstr "MS-1"
+
+msgid "MS-1_descr"
+msgstr ""
+"První sériově vyráběný Sovětský tank. Mezi lety 1928 až 1931 bylo vyrobeno "
+"959 vozidel. Konstrukčně vychází z Francouzského Renault FT-17. Byl nasazen "
+"při obrané železnice proti nájezdům z Mandžuska v roce 1929 a po roce 1932 "
+"byl využíván jako výcvikové vozidlo."
+
+msgid "MT-5-1"
+msgstr "MT-5-1"
+
+msgid "M_40"
+msgstr "M-40"
+
+msgid "Matilda"
+msgstr "Matilda II"
+
+msgid "Matilda_II_LL"
+msgstr "Matilda IV"
+
+msgid "Matilda_II_LL_descr"
+msgstr ""
+"Britský tank dodávaný SSSR jako součást programu o zápůjčce a pronájmu. "
+"Dodáno bylo celkem 1 084 vozidel, z nichž se část potopila do moře během "
+"transportu do Murmansku. Typově se jednalo převážně o II variantu tanku, "
+"celkem bylo mezi roky 1939 až 1945 vyrobeno téměř 3 000 kusů. Tank byl "
+"velice výrobně náročný. K bojovému nasazení došlo během invaze Německa do "
+"Francie 1940, kde se obrany účastnila Britská armáda. Díky dobrému pancíři "
+"byl tank prakticky imunní vůči německým tankovým kanónům, jedinou zbraní "
+"která jej mohla ohrozit byl protiletecký kanón 88mm přestavěný do "
+"protitankové varianty. Další nasazení bylo v severní Africe a později i v "
+"Pacifiku. Tank svými parametry - pancířem a nízkou rychlostí a obratností - "
+"odpovídal Sovětskému KV-1, ale nikdy nedosáhl na jeho palebnou sílu."
+
+msgid "Maybach_HL_120_TRM_A"
+msgstr "Maybach HL 120 TRM"
+
+msgid "Maybach_HL_120_TRM_B"
+msgstr "Maybach HL 120 TRM"
+
+msgid "Medous_MAT"
+msgstr "Meadows MAT"
+
+msgid "Mk19R"
+msgstr "Mk19R"
+
+msgid "Mod_T-10"
+msgstr "IS-3"
+
+msgid "Object252"
+msgstr "Objekt 252"
+
+msgid "Object252_short"
+msgstr "Obj. 252"
+
+msgid "Object263"
+msgstr "Objekt 263"
+
+msgid "Object263_descr"
+msgstr ""
+"Vývoj těžkého stíhače tanků, vycházejícího z těžkého tanku IS-7 byl zahájen "
+"v roce 1950. Byly vyvinuty tři koncepce tohoto projektu, z nichž jedna byla "
+"zpracována jako dřevěný model v plné velikosti. Nicméně, další vývoj byl "
+"přerušen kvůli ukončení sériové výroby tanku IS7."
+
+msgid "Object263_short"
+msgstr "Obj. 263"
+
+msgid "Object268"
+msgstr "Objekt 268"
+
+msgid "Object268_descr"
+msgstr ""
+"Vývoj byl zahájen v létě roku 1952 v Kirovově továrně v Leningradu, pod "
+"dohledem Josefa Kotina. Vozidlo bylo vyvinuto na základě těžkého tanku T-10. "
+"Prototyp byl vyroben v roce 1956. Vozidlo prošlo testy, ale nikdy nebylo "
+"sériově vyráběno."
+
+msgid "Object268_short"
+msgstr "Obj. 268"
+
+msgid "Object416_short"
+msgstr "Obj. 416"
+
+msgid "Object_212"
+msgstr "Objekt 212"
+
+msgid "Object_212_descr"
+msgstr ""
+"Vyvinuto v roce 1939 specialisty projekčního oddělení Kirovi továrny v "
+"Leningradu pod vedením J.Kotina na podvozku KV a vozidel SMK. Jelikož nebyl "
+"vyroben ani prototyp, vozidlo nebylo nikdy ve službě."
+
+msgid "Object_212_short"
+msgstr "Obj. 212"
+
+msgid "Object_261"
+msgstr "Objekt 261"
+
+msgid "Object_261_descr"
+msgstr ""
+"Zkonstruován na základě IS-7 konstrukční kanceláří Kirových továren v "
+"Čeljabinsku a Leningradě. Vývoj zahájen v roce 1947 ale zrušen ve stádiu "
+"návrhu."
+
+msgid "Object_261_short"
+msgstr "Obj. 261"
+
+msgid "Object_704"
+msgstr "Objekt 704"
+
+msgid "Object_704_descr"
+msgstr ""
+"Vyvinuto v roce 1945 specialisty projekčního oddělení 100 závodu pod vedením "
+"J.Kotina na podvozku IS-3 a IS-2. Vozidlo se vyznačovalo velmi dobře "
+"skloněným pancířem a bez potíží prošlo vojskovými testy, ale nikdy nebylo "
+"zařazeno do výzbroje."
+
+msgid "Object_704_short"
+msgstr "Obj. 704"
+
+msgid "Observer"
+msgstr "Pozorovatel"
+
+msgid "Observer_descr"
+msgstr "Vozidlo pozorovatele"
+
+msgid "PzIV_capt_short"
+msgstr "T-4"
+
+msgid "PzV_capt_short"
+msgstr "Panter"
+
+msgid "QF_6_pounder_Mk_III"
+msgstr "QF 6 liber Mk. V"
+
+msgid "R113"
+msgstr "R113"
+
+msgid "R113M"
+msgstr "R113M"
+
+msgid "R123"
+msgstr "R-123"
+
+msgid "S-51"
+msgstr "S-51"
+
+msgid "S-51_01"
+msgstr "S-51"
+
+msgid "S-51_descr"
+msgstr ""
+"Vyvinuto v Grabinově vývojovém středisku na podzim 1943. S-51 úspěšně prošlo "
+"testy na jaře 1944, ale nikdy nebylo vyráběno."
+
+msgid "S-51b"
+msgstr "S-51b"
+
+msgid "S-51bis"
+msgstr "S-51 bis"
+
+msgid "SCR_209"
+msgstr "SCR 209"
+
+msgid "ST_I"
+msgstr "ST-I"
+
+msgid "ST_I_descr"
+msgstr ""
+"Vyvinuto v závodě č. 92 inženýry VA Ganinem a AS Chasovnikovem. Měl nahradit "
+"zastaralé těžké tanky své doby a vyřešit jejich nedostatky, ale zůstalo "
+"pouze u plánů."
+
+msgid "SU-100"
+msgstr "SU-100"
+
+msgid "SU-100_descr"
+msgstr ""
+"Samohybné dělo SU-100 je postaveno na podvozku T-34-85 a SU-85. Celkem "
+"vyrobeno 2 495 vozidel od září 1944 do června 1945."
+
+msgid "SU-100_mod_1944"
+msgstr "SU-100"
+
+msgid "SU-100_mod_1945"
+msgstr "SU-100-60"
+
+msgid "SU-101"
+msgstr "SU-101"
+
+msgid "SU-101_descr"
+msgstr ""
+"V roce 1944 vyvinula konstrukční kancelář Uralských průmyslových závodů "
+"SU-101 vyzbrojené dělem D-10S a SU-102 s dělem D-25S. Obě vozidla byla "
+"navržena jako Uralmaš-1. Prototypy byly dokončeny v průběhu dubna 1945. "
+"Vozidlo nebylo nikdy vyráběno ani zařazeno do služby."
+
+msgid "SU-101_short"
+msgstr "SU-101"
+
+msgid "SU-14"
+msgstr "SU-14"
+
+msgid "SU-14Bis"
+msgstr "SU-14 bis"
+
+msgid "SU-14_1"
+msgstr "SU-14"
+
+msgid "SU-14_descr"
+msgstr ""
+"\"Speciální těžký trojdílný komplex\" - samohybné dělo vyvinuté v průběhu "
+"let 1932 až 1937, v roce 1940 postaveny dva modernizované prototypy. Nikdy "
+"nebylo vyráběno masově."
+
+msgid "SU-152"
+msgstr "SU-152"
+
+msgid "SU-152_01"
+msgstr "SU-152"
+
+msgid "SU-152_descr"
+msgstr ""
+"Těžké samohybné dělo na podvozku tanku KV-1S. Celkem vyrobeno 671 vozidel od "
+"února do prosince 1943."
+
+msgid "SU-152_mod_1943"
+msgstr "SU-152"
+
+msgid "SU-152_mod_1944"
+msgstr "SU-152M"
+
+msgid "SU-18"
+msgstr "SU-18"
+
+msgid "SU-18Bis"
+msgstr "SU-18 bis"
+
+msgid "SU-18_descr"
+msgstr ""
+"Samohybné dělo na podvozku MS. Tento model existoval pouze jako návrh, nebyl "
+"vyroben ani prototyp."
+
+msgid "SU-26"
+msgstr "SU-26"
+
+msgid "SU-26_descr"
+msgstr ""
+"Samohybné dělo na podvozku T-26 vyráběno v Leningradu na konci roku 1941. "
+"Celkem vyrobeno 12 nebo 14 vozidel a tři z nich zůstaly ve službě až do roku "
+"1944."
+
+msgid "SU-5"
+msgstr "SU-5"
+
+msgid "SU-5_descr"
+msgstr ""
+"\"Malý trojdílný komplex\" - lehké samohybné dělo vyvinuté a testované v "
+"průběhu roku 1934. Předváděno při přehlídkách na Rudém náměstí ale nikdy "
+"nevyráběno sériově."
+
+msgid "SU-5bis"
+msgstr "SU-5 bis"
+
+msgid "SU-76"
+msgstr "SU-76"
+
+msgid "SU-76_1"
+msgstr "SU-76"
+
+msgid "SU-76_descr"
+msgstr ""
+"Lehké pěchotní samohybné dělo postavené na podvozku T-70. Celkem vyrobeno 14 "
+"292 vozidel (360 ve variantě SU-76, 13 932 ve variantě SU-76M). Vyráběno od "
+"prosince 1942 do června 1945."
+
+msgid "SU-76bis"
+msgstr "SU-76M"
+
+msgid "SU-8"
+msgstr "SU-8"
+
+msgid "SU-85"
+msgstr "SU-85"
+
+msgid "SU-85A"
+msgstr "SU-85B"
+
+msgid "SU-85A1"
+msgstr "SU-85A"
+
+msgid "SU-85_01"
+msgstr "SU-85"
+
+msgid "SU-85_descr"
+msgstr ""
+"Stíhač tanků na podvozku T-34 a SU-122. Vyrobeno 2 329 vozidel od srpna 1943 "
+"do října 1944 a 638 ve verzi SU-122 od prosince 1942 do října 1943."
+
+msgid "SU-85_mod_1942"
+msgstr "Mod.1940 (4-stupňová převodovka)"
+
+msgid "SU-85_mod_1942_short"
+msgstr "Mod. 1940"
+
+msgid "SU-85_mod_1943"
+msgstr "Mod.1942 (5-stupňová převodovka)"
+
+msgid "SU-85_mod_1943A"
+msgstr "SU-85 mod. 1943."
+
+msgid "SU-85_mod_1943_short"
+msgstr "Mod. 1942"
+
+msgid "SU-8Bis"
+msgstr "SU-8A"
+
+msgid "SU-8_descr"
+msgstr ""
+"\"Střední trojdílný komplex\" - samohybné dělo. Vývoj zahájen v roce 1934 a "
+"po pauze obnoven v roce 1939. Vozidlo se nikdy nevyrábělo sériově."
+
+msgid "SU100M1"
+msgstr "SU-100M1"
+
+msgid "SU100M1_descr"
+msgstr ""
+"Vyvinut v UHMP (Uralském závodě těžkého průmyslu) na základě T-34-85. Bojový "
+"prostor posádky byl umístěn v zadní části vozidla. Vozidlo nebylo nikdy "
+"vyráběno, přednost byla dána projektu SU-100M-2 na podvozku tanku T-44."
+
+msgid "SU100Y"
+msgstr "SU-100Y"
+
+msgid "SU100Y_descr"
+msgstr ""
+"Vyvinuto na základě těžkého tanku T-100. Vozidlo bylo určeno k neutralizaci "
+"nepřátelských pevnůstek a ničení nepřátelských vozidel. Jediný prototyp byl "
+"vyroben v březnu 1940. Vozidlo nebylo nikdy zařazeno do sériové výroby."
+
+msgid "SU122_44"
+msgstr "SU-122-44"
+
+msgid "SU122_44_descr"
+msgstr ""
+"Vývoj byl zahájen v červnu 1944 konstrukční kanceláří Uralských průmyslových "
+"závodů. Vozidlo bylo založeno na podvozku T-44 a mělo konvenční uspořádání, "
+"s předním umístěním bojového prostoru posádky. V říjnu začal Lidový "
+"komisariát tankového průmyslu o projektu SU-122-44 uvažovat a v prosinci byl "
+"plán projektu připraven. Nicméně, SU-100M-2 se zadním umístěním bojového "
+"prostoru posádky byl upřednostňován."
+
+msgid "SU122_44_short"
+msgstr "SU122-44"
+
+msgid "SU122_54"
+msgstr "SU-122-54"
+
+msgid "SU122_54_descr"
+msgstr ""
+"Vývoj zahájen v roce 1948. Pro vývoj tohoto stíhače byl použit podvozek "
+"tanku T-54. V roce 1954 bylo vozidlo zařazeno do služby. Sériová výroba byla "
+"zahájena v roce 1955 a celkem bylo vyrobeno 100 vozidel."
+
+msgid "SU122_54_short"
+msgstr "SU-122-54"
+
+msgid "SU_85I"
+msgstr "SU-85I"
+
+msgid "SU_85I_descr"
+msgstr ""
+"Vyvinuto na základě zajatých Německých tanků PzKpfw III s dělem ráže 85 mm. "
+"Vyrobeno bylo nepodstatné množství a bojů se nikdo neúčastnilo."
+
+msgid "Su-26A"
+msgstr "SU-26A"
+
+msgid "Su-26B"
+msgstr "SU-26B"
+
+msgid "Su-8"
+msgstr "SU-8"
+
+msgid "T-127"
+msgstr "T-127"
+
+msgid "T-127_descr"
+msgstr ""
+"Vyvíjeno od jara do podzimu 1940 společně s T-126 v továrně č. 174. Vývoj "
+"byl zastaven ve fázi návrhu a již nepokračoval, protože se nepodařilo "
+"vyřešit potíže s naftovým motorem V-3."
+
+msgid "T-18"
+msgstr "MS-1"
+
+msgid "T-18Bis"
+msgstr "T-18"
+
+msgid "T-18_Standart"
+msgstr "MS-1 hexagonální"
+
+msgid "T-18_mod"
+msgstr "MS-1 modern."
+
+msgid "T-26"
+msgstr "T-26"
+
+msgid "T-26F"
+msgstr "T-26F"
+
+msgid "T-26M"
+msgstr "T-26M"
+
+msgid "T-26_conic"
+msgstr "T-26 kónická"
+
+msgid "T-26_conic_short"
+msgstr "T-26 kónic."
+
+msgid "T-26_cylindrical"
+msgstr "T-26 cylindrická"
+
+msgid "T-26_cylindrical_short"
+msgstr "T-26 cylindr."
+
+msgid "T-26_descr"
+msgstr ""
+"Nejmasověji vyráběný předválečný tank Rudé armády. Celkem bylo vyrobeno "
+"během let 1931 až 1941 11 218 vozidel čtyř základních modifikací."
+
+msgid "T-28"
+msgstr "T-28"
+
+msgid "T-28_0"
+msgstr "T-28"
+
+msgid "T-28_A"
+msgstr "T-28A"
+
+msgid "T-28_conic"
+msgstr "T-28 kónická"
+
+msgid "T-28_conic_short"
+msgstr "T-28 kónic."
+
+msgid "T-28_cylindrical"
+msgstr "T-28 cylindrická"
+
+msgid "T-28_cylindrical_short"
+msgstr "T-28 cylindr."
+
+msgid "T-28_descr"
+msgstr ""
+"Navržen jako útočný tank k vytváření průlomů v nepřátelské obraně. Vyráběn v "
+"Leningradské továrně \"Krasniy Putilovets\" kde bylo vyrobeno celkem 503 "
+"vozidel během let 1934 až 1940."
+
+msgid "T-34"
+msgstr "T-34"
+
+msgid "T-34-85"
+msgstr "T-34-85"
+
+msgid "T-34-85Bis"
+msgstr "T-34-85-60"
+
+msgid "T-34-85_descr"
+msgstr ""
+"Tato modifikace T-34 je považována za samostatný model, neboť jej aplikované "
+"modifikace činí unikátním. Celkem vyrobeno 21 048 vozidel do konce války, a "
+"výroba pokračovala i po válce."
+
+msgid "T-34_descr"
+msgstr ""
+"Legenda Sovětských tankových jednotek, nejmasivněji vyráběný tank. Celkem "
+"bylo vyrobeno 33 805 vozidel rozličných modifikací v různých továrnách na "
+"území Sovětského svazu mezi lety 1940 až 1944."
+
+msgid "T-34_mod_100"
+msgstr "T-34-85 prodloužená"
+
+msgid "T-34_mod_100_short"
+msgstr "T-34-85 rozš."
+
+msgid "T-34_mod_1940"
+msgstr "T-34 mod. 1940"
+
+msgid "T-34_mod_1941"
+msgstr "Mod.1940 (4-stupňová převodovka)"
+
+msgid "T-34_mod_1941_short"
+msgstr "Mod. 1940"
+
+msgid "T-34_mod_1942"
+msgstr "T-34 mod. 1942"
+
+msgid "T-34_mod_1943"
+msgstr "Mod.1942 (5-stupňová převodovka)"
+
+msgid "T-34_mod_1943A"
+msgstr "T-34 mod. 1943"
+
+msgid "T-34_mod_1943_short"
+msgstr "Mod. 1942"
+
+msgid "T-43"
+msgstr "T-43"
+
+msgid "T-43M"
+msgstr "T-43M"
+
+msgid "T-43_descr"
+msgstr ""
+"Vyvíjen jako náhrada T-34 od jara 1942. T-43 byl doporučen a splnil vojskové "
+"testy, ale nikdy nebyl vyráběn sériově."
+
+msgid "T-43_mod_100"
+msgstr "T-43 mod. 1943"
+
+msgid "T-43_mod_43"
+msgstr "T-43 mod. 1942"
+
+msgid "T-44"
+msgstr "T-44"
+
+msgid "T-44-100"
+msgstr "T-44B"
+
+msgid "T-44Bis"
+msgstr "T-44/54"
+
+msgid "T-44_descr"
+msgstr ""
+"Zařazen do výzbroje v roce 1944, do konce války vyrobeno 965 vozidel. Ve "
+"výzbroji zůstával až do konce 70. let."
+
+msgid "T-46"
+msgstr "T-46"
+
+msgid "T-46-1"
+msgstr "T-46 vylepšená"
+
+msgid "T-46-1_short"
+msgstr "T-46 vylep."
+
+msgid "T-46_descr"
+msgstr ""
+"Navržen jako náhrada T-26. Sériová výroba zahájena v roce 1936. Projekt by "
+"ukončen po postavení pouhých 4 vozidel, jelikož jejich výroba byla příliš "
+"nákladná."
+
+msgid "T-46_mod_1"
+msgstr "T-46 model 1"
+
+msgid "T-46_mod_2"
+msgstr "T-46 model 2"
+
+msgid "T-50"
+msgstr "T-50"
+
+msgid "T-50_descr"
+msgstr ""
+"Vyvinuto v říjnu 1940. Návrh vozidla vytvořený výrobním závodem 174 byl "
+"předložen k posouzení a na základě úspěšných testů bylo v průběhu února a "
+"března 1941 zařazeno do služby."
+
+msgid "T-50_short"
+msgstr "T-50"
+
+msgid "T-54"
+msgstr "T-54"
+
+msgid "T-54_descr"
+msgstr ""
+"První prototyp byl vyroben na konci roku 1944, po testech v letech 1945 - "
+"1947 byla jeho modifikace z roku 1947 zařazena do výzbroje. Do ukončení "
+"výroby bylo postaveno celkem 713 vozidel. Na konci roku 1949 byla zahájena "
+"produkce nového modelu."
+
+msgid "T150"
+msgstr "T-150"
+
+msgid "T150_descr"
+msgstr ""
+"T-150 byl pokračovatelem KV-1. Vozidlo vážilo 50 tun. Armádními testy prošlo "
+"v polovině roku 1941. Prototyp se účastnil bojů o Leningrad a stal se "
+"základem pro modifikaci KV-1 se zesíleným pancířem."
+
+msgid "T35_short"
+msgstr "T-35"
+
+msgid "T62A"
+msgstr "T-62A"
+
+msgid "T62A_descr"
+msgstr ""
+"Vývoj prvního Sovětského poválečného středního tanku začal v roce 1951. V "
+"roce 1961 byl zaveden tank T-62, který používal dělo s hladkým vývrtem "
+"hlavně. Ve stejné době byla také zavedena varianta T-62A, která měla dělo s "
+"drážkovanou hlavní. Sériová výroba T-62A byla zastavena v březnu 1962. Tank "
+"T-62 byl sériově vyráběn od roku 1961 do roku 1975 a celkem bylo vyrobeno "
+"dvacet tisíc vozidel. Pozdější modifikace vozidla jsou stále ve službě."
+
+msgid "T62A_short"
+msgstr "T-62A"
+
+msgid "TD-30"
+msgstr "M-50D"
+
+msgid "T_50_2"
+msgstr "T-50-2"
+
+msgid "T_50_2_descr"
+msgstr ""
+"Konstrukce je společnou prací Kirovy konstrukční kanceláře a výrobního "
+"závodu 174. Původní Kirovův návrh bylo velmi obtížné realizovat. "
+"Charakteristickými rysy vozidla je karapax („želví“ krunýř) a chladič ve "
+"tvaru podkovy."
+
+msgid "T_50_2_short"
+msgstr "T-50-2"
+
+msgid "Tetrarch_LL"
+msgstr "Tetrarch"
+
+msgid "Tetrarch_LL_descr"
+msgstr ""
+"Vyvinut v roce 1936 společností Vickers-Armstrong, v celkovém počtu 177 "
+"vozidel ve dvou základních modifikacích Tetrarch Mk I a Telrarch Mk ICS "
+"vyráběných od roku 1941 do roku 1942. V roce 1942 bylo dvacet vozidel dodáno "
+"do SSSR v rámci smlouvy o půjčce a pronájmu, z toho 19 jich bojovalo na "
+"východní frontě až do října 1943."
+
+msgid "Tetrarch_LL_short"
+msgstr "Tetrarch"
+
+msgid "Tip_9"
+msgstr "Type 9"
+
+msgid "Turret_1_A43"
+msgstr "Mod. 1941"
+
+msgid "Turret_1_IS8"
+msgstr "T-10"
+
+msgid "Turret_1_KV-13"
+msgstr "KV-13"
+
+msgid "Turret_1_KV-5"
+msgstr "KV-5"
+
+msgid "Turret_1_KV1"
+msgstr "Návrh LKZ mod. 1940"
+
+msgid "Turret_1_KV2"
+msgstr "MT-1"
+
+msgid "Turret_1_KV4"
+msgstr "KV-4"
+
+msgid "Turret_1_Object252"
+msgstr "Objekt 252"
+
+msgid "Turret_1_Object263"
+msgstr "Objekt 263"
+
+msgid "Turret_1_Object268"
+msgstr "268"
+
+msgid "Turret_1_Object_212"
+msgstr "Objekt 212"
+
+msgid "Turret_1_Object_261"
+msgstr "Objekt 261"
+
+msgid "Turret_1_Object_704"
+msgstr "Objekt 704"
+
+msgid "Turret_1_PzV_capt"
+msgstr "T-5"
+
+msgid "Turret_1_ST_I"
+msgstr "ST-I Mod. 701 č. 4"
+
+msgid "Turret_1_SU100M1"
+msgstr "SU-100M1"
+
+msgid "Turret_1_SU100Y"
+msgstr "SU-100Y"
+
+msgid "Turret_1_SU122_44"
+msgstr "SU-122-44"
+
+msgid "Turret_1_SU122_54"
+msgstr "SU-122/54"
+
+msgid "Turret_1_SU76I"
+msgstr "SU-76I"
+
+msgid "Turret_1_T-127"
+msgstr "T-127"
+
+msgid "Turret_1_T-50"
+msgstr "T-50"
+
+msgid "Turret_1_T-54_2"
+msgstr "T-54 mod. 1946"
+
+msgid "Turret_1_T150"
+msgstr "T-150-KV"
+
+msgid "Turret_1_T62A"
+msgstr "Mod. 1959"
+
+msgid "Turret_1_T_50_2"
+msgstr "T-50-2"
+
+msgid "Turret_1_Tetrarch_LL"
+msgstr "Tetrarch"
+
+msgid "Turret_2_IS8"
+msgstr "T-10M"
+
+msgid "Turret_2_KV-13"
+msgstr "KV-13M"
+
+msgid "Turret_2_KV1"
+msgstr "Plán ČTZ mod. 1942"
+
+msgid "Turret_2_KV1_short"
+msgstr "Projekt ČTZ"
+
+msgid "Turret_2_KV2"
+msgstr "MT-2"
+
+msgid "Turret_2_KV4"
+msgstr "KV-4-5"
+
+msgid "Turret_2_Object252"
+msgstr "Object 252M"
+
+msgid "Turret_2_ST_I"
+msgstr "ST-I"
+
+msgid "Turret_2_T-50"
+msgstr "T-50M"
+
+msgid "Turret_2_T-54_2"
+msgstr "T-54 mod. 1949"
+
+msgid "Turret_2_T150"
+msgstr "T-150-220"
+
+msgid "Turret_2_T_50_2"
+msgstr "T-50-2M"
+
+msgid "Turret_710_mod_4"
+msgstr "Mod.701 č.4"
+
+msgid "Turret_710_mod_5"
+msgstr "Mod.701 č.5"
+
+msgid "Turret_IS-6"
+msgstr "IS-6"
+
+msgid "V-11"
+msgstr "V-11"
+
+msgid "V-12"
+msgstr "V-12"
+
+msgid "V-12-5"
+msgstr "V-12-5"
+
+msgid "V-12-6"
+msgstr "V-12-6"
+
+msgid "V-12A"
+msgstr "V-12 A"
+
+msgid "V-12P"
+msgstr "V-12P"
+
+msgid "V-16FN"
+msgstr "V-16FN"
+
+msgid "V-2"
+msgstr "V-2"
+
+msgid "V-2-34"
+msgstr "V-2-34"
+
+msgid "V-2-34M"
+msgstr "V-2-34M"
+
+msgid "V-2-44"
+msgstr "V-2-44"
+
+msgid "V-2-54"
+msgstr "V-2-54"
+
+msgid "V-2-54IS"
+msgstr "V-2-54IS"
+
+msgid "V-2-UM"
+msgstr "V-2-UM"
+
+msgid "V-2IS"
+msgstr "V-2IS"
+
+msgid "V-2K"
+msgstr "V-2K"
+
+msgid "V-2KT"
+msgstr "V-2KT"
+
+msgid "V-2SN"
+msgstr "V-2SN"
+
+msgid "V-2SNx2"
+msgstr "2x V-2K-F"
+
+msgid "V-3"
+msgstr "V-3"
+
+msgid "V-34-M11"
+msgstr "V-34-M11"
+
+msgid "V-4"
+msgstr "V-4"
+
+msgid "V-44"
+msgstr "V-44"
+
+msgid "V-5"
+msgstr "V-5"
+
+msgid "V-54-6"
+msgstr "V-54-6"
+
+msgid "V-54K"
+msgstr "V-54K"
+
+msgid "V-55"
+msgstr "V-55"
+
+msgid "V-55U"
+msgstr "V-14"
+
+msgid "V-5F"
+msgstr "V-5F"
+
+msgid "V-5U"
+msgstr "V-5U"
+
+msgid "ValentineMK_I"
+msgstr "Valentine MK I"
+
+msgid "Valentine_LL"
+msgstr "Valentine II"
+
+msgid "Valentine_LL_descr"
+msgstr ""
+"Britský tank dodávaný SSSR jako součást programu o půjčce a pronájmu. Dodáno "
+"bylo celkem 3 782 vozidel, z nichž se část potopila do moře během transportu "
+"do Murmansku."
+
+msgid "ZiS-16"
+msgstr "ZiS-16"
+
+msgid "ZiS-16F"
+msgstr "ZiS-16F"
+
+msgid "_100mm_3UBK4"
+msgstr "ZUBK4"
+
+msgid "_100mm_3UBK4M"
+msgstr "ZUBK4M"
+
+msgid "_100mm_3UOF10"
+msgstr "ZUOF10"
+
+msgid "_100mm_BK5M"
+msgstr "BK5M"
+
+msgid "_100mm_BR-412D"
+msgstr "UBR-412D"
+
+msgid "_100mm_D-10T2S"
+msgstr "100 mm D-10T2C"
+
+msgid "_100mm_D10S"
+msgstr "100 mm D10S"
+
+msgid "_100mm_D10S_obr_44"
+msgstr "100 mm D-10S mod. 1944"
+
+msgid "_100mm_D10T"
+msgstr "100 mm D10T"
+
+msgid "_100mm_D10T_obr_45"
+msgstr "100 mm D10T mod. 1945"
+
+msgid "_100mm_D54S"
+msgstr "100 mm D-54S"
+
+msgid "_100mm_D54_TS"
+msgstr "100 mm D-54TS"
+
+msgid "_100mm_D54_obr_45"
+msgstr "100 mm D-54"
+
+msgid "_100mm_LB-1"
+msgstr "100 mm LB-1"
+
+msgid "_100mm_LB-1S"
+msgstr "100 mm LB-1C"
+
+msgid "_100mm_UBR-412"
+msgstr "UBR-412"
+
+msgid "_100mm_UBR-412B"
+msgstr "UBR-412B"
+
+msgid "_100mm_UBR-412K"
+msgstr "UBR-412K"
+
+msgid "_100mm_UBR-412O"
+msgstr "UBR-412O"
+
+msgid "_100mm_UBR-412P"
+msgstr "UBR-412P"
+
+msgid "_100mm_UBR-412PB"
+msgstr "UBR-412PB"
+
+msgid "_100mm_UOF-412"
+msgstr "UOF-412"
+
+msgid "_100mm_UOF-412B"
+msgstr "UOF-412B"
+
+msgid "_107mm_UBR-420"
+msgstr "UBR-420"
+
+msgid "_107mm_UBR-420K"
+msgstr "UBR-420K"
+
+msgid "_107mm_UBR-420M"
+msgstr "UBR-420M"
+
+msgid "_107mm_UBR-420O"
+msgstr "UBR-420O"
+
+msgid "_107mm_UBR-420P"
+msgstr "UBR-420P"
+
+msgid "_107mm_UBR-420PM"
+msgstr "UBR-420PM"
+
+msgid "_107mm_UOF-420"
+msgstr "UOF-420"
+
+msgid "_107mm_UOF-420M"
+msgstr "UOF-420M"
+
+msgid "_107mm_ZiS-24"
+msgstr "107 mm ZiS-24"
+
+msgid "_107mm_ZiS-6"
+msgstr "107 mm ZiS-6"
+
+msgid "_107mm_ZiS-6M"
+msgstr "107 mm ZiS-6M"
+
+msgid "_107mm_ZiS-6_S"
+msgstr "107 mm ZiS-6S"
+
+msgid "_10R"
+msgstr "10R"
+
+msgid "_10RK"
+msgstr "10RK"
+
+msgid "_10RK-26"
+msgstr "10RK-26"
+
+msgid "_10RKM"
+msgstr "10RKM"
+
+msgid "_10RT-26E"
+msgstr "10RT-26E"
+
+msgid "_122-mm_D-25S_with_a_piston_shutter"
+msgstr "122 mm D-2-5S"
+
+msgid "_122-mm_D-25S_with_wedges_shutter"
+msgstr "122 mm D-25S (kónická komora)"
+
+msgid "_122-mm_D-25T"
+msgstr "122 mm D-25T"
+
+msgid "_122-mm_D-25T_with_a_piston_shutter"
+msgstr "122 mm D-2-5T"
+
+msgid "_122-mm_D-25T_with_wedges_shutter"
+msgstr "122 mm D-25T"
+
+msgid "_122-mm_D-30"
+msgstr "122 mm D-30"
+
+msgid "_122-mm_D-49"
+msgstr "122 mm D-49"
+
+msgid "_122mm_A-19"
+msgstr "122 mm A-19 mod. 1937."
+
+msgid "_122mm_A-19_short"
+msgstr "122 mm A-19"
+
+msgid "_122mm_BF460NS"
+msgstr "BF-460NS"
+
+msgid "_122mm_BL-9"
+msgstr "122 mm BL-9"
+
+msgid "_122mm_BL-9S"
+msgstr "122 mm BL-9S"
+
+msgid "_122mm_BM11"
+msgstr "BK-9"
+
+msgid "_122mm_BP450S"
+msgstr "BP-450S"
+
+msgid "_122mm_BP450SO"
+msgstr "BP450SO"
+
+msgid "_122mm_BR-471D"
+msgstr "BR-471D"
+
+msgid "_122mm_D-25-44"
+msgstr "122 mm D-25-44"
+
+msgid "_122mm_D-25C_mod1944"
+msgstr "122 mm D-25 mod. 1944"
+
+msgid "_122mm_D-25C_mod1944_short"
+msgstr "122 mm D-25S"
+
+msgid "_122mm_M62-T2"
+msgstr "122 mm M62-T2"
+
+msgid "_122mm_M62-T2S"
+msgstr "122 mm M62-C2"
+
+msgid "_122mm_OF420S"
+msgstr "OF-420S"
+
+msgid "_122mm_OF420SO"
+msgstr "OF420SO"
+
+msgid "_122mm_OF420SOMSH"
+msgstr "OF420SOMSH"
+
+msgid "_122mm_UBR-471"
+msgstr "UBR-471"
+
+msgid "_122mm_UBR-471K"
+msgstr "UBR-471K"
+
+msgid "_122mm_UBR-471O"
+msgstr "UBR-471O"
+
+msgid "_122mm_UBR-471P"
+msgstr "UBR-471P"
+
+msgid "_122mm_UOF-471"
+msgstr "UOF-471"
+
+msgid "_122mm_UOF-472"
+msgstr "UOF-472"
+
+msgid "_122mm_cannon_M-30S"
+msgstr "122 mm M-30S"
+
+msgid "_122mm_cannon_U-11"
+msgstr "122 mm U-11"
+
+msgid "_122mm_cannon_mod_1930"
+msgstr "122 mm houfnice mod. 1930."
+
+msgid "_122mm_howitzer_A-19"
+msgstr "122 mm houfnice A-19"
+
+msgid "_12LL"
+msgstr "12LL"
+
+msgid "_12RT"
+msgstr "12RT"
+
+msgid "_130mm_B-13-S2"
+msgstr "130 mm B-13-S2"
+
+msgid "_130mm_OF-46"
+msgstr "OF-46"
+
+msgid "_130mm_PB-46"
+msgstr "PB-46"
+
+msgid "_130mm_PB-46A"
+msgstr "PB-46A"
+
+msgid "_130mm_S-70"
+msgstr "130 mm S-70"
+
+msgid "_130mm_S-70A"
+msgstr "130 mm S-70A"
+
+msgid "_130mm_S-70S"
+msgstr "130 mm S-70S"
+
+msgid "_130mm_UBR-482"
+msgstr "UBR-482"
+
+msgid "_130mm_UBR-482M"
+msgstr "UBR-482M"
+
+msgid "_130mm_UBR-482P"
+msgstr "UBR-482P"
+
+msgid "_130mm_UBR-482PM"
+msgstr "UBR-482PM"
+
+msgid "_130mm_UOF-482"
+msgstr "UOF-482"
+
+msgid "_130mm_UOF-482M"
+msgstr "UOF-482M"
+
+msgid "_152mm_53-G-530"
+msgstr "53-G-530"
+
+msgid "_152mm_53-G-551"
+msgstr "53-G-551"
+
+msgid "_152mm_53-OF-530"
+msgstr "53-OF-530"
+
+msgid "_152mm_53-OF-551"
+msgstr "53-OF551"
+
+msgid "_152mm_53-OF-551BM"
+msgstr "53-OF-551BM"
+
+msgid "_152mm_53-OF-551M"
+msgstr "53-HE-551M"
+
+msgid "_152mm_53BP520"
+msgstr "53-BP520"
+
+msgid "_152mm_53BP540"
+msgstr "53-BP540"
+
+msgid "_152mm_53OF500"
+msgstr "53-OF500"
+
+msgid "_152mm_BL-10"
+msgstr "152 mm BL-10"
+
+msgid "_152mm_BR-2"
+msgstr "152 mm BR-2"
+
+msgid "_152mm_M-10"
+msgstr "152 mm M-10"
+
+msgid "_152mm_M64"
+msgstr "152 mm M64"
+
+msgid "_152mm_ML-20C"
+msgstr "152 mm ML-20S"
+
+msgid "_152mm_ML-20CM_obr1944"
+msgstr "152 mm ML-20SM mod 1944"
+
+msgid "_152mm_ML-20CM_obr1944_short"
+msgstr "152 mm ML-20SM"
+
+msgid "_152mm_ML-20_mod_1937"
+msgstr "152 mm ML-20 mod. 1931/37"
+
+msgid "_152mm_ML-20_mod_1937_short"
+msgstr "152 mm ML-20"
+
+msgid "_152mm_UBK551M"
+msgstr "UBK551M"
+
+msgid "_152mm_UBR551"
+msgstr "UBR551"
+
+msgid "_152mm_UBR551M"
+msgstr "UBR551M"
+
+msgid "_152mm_UBR551P"
+msgstr "UBR551P"
+
+msgid "_152mm_howitzer_ML-20_mod_1931"
+msgstr "152 mm houfnice ML-20 mod.1931"
+
+msgid "_152mm_mortar_NM_mod1931"
+msgstr "152 mm minomet NM mod. 1931"
+
+msgid "_180mm_B-1-P"
+msgstr "180 mm B-1-P"
+
+msgid "_180mm_F-600BM"
+msgstr "F-600BM"
+
+msgid "_180mm_F-600D"
+msgstr "F-600D"
+
+msgid "_180mm_UBR-600"
+msgstr "UBR-600"
+
+msgid "_203mm_B-4"
+msgstr "203 mm B-4"
+
+msgid "_203mm_F-625D"
+msgstr "F-625D"
+
+msgid "_203mm_F-625DBM"
+msgstr "F-625DBM"
+
+msgid "_203mm_G-620"
+msgstr "G-620"
+
+msgid "_20mm_BC-20"
+msgstr "BC-20"
+
+msgid "_20mm_OF-20"
+msgstr "OF-20"
+
+msgid "_20mm_TNSH"
+msgstr "20 mm TNSh"
+
+msgid "_20mm_UBR-20"
+msgstr "UBR-20"
+
+msgid "_23mm_BC-23"
+msgstr "BC-23"
+
+msgid "_23mm_OF-23"
+msgstr "OF-23"
+
+msgid "_23mm_UBR-23"
+msgstr "UBR-23"
+
+msgid "_23mm_VJA"
+msgstr "23 mm VJa"
+
+msgid "_2pdr_APCNR_Mk.1"
+msgstr "APCNR Mk.1"
+
+msgid "_2pdr_AP_Mk.1T"
+msgstr "AP Mk.1T"
+
+msgid "_2pdr_HE_Mk.2"
+msgstr "HE Mk.2"
+
+msgid "_2pdr_QFSA"
+msgstr "QF 2-liberní Mk. IX-A"
+
+msgid "_37mm_APC_M51_LL"
+msgstr "M51"
+
+msgid "_37mm_AP_M74_LL"
+msgstr "M74"
+
+msgid "_37mm_B-3"
+msgstr "37 mm B-3"
+
+msgid "_37mm_BPT1"
+msgstr "BPT1"
+
+msgid "_37mm_BRT1"
+msgstr "BRT1"
+
+msgid "_37mm_Gochkins"
+msgstr "37 mm Hotchkiss"
+
+msgid "_37mm_HE_M63_LL"
+msgstr "M63"
+
+msgid "_37mm_M-5_LL"
+msgstr "37 mm M5"
+
+msgid "_37mm_UB-160"
+msgstr "UB-160"
+
+msgid "_37mm_UBK160A"
+msgstr "UBK-160A"
+
+msgid "_37mm_UBO160"
+msgstr "UBO-160"
+
+msgid "_37mm_UBR-160"
+msgstr "UBR-160"
+
+msgid "_37mm_UBR-160P"
+msgstr "UBR-160P"
+
+msgid "_37mm_UBR160PA"
+msgstr "UBR-160PA"
+
+msgid "_37mm_UBR160bis"
+msgstr "UBR-160 bis"
+
+msgid "_37mm_UBRT1"
+msgstr "UBRT1"
+
+msgid "_37mm_UO160A"
+msgstr "UO-160A"
+
+msgid "_37mm_UOF-160"
+msgstr "UOF-160"
+
+msgid "_37mm_UOT1"
+msgstr "UOT1"
+
+msgid "_37mm_ZiS-19"
+msgstr "37 mm ZiS-19"
+
+msgid "_37mm_ZiS-19_S"
+msgstr "37 mm ZiS-19S"
+
+msgid "_37mm_automatic_SH-37"
+msgstr "37 mm automat. SH-37"
+
+msgid "_45mm_20K"
+msgstr "45 mm 20K"
+
+msgid "_45mm_20KL"
+msgstr "45 mm 20KL"
+
+msgid "_45mm_20K_S"
+msgstr "45 mm 20KS"
+
+msgid "_45mm_UBK-240A"
+msgstr "UBK-240A"
+
+msgid "_45mm_UBK-243A"
+msgstr "UBK-243A"
+
+msgid "_45mm_UBR-240A"
+msgstr "UBR-240A"
+
+msgid "_45mm_UBR-240O"
+msgstr "UBR-240O"
+
+msgid "_45mm_UBR-240PA"
+msgstr "UBR-240PA"
+
+msgid "_45mm_UBR-243SP"
+msgstr "UBR-243SP"
+
+msgid "_45mm_UBR-243SPA"
+msgstr "UBR-243SPA"
+
+msgid "_45mm_UBR-243US"
+msgstr "UBR-243US"
+
+msgid "_45mm_UOF-240A"
+msgstr "UOF-240A"
+
+msgid "_45mm_UOF-243"
+msgstr "UOF-243"
+
+msgid "_45mm_VT-42"
+msgstr "45 mm VT-42"
+
+msgid "_45mm_ZiS-19BM"
+msgstr "45 mm ZiS-19BM"
+
+msgid "_45mm_ZiS-19BM_S"
+msgstr "45 mm ZiS-19BMS"
+
+msgid "_45mm_mod_1932"
+msgstr "45 mm mod. 1932."
+
+msgid "_57mm_413"
+msgstr "57 mm 413"
+
+msgid "_57mm_UBK-271A"
+msgstr "UBK-271A"
+
+msgid "_57mm_UBK-271AO"
+msgstr "UBK-271AO"
+
+msgid "_57mm_UBR-271K"
+msgstr "UBR-271K"
+
+msgid "_57mm_UBR-271KO"
+msgstr "UBR-271KO"
+
+msgid "_57mm_UBR-271N"
+msgstr "UBR-271N"
+
+msgid "_57mm_UBR-271NO"
+msgstr "UBR-271NO"
+
+msgid "_57mm_UBR-271O"
+msgstr "UBR-271O"
+
+msgid "_57mm_UBR-271OO"
+msgstr "UBR-271OO"
+
+msgid "_57mm_UO-271U"
+msgstr "UO-271U"
+
+msgid "_57mm_UO-271UO"
+msgstr "UO-271UO"
+
+msgid "_57mm_ZiS-2"
+msgstr "57 mm ZiS-2"
+
+msgid "_57mm_ZiS-4"
+msgstr "57 mm ZiS-4"
+
+msgid "_57mm_ZiS-4S"
+msgstr "57 mm ZiS-4S"
+
+msgid "_57mm_ZiS-8"
+msgstr "57 mm ZiS-8"
+
+msgid "_57mm_ZiS-8_S"
+msgstr "57 mm ZiS-8S"
+
+msgid "_6pdr_APCR_MK_1T"
+msgstr "6lbr APCR MK 1T"
+
+msgid "_6pdr_AP_MKs_4"
+msgstr "6lbr AP MKs 4"
+
+msgid "_6pdr_HE_MK_10T"
+msgstr "6lbr HE MK 10T"
+
+msgid "_71-TK-1"
+msgstr "71-TK-1"
+
+msgid "_71-TK-3"
+msgstr "71-TK-3"
+
+msgid "_71-TK-3U"
+msgstr "71-TK-3U"
+
+msgid "_76mm_BP-354"
+msgstr "BP-354"
+
+msgid "_76mm_F-32"
+msgstr "76 mm F-32"
+
+msgid "_76mm_F-32S"
+msgstr "76 mm F-32S"
+
+msgid "_76mm_F-34"
+msgstr "76 mm F-34"
+
+msgid "_76mm_KT-28"
+msgstr "76 mm KT-28"
+
+msgid "_76mm_L-10"
+msgstr "76 mm L-10"
+
+msgid "_76mm_L-10U"
+msgstr "76 mm L-10U"
+
+msgid "_76mm_L-10_S"
+msgstr "76 mm L-10S"
+
+msgid "_76mm_L-11"
+msgstr "76 mm L-11"
+
+msgid "_76mm_PS-3"
+msgstr "76 mm PS-3"
+
+msgid "_76mm_PS-3_S"
+msgstr "76 mm PS-3S"
+
+msgid "_76mm_S-54"
+msgstr "76 mm S-54"
+
+msgid "_76mm_S-54_S"
+msgstr "76 mm S-54S"
+
+msgid "_76mm_UBK-354M"
+msgstr "UBK-354M"
+
+msgid "_76mm_UBR-354"
+msgstr "UBR-354"
+
+msgid "_76mm_UBR-354A"
+msgstr "UBR-354A"
+
+msgid "_76mm_UBR-354K"
+msgstr "UBR-354K"
+
+msgid "_76mm_UBR-354KA"
+msgstr "UBR-354KA"
+
+msgid "_76mm_UBR-354KO"
+msgstr "UBR-354KO"
+
+msgid "_76mm_UBR-354MA"
+msgstr "UBR-354MA"
+
+msgid "_76mm_UBR-354MO"
+msgstr "UBR-354MO"
+
+msgid "_76mm_UBR-354MP"
+msgstr "UBR-354MP"
+
+msgid "_76mm_UBR-354O"
+msgstr "UBR-354O"
+
+msgid "_76mm_UOF-354"
+msgstr "UOF-354"
+
+msgid "_76mm_UOF-354K"
+msgstr "UOF-354K"
+
+msgid "_76mm_UOF-354M"
+msgstr "UOF-354M"
+
+msgid "_76mm_ZiS-3_mod_42"
+msgstr "76 mm ZiS-3"
+
+msgid "_76mm_ZiS-5"
+msgstr "76 mm ZiS-5"
+
+msgid "_76mm_ZiS-5_L50"
+msgstr "ZiS-5 L/50"
+
+msgid "_76mm_ZiS-96"
+msgstr "76 mm ZiS-96"
+
+msgid "_76mm_cannon_mod_1905_30"
+msgstr "76 mm houfnice mod. 1903/30"
+
+msgid "_76mm_cannon_mod_1927"
+msgstr "76 mm houfnice mod. 1927."
+
+msgid "_85mm_D-5S"
+msgstr "85 mm D-5S"
+
+msgid "_85mm_D-5S-85A"
+msgstr "85 mm D-5S-85A"
+
+msgid "_85mm_D-5T"
+msgstr "85 mm D-5T"
+
+msgid "_85mm_D5S-85BM"
+msgstr "85 mm D5S-85BM"
+
+msgid "_85mm_D5T-85BM"
+msgstr "85 mm D5T-85BM"
+
+msgid "_85mm_F-30"
+msgstr "85 mm F-30"
+
+msgid "_85mm_LB-2"
+msgstr "85 mm LB-2"
+
+msgid "_85mm_LB-2S"
+msgstr "85 mm LB-2S"
+
+msgid "_85mm_S-31"
+msgstr "85 mm S-31"
+
+msgid "_85mm_UBK-365K"
+msgstr "UBK-365K"
+
+msgid "_85mm_UBK-365KBM"
+msgstr "UBK-365KBM"
+
+msgid "_85mm_UBR-365K"
+msgstr "UBR-365K"
+
+msgid "_85mm_UBR-365KBM"
+msgstr "UBR-365KBM"
+
+msgid "_85mm_UBR-365O"
+msgstr "UBR-365O"
+
+msgid "_85mm_UBR-365OBM"
+msgstr "UBR-365OBM"
+
+msgid "_85mm_UBR-365P"
+msgstr "UBR-365P"
+
+msgid "_85mm_UBR-365PBM"
+msgstr "UBR-365PBM"
+
+msgid "_85mm_UOF-365BM"
+msgstr "UOF-365BM"
+
+msgid "_85mm_UOF-365K"
+msgstr "UOF-365K"
+
+msgid "_85mm_ZiS_S-53"
+msgstr "85 mm ZiS S-53"
+
+msgid "_9R"
+msgstr "9R"
+
+msgid "_9RK"
+msgstr "9RK"
+
+msgid "_9RM"
+msgstr "9RM"
+
+msgid "_9RS"
+msgstr "9RS"
+
+msgid "_RT-26E"
+msgstr "RT-26E"
+
+msgid "chassisE1_LL"
+msgstr "Stuart E1"

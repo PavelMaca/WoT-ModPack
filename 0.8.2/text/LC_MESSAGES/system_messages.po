@@ -1,0 +1,1294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2012-12-13 09:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: WoT Tým <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "XPToTmen/server_error"
+msgstr ""
+"Chyba při změně nastavení zrychleného výcviku posádky %s. Zkuste to později."
+
+msgid "XPToTmen/successFalse"
+msgstr "Zrychlený výcvik posádky %s je vypnut."
+
+msgid "XPToTmen/successTrue"
+msgstr "Zrychlený výcvik posádky %s je zapnut."
+
+msgid "actionAchievement/title"
+msgstr "Kampaňová medaile"
+
+msgid "actionAchievements/title"
+msgstr "Kampaňové medaile"
+
+msgid "addTankmanSkill/server_error"
+msgstr "Nepodařilo se vyzkoumat novou schopnost. Zkuste to později."
+
+msgid "addTankmanSkill/success"
+msgstr "Nová schopnost úspěšně naučena."
+
+msgid "addTankmanSkill/vehicle_need_repair"
+msgstr "Chyba při zkoumání nové schopnosti. Opravte svůj tank."
+
+msgid "addTankmanSkill/vehicle_need_wait"
+msgstr "Chyba při zkoumání nové schopnosti. Tank je uzamčen."
+
+msgid "addTankmanSkill/wrong_vehicle"
+msgstr "Chyba při zkoumání nové schopnosti. Špatný tank."
+
+msgid "another_periphery"
+msgstr "Stále jste přihlášen(a) na jiném serveru."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Chyba při vstupu do bitvy: již jste součástí týmu."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Chyba při vstupu do bitvy: špatný počet týmů."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr ""
+"Chyba připojení. Operace je dočasně nedostupná. Zkuste to znovu později."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Chyba při vstupu do bitvy: pozvánka expirovala."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Chyba připojení, nedostatečná oprávnění."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Chyba při vstupu do bitvy: tým byl již zformován."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Chyba při vstupu do bitvy: čas připojení vypršel."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Chyba připojení, nedostupné pro tento typ účtu."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Chyba při vstupu do bitvy."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Chyba připojení, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Chyba připojení. Vyberte si prosím server '%s'."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Chyba připojení. Vyberte si prosím jiný server."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Chyba při vstupu do bitvy: aktuální tank není připraven."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Do bitvy se nelze připojit, tank není připraven."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Aby jste se mohl(a) účastnit bitev, kupte si tank."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Chyba při vstupu do bitvy (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Chyba při vstupu do bitvy (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Chyba při vstupu do bitvy (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Chyba při vstupu do bitvy (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Chyba při vstupu do bitvy (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Chyba při vstupu do bitvy (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Chyba při vstupu do bitvy (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Chyba při vstupu do bitvy (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Chyba při vstupu do bitvy (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Chyba při vstupu do bitvy (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Chyba při vstupu do bitvy (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/timeout"
+msgstr ""
+"Čas vyhrazený čekání na bitvu vypršel. Vyberte si jiné vozidlo nebo to "
+"zkuste později znovu."
+
+msgid "bs/kickedFromQueue"
+msgstr ""
+"Nelze najít soupeře pro tuto speciální bitvu. Zvažte reorganizaci týmu."
+
+msgid "bs/memberJoined"
+msgstr "%s se připojil k týmu."
+
+msgid "bs/memberLeave"
+msgstr "%s opustil tým."
+
+msgid "bs/memberNotReady"
+msgstr "%s není připraven k boji pro tým."
+
+msgid "bs/memberOffline"
+msgstr "Spojení s %s bylo přerušeno."
+
+msgid "bs/memberReady"
+msgstr "%s je připraven k boji pro tým."
+
+msgid "buyTankman/limit"
+msgstr "Již jste překročil(a) dnešní limit volných členů posádek."
+
+msgid "buyTankman/not_enought_space"
+msgstr ""
+"Chyba při verbování člena posádky nebo jeho přesunu. V kasárnách není další "
+"postel. Uvolněte nějakou nebo kupte další."
+
+msgid "buyTankman/server_error"
+msgstr "Chyba při verbování člena posádky. Zkuste to později."
+
+msgid "buyTankman/success"
+msgstr "Člen posádky byl naverbován úspěšně."
+
+msgid "buy_berths/server_error"
+msgstr "Chyba při rozšiřování kasáren. Zkuste to později."
+
+msgid "buy_berths/success"
+msgstr "Kasárna byla úspěšně rozšířena za %s zlaťáků."
+
+msgid "buy_slot/server_error"
+msgstr "Chyba při nákupu stání. Zkuste to později."
+
+msgid "buy_slot/success"
+msgstr "Stání bylo úspěšně zakoupeno za %s."
+
+msgid "buy_vehicle_slot_error"
+msgstr ""
+"Nepodařilo se koupit tank '%s'. Nejsou žádná volná stání v garáži. "
+"Zauvažujte nad prodejem nepoužívaného tanku nebo nákupem nového stání."
+
+msgid "buy_vehicle_slot_error2"
+msgstr ""
+"Nepodařilo se koupit tank '%s'. Nejsou žádná volná stání v garáži. Prosím "
+"uvolněte stání."
+
+msgid "charge/credit_error"
+msgstr "Je třeba %s kreditů a %s zlaťáků. Doplňte munici manuálně."
+
+msgid "charge/credit_error_credits"
+msgstr "Je třeba o %s kreditů více. Doplňte munici manuálně."
+
+msgid "charge/credit_error_gold"
+msgstr "Je třeba o %s zlaťáků více. Doplňte munici manuálně."
+
+msgid "charge/inventory_error"
+msgstr ""
+"Munici se nepodařilo doplnit. Zauvažujte nad manuálním doplněním munice."
+
+msgid "charge/money_spent"
+msgstr "Celkem utraceno za munici %s."
+
+msgid "charge/server_error"
+msgstr "Munici se nepodařilo naložit. Zkuste to později."
+
+msgid "charge/server_error_save"
+msgstr "Munici se nepodařilo uložit. Zkuste to později."
+
+msgid "charge/success"
+msgstr "Munice naložena."
+
+msgid "charge/success_save"
+msgstr "Munice uložena úspěšně."
+
+msgid "checkout_error"
+msgstr ""
+"Chyba serveru při získávání informací o hráči. Zkuste to prosím později."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s '%s' není určeno pro tento tank."
+
+msgid "clientInstallError_too_heavy"
+msgstr ""
+"Hmotnost %s '%s' je příliš vysoká. Zauvažujte nad výměnou podvozku, nebo "
+"odlehčením tanku."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s '%s' nelze namontovat na tuto věž. Vyměňte věž."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s '%s' je špatného typu."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s '%s' není správné národnosti."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s '%s' není určeno pro tento tank."
+
+msgid "clientRemoveError_too_heavy"
+msgstr "Hmotnost %s '%s' je příliš vysoká. Zauvažujte nad odlehčením tanku."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s '%s' je špatného typu."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s '%s' není správné národnosti."
+
+msgid "connected"
+msgstr "Vítejte na serveru '%s' World of Tanks!"
+
+msgid "current_vehicle_changed"
+msgstr "Aktuální tank je nahrazen vozidlem '%s'."
+
+msgid "customization/camouflage_change_server_error"
+msgstr ""
+"Při stříkání kamufláže došlo k chybě na serveru. Zkuste to znovu později."
+
+msgid "customization/camouflage_change_success/credits"
+msgstr "Kamufláž byla úspěšně nastříkána. - Kreditů: %s."
+
+msgid "customization/camouflage_change_success/gold"
+msgstr "Kamufláž byla nastříkána úspěšně za %s zlaťáků."
+
+msgid "customization/camouflage_cost_not_found"
+msgstr "Nelze aplikovat kamufláž. Nelze zjistit cenu."
+
+msgid "customization/camouflage_days_not_selected"
+msgstr "Kamufláž nelze nastríkat. Vyberte si prosím lhůtu užívání kamufláže."
+
+msgid "customization/camouflage_drop_server_error"
+msgstr ""
+"Při smývání kamufláže došlo k chybě na serveru. Zkuste to znovu později."
+
+msgid "customization/camouflage_drop_success"
+msgstr "Kamufláž byla úspěšně smyta."
+
+msgid "customization/camouflage_get_cost_server_error"
+msgstr ""
+"Chyba serveru při získávání balíčků kamufláží. Zkuste to prosím později."
+
+msgid "customization/camouflage_not_found_to_drop"
+msgstr "Kamufláž nelze odstranit protože není vybrána."
+
+msgid "customization/camouflage_not_selected"
+msgstr "Kamufláž nelze nastříkat, protože není vybrána."
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Přizpůsobení nelze realizovat. Nedostatek kreditů a zlaťáků."
+
+msgid "customization/credits_not_enough"
+msgstr "Přizpůsobení nelze realizovat. Nedostatek kreditů."
+
+msgid "customization/emblem_change_server_error"
+msgstr "Chyba serveru při nahrazování emblému."
+
+msgid "customization/emblem_change_success/credits"
+msgstr "Emblém úspěšně nahrazen. - Kreditů: %s."
+
+msgid "customization/emblem_change_success/gold"
+msgstr "Emblém úspěšně nahrazen. Utraceno zlaťáků: %s."
+
+msgid "customization/emblem_cost_not_found"
+msgstr "Emblém nelze nahradit. Cena nenalezena."
+
+msgid "customization/emblem_days_not_selected"
+msgstr "Emblém nelze nahradit. Vyberte prosím dobu platnosti."
+
+msgid "customization/emblem_drop_server_error"
+msgstr "Chyba serveru při odstraňování emblému. Zkuste to později."
+
+msgid "customization/emblem_drop_success"
+msgstr "Emblém úspěšně odstraněn."
+
+msgid "customization/emblem_get_cost_server_error"
+msgstr "Chyba serveru při získávání balíčků emblému. Zkuste to později."
+
+msgid "customization/emblem_not_found_to_drop"
+msgstr "Emblém nelze odstranit. Aktuální emblém není vybrán."
+
+msgid "customization/emblem_not_selected"
+msgstr "Emblém nelze nahradit. Vyberte prosím emblém."
+
+msgid "customization/gold_not_enough"
+msgstr "Přizpůsobení není možné. Nedostatek zlaťáků."
+
+msgid "customization/horn_change_server_error"
+msgstr "Při výměně klaksonu došlo k chybě na serveru. Zkuste to znovu později."
+
+msgid "customization/horn_change_success"
+msgstr "Klakson byl úspěšně instalován za %s zlaťáků."
+
+msgid "customization/horn_cost_not_found"
+msgstr "Nelze namontovat klakson. Nelze zjistit cenu."
+
+msgid "customization/horn_drop_server_error"
+msgstr ""
+"Při odstraňování klaksonu došlo k chybě na serveru. Zkuste to znovu později."
+
+msgid "customization/horn_drop_success"
+msgstr "Klakson byl úspěšně odstraněn."
+
+msgid "customization/horn_get_cost_server_error"
+msgstr ""
+"Chyba serveru při získávání seznamu klaksonů v obchodě. Zkuste to prosím "
+"později."
+
+msgid "customization/horn_not_found_to_drop"
+msgstr "Klakson nelze odstranit, protože není vybrán."
+
+msgid "customization/horn_not_selected"
+msgstr "Klakson instalovat vyměnit, protože není vybrán."
+
+msgid "customization/inscription_change_server_error"
+msgstr "Chyba serveru při nahrazování nápisu. Zkuste to později."
+
+msgid "customization/inscription_change_success/credits"
+msgstr "Nápis úspěšně nahrazen. - Kreditů: %s."
+
+msgid "customization/inscription_change_success/gold"
+msgstr "Nápis úspěšně nahrazen. Utraceno zlaťáků: %s."
+
+msgid "customization/inscription_cost_not_found"
+msgstr "Nápis nelze nahradit. Cena nenalezena."
+
+msgid "customization/inscription_days_not_selected"
+msgstr "Nápis nelze nahradit. Vyberte prosím dobu platnosti."
+
+msgid "customization/inscription_drop_server_error"
+msgstr "Chyba serveru při odstraňování nápisu. Zkuste to později."
+
+msgid "customization/inscription_drop_success"
+msgstr "Nápis úspěšně odstaněn."
+
+msgid "customization/inscription_get_cost_server_error"
+msgstr "Chyba serveru při získávání balíčků emblému. Zkuste to později."
+
+msgid "customization/inscription_not_found_to_drop"
+msgstr "Nápis nelze odstranit. Aktuální nápis není vybrán."
+
+msgid "customization/inscription_not_selected"
+msgstr "Nápis nelze nahradit. Vyberte prosím nápis."
+
+msgid "customization/vehicle_damaged"
+msgstr "Přizpůsobení nelze realizovat. Vozidlo je poškozeno. Nutno opravit."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Přizpůsobení nelze realizovat. Vozidlo je vyřazeno. Nutno opravit."
+
+msgid "customization/vehicle_exploded"
+msgstr "Přizpůsobení nelze realizovat. Vozidlo je zničeno. Nutno opravit."
+
+msgid "customization/vehicle_locked"
+msgstr "Přizpůsobení není možné. Vozidlo je uzamčeno."
+
+msgid "denunciation/success"
+msgstr "Akceptována stížnost na %(name)s \"%(topic)s\"."
+
+msgid "disconnected"
+msgstr "Klient je odpojen od serveru."
+
+msgid "dismissTankman/server_error"
+msgstr "Nepodařilo se demobilizovat člena posádky. Zkuste to později."
+
+msgid "dismissTankman/success"
+msgstr "Člen posádky byl úspěšně demobilizován."
+
+msgid "dismissTankman/vehicle_need_repair"
+msgstr "Chyba při propouštění člena posádky. Opravte tank."
+
+msgid "dismissTankman/vehicle_need_wait"
+msgstr "Chyba při propouštění člena posádky. Tank je uzamčen."
+
+msgid "dismissTankman/wrong_vehicle"
+msgstr "Chyba při propouštění člena posádky. Špatný tank."
+
+msgid "dossiers_unavailable"
+msgstr "Účet není připraven (DOSSIERS_UNAVAILABLE)"
+
+msgid "dropTankmanSkill/server_error"
+msgstr "Nelze zapomenout schopnosti. Zkuste to později."
+
+msgid "dropTankmanSkill/success"
+msgstr "Všechny schopnosti a specializace úspěšně zapomenuty. Stálo to %s"
+
+msgid "dropTankmanSkill/vehicle_need_repair"
+msgstr "Chyba při zapomínání schopností. Opravte vaše vozidlo."
+
+msgid "dropTankmanSkill/vehicle_need_wait"
+msgstr "Chyba při zapomínání schopností. Vozidlo je uzamčeno."
+
+msgid "dropTankmanSkill/wrong_vehicle"
+msgstr "Chyba při zapomínání schopností. Špatné vozidlo."
+
+msgid "ebank/response/Account block"
+msgstr "Nelze koupit zlaťáky. Účet je zablokován."
+
+msgid "ebank/response/Account is not active"
+msgstr "Nelze koupit zlaťáky. Účet je neaktivní."
+
+msgid "ebank/response/Account is not exists"
+msgstr "Nelze koupit zlaťáky. Účet neexistuje."
+
+msgid "ebank/response/COOLDOWN"
+msgstr "Nelze pokračovat. Zuste to později."
+
+msgid "ebank/response/Cannot get required data: 'user'"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/Exception, Transaction error unknown"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/Existing transactions in system and has false"
+msgstr "Nelze koupit zlaťáky. Účet je zablokován."
+
+msgid "ebank/response/Existing transactions in system and has successfully"
+msgstr "Nelze koupit zlaťáky. Transkce probíhá."
+
+msgid "ebank/response/Invalid password"
+msgstr "Nelze koupit zlaťáky. Špatné heslo."
+
+msgid "ebank/response/Invalide code: -1000"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/MAX_TRANSACTION_VALUE"
+msgstr "Nelze koupit zlaťáky. Špatná maximální hodnota transakce."
+
+msgid "ebank/response/MIN_TRANSACTION_VALUE"
+msgstr "Nelze koupit zlaťáky. Špatná minimální hodnota transakce."
+
+msgid "ebank/response/NO_VCOIN"
+msgstr "Nelze koupit zlaťáky. Nedostatek VCOIN."
+
+msgid "ebank/response/Not enough money"
+msgstr "Nelze koupit zlaťáky. Nedostatek peněz."
+
+msgid "ebank/response/Product price is invalid"
+msgstr "Nelze koupit zlaťáky. Špatná cena."
+
+msgid "ebank/response/Receiver not exists"
+msgstr "Nelze koupit zlaťáky. Účet neexistuje."
+
+msgid "ebank/response/SHOP_DESYNC"
+msgstr "Server neodpovídá. Zkuste to později."
+
+msgid "ebank/response/ServiceID is not exists. [Service error]"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/ServiceKey is invalid. [Service error]"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/TIMEOUT"
+msgstr "Server neodpovídá. Zkuste to později."
+
+msgid "ebank/response/Transaction error in billing system"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/WRONG_ARGS_TYPE"
+msgstr "Server neodpovídá. Zkuste to později."
+
+msgid "ebank/response/WRONG_ARG_VALUE"
+msgstr "Server neodpovídá. Zkuste to později."
+
+msgid "ebank/response/WRONG_MULTIPLICITY"
+msgstr "Nelze koupit zlaťáky. Špatná hodnota transakce."
+
+msgid "ebank/response/success"
+msgstr "%(gold)s úspěšně zakoupeno. %(vcoin)s VCOIN utraceno."
+
+msgid "equipTankman/not_enought_space"
+msgstr "Chyba při přesunu tankisty do vozidla. Nedostatek místa v kasárnách."
+
+msgid "equipTankman/server_error"
+msgstr "Člena posádky se nepodařilo přesunout do vozidla. Zkuste to později."
+
+msgid "equipTankman/success"
+msgstr "Člen posádky úspěšně přesunut."
+
+msgid "equipTankman/vehicle_need_repair"
+msgstr "Chyba při přesunu člena posádky do vozidla. Opravte tank."
+
+msgid "equipTankman/vehicle_need_wait"
+msgstr "Chyba při přesunu člena posádky do vozidla. Tank je uzamčen."
+
+msgid "equipTankman/wrong_vehicle"
+msgstr "Chyba při přesunu člena posádky do vozidla. Špatný tank."
+
+msgid "exchange/server_error"
+msgstr "Chyba při konverzi %s zlaťáků. Zkuste to později."
+
+msgid "exchange/success"
+msgstr "%s zlaťáků zkonvertováno úspěšně."
+
+msgid "exchangeVehiclesXP/server_error"
+msgstr "Chyba při konverzi %d zkušeností."
+
+msgid "exchangeXP/server_error"
+msgstr "Chyba při konverzi %s zkušeností. Zkuste to později."
+
+msgid "exchangeXP/success"
+msgstr "Úspěšně zkonvertováno %s zkušeností za %s"
+
+msgid "fitting/artefact_apply_error_not_for_this_vehicle_type"
+msgstr "%s '%s' není určeno pro tento tank."
+
+msgid "fitting/artefact_apply_error_too_heavy"
+msgstr ""
+"Hmotnost %s '%s' je příliš vysoká. Zauvažujte nad výměnou podvozku nebo "
+"odlehčením tanku."
+
+msgid "fitting/artefact_apply_success"
+msgstr "%s '%s' namontováno na tank."
+
+msgid "fitting/artefact_apply_vehicle_broken"
+msgstr ""
+"Nelze namontovat %s '%s': vozidlo je poškozeno. Opravte vozidlo a zkuste to "
+"znovu."
+
+msgid "fitting/artefact_apply_vehicle_locked"
+msgstr "Nelze namontovat %s '%s': vozidlo je uzamčeno."
+
+msgid "fitting/artefact_buy_money_error"
+msgstr "K nákupu %s '%s', není dostatek %s"
+
+msgid "fitting/artefact_buy_server_error"
+msgstr "Nepodařilo se koupit %s '%s'. Zkuste to později."
+
+msgid "fitting/artefact_buy_success"
+msgstr "%s '%s' (%d ks) úspěšně zakoupeno. - %s."
+
+msgid "fitting/artefact_destroy_success"
+msgstr "%s '%s' zničeno demontáží."
+
+msgid "fitting/artefact_destroy_vehicle_broken"
+msgstr ""
+"Vozidlo je poškozeno. %s '%s' není zničeno. Opravte vozidlo a zkuste to "
+"znovu."
+
+msgid "fitting/artefact_destroy_vehicle_locked"
+msgstr "Vozidlo je uzamčeno. %s '%s' není zničeno."
+
+msgid "fitting/artefact_remove_error_too_heavy"
+msgstr ""
+"Nepodařilo se demontovat %s '%s'. Zauvažujte nad výměnou podvozku nebo "
+"odlehčením tanku."
+
+msgid "fitting/artefact_remove_gold_error_not_enough"
+msgstr "Nelze demontovat %s '%s': nedostatek zlaťáků."
+
+msgid "fitting/artefact_remove_gold_success"
+msgstr "%s '%s' demontováno za %s zlaťáků."
+
+msgid "fitting/artefact_remove_success"
+msgstr "%s '%s' bylo odmontováno z tanku."
+
+msgid "fitting/artefact_remove_vehicle_broken"
+msgstr ""
+"Vozidlo je poškozeno. %s '%s' není demontováno. Opravte vozidlo a zkuste to "
+"znovu."
+
+msgid "fitting/artefact_remove_vehicle_locked"
+msgstr "Vozidlo je uzamčeno. %s '%s' není demontováno."
+
+msgid "fitting/artefact_sell_server_error"
+msgstr "%s '%s' se nepodařilo prodat. Zkuste to později."
+
+msgid "fitting/artefact_sell_success"
+msgstr "%s '%s' (%d ks) úspěšně prodáno. + %s."
+
+msgid "fitting/artefact_server_apply_error"
+msgstr "Chyba serveru při montáži %s '%s'. Zkuste to později."
+
+msgid "fitting/artefact_server_remove_error"
+msgstr "Nepodařilo se demontovat %s '%s'. Zkuste to znovu později."
+
+msgid "fitting/module_apply_error_is_current"
+msgstr "%s '%s' je už namontováno."
+
+msgid "fitting/module_apply_error_no_gun"
+msgstr "Nepovedlo se namontovat %s '%s', dělo není ve skladu."
+
+msgid "fitting/module_apply_error_not_for_current_vehicle"
+msgstr "%s '%s' nelze namontovat na tuto věž. Vyměňte věž."
+
+msgid "fitting/module_apply_error_not_for_this_vehicle_type"
+msgstr "%s '%s' není určeno pro tento tank."
+
+msgid "fitting/module_apply_error_not_with_installed_equipment"
+msgstr "%s '%s' je nekompatibilní se spotřebním doplňkem '%s'."
+
+msgid "fitting/module_apply_error_too_heavy"
+msgstr ""
+"Hmotnost %s '%s' je příliš vysoká. Zauvažujte nad výměnou podvozku, nebo "
+"odlehčením tanku."
+
+msgid "fitting/module_apply_error_too_heavy_chassis"
+msgstr "Hmotnost %s '%s' je příliš vysoká. Zauvažujte nad odlehčením tanku."
+
+msgid "fitting/module_apply_error_wrong_item_type"
+msgstr "%s '%s' je špatného typu."
+
+msgid "fitting/module_apply_error_wrong_nation"
+msgstr "%s '%s' není správné národnosti."
+
+msgid "fitting/module_apply_success"
+msgstr "%s '%s' namontováno na tank."
+
+msgid "fitting/module_apply_success_gun_change"
+msgstr "%s '%s' namontováno na vozidlo s dělem '%s'."
+
+msgid "fitting/module_apply_vehicle_broken"
+msgstr ""
+"Nelze namontovat příslušenství %s '%s': vozidlo je poškozeno. Opravte "
+"vozidlo a zkuste to znovu."
+
+msgid "fitting/module_apply_vehicle_locked"
+msgstr "Tank je uzamčen, nelze namontovat %s '%s'."
+
+msgid "fitting/module_buy_money_error"
+msgstr "K nákupu %s '%s', není dostatek %s"
+
+msgid "fitting/module_buy_server_error"
+msgstr "Nepodařilo se koupit %s '%s'. Zkuste to později."
+
+msgid "fitting/module_buy_success"
+msgstr "%s '%s' (%d ks) úspěšně zakoupeno. - %s."
+
+msgid "fitting/module_sell_server_error"
+msgstr "%s '%s' se nepodařilo prodat. Zkuste to později."
+
+msgid "fitting/module_sell_success"
+msgstr "%s '%s' (%d ks) úspěšně prodáno. + %s."
+
+msgid "fitting/module_server_apply_error"
+msgstr "Chyba serveru při montáži %s '%s'. Zkuste to později."
+
+msgid "fitting/remove/incompatibleEqs"
+msgstr ""
+"Spotřební doplněk '%s' přesunut do skladu kvůli nekompatibilitě s aktuálním "
+"vybavením."
+
+msgid "fitting/shell_buy_money_error"
+msgstr "K nákupu %s, není dostatek %s."
+
+msgid "fitting/shell_buy_server_error"
+msgstr "Nepodařilo se koupit granáty %s. Zkuste to později."
+
+msgid "fitting/shell_buy_success"
+msgstr "Granáty %s (%d ks) úspěšně zakoupeny. - %s."
+
+msgid "fitting/shell_sell_server_error"
+msgstr "Nepodařilo se prodat granáty '%s'. Zkuste to později."
+
+msgid "fitting/shell_sell_success"
+msgstr "Granáty '%s' (%d ks) úspěšně prodány. + %s."
+
+msgid "fitting/vehicle_buy_max_exist"
+msgstr ""
+"Nepodařilo se koupit tank '%s'. Nemáte volné stání v garáži. Můžete buď "
+"prodat tank nebo stání dokoupit."
+
+msgid "fitting/vehicle_buy_money_error"
+msgstr "K nákupu vozidla '%s', není dostatek %s."
+
+msgid "fitting/vehicle_buy_server_error"
+msgstr "Nepodařilo se koupit tank '%s'. Možná takový už máte."
+
+msgid "fitting/vehicle_buy_server_error_centerDown"
+msgstr "Nelze zakoupit vozidlo '%s'. Služba je dočasně nedostupná."
+
+msgid "fitting/vehicle_buy_success"
+msgstr "Vozidlo '%s' úspěšně zakoupeno. - %s."
+
+msgid "fitting/vehicle_dismantling_sell_success"
+msgstr "Vozidlo '%s' úspěšně prodáno. Získáno + %s. Utraceno - %s."
+
+msgid "fitting/vehicle_sell_barracks_full"
+msgstr "Vozidlo '%s' nelze prodat. Není místo v kasárnách."
+
+msgid "fitting/vehicle_sell_limit"
+msgstr ""
+"Vozidlo '%s' nelze prodat. Pro dnešek byl dosažen limit počtu prodaných "
+"vozidel."
+
+msgid "fitting/vehicle_sell_server_error"
+msgstr "Nepodařilo se prodat tank '%s'. Zkuste to později."
+
+msgid "fitting/vehicle_sell_success"
+msgstr "Vozidlo '%s' úspěšně prodáno. + %s."
+
+msgid "freeXpToTmanSkill/error/NO_FREE_XP"
+msgstr "Chyba při výcviku člena posádky. Nedostatek volných zkušeností."
+
+msgid "freeXpToTmanSkill/error/No tankman with given id"
+msgstr "Chyba při výcviku člena posádky. Tento člen posádky neexistuje."
+
+msgid "freeXpToTmanSkill/error/SHOP_DESYNC"
+msgstr "Chyba při výcviku člena posádky. Zkuste to později."
+
+msgid "freeXpToTmanSkill/error/WRONG_ARGS_TYPE"
+msgstr "Chyba při výcviku člena posádky. Zkuste to později."
+
+msgid "freeXpToTmanSkill/success"
+msgstr "Člen posádky úspěšně vycvičen."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr ""
+"Для предотвращения возникновения игровой зависимости у несовершеннолетних "
+"пользователей выход в бой после 23:45 запрещен. В полночь вы будете "
+"отключены от сервера."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Чрезмерное нахождение в игре может навредить вашей повседневной жизни."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Zbývající čas relace hry: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr ""
+"Для предотвращения возникновения игровой зависимости у несовершеннолетних "
+"пользователей выход в бой по истечению лимита игрового времени запрещен. В "
+"%s вы будете отключены от сервера."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Trvání relace hry: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Zbývající čas do půlnoci: %(timeLeft)s"
+
+msgid "graficsOptionsFail"
+msgstr "Nekompatibilní grafická karta. Nelze použít následující volbu: %s."
+
+msgid "graficsPresetFail"
+msgstr ""
+"Nekompatibilní grafická karta. Vybranou konfiguraci grafického výstupu nelze "
+"použít."
+
+msgid "install_component"
+msgstr "%s '%s' namontováno na tank."
+
+msgid "install_vehicle_broken"
+msgstr ""
+"Nelze namontovat příslušenství %s '%s': vozidlo je poškozeno. Opravte "
+"vozidlo a zkuste to znovu."
+
+msgid "install_vehicle_locked"
+msgstr "Tank je uzamčen, nelze namontovat %s '%s'."
+
+msgid "inventory/item/already_exists"
+msgstr "Příslušenství %(typeString)s '%(userString)s' je již ve skladu."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Požadavek na montáž příslušenství odeslán. Čekám na odpověď serveru."
+
+msgid "inventory/item/not_found"
+msgstr ""
+"Příslušenství %(typeString)s '%(userString)s' není ve skladu k nalezení."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Vozidlo %(userString)s již je v garáži."
+
+msgid "inventory/vehicle/not_found"
+msgstr "Vozidlo %(userString)s není v garáži k nalezení."
+
+msgid "memberRosterChangedMain"
+msgstr "%s převelel %s na frontu."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s převelel %s do zálohy."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Nedostatek paměti. Prosím restartujte hru."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Nedostatek paměti. Kvalita textur byla snížena na nízkou."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Nedostatek paměti. Kvalita textur byla snížena na střední."
+
+msgid "no_readyVehicle"
+msgstr "Vozidlo není připraveno."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Chyba ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Chyba AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Chyba BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Chyba CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Velitel opustil tým."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Tým byl rozpuštěn."
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Demobilizace."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Chyba PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Čas vypršel."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Neznámá chyba."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Chyba VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Velitel vás vyloučil z čety."
+
+msgid "prebattle/kick/type/team"
+msgstr "Velitel vás vyloučil z roty."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Velitel vás vyloučil z týmu."
+
+msgid "prebattleReady/limits/ammo"
+msgstr ""
+"Naložená munice či spotřební doplňky brání vybranému vozidlu připojit se k "
+"této bitvě."
+
+msgid "prebattleReady/limits/classLevel"
+msgstr ""
+"Nepovolená úroveň vozidla pro tuto bitvu. Minimální úroveň tohoto typu: %s. "
+"Maximální úroveň tohoto typu: %s."
+
+msgid "prebattleReady/limits/components"
+msgstr ""
+"Namontované komponenty braní vybranému vozidlu připojit se k této bitvě."
+
+msgid "prebattleReady/limits/level"
+msgstr ""
+"Nepovolená úroveň vozidla pro tuto bitvu. Minimální úroveň: %s. Maximální "
+"úroveň: %s."
+
+msgid "prebattleReady/limits/nations"
+msgstr ""
+"Vozidla tohoto národa nemohou vstoupit do této bitvy. Vyberte si prosím z: "
+"%s."
+
+msgid "prebattleReady/limits/shells"
+msgstr "Naložená munice braní vybranému vozidlu připojit se k této bitvě."
+
+msgid "prebattleReady/limits/vehicles"
+msgstr "Vybraný vůz se nemůže připojit k této bitvě."
+
+msgid "prebattleReady/no_readyVehicle"
+msgstr "Vybraný vůz není připravený."
+
+msgid "prebattleReady/notSetReadyStatus"
+msgstr "K týmu se nelze přidat."
+
+msgid "premium/buyingSuccess"
+msgstr "Prémiový účet zakoupen na %d dnů. Utraceno %s."
+
+msgid "premium/continueSuccess"
+msgstr "Prémiový účet prodloužen o %d dnů. Utraceno %s."
+
+msgid "premium/server_error"
+msgstr "Chyba při nákupu prémiového účtu na %d dnů. Zkuste to později."
+
+msgid "reequipTankman/not_enought_space"
+msgstr "Chyba při nahrazování člena posádky. Nedostatek postelí v kasárnách."
+
+msgid "reequipTankman/server_error"
+msgstr "Nelze nahradit člena posádky. Zkuste to později."
+
+msgid "reequipTankman/success"
+msgstr "Člen posádky byl úspěšně nahrazen."
+
+msgid "reequipTankman/vehicle_need_repair"
+msgstr "Chyba při nahrazování člena posádky. Opravte vozidlo."
+
+msgid "reequipTankman/vehicle_need_wait"
+msgstr "Chyba při nahrazování člena posádky. Vozidlo je uzamčeno."
+
+msgid "reequipTankman/wrong_vehicle"
+msgstr "Chyba při nahrazování člena posádky. Špatné vozidlo."
+
+msgid "remove_component"
+msgstr "%s '%s' odstraněno z tanku."
+
+msgid "remove_vehicle_broken"
+msgstr ""
+"Tank je poškozen, nelze odstranit %s '%s'. Opravte tank a zkuste to znova."
+
+msgid "remove_vehicle_locked"
+msgstr "Tank je uzamčen, nelze odstranit %s '%s'."
+
+msgid "repair/credit_error"
+msgstr "Je potřeba o %s kreditů více na opravu tanku '%s' ."
+
+msgid "repair/server_error"
+msgstr "Chyba při opravě tanku '%s'. Zkuste to později."
+
+msgid "repair/success"
+msgstr "Vozidlo '%s' opraveno. - %s."
+
+msgid "replaceTankman/not_enough_money"
+msgstr "Nepodařilo se přepsat osobní data. Nedostatek kreditů."
+
+msgid "replaceTankman/server_error"
+msgstr "Nepodařilo se přepsat osobní data. Zkuste to později."
+
+msgid "replaceTankman/success"
+msgstr "Osobní data byla úspěšně přepsána. - %s"
+
+msgid "replaceTankman/vehicle_need_repair"
+msgstr "Chyba přepisu osobních dat. Opravte tank."
+
+msgid "replaceTankman/vehicle_need_wait"
+msgstr "Chyba přepisu osobních dat. Tank je uzamčen."
+
+msgid "replaceTankman/wrong_vehicle"
+msgstr "Chyba přepisu osobních dat. Špatný tank."
+
+msgid "retrainingTankman/server_error"
+msgstr "Nepodařilo se přeškolit člena posádky. Zkuste to později."
+
+msgid "retrainingTankman/success"
+msgstr "Člen posádky byl přeškolen úspěšně."
+
+msgid "retrainingTankman/vehicle_need_repair"
+msgstr "Chyba přeškolení člena posádky. Opravte tank."
+
+msgid "retrainingTankman/vehicle_need_wait"
+msgstr "Chyba přeškolení člena posádky. Tank je uzamčen."
+
+msgid "retrainingTankman/wrong_vehicle"
+msgstr "Chyba přeškolení člena posádky. Špatný tank."
+
+msgid "sell_vehicle_broken"
+msgstr "Tank je poškozen, nelze prodat '%s'. Opravte tank a zkuste to znova."
+
+msgid "sell_vehicle_locked"
+msgstr "Tank je uzamčen, nelze prodat '%s'."
+
+msgid "serverInstallError"
+msgstr "Chyba serveru při montáži %s '%s'. Zkuste to později."
+
+msgid "serverRemoveError"
+msgstr "Chyba při demontáži %s '%s', zkuste to později."
+
+msgid "server_shut_down"
+msgstr "Restartuje se herní server"
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr ""
+"Požadavek na nákup a montáž příslušenství odeslán. Čekám na odpověď serveru."
+
+msgid "shop/item/buy_server_error"
+msgstr ""
+"Nepodařilo se koupit %(typeString)s '%(userString)s'. Zkuste to prosím "
+"později."
+
+msgid "shop/item/buy_success"
+msgstr ""
+"Příslušenství %(typeString)s '%(userString)s' bylo zakoupeno úspěšně "
+"(%(count)d). Stálo to %(price)s."
+
+msgid "shop/item/not_enough_money"
+msgstr "K nákupu %(typeString)s '%(userString)s' potřebujete o %(price)s více."
+
+msgid "shop/item/not_found"
+msgstr ""
+"Příslušenství %(typeString)s '%(userString)s' není v obchodě k nalezení. "
+"Zkuste to prosím později."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "K nákupu %(userString)s potřebujete o %(price)s více."
+
+msgid "shop/vehicle/not_found"
+msgstr ""
+"Vozidlo %(userString)s není v obchodě k nalezení. Zkuste to prosím později."
+
+msgid "shop_resync"
+msgstr ""
+"Došlo ke změnám na serveru, rozhraní aktualizováno %(date)s v %(time)s."
+
+msgid "squad/createError"
+msgstr "Čety mohou zakládat pouze uživatelé s prémiovým účtem."
+
+msgid "squad/kickedFromQueue"
+msgstr ""
+"Pro vaši aktuální četu nelze nalézt vhodného soupeře, reorganizujte prosím "
+"svůj tým."
+
+msgid "squad/memberJoined"
+msgstr "%s se připojil k četě."
+
+msgid "squad/memberLeave"
+msgstr "%s opustil četu."
+
+msgid "squad/memberNotReady"
+msgstr "%s není připraven pro boj v četě."
+
+msgid "squad/memberOffline"
+msgstr "Spojení s %s bylo přerušeno."
+
+msgid "squad/memberReady"
+msgstr "%s je připraven pro boj v četě."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Nepodařilo se vstoupit do bitvy s četou."
+
+msgid "team/createError"
+msgstr "Zakládat roty mohou pouze uživatelé s prémiovým účtem."
+
+msgid "team/kickedFromQueue"
+msgstr ""
+"Pro vaši aktuální rotu nelze nalézt soupeře. Zvažte reorganizaci vašich "
+"jednotek."
+
+msgid "team/memberJoined"
+msgstr "%s se přidal k rotě."
+
+msgid "team/memberLeave"
+msgstr "%s opustil rotu."
+
+msgid "team/memberNotReady"
+msgstr "%s není připraven pro boj v rotě."
+
+msgid "team/memberOffline"
+msgstr "Spojení s %s bylo přerušeno."
+
+msgid "team/memberReady"
+msgstr "%s je připraven pro boj v rotě."
+
+msgid "team/notSetReadyStatus"
+msgstr "Nepodařilo se vstoupit do bitvy s rotou."
+
+msgid "technicalMaintenance/error/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr ""
+"Chyba při údržbě vozidla %s. Nelze přidat spotřební doplňky. Zkuste to "
+"později."
+
+msgid "technicalMaintenance/error/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr ""
+"Chyba při údržbě vozidla %s. Nelze přidat spotřební doplňky. Zkuste to "
+"později."
+
+msgid "technicalMaintenance/error/Cannot equip equipment"
+msgstr ""
+"Chyba při údržbě vozidla %s. Nelze přidat spotřební doplňky. Zkuste to "
+"později."
+
+msgid "technicalMaintenance/error/Cannot equip shells"
+msgstr "Chyba při údržbě vozidla %s. Nelze přidat munici."
+
+msgid "technicalMaintenance/error/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr ""
+"Chyba při údržbě vozidla %s. Nelze přidat munici. Bedna s municí je plná."
+
+msgid "technicalMaintenance/error/Component is not in shop"
+msgstr ""
+"Chyba při údržbě vozidla %s. Nelze přidat spotřební doplňky. Zkuste to "
+"později."
+
+msgid "technicalMaintenance/error/EQS_NO_CREDITS"
+msgstr ""
+"Chyba při údržbě vozidla %s. Nedostatek kreditů ke koupi spotřebních dopňků."
+
+msgid "technicalMaintenance/error/EQS_NO_GOLD"
+msgstr ""
+"Chyba při údržbě vozidla %s. Nedostatek zlaťáků ke koupi spotřebních dopňků."
+
+msgid "technicalMaintenance/error/NOT_RESEARCHED_ITEM"
+msgstr ""
+"Chyba při údržbě vozidla %s. Nelze přidat spotřební doplňky. Zkuste to "
+"později."
+
+msgid "technicalMaintenance/error/No vehicle with given id"
+msgstr "Chyba při údržbě vozidla %s. Špatné vozidlo."
+
+msgid "technicalMaintenance/error/SHELLS_NO_CREDITS"
+msgstr "Chyba při údržbě vozidla %s. Nedostatek kreditů ke koupi munice."
+
+msgid "technicalMaintenance/error/SHELLS_NO_GOLD"
+msgstr "Chyba při údržbě vozidla %s. Nedostatek zlaťáků ke koupi munice."
+
+msgid "technicalMaintenance/error/SHOP_DESYNC"
+msgstr "Chyba při údržbě vozidla %s. Zkuste to později."
+
+msgid "technicalMaintenance/error/Vehicle is locked"
+msgstr "Chyba při údržbě vozidla %s. Vozidlo je uzamčeno."
+
+msgid "technicalMaintenance/error/WRONG_ARGS_TYPE"
+msgstr "Chyba při údržbě vozidla %s. Zkuste to později."
+
+msgid "technicalMaintenance/error/WRONG_ARG_VALUE"
+msgstr "Chyba při údržbě vozidla %s. Zkuste to později."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Převod zlaťáků nedokončen. Příjemce odmítl transakci."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Převod zlaťáků není dostupný."
+
+msgid "tradingError/NO_WARES"
+msgstr "Zlaťáky nelze převést, protože jich tolik nemáte."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Další převody je možné realizovat až zítra."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Při převodu zlaťáků došlo k chybě. Zkuste to později."
+
+msgid "training/error/swapTeams"
+msgstr "Chyba serveru při pokusu o prohození týmů. Zkuste to později."
+
+msgid "unloadCrew/not_enought_space"
+msgstr "Chyba při přesunu posádky do kasáren. Nedostatek postelí."
+
+msgid "unloadCrew/server_error"
+msgstr "Nelze přesunou posádku do kasáren. Zkuste to později."
+
+msgid "unloadCrew/success"
+msgstr "Posádka úspěně přesunuta do kasáren."
+
+msgid "unloadCrew/vehicle_need_repair"
+msgstr "Chyba při přesunu posádky do kasáren. Opravte vozidlo."
+
+msgid "unloadCrew/vehicle_need_wait"
+msgstr "Chyba při přesunu posádky do kasáren. Vozidlo je uzamčeno."
+
+msgid "unloadCrew/wrong_vehicle"
+msgstr "Chyba při přesunu posádky do kasáren. Špatné vozidlo."
+
+msgid "unloadTankman/not_enought_space"
+msgstr "Chyba při přesunu člena posádky do kasáren. Nedostatek postelí."
+
+msgid "unloadTankman/server_error"
+msgstr "Nelze přesunou člena posádky do kasáren. Zkuste to později."
+
+msgid "unloadTankman/success"
+msgstr "Člen posádky úspěně přesunut do kasáren."
+
+msgid "unloadTankman/vehicle_need_repair"
+msgstr "Chyba při přesunu člena posádky do kasáren. Opravte vozidlo."
+
+msgid "unloadTankman/vehicle_need_wait"
+msgstr "Chyba při přesunu člena posádky do kasáren. Vozidlo je uzamčeno."
+
+msgid "unloadTankman/wrong_vehicle"
+msgstr "Chyba při přesunu člena posádky do kasáren. Špatné vozidlo."
+
+msgid "unlocks/drawFailed"
+msgstr "Chybné nastavení. Technologický strom je uzamčen."
+
+msgid "unlocks/in_processing"
+msgstr "Odeslán požadavek na výzkum. Čekám na odpověď serveru."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "%(typeString)s '%(userString)s' je již vyzkoumáno."
+
+msgid "unlocks/item/server_error"
+msgstr ""
+"Chyba serveru při výzkumu příslušenství %(typeString)s '%(userString)s'. "
+"Zkuste to později."
+
+msgid "unlocks/item/unlock_success"
+msgstr ""
+"Příslušenství %(typeString)s '%(userString)s' vyzkoumáno za %(vehXP)s "
+"zkušeností a %(freeXP)s volných zkušeností."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "Vozidlo %(userString)s je již vyzkoumáno."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Chyba serveru při výzkumu vozidla %(userString)s. Zkuste to později."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr ""
+"Vozidlo %(userString)s vyzkoumáno za %(vehXP)s zkušeností a %(freeXP)s "
+"volných zkušeností."
+
+msgid "upgradeTankman/server_error"
+msgstr "Chyba při výcviku člena posádky. Zkuste to později."
+
+msgid "upgradeTankman/success"
+msgstr "Výcvik úspěšně dokončen."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Požadavek na montáž příslušenství odeslán. Čekám na odpověď serveru."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr ""
+"Nepodařilo se koupit %(typeString)s '%(userString)s'. Zkuste to prosím "
+"později."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr ""
+"Příslušenství %(typeString)s '%(userString)s' bylo zakoupeno úspěšně "
+"(%(count)d). Stálo to %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Příslušenství %(typeString)s '%(userString)s' je již ve skladu."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "%(typeString)s '%(userString)s' je již vyzkoumáno."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "K nákupu %(typeString)s '%(userString)s' potřebujete o %(price)s více."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr ""
+"Příslušenství %(typeString)s '%(userString)s' není ve skladu k nalezení."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr ""
+"Příslušenství %(typeString)s '%(userString)s' není v obchodě k nalezení. "
+"Zkuste to prosím později."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr ""
+"%(typeString)s '%(userString)s' vyzkoumán za %(unspentXP)s zkušeností a "
+"%(freeXP)s volných zkušeností."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Odeslán požadavek na výzkum. Čekám na odpověď serveru."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "Vozidlo %(userString)s již je v garáži."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "Vozidlo %(userString)s je již vyzkoumáno."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "K nákupu %(userString)s potřebujete o %(price)s více."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "Vozidlo %(userString)s není v garáži k nalezení."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr ""
+"Vozidlo %(userString)s není v obchodě k nalezení. Zkuste to prosím později."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr ""
+"Tank %(userString)s vyzkoumán za %(unspentXP)s zkušeností a %(freeXP)s "
+"volných zkušeností."
+
+msgid "window/buttons/close"
+msgstr "Zavřít"
+
+msgid "wrong_slot"
+msgstr "%s '%s' nelze umístit do %s."
