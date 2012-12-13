@@ -108,11 +108,11 @@
   // Hit log (my hits calculator)
   "hitLog": {
     "enabled": true,      // on/off switch
-    "x": 270,             // X position (negative values - bind to right side of screen)
+    "x": 370,             // X position (negative values - bind to right side of screen)
     "y": 5,               // Y position (negative values - bind to bottom side of screen)
     "w": 500,             // Width
     "h": 1000,            // Height
-    "lines": 3,           // Number of lines. Old lines will be pushed out
+    "lines": 5,           // Number of lines. Old lines will be pushed out
     "direction": "down",  // Log direction: up - lines will be added from up to down, down - from down to up.
     "insertOrder": "end", // Insert order: begin - insert new values to begin, end - add to end
     "groupHitsByPlayer": true, // group hits by players name
@@ -120,7 +120,7 @@
     "deadMarker": "<font face='Wingdings'>N</font>",
     "blowupMarker": "<font face='Wingdings'>M</font>",
     // Hits header format, including last hit (macros allowed, see readme-en.txt)
-    "formatHeader":  "<font color='#FFFFFF'>Hits:</font> <font size='13'>#{{n}}</font> <font size='0{{vehicle}}'><b>{{dmg-total}}</b>  <font color='#FFFFFF'>Last:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font></font>",
+    "formatHeader":  "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>#{{n}}</font> <font size='0{{vehicle}}'><b>{{dmg-total}}</b>  <font color='#FFFFFF'>Poslední:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font></font>",
     // List of hits format (macros allowed, see readme-en.txt)
     "formatHistory": "<textformat leading='-4' tabstops='[20,50,90,150]'><font size='12'>\u00D7{{n-player}}:</font><tab>{{dmg-player}}<tab>| <font color='{{c:dmg-kind}}'>{{dmg}}</font><tab>| <font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab>| <font color='{{c:vtype}}'>{{vehicle}} {{dead}}</font></textformat>",
     "shadow": {                       //   Shadow options
@@ -139,10 +139,10 @@
     "appendPlus" : true, // append plus to three capturers. Cant calculate more than three.
     // Capture format (macros allowed, see readme-en.txt)
     "enemy": {
-      "primaryTitleFormat":   "<font size='16' color='#000000'>Obsazování nepřátelské základny! {{extra}}</font>", // Upper textfield
-      "secondaryTitleFormat": "<font size='16' color='#000000'>{{points}}</font>",              // Lower textfield
-      "captureDoneFormat":    "<font size='16' color='#000000'>Nepřátelská základna obsazena!</font>",    // Full capture text
-      "extra": "Capturers: <b>{{tanks}}</b> Timeleft: <b>{{time}}<b>",                          // Extra text available after necessary calculations
+      "primaryTitleFormat":   "<font size='15' color='#000000'>Obsazování nepřátelské základny! {{extra}}</font>", // Upper textfield
+      "secondaryTitleFormat": "<font size='15' color='#000000'>{{points}}</font>",              // Lower textfield
+      "captureDoneFormat":    "<font size='15' color='#000000'>Nepřátelská základna obsazena!</font>",    // Full capture text
+      "extra": "Obsazujicích: <b>{{tanks}}</b> Zbývá: <b>{{time}}<b>",                          // Extra text available after necessary calculations
       "shadow": {          // Fields shadow
         "color": "0xEEEEEE", // Color
         "alpha": 75,       // Alpha 0-100
@@ -151,10 +151,10 @@
       }
     },
     "ally": {
-      "primaryTitleFormat":   "<font size='16' color='#000000'>Obsazování spojenecké základny! {{extra}}</font>", // Upper textfield
-      "secondaryTitleFormat": "<font size='16' color='#000000'>{{points}}</font>",              // Lower textfield
-      "captureDoneFormat":    "<font size='16' color='#000000'>Spojenecká základna obsazena!</font>",     // Full capture text
-      "extra": "Capturers: <b>{{tanks}}</b> Timeleft: <b>{{time}}<b>",                          // Extra text available after necessary calculations
+      "primaryTitleFormat":   "<font size='15' color='#000000'>Obsazování spojenecké základny! {{extra}}</font>", // Upper textfield
+      "secondaryTitleFormat": "<font size='15' color='#000000'>{{points}}</font>",              // Lower textfield
+      "captureDoneFormat":    "<font size='15' color='#000000'>Spojenecká základna obsazena!</font>",     // Full capture text
+      "extra": "Obsazujicích: <b>{{tanks}}</b> Zbývá: <b>{{time}}<b>",                          // Extra text available after necessary calculations
       "shadow": {          // Fields shadow
         "color": "0xEEEEEE", // Color
         "alpha": 75,       // Alpha 0-100
@@ -165,7 +165,7 @@
   },
   // Minimap
   "minimap": {
-    "enabled": false,  // On/off modification switch
+    "enabled": true,  // On/off modification switch
     "iconScale": 1,   // Minimap icon and attached text scaling factor
     "nickShrink": 4,  // Nickname shrink value for {{short-nick}} macro
     "textOffsetX": 0, // Attached text X offset relative to icon
