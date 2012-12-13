@@ -102,8 +102,8 @@
   },
   // {{turret}} marker display strings
   "turretMarkers": {
-    "highVulnerability": "*", // Subject has stock turret and top gun can not be mounted. Subject is highly vulnerable.
-    "lowVulnerability": "'"   // Subject has stock turret and top gun can be mounted. Subject is somewhat vulnerable.
+    "highVulnerability": " <font face='Wingdings' size='11' color='#79BE7E'>ţ</font>", // Subject has stock turret and top gun can not be mounted. Subject is highly vulnerable.
+    "lowVulnerability": " <font face='Wingdings' size='11' color='#E15858'>ý</font>"   // Subject has stock turret and top gun can be mounted. Subject is somewhat vulnerable.
   },
   // Hit log (my hits calculator)
   "hitLog": {
@@ -120,9 +120,9 @@
     "deadMarker": "<font face='Wingdings'>N</font>",
     "blowupMarker": "<font face='Wingdings'>M</font>",
     // Hits header format, including last hit (macros allowed, see readme-en.txt)
-    "formatHeader":  "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>#{{n}}</font> <font size='0{{vehicle}}'><b>{{dmg-total}}</b>  <font color='#FFFFFF'>Poslední:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font></font>",
+    "formatHeader":  "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>#{{n}}</font> <font size='0{{vehicle}}'><font color='#FFFFFF'>Poškození:</font><b>{{dmg-total}}</b>  <font color='#FFFFFF'>Poslední:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font></font>",
     // List of hits format (macros allowed, see readme-en.txt)
-    "formatHistory": "<textformat leading='-4' tabstops='[20,50,90,150]'><font size='12'>\u00D7{{n-player}}:</font><tab>{{dmg-player}}<tab>| <font color='{{c:dmg-kind}}'>{{dmg}}</font><tab>| <font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab>| <font color='{{c:vtype}}'>{{vehicle}} {{dead}}</font></textformat>",
+    "formatHistory": "<textformat leading='-4' tabstops='[20,50,90,150]'><font size='12'>\u00D7{{n-player}}:</font><tab>{{dmg-player}}<tab>| <font color='{{c:dmg-kind}}'>{{dmg}}</font><tab>| <font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab>| <font color='{{c:vtype}}'>{{vehicle}} {{dead}}</font>| {{name}}</textformat>",
     "shadow": {                       //   Shadow options
       "alpha": 100,                   //     Opacity
       "color": "0x000000",            //     Color
@@ -171,10 +171,10 @@
     "textOffsetX": 0, // Attached text X offset relative to icon
     "textOffsetY": 0, // Attached text Y offset relative to icon
     "format": {       // Attached text format. Macroses {{level}}, {{vehicle}}, {{short-nick}}
-      "ally":  "{{level}}", // Ally
-      "enemy": "{{level}}", // Enemy
-      "squad": "{{level}} <i>{{short-nick}}</i>", // Squadmates
-      "oneself": "<b>{{level}}</b>" // For oneself and camera receiver in case of death
+      "ally":  "{{level}} {{vehicle}}", // Ally
+      "enemy": "{{level}} {{vehicle}}", // Enemy
+      "squad": "{{level}} {{vehicle}} <i>{{short-nick}}</i>", // Squadmates
+      "oneself": "<b>{{level}} {{vehicle}}</b>" // For oneself and camera receiver in case of death
     },
     "css": { // Attached text style
       "ally":    "font-family:$FieldFont; font-size:6px; color:#BBEEBB;", // Ally
