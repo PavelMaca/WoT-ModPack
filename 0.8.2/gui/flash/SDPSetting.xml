@@ -6,6 +6,7 @@
 	
 	<!--Настройка индикатора танка-->
 	<tankStyle alpha="100"> <!--Значение alpha от 100 до 0, 100 - непрозрачный индикатор.-->		
+		<location x="115" y="130" center="false"/>
 		<gun alpha="100"/> <!--Прозрачность орудия.-->
 		<turret alpha="100"/> <!--Прозрачность башни.-->
 		<hull alpha="100"/> <!--Прозрачность корпуса.-->
@@ -99,27 +100,35 @@
 	
 	<!--Настройка модулей-->
 	<moduleStyle alpha="50"> <!--alpha - Настройка прозрачности иконки неповрежденного модуля. Значение alpha от 100 до 0, 100 - непрозрачная иконка.-->
+		<!--Двигатель-->
 		<engine>
 			<location x="4" y="42" center="false"/>
 		</engine>
+		<!--Боеукладка-->
 		<ammoBay>
 			<location x="4" y="82" center="false"/>
 		</ammoBay>
+		<!--Орудие-->
 		<gun>
 			<location x="4" y="122" center="false"/>
 		</gun>
+		<!--Башня-->
 		<turretRotator>
 			<location x="4" y="162" center="false"/>
 		</turretRotator>
+		<!--Шасси-->
 		<chassis>
 			<location x="180" y="42" center="false"/>
 		</chassis>
+		<!--Триплекс-->
 		<surveyingDevice>
 			<location x="180" y="82" center="false"/>
 		</surveyingDevice>
+		<!--Радио-->
 		<radio>
 			<location x="180" y="122" center="false"/>
 		</radio>
+		<!--Баки-->
 		<fuelTank>
 			<location x="180" y="162" center="false"/>
 		</fuelTank>
@@ -149,5 +158,10 @@
 	<vehicleMessagesPanel>
 		<location y="68"/>
 	</vehicleMessagesPanel>
+	
+	<!--Настройка чата-->
+	<battleMessenger>
+		<location x="0" y="622"/>
+	</battleMessenger>
 	
 </damagePanel>
