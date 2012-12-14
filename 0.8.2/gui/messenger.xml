@@ -40,7 +40,7 @@
     </prebattle>
   </lobby>
   <battle>
-    <lifeTime>	15	</lifeTime>
+    <lifeTime>	30	</lifeTime>
     <alphaSpeed>	3	</alphaSpeed>
     <inactiveStateAlpha>	35	</inactiveStateAlpha>
     <hintText>&lt;font color="#b2b1a4"&gt;&lt;b&gt;[_(#controls:keyboard/key_tab)]&lt;/b&gt;&lt;/font&gt; _(#messenger:battle/hints/changeReceiver)</hintText>
@@ -158,17 +158,17 @@ _(#messenger:battle/toolTips/duringChat)
       <message>&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </adminMessage>
     <battleVictoryResult>
-      <type>	battleResult	</type>
+      <type>	green	</type>
       <icon>	BattleResultIcon	</icon>
       <message>&lt;font color='#00EE00'&gt;_(#messenger:serviceChannelMessages/battleResults/victory)! &lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#00EE00'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#1E90FF'&gt;%(xp)s&lt;/font&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#EEEE00'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s</message>
     </battleVictoryResult>
     <battleDrawGameResult>
-      <type>	battleResult	</type>
+      <type>	blue	</type>
       <icon>	BattleResultIcon	</icon>
       <message>&lt;font color='#EE00EE'&gt;_(#messenger:serviceChannelMessages/battleResults/drawGame) &lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#EE00EE'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#1E90FF'&gt;%(xp)s&lt;/font&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#EEEE00'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s</message>
     </battleDrawGameResult>
     <battleDefeatResult>
-      <type>	battleResult	</type>
+      <type>	red	</type>
       <icon>	BattleResultIcon	</icon>
       <message>&lt;font color='#EE0000'&gt;_(#messenger:serviceChannelMessages/battleResults/defeat) &lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#EE0000'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#1E90FF'&gt;%(xp)s&lt;/font&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#EEEE00'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s</message>
     </battleDefeatResult>

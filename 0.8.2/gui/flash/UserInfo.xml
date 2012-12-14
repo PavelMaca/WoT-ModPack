@@ -103,6 +103,23 @@
     <tanks>                                  
 	<china-Ch01_Type59.png              type="2"				  />
 	<china-Ch02_Type62.png              type="1"				  />
+	<china-Ch04_T34_1.png               type="2"				  />
+	<china-Ch05_T34_2.png               type="2"				  />
+	<china-Ch06_Renault_NC31.png        type="1"				  />
+	<china-Ch07_Vickers_MkE_Type_BT26.png       type="1"				  />
+	<china-Ch08_Type97_Chi_Ha.png       type="2"				  />
+	<china-Ch09_M5.png                  type="1"				  />
+	<china-Ch10_IS2.png                 type="3"				  />
+	<china-Ch11_110.png                 type="3"				  />
+	<china-Ch12_111_1_2_3.png           type="3"				  />
+	<china-Ch13_111_4_5.png             type="3"				  />
+	<china-Ch15_59_16.png               type="1"				  />
+	<china-Ch16_WZ_131.png              type="1"				  />
+	<china-Ch17_WZ131_1_WZ132.png       type="1"				  />
+	<china-Ch18_WZ-120.png              type="2"				  />
+	<china-Ch19_121.png                 type="2"				  />
+	<china-Ch20_Type58.png              type="2"				  />
+	<china-Ch21_T34.png                 type="2"				  />
 	<china-Ch03_WZ-111.png              type="3"				  />
 	<france-_105_leFH18B2.png           type="5"				  />
 	<france-AMX_105AM.png               type="5"				  />
