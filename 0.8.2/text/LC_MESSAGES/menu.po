@@ -1619,7 +1619,7 @@ msgid "premium/submitContinue"
 msgstr "Prodloužit"
 
 msgid "price/credits"
-msgstr "kreditů"
+msgstr "Kreditů"
 
 msgid "price/gold"
 msgstr "zlaťáků"
@@ -1835,7 +1835,7 @@ msgid "repair/button"
 msgstr "Opravit"
 
 msgid "repair/curiency"
-msgstr "kreditů"
+msgstr "Kreditů"
 
 msgid "repair/repairstatus"
 msgstr "Opraveno:"
