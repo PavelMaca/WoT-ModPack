@@ -1,4 +1,4 @@
-﻿<!-- Итого за бой + Статистика за сессию -->
+<!-- Итого за бой + Статистика за сессию -->
 <!-- Автор: Vslav666 -->
 
 <!-- Для редактирования ServiceChannelPage.xml используйте редактор с поддержкой кодировки UTF-8, например Notepad++.
@@ -13,9 +13,9 @@ WordPad не поддерживает эту кодировку и "убивае
 <!-- #ffffff - Цвет в 16-ричной системе исчисления -->
 
 <config>
-	<TypeMod>2</TypeMod>									<!-- [1|2|3|4] Тип мода цветных сообщений -->
+	<TypeMod>4</TypeMod>									<!-- [1|2|3|4] Тип мода цветных сообщений -->
 															<!-- 1-стандарт, 2-МСМ(Vslav, Set, V2, Stiv372, Veslo, V1), 3-ЯсенКрасен, 4-MCM(V0, V3, Hewlett) -->
-	<PremiumAccount>true</PremiumAccount>					<!-- [true|false] Премиум аккаунт -->
+	<PremiumAccount>false</PremiumAccount>					<!-- [true|false] Премиум аккаунт -->
 															<!-- true (истина) = Премиум аккаунт, false (ложь) = Обычный аккаунт -->
 	<SeparatorGroupsOfDigits>space</SeparatorGroupsOfDigits>	<!-- [c] Разделитель групп разрядов чисел ("space" - для русского варианта, "." - для англоязычных вариантов, возможен другой односимвольный разделитель) -->
 																<!-- c - один символ, исключение символ "пробел", пишем слово "space" -->
@@ -23,7 +23,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		<StartPos>40</StartPos>								<!-- [n] Отступ от левого края в пикселах -->
 		<Repair>					<!-- Ремонт -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Ремонт:</Title>							<!-- [s] текст заголовка -->
+			<Title>Oprava:</Title>							<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#CDC673</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
@@ -36,7 +36,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		</Repair>
 		<Ammunition>				<!-- Боекомплект -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Боекомплект:</Title>						<!-- [s] текст заголовка -->
+			<Title>Munice:</Title>						<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#CDC673</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
@@ -55,7 +55,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		</Ammunition>
 		<Equipment>					<!-- Снаряжение -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Снаряжение:</Title>						<!-- [s] текст заголовка -->
+			<Title>Doplňky:</Title>						<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#CDC673</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
@@ -74,7 +74,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		</Equipment>
 		<Total>						<!-- Итого -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Итого:</Title>							<!-- [s] текст заголовка -->
+			<Title>Celkem:</Title>							<!-- [s] текст заголовка -->
 			<Bold>true</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#CDC673</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
@@ -98,7 +98,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		<Color>green</Color>								<!-- [green|yellow|red|grey|lightGrey|action] Цвет блока -->
 		<Battle>					<!-- Колво боев -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Побед/боёв:</Title>						<!-- [s] текст заголовка -->
+			<Title>Vítězství / Bitev:</Title>						<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
@@ -124,7 +124,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		</Battle>
 		<Experience>				<!-- Опыт -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Опыт:</Title>							<!-- [s] текст заголовка -->
+			<Title>Zkušenosti:</Title>							<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
@@ -141,7 +141,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		</Experience>
 		<ExperienceX1>				<!-- Опыт, приведенный к X1 -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Опыт (x1):</Title>						<!-- [s] текст заголовка -->
+			<Title>Zkušenosti (x1):</Title>						<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
@@ -158,7 +158,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		</ExperienceX1>
 		<FreeExperience>				<!-- Свободный Опыт -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Своб.опыт:</Title>							<!-- [s] текст заголовка -->
+			<Title>Volné zk.:</Title>							<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
@@ -175,7 +175,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		</FreeExperience>
 		<Credit>					<!-- Кредиты -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Кредиты:</Title>							<!-- [s] текст заголовка -->
+			<Title>Kredity:</Title>							<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
@@ -200,7 +200,7 @@ WordPad не поддерживает эту кодировку и "убивае
 		</Credit>
 		<Gold>						<!-- Золото -->
 			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Золото:</Title>							<!-- [s] текст заголовка -->
+			<Title>Zlaťáky:</Title>							<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
