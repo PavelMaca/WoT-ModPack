@@ -34,4 +34,13 @@
   <clearLoginValue>False</clearLoginValue>
   <specPrebatlesVisible>	True	</specPrebatlesVisible>
   <battleStatsInHangar>	True	</battleStatsInHangar>
+  <rssUrl>
+  </rssUrl>
+  <language_bar>
+    <lang>zh_cn</lang>
+    <lang>zh_tw</lang>
+    <lang>ko</lang>
+    <lang>ja</lang>
+  </language_bar>
+  <showMovingText>False</showMovingText>
 </gui_settings.xml>
