@@ -24,20 +24,20 @@
     "removePanelsModeSwitcher": false,          // true - Remove the Players Panel mode switcher (buttons for changing size)
     "highlightVehicleIcon": true,               // false - disable highlighting of selected vehicle icon and squad
     "clockFormat": "H:N",                       // Show the clock on the Debug Panel (near FPS). Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
-    "useStandardMarkers": true,                // true - use standard client vehicle markers
+    "useStandardMarkers": false,                // true - use standard client vehicle markers
     "clanIconsFolder": "../../../clanicons"     // path to clan icons folder relative to res_mods/[GAME VERSION]/gui/flash
   },
   // Options for player statistics (only with xvm-stat)
   "rating": {
-    "showPlayersStatistics": false,              // true - Toggle player statistics on/off. Global setting - without the statistics module, this is always disabled
-    "loadEnemyStatsInFogOfWar": false,           // true - Enable downloading of data on opponents in the "fog of war"
+    "showPlayersStatistics": true,              // true - Toggle player statistics on/off. Global setting - without the statistics module, this is always disabled
+    "loadEnemyStatsInFogOfWar": true,           // true - Enable downloading of data on opponents in the "fog of war"
     "enableStatisticsLog": false                // true - Enable saving statistics to "xvm-stat.log" file
   },
   // Parameters of the Battle Loading Screen
   "battleLoading": {
     "clockFormat": "H:N:S",                     // Show the clock on the Battle Loading Screen. Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
-    "showChances": false,                       // true – Enable display of "chance to win" (only with xvm-stat) Read more: http://www.koreanrandom.com/forum/topic/1642-chance
-    "showChancesExp": false,                    // Show experimental "chance to win" formula
+    "showChances": true,                       // true – Enable display of "chance to win" (only with xvm-stat) Read more: http://www.koreanrandom.com/forum/topic/1642-chance
+    "showChancesExp": true,                    // Show experimental "chance to win" formula
     "removeSquadIcon": false,                   // true – Disable Platoon icons. This blank space can house, for example, clan logos
     "clanIcon": {                               // Display options for Team/Clan logos
       "show": false,                             //   false – Disable Team/Clan logos in Battle Loading Screen
@@ -56,8 +56,8 @@
   },
   // Parameters of the Battle Statistics Form
   "statisticForm": {
-    "showChances": false,     // true - Enable display of "chance to win" (only with xvm-stat).
-    "showChancesExp": false,  // Show experimental "chance to win" formula
+    "showChances": true,     // true - Enable display of "chance to win" (only with xvm-stat).
+    "showChancesExp": true,  // Show experimental "chance to win" formula
     "removeSquadIcon": false, // true - Disable Platoon icons. This blank space can house, for example, clan logos.
     // Display options for Team/Clan logos (see battleLoading above)
     "clanIcon": { "show": true, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
