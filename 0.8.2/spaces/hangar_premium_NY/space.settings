@@ -1,0 +1,73 @@
+<space.settings>
+  <timeOfDay>spaces/hangar_premium_NY/Niurko.xml</timeOfDay>
+  <skyGradientDome>spaces/hangar_premium_NY/Niurko.xml</skyGradientDome>
+  <flora>spaces/05_prohorovka/flora.xml</flora>
+  <bounds>
+    <minX>	-6	</minX>
+    <maxX>	5	</maxX>
+    <minY>	-6	</minY>
+    <maxY>	5	</maxY>
+  </bounds>
+  <terrain>
+    <version>	200	</version>
+    <lodMapSize>	256	</lodMapSize>
+    <aoMapSize>	256	</aoMapSize>
+    <heightMapSize>	64	</heightMapSize>
+    <normalMapSize>	256	</normalMapSize>
+    <holeMapSize>	64	</holeMapSize>
+    <shadowMapSize>	128	</shadowMapSize>
+    <blendMapSize>	256	</blendMapSize>
+    <lodInfo>
+      <startBias>	0,800000	</startBias>
+      <endBias>	0,990000	</endBias>
+      <lodTextureStart>	300,000000	</lodTextureStart>
+      <lodTextureDistance>	100,000000	</lodTextureDistance>
+      <blendPreloadDistance>	200,000000	</blendPreloadDistance>
+      <bumpFadingStart>	200,000000	</bumpFadingStart>
+      <bumpFadingDistance>	250,000000	</bumpFadingDistance>
+      <lodNormalStart>	400,000000	</lodNormalStart>
+      <lodNormalDistance>	100,000000	</lodNormalDistance>
+      <normalPreloadDistance>	100,000000	</normalPreloadDistance>
+      <defaultHeightMapLod>	0	</defaultHeightMapLod>
+      <detailHeightMapDistance>	900,000000	</detailHeightMapDistance>
+      <lodDistances>
+        <distance0>	150,000000	</distance0>
+        <distance1>	350,000000	</distance1>
+        <distance2>	550,000000	</distance2>
+        <distance3>	750,000000	</distance3>
+        <distance4>	950,000000	</distance4>
+        <distance5>	750,000000	</distance5>
+      </lodDistances>
+      <server>
+        <heightMapLod>	0	</heightMapLod>
+      </server>
+    </lodInfo>
+    <soundOcclusion>
+      <directOcclusion>	0,000000	</directOcclusion>
+      <reverbOcclusion>	0,000000	</reverbOcclusion>
+    </soundOcclusion>
+  </terrain>
+  <skyDomePartition>	0	</skyDomePartition>
+  <windSpeed>	0,000000 0,000000	</windSpeed>
+  <windGustiness>	0,000000	</windGustiness>
+  <floraWindFactor>	0,500000	</floraWindFactor>
+  <skyWorld>
+    <row0>	0,744778 0,000000 -0,667313	</row0>
+    <row1>	0,000000 1,000000 0,000000	</row1>
+    <row2>	0,667313 0,000000 0,744778	</row2>
+    <row3>	0,000000 0,000000 0,000000	</row3>
+  </skyWorld>
+  <decals>
+    <fadeStart>	200,000000	</fadeStart>
+    <fadeEnd>	205,000000	</fadeEnd>
+  </decals>
+  <startPosition>	255,380300 7,280290 270,210100	</startPosition>
+  <startDirection>	0,000345 0,139999 -3,053184	</startDirection>
+  <skyDome>maps/skyboxes/05_Prohorovka_sky/skydome/skybox.visual</skyDome>
+  <farPlane>
+    <max>	1200,000000	</max>
+    <high>	1000,000000	</high>
+    <medium>	800,000000	</medium>
+    <low>	600,000000	</low>
+  </farPlane>
+</space.settings>
