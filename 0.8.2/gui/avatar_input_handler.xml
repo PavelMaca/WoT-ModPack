@@ -5,7 +5,7 @@
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>	5	</scrollSensitivity>
       <angleRange>10 110</angleRange>
-      <distRange>2 25</distRange>
+      <distRange>4 70</distRange>
     </camera>
   </postMortemMode>
   <arcadeMode>
@@ -16,7 +16,7 @@
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>	5	</scrollSensitivity>
       <angleRange>10 110</angleRange>
-      <distRange>2 25</distRange>
+      <distRange>2 40</distRange>
     </camera>
     <gunMarker>
       <texture>gui/maps/ingame/aim/gun_marker.dds</texture>
@@ -196,5 +196,4 @@
         </center>
       </elems>
     </gunMarker2>
-  </sniperMode>
-</avatar_input_handler.xml>
+  </sniperMode></avatar_input_handler.xml>
