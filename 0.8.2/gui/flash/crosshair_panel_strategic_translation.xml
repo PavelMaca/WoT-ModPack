@@ -388,8 +388,8 @@
                 <Constant Name="152 mm minomet NM mod. 1931" />
                 <Constant Name="SU-5" />
                 <Constant Name="122 мм гаубица А-19" />
-                <Constant Name="СУ-8" />
-                <Constant Name="152 мм гаубица МЛ-20 обр. 1931 г." />
+                <Constant Name="SU-8" />
+                <Constant Name="152 mm houfnice ML-20 mod. 1931" />
                 <Constant Name="152 mm BR-2" />
                 <Constant Name="SU-14/S-51/Object 212" />
                 <Constant Name="203 mm B-4" />
@@ -477,9 +477,9 @@
                 <Constant Name="53-Г-551" />
                 <Constant Name="ББ" />
                 <Constant Name="53-ОФ-551БМ" />
-                <Constant Name="Ф-625Д" />
-                <Constant Name="Г-620" />
-                <Constant Name="Ф-625ДБМ" />
+                <Constant Name="F-625D" />
+                <Constant Name="G-620" />
+                <Constant Name="F-625DBM" />
                 <Constant Name="Ф-600Д" />
                 <Constant Name="УБР-600" />
                 <Constant Name="Ф-600БМ" />
