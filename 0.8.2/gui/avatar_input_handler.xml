@@ -15,8 +15,8 @@
       <keySensitivity>0.025</keySensitivity>
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>	5	</scrollSensitivity>
-      <angleRange>10 110</angleRange>
-      <distRange>2 40</distRange>
+      <angleRange>10 360</angleRange>
+      <distRange>0 200</distRange>
     </camera>
     <gunMarker>
       <texture>gui/maps/ingame/aim/gun_marker.dds</texture>
