@@ -114,7 +114,7 @@ _(#messenger:battle/toolTips/duringChat)
   <htmlTemplatesSimple>
     <battleErrorMessage>&lt;font color='#FF3362'&gt;%(error)s&lt;/font&gt;</battleErrorMessage>
     <inviteToSpecialBattle>&lt;img src='%(icon)s' width='16' height='16' align='baseline' vspace='-1'/&gt;&amp;nbsp;&lt;font color='#FFFFFF'&gt;%(text)s&lt;/font&gt;</inviteToSpecialBattle>
-    <battleResultAchieves>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/achieves): &lt;font color='#00FFFF'&gt;%(achieves)s&lt;/font&gt;&lt;/font&gt;</battleResultAchieves>
+    <battleResultAchieves>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/achieves) &lt;font color='#00FFFF'&gt;%(achieves)s&lt;/font&gt;&lt;/font&gt;</battleResultAchieves>
     <battleResultLocks>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/vehicleLock)&lt;/font&gt;</battleResultLocks>
     <battleResultGold>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/gold): &lt;font color='#FFC363'&gt;%(gold)s&lt;/font&gt;&lt;/font&gt;</battleResultGold>
     <goldAccruedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/goldAccrued): &lt;font color='#E2D2A2'&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</goldAccruedInvoiceReceived>
@@ -160,7 +160,7 @@ _(#messenger:battle/toolTips/duringChat)
     <battleVictoryResult>
       <type>	battleResult	</type>
       <icon>	BattleResultIcon	</icon>
-      <message>&lt;font color='#00EE00'&gt;_(#messenger:serviceChannelMessages/battleResults/victory)! &lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#00EE00'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#1E90FF'&gt;%(xp)s&lt;/font&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#EEEE00'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s</message>
+      <message>&lt;font color='#00EE00'&gt;_(#messenger:serviceChannelMessages/battleResults/victory) &lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#00EE00'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/experience): &lt;font color='#1E90FF'&gt;%(xp)s&lt;/font&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/credits): &lt;font color='#EEEE00'&gt;%(credits)s&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s</message>
     </battleVictoryResult>
     <battleDrawGameResult>
       <type>	battleResult	</type>
