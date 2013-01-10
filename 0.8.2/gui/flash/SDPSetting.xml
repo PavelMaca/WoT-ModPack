@@ -1,5 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<damagePanel version="SDP 0.8.2 R7">
+<?xml version="1.0" encoding="utf-8"?>
+<damagePanel version="SDP 0.8.2 R8">
+
+	<!--Настройка положения всей панели-->
+	<location x="0" y="230"/> <!--Отсчет координат идет от левого нижнего угла экрана.-->
 
 	<!--Настройка фона-->
 	<bgStyle alpha="100"/> <!--Значение alpha от 100 до 0, 100 - непрозрачный фон.-->
@@ -33,10 +36,10 @@
 	<!--Настройка лога полученного урона-->
 	<logStyle visible="true">
 		<location x="235" y="3" center="false"/>
-		<text font="Cuprum" size="15" color="0xFFFFFF" alpha="100" align="left" bold="false" leading="5"/> <!--leading - межстрочный интервал.-->
+		<text font="Cuprum" size="15" color="0xFFFFFF" fcolor="0xFF0000" alpha="100" align="left" bold="false" leading="5"/> <!--leading - межстрочный интервал.-->
 		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/>
 		<format>{{count}}:  -{{dmg-one}}</format> <!--Как будет выглядеть строка с логом полученного урона в игре. Формируется она из т.н макросов. {{count}} - порядковый номер нанесенного нам урона. {{dmg-one}} - урон, который нам нанесли одним попаданием. {{dmg-ratio-one}} - урон, который нам нанесли одним попаданием в процентах. {{time-rel}} - время с момента первого попадания. {{time-abs}} - время по игровому таймеру боя.-->
-		<direction>up</direction> <!--Направление лога, up - последний урон всегда вверху, down - последний урон всегда внизу.-->
+		<direction>down</direction> <!--Направление лога, up - последний урон всегда вверху, down - последний урон всегда внизу.-->
 	</logStyle>	
 	
 	<!--Настройка сообщения о последнем полученном уроне-->
@@ -53,7 +56,7 @@
 		<location x="0" y="-100" center="true"/>
 		<text font="Cuprum" size="50" color="0xFF0000" alpha="100" align="center" bold="false"/> 
 		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/>
-		<format>Nádrž je v plamenech!!</format> <!--Текст, который будет отображаться при поджоге нашего танка.-->
+		<format>Motor hoří!</format> <!--Текст, который будет отображаться при поджоге нашего танка.-->
 	</fireStyle>
 	
 	<!--Настройка иконки пожара-->
@@ -79,9 +82,10 @@
 	
 	<!--Настройка таймера ремонта-->
 	<repairStyle visible="true">
-		<location x="0" y="7"/>
-		<text font="Cuprum" size="25" color="0xFFFFFF" alpha="100" align="center" bold="false"/> 
+		<location x="0" y="10"/>
+		<text font="Cuprum" size="20" color="0xFFFFFF" alpha="100" align="center" bold="false"/> 
 		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/>
+		<format>100</format> <!--Формат отображения времени, 100 - с сотыми, 10 - с десятыми, 1 - целое.-->
 	</repairStyle>
 	
 	<!--Настройка имени игрока-->
@@ -152,17 +156,17 @@
 	
 	<!--Настройка панели снарядов-->
 	<consumablesPanel>
-		<location y="58"/>
+		<location x="0" y="58"/> <!--Отсчет координат идет от низа по y и центра по х экрана.-->
 	</consumablesPanel>
 	
 	<!--Настройка панели сообщения о выведенных из строя модулях и экипаже-->
 	<vehicleMessagesPanel>
-		<location y="68"/>
+		<location x="-250" y="68"/> <!--Отсчет координат идет от низа по y и центра по х экрана.-->
 	</vehicleMessagesPanel>
 	
 	<!--Настройка чата-->
 	<battleMessenger>
-		<location x="0" y="622"/>
+		<location x="0" y="622"/> <!--Отсчет координат идет от левого нижнего угла экрана.-->
 	</battleMessenger>
 	
 </damagePanel>
