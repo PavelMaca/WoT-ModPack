@@ -5,7 +5,7 @@
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>	5	</scrollSensitivity>
       <angleRange>10 110</angleRange>
-      <distRange>4 70</distRange>
+      <distRange>2 70</distRange> <!-- âűńîňŕ ęŕěĺđű ďîńëĺ ńěĺđňč min max -->
     </camera>
   </postMortemMode>
   <arcadeMode>
@@ -16,7 +16,7 @@
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>	5	</scrollSensitivity>
       <angleRange>10 360</angleRange>
-      <distRange>0 200</distRange>
+      <distRange>2 200</distRange> <!-- âűńîňŕ ęŕěĺđű â ŕđęŕäíîě đĺćčěĺ min max -->
     </camera>
     <gunMarker>
       <texture>gui/maps/ingame/aim/gun_marker.dds</texture>
@@ -77,7 +77,7 @@
       <keySensitivity>0.5</keySensitivity>
       <sensitivity>0.05</sensitivity>
       <scrollSensitivity>0.25</scrollSensitivity>
-      <distRange>0 150</distRange>
+      <distRange>0 150</distRange> <!-- âűńîňŕ ęŕěĺđű â ŕđňčëëĺđčéńęîě đĺćčěĺ min max -->
     </camera>
     <gunMarker>
       <texture>gui/maps/ingame/aim/gun_marker.dds</texture>
@@ -142,7 +142,7 @@
       <keySensitivity>0.01</keySensitivity>
       <sensitivity>0.005</sensitivity>
       <scrollSensitivity>0.0025</scrollSensitivity>
-      <zooms>2 4 8</zooms>
+      <zooms>2 4 8</zooms> <!-- ęđŕňíîńňü óâĺëč÷ĺíč˙ â ńíŕéďĺđńęîě đĺćčěĺ min max -->
     </camera>
     <gunMarker>
       <texture>gui/maps/ingame/aim/gun_marker.dds</texture>

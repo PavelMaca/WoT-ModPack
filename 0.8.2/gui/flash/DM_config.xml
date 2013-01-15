@@ -13,9 +13,12 @@
 	  <circle9>0</circle9>   <!-- Отслеживаемая скорость в км/ч -->
 	  <m2pix>8.5</m2pix>    
 	  
+	 <!--- ГРАФИЧЕСКАЯ ПЕРЕЗАРЯДКА  -->
+	<grafreload>1</grafreload>   <!-- Включение/выключение 1/0-->
+	 <grafreloadWH>100</grafreloadWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер -->
+	 <grafreloadA>100</grafreloadA> <!-- Прозрачность 0-100 -->
+	 <grafreloadColor>0xFFFFFF</grafreloadColor> <!-- Цвет  0xffffff -->
 	 
-
-	 	  
 	  <!--- ПАНЕЛЬ УГЛА ОРУДИЯ Ш = 28.00 В = 13.00 -->
 	  <angpanelDeg>0</angpanelDeg>    <!-- Поворот панели в градусах -->
 	  <angpanelX>-200</angpanelX>  <!-- Координата Х  -->
