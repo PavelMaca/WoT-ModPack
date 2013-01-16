@@ -4,7 +4,7 @@
 <keycode>17</keycode><!--keycode to toggle the map. any other code disables-->
 <markerscale>0.5</markerscale><!-- minimap iconsize factor-->
 <fontsize>5</fontsize><!--fontsize of tanknames on map-->
-<shownames>true</shownames><!-- show tanknames on map? Boolean-->
+<shownames>false</shownames><!-- show tanknames on map? Boolean-->
 </minimap>
 <!-- 
 HD Minimap 2nd generation Mod by locastan.
