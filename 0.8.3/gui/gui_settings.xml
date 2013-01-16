@@ -42,5 +42,13 @@
     <lang>ko</lang>
     <lang>ja</lang>
   </language_bar>
-  <showMovingText>False</showMovingText>
+  <movingText>
+    <show>False</show>
+    <internalBrowser>False</internalBrowser>
+  </movingText>
+  <eula>
+    <full>False</full>
+    <url>
+    </url>
+  </eula>
 </gui_settings.xml>

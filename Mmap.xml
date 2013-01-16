@@ -1,0 +1,20 @@
+<?xml version='1.0'  encoding='UTF-8'?>
+<minimap>
+<bigmapsize>800</bigmapsize><!--pixelsize of the big minimap-->
+<keycode>17</keycode><!--keycode to toggle the map. any other code disables-->
+<markerscale>0.5</markerscale><!-- minimap iconsize factor-->
+<fontsize>5</fontsize><!--fontsize of tanknames on map-->
+<shownames>true</shownames><!-- show tanknames on map? Boolean-->
+</minimap>
+<!-- 
+HD Minimap 2nd generation Mod by locastan.
+
+The keycode is the only value not customizeable just now! For some reason the game refuses to register other keys than those it already knows from standard key binding.
+If you want to remove the centered big minimap functionality on CTRL, set keycode to 66 or other number. :P
+
+The markerscale factor can be anything from 0.01 for dot like icons, to 10.0+ for icons as big as the map.
+
+The fontsize is in points, 5 is standard. The font does scale with the minimap icon size, so big values for markerscale also enlarge the visible text. Compensate if necessary. :)
+
+shownames just controls whether the tanknames are visible on minimap and bigmap or not. Just put true or false in there.
+-->
