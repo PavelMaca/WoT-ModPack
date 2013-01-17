@@ -3,73 +3,22 @@
     <camera>
       <keySensitivity>0.025</keySensitivity>
       <sensitivity>0.0025</sensitivity>
-      <scrollSensitivity>	5	</scrollSensitivity>
+      <scrollSensitivity>5</scrollSensitivity>
       <angleRange>10 110</angleRange>
-      <distRange>2 70</distRange> <!-- ГўЕ±Е„Г®Е€Е• Д™Е•Д›ДєД‘Е± ДЏГ®Е„Г«Дє Е„Д›ДєД‘Е€ДЌ min max -->
+      <distRange>2 25</distRange> <!-- Высота камеры после смерти МИН/МАКС -->
     </camera>
   </postMortemMode>
   <arcadeMode>
     <aim>arcade</aim>
-    <numScrolls>	1	</numScrolls>
+    <numScrolls>1</numScrolls>
     <camera>
       <keySensitivity>0.025</keySensitivity>
       <sensitivity>0.0025</sensitivity>
-      <scrollSensitivity>	5	</scrollSensitivity>
-      <angleRange>10 360</angleRange>
-      <distRange>2 200</distRange> <!-- ГўЕ±Е„Г®Е€Е• Д™Е•Д›ДєД‘Е± Гў Е•Д‘Д™Е•Г¤Г­Г®Д› Д‘ДєД‡ДЌД›Дє min max -->
+      <scrollSensitivity>5</scrollSensitivity>
+      <angleRange>10 110</angleRange>
+      <distRange>2 25</distRange> <!-- Высота камеры в аркадном режиме МИН/МАКС -->
+      <noscroll>true</noscroll> <!-- Включение/выключение noscroll мода для аркадного режима true/false-->
     </camera>
-    <gunMarker>
-      <texture>gui/maps/ingame/aim/gun_marker.dds</texture>
-      <size>64 64</size>
-      <elems>
-        <top>
-          <mapping>13 0 26 13</mapping>
-          <size>13 13</size>
-        </top>
-        <right>
-          <mapping>26 0 39 13</mapping>
-          <size>13 13</size>
-        </right>
-        <bottom>
-          <mapping>39 0 52 13</mapping>
-          <size>13 13</size>
-        </bottom>
-        <left>
-          <mapping>0 0 13 13</mapping>
-          <size>13 13</size>
-        </left>
-        <center>
-          <mapping>0 13 21 34</mapping>
-          <size>21 21</size>
-        </center>
-      </elems>
-    </gunMarker>
-    <gunMarker2>
-      <texture>gui/maps/ingame/aim/gun_marker_blue.dds</texture>
-      <size>64 64</size>
-      <elems>
-        <top>
-          <mapping>13 0 26 13</mapping>
-          <size>13 13</size>
-        </top>
-        <right>
-          <mapping>26 0 39 13</mapping>
-          <size>13 13</size>
-        </right>
-        <bottom>
-          <mapping>39 0 52 13</mapping>
-          <size>13 13</size>
-        </bottom>
-        <left>
-          <mapping>0 0 13 13</mapping>
-          <size>13 13</size>
-        </left>
-        <center>
-          <mapping>0 13 21 34</mapping>
-          <size>21 21</size>
-        </center>
-      </elems>
-    </gunMarker2>
   </arcadeMode>
   <strategicMode>
     <aim>strategic</aim>
@@ -77,124 +26,24 @@
       <keySensitivity>0.5</keySensitivity>
       <sensitivity>0.05</sensitivity>
       <scrollSensitivity>0.25</scrollSensitivity>
-      <distRange>0 150</distRange> <!-- ГўЕ±Е„Г®Е€Е• Д™Е•Д›ДєД‘Е± Гў Е•Д‘Е€ДЌГ«Г«ДєД‘ДЌГ©Е„Д™Г®Д› Д‘ДєД‡ДЌД›Дє min max -->
+      <distRange>40 100</distRange> <!-- Высота камеры в артиллерийском режиме МИН/МАКС -->
+      <noscroll>true</noscroll> <!-- Включение/выключение noscroll мода для арт режима true/false-->
     </camera>
-    <gunMarker>
-      <texture>gui/maps/ingame/aim/gun_marker.dds</texture>
-      <size>64 64</size>
-      <elems>
-        <top>
-          <mapping>13 0 26 13</mapping>
-          <size>13 13</size>
-        </top>
-        <right>
-          <mapping>26 0 39 13</mapping>
-          <size>13 13</size>
-        </right>
-        <bottom>
-          <mapping>39 0 52 13</mapping>
-          <size>13 13</size>
-        </bottom>
-        <left>
-          <mapping>0 0 13 13</mapping>
-          <size>13 13</size>
-        </left>
-        <center>
-          <mapping>0 13 21 34</mapping>
-          <size>21 21</size>
-        </center>
-      </elems>
-    </gunMarker>
-    <gunMarker2>
-      <texture>gui/maps/ingame/aim/gun_marker_blue.dds</texture>
-      <size>64 64</size>
-      <elems>
-        <top>
-          <mapping>13 0 26 13</mapping>
-          <size>13 13</size>
-        </top>
-        <right>
-          <mapping>26 0 39 13</mapping>
-          <size>13 13</size>
-        </right>
-        <bottom>
-          <mapping>39 0 52 13</mapping>
-          <size>13 13</size>
-        </bottom>
-        <left>
-          <mapping>0 0 13 13</mapping>
-          <size>13 13</size>
-        </left>
-        <center>
-          <mapping>0 13 21 34</mapping>
-          <size>21 21</size>
-        </center>
-      </elems>
-    </gunMarker2>
   </strategicMode>
   <sniperMode>
     <aim>sniper</aim>
     <binoculars>
       <background>gui/maps/ingame/aim/binoculars.dds</background>
     </binoculars>
-    <numScrolls>	1	</numScrolls>
+    <numScrolls>1</numScrolls>
     <camera>
       <keySensitivity>0.01</keySensitivity>
       <sensitivity>0.005</sensitivity>
       <scrollSensitivity>0.0025</scrollSensitivity>
-      <zooms>2 4 8</zooms> <!-- Д™Д‘Е•Е€Г­Г®Е„Е€Гј ГіГўДєГ«ДЌГ·ДєГ­ДЌЛ™ Гў Е„Г­Е•Г©ДЏДєД‘Е„Д™Г®Д› Д‘ДєД‡ДЌД›Дє min max -->
+      <zoomX4>true</zoomX4> <!-- Включение 4х кратного увеличения в снайперсок режиме true/false -->
+      <zooms>2 4 8</zooms> <!-- Настройка шага увеличения стандартного снайперского зума -->
+      <zooms2>2 4 8 10</zooms2> <!-- Настройка шага увеличения 4х кратного снайперского зума -->
+      <noscroll>true</noscroll> <!-- Включение/выключение noscroll мода для снайперского режима true/false-->
     </camera>
-    <gunMarker>
-      <texture>gui/maps/ingame/aim/gun_marker.dds</texture>
-      <size>64 64</size>
-      <elems>
-        <top>
-          <mapping>13 0 26 13</mapping>
-          <size>13 13</size>
-        </top>
-        <right>
-          <mapping>26 0 39 13</mapping>
-          <size>13 13</size>
-        </right>
-        <bottom>
-          <mapping>39 0 52 13</mapping>
-          <size>13 13</size>
-        </bottom>
-        <left>
-          <mapping>0 0 13 13</mapping>
-          <size>13 13</size>
-        </left>
-        <center>
-          <mapping>0 13 21 34</mapping>
-          <size>21 21</size>
-        </center>
-      </elems>
-    </gunMarker>
-    <gunMarker2>
-      <texture>gui/maps/ingame/aim/gun_marker_blue.dds</texture>
-      <size>64 64</size>
-      <elems>
-        <top>
-          <mapping>13 0 26 13</mapping>
-          <size>13 13</size>
-        </top>
-        <right>
-          <mapping>26 0 39 13</mapping>
-          <size>13 13</size>
-        </right>
-        <bottom>
-          <mapping>39 0 52 13</mapping>
-          <size>13 13</size>
-        </bottom>
-        <left>
-          <mapping>0 0 13 13</mapping>
-          <size>13 13</size>
-        </left>
-        <center>
-          <mapping>0 13 21 34</mapping>
-          <size>21 21</size>
-        </center>
-      </elems>
-    </gunMarker2>
   </sniperMode>
 </avatar_input_handler.xml>
