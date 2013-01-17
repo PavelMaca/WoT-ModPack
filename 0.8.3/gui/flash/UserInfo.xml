@@ -107,7 +107,7 @@
 	<china-Ch05_T34_2.png               type="2"				  />
 	<china-Ch06_Renault_NC31.png        type="1"				  />
 	<china-Ch07_Vickers_MkE_Type_BT26.png       type="1"				  />
-	<china-Ch08_Type97_Chi_Ha.png       type="2"				  />
+	<china-Ch08_Type97_Chi_Ha.png       type="1"				  />
 	<china-Ch09_M5.png                  type="1"				  />
 	<china-Ch10_IS2.png                 type="3"				  />
 	<china-Ch11_110.png                 type="3"				  />
@@ -303,6 +303,11 @@
 	<usa-T82.png                        type="4"				  />
 	<usa-T92.png                        type="5"				  />
 	<usa-T95.png                        type="4"				  />
+	<usa-T21.png                        type="1"				  />
+	<usa-T71.png                        type="1"				  />
+	<usa-T69.png                        type="2"				  />
+	<usa-T54E1.png                      type="2"				  />
+	<usa-T57_58.png                     type="3"				  /> 
 	<ussr-62A.png                       type="2"				  />
 	<ussr-A-20.png                      type="1"				  />
 	<ussr-A-32.png                      type="1"				  />
