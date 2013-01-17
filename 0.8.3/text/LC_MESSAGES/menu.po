@@ -298,7 +298,7 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2012. Všechna práva vyhrazena. (Rozšířená edice v1.21d by "
+"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice v1.30a by "
 "Crabtr33)"
 
 msgid "currentVehicleStatus/ammoNotFull"
@@ -579,6 +579,42 @@ msgid "descriptions/vehicleTurret"
 msgstr ""
 "Pancíř: %(armor)s mm; Rotace: %(rotationSpeed)s stupňů/s\n"
 "Dohled: cca %(circularVisionRadius)s m"
+
+msgid "disconnect/codes/0"
+msgstr "<?empty?>"
+
+msgid "disconnect/codes/1001"
+msgstr "Desynchronizace skladu (1001)"
+
+msgid "disconnect/codes/1002"
+msgstr "Desynchronizace skladu (1002)"
+
+msgid "disconnect/codes/1003"
+msgstr "Desynchronizace skladu (1003)"
+
+msgid "disconnect/codes/1004"
+msgstr "Desynchronizace skladu (1004)"
+
+msgid "disconnect/codes/1005"
+msgstr "Desynchronizace skladu (1005)"
+
+msgid "disconnect/codes/1006"
+msgstr "Desynchronizace skladu (1006)"
+
+msgid "disconnect/codes/1007"
+msgstr "Desynchronizace skladu (1007)"
+
+msgid "disconnect/codes/1008"
+msgstr "Desynchronizace skladu (1008)"
+
+msgid "disconnect/codes/1009"
+msgstr "Desynchronizace skladu (1009)"
+
+msgid "disconnect/codes/1010"
+msgstr "Desynchronizace skladu (1010)"
+
+msgid "disconnect/codes/1011"
+msgstr "Desynchronizace skladu (1011)"
 
 msgid "exchange/cancel"
 msgstr "Storno"
@@ -2092,6 +2128,9 @@ msgstr "Koupit"
 
 msgid "shop/table/buyActionOr"
 msgstr "nebo"
+
+msgid "shop/table/find"
+msgstr "Nalezeno:"
 
 msgid "shop/table/header/count/equipment"
 msgstr "Na vozidle/Ve skladu"
