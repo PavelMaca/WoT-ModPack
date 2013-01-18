@@ -17,7 +17,7 @@
       <scrollSensitivity>5</scrollSensitivity>
       <angleRange>10 110</angleRange>
       <distRange>2 25</distRange> <!-- Высота камеры в аркадном режиме МИН/МАКС -->
-      <noscroll>true</noscroll> <!-- Включение/выключение noscroll мода для аркадного режима true/false-->
+      <noscroll>false</noscroll> <!-- Включение/выключение noscroll мода для аркадного режима true/false-->
     </camera>
   </arcadeMode>
   <strategicMode>
@@ -27,7 +27,7 @@
       <sensitivity>0.05</sensitivity>
       <scrollSensitivity>0.25</scrollSensitivity>
       <distRange>40 100</distRange> <!-- Высота камеры в артиллерийском режиме МИН/МАКС -->
-      <noscroll>true</noscroll> <!-- Включение/выключение noscroll мода для арт режима true/false-->
+      <noscroll>false</noscroll> <!-- Включение/выключение noscroll мода для арт режима true/false-->
     </camera>
   </strategicMode>
   <sniperMode>
@@ -43,7 +43,7 @@
       <zoomX4>true</zoomX4> <!-- Включение 4х кратного увеличения в снайперсок режиме true/false -->
       <zooms>2 4 8</zooms> <!-- Настройка шага увеличения стандартного снайперского зума -->
       <zooms2>2 4 8 10</zooms2> <!-- Настройка шага увеличения 4х кратного снайперского зума -->
-      <noscroll>true</noscroll> <!-- Включение/выключение noscroll мода для снайперского режима true/false-->
+      <noscroll>false</noscroll> <!-- Включение/выключение noscroll мода для снайперского режима true/false-->
     </camera>
   </sniperMode>
 </avatar_input_handler.xml>
