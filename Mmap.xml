@@ -4,7 +4,15 @@
 <keycode>17</keycode><!--keycode to toggle the map. any other code disables-->
 <markerscale>0.5</markerscale><!-- minimap iconsize factor-->
 <fontsize>5</fontsize><!--fontsize of tanknames on map-->
-<shownames>false</shownames><!-- show tanknames on map? Boolean-->
+<shownames>true</shownames><!-- show tanknames on map? Boolean-->
+<circlealpha>30</circlealpha><!-- circle alpha value, put 0 to remove circle -->
+<circlecolor>0</circlecolor><!-- circle color, write 0 for default, 0xFFFFFF for white -->
+<laseralpha>65</laseralpha><!-- laser alpha value, put 0 to remove laser liner -->
+<lasercolor>0</lasercolor><!-- laser color, write 0 for default, 0x000000 for black -->
+<allytextcolor>0x9FF781</allytextcolor><!-- ally tankname text color, default 0x9FF781 -->
+<enemytextcolor>0xF78181</enemytextcolor><!-- enemy tankname text color, default 0xF78181 -->
+<squadtextcolor>0xFE9A2E</squadtextcolor><!-- platoon buddy tankname text color, default 0xFE9A2E -->
+<textshadow>15</textshadow><!-- tankname textshadow strength -->
 </minimap>
 <!-- 
 HD Minimap 2nd generation Mod by locastan.
@@ -17,4 +25,10 @@ The markerscale factor can be anything from 0.01 for dot like icons, to 10.0+ fo
 The fontsize is in points, 5 is standard. The font does scale with the minimap icon size, so big values for markerscale also enlarge the visible text. Compensate if necessary. :)
 
 shownames just controls whether the tanknames are visible on minimap and bigmap or not. Just put true or false in there.
+
+The circle and laser tags are for alpha transparency (set to 0 to remove circle or laser) and colors. If you put 0 in the color tags, the default color (orange circle, white and orange laser line) are put in place.
+
+The textcolor tags are pretty self explaining. 
+
+textshadow is the shadow strength behind the tanknames.
 -->
