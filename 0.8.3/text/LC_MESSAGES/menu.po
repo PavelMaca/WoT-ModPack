@@ -298,7 +298,7 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice v1.30a by "
+"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice v1.30c by "
 "Crabtr33)"
 
 msgid "currentVehicleStatus/ammoNotFull"
