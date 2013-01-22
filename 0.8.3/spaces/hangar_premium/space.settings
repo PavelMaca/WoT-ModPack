@@ -1,0 +1,65 @@
+<space.settings>
+  <timeOfDay>system/data/sky14_siegfried_line.xml</timeOfDay>
+  <skyGradientDome>system/data/sky14_siegfried_line.xml</skyGradientDome>
+  <flora>spaces/14_siegfried_line/flora.xml</flora>
+  <bounds>
+    <minX>	-6	</minX>
+    <maxX>	5	</maxX>
+    <minY>	-6	</minY>
+    <maxY>	5	</maxY>
+  </bounds>
+  <terrain>
+    <version>	200	</version>
+    <lodMapSize>	128	</lodMapSize>
+    <aoMapSize>	16	</aoMapSize>
+    <heightMapSize>	64	</heightMapSize>
+    <normalMapSize>	16	</normalMapSize>
+    <holeMapSize>	64	</holeMapSize>
+    <shadowMapSize>	64	</shadowMapSize>
+    <blendMapSize>	256	</blendMapSize>
+    <lodInfo>
+      <startBias>	0.800000	</startBias>
+      <endBias>	0.990000	</endBias>
+      <lodTextureStart>	800.000000	</lodTextureStart>
+      <lodTextureDistance>	600.000000	</lodTextureDistance>
+      <blendPreloadDistance>	200.000000	</blendPreloadDistance>
+      <bumpFadingStart>	50.000000	</bumpFadingStart>
+      <bumpFadingDistance>	50.000000	</bumpFadingDistance>
+      <lodNormalStart>	400.000000	</lodNormalStart>
+      <lodNormalDistance>	100.000000	</lodNormalDistance>
+      <normalPreloadDistance>	100.000000	</normalPreloadDistance>
+      <defaultHeightMapLod>	0	</defaultHeightMapLod>
+      <detailHeightMapDistance>	900.000000	</detailHeightMapDistance>
+      <lodDistances>
+        <distance0>	100.000000	</distance0>
+        <distance1>	200.000000	</distance1>
+        <distance2>	400.000000	</distance2>
+        <distance3>	600.000000	</distance3>
+        <distance4>	800.000000	</distance4>
+      </lodDistances>
+      <server>
+        <heightMapLod>	0	</heightMapLod>
+      </server>
+    </lodInfo>
+    <soundOcclusion>
+      <directOcclusion>	0.000000	</directOcclusion>
+      <reverbOcclusion>	0.000000	</reverbOcclusion>
+    </soundOcclusion>
+  </terrain>
+  <farPlane>	1100.000000	</farPlane>
+  <skyDomePartition>	0	</skyDomePartition>
+  <windSpeed>	0.000000 0.000000	</windSpeed>
+  <windGustiness>	0.000000	</windGustiness>
+  <floraWindFactor>	0.500000	</floraWindFactor>
+  <skyWorld>
+    <row0>	0.951057 0.000000 -0.309017	</row0>
+    <row1>	0.000000 1.000000 0.000000	</row1>
+    <row2>	0.309017 0.000000 0.951057	</row2>
+    <row3>	0.000000 0.000000 0.000000	</row3>
+  </skyWorld>
+  <decals>
+    <fadeStart>	210.000000	</fadeStart>
+    <fadeEnd>	250.000000	</fadeEnd>
+  </decals>
+  <skyDome>maps/skyboxes/14_siegfried_line_sky/skydome/skybox.visual</skyDome>
+</space.settings>
