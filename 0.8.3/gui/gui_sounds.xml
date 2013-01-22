@@ -1,6 +1,8 @@
 <gui_sounds.xml>
   <controls>
     <default>
+      <firealert>/assassik/assassik/firealert</firealert>
+      <sixthsense>/assassik/assassik/sixthsense</sixthsense>
       <5secs>/locastan/locastan/5secs</5secs>
       <1min>/locastan/locastan/1min</1min>
       <3mins>/locastan/locastan/3mins</3mins>
