@@ -2543,6 +2543,7 @@
     "x": 370,
     "blowupMarker": "<font face='Wingdings'>M</font>",
     "y": 5,
+    "defaultHeader":  "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>0</font>",
     "formatHeader": "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>{{n}}</font> | <font size='0{{vehicle}}'><font color='#FFFFFF'>Poškození:</font> <b>{{dmg-total}}</b> | <font color='#FFFFFF'>Poslední:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font></font>",
     "formatHistory": "<font size='12'>×{{n-player}}</font> <font color='{{c:dmg-kind}}'>{{dmg-kind}}</font> <font color='{{c:dmg-kind}}'>-{{dmg}}</font> ({{dmg-player}}) <font color='{{c:vtype}}'>{{vehicle}} {{nick}} {{dead}}</font>",
     "h": 1000,
