@@ -1636,11 +1636,11 @@
     "AVG_GWR": 48
   },
   "definition": {
-    "modMinVersion": "3.3.1",
+    "modMinVersion": "3.3.2",
     "description": "Default settings for XVM",
     "author": "Assassik",
     "url": "http://code.google.com/p/wot-xvm/",
-    "date": "01/07/2013",
+    "date": "01/25/2013",
     "gameVersion": "0.8.3"
   },
   "captureBar": {
@@ -2957,8 +2957,8 @@
       "show": false,
       "w": 16
     },
-    "formatLeft": "{{vehicle}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:eff}}'>{{eff}}</font> <font color='{{c:rating}}'>{{rating}}</font>",
-    "formatRight": "<font color='{{c:rating}}'>{{rating}}</font> <font color='{{c:eff}}'>{{eff}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> {{vehicle}}",
+    "formatLeft": "<font color='{{c:t-battles}}'>{{t-battles}}</font> {{vehicle}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:twr}}'>{{twr}}</font>",
+    "formatRight": "<font color='{{c:twr}}'>{{twr}}</font> <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> {{vehicle}} <font color='{{c:t-battles}}'>{{t-battles}}</font>",
     "removeSquadIcon": false
   },
   "battleLoading": {
@@ -2975,8 +2975,8 @@
       "show": false,
       "w": 16
     },
-    "formatLeft": "{{vehicle}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:eff}}'>{{eff}}</font> <font color='{{c:rating}}'>{{rating}}</font>",
-    "formatRight": "<font color='{{c:rating}}'>{{rating}}</font> <font color='{{c:eff}}'>{{eff}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> {{vehicle}}",
+    "formatLeft": "<font color='{{c:t-battles}}'>{{t-battles}}</font> {{vehicle}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:twr}}'>{{twr}}</font>",
+    "formatRight": "<font color='{{c:twr}}'>{{twr}}</font> <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> {{vehicle}} <font color='{{c:t-battles}}'>{{t-battles}}</font>",
     "removeSquadIcon": false
   }
 }
