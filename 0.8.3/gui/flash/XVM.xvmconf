@@ -1142,8 +1142,8 @@
     }
   },
   "turretMarkers": {
-    "lowVulnerability": " <font face='Wingdings' size='11' color='#E15858'>ý</font>",
-    "highVulnerability": " <font face='Wingdings' size='11' color='#79BE7E'>ţ</font>"
+    "lowVulnerability": " <font face='Wingdings' size='11' color='#E15858'>\u2713</font>",
+    "highVulnerability": " <font face='Wingdings' size='11' color='#79BE7E'>\u2717</font>"
   },
   "battle": {
     "elements": {
@@ -2058,7 +2058,7 @@
     "visible": true,
     "formatHeader": "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>{{n}}</font> | <font size='0{{vehicle}}'><font color='#FFFFFF'>Poškození:</font> <b>{{dmg-total}}</b> | <font color='#FFFFFF'>Poslední:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font></font>",
     "y": 5,
-    "formatHistory": "<font size='12'>×{{n-player}}</font> <font color='{{c:dmg-kind}}'>{{dmg-kind}}</font> <font color='{{c:dmg-kind}}'>-{{dmg}}</font> ({{dmg-player}}) <font color='{{c:vtype}}'>{{vehicle}} {{nick}} {{dead}}</font>",
+    "formatHistory": "<textformat leading='-3' tabstops='[40,80,200]'><font size='12'>×{{n-player}}</font> <font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab> <font color='{{c:dmg-kind}}'>-{{dmg}}</font> ({{dmg-player}})<tab> <font color='{{c:vtype}}'>{{vehicle}} {{nick}} {{dead}}</font></textformat>",
     "defaultHeader": "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>0</font>",
     "h": 1000,
     "insertOrder": "end",
@@ -2957,8 +2957,8 @@
       "show": false,
       "w": 16
     },
-    "formatLeft": "<font color='{{c:t-battles}}'>{{t-battles}}</font> {{vehicle}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:twr}}'>{{twr}}</font>",
-    "formatRight": "<font color='{{c:twr}}'>{{twr}}</font> <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> {{vehicle}} <font color='{{c:t-battles}}'>{{t-battles}}</font>",
+    "formatLeft": "<font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{cwn}}'>{{wn:4}}</font> | <font color='{{c:t-battles}}'>{{t-hb:3}}</font>",
+    "formatRight": "<font color='{{c:t-battles}}'>{{t-hb:3}}</font> | <font color='{{cwn}}'>{{wn:4}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:rating}}'>{{rating:3}}</font>",
     "removeSquadIcon": false
   },
   "battleLoading": {
@@ -2975,8 +2975,8 @@
       "show": false,
       "w": 16
     },
-    "formatLeft": "<font color='{{c:t-battles}}'>{{t-battles}}</font> {{vehicle}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:twr}}'>{{twr}}</font>",
-    "formatRight": "<font color='{{c:twr}}'>{{twr}}</font> <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> {{vehicle}} <font color='{{c:t-battles}}'>{{t-battles}}</font>",
+    "formatLeft": "<font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{cwn}}'>{{wn:4}}</font> | <font color='{{c:t-battles}}'>{{t-hb:3}}</font>",
+    "formatRight": "<font color='{{c:t-battles}}'>{{t-hb:3}}</font> | <font color='{{cwn}}'>{{wn:4}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:rating}}'>{{rating:3}}</font>",
     "removeSquadIcon": false
   }
 }
