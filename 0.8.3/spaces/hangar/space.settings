@@ -46,7 +46,12 @@
       <reverbOcclusion>	0.000000	</reverbOcclusion>
     </soundOcclusion>
   </terrain>
-  <farPlane>	1100.000000	</farPlane>
+  <farPlane>
+    <max>	500,000000	</max>
+    <high>	500,000000	</high>
+    <medium>	500,000000	</medium>
+    <low>	500,000000	</low>
+  </farPlane>
   <skyDomePartition>	0	</skyDomePartition>
   <windSpeed>	0.000000 0.000000	</windSpeed>
   <windGustiness>	0.000000	</windGustiness>
