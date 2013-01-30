@@ -195,11 +195,175 @@
 		<!---  ТЕНЬ ПАНЕЛЕЙ -->
 		<shadow>100</shadow>
 	 
-		
+	 	
     </strategic>
-	  </config>
+	
+	<!--НАСТРОЙКИ АРКАДНОГО ПРИЦЕЛА-->
+	<arcada>
+	<!--НАСТРОЙКА МАРКЕРА-->
+	<!--ВЫБОР МАРКЕРА 100=ВКЛ. 0=ВЫКЛ. (ВОЗМОЖНЫ ПРОМЕЖУТОЧНЫЕ ЗНАЧЕНИЯ - РАБОТАЕТ КАК АЛЬФА)-->
+	<marker1>100</marker1>	<!--КОЛЬЦО-->
+	  <marker2>0</marker2>	<!--ПОЛУКРЕСТ-->
+	  <marker3>0</marker3>	<!--КРЕСТ-->
+	  <marker4>0</marker4>	<!--ТОЧКА-->
+	  <marker5>0</marker5>	<!--ПЕРЕКРЕСТИЕ-->
+	  <marker6>0</marker6>	<!--КВАДРАТНЫЕ СКОБКИ-->
+	  <marker7>0</marker7>	<!--ГАЛКА-->
+	  <markerDeg>0</markerDeg>	<!--ПОВОРОТ МАРКЕРА-->
+	  <markerX>0</markerX>	<!--КООРДИНАТА Х-->
+	  <markerY>0</markerY>	<!--КООРДИНАТА У-->
+	  <markerWH>100</markerWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <markerColor>0x00ff00</markerColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ-->
+	  <timeMCDeg>0</timeMCDeg>	<!--ПОВОРОТ-->
+	  <timeMCX>-203.80</timeMCX>	<!--КООРДИНАТА Х-->
+	  <timeMCY>-11</timeMCY>	<!--КООРДИНАТА У-->
+	  <timeMCA>100</timeMCA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <timeMCWH>100</timeMCWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <timeMCColor>0xff0000</timeMCColor>	<!--ЦВЕТ БЕГУЩЕГО ТАЙМЕРА-->
+	  <timeMC2Color>0x00ff00</timeMC2Color>	<!--ЦВЕТ НАДПИСИ ОК ПОСЛЕ ОКОНЧАНИЯ ОТСЧЕТА-->
+	  
+	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ (ОБЩЕГО)-->
+	  <reloadsecMCDeg>0</reloadsecMCDeg>	<!--ПОВОРОТ-->
+	  <reloadsecMCX>-150.10</reloadsecMCX>	<!--КООРДИНАТА Х-->
+	  <reloadsecMCY>-8.5</reloadsecMCY>	<!--КООРДИНАТА У-->
+	  <reloadsecMCA>100</reloadsecMCA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <reloadsecMCWH>100</reloadsecMCWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <reloadsecMCColor>0xff9900</reloadsecMCColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА ХП-->
+	  <hppanelDeg>0</hppanelDeg>	<!--ПОВОРОТ-->
+	  <hppanelX>164.30</hppanelX>	<!--КООРДИНАТА Х-->
+	  <hppanelY>-11</hppanelY>	<!--КООРДИНАТА У-->
+	  <hppanelA>100</hppanelA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <hppanelWH>100</hppanelWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <hpporog1>0.7</hpporog1>	<!--ПЕРВОЕ ПОРОГОВОЕ ЗНАЧЕНИЕ ИЗМЕНЕНИЯ ЦВЕТА (0.7=70%)-->
+	  <hpporog2>0.25</hpporog2>	<!--ВТОРОЕ ПОРОГОВОЕ ЗНАЧЕНИЕ ИЗМЕНЕНИЯ ЦВЕТА (0.25=25%)-->
+	  <hppanelColor1>0x00ff00</hppanelColor1>	<!--ЦВЕТ ХП ОТ 100 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <hppanelColor2>0xff9900</hppanelColor2>	<!--ЦВЕТ ХП ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <hppanelColor3>0xff0000</hppanelColor3>	<!--ЦВЕТ ХП ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО НУЛЯ-->
+	  
+	  <!--НАСТРОЙКА БОЕКОМПЛЕКТА-->
+	  <shellpanelDeg>0</shellpanelDeg>	<!--ПОВОРОТ-->
+	  <shellpanelX>117.25</shellpanelX>	<!--КООРДИНАТА Х-->
+	  <shellpanelY>-9.5</shellpanelY>	<!--КООРДИНАТА У-->
+	  <shellpanelA>100</shellpanelA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <shellpanelWH>100</shellpanelWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <shellpanelColor>0x9CFAFF</shellpanelColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА БАРАБАНА ЦИФРОВОГО-->
+	  <barabanDeg>0</barabanDeg>	<!--ПОВОРОТ-->
+	  <barabanX>94.15</barabanX>	<!--КООРДИНАТА Х-->
+	  <barabanY>-8</barabanY>	<!--КООРДИНАТА У-->
+	  <barabanA>0</barabanA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <barabanWH>100</barabanWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <barabanColor>0xff9900</barabanColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА БАРАБАНА ГРАФИЧЕСКОГО-->
+	  <barabanGDeg>0</barabanGDeg>	<!--ПОВОРОТ-->
+	  <barabanGX>197.50</barabanGX>	<!--КООРДИНАТА Х-->
+	  <barabanGY>19.15</barabanGY>	<!--КООРДИНАТА У-->
+	  <barabanGA>100</barabanGA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <barabanGWH>100</barabanGWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  
+	  <!--НАСТРОЙКА ДАЛЬНОМЕРА-->
+	  <distanceDeg>0</distanceDeg>	<!--ПОВОРОТ-->
+	  <distanceX>-34</distanceX>	<!--КООРДИНАТА Х-->
+	  <distanceY>-160</distanceY>	<!--КООРДИНАТА У-->
+	  <distanceA>100</distanceA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <distanceWH>100</distanceWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <distColor1>0xff0000</distColor1>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ И ДО БЕСКОНЕЧНОСТИ-->
+	  <distColor2>0x00ff00</distColor2>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО-->
+	  <distColor3>0xffffff</distColor3>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ 0 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <distporog1>200</distporog1>	<!--ВТОРОЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
+	  <distporog2>100</distporog2>	<!--ПЕРВЫЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
+	</arcada>
+	
+	<!--НАСТРОЙКИ СНАЙПЕРСКОГО ПРИЦЕЛА-->
+	<sniper>
+	<!--НАСТРОЙКА МАРКЕРА-->
+	<!--ВЫБОР МАРКЕРА 100=ВКЛ. 0=ВЫКЛ. (ВОЗМОЖНЫ ПРОМЕЖУТОЧНЫЕ ЗНАЧЕНИЯ - РАБОТАЕТ КАК АЛЬФА)-->
+	<marker1>100</marker1>	<!--КОЛЬЦО-->
+	  <marker2>0</marker2>	<!--ПОЛУКРЕСТ-->
+	  <marker3>0</marker3>	<!--КРЕСТ-->
+	  <marker4>0</marker4>	<!--ТОЧКА-->
+	  <marker5>0</marker5>	<!--ПЕРЕКРЕСТИЕ-->
+	  <marker6>0</marker6>	<!--КВАДРАТНЫЕ СКОБКИ-->
+	  <marker7>0</marker7>	<!--ГАЛКА-->
+	  <markerDeg>0</markerDeg>	<!--ПОВОРОТ МАРКЕРА-->
+	  <markerX>0</markerX>	<!--КООРДИНАТА Х-->
+	  <markerY>0</markerY>	<!--КООРДИНАТА У-->
+	  <markerWH>100</markerWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <markerColor>0x00ff00</markerColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ-->
+	  <timeMCDeg>0</timeMCDeg>	<!--ПОВОРОТ-->
+	  <timeMCX>-203.80</timeMCX>	<!--КООРДИНАТА Х-->
+	  <timeMCY>-11</timeMCY>	<!--КООРДИНАТА У-->
+	  <timeMCA>100</timeMCA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <timeMCWH>100</timeMCWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <timeMCColor>0xff0000</timeMCColor>	<!--ЦВЕТ БЕГУЩЕГО ТАЙМЕРА-->
+	  <timeMC2Color>0x00ff00</timeMC2Color>	<!--ЦВЕТ НАДПИСИ ОК ПОСЛЕ ОКОНЧАНИЯ ОТСЧЕТА-->
+	  
+	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ (ОБЩЕГО)-->
+	  <reloadsecMCDeg>0</reloadsecMCDeg>	<!--ПОВОРОТ-->
+	  <reloadsecMCX>-150.10</reloadsecMCX>	<!--КООРДИНАТА Х-->
+	  <reloadsecMCY>-8.5</reloadsecMCY>	<!--КООРДИНАТА У-->
+	  <reloadsecMCA>100</reloadsecMCA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <reloadsecMCWH>100</reloadsecMCWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <reloadsecMCColor>0xff9900</reloadsecMCColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА ХП-->
+	  <hppanelDeg>0</hppanelDeg>	<!--ПОВОРОТ-->
+	  <hppanelX>164.30</hppanelX>	<!--КООРДИНАТА Х-->
+	  <hppanelY>-11</hppanelY>	<!--КООРДИНАТА У-->
+	  <hppanelA>100</hppanelA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <hppanelWH>100</hppanelWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <hpporog1>0.7</hpporog1>	<!--ПЕРВОЕ ПОРОГОВОЕ ЗНАЧЕНИЕ ИЗМЕНЕНИЯ ЦВЕТА (0.7=70%)-->
+	  <hpporog2>0.25</hpporog2>	<!--ВТОРОЕ ПОРОГОВОЕ ЗНАЧЕНИЕ ИЗМЕНЕНИЯ ЦВЕТА (0.25=25%)-->
+	  <hppanelColor1>0x00ff00</hppanelColor1>	<!--ЦВЕТ ХП ОТ 100 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <hppanelColor2>0xff9900</hppanelColor2>	<!--ЦВЕТ ХП ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <hppanelColor3>0xff0000</hppanelColor3>	<!--ЦВЕТ ХП ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО НУЛЯ-->
+	  
+	  <!--НАСТРОЙКА БОЕКОМПЛЕКТА-->
+	  <shellpanelDeg>0</shellpanelDeg>	<!--ПОВОРОТ-->
+	  <shellpanelX>117.25</shellpanelX>	<!--КООРДИНАТА Х-->
+	  <shellpanelY>-9.5</shellpanelY>	<!--КООРДИНАТА У-->
+	  <shellpanelA>100</shellpanelA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <shellpanelWH>100</shellpanelWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <shellpanelColor>0x9CFAFF</shellpanelColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА БАРАБАНА ЦИФРОВОГО-->
+	  <barabanDeg>0</barabanDeg>	<!--ПОВОРОТ-->
+	  <barabanX>94.15</barabanX>	<!--КООРДИНАТА Х-->
+	  <barabanY>-8</barabanY>	<!--КООРДИНАТА У-->
+	  <barabanA>0</barabanA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <barabanWH>100</barabanWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <barabanColor>0xff9900</barabanColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА БАРАБАНА ГРАФИЧЕСКОГО-->
+	  <barabanGDeg>0</barabanGDeg>	<!--ПОВОРОТ-->
+	  <barabanGX>197.50</barabanGX>	<!--КООРДИНАТА Х-->
+	  <barabanGY>19.15</barabanGY>	<!--КООРДИНАТА У-->
+	  <barabanGA>100</barabanGA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <barabanGWH>100</barabanGWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  
+	  <!--НАСТРОЙКА ДАЛЬНОМЕРА-->
+	  <distanceDeg>0</distanceDeg>	<!--ПОВОРОТ-->
+	  <distanceX>-34</distanceX>	<!--КООРДИНАТА Х-->
+	  <distanceY>-160</distanceY>	<!--КООРДИНАТА У-->
+	  <distanceA>100</distanceA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <distanceWH>100</distanceWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <distColor1>0xff0000</distColor1>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ И ДО БЕСКОНЕЧНОСТИ-->
+	  <distColor2>0x00ff00</distColor2>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО-->
+	  <distColor3>0xffffff</distColor3>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ 0 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <distporog1>200</distporog1>	<!--ВТОРОЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
+	  <distporog2>100</distporog2>	<!--ПЕРВЫЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
+	</sniper>
+</config>
 
-  
+	  
   
   </mmms>
   
