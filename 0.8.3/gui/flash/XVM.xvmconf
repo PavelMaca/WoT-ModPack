@@ -2058,7 +2058,7 @@
     "visible": true,
     "formatHeader": "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>{{n}}</font> | <font size='0{{vehicle}}'><font color='#FFFFFF'>Poškození:</font> <b>{{dmg-total}}</b> | <font color='#FFFFFF'>Poslední:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font></font>",
     "y": 5,
-    "formatHistory": "<font size='12'>×{{n-player}}</font> <font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab> <font color='{{c:dmg-kind}}'>-{{dmg}}</font> ({{dmg-player}})<tab> <font color='{{c:vtype}}'>{{vehicle}} {{nick}} {{dead}}</font>",
+    "formatHistory": "<textformat tabstops='[18,70,106,151,233]'><font size='12'>×{{n-player}}<tab>&nbsp;<font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab>&nbsp;<font color='{{c:dmg-kind}}'>-{{dmg}}</font><tab>&nbsp;</font>({{dmg-player}})<tab>&nbsp;<font color='{{c:vtype}}'>{{vehicle}}<tab>&nbsp;<font size='12'>{{nick}}</font>&nbsp;{{dead}}</font></textformat>",
     "defaultHeader": "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>0</font>",
     "h": 1000,
     "insertOrder": "end",
@@ -2476,11 +2476,11 @@
       "width": 65
     },
     "large": {
-      "nickFormatLeft": "<font color='{{c:rating}}'>{{rating}}</font> {{nick}}",
-      "vehicleFormatRight": "<font color='{{c:eff}}'>{{vehicle}}</font> ",
-      "nickFormatRight": "{{nick}} <font color='{{c:rating}}'>{{rating}}</font>",
+      "nickFormatLeft": "<font color='{{c:twr}}'>{{twr}}</font> {{nick}}",
+      "vehicleFormatRight": "<font color='{{c:e}}'>{{vehicle}}</font> ",
+      "nickFormatRight": "{{nick}} <font color='{{c:twr}}'>{{twr}}</font>",
       "width": 170,
-      "vehicleFormatLeft": "<font color='{{c:eff}}'>{{vehicle}}</font>"
+      "vehicleFormatLeft": "<font color='{{c:e}}'>{{vehicle}}</font>"
     },
     "removeSquadIcon": false,
     "iconAlpha": 100,
@@ -2957,8 +2957,8 @@
       "show": false,
       "w": 16
     },
-    "formatLeft": "<font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:wn}}'>{{wn}}</font> | <font color='{{c:t-battles}}'>{{t-battles:4}}</font>",
-    "formatRight": "<font color='{{c:t-battles}}'>{{t-battles:4}}</font> | <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:rating}}'>{{rating:3}}</font>",
+    "formatLeft": "<textformat tabstops='[43,73,103,128,163]'>&nbsp;<tab><font color='{{c:rating}}'>{{rating:3}}</font>&nbsp;<tab><font color='{{c:wn}}'>{{wn}}</font>&nbsp;<tab><font color='{{c:kb}}'>{{kb:3}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:t-battles}}'>{{t-battles:4}}</font><tab>&nbsp;</textformat>",
+    "formatRight": "<textformat tabstops='[25,55,85]'><font color='{{c:t-battles}}'>{{t-battles:4}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:kb}}'>{{kb:3}}</font><tab>&nbsp;<font color='{{c:wn}}'>{{wn}}</font><tab>&nbsp;<font color='{{c:rating}}'>{{rating:3}}</font></textformat>",
     "removeSquadIcon": false
   },
   "battleLoading": {
@@ -2975,8 +2975,8 @@
       "show": false,
       "w": 16
     },
-    "formatLeft": "<font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:wn}}'>{{wn}}</font> | <font color='{{c:t-battles}}'>{{t-battles:4}}</font>",
-    "formatRight": "<font color='{{c:t-battles}}'>{{t-battles:4}}</font> | <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:rating}}'>{{rating:3}}</font>",
+    "formatLeft": "<textformat tabstops='[40,70,100,123,163]'>&nbsp;<tab><font color='{{c:rating}}'>{{rating:3}}</font>&nbsp;<tab><font color='{{c:wn}}'>{{wn}}</font>&nbsp;<tab><font color='{{c:kb}}'>{{kb:3}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:t-battles}}'>{{t-battles:4}}</font><tab>&nbsp;</textformat>",
+    "formatRight": "<textformat tabstops='[25,55,85]'><font color='{{c:t-battles}}'>{{t-battles:4}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:kb}}'>{{kb:3}}</font><tab>&nbsp;<font color='{{c:wn}}'>{{wn}}</font><tab>&nbsp;<font color='{{c:rating}}'>{{rating:3}}</font></textformat>",
     "removeSquadIcon": false
   }
 }
