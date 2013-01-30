@@ -4,16 +4,18 @@
 <keycode>17</keycode><!-- keycode to toggle the map. any other code disables-->
 <markerscale>0.5</markerscale><!-- minimap iconsize factor-->
 <fontsize>6</fontsize><!-- fontsize of tanknames on map-->
-<shownames>bigmap</shownames><!-- show tanknames on map? Valid values: bigmap, smallmap, true or false-->
+<shownames>true</shownames><!-- show tanknames on map? Valid values: bigmap, smallmap, true or false-->
 <circlealpha>40</circlealpha><!-- circle alpha value, put 0 to remove circle -->
 <circlecolor>0</circlecolor><!-- circle color, write 0 for default, 0xFFFFFF for white -->
-<laseralpha>65</laseralpha><!-- laser alpha value, put 0 to remove laser liner -->
+<laseralpha>70</laseralpha><!-- laser alpha value, put 0 to remove laser liner -->
 <lasercolor>0</lasercolor><!-- laser color, write 0 for default, 0x000000 for black -->
 <allytextcolor>0x9FF781</allytextcolor><!-- ally tankname text color, default 0x9FF781 -->
 <enemytextcolor>0xF78181</enemytextcolor><!-- enemy tankname text color, default 0xF78181 -->
 <squadtextcolor>0xFE9A2E</squadtextcolor><!-- platoon buddy tankname text color, default 0xFE9A2E -->
 <textshadow>15</textshadow><!-- tankname textshadow strength -->
-<namecontent>tank</namecontent><!-- set content for textfields, player = playername, tank = tankname -->
+<namecontent>tank</namecontent><!-- set content for textfields, Valid values: player, tank, tankplayer, playertank -->
+<fiftymalpha>20</fiftymalpha><!-- set alpha for 50m X-ray spotting circle, 0 to disable -->
+<fiftymcolor>0</fiftymcolor><!-- set color for 50m X-ray spotting circle (i.e. 0xFF0000 for red), 0 for default white -->
 </minimap>
 <!-- 
 HD Minimap 2nd generation Mod by locastan.
@@ -33,5 +35,7 @@ The textcolor tags are pretty self explaining. Only special option is putting 0 
 
 textshadow is the shadow strength behind the tanknames.
 
-namecontent lets you configure what text should be displayed next to the icons. player = playername, tank = tankname.
+namecontent lets you configure what text should be displayed next to the icons. player = playername, tank = tankname, or for both use tankplayer or playertank.
+
+fiftymalpha and fiftymcolor are for setting color value and transparency for the 50m X-ray spotting circle around your tank. Same values useable as for laser and circle.
 -->
