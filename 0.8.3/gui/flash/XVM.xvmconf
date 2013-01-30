@@ -1363,7 +1363,7 @@
     "mirroredVehicleIcons": false,
     "highlightVehicleIcon": true,
     "clanIconsFolder": "clanicons/",
-    "showPostmortemTips": true,
+    "showPostmortemTips": false,
     "removePanelsModeSwitcher": false
   },
   "configVersion": "1.5.0",
@@ -2058,7 +2058,7 @@
     "visible": true,
     "formatHeader": "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>{{n}}</font> | <font size='0{{vehicle}}'><font color='#FFFFFF'>Poškození:</font> <b>{{dmg-total}}</b> | <font color='#FFFFFF'>Poslední:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font></font>",
     "y": 5,
-    "formatHistory": "<textformat leading='-3' tabstops='[40,80,200]'><font size='12'>×{{n-player}}</font> <font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab> <font color='{{c:dmg-kind}}'>-{{dmg}}</font> ({{dmg-player}})<tab> <font color='{{c:vtype}}'>{{vehicle}} {{nick}} {{dead}}</font></textformat>",
+    "formatHistory": "<font size='12'>×{{n-player}}</font> <font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab> <font color='{{c:dmg-kind}}'>-{{dmg}}</font> ({{dmg-player}})<tab> <font color='{{c:vtype}}'>{{vehicle}} {{nick}} {{dead}}</font>",
     "defaultHeader": "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>0</font>",
     "h": 1000,
     "insertOrder": "end",
@@ -2957,8 +2957,8 @@
       "show": false,
       "w": 16
     },
-    "formatLeft": "<font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{cwn}}'>{{wn:4}}</font> | <font color='{{c:t-battles}}'>{{t-hb:3}}</font>",
-    "formatRight": "<font color='{{c:t-battles}}'>{{t-hb:3}}</font> | <font color='{{cwn}}'>{{wn:4}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:rating}}'>{{rating:3}}</font>",
+    "formatLeft": "<font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:wn}}'>{{wn}}</font> | <font color='{{c:t-battles}}'>{{t-battles:4}}</font>",
+    "formatRight": "<font color='{{c:t-battles}}'>{{t-battles:4}}</font> | <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:rating}}'>{{rating:3}}</font>",
     "removeSquadIcon": false
   },
   "battleLoading": {
@@ -2975,8 +2975,8 @@
       "show": false,
       "w": 16
     },
-    "formatLeft": "<font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{cwn}}'>{{wn:4}}</font> | <font color='{{c:t-battles}}'>{{t-hb:3}}</font>",
-    "formatRight": "<font color='{{c:t-battles}}'>{{t-hb:3}}</font> | <font color='{{cwn}}'>{{wn:4}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:rating}}'>{{rating:3}}</font>",
+    "formatLeft": "<font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:wn}}'>{{wn}}</font> | <font color='{{c:t-battles}}'>{{t-battles:4}}</font>",
+    "formatRight": "<font color='{{c:t-battles}}'>{{t-battles:4}}</font> | <font color='{{c:wn}}'>{{wn}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:rating}}'>{{rating:3}}</font>",
     "removeSquadIcon": false
   }
 }
