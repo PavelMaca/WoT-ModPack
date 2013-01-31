@@ -85,7 +85,7 @@
 		<location x="0" y="10"/>
 		<text font="Cuprum" size="20" color="0xFFFFFF" alpha="100" align="center" bold="false"/> 
 		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/>
-		<format>100</format> <!--Формат отображения времени, 100 - с сотыми, 10 - с десятыми, 1 - целое.-->
+		<format>1</format> <!--Формат отображения времени, 100 - с сотыми, 10 - с десятыми, 1 - целое.-->
 	</repairStyle>
 	
 	<!--Настройка имени игрока-->
