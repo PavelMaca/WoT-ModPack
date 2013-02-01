@@ -14,7 +14,7 @@
 <squadtextcolor>0xFE9A2E</squadtextcolor><!-- platoon buddy tankname text color, default 0xFE9A2E -->
 <textshadow>15</textshadow><!-- tankname textshadow strength -->
 <namecontent>tank</namecontent><!-- set content for textfields, Valid values: player, tank, tankplayer, playertank -->
-<fiftymalpha>20</fiftymalpha><!-- set alpha for 50m X-ray spotting circle, 0 to disable -->
+<fiftymalpha>25</fiftymalpha><!-- set alpha for 50m X-ray spotting circle, 0 to disable -->
 <fiftymcolor>0</fiftymcolor><!-- set color for 50m X-ray spotting circle (i.e. 0xFF0000 for red), 0 for default white -->
 </minimap>
 <!-- 
