@@ -118,76 +118,87 @@ Example of a complete text unit:
 
 		<CommonCommands>
 			<Command>
-				<Title>Greetings</Title>
+				<Title>Pozdrav</Title>
 				<Icon>Yes</Icon>
-				<Text>Hello, good luck and have fun, fellow tankers. :)</Text>
+				<Text>Zdravím, gl/hf</Text>
 				<ChatMode>All</ChatMode>
 			</Command>
 			<Command>
-				<Title>Clan spam</Title>
-				<Icon>Support</Icon>
-				<Text>Clan XYZ is recruiting. Contact me per PM...blablabla</Text>
-				<ChatMode>All</ChatMode>
+				<Title>OK</Title>
+				<Icon>Yes</Icon>
+				<Text>OK</Text>
+				<ChatMode>Team</ChatMode>
+				<Command>POSITIVE</Command>
 			</Command>
 			<Command>
-				<Title>Wake up!</Title>
+				<Title>No tak !?</Title>
 				<Icon>Attack</Icon>
 				<Text>%(randpart)s</Text>
 				<ChatMode>Team</ChatMode>
 				<Variants>
-				<Variant>Good morning base campers. The battle has started!</Variant>
-				<Variant>You guys got a fire going and drink beer in base?</Variant>
-				<Variant>Come on! Last one out of base has to paint the enemy flag green...</Variant>
+					<Variant>Good morning base campers. The battle has started!</Variant>
+					<Variant>You guys got a fire going and drink beer in base?</Variant>
+					<Variant>Come on! Last one out of base has to paint the enemy flag green...</Variant>
 				</Variants>
 				<Hotkey>KEY_LALT+KEY_C</Hotkey>
+				<Command>ATTACK</Command>
 			</Command>
 			<Command>
-				<Title>Back to base</Title>
+				<Title>Zpět na základnu!</Title>
 				<Icon>Backtobase</Icon>
 				<Text>Back to base, please hurry!</Text>
 				<ChatMode>Team</ChatMode>
+				<Command>BACKTOBASE</Command>
 				<Hotkey>KEY_LCONTROL+KEY_F</Hotkey>
 			</Command>
 			<Command>
-				<Title>Reloading</Title>
+				<Title>Nabíjím</Title>
 				<Icon>Reload</Icon>
 				<Command>RELOADINGGUN</Command>
-				<Text>Reloading at %(ownPos)s, for %(reload)s seconds.</Text>
+				<Text>Reloading at %(ownPos)s, for %(reload)s sec.</Text>
 				<ChatMode>Team</ChatMode>
 				<Hotkey>KEY_LALT+KEY_R</Hotkey>
 			</Command>
 			<Command>
-				<Title>To the Cap!</Title>
+				<Title>Obsazujte!</Title>
 				<Icon>Attack</Icon>
 				<Text>Capture the base!</Text>
 				<ChatMode>Team</ChatMode>
+				<Command>ATTACK</Command>
 			</Command>
 		</CommonCommands>
 
 		<TeamCommands>
 
 			<Command>
-				<Title>Don't rush!</Title>
+				<Title>Pomalu!</Title>
 				<Icon>Stop</Icon>
 				<Text>%(name)s, take your time, slow down.</Text>
 				<ChatMode>Team</ChatMode>
 			</Command>
 			<Command>
-				<Title>Go!</Title>
+				<Title>Kupředu!</Title>
 				<Icon>Followme</Icon>
 				<Text>%(name)s, drive forward please.</Text>
 				<ChatMode>Team</ChatMode>
 			</Command>
 			<Command>
-				<Title>Hold line</Title>
+				<Title>Zastavit</Title>
 				<Icon>Stop</Icon>
 				<Text>%(name)s, stop and hold the defense line, please.</Text>
 				<ChatMode>Team</ChatMode>
+				<Command>STOP</Command>
 			</Command>
 			<Command>
-				<Title>Reloaded?</Title>
+				<Title>Máš nabito?</Title>
 				<Icon>Reload</Icon>
 				<Text>%(name)s, is your %(vehicle)s reloaded?</Text>
+				<ChatMode>Team</ChatMode>
+			</Command>
+			<Command>
+				<Title>Moc daleko!</Title>
+				<Icon>Turnback</Icon>
+				<Text>%(name)s, you are out of sight!</Text>
 				<ChatMode>Team</ChatMode>
 			</Command>
 			<Command>
@@ -196,52 +207,50 @@ Example of a complete text unit:
 				<Text>%(name)s, you want to platoon with me after this?</Text>
 				<ChatMode>Team</ChatMode>
 			</Command>
-			<Command>
-				<Title>Too far!</Title>
-				<Icon>Turnback</Icon>
-				<Text>%(name)s, you are out of sight!</Text>
-				<ChatMode>Team</ChatMode>
-			</Command>
 
 		</TeamCommands>
 
 		<EnemyCommands>
 
 			<Command>
-				<Title>Taunt</Title>
+				<Title>Provokace</Title>
 				<Icon>Followme</Icon>
 				<Text>%(name)s, come here and fight me!</Text>
 				<ChatMode>All</ChatMode>
 			</Command>
 			<Command>
-				<Title>Focus</Title>
+				<Title>Podpora</Title>
 				<Icon>Support</Icon>
 				<Text>Focus on - %(vehicle)s - %(name)s, please!</Text>
 				<ChatMode>Team</ChatMode>
+				<Command>SUPPORTMEWITHFIRE</Command>
+				<Ping>%(viewPos)s</Ping>
 			</Command>
 			<Command>
-				<Title>Behind you</Title>
+				<Title>Za tebou</Title>
 				<Icon>Turnback</Icon>
 				<Text>%(name)s, look behind you...</Text>
 				<ChatMode>All</ChatMode>
 			</Command>
 			<Command>
-				<Title>Well done</Title>
+				<Title>Dobře</Title>
 				<Icon>Yes</Icon>
 				<Text>Well done %(name)s. I salute you.</Text>
 				<ChatMode>All</ChatMode>
 			</Command>
 			<Command>
-				<Title>Bright idea?</Title>
+				<Title>Další super nápad?</Title>
 				<Icon>Yes</Icon>
 				<Text>You have more of those bright ideas, %(name)s?</Text>
 				<ChatMode>All</ChatMode>
 			</Command>
 			<Command>
-				<Title>Say Goodbye!</Title>
-				<Icon>Turnback</Icon>
-				<Text>Time to say goodbye, %(name)s!</Text>
-				<ChatMode>All</ChatMode>
+				<Title>Arty - pomoc!</Title>
+				<Icon>AttackSPG</Icon>
+				<Text>Arty, need help with %(vehicle)s - %(name)s at %(viewPos)s</Text>
+				<ChatMode>Team</ChatMode>
+				<Command>SUPPORTMEWITHFIRE</Command>
+				<Ping>%(viewPos)s</Ping>
 			</Command>
 
 		</EnemyCommands>
@@ -253,42 +262,46 @@ Example of a complete text unit:
 		<EnemyCommands>
 
 			<Command>
-				<Title>Targeting</Title>
+				<Title>Zaměřuji cíl</Title>
 				<Icon>Yes</Icon>
-				<Text>Targeting %(vehicle)s at %(viewPos)s.</Text>
+				<Text>Targeting %(vehicle)s at %(viewPos)s, reloading: %(reload)s sec</Text>
+				<ChatMode>Team</ChatMode>
+				<Command>ATTACKENEMY</Command>
+			</Command>
+			<Command>
+				<Title>Nemohu střílet na pozici</Title>
+				<Icon>No</Icon>
+				<Text>Can't fire on %(viewPos)s, sry.</Text>
 				<ChatMode>Team</ChatMode>
 			</Command>
 			<Command>
-				<Title>Catch</Title>
-				<Icon>Support</Icon>
-				<Text>%(name)s, catch this.</Text>
-				<ChatMode>All</ChatMode>
+				<Title>Nemá pásy</Title>
+				<Icon>Attack</Icon>
+				<Text>%(vehicle)s has track down! It's your time now.</Text>
+				<ChatMode>Team</ChatMode>
+				<Command>ATTACKENEMY</Command>
 			</Command>
 			<Command>
-				<Title>Caught it?</Title>
-				<Icon>Followme</Icon>
-				<Text>You caught it, %(name)s? Why so silent? ;)</Text>
-				<ChatMode>All</ChatMode>
+				<Title>Útočím</Title>
+				<Icon>Attack</Icon>
+				<Text>Attacking %(vehicle)s (%(name)s). Hold some distance, please!</Text>
+				<ChatMode>Team</ChatMode>
+				<Command>ATTACKENEMY</Command>
 			</Command>
 			<Command>
-				<Title>Goodbye</Title>
+				<Title>Za tebou</Title>
+				<Icon>Turnback</Icon>
+				<Text>Look behind you, %(name)s...</Text>
+				<ChatMode>Team</ChatMode>
+				<Command>TURNBACK</Command>
+				<Ping>%(viewPos)s</Ping>
+			</Command>
+			<Command>
+				<Title>Zbohem mrtvolo</Title>
 				<Icon>Turnback</Icon>
 				<Text>Say goodbye, %(name)s.</Text>
 				<ChatMode>All</ChatMode>
 			</Command>
-			<Command>
-				<Title>Attacking</Title>
-				<Icon>Attack</Icon>
-				<Text>Attacking %(vehicle)s (%(name)s). Hold some distance, please.</Text>
-				<ChatMode>Team</ChatMode>
-			</Command>
-			<Command>
-				<Title>Behind you</Title>
-				<Icon>Turnback</Icon>
-				<Text>Look behind you, %(name)s...</Text>
-				<ChatMode>All</ChatMode>
-			</Command>
-
 		</EnemyCommands>
 
 	</SPGMenu>
@@ -298,42 +311,6 @@ Example of a complete text unit:
 		</Map_01_karelia>
 
 		<Map_02_malinovka>
-			<Command>
-				<Title>Meds 2 Hill</Title>
-				<Icon>Attack</Icon>
-				<Text>Mediums to hill, please.</Text>
-				<ChatMode>Team</ChatMode>
-			</Command>
-			<Command>
-				<Title>Burn da bush</Title>
-				<Icon>Support</Icon>
-				<Text>Arty, burn out the bush at %(viewPos)s, please.</Text>
-				<ChatMode>Team</ChatMode>
-			</Command>
-			<Command>
-				<Title>Field rush</Title>
-				<Icon>Followme</Icon>
-				<Text>Let's rush the field path gentlemen.</Text>
-				<ChatMode>Team</ChatMode>
-			</Command>
-			<Command>
-				<Title>Forest defense</Title>
-				<Icon>Helpme</Icon>
-				<Text>Occupy the forest and wait for "guests".</Text>
-				<ChatMode>Team</ChatMode>
-			</Command>
-			<Command>
-				<Title>To church</Title>
-				<Icon>Helpme</Icon>
-				<Text>Go to the church, we meet up there.</Text>
-				<ChatMode>Team</ChatMode>
-			</Command>
-			<Command>
-				<Title>Spotted!</Title>
-				<Icon>Turnback</Icon>
-				<Text>We are spotted, it's not safe to climb.</Text>
-				<ChatMode>Team</ChatMode>
-			</Command>
 		</Map_02_malinovka>
 
 		<Map_03_campania>
@@ -431,37 +408,41 @@ Example of a complete text unit:
 
 		<Map_Default>
 					<Command>
-						<Title>To Hill!</Title>
-						<Icon>Attack</Icon>
-						<Text>Mediums to hill, please.</Text>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
 						<ChatMode>Team</ChatMode>
+						<Command>HELPME</Command>
 					</Command>
 					<Command>
-						<Title>Attention to..</Title>
-						<Icon>Support</Icon>
-						<Text>Attention at %(viewPos)s, please.</Text>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
 						<ChatMode>Team</ChatMode>
+						<Command>HELPME</Command>
+						<Ping>%(viewPos)s</Ping>
 					</Command>
 					<Command>
-						<Title>Field rush</Title>
+						<Title>Rush!</Title>
 						<Icon>Followme</Icon>
 						<Text>Let's rush the field path gentlemen.</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Forest defense</Title>
+						<Title>Braňte les</Title>
 						<Icon>Helpme</Icon>
 						<Text>Let's occupy the forest and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Cap later</Title>
-						<Icon>Helpme</Icon>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
 						<Text>Defend first, cap later.</Text>
 						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
 					</Command>
 					<Command>
-						<Title>Spotted!</Title>
+						<Title>Spatřen!</Title>
 						<Icon>Turnback</Icon>
 						<Text>I am spotted!</Text>
 						<ChatMode>Team</ChatMode>
