@@ -2476,11 +2476,11 @@
       "width": 65
     },
     "large": {
-      "nickFormatLeft": "<font color='{{c:twr}}'>{{twr}}</font> {{nick}}",
-      "vehicleFormatRight": "<font color='{{c:e}}'>{{vehicle}}</font> ",
-      "nickFormatRight": "{{nick}} <font color='{{c:twr}}'>{{twr}}</font>",
+      "nickFormatLeft": "<font color='{{c:rating}}'>{{rating}}</font> {{nick}}",
+      "vehicleFormatRight": "<font color='{{c:wn}}'>{{vehicle}}</font> ",
+      "nickFormatRight": "{{nick}} <font color='{{c:rating}}'>{{rating}}</font>",
       "width": 170,
-      "vehicleFormatLeft": "<font color='{{c:e}}'>{{vehicle}}</font>"
+      "vehicleFormatLeft": "<font color='{{c:wn}}'>{{vehicle}}</font>"
     },
     "removeSquadIcon": false,
     "iconAlpha": 100,
