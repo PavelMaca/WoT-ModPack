@@ -128,7 +128,6 @@ Example of a complete text unit:
 				<Icon>Yes</Icon>
 				<Text>OK</Text>
 				<ChatMode>Team</ChatMode>
-				<Command>POSITIVE</Command>
 			</Command>
 			<Command>
 				<Title>No tak !?</Title>
@@ -164,7 +163,6 @@ Example of a complete text unit:
 				<Icon>Attack</Icon>
 				<Text>Capture the base!</Text>
 				<ChatMode>Team</ChatMode>
-				<Command>ATTACK</Command>
 			</Command>
 		</CommonCommands>
 
@@ -187,7 +185,6 @@ Example of a complete text unit:
 				<Icon>Stop</Icon>
 				<Text>%(name)s, stop and hold the defense line, please.</Text>
 				<ChatMode>Team</ChatMode>
-				<Command>STOP</Command>
 			</Command>
 			<Command>
 				<Title>Máš nabito?</Title>
@@ -224,7 +221,6 @@ Example of a complete text unit:
 				<Text>Focus on - %(vehicle)s - %(name)s, please!</Text>
 				<ChatMode>Team</ChatMode>
 				<Command>SUPPORTMEWITHFIRE</Command>
-				<Ping>%(viewPos)s</Ping>
 			</Command>
 			<Command>
 				<Title>Za tebou</Title>
@@ -246,11 +242,10 @@ Example of a complete text unit:
 			</Command>
 			<Command>
 				<Title>Arty - pomoc!</Title>
-				<Icon>AttackSPG</Icon>
+				<Icon>Helpemeex</Icon>
 				<Text>Arty, need help with %(vehicle)s - %(name)s at %(viewPos)s</Text>
 				<ChatMode>Team</ChatMode>
 				<Command>SUPPORTMEWITHFIRE</Command>
-				<Ping>%(viewPos)s</Ping>
 			</Command>
 
 		</EnemyCommands>
@@ -263,7 +258,7 @@ Example of a complete text unit:
 
 			<Command>
 				<Title>Zaměřuji cíl</Title>
-				<Icon>Yes</Icon>
+				<Icon>AttackSPG</Icon>
 				<Text>Targeting %(vehicle)s at %(viewPos)s, reloading: %(reload)s sec</Text>
 				<ChatMode>Team</ChatMode>
 				<Command>ATTACKENEMY</Command>
@@ -279,12 +274,11 @@ Example of a complete text unit:
 				<Icon>Attack</Icon>
 				<Text>%(vehicle)s has track down! It's your time now.</Text>
 				<ChatMode>Team</ChatMode>
-				<Command>ATTACKENEMY</Command>
 			</Command>
 			<Command>
 				<Title>Útočím</Title>
 				<Icon>Attack</Icon>
-				<Text>Attacking %(vehicle)s (%(name)s). Hold some distance, please!</Text>
+				<Text>Hold some distance, please!</Text>
 				<ChatMode>Team</ChatMode>
 				<Command>ATTACKENEMY</Command>
 			</Command>
@@ -292,8 +286,7 @@ Example of a complete text unit:
 				<Title>Za tebou</Title>
 				<Icon>Turnback</Icon>
 				<Text>Look behind you, %(name)s...</Text>
-				<ChatMode>Team</ChatMode>
-				<Command>TURNBACK</Command>
+				<ChatMode>Team</ChatMode>	
 				<Ping>%(viewPos)s</Ping>
 			</Command>
 			<Command>
@@ -412,14 +405,12 @@ Example of a complete text unit:
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
 						<ChatMode>Team</ChatMode>
-						<Command>HELPME</Command>
 					</Command>
 					<Command>
 					<Title>Připraven střílet na sektor</Title>
 						<Icon>Helpme</Icon>
 						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
 						<ChatMode>Team</ChatMode>
-						<Command>HELPME</Command>
 						<Ping>%(viewPos)s</Ping>
 					</Command>
 					<Command>
