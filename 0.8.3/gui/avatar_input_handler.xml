@@ -5,7 +5,7 @@
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>5</scrollSensitivity>
       <angleRange>10 110</angleRange>
-      <distRange>2 70</distRange> <!-- Высота камеры после смерти МИН/МАКС -->
+      <distRange>2 25</distRange> <!-- Высота камеры после смерти МИН/МАКС -->
     </camera>
   </postMortemMode>
   <arcadeMode>
@@ -15,8 +15,8 @@
       <keySensitivity>0.025</keySensitivity>
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>5</scrollSensitivity>
-      <angleRange>10 360</angleRange>
-      <distRange>2 200</distRange> <!-- Высота камеры в аркадном режиме МИН/МАКС -->
+      <angleRange>10 110</angleRange>
+      <distRange>0 300</distRange> <!-- Высота камеры в аркадном режиме МИН/МАКС -->
       <noscroll>false</noscroll> <!-- Включение/выключение noscroll мода для аркадного режима true/false-->
     </camera>
   </arcadeMode>
@@ -26,7 +26,7 @@
       <keySensitivity>0.5</keySensitivity>
       <sensitivity>0.05</sensitivity>
       <scrollSensitivity>0.25</scrollSensitivity>
-      <distRange>20 100</distRange> <!-- Высота камеры в артиллерийском режиме МИН/МАКС -->
+      <distRange>0 300</distRange> <!-- Высота камеры в артиллерийском режиме МИН/МАКС -->
       <noscroll>false</noscroll> <!-- Включение/выключение noscroll мода для арт режима true/false-->
     </camera>
   </strategicMode>

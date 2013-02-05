@@ -1,16 +1,7 @@
 ﻿<mmms>
   <config>
     <strategic>
-      <circle0>0</circle0>   <!-- Отслеживаемая скорость в км/ч -->
-      <circle1>0</circle1>   <!-- Отслеживаемая скорость в км/ч -->
-	  <circle2>0</circle2>   <!-- Отслеживаемая скорость в км/ч -->
-	  <circle3>0</circle3>   <!-- Отслеживаемая скорость в км/ч -->
-	  <circle4>0</circle4>   <!-- Отслеживаемая скорость в км/ч -->
-	  <circle5>0</circle5>   <!-- Отслеживаемая скорость в км/ч -->
-	  <circle6>0</circle6>   <!-- Отслеживаемая скорость в км/ч -->
-	  <circle7>0</circle7>   <!-- Отслеживаемая скорость в км/ч -->
-	  <circle8>0</circle8>   <!-- Отслеживаемая скорость в км/ч -->
-	  <circle9>0</circle9>   <!-- Отслеживаемая скорость в км/ч -->
+      
 	  <m2pix>8.5</m2pix>    
 	  
 	 <!--- ГРАФИЧЕСКАЯ ПЕРЕЗАРЯДКА  -->
@@ -142,7 +133,7 @@
 		<healthpercentMCpanelX>263</healthpercentMCpanelX>  <!-- Координата Х  -->
 		<healthpercentMCpanelY>137</healthpercentMCpanelY>  <!-- Координата У  -->
 		<healthpercentMCpanelWH>100</healthpercentMCpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
-		<healthpercentMCpanelA>50</healthpercentMCpanelA>  <!-- Прозрачность 0-100 -->
+		<healthpercentMCpanelA>80</healthpercentMCpanelA>  <!-- Прозрачность 0-100 -->
 		<healthpercentMCpanelbackA>50</healthpercentMCpanelbackA>    <!-- Прозрачность подложки ХП 0-100 -->
 		<healthpice>0x00ABF0</healthpice> <!-- Цвет кубиков ХП 0xFF0000 -->
 		<healthpercentMCpanelbackColor>0x000000</healthpercentMCpanelbackColor> <!-- Цвет подложки ХП 0x000000 -->
@@ -187,13 +178,20 @@
 	 	<shellSpleshColor>0x00FFFF</shellSpleshColor> <!-- Цвет кольца сплеша -->
 		<shellSpleshA>50</shellSpleshA> <!-- Прозрачность кольца сплеша 0-100 -->
 		<!---  МАРКЕР -->
-		<markerColor>0x00FF00</markerColor>  <!-- Цвет центрального маркера -->
-		<marker1A>100</marker1A> <!-- Вкл/выкл центрального маркера 1 -->
-		<marker2A>0</marker2A> <!-- Вкл/выкл центрального маркера 2 -->
-		<marker3A>0</marker3A> <!-- Вкл/выкл центрального маркера 3 -->
+		<markerColor>0x00ff00</markerColor>  <!-- Цвет центрального маркера -->
+		<markerWH>100</markerWH>	<!--РАЗМЕР ЦЕНТРАЛЬНОГО МАРКЕРА-->
+		<markerDeg>0</markerDeg>	<!--ПОВОРОТ ЦЕНТРАЛЬНОГО МАРКЕРА-->
+		<!--ВКЛЮЧЕНИЕ/ВЫКЛЮЧЕНИЕ ЦЕНТРАЛЬНОГО МАРКЕРА 100=ВКЛ. 0=ВЫКЛ. (ДР. ЗНАЧЕНИЯ НЕ РАБОТАЮТ) ВОЗМОЖНО ВКЛЮЧЕНИЕ НЕСКОЛЬКИХ МАРКЕРОВ-->
+		<marker1A>0</marker1A>	<!--КОЛЬЦО-->
+		<marker2A>0</marker2A>	<!--КРЕСТ БЕЗ ЦЕНТРА-->
+		<marker3A>0</marker3A>	<!--ПОЛУКРЕСТ-->
+		<marker4A>0</marker4A>	<!--КРЕСТ-->
+		<marker5A>100</marker5A>	<!--ТОЧКА-->
+	    <marker6A>0</marker6A>	<!--КВАДРАТНЫЕ СКОБКИ-->
+		<marker7A>0</marker7A>	<!--ГАЛКА-->
 		<markerAlpha>100</markerAlpha>  <!-- Прозрачность центрального маркера 0-100 -->
 		<!---  ТЕНЬ ПАНЕЛЕЙ -->
-		<shadow>100</shadow>
+		<shadow>20</shadow> <!--0=ВЫКЛ. -->
 	 
 	 	
     </strategic>
@@ -201,18 +199,8 @@
 	<!--НАСТРОЙКИ АРКАДНОГО ПРИЦЕЛА-->
 	<arcada>
 	<!--НАСТРОЙКА МАРКЕРА-->
-	<!--ВЫБОР МАРКЕРА 100=ВКЛ. 0=ВЫКЛ. (ВОЗМОЖНЫ ПРОМЕЖУТОЧНЫЕ ЗНАЧЕНИЯ - РАБОТАЕТ КАК АЛЬФА)-->
-	<marker1>100</marker1>	<!--КОЛЬЦО-->
-	  <marker2>0</marker2>	<!--ПОЛУКРЕСТ-->
-	  <marker3>0</marker3>	<!--КРЕСТ-->
-	  <marker4>0</marker4>	<!--ТОЧКА-->
-	  <marker5>0</marker5>	<!--ПЕРЕКРЕСТИЕ-->
-	  <marker6>0</marker6>	<!--КВАДРАТНЫЕ СКОБКИ-->
-	  <marker7>0</marker7>	<!--ГАЛКА-->
-	  <markerDeg>0</markerDeg>	<!--ПОВОРОТ МАРКЕРА-->
 	  <markerX>0</markerX>	<!--КООРДИНАТА Х-->
 	  <markerY>0</markerY>	<!--КООРДИНАТА У-->
-	  <markerWH>100</markerWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
 	  <markerColor>0x00ff00</markerColor>	<!--ЦВЕТ-->
 	  
 	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ-->
@@ -243,6 +231,7 @@
 	  <hppanelColor1>0x00ff00</hppanelColor1>	<!--ЦВЕТ ХП ОТ 100 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
 	  <hppanelColor2>0xff9900</hppanelColor2>	<!--ЦВЕТ ХП ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
 	  <hppanelColor3>0xff0000</hppanelColor3>	<!--ЦВЕТ ХП ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО НУЛЯ-->
+	  <hpchange>1</hpchange>	<!--ВЫБОР ОТОБРАЖЕНИЯ ВИДА ХП 1=В ЕДИНИЦАХ, 2=В ПРОЦЕНТАХ-->
 	  
 	  <!--НАСТРОЙКА БОЕКОМПЛЕКТА-->
 	  <shellpanelDeg>0</shellpanelDeg>	<!--ПОВОРОТ-->
@@ -256,7 +245,7 @@
 	  <barabanDeg>0</barabanDeg>	<!--ПОВОРОТ-->
 	  <barabanX>94.15</barabanX>	<!--КООРДИНАТА Х-->
 	  <barabanY>-8</barabanY>	<!--КООРДИНАТА У-->
-	  <barabanA>0</barabanA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <barabanA>100</barabanA>	<!--ПРОЗРАЧНОСТЬ-->
 	  <barabanWH>100</barabanWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
 	  <barabanColor>0xff9900</barabanColor>	<!--ЦВЕТ-->
 	  
@@ -283,18 +272,8 @@
 	<!--НАСТРОЙКИ СНАЙПЕРСКОГО ПРИЦЕЛА-->
 	<sniper>
 	<!--НАСТРОЙКА МАРКЕРА-->
-	<!--ВЫБОР МАРКЕРА 100=ВКЛ. 0=ВЫКЛ. (ВОЗМОЖНЫ ПРОМЕЖУТОЧНЫЕ ЗНАЧЕНИЯ - РАБОТАЕТ КАК АЛЬФА)-->
-	<marker1>100</marker1>	<!--КОЛЬЦО-->
-	  <marker2>0</marker2>	<!--ПОЛУКРЕСТ-->
-	  <marker3>0</marker3>	<!--КРЕСТ-->
-	  <marker4>0</marker4>	<!--ТОЧКА-->
-	  <marker5>0</marker5>	<!--ПЕРЕКРЕСТИЕ-->
-	  <marker6>0</marker6>	<!--КВАДРАТНЫЕ СКОБКИ-->
-	  <marker7>0</marker7>	<!--ГАЛКА-->
-	  <markerDeg>0</markerDeg>	<!--ПОВОРОТ МАРКЕРА-->
 	  <markerX>0</markerX>	<!--КООРДИНАТА Х-->
 	  <markerY>0</markerY>	<!--КООРДИНАТА У-->
-	  <markerWH>100</markerWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
 	  <markerColor>0x00ff00</markerColor>	<!--ЦВЕТ-->
 	  
 	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ-->
@@ -304,7 +283,7 @@
 	  <timeMCA>100</timeMCA>	<!--ПРОЗРАЧНОСТЬ-->
 	  <timeMCWH>100</timeMCWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
 	  <timeMCColor>0xff0000</timeMCColor>	<!--ЦВЕТ БЕГУЩЕГО ТАЙМЕРА-->
-	  <timeMC2Color>0x00ff00</timeMC2Color>	<!--ЦВЕТ НАДПИСИ ОК ПОСЛЕ ОКОНЧАНИЯ ОТСЧЕТА-->
+	  <timeMC2Color>0xffffff</timeMC2Color>	<!--ЦВЕТ НАДПИСИ ОК ПОСЛЕ ОКОНЧАНИЯ ОТСЧЕТА-->
 	  
 	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ (ОБЩЕГО)-->
 	  <reloadsecMCDeg>0</reloadsecMCDeg>	<!--ПОВОРОТ-->
@@ -325,7 +304,8 @@
 	  <hppanelColor1>0x00ff00</hppanelColor1>	<!--ЦВЕТ ХП ОТ 100 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
 	  <hppanelColor2>0xff9900</hppanelColor2>	<!--ЦВЕТ ХП ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
 	  <hppanelColor3>0xff0000</hppanelColor3>	<!--ЦВЕТ ХП ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО НУЛЯ-->
-	  
+	  <hpchange>1</hpchange>	<!--ВЫБОР ОТОБРАЖЕНИЯ ВИДА ХП 1=В ЕДИНИЦАХ, 2=В ПРОЦЕНТАХ-->
+	  	  
 	  <!--НАСТРОЙКА БОЕКОМПЛЕКТА-->
 	  <shellpanelDeg>0</shellpanelDeg>	<!--ПОВОРОТ-->
 	  <shellpanelX>117.25</shellpanelX>	<!--КООРДИНАТА Х-->
@@ -361,6 +341,29 @@
 	  <distporog1>200</distporog1>	<!--ВТОРОЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
 	  <distporog2>100</distporog2>	<!--ПЕРВЫЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
 	</sniper>
+	
+	<!--НАСТРОЙКИ СВЕДЕНИЯ (АРКАДНОЕ СНАЙПЕРСКОЕ)-->
+	<svedenieSNIP>
+		  
+	  <markerDeg>0</markerDeg>	<!--ПОВОРОТ-->
+	  <markerX>0</markerX>	<!--КООРДИНАТА Х-->
+	  <markerY>0</markerY>	<!--КООРДИНАТА У-->
+	  <markerWH>100</markerWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <markerColor>0xffffff</markerColor>	<!--ЦВЕТ-->
+	  
+	</svedenieSNIP>
+	
+	<!--НАСТРОЙКИ УГН ДЛЯ ПТ И САУ-->
+	<gunConstraints>
+	<td>on</td>	<!--ВКЛЮЧЕНИЕ/ВЫКЛЮЧЕНИЕ УГН У ПТ on=ВКЛ. off=ВЫКЛ.-->
+	<spg>on</spg>	<!--ВКЛЮЧЕНИЕ/ВЫКЛЮЧЕНИЕ УГН У САУ on=ВКЛ. off=ВЫКЛ.-->
+	<UGNColor>0x00ff00</UGNColor>	<!--ЦВЕТ УГН В ОБЫЧНОМ СОСТОЯНИИ-->
+	<UGNCritColor>0xff0000</UGNCritColor>	<!--ЦВЕТ УГН В КРИТИЧЕСКОМ СОСТОЯНИИ-->
+	<UGNWH>100</UGNWH>	<!--МАСШТАБ УГН-->
+	<UGN1>0</UGN1>	<!--ВКЛЮЧЕНИЕ УГН 1 ВИДА 100=ВКЛ. 0=ВЫКЛ.-->
+	<UGN2>100</UGN2>	<!--ВКЛЮЧЕНИЕ УГН 2 ВИДА 100=ВКЛ. 0=ВЫКЛ.-->
+	<UGN3>0</UGN3>	<!--ВКЛЮЧЕНИЕ УГН 3 ВИДА 100=ВКЛ. 0=ВЫКЛ.-->
+	</gunConstraints>
 </config>
 
 	  
