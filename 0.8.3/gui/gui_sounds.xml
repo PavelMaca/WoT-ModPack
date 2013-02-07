@@ -1,10 +1,14 @@
 <gui_sounds.xml>
   <controls>
     <default>
-		<firealert>/sdp/sdp/firealert</firealert>
-		<sixthsense>/xvm/xvm/sixthsense</sixthsense>
-		<over>/GUI/buttons/highlight</over>
-		<press>/GUI/buttons/play</press>
+      <firealert>/assassik/assassik/firealert</firealert>
+      <sixthsense>/assassik/assassik/sixthsense</sixthsense>
+      <5secs>/locastan/locastan/5secs</5secs>
+      <1min>/locastan/locastan/1min</1min>
+      <3mins>/locastan/locastan/3mins</3mins>
+      <30secs>/locastan/locastan/30secs</30secs>
+      <over>/GUI/buttons/highlight</over>
+      <press>/GUI/buttons/play</press>
     </default>
     <schemas>
       <buttonCapsRed>
