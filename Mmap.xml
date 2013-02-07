@@ -1,6 +1,8 @@
 <?xml version='1.0'  encoding='UTF-8'?>
 <minimap>
 <bigmapsize>800</bigmapsize><!-- pixelsize of the big minimap-->
+<bigmapx>0</bigmapx><!-- x coordinate shift of big minimap-->
+<bigmapy>0</bigmapy><!-- y coordinate shift of big minimap-->
 <keycode>17</keycode><!-- keycode to toggle the map. any other code disables-->
 <markerscale>0.5</markerscale><!-- minimap iconsize factor-->
 <fontsize>6</fontsize><!-- fontsize of tanknames on map-->
@@ -16,9 +18,16 @@
 <namecontent>tank</namecontent><!-- set content for textfields, Valid values: player, tank, tankplayer, playertank -->
 <fiftymalpha>25</fiftymalpha><!-- set alpha for 50m X-ray spotting circle, 0 to disable -->
 <fiftymcolor>0</fiftymcolor><!-- set color for 50m X-ray spotting circle (i.e. 0xFF0000 for red), 0 for default white -->
+<drawboxcolor>0xFF0000</drawboxcolor><!-- color of the dynamic drawing distance box-->
+<drawboxalpha>50</drawboxalpha><!-- alpha of the dynamic drawing distance box, 0 removes the box-->
+<drawboxstyle>mask</drawboxstyle><!-- style of the dynamic drawing distance box, valid values: line, dots, mask and dashed-->
+<circlestyle>dots</circlestyle><!-- style of the 445m circle, valid values: line, dots and dashed-->
+<laserstyle>dashed</laserstyle><!-- style of the laser line, valid values: line, dots and dashed-->
 </minimap>
 <!-- 
 HD Minimap 2nd generation Mod by locastan.
+
+Bigmapsize lets you specify the pixel size of the enlarged minimap. You can use the x and y shifts to move it away from its standard center screen position.
 
 The keycode is the only value not customizeable just now! For some reason the game refuses to register other keys than those it already knows from standard key binding.
 If you want to remove the centered big minimap functionality on CTRL, set keycode to 66 or other number. :P
@@ -38,4 +47,8 @@ textshadow is the shadow strength behind the tanknames.
 namecontent lets you configure what text should be displayed next to the icons. player = playername, tank = tankname, or for both use tankplayer or playertank.
 
 fiftymalpha and fiftymcolor are for setting color value and transparency for the 50m X-ray spotting circle around your tank. Same values useable as for laser and circle.
+
+The drawbox tags are for the 500m dynamic drawing box. Tanks models, over target markers and outlines disappear when the target is outside this box, even when they are spotted.
+
+The style tags are switching between dotted, dashed and solid lines for the three minimap elements. I put the mask value for the drawing box in as a bit of nice optical effect, but it may reduce your framerate.
 -->
