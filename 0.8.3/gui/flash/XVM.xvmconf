@@ -1,146 +1,6 @@
 ﻿{
   "minimap": {
-    "markerScale": 1,
-    "lines": {
-      "camera": [
-        {
-          "color": 15597636,
-          "enabled": true,
-          "to": 100,
-          "inmeters": true,
-          "thickness": 2,
-          "from": 50,
-          "alpha": 60
-        },
-        {
-          "color": 15597636,
-          "enabled": true,
-          "to": 300,
-          "inmeters": true,
-          "thickness": 1.5,
-          "from": 200,
-          "alpha": 45
-        },
-        {
-          "color": 15597636,
-          "enabled": true,
-          "to": 445,
-          "inmeters": true,
-          "thickness": 1,
-          "from": 350,
-          "alpha": 30
-        }
-      ],
-      "enabled": false,
-      "vehicle": [
-        {
-          "color": 4517444,
-          "enabled": true,
-          "to": 100,
-          "inmeters": true,
-          "thickness": 2,
-          "from": 50,
-          "alpha": 60
-        },
-        {
-          "color": 4517444,
-          "enabled": true,
-          "to": 300,
-          "inmeters": true,
-          "thickness": 1.5,
-          "from": 200,
-          "alpha": 45
-        },
-        {
-          "color": 4517444,
-          "enabled": true,
-          "to": 445,
-          "inmeters": true,
-          "thickness": 1,
-          "from": 350,
-          "alpha": 30
-        }
-      ],
-      "traverseAngle": [
-        {
-          "color": 16777215,
-          "enabled": true,
-          "to": 100,
-          "inmeters": true,
-          "thickness": 2,
-          "from": 50,
-          "alpha": 60
-        },
-        {
-          "color": 16777215,
-          "enabled": true,
-          "to": 300,
-          "inmeters": true,
-          "thickness": 1.5,
-          "from": 200,
-          "alpha": 45
-        },
-        {
-          "color": 16777215,
-          "enabled": true,
-          "to": 445,
-          "inmeters": true,
-          "thickness": 1,
-          "from": 350,
-          "alpha": 30
-        }
-      ]
-    },
-    "enabled": true,
-    "mapBackgroundImageAlpha": 100,
     "selfIconAlpha": 100,
-    "labels": {
-      "mapSize": {
-        "shadow": {
-          "enabled": true,
-          "distance": 0,
-          "alpha": 60,
-          "color": 11184810,
-          "angle": 0,
-          "blur": 5,
-          "strength": 3
-        },
-        "offsetX": 0,
-        "alpha": 75,
-        "format": "<b>{{cellsize}}0 m</b>",
-        "enabled": true,
-        "css": "font-size:12px; color:#000000;",
-        "offsetY": 0
-      },
-      "allRevealedUnits": {
-        "offsetY": 0,
-        "offsetX": 0,
-        "enabled": true,
-        "css": {
-          "enemy": "font-family:$FieldFont; font-size:8px; color:#EEBBBB;",
-          "oneself": "font-family:$FieldFont; font-size:8px; color:#FFFFFF;",
-          "squad": "font-family:$FieldFont; font-size:8px; color:#FFEE44;",
-          "ally": "font-family:$FieldFont; font-size:8px; color:#BBEEBB;"
-        },
-        "format": {
-          "enemy": "{{level}}",
-          "oneself": "<b>{{level}}</b>",
-          "squad": "{{level}} <i>{{short-nick}}</i>",
-          "ally": "{{level}}"
-        }
-      },
-      "lostEnemyUnits": {
-        "offsetX": -4,
-        "alpha": 90,
-        "offsetY": -4,
-        "enabled": true,
-        "css": "font-family:$FieldFont; font-size:8px; color:#EEAACC;",
-        "format": "{{ifspg}}<i>{{level}}</i>"
-      },
-      "ifspgsymbol": "█",
-      "nickShrink": 4
-    },
-    "cameraAlpha": 100,
     "circles": {
       "special": [
         {
@@ -440,7 +300,147 @@
         }
       ],
       "enabled": true
-    }
+    },
+    "cameraAlpha": 100,
+    "markerScale": 1,
+    "mapBackgroundImageAlpha": 100,
+    "labels": {
+      "allRevealedUnits": {
+        "offsetY": 0,
+        "css": {
+          "oneself": "font-family:$FieldFont; font-size:8px; color:#FFFFFF;",
+          "enemy": "font-family:$FieldFont; font-size:8px; color:#EEBBBB;",
+          "squad": "font-family:$FieldFont; font-size:8px; color:#FFEE44;",
+          "ally": "font-family:$FieldFont; font-size:8px; color:#BBEEBB;"
+        },
+        "offsetX": 0,
+        "enabled": true,
+        "format": {
+          "oneself": "<b>{{level}}</b>",
+          "enemy": "{{level}}",
+          "squad": "{{level}} <i>{{short-nick}}</i>",
+          "ally": "{{level}}"
+        }
+      },
+      "ifspgsymbol": "█",
+      "lostEnemyUnits": {
+        "css": "font-family:$FieldFont; font-size:8px; color:#EEAACC;",
+        "offsetX": -4,
+        "offsetY": -4,
+        "enabled": true,
+        "alpha": 90,
+        "format": "{{ifspg}}<i>{{level}}</i>"
+      },
+      "mapSize": {
+        "shadow": {
+          "enabled": true,
+          "distance": 0,
+          "alpha": 60,
+          "color": 11184810,
+          "angle": 0,
+          "blur": 5,
+          "strength": 3
+        },
+        "css": "font-size:12px; color:#000000;",
+        "offsetX": 0,
+        "format": "<b>{{cellsize}}0 m</b>",
+        "enabled": true,
+        "alpha": 75,
+        "offsetY": 0
+      },
+      "nickShrink": 4
+    },
+    "lines": {
+      "camera": [
+        {
+          "enabled": true,
+          "to": 100,
+          "color": 15597636,
+          "thickness": 2,
+          "from": 50,
+          "inmeters": true,
+          "alpha": 60
+        },
+        {
+          "enabled": true,
+          "to": 300,
+          "color": 15597636,
+          "thickness": 1.5,
+          "from": 200,
+          "inmeters": true,
+          "alpha": 45
+        },
+        {
+          "enabled": true,
+          "to": 445,
+          "color": 15597636,
+          "thickness": 1,
+          "from": 350,
+          "inmeters": true,
+          "alpha": 30
+        }
+      ],
+      "enabled": false,
+      "vehicle": [
+        {
+          "enabled": true,
+          "to": 100,
+          "color": 4517444,
+          "thickness": 2,
+          "from": 50,
+          "inmeters": true,
+          "alpha": 60
+        },
+        {
+          "enabled": true,
+          "to": 300,
+          "color": 4517444,
+          "thickness": 1.5,
+          "from": 200,
+          "inmeters": true,
+          "alpha": 45
+        },
+        {
+          "enabled": true,
+          "to": 445,
+          "color": 4517444,
+          "thickness": 1,
+          "from": 350,
+          "inmeters": true,
+          "alpha": 30
+        }
+      ],
+      "traverseAngle": [
+        {
+          "enabled": true,
+          "to": 100,
+          "color": 16777215,
+          "thickness": 2,
+          "from": 50,
+          "inmeters": true,
+          "alpha": 60
+        },
+        {
+          "enabled": true,
+          "to": 300,
+          "color": 16777215,
+          "thickness": 1.5,
+          "from": 200,
+          "inmeters": true,
+          "alpha": 45
+        },
+        {
+          "enabled": true,
+          "to": 445,
+          "color": 16777215,
+          "thickness": 1,
+          "from": 350,
+          "inmeters": true,
+          "alpha": 30
+        }
+      ]
+    },
+    "enabled": true
   },
   "markers": {
     "enemy": {
@@ -510,16 +510,16 @@
               "x": 0,
               "visible": true,
               "y": -36,
+              "alpha": 100,
+              "format": "{{vehicle}}{{turret}}",
+              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
                 "align": "center",
                 "bold": false,
                 "name": "$FieldFont"
-              },
-              "format": "{{vehicle}}{{turret}}",
-              "color": null,
-              "alpha": 100
+              }
             },
             {
               "shadow": {
@@ -533,16 +533,16 @@
               "x": 0,
               "visible": true,
               "y": -20,
+              "alpha": 100,
+              "format": "{{hp}} / {{hp-max}}",
+              "color": "0xFCFCFC",
               "font": {
                 "italic": false,
                 "size": 11,
                 "align": "center",
                 "bold": true,
                 "name": "$FieldFont"
-              },
-              "format": "{{hp}} / {{hp-max}}",
-              "color": "0xFCFCFC",
-              "alpha": 100
+              }
             }
           ],
           "levelIcon": {
@@ -560,7 +560,7 @@
             "alpha": 100
           },
           "contourIcon": {
-            "x": 6,
+            "x": 0,
             "visible": false,
             "amount": 0,
             "y": -65,
@@ -656,6 +656,9 @@
               "x": 0,
               "visible": true,
               "y": -36,
+              "alpha": 100,
+              "format": "{{nick}}",
+              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
@@ -663,9 +666,6 @@
                 "bold": false,
                 "name": "$FieldFont"
               },
-              "format": "{{nick}}",
-              "color": null,
-              "alpha": 100,
               "name": ""
             },
             {
@@ -680,16 +680,16 @@
               "x": 0,
               "visible": true,
               "y": -20,
+              "alpha": 100,
+              "format": "{{hp-ratio}}\u0025",
+              "color": "0xFCFCFC",
               "font": {
                 "italic": false,
                 "size": 11,
                 "align": "center",
                 "bold": true,
                 "name": "$FieldFont"
-              },
-              "format": "{{hp-ratio}}\u0025",
-              "color": "0xFCFCFC",
-              "alpha": 100
+              }
             },
             {
               "shadow": {
@@ -703,9 +703,6 @@
               "x": 0,
               "visible": false,
               "y": -50,
-              "alpha": 100,
-              "format": "<font color='{{c:t-rating}}'>{{t-rating}}</font>  <font color='{{c:t-battles}}'>{{t-battles}}</font> <font color='{{c:kb}}'>({{kb}})</font>",
-              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
@@ -713,6 +710,9 @@
                 "bold": false,
                 "name": "$FieldFont"
               },
+              "format": "<font color='{{c:t-rating}}'>{{t-rating}}</font>  <font color='{{c:t-battles}}'>{{t-battles}}</font> <font color='{{c:kb}}'>({{kb}})</font>",
+              "color": null,
+              "alpha": 100,
               "name": "stats"
             }
           ],
@@ -731,7 +731,7 @@
             "alpha": 100
           },
           "contourIcon": {
-            "x": 6,
+            "x": 0,
             "visible": true,
             "amount": 0,
             "y": -61,
@@ -834,7 +834,7 @@
             "alpha": 100
           },
           "contourIcon": {
-            "x": 6,
+            "x": 0,
             "visible": false,
             "amount": 0,
             "y": -65,
@@ -930,16 +930,16 @@
               "x": 0,
               "visible": true,
               "y": -34,
-              "alpha": 80,
-              "format": "{{nick}}",
-              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
                 "align": "center",
                 "bold": false,
                 "name": "$FieldFont"
-              }
+              },
+              "format": "{{nick}}",
+              "color": null,
+              "alpha": 80
             },
             {
               "shadow": {
@@ -953,16 +953,16 @@
               "x": 0,
               "visible": true,
               "y": -20,
-              "alpha": 80,
-              "format": "{{vehicle}}",
-              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
                 "align": "center",
                 "bold": false,
                 "name": "$FieldFont"
-              }
+              },
+              "format": "{{vehicle}}",
+              "color": null,
+              "alpha": 80
             }
           ],
           "levelIcon": {
@@ -980,7 +980,7 @@
             "alpha": 100
           },
           "contourIcon": {
-            "x": 6,
+            "x": 0,
             "visible": false,
             "amount": 0,
             "y": -65,
@@ -1080,16 +1080,16 @@
               "x": 0,
               "visible": true,
               "y": -36,
-              "alpha": 100,
-              "format": "{{vehicle}}{{turret}}",
-              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
                 "align": "center",
                 "bold": false,
                 "name": "$FieldFont"
-              }
+              },
+              "format": "{{vehicle}}{{turret}}",
+              "color": null,
+              "alpha": 100
             },
             {
               "shadow": {
@@ -1103,16 +1103,16 @@
               "x": 0,
               "visible": true,
               "y": -20,
-              "alpha": 100,
-              "format": "{{hp}} / {{hp-max}}",
-              "color": "0xFCFCFC",
               "font": {
                 "italic": false,
                 "size": 11,
                 "align": "center",
                 "bold": true,
                 "name": "$FieldFont"
-              }
+              },
+              "format": "{{hp}} / {{hp-max}}",
+              "color": "0xFCFCFC",
+              "alpha": 100
             }
           ],
           "levelIcon": {
@@ -1130,7 +1130,7 @@
             "alpha": 100
           },
           "contourIcon": {
-            "x": 6,
+            "x": 0,
             "visible": false,
             "amount": 0,
             "y": -65,
@@ -1226,6 +1226,9 @@
               "x": 0,
               "visible": true,
               "y": -36,
+              "alpha": 100,
+              "format": "{{nick}}",
+              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
@@ -1233,9 +1236,6 @@
                 "bold": false,
                 "name": "$FieldFont"
               },
-              "format": "{{nick}}",
-              "color": null,
-              "alpha": 100,
               "name": ""
             },
             {
@@ -1250,16 +1250,16 @@
               "x": 0,
               "visible": true,
               "y": -20,
+              "alpha": 100,
+              "format": "{{hp-ratio}}\u0025",
+              "color": "0xFCFCFC",
               "font": {
                 "italic": false,
                 "size": 11,
                 "align": "center",
                 "bold": true,
                 "name": "$FieldFont"
-              },
-              "format": "{{hp-ratio}}\u0025",
-              "color": "0xFCFCFC",
-              "alpha": 100
+              }
             },
             {
               "shadow": {
@@ -1273,9 +1273,6 @@
               "x": 0,
               "visible": false,
               "y": -50,
-              "alpha": 100,
-              "format": "<font color='{{c:t-rating}}'>{{t-rating}}</font>  <font color='{{c:t-battles}}'>{{t-battles}}</font> <font color='{{c:kb}}'>({{kb}})</font>",
-              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
@@ -1283,6 +1280,9 @@
                 "bold": false,
                 "name": "$FieldFont"
               },
+              "format": "<font color='{{c:t-rating}}'>{{t-rating}}</font>  <font color='{{c:t-battles}}'>{{t-battles}}</font> <font color='{{c:kb}}'>({{kb}})</font>",
+              "color": null,
+              "alpha": 100,
               "name": "stats"
             }
           ],
@@ -1301,7 +1301,7 @@
             "alpha": 100
           },
           "contourIcon": {
-            "x": 6,
+            "x": 0,
             "visible": true,
             "amount": 0,
             "y": -61,
@@ -1404,7 +1404,7 @@
             "alpha": 100
           },
           "contourIcon": {
-            "x": 6,
+            "x": 0,
             "visible": false,
             "amount": 0,
             "y": -65,
@@ -1500,16 +1500,16 @@
               "x": 0,
               "visible": true,
               "y": -34,
-              "alpha": 80,
-              "format": "{{nick}}",
-              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
                 "align": "center",
                 "bold": false,
                 "name": "$FieldFont"
-              }
+              },
+              "format": "{{nick}}",
+              "color": null,
+              "alpha": 80
             },
             {
               "shadow": {
@@ -1523,16 +1523,16 @@
               "x": 0,
               "visible": true,
               "y": -20,
-              "alpha": 80,
-              "format": "{{vehicle}}",
-              "color": null,
               "font": {
                 "italic": false,
                 "size": 13,
                 "align": "center",
                 "bold": false,
                 "name": "$FieldFont"
-              }
+              },
+              "format": "{{vehicle}}",
+              "color": null,
+              "alpha": 80
             }
           ],
           "levelIcon": {
@@ -1550,7 +1550,7 @@
             "alpha": 100
           },
           "contourIcon": {
-            "x": 6,
+            "x": 0,
             "visible": false,
             "amount": 0,
             "y": -65,
@@ -1594,269 +1594,269 @@
     }
   },
   "consts": {
-    "AVG_BATTLES": 1000,
     "AVG_GWR": 48,
     "AVG_EFF": 900,
+    "AVG_BATTLES": 1000,
     "E": {
-      "HT": [
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        },
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        },
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        },
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        },
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        },
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        },
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        },
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        },
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        },
-        {
-          "CF": 2,
-          "CD": 4,
-          "CS": 1
-        }
-      ],
       "MT": [
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 2,
           "CD": 4,
-          "CS": 2
+          "CF": 1
         }
       ],
       "TD": [
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         },
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         },
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         },
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         },
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         },
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         },
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         },
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         },
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         },
         {
-          "CF": 2,
+          "CS": 1,
           "CD": 3,
-          "CS": 1
+          "CF": 2
         }
       ],
       "Kmin": 0.4,
+      "HT": [
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        },
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        },
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        },
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        },
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        },
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        },
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        },
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        },
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        },
+        {
+          "CS": 1,
+          "CD": 4,
+          "CF": 2
+        }
+      ],
       "SPG": [
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 0,
           "CD": 2,
-          "CS": 0
+          "CF": 1
         }
       ],
       "LT": [
         {
-          "CF": 1,
+          "CS": 1,
           "CD": 1,
-          "CS": 1
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 1,
           "CD": 1,
-          "CS": 1
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 1,
           "CD": 1,
-          "CS": 1
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 1,
           "CD": 1,
-          "CS": 1
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 3,
           "CD": 1,
-          "CS": 3
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 3,
           "CD": 1,
-          "CS": 3
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 3,
           "CD": 1,
-          "CS": 3
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 3,
           "CD": 1,
-          "CS": 3
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 3,
           "CD": 1,
-          "CS": 3
+          "CF": 1
         },
         {
-          "CF": 1,
+          "CS": 3,
           "CD": 1,
-          "CS": 3
+          "CF": 1
         }
       ]
     }
@@ -2394,11 +2394,11 @@
   },
   "rating": {
     "enableStatisticsLog": false,
-    "showPlayersStatistics": true,
+    "showPlayersStatistics": false,
     "loadEnemyStatsInFogOfWar": true
   },
   "battleLoading": {
-    "formatRight": "<textformat tabstops='[25,55,85]'><font color='{{c:t-battles}}'>{{t-battles:4}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:kb}}'>{{kb:3}}</font><tab>&nbsp;<font color='{{c:wn}}'>{{wn}}</font><tab>&nbsp;<font color='{{c:rating}}'>{{rating:3}}</font></textformat>",
+    "formatRight": "{{vehicle}}",
     "clockFormat": "H:N:S",
     "showChances": true,
     "showChancesExp": true,
@@ -2413,7 +2413,7 @@
       "w": 16
     },
     "removeSquadIcon": false,
-    "formatLeft": "<textformat tabstops='[40,70,100,123,163]'>&nbsp;<tab><font color='{{c:rating}}'>{{rating:3}}</font>&nbsp;<tab><font color='{{c:wn}}'>{{wn}}</font>&nbsp;<tab><font color='{{c:kb}}'>{{kb:3}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:t-battles}}'>{{t-battles:4}}</font><tab>&nbsp;</textformat>"
+    "formatLeft": "{{vehicle}}"
   },
   "captureBar": {
     "enemy": {
@@ -2450,211 +2450,211 @@
   },
   "battle": {
     "elements": {
-      "playerMessangersPanel": {
-        "h": null,
-        "a": null,
-        "y": null,
-        "va": null,
-        "debug": false,
-        "x": null,
-        "ha": null,
-        "w": null
-      },
-      "vehicleErrorsPanel": {
-        "h": null,
-        "a": null,
-        "y": null,
-        "va": null,
-        "debug": false,
-        "x": null,
-        "ha": null,
-        "w": null
-      },
-      "leftPanel": {
-        "h": null,
-        "a": null,
-        "y": null,
-        "va": null,
-        "debug": false,
-        "x": null,
-        "ha": null,
-        "w": null
-      },
-      "consumablesPanel": {
-        "h": null,
-        "a": null,
-        "y": null,
-        "va": null,
-        "debug": false,
-        "x": null,
-        "ha": null,
-        "w": null
-      },
-      "messenger": {
-        "h": null,
-        "a": null,
-        "y": null,
-        "va": null,
-        "debug": false,
-        "x": null,
-        "ha": null,
-        "w": null
-      },
-      "vehicleMessagesPanel": {
-        "h": null,
-        "a": null,
-        "y": null,
-        "va": null,
-        "debug": false,
-        "x": null,
-        "ha": null,
-        "w": null
-      },
-      "rightPanel": {
-        "h": null,
-        "a": null,
-        "y": null,
-        "va": null,
-        "debug": false,
-        "x": null,
-        "ha": null,
-        "w": null
-      },
       "damageInfoPanel": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
-        "va": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "switcher_mc": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
-        "va": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
-      "timerBig": {
+      "consumablesPanel": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
-        "va": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "teamBasesPanel": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
+        "debug": false,
+        "x": null,
+        "ha": null,
+        "w": null
+      },
+      "timerBig": {
         "va": null,
+        "h": null,
+        "a": null,
+        "y": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "fragCorrelationBar": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
-        "va": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "deathZoneTimer": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
-        "va": null,
-        "debug": false,
-        "x": null,
-        "ha": null,
-        "w": null
-      },
-      "minimap": {
-        "h": null,
-        "a": null,
-        "y": null,
-        "va": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "debugPanel": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
-        "va": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "overturnedTimer": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
-        "va": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "battleTimer": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
-        "va": null,
-        "debug": false,
-        "x": null,
-        "ha": null,
-        "w": null
-      },
-      "damagePanel": {
-        "h": null,
-        "a": null,
-        "y": null,
-        "va": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "drownTimer": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
+        "debug": false,
+        "x": null,
+        "ha": null,
+        "w": null
+      },
+      "damagePanel": {
         "va": null,
+        "h": null,
+        "a": null,
+        "y": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "sixthSenseIndicator": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
-        "va": null,
         "debug": false,
         "x": null,
         "ha": null,
         "w": null
       },
       "langBarPanel": {
+        "va": null,
         "h": null,
         "a": null,
         "y": null,
+        "debug": false,
+        "x": null,
+        "ha": null,
+        "w": null
+      },
+      "playerMessangersPanel": {
         "va": null,
+        "h": null,
+        "a": null,
+        "y": null,
+        "debug": false,
+        "x": null,
+        "ha": null,
+        "w": null
+      },
+      "vehicleErrorsPanel": {
+        "va": null,
+        "h": null,
+        "a": null,
+        "y": null,
+        "debug": false,
+        "x": null,
+        "ha": null,
+        "w": null
+      },
+      "minimap": {
+        "va": null,
+        "h": null,
+        "a": null,
+        "y": null,
+        "debug": false,
+        "x": null,
+        "ha": null,
+        "w": null
+      },
+      "leftPanel": {
+        "va": null,
+        "h": null,
+        "a": null,
+        "y": null,
+        "debug": false,
+        "x": null,
+        "ha": null,
+        "w": null
+      },
+      "messenger": {
+        "va": null,
+        "h": null,
+        "a": null,
+        "y": null,
+        "debug": false,
+        "x": null,
+        "ha": null,
+        "w": null
+      },
+      "vehicleMessagesPanel": {
+        "va": null,
+        "h": null,
+        "a": null,
+        "y": null,
+        "debug": false,
+        "x": null,
+        "ha": null,
+        "w": null
+      },
+      "rightPanel": {
+        "va": null,
+        "h": null,
+        "a": null,
+        "y": null,
         "debug": false,
         "x": null,
         "ha": null,
@@ -2759,27 +2759,10 @@
     "alpha": 60
   },
   "vehicleNames": {
-    "usa_M37": null,
-    "france_Lorraine39_L_AM": null,
-    "usa_T30": null,
-    "usa_T95": null,
-    "usa_M5_Stuart": null,
-    "ussr_A_20": null,
-    "france_AMX50_Foch": null,
-    "germany_Pz38_NA": null,
-    "uk_GB60_Covenanter": null,
-    "ussr_T62A": null,
-    "uk_GB04_Valentine": null,
-    "ussr_T_28": null,
-    "germany_E50_Ausf_M": null,
-    "china_Ch09_M5": null,
-    "usa_M48A1": null,
-    "france_Bat_Chatillon25t": null,
-    "germany_PzIII": null,
-    "uk_GB70_FV4202_105": null,
     "usa_M3_Grant": null,
-    "china_Ch19_121": null,
     "uk_GB07_Matilda": null,
+    "uk_GB70_FV4202_105": null,
+    "china_Ch19_121": null,
     "ussr_IS_4": null,
     "france_B1": null,
     "ussr_IS_7": null,
@@ -3017,18 +3000,35 @@
     "france_AMX_50_120": null,
     "france_D2": null,
     "germany_G20_Marder_II": null,
-    "unknown": null,
+    "uk_GB12_Conqueror": null,
     "ussr_SU_76": null,
     "china_Ch12_111_1_2_3": null,
     "ussr_Object_704": null,
-    "uk_GB12_Conqueror": null,
+    "usa_T82": null,
     "ussr_SU_26": null,
     "france_FCM_36Pak40": null,
     "ussr_SU122_54": null,
     "france_RenaultUE57": null,
     "germany_Wespe": null,
-    "usa_T82": null,
     "germany_JagdTiger": null,
-    "germany_Sturmpanzer_II": null
+    "germany_Sturmpanzer_II": null,
+    "france_Lorraine39_L_AM": null,
+    "usa_T30": null,
+    "usa_M37": null,
+    "usa_T95": null,
+    "usa_M5_Stuart": null,
+    "ussr_A_20": null,
+    "unknown": null,
+    "germany_Pz38_NA": null,
+    "uk_GB60_Covenanter": null,
+    "ussr_T62A": null,
+    "france_AMX50_Foch": null,
+    "ussr_T_28": null,
+    "germany_E50_Ausf_M": null,
+    "china_Ch09_M5": null,
+    "usa_M48A1": null,
+    "uk_GB04_Valentine": null,
+    "france_Bat_Chatillon25t": null,
+    "germany_PzIII": null
   }
 }

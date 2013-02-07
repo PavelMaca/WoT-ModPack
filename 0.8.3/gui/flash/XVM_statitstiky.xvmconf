@@ -14,7 +14,7 @@
             "visible": false,
             "y": -65,
             "color": null,
-            "x": 6,
+            "x": 0,
             "alpha": 100
           },
           "healthBar": {
@@ -160,7 +160,7 @@
             "visible": true,
             "y": -74,
             "color": null,
-            "x": 6,
+            "x": 0,
             "alpha": 100
           },
           "healthBar": {
@@ -333,7 +333,7 @@
             "visible": false,
             "y": -65,
             "color": null,
-            "x": 6,
+            "x": 0,
             "alpha": 100
           },
           "healthBar": {
@@ -434,7 +434,7 @@
             "visible": false,
             "y": -65,
             "color": null,
-            "x": 6,
+            "x": 0,
             "alpha": 100
           },
           "healthBar": {
@@ -584,7 +584,7 @@
             "visible": false,
             "y": -65,
             "color": null,
-            "x": 6,
+            "x": 0,
             "alpha": 100
           },
           "healthBar": {
@@ -730,7 +730,7 @@
             "visible": true,
             "y": -74,
             "color": null,
-            "x": 6,
+            "x": 0,
             "alpha": 100
           },
           "healthBar": {
@@ -903,7 +903,7 @@
             "visible": false,
             "y": -65,
             "color": null,
-            "x": 6,
+            "x": 0,
             "alpha": 100
           },
           "healthBar": {
@@ -1004,7 +1004,7 @@
             "visible": false,
             "y": -65,
             "color": null,
-            "x": 6,
+            "x": 0,
             "alpha": 100
           },
           "healthBar": {
