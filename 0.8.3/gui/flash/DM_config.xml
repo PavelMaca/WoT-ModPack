@@ -1,0 +1,372 @@
+﻿<mmms>
+  <config>
+    <strategic>
+      
+	  <m2pix>8.5</m2pix>    
+	  
+	 <!--- ГРАФИЧЕСКАЯ ПЕРЕЗАРЯДКА  -->
+	<grafreload>1</grafreload>   <!-- Включение/выключение 1/0-->
+	 <grafreloadWH>100</grafreloadWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер -->
+	 <grafreloadA>100</grafreloadA> <!-- Прозрачность 0-100 -->
+	 <grafreloadColor>0xFFFFFF</grafreloadColor> <!-- Цвет  0xffffff -->
+	 
+	  <!--- ПАНЕЛЬ УГЛА ОРУДИЯ Ш = 28.00 В = 13.00 -->
+	  <angpanelDeg>0</angpanelDeg>    <!-- Поворот панели в градусах -->
+	  <angpanelX>-200</angpanelX>  <!-- Координата Х  -->
+	  <angpanelY>-160</angpanelY>  <!-- Координата У  -->
+	  <angpanelWH>100</angpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер -->
+	  <angpanelA>100</angpanelA>  <!-- Прозрачность 0-100 -->
+	  <angpanelbackA>50</angpanelbackA>  <!-- Прозрачность подложки 0-100 -->
+	  <angpanelColor>0x46FF00</angpanelColor> <!-- Цвет строки "Угол орудия" 0x46FF00 -->
+	  <angpanelbackColor>0x000000</angpanelbackColor>   <!-- Цвет подложки "Угол орудия" 0x000000 -->
+	  
+	  
+	  <!--- ПАНЕЛЬ ВЫСОТЫ КАМЕРЫ Ш = 28.00 В = 13.00 -->
+	  <zoomModPanelDeg>0</zoomModPanelDeg>    <!-- Поворот панели в градусах -->
+	  <zoomModPanelX>-200</zoomModPanelX>  <!-- Координата Х  -->
+	  <zoomModPanelY>-145.7</zoomModPanelY>  <!-- Координата У  -->
+	  <zoomModPanelWH>100</zoomModPanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер -->
+	  <zoomModPanelA>100</zoomModPanelA>  <!-- Прозрачность 0-100 -->
+	  <zoomModbackA>50</zoomModbackA>  <!-- Прозрачность подложки 0-100 -->
+	  <zoomModPanelColor>0x46FF00</zoomModPanelColor> <!-- Цвет строки "Угол орудия" 0x46FF00 -->
+	  <zoomModbackColor>0x000000</zoomModbackColor>   <!-- Цвет подложки "Угол орудия" 0x000000 -->
+	
+	   <!--- ПАНЕЛЬ ВРЕМЕНИ ПОЛЕТА Ш = 46.00 В = 27.50 -->
+	   <timetoflypanelDeg>0</timetoflypanelDeg>    <!-- Поворот панели -->
+	  <timetoflypanelX>-170</timetoflypanelX>  <!-- Координата Х  -->
+	  <timetoflypanelY>-160</timetoflypanelY>  <!-- Координата У  -->
+	  <timetoflypanelWH>100</timetoflypanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+	  <timetoflypanelA>100</timetoflypanelA>  <!-- Прозрачность 0-100 -->
+	  <timetoflypanelbackA>50</timetoflypanelbackA>   <!-- Прозрачность подложки 0-100 -->
+	  <timetoflypanelColor>0x9CFAFF</timetoflypanelColor>    <!-- Цвет строки "Время полета" 0x9CFAFF -->
+	  <timetoflypanelbackColor>0x000000</timetoflypanelbackColor>     <!-- Цвет подложки "Время полета" 0x000000 -->
+	  
+	  <!--- ПАНЕЛЬ РАССТОЯНИЕ ДО ЦЕЛИ (ФАКТИЧЕСКАЯ) Ш = 37.00 В = 13.00 -->
+	   <distanceLblpanelDeg>0</distanceLblpanelDeg>    <!-- Поворот панели -->
+	  <distanceLblpanelX>-122</distanceLblpanelX>  <!-- Координата Х  -->
+	  <distanceLblpanelY>-160</distanceLblpanelY>  <!-- Координата У  -->
+	  <distanceLblpanelWH>100</distanceLblpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+	  <distanceLblpanelA>100</distanceLblpanelA>  <!-- Прозрачность 0-100 -->
+	  <distanceLblpanelbackA>50</distanceLblpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+	  <distanceLblpanelColor>0xFFCC00</distanceLblpanelColor> <!-- Цвет строки "Расстояние до цели" 0xFFCC00 -->
+	  <distanceLblpanelbackColor>0x000000</distanceLblpanelbackColor>   <!-- Цвет подложки "Расстояние до цели" 0x000000 -->
+	  
+	  	  <!--- ПАНЕЛЬ МАКСИМАЛЬНАЯ ДАЛЬНОСТЬ Ш = 36.00 В = 13.00 -->
+	   <distanceMAXMpanelDeg>0</distanceMAXMpanelDeg>    <!-- Поворот панели -->
+	  <distanceMAXMpanelX>-122</distanceMAXMpanelX>  <!-- Координата Х  -->
+	  <distanceMAXMpanelY>-145.5</distanceMAXMpanelY>  <!-- Координата У  -->
+	  <distanceMAXMpanelWH>100</distanceMAXMpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер -->
+	  <distanceMAXMpanelA>100</distanceMAXMpanelA>  <!-- Прозрачность 0-100 -->
+	  <distanceMAXMpanelbackA>50</distanceMAXMpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+	  <distanceMAXMpanelColor>0xFF0000</distanceMAXMpanelColor> <!-- Цвет строки "Максимальная дальность" 0xFF0000 -->
+	  <distanceMAXMpanelbackColor>0x000000</distanceMAXMpanelbackColor>   <!-- Цвет подложки "Максимальная дальность" 0x000000 -->
+	  
+	  <!--- ПАНЕЛЬ ГРАФ. ПЕРЕЗАРЯДКИ (РАСХОДЯЩИЕСЯ КРУГИ) -->
+	  <timeMC2A>50</timeMC2A>  <!-- Прозрачность 0-100 -->
+	  <timeMC2Color>0xFF0000</timeMC2Color> <!-- Цвет расходящихся кругов 0x000000 -->
+	  
+	       	<!--- ПАНЕЛЬ ВРЕМЕНИ ПЕРЕЗАРЯДКИ Ш = 84.00 В = 33.00 -->
+		<timeMCpanelDeg>0</timeMCpanelDeg>    <!-- Поворот панели -->
+		<timeMCpanelX>100</timeMCpanelX>  <!-- Координата Х  -->
+		<timeMCpanelY>137</timeMCpanelY>  <!-- Координата У  -->
+		<timeMCpanelWH>100</timeMCpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<timeMCpanelA>100</timeMCpanelA>  <!-- Прозрачность 0-100 -->
+		<timeMCpanelbackA>50</timeMCpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<timeMCpanelColor>0xff0000</timeMCpanelColor> <!-- Цвет строки "Время перезарядки" 0xFF0000 -->
+		<timeMCpanelbackColor>0x000000</timeMCpanelbackColor>   <!-- Цвет подложки "Время перезарядки" 0x000000 -->
+		
+		<!--- ПАНЕЛЬ ОБЩЕГО ВРЕМЕНИ ПЕРЕЗАРЯДКИ Ш = 14.00 В = 33.00 -->
+		<reloadsecMCpanelDeg>90</reloadsecMCpanelDeg>    <!-- Поворот панели -->
+		<reloadsecMCpanelX>200</reloadsecMCpanelX>  <!-- Координата Х  -->
+		<reloadsecMCpanelY>137</reloadsecMCpanelY>  <!-- Координата У  -->
+		<reloadsecMCpanelWH>100</reloadsecMCpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<reloadsecMCpanelA>100</reloadsecMCpanelA>  <!-- Прозрачность 0-100 -->
+		<reloadsecMCpanelbackA>50</reloadsecMCpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<reloadsecMCpanelColor>0x9CFAFF</reloadsecMCpanelColor> <!-- Цвет строки "Общее время перезарядки" 0x9CFAFF -->
+		<reloadsecMCpanelbackColor>0x000000</reloadsecMCpanelbackColor>   <!-- Цвет подложки "Общее время перезарядки" 0x000000 -->
+		
+		<!--- ПАНЕЛЬ СНАРЯДОВ (БК) Ш = 45.00 В = 20.00 -->
+		<bkpanelDeg>0</bkpanelDeg>    <!-- Поворот панели -->
+		<bkpanelX>202</bkpanelX>  <!-- Координата Х  -->
+		<bkpanelY>150</bkpanelY>  <!-- Координата У  -->
+		<bkpanelWH>100</bkpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<bkpanelA>100</bkpanelA>  <!-- Прозрачность 0-100 -->
+		<bkpanelbackA>50</bkpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<bkpanelColor>0x9CFAFF</bkpanelColor> <!-- Цвет строки "Боекомплект" 0x9CFAFF -->
+		<bkpanelbackColor>0x000000</bkpanelbackColor>   <!-- Цвет подложки "Боекомплект" 0x000000 -->
+		
+		<!--- ПАНЕЛЬ СНАРЯДОВ (БАРАБАН) Ш = 21.00 В = 13.00 -->
+		<barabanpanelDeg>0</barabanpanelDeg>    <!-- Поворот панели -->
+		<barabanpanelX>202</barabanpanelX>  <!-- Координата Х  -->
+		<barabanpanelY>137</barabanpanelY>  <!-- Координата У  -->
+		<barabanpanelWH>100</barabanpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<barabanpanelA>100</barabanpanelA>  <!-- Прозрачность 0-100 -->
+		<barabanpanelbackA>50</barabanpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<barabanpanelColor>0xff9900</barabanpanelColor> <!-- Цвет строки "Барабан" 0x9CFAFF -->
+		<barabanpanelbackColor>0x000000</barabanpanelbackColor>   <!-- Цвет подложки "Барабан" 0x000000 -->
+		
+		
+		<!--- ПАНЕЛЬ СНАРЯДОВ (ТИП СНАРЯДА) Ш = 24.00 В = 13.00 -->
+		<artatypepanelDeg>0</artatypepanelDeg>    <!-- Поворот панели -->
+		<artatypepanelX>223</artatypepanelX>  <!-- Координата Х  -->
+		<artatypepanelY>137</artatypepanelY>  <!-- Координата У  -->
+		<artatypepanelWH>100</artatypepanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<artatypepanelA>100</artatypepanelA>  <!-- Прозрачность 0-100 -->
+		<artatypepanelbackA>50</artatypepanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<artatypepanelColor>0x00ff00</artatypepanelColor> <!-- Цвет строки "тип снаряда" 0x9CFAFF -->
+		<artatypepanelbackColor>0x000000</artatypepanelbackColor>   <!-- Цвет подложки "Тип снаряда" 0x000000 -->
+		
+		
+		<!--- ПАНЕЛЬ НАЗВАНИЯ АРТИЛЛЕРИИ Ш = 163.00 В = 11.00 -->
+		<artaNamepanelDeg>0</artaNamepanelDeg>    <!-- Поворот панели -->
+		<artaNamepanelX>100</artaNamepanelX>  <!-- Координата Х  -->
+		<artaNamepanelY>171</artaNamepanelY>  <!-- Координата У  -->
+		<artaNamepanelWH>100</artaNamepanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<artaNamepanelA>100</artaNamepanelA>  <!-- Прозрачность 0-100 -->
+		<artaNamepanelbackA>50</artaNamepanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<artaNamepanelColor>0x00ff00</artaNamepanelColor> <!-- Цвет строки "Название артиллерии" 0xFF0000 -->
+		<artaNamepanelbackColor>0x000000</artaNamepanelbackColor> <!-- Цвет подложки "Название артиллерии" 0x000000 -->
+		
+		
+		<!--- ПАНЕЛЬ ХП Ш = 10.00 В = 30.00 -->
+		<healthpercentMCpanelDeg>90</healthpercentMCpanelDeg>    <!-- Поворот панели -->
+		<healthpercentMCpanelX>263</healthpercentMCpanelX>  <!-- Координата Х  -->
+		<healthpercentMCpanelY>137</healthpercentMCpanelY>  <!-- Координата У  -->
+		<healthpercentMCpanelWH>100</healthpercentMCpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->
+		<healthpercentMCpanelA>80</healthpercentMCpanelA>  <!-- Прозрачность 0-100 -->
+		<healthpercentMCpanelbackA>50</healthpercentMCpanelbackA>    <!-- Прозрачность подложки ХП 0-100 -->
+		<healthpice>0x00ABF0</healthpice> <!-- Цвет кубиков ХП 0xFF0000 -->
+		<healthpercentMCpanelbackColor>0x000000</healthpercentMCpanelbackColor> <!-- Цвет подложки ХП 0x000000 -->
+			
+		<!--- ПАНЕЛЬ СВОЙ ЧУЖОЙ Ш = 160.00 В = 13.00 -->
+		<targetpanelDeg>0</targetpanelDeg>    <!-- Поворот панели -->
+		<targetpanelX>128</targetpanelX>  <!-- Координата Х  -->
+		<targetpanelY>-146</targetpanelY>  <!-- Координата У  -->
+		<targetpanelWH>100</targetpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->	
+		<targetpanelA>100</targetpanelA>  <!-- Прозрачность 0-100 -->
+		<targetpanelbackA>50</targetpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<typebackColor>0x000000</typebackColor> <!-- Цвет подложки "СВой/чужой" 0x000000 -->	
+			
+		<!--- ПАНЕЛЬ СКОРОСТЬ ВПЕРЕД Ш = 22.00 В = 13.00 -->
+		<tankspeedFpanelDeg>0</tankspeedFpanelDeg>    <!-- Поворот панели -->	
+		<tankspeedFpanelX>104</tankspeedFpanelX>  <!-- Координата Х  -->
+		<tankspeedFpanelY>-154</tankspeedFpanelY>  <!-- Координата У  -->
+		<tankspeedFpanelWH>100</tankspeedFpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->		
+		<tankspeedFpanelA>100</tankspeedFpanelA>  <!-- Прозрачность 0-100 -->
+		<tankspeedFpanelbackA>50</tankspeedFpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<tankspeedFpanelColor>0x00ff00</tankspeedFpanelColor> <!-- Цвет строки "Скорость вперед" 0xFF0000 -->
+		<tankspeedFpanelbackColor>0x000000</tankspeedFpanelbackColor> <!-- Цвет подложки "Скорость вперед" 0x000000 -->	
+			
+		<!--- ПАНЕЛЬ СКОРОСТЬ НАЗАД Ш = 22.00 В = 13.00 -->
+		<tankspeedBpanelDeg>0</tankspeedBpanelDeg>    <!-- Поворот панели -->	
+		<tankspeedBpanelX>104</tankspeedBpanelX>  <!-- Координата Х  -->
+		<tankspeedBpanelY>-139</tankspeedBpanelY>  <!-- Координата У  -->
+		<tankspeedBpanelWH>100</tankspeedBpanelWH> <!-- Масштаб панели - задается в процентах 100%=оригинальный размер  -->		
+		<tankspeedBpanelA>100</tankspeedBpanelA>  <!-- Прозрачность 0-100 -->
+		<tankspeedBpanelbackA>50</tankspeedBpanelbackA>    <!-- Прозрачность подложки 0-100 -->
+		<tankspeedBpanelColor>0xFF0000</tankspeedBpanelColor> <!-- Цвет строки "Скорость назад" 0x00FF00 -->
+		<tankspeedBpanelbackColor>0x000000</tankspeedBpanelbackColor> <!-- Цвет подложки "Скорость назад" 0x000000 -->	
+			
+			
+		<!--- КОЛЬЦА ВПЕРЕД/НАЗАД -->
+		<circleFColor>0x00FF00</circleFColor> <!-- Цвет кольца - вперед -->
+		<circleFA>50</circleFA> <!-- Прозрачность кольца вперед 0-100 -->
+		<circleBColor>0xFF0000</circleBColor> <!-- Цвет кольца - назад -->
+		<circleBA>50</circleBA> <!-- Прозрачность кольца назад 0-100 -->
+	 	
+		<!--- СПЛЕШ  -->
+	 	<shellSpleshColor>0x00FFFF</shellSpleshColor> <!-- Цвет кольца сплеша -->
+		<shellSpleshA>50</shellSpleshA> <!-- Прозрачность кольца сплеша 0-100 -->
+		<!---  МАРКЕР -->
+		<markerColor>0x00ff00</markerColor>  <!-- Цвет центрального маркера -->
+		<markerWH>100</markerWH>	<!--РАЗМЕР ЦЕНТРАЛЬНОГО МАРКЕРА-->
+		<markerDeg>0</markerDeg>	<!--ПОВОРОТ ЦЕНТРАЛЬНОГО МАРКЕРА-->
+		<!--ВКЛЮЧЕНИЕ/ВЫКЛЮЧЕНИЕ ЦЕНТРАЛЬНОГО МАРКЕРА 100=ВКЛ. 0=ВЫКЛ. (ДР. ЗНАЧЕНИЯ НЕ РАБОТАЮТ) ВОЗМОЖНО ВКЛЮЧЕНИЕ НЕСКОЛЬКИХ МАРКЕРОВ-->
+		<marker1A>0</marker1A>	<!--КОЛЬЦО-->
+		<marker2A>0</marker2A>	<!--КРЕСТ БЕЗ ЦЕНТРА-->
+		<marker3A>0</marker3A>	<!--ПОЛУКРЕСТ-->
+		<marker4A>0</marker4A>	<!--КРЕСТ-->
+		<marker5A>100</marker5A>	<!--ТОЧКА-->
+	    <marker6A>0</marker6A>	<!--КВАДРАТНЫЕ СКОБКИ-->
+		<marker7A>0</marker7A>	<!--ГАЛКА-->
+		<markerAlpha>100</markerAlpha>  <!-- Прозрачность центрального маркера 0-100 -->
+		<!---  ТЕНЬ ПАНЕЛЕЙ -->
+		<shadow>20</shadow> <!--0=ВЫКЛ. -->
+	 
+	 	
+    </strategic>
+	
+	<!--НАСТРОЙКИ АРКАДНОГО ПРИЦЕЛА-->
+	<arcada>
+	<!--НАСТРОЙКА МАРКЕРА-->
+	  <markerX>0</markerX>	<!--КООРДИНАТА Х-->
+	  <markerY>0</markerY>	<!--КООРДИНАТА У-->
+	  <markerColor>0x00ff00</markerColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ-->
+	  <timeMCDeg>0</timeMCDeg>	<!--ПОВОРОТ-->
+	  <timeMCX>-203.80</timeMCX>	<!--КООРДИНАТА Х-->
+	  <timeMCY>-11</timeMCY>	<!--КООРДИНАТА У-->
+	  <timeMCA>100</timeMCA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <timeMCWH>100</timeMCWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <timeMCColor>0xff0000</timeMCColor>	<!--ЦВЕТ БЕГУЩЕГО ТАЙМЕРА-->
+	  <timeMC2Color>0x00ff00</timeMC2Color>	<!--ЦВЕТ НАДПИСИ ОК ПОСЛЕ ОКОНЧАНИЯ ОТСЧЕТА-->
+	  
+	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ (ОБЩЕГО)-->
+	  <reloadsecMCDeg>0</reloadsecMCDeg>	<!--ПОВОРОТ-->
+	  <reloadsecMCX>-150.10</reloadsecMCX>	<!--КООРДИНАТА Х-->
+	  <reloadsecMCY>-8.5</reloadsecMCY>	<!--КООРДИНАТА У-->
+	  <reloadsecMCA>100</reloadsecMCA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <reloadsecMCWH>100</reloadsecMCWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <reloadsecMCColor>0xff9900</reloadsecMCColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА ХП-->
+	  <hppanelDeg>0</hppanelDeg>	<!--ПОВОРОТ-->
+	  <hppanelX>164.30</hppanelX>	<!--КООРДИНАТА Х-->
+	  <hppanelY>-11</hppanelY>	<!--КООРДИНАТА У-->
+	  <hppanelA>100</hppanelA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <hppanelWH>100</hppanelWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <hpporog1>0.7</hpporog1>	<!--ПЕРВОЕ ПОРОГОВОЕ ЗНАЧЕНИЕ ИЗМЕНЕНИЯ ЦВЕТА (0.7=70%)-->
+	  <hpporog2>0.25</hpporog2>	<!--ВТОРОЕ ПОРОГОВОЕ ЗНАЧЕНИЕ ИЗМЕНЕНИЯ ЦВЕТА (0.25=25%)-->
+	  <hppanelColor1>0x00ff00</hppanelColor1>	<!--ЦВЕТ ХП ОТ 100 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <hppanelColor2>0xff9900</hppanelColor2>	<!--ЦВЕТ ХП ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <hppanelColor3>0xff0000</hppanelColor3>	<!--ЦВЕТ ХП ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО НУЛЯ-->
+	  <hpchange>1</hpchange>	<!--ВЫБОР ОТОБРАЖЕНИЯ ВИДА ХП 1=В ЕДИНИЦАХ, 2=В ПРОЦЕНТАХ-->
+	  
+	  <!--НАСТРОЙКА БОЕКОМПЛЕКТА-->
+	  <shellpanelDeg>0</shellpanelDeg>	<!--ПОВОРОТ-->
+	  <shellpanelX>117.25</shellpanelX>	<!--КООРДИНАТА Х-->
+	  <shellpanelY>-9.5</shellpanelY>	<!--КООРДИНАТА У-->
+	  <shellpanelA>100</shellpanelA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <shellpanelWH>100</shellpanelWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <shellpanelColor>0x9CFAFF</shellpanelColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА БАРАБАНА ЦИФРОВОГО-->
+	  <barabanDeg>0</barabanDeg>	<!--ПОВОРОТ-->
+	  <barabanX>94.15</barabanX>	<!--КООРДИНАТА Х-->
+	  <barabanY>-8</barabanY>	<!--КООРДИНАТА У-->
+	  <barabanA>100</barabanA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <barabanWH>100</barabanWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <barabanColor>0xff9900</barabanColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА БАРАБАНА ГРАФИЧЕСКОГО-->
+	  <barabanGDeg>0</barabanGDeg>	<!--ПОВОРОТ-->
+	  <barabanGX>197.50</barabanGX>	<!--КООРДИНАТА Х-->
+	  <barabanGY>19.15</barabanGY>	<!--КООРДИНАТА У-->
+	  <barabanGA>100</barabanGA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <barabanGWH>100</barabanGWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  
+	  <!--НАСТРОЙКА ДАЛЬНОМЕРА-->
+	  <distanceDeg>0</distanceDeg>	<!--ПОВОРОТ-->
+	  <distanceX>-34</distanceX>	<!--КООРДИНАТА Х-->
+	  <distanceY>-160</distanceY>	<!--КООРДИНАТА У-->
+	  <distanceA>100</distanceA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <distanceWH>100</distanceWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <distColor1>0xff0000</distColor1>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ И ДО БЕСКОНЕЧНОСТИ-->
+	  <distColor2>0x00ff00</distColor2>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО-->
+	  <distColor3>0xffffff</distColor3>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ 0 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <distporog1>200</distporog1>	<!--ВТОРОЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
+	  <distporog2>100</distporog2>	<!--ПЕРВЫЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
+	</arcada>
+	
+	<!--НАСТРОЙКИ СНАЙПЕРСКОГО ПРИЦЕЛА-->
+	<sniper>
+	<!--НАСТРОЙКА МАРКЕРА-->
+	  <markerX>0</markerX>	<!--КООРДИНАТА Х-->
+	  <markerY>0</markerY>	<!--КООРДИНАТА У-->
+	  <markerColor>0x00ff00</markerColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ-->
+	  <timeMCDeg>0</timeMCDeg>	<!--ПОВОРОТ-->
+	  <timeMCX>-203.80</timeMCX>	<!--КООРДИНАТА Х-->
+	  <timeMCY>-11</timeMCY>	<!--КООРДИНАТА У-->
+	  <timeMCA>100</timeMCA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <timeMCWH>100</timeMCWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <timeMCColor>0xff0000</timeMCColor>	<!--ЦВЕТ БЕГУЩЕГО ТАЙМЕРА-->
+	  <timeMC2Color>0xffffff</timeMC2Color>	<!--ЦВЕТ НАДПИСИ ОК ПОСЛЕ ОКОНЧАНИЯ ОТСЧЕТА-->
+	  
+	  <!--НАСТРОЙКА ТАЙМЕРА ПЕРЕЗАРЯДКИ (ОБЩЕГО)-->
+	  <reloadsecMCDeg>0</reloadsecMCDeg>	<!--ПОВОРОТ-->
+	  <reloadsecMCX>-150.10</reloadsecMCX>	<!--КООРДИНАТА Х-->
+	  <reloadsecMCY>-8.5</reloadsecMCY>	<!--КООРДИНАТА У-->
+	  <reloadsecMCA>100</reloadsecMCA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <reloadsecMCWH>100</reloadsecMCWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <reloadsecMCColor>0xff9900</reloadsecMCColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА ХП-->
+	  <hppanelDeg>0</hppanelDeg>	<!--ПОВОРОТ-->
+	  <hppanelX>164.30</hppanelX>	<!--КООРДИНАТА Х-->
+	  <hppanelY>-11</hppanelY>	<!--КООРДИНАТА У-->
+	  <hppanelA>100</hppanelA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <hppanelWH>100</hppanelWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <hpporog1>0.7</hpporog1>	<!--ПЕРВОЕ ПОРОГОВОЕ ЗНАЧЕНИЕ ИЗМЕНЕНИЯ ЦВЕТА (0.7=70%)-->
+	  <hpporog2>0.25</hpporog2>	<!--ВТОРОЕ ПОРОГОВОЕ ЗНАЧЕНИЕ ИЗМЕНЕНИЯ ЦВЕТА (0.25=25%)-->
+	  <hppanelColor1>0x00ff00</hppanelColor1>	<!--ЦВЕТ ХП ОТ 100 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <hppanelColor2>0xff9900</hppanelColor2>	<!--ЦВЕТ ХП ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <hppanelColor3>0xff0000</hppanelColor3>	<!--ЦВЕТ ХП ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО НУЛЯ-->
+	  <hpchange>1</hpchange>	<!--ВЫБОР ОТОБРАЖЕНИЯ ВИДА ХП 1=В ЕДИНИЦАХ, 2=В ПРОЦЕНТАХ-->
+	  	  
+	  <!--НАСТРОЙКА БОЕКОМПЛЕКТА-->
+	  <shellpanelDeg>0</shellpanelDeg>	<!--ПОВОРОТ-->
+	  <shellpanelX>117.25</shellpanelX>	<!--КООРДИНАТА Х-->
+	  <shellpanelY>-9.5</shellpanelY>	<!--КООРДИНАТА У-->
+	  <shellpanelA>100</shellpanelA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <shellpanelWH>100</shellpanelWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <shellpanelColor>0x9CFAFF</shellpanelColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА БАРАБАНА ЦИФРОВОГО-->
+	  <barabanDeg>0</barabanDeg>	<!--ПОВОРОТ-->
+	  <barabanX>94.15</barabanX>	<!--КООРДИНАТА Х-->
+	  <barabanY>-8</barabanY>	<!--КООРДИНАТА У-->
+	  <barabanA>0</barabanA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <barabanWH>100</barabanWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <barabanColor>0xff9900</barabanColor>	<!--ЦВЕТ-->
+	  
+	  <!--НАСТРОЙКА БАРАБАНА ГРАФИЧЕСКОГО-->
+	  <barabanGDeg>0</barabanGDeg>	<!--ПОВОРОТ-->
+	  <barabanGX>197.50</barabanGX>	<!--КООРДИНАТА Х-->
+	  <barabanGY>19.15</barabanGY>	<!--КООРДИНАТА У-->
+	  <barabanGA>100</barabanGA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <barabanGWH>100</barabanGWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  
+	  <!--НАСТРОЙКА ДАЛЬНОМЕРА-->
+	  <distanceDeg>0</distanceDeg>	<!--ПОВОРОТ-->
+	  <distanceX>-34</distanceX>	<!--КООРДИНАТА Х-->
+	  <distanceY>-160</distanceY>	<!--КООРДИНАТА У-->
+	  <distanceA>100</distanceA>	<!--ПРОЗРАЧНОСТЬ-->
+	  <distanceWH>100</distanceWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <distColor1>0xff0000</distColor1>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ ВТОРОГО ПОРОГОВОГО ЗНАЧЕНИЯ И ДО БЕСКОНЕЧНОСТИ-->
+	  <distColor2>0x00ff00</distColor2>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ ДО ВТОРОГО-->
+	  <distColor3>0xffffff</distColor3>	<!--ЦВЕТ ДАЛЬНОСТИ ОТ 0 ДО ПЕРВОГО ПОРОГОВОГО ЗНАЧЕНИЯ-->
+	  <distporog1>200</distporog1>	<!--ВТОРОЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
+	  <distporog2>100</distporog2>	<!--ПЕРВЫЙ ПОРОГ ДАЛЬНОСТИ В МЕТРАХ-->
+	</sniper>
+	
+	<!--НАСТРОЙКИ СВЕДЕНИЯ (АРКАДНОЕ СНАЙПЕРСКОЕ)-->
+	<svedenieSNIP>
+		  
+	  <markerDeg>0</markerDeg>	<!--ПОВОРОТ-->
+	  <markerX>0</markerX>	<!--КООРДИНАТА Х-->
+	  <markerY>0</markerY>	<!--КООРДИНАТА У-->
+	  <markerWH>100</markerWH>	<!--РАЗМЕР В ПРОЦЕНТАХ 100=РЕАЛЬНЫЙ РАЗМЕР-->
+	  <markerColor>0xffffff</markerColor>	<!--ЦВЕТ-->
+	  
+	</svedenieSNIP>
+	
+	<!--НАСТРОЙКИ УГН ДЛЯ ПТ И САУ-->
+	<gunConstraints>
+	<td>on</td>	<!--ВКЛЮЧЕНИЕ/ВЫКЛЮЧЕНИЕ УГН У ПТ on=ВКЛ. off=ВЫКЛ.-->
+	<spg>on</spg>	<!--ВКЛЮЧЕНИЕ/ВЫКЛЮЧЕНИЕ УГН У САУ on=ВКЛ. off=ВЫКЛ.-->
+	<UGNColor>0x00ff00</UGNColor>	<!--ЦВЕТ УГН В ОБЫЧНОМ СОСТОЯНИИ-->
+	<UGNCritColor>0xff0000</UGNCritColor>	<!--ЦВЕТ УГН В КРИТИЧЕСКОМ СОСТОЯНИИ-->
+	<UGNWH>100</UGNWH>	<!--МАСШТАБ УГН-->
+	<UGN1>0</UGN1>	<!--ВКЛЮЧЕНИЕ УГН 1 ВИДА 100=ВКЛ. 0=ВЫКЛ.-->
+	<UGN2>100</UGN2>	<!--ВКЛЮЧЕНИЕ УГН 2 ВИДА 100=ВКЛ. 0=ВЫКЛ.-->
+	<UGN3>0</UGN3>	<!--ВКЛЮЧЕНИЕ УГН 3 ВИДА 100=ВКЛ. 0=ВЫКЛ.-->
+	</gunConstraints>
+</config>
+
+	  
+  
+  </mmms>
+  

@@ -1,0 +1,380 @@
+<gui_colors.xml>
+  <selected>
+    <default>
+      <rgba>255 195 100 255</rgba>
+      <transform>
+         <mult>1 1 1 1</mult>
+         <offset>0 0 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <rgba>255 255 0 255</rgba>
+      <transform>
+         <mult>1 1 1 1</mult>
+         <offset>0 0 0 0</offset>
+      </transform>
+    </color_blind>
+  </selected>
+  <selected_dead>
+    <default>
+      <rgba>199 154 83 255</rgba>
+      <transform>
+        <mult>0.8 0.6 0.2 0.5</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <rgba>178 178 3 255</rgba>
+      <transform>
+        <mult>0.8 0.8 0.2 0.5</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </color_blind>
+  </selected_dead>
+  <normal>
+    <rgba>255 255 255 255</rgba>
+    <transform>
+      <mult>1 1 1 1</mult>
+      <offset>0 0 0 0</offset>
+    </transform>
+  </normal>
+  <normal_dead>
+    <rgba>130 130 130 120</rgba>
+    <transform>
+      <mult>0.8 0.8 0.8 0.5</mult>
+      <offset>0 0 0 0</offset>
+    </transform>
+  </normal_dead>
+  <squad>
+    <default>
+      <rgba>255 195 100 255</rgba>
+      <transform>
+        <mult>1.0 0.8 0.3 1</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <rgba>255 255 0 255</rgba>
+      <transform>
+        <mult>1.0 1.0 0.3 1</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </color_blind>
+  </squad>
+  <squad_dead>
+    <default>
+      <rgba>199 154 83 255</rgba>
+      <transform>
+        <mult>0.8 0.6 0.2 0.5</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <rgba>178 178 3 255</rgba>
+      <transform>
+        <mult>0.8 0.8 0.2 0.5</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </color_blind>
+  </squad_dead>
+  <teamkiller>
+    <default>
+      <rgba>0 234 255 255</rgba>
+      <transform>
+        <mult>0 1 1 1</mult>
+        <offset>0 13 42 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <rgba>0 234 255 255</rgba>
+      <transform>
+        <mult>0 1 1 1</mult>
+        <offset>0 13 42 0</offset>
+      </transform>
+    </color_blind>
+  </teamkiller>
+  <teamkiller_dead>
+    <default>
+      <rgba>0 122 132 255</rgba>
+      <transform>
+        <mult>0 0.4 0.6 0.7</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <rgba>0 122 132 255</rgba>
+      <transform>
+        <mult>0 0.4 0.6 0.7</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </color_blind>
+  </teamkiller_dead>
+  <VIP>
+    <default>
+      <rgba>255 255 0 255</rgba>
+      <transform>
+        <mult>1.0 1.0 0.3 1</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <rgba>255 255 0 255</rgba>
+      <transform>
+        <mult>1.0 1.0 0.3 1</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </color_blind>
+  </VIP>
+  <VIP_dead>
+    <default>
+      <rgba>178 178 3 255</rgba>
+      <transform>
+        <mult>0.8 0.8 0.2 0.5</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <rgba>178 178 3 255</rgba>
+      <transform>
+        <mult>0.8 0.8 0.2 0.5</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </color_blind>
+  </VIP_dead>
+  <vm_ally>
+    <alias_color>green</alias_color>
+    <rgba>123 236 55 255</rgba>
+    <transform>
+      <mult>1 1 1 1</mult>
+      <offset>0 1 0 0</offset>
+    </transform>
+  </vm_ally>
+  <vm_dead_ally>
+    <alias_color>green</alias_color>
+    <rgba>52 118 12 255</rgba>
+    <transform>
+      <mult>1 1 1 1</mult>
+      <offset>0 1 0 0</offset>
+    </transform>
+  </vm_dead_ally>
+  <vm_squadman>
+    <default>
+      <alias_color>	gold	</alias_color>
+      <rgba>255 185 100 255</rgba>
+      <transform>
+        <mult>1 0.86 0.42 1</mult>
+        <offset>64 29 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <alias_color>yellow</alias_color>
+      <rgba>255 255 0 255</rgba>
+      <transform>
+        <mult>1 1 0 1</mult>
+        <offset>68 71 0 0</offset>
+      </transform>
+    </color_blind>
+  </vm_squadman>
+  <vm_dead_squadman>
+    <default>
+      <alias_color>	gold	</alias_color>
+      <rgba>170 106 0 255</rgba>
+      <transform>
+        <mult>1 0.86 0.42 1</mult>
+        <offset>64 29 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <alias_color>yellow</alias_color>
+      <rgba>98 98 9 255</rgba>
+      <transform>
+        <mult>1 1 0 1</mult>
+        <offset>68 71 0 0</offset>
+      </transform>
+    </color_blind>
+  </vm_dead_squadman>
+  <vm_teamKiller>
+    <alias_color>	blue	</alias_color>
+    <rgba>0 234 255 255</rgba>
+    <transform>
+      <mult>0 1 1 1</mult>
+      <offset>0 58 88 1</offset>
+    </transform>
+  </vm_teamKiller>
+  <vm_dead_teamKiller>
+    <alias_color>	blue	</alias_color>
+    <rgba>0 138 149 255</rgba>
+    <transform>
+      <mult>0 1 1 1</mult>
+      <offset>0 58 88 1</offset>
+    </transform>
+  </vm_dead_teamKiller>
+  <vm_enemy>
+    <default>
+      <alias_color>red</alias_color>
+      <rgba>245 8 0 255</rgba>
+      <transform>
+        <mult>1 1 1 1</mult>
+        <offset>0 1 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <alias_color>purple</alias_color>
+      <rgba>131 121 254 255</rgba>
+      <transform>
+        <mult>0.69 0.9 1 1</mult>
+        <offset>0 0 81 0</offset>
+      </transform>
+    </color_blind>
+  </vm_enemy>
+  <vm_dead_enemy>
+    <default>
+      <alias_color>red</alias_color>
+      <rgba>121 3 0 255</rgba>
+      <transform>
+        <mult>1 1 1 1</mult>
+        <offset>0 1 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <alias_color>purple</alias_color>
+      <rgba>69 94 228 255</rgba>
+      <transform>
+        <mult>0.69 0.9 1 1</mult>
+        <offset>0 0 81 0</offset>
+      </transform>
+    </color_blind>
+  </vm_dead_enemy>
+  <aim_target_ally>
+    <default>
+      <alias_color>green</alias_color>
+      <rgba>82 175 37 255</rgba>
+      <transform>
+      </transform>
+    </default>
+  </aim_target_ally>
+  <aim_target_enemy>
+    <default>
+      <alias_color>red</alias_color>
+      <rgba>204 0 0 255</rgba>
+      <transform>
+      </transform>
+    </default>
+    <color_blind>
+      <alias_color>purple</alias_color>
+      <rgba>69 94 228 255</rgba>
+      <transform>
+      </transform>
+    </color_blind>
+  </aim_target_enemy>
+  <FragCorrelationDraw>
+    <default>
+      <alias_color>	gold	</alias_color>
+      <rgba>170 106 0 255</rgba>
+    </default>
+    <color_blind>
+      <alias_color>yellow</alias_color>
+      <rgba>98 98 9 255</rgba>
+    </color_blind>
+  </FragCorrelationDraw>
+  <FragCorrelationWin>
+    <alias_color>green</alias_color>
+    <rgba>123 236 55 255</rgba>
+  </FragCorrelationWin>
+  <FragCorrelationLoose>
+    <default>
+      <alias_color>red</alias_color>
+      <rgba>245 8 0 255</rgba>
+    </default>
+    <color_blind>
+      <alias_color>purple</alias_color>
+      <rgba>131 121 254 255</rgba>
+    </color_blind>
+  </FragCorrelationLoose>
+  <timerNormal>
+    <alias_color>white</alias_color>
+    <rgba>255 255 255 255</rgba>
+  </timerNormal>
+  <timerRed>
+    <default>
+      <alias_color>red</alias_color>
+      <rgba>245 8 0 255</rgba>
+    </default>
+    <color_blind>
+      <alias_color>purple</alias_color>
+      <rgba>131 121 254 255</rgba>
+    </color_blind>
+  </timerRed>
+  <capture_bar_green>
+    <alias_color>green</alias_color>
+    <rgba>123 236 55 255</rgba>
+  </capture_bar_green>
+  <capture_bar_red>
+    <default>
+      <alias_color>red</alias_color>
+      <rgba>245 8 0 255</rgba>
+    </default>
+    <color_blind>
+      <alias_color>purple</alias_color>
+      <rgba>131 121 254 255</rgba>
+    </color_blind>
+  </capture_bar_red>
+  <flag_team_green>
+    <alias_color>green</alias_color>
+    <rgba>97 191 34 255</rgba>
+  </flag_team_green>
+  <flag_team_red>
+    <default>
+      <alias_color>red</alias_color>
+      <rgba>200 20 0 255</rgba>
+    </default>
+    <color_blind>
+      <alias_color>purple</alias_color>
+      <rgba>131 121 254 255</rgba>
+    </color_blind>
+  </flag_team_red>
+  <team_commander>
+    <alias_color>white</alias_color>
+    <rgba>255 255 255 255</rgba>
+  </team_commander>
+  <team_user>
+    <alias_color>	gray	</alias_color>
+    <rgba>154 151 142 255</rgba>
+  </team_user>
+  <team_self>
+    <alias_color>yellow</alias_color>
+    <rgba>255 195 100 255</rgba>
+  </team_self>
+  <teamPointbasered>
+    <default>
+      <alias_color>red</alias_color>
+    </default>
+    <color_blind>
+      <alias_color>purple</alias_color>
+    </color_blind>
+  </teamPointbasered>
+  <teamPointbaseblue>
+    <default>
+      <alias_color>	blue	</alias_color>
+    </default>
+    <color_blind>
+      <alias_color>	blue	</alias_color>
+    </color_blind>
+  </teamPointbaseblue>
+  <teamPointspawnred>
+    <default>
+      <alias_color>red</alias_color>
+    </default>
+    <color_blind>
+      <alias_color>purple</alias_color>
+    </color_blind>
+  </teamPointspawnred>
+  <teamPointspawnblue>
+    <default>
+      <alias_color>	blue	</alias_color>
+    </default>
+    <color_blind>
+      <alias_color>	blue	</alias_color>
+    </color_blind>
+  </teamPointspawnblue>
+</gui_colors.xml>
