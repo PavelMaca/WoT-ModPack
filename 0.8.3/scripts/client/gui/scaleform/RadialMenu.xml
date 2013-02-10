@@ -114,6 +114,8 @@ Example of a complete text unit:
 </ Command>
 -->
 <RadialMenu.xml>
+	  <!-- MapMenuKey lets you choose keybind for the map specific command set-->
+  <MapMenuKey>KEY_LALT</MapMenuKey>
 	<TankMenu>
 
 		<CommonCommands>
@@ -440,4 +442,22 @@ Example of a complete text unit:
 					</Command>
 		</Map_Default>
 	</MapCommands>
+	  <!-- These command only work per their hotkey, define as many as you like -->
+  <HotkeyOnlyCommands>
+			<Command>
+				<Title>Attack!</Title>
+				<Icon>Attack</Icon>
+				<Text>Lets go and kill more of them than us!</Text>
+				<ChatMode>Team</ChatMode>
+        <Hotkey>KEY_LALT+KEY_1</Hotkey>
+			</Command>
+
+			<Command>
+				<Title>Don't do it!</Title>
+				<Icon>Stop</Icon>
+				<Text>Dont go out to mess with them!</Text>
+				<ChatMode>Team</ChatMode>
+        <Hotkey>KEY_LALT+KEY_2</Hotkey>
+			</Command>
+  </HotkeyOnlyCommands>
 </RadialMenu.xml>
