@@ -10,17 +10,17 @@
   "editorVersion": "0.15",  // Version of the editor.
   // Common config options. All settings information in the mod not being used.
   "definition": {
-    "author": "sirmax2",                        // Config author
+    "author": "Assassik",                        // Config author
     "description": "Default settings for XVM",  // Config description
     "url": "http://code.google.com/p/wot-xvm/", // Address to config updates
-    "date": "12.10.2012",                       // Config last modified
-    "gameVersion": "0.8.2",                     // Supported version of the game
-    "modMinVersion": "3.2.0"                    // The minimum required version of the XVM mod
+    "date": "13.2.2013",                       // Config last modified
+    "gameVersion": "0.8.3",                     // Supported version of the game
+    "modMinVersion": "3.3.2"                    // The minimum required version of the XVM mod
   },
   // General parameters for the battle interface
   "battle": {
     "mirroredVehicleIcons": true,               // false - Disable tank icon mirroring (good for alternative icons). True by default.
-    "showPostmortemTips": true,                 // false - Disable pop-up panel at the bottom after death. True by default.
+    "showPostmortemTips": false,                 // false - Disable pop-up panel at the bottom after death. True by default.
     "removePanelsModeSwitcher": false,          // true - Remove the Players Panel mode switcher (buttons for changing size)
     "highlightVehicleIcon": true,               // false - disable highlighting of selected vehicle icon and squad
     "clockFormat": "H:N",                       // Show the clock on the Debug Panel (near FPS). Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
@@ -36,11 +36,11 @@
   // Parameters of the Battle Loading Screen
   "battleLoading": {
     "clockFormat": "H:N:S",                     // Show the clock on the Battle Loading Screen. Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
-    "showChances": false,                       // true - Enable display of "chance to win" (only with xvm-stat) Read more: http://www.koreanrandom.com/forum/topic/1663-
-    "showChancesExp": false,                    // Show experimental "chance to win" formula
+    "showChances": true,                       // true - Enable display of "chance to win" (only with xvm-stat) Read more: http://www.koreanrandom.com/forum/topic/1663-
+    "showChancesExp": true,                    // Show experimental "chance to win" formula
     "removeSquadIcon": false,                   // true - Disable Platoon icons. This blank space can house, for example, clan logos
     "clanIcon": {                               // Display options for Team/Clan logos
-      "show": true,                             //   false - Disable Team/Clan logos in Battle Loading Screen
+      "show": false,                             //   false - Disable Team/Clan logos in Battle Loading Screen
       "x": 0,                                   //   Position on the X axis, relative to the vehicle icon
       "y": 6,                                   //   Position on the Y axis, relative to the vehicle icon
       "xr": 0,                                  //   Position on the X axis for right side (positive values run to the *inside* of the table)
@@ -56,11 +56,11 @@
   },
   // Parameters of the Battle Statistics Form
   "statisticForm": {
-    "showChances": false,     // true - Enable display of "chance to win" (only with xvm-stat).
-    "showChancesExp": false,  // Show experimental "chance to win" formula
+    "showChances": true,     // true - Enable display of "chance to win" (only with xvm-stat).
+    "showChancesExp": true,  // Show experimental "chance to win" formula
     "removeSquadIcon": false, // true - Disable Platoon icons. This blank space can house, for example, clan logos.
     // Display options for Team/Clan logos (see battleLoading above)
-    "clanIcon": { "show": true, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
+    "clanIcon": { "show": false, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
     // Display format for the left column (macros allowed, see readme-en.txt)
     "formatLeft": "{{vehicle}} <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:xwn}}'>{{xwn}}</font> <font color='{{c:rating}}'>{{rating}}</font>",
     // Display format for the right column (macros allowed, see readme-en.txt)
@@ -72,7 +72,7 @@
     "iconAlpha": 100,  // Opacity percentage of icons in the panels. (0 - transparent ... 100 - opaque)
     "removeSquadIcon": false, // true - Disable Platoon icons.
     // Display options for Team/Clan logos (see battleLoading above).
-    "clanIcon": { "show": true, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
+    "clanIcon": { "show": false, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
     // Options for the "medium" panels - the first of the medium panels
     "medium": {
       "width": 46,    // 0..250 - Width of the player's name column. Default is 46.
