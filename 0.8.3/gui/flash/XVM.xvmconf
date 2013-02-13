@@ -498,7 +498,7 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "Blown-up!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "Munice!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
           "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
@@ -648,12 +648,12 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "Blown-up!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "Munice!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
           "contourIcon": {                    // Vehicle icon
-            "visible": false,                 //   false - Disable
-            "x": 6,                           //   Position on the X axis
-            "y": -65,                         //   Position on the Y axis
+            "visible": true,                 //   false - Disable
+            "x": 0,                           //   Position on the X axis
+            "y": -74,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
             "amount": 0                       //   Color intensity from 0 to 100. The default is 0 (off).
@@ -734,14 +734,14 @@
               "name": "Global Win Rate",
               "visible": true,
               "x": 0,
-              "y": -46,
+              "y": -50,
               "alpha": 100,
-              "color": "{{c:rating}}",
+              "color": null,
               "font": {
                 "name": "$FieldFont",
-                "size": 11,
+                "size": 13,
                 "align": "center",
-                "bold": true,
+                "bold": false,
                 "italic": false
               },
               "shadow": {
@@ -752,7 +752,7 @@
                 "size": 6,
                 "strength": 200
               },
-              "format": "{{rating}}"
+              "format": "<font color='{{c:t-rating}}'>{{t-rating}}</font>  <font color='{{c:t-battles}}'>{{t-battles}}</font> <font color='{{c:kb}}'>({{kb}})</font>"
             }
           ]
         }
@@ -827,7 +827,7 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "Blown-up!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "Munice!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
           "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
@@ -928,7 +928,7 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "Blown-up!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "Munice!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
           "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
@@ -1084,7 +1084,7 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "Blown-up!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "Munice!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
           "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
@@ -1234,12 +1234,12 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "Blown-up!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "Munice!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
           "contourIcon": {                    // Vehicle icon
-            "visible": false,                 //   false - Disable
+            "visible": true,                 //   false - Disable
             "x": 6,                           //   Position on the X axis
-            "y": -65,                         //   Position on the Y axis
+            "y": -74,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
             "amount": 0                       //   Color intensity from 0 to 100. The default is 0 (off).
@@ -1320,14 +1320,14 @@
               "name": "Global Win Rate",
               "visible": true,
               "x": 0,
-              "y": -46,
+              "y": -50,
               "alpha": 100,
-              "color": "{{c:rating}}",
+              "color": null,
               "font": {
                 "name": "$FieldFont",
-                "size": 11,
+                "size": 13,
                 "align": "center",
-                "bold": true,
+                "bold": false,
                 "italic": false
               },
               "shadow": {
@@ -1338,7 +1338,7 @@
                 "size": 6,
                 "strength": 200
               },
-              "format": "{{rating}}"
+             "format": "<font color='{{c:t-rating}}'>{{t-rating}}</font>  <font color='{{c:t-battles}}'>{{t-battles}}</font> <font color='{{c:kb}}'>({{kb}})</font>"
             }
           ]
         }
@@ -1413,7 +1413,7 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "Blown-up!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "Munice!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
           "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
@@ -1514,7 +1514,7 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "Blown-up!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "Munice!"      //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
           "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
