@@ -19,7 +19,7 @@
   },
   // General parameters for the battle interface
   "battle": {
-    "mirroredVehicleIcons": true,               // false - Disable tank icon mirroring (good for alternative icons). True by default.
+    "mirroredVehicleIcons": false,               // false - Disable tank icon mirroring (good for alternative icons). True by default.
     "showPostmortemTips": false,                 // false - Disable pop-up panel at the bottom after death. True by default.
     "removePanelsModeSwitcher": false,          // true - Remove the Players Panel mode switcher (buttons for changing size)
     "highlightVehicleIcon": true,               // false - disable highlighting of selected vehicle icon and squad
