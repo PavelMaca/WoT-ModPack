@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Full configuration file (hereinafter - the configuration) with all possible options,
  * default configuration.
  *
@@ -102,8 +102,8 @@
   },
   // {{turret}} marker display strings
   "turretMarkers": {
-    "highVulnerability": "*", // Subject has stock turret and top gun can not be mounted. Subject is highly vulnerable.
-    "lowVulnerability": "'"   // Subject has stock turret and top gun can be mounted. Subject is somewhat vulnerable.
+    "highVulnerability": " <font face='Wingdings' size='11' color='#E15858'>ý</font>", // Subject has stock turret and top gun can not be mounted. Subject is highly vulnerable.
+    "lowVulnerability": " <font face='Wingdings' size='11' color='#79BE7E'>ţ</font>"   // Subject has stock turret and top gun can be mounted. Subject is somewhat vulnerable.
   },
   // Hit log (my hits calculator)
   "hitLog": {
@@ -141,25 +141,25 @@
     "appendPlus" : true, // append plus to three capturers. Cant calculate more than three.
     // Capture format (macros allowed, see readme-en.txt)
     "enemy": {
-      "primaryTitleFormat":   "<font size='15' color='#FFFFFF'>Obsazování nepřátelské základny! {{extra}}</font>", // Upper textfield
+      "primaryTitleFormat":   "<font size='15' color='#00CC00'>Obsazování nepřátelské základny! {{extra}}</font>", // Upper textfield
       "secondaryTitleFormat": "<font size='15' color='#FFFFFF'>{{points}}</font>",                    // Lower textfield
       "captureDoneFormat":    "<font size='17' color='#FFCC66'>Nepřátelská základna obsazena!</font>",          // Full capture text
       "extra": "Obsazujicích: <b><font color='#FFCC66'>{{tanks}}</font></b> Zbývá: <b><font color='#FFCC66'>{{time}}</font><b>", // Extra text available after necessary calculations
       "shadow": {            // Fields shadow
         "color": "0x000000", // Color
-        "alpha": 50,         // Alpha 0-100
+        "alpha": 70,         // Alpha 0-100
         "blur": 6,           // Blur 0-255; 6 is recommended
         "strength": 3        // Strength 0-255; 3 is recommended
       }
     },
     "ally": {
-      "primaryTitleFormat":   "<font size='15' color='#FFFFFF'>Obsazování spojenecké základny! {{extra}}</font>",
+      "primaryTitleFormat":   "<font size='15' color='#FF0000'>Obsazování spojenecké základny! {{extra}}</font>",
       "secondaryTitleFormat": "<font size='15' color='#FFFFFF'>{{points}}</font>",
       "captureDoneFormat":    "<font size='17' color='#FFCC66'>Spojenecká základna obsazena!</font>",
       "extra": "Obsazujicích: <b><font color='#FFCC66'>{{tanks}}</font></b> Zbývá: <b><font color='#FFCC66'>{{time}}</font><b>",
       "shadow": {
         "color": "0x000000",
-        "alpha": 50,
+        "alpha": 70,
         "blur": 15,
         "strength": 3
       }
