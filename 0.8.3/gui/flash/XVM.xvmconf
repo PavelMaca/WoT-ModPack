@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Full configuration file (hereinafter - the configuration) with all possible options,
  * default configuration.
  *
@@ -304,6 +304,14 @@
         "width": 100,
         "height": 30
       }
+    },
+    "drawbox": { // Drawbox 
+        "enabled": true,
+        "distance": 500,             //Game mechanic is 500m
+        "style": "dotted",           // dotted, lines
+        "thickness": 1,
+        "alpha": 70,
+        "color": "0xEE4444"
     },
     "circles": { // Distance circles. Only real map meters. Only for owned unit.
         // Works only with xvm-stat.exe
