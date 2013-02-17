@@ -308,7 +308,7 @@
     "drawbox": { // Drawbox 
         "enabled": true,
         "distance": 500,             //Game mechanic is 500m
-        "style": "dotted",           // dotted, lines
+        "style": "dashed",           // dashed, solid
         "thickness": 1,
         "alpha": 70,
         "color": "0xEE4444"
