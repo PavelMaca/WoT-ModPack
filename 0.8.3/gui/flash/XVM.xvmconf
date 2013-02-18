@@ -187,6 +187,10 @@
                                     // Does not affect attached geometry and textfields.
                                     // Floating point allowed: 0.7 1.4.
 
+    "bigmap": {
+      "enabled": true,
+      "keyCode": 17                 // 17 = CTRL, for more see: http://people.uncw.edu/tompkinsj/112/flashactionscript/keycodes.htm
+    },
     "labels": {                     // textfields. Basic HTML\CSS supported.
       "nickShrink": 5,              // Maximum nickname size for {{short-nick}} macro.
       "vehicleclassmacro": {        // {{vehicle-class}} macro substitutions by vehicle class.
