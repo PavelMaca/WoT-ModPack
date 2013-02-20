@@ -6,10 +6,10 @@
 <keycode>17</keycode><!-- keycode to toggle the map. any other code disables-->
 <markerscale>0.5</markerscale><!-- minimap iconsize factor-->
 <fontsize>6</fontsize><!-- fontsize of tanknames on map-->
-<shownames>true</shownames><!-- show tanknames on map? Valid values: bigmap, smallmap, true or false-->
+<shownames>false</shownames><!-- show tanknames on map? Valid values: bigmap, smallmap, true or false-->
 <circlealpha>0</circlealpha><!-- circle alpha value, put 0 to remove circle -->
 <circlecolor>0</circlecolor><!-- circle color, write 0 for default, 0xFFFFFF for white -->
-<laseralpha>90</laseralpha><!-- laser alpha value, put 0 to remove laser liner -->
+<laseralpha>0</laseralpha><!-- laser alpha value, put 0 to remove laser liner -->
 <lasercolor>0</lasercolor><!-- laser color, write 0 for default, 0x000000 for black -->
 <allytextcolor>0x9FF781</allytextcolor><!-- ally tankname text color, default 0x9FF781 -->
 <enemytextcolor>0xF78181</enemytextcolor><!-- enemy tankname text color, default 0xF78181 -->
