@@ -187,10 +187,6 @@
                                     // Does not affect attached geometry and textfields.
                                     // Floating point allowed: 0.7 1.4.
 
-    "bigmap": {
-      "enabled": true,
-      "keyCode": 17                 // 17 = CTRL, for more see: http://people.uncw.edu/tompkinsj/112/flashactionscript/keycodes.htm
-    },
     "labels": {                     // textfields. Basic HTML\CSS supported.
       "nickShrink": 5,              // Maximum nickname size for {{short-nick}} macro.
       "vehicleclassmacro": {        // {{vehicle-class}} macro substitutions by vehicle class.
@@ -309,21 +305,13 @@
         "height": 30
       }
     },
-    "drawbox": { // Drawbox 
-        "enabled": true,
-        "distance": 500,             //Game mechanic is 500m
-        "style": "dashed",           // dashed, solid
-        "thickness": 1,
-        "alpha": 70,
-        "color": "0xEE4444"
-    },
     "circles": { // Distance circles. Only real map meters. Only for owned unit.
         // Works only with xvm-stat.exe
         "enabled": true,
         "major": [
             // 445 meters - maximum reveal distance.
             { "enabled": false, "distance": 445, "thickness": 0.75, "alpha": 35, "color": "0xFFCC66" },
-            { "enabled": true, "distance": 50, "thickness": 1, "alpha": 30, "color": "0xFFFFFF" }
+            { "enabled": false, "distance": 50, "thickness": 1, "alpha": 30, "color": "0xFFFFFF" }
         ],
         // Special circles dependent on vehicle type.
         // Many configuration lines for the same vehicle make many circles.
