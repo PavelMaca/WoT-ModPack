@@ -17,9 +17,9 @@
   <repairCost>9.96</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
   <effects>
-    <destruction>mediumDestruction</destruction>
-    <explosion>mediumExplosion</explosion>
-    <flaming>mediumFlaming</flaming>
+    <destruction>	largeDestruction	</destruction>
+    <explosion>largeExplosion</explosion>
+    <flaming>	largeFlaming	</flaming>
     <collision>
     </collision>
   </effects>
@@ -96,7 +96,7 @@
         <rayStart>-0.0243833 0.410227 2.83114</rayStart>
         <rayEnd>-0.0243835 0.0815642 2.60314</rayEnd>
         <rayUp>0.170831 -0.0102343 -0.985247</rayUp>
-        <size>0.88</size>
+        <size>0.92</size>
         <hideIfDamaged>	true	</hideIfDamaged>
       </inscription>
     </emblemSlots>
@@ -381,16 +381,15 @@
           <hideIfDamaged>	true	</hideIfDamaged>
         </player>
         <inscription>
-          <rayStart>1.09525 0.911643 -0.84449</rayStart>
-          <rayEnd>	0.713288 0.792927 -0.848409	</rayEnd>
+          <rayStart>1.09812 0.902527 -0.848354</rayStart>
+          <rayEnd>0.716159 0.78381 -0.852273</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
-          <size>0.68</size>
+          <size>0.8</size>
           <hideIfDamaged>	true	</hideIfDamaged>
         </inscription>
       </emblemSlots>
       <showEmblemsOnGun>	false	</showEmblemsOnGun>
       <physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.100 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
-      <turretRotatorSound>/vehicles/tanks/turrets/turret_medium : manual_traverse electric_traverse</turretRotatorSound>
     </Turret_1_G_Panther>
   </turrets0>
   <engines>
