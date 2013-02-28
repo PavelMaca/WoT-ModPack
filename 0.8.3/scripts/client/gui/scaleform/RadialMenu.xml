@@ -122,7 +122,7 @@ Example of a complete text unit:
 			<Command>
 				<Title>Pozdrav</Title>
 				<Icon>Yes</Icon>
-				<Text>Zdravím, gl/hf</Text>
+				<Text></Text>
 				<ChatMode>All</ChatMode>
 			</Command>
 			<Command>
@@ -132,7 +132,15 @@ Example of a complete text unit:
 				<ChatMode>Team</ChatMode>
 			</Command>
 			<Command>
-				<Title>No tak !?</Title>
+				<Title>Nabíjím</Title>
+				<Icon>Reload</Icon>
+				<Command>RELOADINGGUN</Command>
+				<Text>Reloading at %(ownPos)s, for %(reload)s sec.</Text>
+				<ChatMode>Team</ChatMode>
+				<Hotkey>KEY_LALT+KEY_R</Hotkey>
+			</Command>
+			<Command>
+				<Title>Přestaňte kempit!</Title>
 				<Icon>Attack</Icon>
 				<Text>%(randpart)s</Text>
 				<ChatMode>Team</ChatMode>
@@ -141,7 +149,6 @@ Example of a complete text unit:
 					<Variant>You guys got a fire going and drink beer in base?</Variant>
 					<Variant>Come on! Last one out of base has to paint the enemy flag green...</Variant>
 				</Variants>
-				<Hotkey>KEY_LALT+KEY_C</Hotkey>
 				<Command>ATTACK</Command>
 			</Command>
 			<Command>
@@ -151,14 +158,6 @@ Example of a complete text unit:
 				<ChatMode>Team</ChatMode>
 				<Command>BACKTOBASE</Command>
 				<Hotkey>KEY_LCONTROL+KEY_F</Hotkey>
-			</Command>
-			<Command>
-				<Title>Nabíjím</Title>
-				<Icon>Reload</Icon>
-				<Command>RELOADINGGUN</Command>
-				<Text>Reloading at %(ownPos)s, for %(reload)s sec.</Text>
-				<ChatMode>Team</ChatMode>
-				<Hotkey>KEY_LALT+KEY_R</Hotkey>
 			</Command>
 			<Command>
 				<Title>Obsazujte!</Title>
@@ -210,19 +209,31 @@ Example of a complete text unit:
 		</TeamCommands>
 
 		<EnemyCommands>
-
 			<Command>
-				<Title>Provokace</Title>
-				<Icon>Followme</Icon>
-				<Text>%(name)s, come here and fight me!</Text>
-				<ChatMode>All</ChatMode>
-			</Command>
-			<Command>
-				<Title>Podpora</Title>
+				<Title>Soustřeďte palbu</Title>
 				<Icon>Support</Icon>
 				<Text>Focus on - %(vehicle)s - %(name)s, please!</Text>
 				<ChatMode>Team</ChatMode>
 				<Command>SUPPORTMEWITHFIRE</Command>
+			</Command>
+			<Command>
+				<Title>Arty - pomoc!</Title>
+				<Icon>Helpemeex</Icon>
+				<Text>Arty, need help with %(vehicle)s - %(name)s at %(viewPos)s</Text>
+				<ChatMode>Team</ChatMode>
+				<Command>SUPPORTMEWITHFIRE</Command>
+			</Command>
+			<Command>
+				<Title>Další super nápad?</Title>
+				<Icon>Yes</Icon>
+				<Text>You have more of those bright ideas, %(name)s?</Text>
+				<ChatMode>All</ChatMode>
+			</Command>
+			<Command>
+				<Title>Pojď si pro mně!</Title>
+				<Icon>Followme</Icon>
+				<Text>%(name)s, come here and fight me!</Text>
+				<ChatMode>All</ChatMode>
 			</Command>
 			<Command>
 				<Title>Za tebou</Title>
@@ -236,20 +247,6 @@ Example of a complete text unit:
 				<Text>Well done %(name)s. I salute you.</Text>
 				<ChatMode>All</ChatMode>
 			</Command>
-			<Command>
-				<Title>Další super nápad?</Title>
-				<Icon>Yes</Icon>
-				<Text>You have more of those bright ideas, %(name)s?</Text>
-				<ChatMode>All</ChatMode>
-			</Command>
-			<Command>
-				<Title>Arty - pomoc!</Title>
-				<Icon>Helpemeex</Icon>
-				<Text>Arty, need help with %(vehicle)s - %(name)s at %(viewPos)s</Text>
-				<ChatMode>Team</ChatMode>
-				<Command>SUPPORTMEWITHFIRE</Command>
-			</Command>
-
 		</EnemyCommands>
 
 	</TankMenu>
@@ -266,7 +263,7 @@ Example of a complete text unit:
 				<Command>ATTACKENEMY</Command>
 			</Command>
 			<Command>
-				<Title>Nemohu střílet na pozici</Title>
+				<Title>Nemohu střílet na cíl</Title>
 				<Icon>No</Icon>
 				<Text>Can't fire on %(viewPos)s, sry.</Text>
 				<ChatMode>Team</ChatMode>
@@ -279,8 +276,8 @@ Example of a complete text unit:
 			</Command>
 			<Command>
 				<Title>Útočím</Title>
-				<Icon>Attack</Icon>
-				<Text>Hold some distance, please!</Text>
+				<Icon>AttackSPG</Icon>
+				<Text>in: %(reload)s sec. Hold some distance, please!</Text>
 				<ChatMode>Team</ChatMode>
 				<Command>ATTACKENEMY</Command>
 			</Command>
@@ -292,10 +289,10 @@ Example of a complete text unit:
 				<Ping>%(viewPos)s</Ping>
 			</Command>
 			<Command>
-				<Title>Zbohem mrtvolo</Title>
-				<Icon>Turnback</Icon>
-				<Text>Say goodbye, %(name)s.</Text>
-				<ChatMode>All</ChatMode>
+				<Title>Spotuj</Title>
+				<Icon>Helpme</Icon>
+				<Text>%(name)s: spot something, you will earn credits!</Text>
+				<ChatMode>Team</ChatMode>
 			</Command>
 		</EnemyCommands>
 
@@ -307,6 +304,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -323,13 +321,13 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Obsazujte později</Title>
+						<Title>Obrana má přednost</Title>
 						<Icon>Backtobase</Icon>
 						<Text>Defend first, cap later.</Text>
 						<ChatMode>Team</ChatMode>
@@ -348,6 +346,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -364,9 +363,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -389,6 +388,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -405,9 +405,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -430,6 +430,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -446,9 +447,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -471,6 +472,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -487,9 +489,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -512,6 +514,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -528,9 +531,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -553,6 +556,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -569,9 +573,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -594,6 +598,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -610,9 +615,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -635,6 +640,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -651,9 +657,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -676,6 +682,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -692,9 +699,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -717,6 +724,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -733,9 +741,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -758,6 +766,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -774,9 +783,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -799,6 +808,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -815,9 +825,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -840,6 +850,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -856,9 +867,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -881,6 +892,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -897,9 +909,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -922,6 +934,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -938,9 +951,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -963,6 +976,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -979,9 +993,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1004,6 +1018,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1020,9 +1035,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1045,6 +1060,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1061,9 +1077,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1086,6 +1102,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1102,9 +1119,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1127,6 +1144,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1143,9 +1161,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1168,6 +1186,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1184,9 +1203,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1209,6 +1228,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1225,9 +1245,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1250,6 +1270,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1260,9 +1281,9 @@ Example of a complete text unit:
 						<Ping>%(viewPos)s</Ping>
 					</Command>
 					<Command>
-						<Title>Rush!</Title>
-						<Icon>Followme</Icon>
-						<Text>Let's rush the field path gentlemen.</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1291,6 +1312,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1307,9 +1329,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1332,6 +1354,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1348,9 +1371,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1373,6 +1396,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1389,9 +1413,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1414,6 +1438,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1430,9 +1455,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1455,6 +1480,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1471,9 +1497,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1496,6 +1522,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1512,9 +1539,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1537,6 +1564,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1553,9 +1581,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1578,6 +1606,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1594,9 +1623,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1619,6 +1648,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1635,9 +1665,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1660,6 +1690,7 @@ Example of a complete text unit:
 						<Title>Jsem tu sám!</Title>
 						<Icon>Helpme</Icon>
 						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
@@ -1676,9 +1707,9 @@ Example of a complete text unit:
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
-						<Title>Braňte les</Title>
-						<Icon>Helpme</Icon>
-						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
 						<ChatMode>Team</ChatMode>
 					</Command>
 					<Command>
