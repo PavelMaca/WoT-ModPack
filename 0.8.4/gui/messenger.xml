@@ -62,12 +62,17 @@ _(#messenger:battle/toolTips/duringChat)
       </team>
       <common>
         <label>&lt;font color="#%s"&gt;_(#messenger:battle/receivers/common) : &lt;/font&gt;</label>
-        <modifier>	17	</modifier>
+        <modifiers>
+          <modifier>	17	</modifier>
+          <modifier>	163	</modifier>
+        </modifiers>
         <order>	2	</order>
       </common>
       <squad>
         <label>&lt;font color="#%s"&gt;_(#messenger:battle/receivers/squad) : &lt;/font&gt;</label>
-        <modifier>	16	</modifier>
+        <modifiers>
+          <modifier>	161	</modifier>
+        </modifiers>
         <order>	3	</order>
       </squad>
     </receivers>
