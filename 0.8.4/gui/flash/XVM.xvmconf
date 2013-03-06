@@ -13,14 +13,14 @@
     "author": "Assassik",                        // Config author
     "description": "Default settings for XVM",  // Config description
     "url": "http://code.google.com/p/wot-xvm/", // Address to config updates
-    "date": "16.02.2013",                       // Config last modified
+    "date": "06.03.2013",                       // Config last modified
     "gameVersion": "0.8.4",                     // Supported version of the game
-    "modMinVersion": "3.4.0"                    // The minimum required version of the XVM mod
+    "modMinVersion": "3.4.2"                    // The minimum required version of the XVM mod
   },
   // General parameters for the battle interface
   "battle": {
     "mirroredVehicleIcons": false,               // false - Disable tank icon mirroring (good for alternative icons). True by default.
-    "showPostmortemTips": false,                 // false - Disable pop-up panel at the bottom after death. True by default.
+    "showPostmortemTips": true,                 // false - Disable pop-up panel at the bottom after death. True by default.
     "removePanelsModeSwitcher": false,          // true - Remove the Players Panel mode switcher (buttons for changing size)
     "highlightVehicleIcon": true,               // false - disable highlighting of selected vehicle icon and squad
     "clockFormat": "H:N",                       // Show the clock on the Debug Panel (near FPS). Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
@@ -33,7 +33,7 @@
     "loadEnemyStatsInFogOfWar": true,           // true - Enable downloading of data on opponents in the "fog of war"
     "enableStatisticsLog": false,               // true - Enable saving statistics to "xvm-stat.log" file
     "enableUserInfoStatistics": true,           // true - Enable statistics in the user info window
-    "enableCompanyStatistics": false            // true - Enable statistics in the company window
+    "enableCompanyStatistics": true            // true - Enable statistics in the company window
   },
   // Parameters of the Battle Loading Screen
   "battleLoading": {
@@ -320,7 +320,7 @@
         "major": [
             // 445 meters - maximum reveal distance.
             { "enabled": false, "distance": 445, "thickness": 0.75, "alpha": 35, "color": "0xFFCC66" },
-            { "enabled": false, "distance": 50, "thickness": 1, "alpha": 30, "color": "0xFFFFFF" }
+            { "enabled": true, "distance": 50, "thickness": 1, "alpha": 30, "color": "0xFFFFFF" }
         ],
         // Special circles dependent on vehicle type.
         // Many configuration lines for the same vehicle make many circles.
