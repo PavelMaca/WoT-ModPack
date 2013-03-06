@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2012-12-13 09:46+0100\n"
+"PO-Revision-Date: 2012-12-13 09:47+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -84,28 +84,28 @@ msgid "arcade/centralTag"
 msgstr "Centrální značka"
 
 msgid "arcade/centralTag/type0"
-msgstr "V-značka I"
+msgstr "Kruh, černý"
 
 msgid "arcade/centralTag/type1"
-msgstr "V-značka II"
+msgstr "Kruh, bílý"
 
 msgid "arcade/centralTag/type2"
-msgstr "V-značka III"
+msgstr "Kříž, černý"
 
 msgid "arcade/centralTag/type3"
-msgstr "V-značka IV"
+msgstr "Kříž, bílý"
 
 msgid "arcade/centralTag/type4"
-msgstr "Nitkový kříž I"
+msgstr "X-kříž, černý"
 
 msgid "arcade/centralTag/type5"
-msgstr "Nitkový kříž II"
+msgstr "X-kříž, bílý"
 
 msgid "arcade/centralTag/type6"
-msgstr "T-značka"
+msgstr "Bod, černý"
 
 msgid "arcade/centralTag/type7"
-msgstr "I-značka"
+msgstr "Bod, bílý"
 
 msgid "arcade/centralTag/type8"
 msgstr "Test"
@@ -117,22 +117,22 @@ msgid "arcade/gunTag"
 msgstr "Značka kanónu"
 
 msgid "arcade/gunTag/type0"
-msgstr "Zatržítko I (s indikátorem šance prostřelení pancíře)"
+msgstr "Bod, černý"
 
 msgid "arcade/gunTag/type1"
-msgstr "Zatržítko II (s indikátorem nabíjení)"
+msgstr "Bod, bílý"
 
 msgid "arcade/gunTag/type2"
-msgstr "Zatržítko III"
+msgstr "Kříž, černý"
 
 msgid "arcade/gunTag/type3"
-msgstr "Nitkový kříž I (s indikátorem šance prostřelení pancíře)"
+msgstr "Kříž, bílý"
 
 msgid "arcade/gunTag/type4"
-msgstr "Nitkový kříž II (s indikátorem nabíjení)"
+msgstr "X-kříž, černý"
 
 msgid "arcade/gunTag/type5"
-msgstr "Nitkový kříž III"
+msgstr "X-kříž, bílý"
 
 msgid "arcade/gunTag/type6"
 msgstr "Test"
@@ -141,13 +141,13 @@ msgid "arcade/mixing"
 msgstr "Indikátor rozptylu"
 
 msgid "arcade/mixing/type0"
-msgstr "Kruh I (naplňuje se při nabíjení) "
+msgstr "Kruh, plný"
 
 msgid "arcade/mixing/type1"
-msgstr "Kruh II (s posuvným indikátorem nabíjení)"
+msgstr "Kruh, prázdný"
 
 msgid "arcade/mixing/type2"
-msgstr "Kruh III (bez indikátoru nabíjení)"
+msgstr "Kruh, tečkovaný"
 
 msgid "arcade/mixing/type3"
 msgstr "Nitkový kříž (s posuvným indikátorem nabíjení)"
@@ -162,13 +162,13 @@ msgid "arcade/net"
 msgstr "Indikátory"
 
 msgid "arcade/net/type0"
-msgstr "Indikátory typ I (diagonální)"
+msgstr "Vodorovný, vnější"
 
 msgid "arcade/net/type1"
-msgstr "Indikátory typ II (horizontální)"
+msgstr "Vodorovný, vnitřní"
 
 msgid "arcade/net/type2"
-msgstr "Indikátory pancíře"
+msgstr "Žádný, vnitřní"
 
 msgid "arcade/net/type3"
 msgstr "Test"
@@ -711,28 +711,28 @@ msgid "sniper/snpCentralTag"
 msgstr "Centrální značka"
 
 msgid "sniper/snpCentralTag/type0"
-msgstr "V-značka I"
+msgstr "Kruh, černý"
 
 msgid "sniper/snpCentralTag/type1"
-msgstr "V-značka II"
+msgstr "Kruh, bílý"
 
 msgid "sniper/snpCentralTag/type2"
-msgstr "V-značka III"
+msgstr "Kříž, černý"
 
 msgid "sniper/snpCentralTag/type3"
-msgstr "V-značka IV"
+msgstr "Kříž, bílý"
 
 msgid "sniper/snpCentralTag/type4"
-msgstr "Nitkový kříž I"
+msgstr "X-kříž, černý"
 
 msgid "sniper/snpCentralTag/type5"
-msgstr "Nitkový kříž II"
+msgstr "X-kříž, bílý"
 
 msgid "sniper/snpCentralTag/type6"
-msgstr "T-značka"
+msgstr "Bod, černý"
 
 msgid "sniper/snpCentralTag/type7"
-msgstr "I-značka"
+msgstr "Bod, bílý"
 
 msgid "sniper/snpCentralTag/type8"
 msgstr "Test"
@@ -744,46 +744,46 @@ msgid "sniper/snpGunTag"
 msgstr "Značka kanónu"
 
 msgid "sniper/snpGunTag/type0"
-msgstr "Zatržítko I (s indikátorem šance prostřelení pancíře)"
+msgstr "Bod, černý"
 
 msgid "sniper/snpGunTag/type1"
-msgstr "Zatržítko II (s indikátorem nabíjení)"
+msgstr "Bod, bílý"
 
 msgid "sniper/snpGunTag/type2"
-msgstr "Zatržítko III"
+msgstr "Kříž, černý"
 
 msgid "sniper/snpGunTag/type3"
-msgstr "Nitkový kříž I (s indikátorem šance prostřelení pancíře)"
+msgstr "Kříž, bílý"
 
 msgid "sniper/snpGunTag/type4"
-msgstr "Nitkový kříž II (s indikátorem nabíjení)"
+msgstr "X-kříž, černý"
 
 msgid "sniper/snpGunTag/type5"
-msgstr "Nitkový kříž III"
+msgstr "X-kříž, bílý"
 
 msgid "sniper/snpMixing"
 msgstr "Indikátor rozptylu"
 
 msgid "sniper/snpMixing/type0"
-msgstr "Kruh I (naplňuje se při nabíjení)"
+msgstr "Kruh, plný"
 
 msgid "sniper/snpMixing/type1"
-msgstr "Kruh II (s posuvným indikátorem nabíjení)"
+msgstr "Kruh, prázdný"
 
 msgid "sniper/snpMixing/type2"
-msgstr "Kruh III (bez indikátoru nabíjení)"
+msgstr "Kruh, tečkovaný"
 
 msgid "sniper/snpNet"
 msgstr "Indikátory"
 
 msgid "sniper/snpNet/type0"
-msgstr "Indikátory typ I (diagonální)"
+msgstr "Vodorovný s rámečkem"
 
 msgid "sniper/snpNet/type1"
-msgstr "Indikátory typ II (horizontální)"
+msgstr "Vodorovný bez rámečku"
 
 msgid "sniper/snpNet/type2"
-msgstr "Indikátory pancíře"
+msgstr "Žádný, vnitřní"
 
 msgid "sniper/snpReloader"
 msgstr "Nabíjení"
