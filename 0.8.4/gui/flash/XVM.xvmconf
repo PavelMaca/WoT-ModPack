@@ -440,6 +440,7 @@
     },
     "square" : { // Square with 1000m side. Shows maximum unit draw distance.
       "enabled": true,
+      "artilleryEnabled": false,
       "thickness": 0.7,
       "alpha": 40,
       "color": "0xFFFFFF"
