@@ -1,12 +1,11 @@
 <space.settings>
-  <timeOfDay>system/data/sky14_siegfried_line.xml</timeOfDay>
-  <skyGradientDome>system/data/sky14_siegfried_line.xml</skyGradientDome>
-  <flora>spaces/14_siegfried_line/flora.xml</flora>
+  <flora>>spaces/14_siegfried_line/flora.xml</flora>
+  <drawSkySunMoon>	false	</drawSkySunMoon>
   <bounds>
-    <minX>	-6	</minX>
-    <maxX>	5	</maxX>
-    <minY>	-6	</minY>
-    <maxY>	5	</maxY>
+    <minX>	0	</minX>
+    <maxX>	0	</maxX>
+    <minY>	0	</minY>
+    <maxY>	0	</maxY>
   </bounds>
   <terrain>
     <version>	200	</version>
@@ -42,29 +41,30 @@
       </server>
     </lodInfo>
     <soundOcclusion>
-      <directOcclusion>	0.000000	</directOcclusion>
-      <reverbOcclusion>	0.000000	</reverbOcclusion>
+      <directOcclusion>	0,000000	</directOcclusion>
+      <reverbOcclusion>	0,000000	</reverbOcclusion>
     </soundOcclusion>
   </terrain>
-  <farPlane>
-    <max>	500,000000	</max>
-    <high>	500,000000	</high>
-    <medium>	500,000000	</medium>
-    <low>	500,000000	</low>
-  </farPlane>
   <skyDomePartition>	0	</skyDomePartition>
-  <windSpeed>	0.000000 0.000000	</windSpeed>
-  <windGustiness>	0.000000	</windGustiness>
-  <floraWindFactor>	0.500000	</floraWindFactor>
   <skyWorld>
-    <row0>	0.951057 0.000000 -0.309017	</row0>
-    <row1>	0.000000 1.000000 0.000000	</row1>
-    <row2>	0.309017 0.000000 0.951057	</row2>
-    <row3>	0.000000 0.000000 0.000000	</row3>
+    <row0>	1,000000 0,000000 0,000000	</row0>
+    <row1>	0,000000 1,000000 0,000000	</row1>
+    <row2>	0,000000 0,000000 1,000000	</row2>
+    <row3>	0,000000 0,000000 0,000000	</row3>
   </skyWorld>
+  <windSpeed>	0,000000 0,000000	</windSpeed>
+  <windGustiness>	0,000000	</windGustiness>
+  <floraWindFactor>	0,500000	</floraWindFactor>
   <decals>
-    <fadeStart>	210.000000	</fadeStart>
-    <fadeEnd>	250.000000	</fadeEnd>
+    <fadeStart>	100,000000	</fadeStart>
+    <fadeEnd>	105,000000	</fadeEnd>
   </decals>
-  <skyDome>maps/skyboxes/14_siegfried_line_sky/skydome/skybox.visual</skyDome>
+  <timeOfDay>system/data/sky14_siegfried_line.xml</timeOfDay>
+  <skyGradientDome>system/data/sky14_siegfried_line.xml</skyGradientDome>
+  <farPlane>
+    <max>	200,000000	</max>
+    <high>	200,000000	</high>
+    <medium>	200,000000	</medium>
+    <low>	200,000000	</low>
+  </farPlane>
 </space.settings>
