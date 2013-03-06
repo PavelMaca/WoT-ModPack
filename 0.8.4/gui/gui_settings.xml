@@ -1,5 +1,4 @@
 <gui_settings.xml>
-  <eulaURL>http://worldoftanks.eu/user_agreement?language={0}</eulaURL>
   <registrationURL>http://worldoftanks.eu/registration/new/</registrationURL>
   <paymentURL>https://worldoftanks.eu/personal/payment/?user=%(userEncoded)s</paymentURL>
   <finPasswordURL>
@@ -46,6 +45,7 @@
     <show>False</show>
     <internalBrowser>False</internalBrowser>
   </movingText>
+  <freeXpToTankman>False</freeXpToTankman>
   <eula>
     <full>False</full>
     <url>
