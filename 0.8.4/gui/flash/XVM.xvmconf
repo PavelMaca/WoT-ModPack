@@ -111,7 +111,7 @@
     // 5 - frags
     // 6 - experience
     // 7 - medals
-    "sortColumn": 6,          // number of column for sorting (1 - 7)
+    "sortColumn": 4,          // number of column for sorting (1 - 7)
     "showChances": false,     // true - Enable display of "chance to win" (only with xvm-stat)
     "showChancesExp": false   // Show experimental "chance to win" formula
   },
