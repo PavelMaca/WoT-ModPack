@@ -26,8 +26,7 @@
       <keySensitivity>0.5</keySensitivity>
       <sensitivity>0.05</sensitivity>
       <scrollSensitivity>0.25</scrollSensitivity>
-      <distRange>0 300</distRange>
-      <noscroll>false</noscroll>
+      <distRange>40 100</distRange>
     </camera>
   </strategicMode>
   <sniperMode>
