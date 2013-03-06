@@ -29,17 +29,17 @@
   },
   // Options for player statistics (only with xvm-stat)
   "rating": {
-    "showPlayersStatistics": true,              // true - Toggle player statistics on/off. Global setting - without the statistics module, this is always disabled
-    "loadEnemyStatsInFogOfWar": true,           // true - Enable downloading of data on opponents in the "fog of war"
+    "showPlayersStatistics": false,              // true - Toggle player statistics on/off. Global setting - without the statistics module, this is always disabled
+    "loadEnemyStatsInFogOfWar": false,           // true - Enable downloading of data on opponents in the "fog of war"
     "enableStatisticsLog": false,               // true - Enable saving statistics to "xvm-stat.log" file
-    "enableUserInfoStatistics": true,           // true - Enable statistics in the user info window
-    "enableCompanyStatistics": true             // true - Enable statistics in the company window
+    "enableUserInfoStatistics": false,           // true - Enable statistics in the user info window
+    "enableCompanyStatistics": false             // true - Enable statistics in the company window
   },
   // Parameters of the Battle Loading Screen
   "battleLoading": {
     "clockFormat": "H:N:S",                     // Show the clock on the Battle Loading Screen. Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
-    "showChances": true,                       // true - Enable display of "chance to win" (only with xvm-stat) Read more: http://www.koreanrandom.com/forum/topic/1663-
-    "showChancesExp": true,                    // Show experimental "chance to win" formula
+    "showChances": false,                       // true - Enable display of "chance to win" (only with xvm-stat) Read more: http://www.koreanrandom.com/forum/topic/1663-
+    "showChancesExp": false,                    // Show experimental "chance to win" formula
     "removeSquadIcon": false,                   // true - Disable Platoon icons. This blank space can house, for example, clan logos
     "clanIcon": {                               // Display options for Team/Clan logos
       "show": false,                             //   false - Disable Team/Clan logos in Battle Loading Screen
@@ -52,21 +52,21 @@
       "alpha": 90                               //   Transparency of the Team/Clan logo
     },
     // Display format for the left Players Panel (macros allowed, see readme-en.txt)
-    "formatLeft": "<textformat tabstops='[40,70,100,123,163]'>&nbsp;<tab><font color='{{c:rating}}'>{{rating:3}}</font>&nbsp;<tab><font color='{{c:wn}}'>{{wn}}</font>&nbsp;<tab><font color='{{c:kb}}'>{{kb:3}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:t-battles}}'>{{t-battles:4}}</font><tab>&nbsp;</textformat>",
+    "formatLeft": "{{vehicle}}",
     // Display format for the right Players Panel (macros allowed, see readme-en.txt)
-    "formatRight": "<textformat tabstops='[25,55,85]'><font color='{{c:t-battles}}'>{{t-battles:4}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:kb}}'>{{kb:3}}</font><tab>&nbsp;<font color='{{c:wn}}'>{{wn}}</font><tab>&nbsp;<font color='{{c:rating}}'>{{rating:3}}</font></textformat>"
+    "formatRight": "{{vehicle}}"
   },
   // Parameters of the Battle Statistics Form
   "statisticForm": {
-    "showChances": true,     // true - Enable display of "chance to win" (only with xvm-stat).
-    "showChancesExp": true,  // Show experimental "chance to win" formula
+    "showChances": false,     // true - Enable display of "chance to win" (only with xvm-stat).
+    "showChancesExp": false,  // Show experimental "chance to win" formula
     "removeSquadIcon": false, // true - Disable Platoon icons. This blank space can house, for example, clan logos.
     // Display options for Team/Clan logos (see battleLoading above)
     "clanIcon": { "show": false, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
     // Display format for the left column (macros allowed, see readme-en.txt)
-    "formatLeft": "<textformat tabstops='[43,73,103,128,163]'>&nbsp;<tab><font color='{{c:rating}}'>{{rating:3}}</font>&nbsp;<tab><font color='{{c:wn}}'>{{wn}}</font>&nbsp;<tab><font color='{{c:kb}}'>{{kb:3}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:t-battles}}'>{{t-battles:4}}</font><tab>&nbsp;</textformat>",
+    "formatLeft": "{{vehicle}}",
     // Display format for the right column (macros allowed, see readme-en.txt)
-    "formatRight": "<textformat tabstops='[25,55,85]'><font color='{{c:t-battles}}'>{{t-battles:4}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:kb}}'>{{kb:3}}</font><tab>&nbsp;<font color='{{c:wn}}'>{{wn}}</font><tab>&nbsp;<font color='{{c:rating}}'>{{rating:3}}</font></textformat>"
+    "formatRight": "{{vehicle}}"
   },
   // Parameters of the Players Panels
   "playersPanel": {
@@ -675,7 +675,7 @@
           "contourIcon": {                    // Vehicle icon
             "visible": true,                 //   false - Disable
             "x": 0,                           //   Position on the X axis
-            "y": -74,                         //   Position on the Y axis
+            "y": -65,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
             "amount": 0                       //   Color intensity from 0 to 100. The default is 0 (off).
@@ -754,7 +754,7 @@
             // Text field with win ratio
             {
               "name": "Global Win Rate",
-              "visible": true,
+              "visible": false,
               "x": 0,
               "y": -50,
               "alpha": 100,
@@ -1261,7 +1261,7 @@
           "contourIcon": {                    // Vehicle icon
             "visible": true,                 //   false - Disable
             "x": 0,                           //   Position on the X axis
-            "y": -74,                         //   Position on the Y axis
+            "y": -65,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
             "amount": 0                       //   Color intensity from 0 to 100. The default is 0 (off).
@@ -1340,7 +1340,7 @@
             // Text field with win ratio
             {
               "name": "Global Win Rate",
-              "visible": true,
+              "visible": false,
               "x": 0,
               "y": -50,
               "alpha": 100,
