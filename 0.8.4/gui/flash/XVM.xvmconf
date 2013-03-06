@@ -1260,7 +1260,7 @@
           },
           "contourIcon": {                    // Vehicle icon
             "visible": true,                 //   false - Disable
-            "x": 6,                           //   Position on the X axis
+            "x": 0,                           //   Position on the X axis
             "y": -74,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
