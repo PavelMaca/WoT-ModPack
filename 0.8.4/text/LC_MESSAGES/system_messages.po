@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2012-12-13 18:22+0100\n"
+"PO-Revision-Date: 2013-03-06 14:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -50,6 +50,9 @@ msgstr "Chyba při vstupu do bitvy: již jste součástí týmu."
 
 msgid "arena_start_errors/join/CANNOT_CREATE"
 msgstr "Chyba při vstupu do bitvy: špatný počet týmů."
+
+msgid "arena_start_errors/join/CAPTCHA"
+msgstr "Chyba při připojení k bitvě, CAPTCHA."
 
 msgid "arena_start_errors/join/COOLDOWN"
 msgstr ""
@@ -1286,6 +1289,9 @@ msgid "vehicleComponents/vehicle_unlock_success"
 msgstr ""
 "Tank %(userString)s vyzkoumán za %(unspentXP)s zkušeností a %(freeXP)s "
 "volných zkušeností."
+
+msgid "video/error"
+msgstr "Chyba při přehrávání videa. Kód chyby: %(code)s."
 
 msgid "window/buttons/close"
 msgstr "Zavřít"

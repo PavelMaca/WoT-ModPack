@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2012-12-13 09:44+0100\n"
+"PO-Revision-Date: 2013-03-06 14:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 
 msgid "EULA/buttons/apply"
-msgstr "Pokračovat"
+msgstr "Souhlasím"
 
 msgid "EULA/labels/agree"
 msgstr "Souhlasím"
@@ -479,11 +479,11 @@ msgstr ""
 
 msgid "eula/p2"
 msgstr ""
-"KLIKNUTÍM NA TLAČÍTKO \"POKRAČOVAT\" POTVRZUJETE, ŽE JSTE PŘEČETLI, "
-"ROZUMÍTE, SOUHLASÍTE A BUDETE JEDNAT V SOULADU S LICENČNÍM UJEDNÁNÍM "
-"KONCOVÉHO UŽIVATELE A NESETE ODPOVĚDNOST ZA JAKÉKOLIV PORUŠENÍ TOHOTO "
-"UJEDNÁNÍ. LICENČNÍ UJEDNÁNÍ KONCOVÉHO UŽIVATELE A JEHO PŘÍPADNÉ ZMĚNY JSOU "
-"ZÁVAZNÝM MATERIÁLEM PRO VŠECHNY ČLENY PROJEKTU."
+"KLIKNUTÍM NA TLAČÍTKO \"SOUHLASÍM\" POTVRZUJETE, ŽE JSTE PŘEČETLI, ROZUMÍTE, "
+"SOUHLASÍTE A BUDETE JEDNAT V SOULADU S LICENČNÍM UJEDNÁNÍM KONCOVÉHO "
+"UŽIVATELE A NESETE ODPOVĚDNOST ZA JAKÉKOLIV PORUŠENÍ TOHOTO UJEDNÁNÍ. "
+"LICENČNÍ UJEDNÁNÍ KONCOVÉHO UŽIVATELE A JEHO PŘÍPADNÉ ZMĚNY JSOU ZÁVAZNÝM "
+"MATERIÁLEM PRO VŠECHNY ČLENY PROJEKTU."
 
 msgid "exchangeGoldConfirmation/cancel"
 msgstr "Storno"
@@ -731,7 +731,7 @@ msgid "koreaPlayTimeNotification/submit"
 msgstr "Okay"
 
 msgid "koreaPlayTimeNotification/title"
-msgstr "Родительский контроль"
+msgstr "Omezení herní doby"
 
 msgid "leftPrebattleAndAcceptInvite/cancel"
 msgstr "Storno"
@@ -1244,6 +1244,18 @@ msgstr ""
 
 msgid "squadPremiumNeeded/title"
 msgstr "Pouze s prémiovým účtem"
+
+msgid "tankmanRetraining/unknownVehicle/cancel"
+msgstr "Storno"
+
+msgid "tankmanRetraining/unknownVehicle/message"
+msgstr "%(tankname)s není v garáži. Přeškolit tankistu?"
+
+msgid "tankmanRetraining/unknownVehicle/submit"
+msgstr "Přeškolit"
+
+msgid "tankmanRetraining/unknownVehicle/title"
+msgstr "Potvrdit přeškolení"
 
 msgid "teamDoesNotHaveCommander/cancel"
 msgstr "Zavřít"
