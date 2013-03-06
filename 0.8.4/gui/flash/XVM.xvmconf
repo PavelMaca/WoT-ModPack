@@ -10,12 +10,12 @@
   "editorVersion": "0.36",  // Version of the editor.
   // Common config options. All settings information in the mod not being used.
   "definition": {
-    "author": "Assassik",                        // Config author
+    "author": "Assassik",                       // Config author
     "description": "Default settings for XVM",  // Config description
     "url": "http://code.google.com/p/wot-xvm/", // Address to config updates
     "date": "06.03.2013",                       // Config last modified
     "gameVersion": "0.8.4",                     // Supported version of the game
-    "modMinVersion": "3.4.2"                    // The minimum required version of the XVM mod
+    "modMinVersion": "3.5.0"                    // The minimum required version of the XVM mod
   },
   // General parameters for the battle interface
   "battle": {
@@ -33,7 +33,7 @@
     "loadEnemyStatsInFogOfWar": true,           // true - Enable downloading of data on opponents in the "fog of war"
     "enableStatisticsLog": false,               // true - Enable saving statistics to "xvm-stat.log" file
     "enableUserInfoStatistics": true,           // true - Enable statistics in the user info window
-    "enableCompanyStatistics": true            // true - Enable statistics in the company window
+    "enableCompanyStatistics": true             // true - Enable statistics in the company window
   },
   // Parameters of the Battle Loading Screen
   "battleLoading": {
@@ -214,11 +214,11 @@
         "revealedEnabled":  true, // Textfields switch for revealed units.
         "lostEnemyEnabled": true, // Textfields switch for lost enemy units. Show last seen position.
         "format": { // Формат поля.
-          "ally":  "<span class='mm_a'>{{vehicle-type}}</span>", // Ally
-          "enemy": "<span class='mm_e'>{{vehicle-type}}</span>", // Enemy
-          "squad": "<textformat leading='-1'><span class='mm_s'><i>{{short-nick}}</i>\n{{vehicle-type}}</span><textformat>", // Squadmates
+          "ally":  "<span class='mm_a'>{{vehicle}}</span>", // Ally
+          "enemy": "<span class='mm_e'>{{vehicle}}</span>", // Enemy
+          "squad": "<textformat leading='-1'><span class='mm_s'><i>{{short-nick}}</i>\n{{vehicle}}</span><textformat>", // Squadmates
           // Lost enemy units
-          "lost":  "<span class='mm_dot'>\u2022</span><span class='mm_l'><i>{{vehicle-type}}</i></span>",
+          "lost":  "<span class='mm_dot'>\u2022</span><span class='mm_l'><i>{{vehicle}}</i></span>",
           // For your own marker or spectated subject.
           "oneself": ""
         },
@@ -292,7 +292,7 @@
         }
       },
       "mapSize": { // Textfield for map side size. 1000m, 700m, 600m.
-        // Works only with xvm-stat.exe
+        // Works only with xvm-stat.exe if locale is not RU, EN or CH
         "enabled": true,
         "format": "<b>{{cellsize}}0 m</b>",
         "css": "font-size:10px; color:#FFCC66;",
@@ -315,7 +315,7 @@
       }
     },
     "circles": { // Distance circles. Only real map meters. Only for owned unit.
-        // Works only with xvm-stat.exe
+        // Works only with xvm-stat.exe if locale is not RU, EN or CH
         "enabled": true,
         "major": [
             // 445 meters - maximum reveal distance.
@@ -368,7 +368,7 @@
         ]
     },
     "lines": { // Only for owned vehicle.
-       // Works only with xvm-stat.exe
+       // Works only with xvm-stat.exe if locale is not RU, EN or CH
        "enabled": true,
        // "inmeters": true  - make line size to be in real map meters.
        // "inmeters": false - make line size to be in minimap interface clip points. Minimap interface clip side is 210 points.
@@ -408,8 +408,8 @@
          { "enabled": true, "from": 1720,"to": 1780, "inmeters": true, "thickness": 0.75,  "alpha": 30, "color": "0xFFCC66"},
          { "enabled": true, "from": 1820,"to": 1880, "inmeters": true, "thickness": 0.75,  "alpha": 30, "color": "0xFFCC66"},
          { "enabled": true, "from": 1920,"to": 2000, "inmeters": true, "thickness": 0.75,  "alpha": 30, "color": "0xFFCC66"},
-         { "enabled": true, "from": 99,  "to": 100,  "inmeters": true, "thickness": 2.2,   "alpha": 45, "color": "0xFFCC66"},
            // Dots
+         { "enabled": true, "from": 99,  "to": 100,  "inmeters": true, "thickness": 2.2,   "alpha": 45, "color": "0xFFCC66"},
          { "enabled": true, "from": 199, "to": 200,  "inmeters": true, "thickness": 2.1,   "alpha": 40, "color": "0xFFCC66"},
          { "enabled": true, "from": 299, "to": 300,  "inmeters": true, "thickness": 2,     "alpha": 35, "color": "0xFFCC66"},
          { "enabled": true, "from": 399, "to": 400,  "inmeters": true, "thickness": 1.9,   "alpha": 30, "color": "0xFFCC66"},
@@ -437,6 +437,12 @@
          { "enabled": true, "from": 400, "to": 497, "inmeters": true, "thickness": 0.9,   "alpha": 40, "color": "0xCCCCCC"},
          { "enabled": true, "from": 500, "to": 2000,"inmeters": true, "thickness": 0.75,   "alpha": 40, "color": "0xCCCCCC"}
        ]
+    },
+    "square" : { // Square with 1000m side. Shows maximum unit draw distance.
+      "enabled": true,
+      "thickness": 0.7,
+      "alpha": 40,
+      "color": "0xFF0000"
     }
   },
   // OVER-TARGET MARKERS
