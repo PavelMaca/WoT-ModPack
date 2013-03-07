@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-01-17 13:42+0100\n"
+"PO-Revision-Date: 2013-03-07 17:43+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -811,7 +811,9 @@ msgid "serviceChannelMessages/autoEquipSkipped"
 msgstr "Nepodařilo se naložit doplňky na vozidlo %s."
 
 msgid "serviceChannelMessages/autoEquipSuccess"
-msgstr "%s: <font color='#929290'><i>Sp.dop.: </i></font>- "
+msgstr ""
+"<img src='LabelEquipment'/>%s: <font color='#929290'><i>Sp.dop.: </i></"
+"font>- "
 
 msgid "serviceChannelMessages/autoLoadDisabledOption"
 msgstr "Nepodařilo se doplnit munici na %s. Zvažte její nákup za zlaťáky."
@@ -823,7 +825,9 @@ msgid "serviceChannelMessages/autoLoadSkipped"
 msgstr "Nepodařilo se dozbrojit vozidlo %s."
 
 msgid "serviceChannelMessages/autoLoadSuccess"
-msgstr "%s: <font color='#929290'><i>Munice: </i></font>- "
+msgstr ""
+"<img src='LabelAmmunition'/>%s: <font color='#929290'><i>Munice: </i></"
+"font>- "
 
 msgid "serviceChannelMessages/autoRepairDisabledOption"
 msgstr "Nepodařilo se opravit vozidlo %s."
@@ -835,7 +839,7 @@ msgid "serviceChannelMessages/autoRepairSkipped"
 msgstr "Nepodařilo se opravit vozidlo %s."
 
 msgid "serviceChannelMessages/autoRepairSuccess"
-msgstr "%s: - "
+msgstr "<img src='LabelRepair'/>%s: - "
 
 msgid "serviceChannelMessages/battleResults/achieves"
 msgstr "<i>Úspěchy v bitvě: </i>"
@@ -847,13 +851,13 @@ msgid "serviceChannelMessages/battleResults/actions"
 msgstr "Získáno %s za akce '%s'"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
-msgstr "%s kreditů"
+msgstr "<img src='LabelCreditProfit'/>%s kreditů"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
 msgstr "%s volných zkušeností"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsGold"
-msgstr "%s zlaťáků"
+msgstr "<img src='LabelGoldProfit'/>%s zlaťáků"
 
 msgid "serviceChannelMessages/battleResults/battle"
 msgstr "<font color='#929290'><i>Bitva:</i></font>"
@@ -865,19 +869,19 @@ msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
 msgstr "Náhrada: %s"
 
 msgid "serviceChannelMessages/battleResults/credits"
-msgstr "<font color='#AA9040'><i>+ Kreditů</i></font>"
+msgstr "<font color='#CDC673'>Kredity</font>"
 
 msgid "serviceChannelMessages/battleResults/defeat"
 msgstr "<font size='15'>Porážka!</font>"
 
 msgid "serviceChannelMessages/battleResults/doubleXpFactor"
-msgstr "x%d"
+msgstr "<img src='LabelDoubleExperience'/>x%d"
 
 msgid "serviceChannelMessages/battleResults/drawGame"
 msgstr "<font size='15'>Remíza!</font>"
 
 msgid "serviceChannelMessages/battleResults/experience"
-msgstr "<font color='#AA9040'><i>XP</i></font>"
+msgstr "<font color='#CDC673'>XP</font>"
 
 msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Příjem zlaťáků"
@@ -886,16 +890,18 @@ msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "Pokuta: %s"
 
 msgid "serviceChannelMessages/battleResults/tank"
-msgstr "<font color='#AA9040'><i>Vozidlo:</i></font>"
+msgstr "<font color='#CDC673'><i>Vozidlo:</i></font>"
 
 msgid "serviceChannelMessages/battleResults/victory"
 msgstr "<font size='15'>Vítězství!</font>"
 
 msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
-msgstr "Bylo vám darováno %(gold)s zlaťáků a %(credits)s kreditů."
+msgstr ""
+"Bylo vám darováno <img src='LabelGoldProfit'/>%(gold)s zlaťáků a <img "
+"src='LabelCreditProfit'/>%(credits)s kreditů."
 
 msgid "serviceChannelMessages/creditsReceivedAsGift"
-msgstr "Bylo vám darováno %(credits)s kreditů."
+msgstr "Bylo vám darováno <img src='LabelCreditProfit'/>%(credits)s kreditů."
 
 msgid "serviceChannelMessages/durationOfPremiumAccounExpires"
 msgstr "Prémiový účet expiruje <b>%(expiryTime)s</b>."
@@ -1126,12 +1132,14 @@ msgid "serviceChannelMessages/vehiclesAllLockExpired"
 msgstr "Opravy dokončeny. Vozidla budou dostupná pro klanové války."
 
 msgid "serviceChannelMessages/waresBoughtAsGold"
-msgstr "Hráč %(srcName)s převedl na váš účet %(srcWares)s zlaťáků."
+msgstr ""
+"Hráč %(srcName)s převedl na váš účet <img src='LabelGoldProfit'/>%(srcWares)"
+"s zlaťáků."
 
 msgid "serviceChannelMessages/waresSoldAsGold"
 msgstr ""
-"%(srcWares)s zlaťáků bylo převedeno na účet hráče %(dstName)s. Poplatek: "
-"%(fee)s."
+"<img src='LabelGoldExpense'/>%(srcWares)s zlaťáků bylo převedeno na účet "
+"hráče %(dstName)s. Poplatek: <img src='LabelGoldExpense'/>%(fee)s."
 
 msgid "serviceChannelMessages/xpReceivedAsGift"
 msgstr "Bylo vám darováno %(freeXP)s volných zkušeností."

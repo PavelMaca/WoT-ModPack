@@ -1655,10 +1655,10 @@ msgid "premium/submitContinue"
 msgstr "Prodloužit"
 
 msgid "price/credits"
-msgstr "Kreditů"
+msgstr "Kreditů<img src='LabelCredit'/>"
 
 msgid "price/gold"
-msgstr "zlaťáků"
+msgstr "zlaťáků<img src='LabelGold'/>"
 
 msgid "price/received"
 msgstr "Získal jste + %s"
