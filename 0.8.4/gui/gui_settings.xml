@@ -48,7 +48,6 @@
   <freeXpToTankman>False</freeXpToTankman>
   <eula>
     <full>False</full>
-    <url>
-    </url>
+    <url>http://worldoftanks.eu/user_agreement?language={0}</url>
   </eula>
 </gui_settings.xml>
