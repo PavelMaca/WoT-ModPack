@@ -1,0 +1,1459 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2010-06-10 19:30+0200\n"
+"Last-Translator: i_maliavko <i_maliavko@wargaming.net>\n"
+"Language-Team: WoT Team <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2)"
+
+msgid "XPToTmen/server_error"
+msgstr "Ошибка изменения ускоренного обучения экипажа %s. Попробуйте позже."
+
+msgid "XPToTmen/successFalse"
+msgstr "Ускоренное обучение экипажа <font color='#c5ab5d'>%s</font> выключено."
+
+msgid "XPToTmen/successTrue"
+msgstr "Ускоренное обучение экипажа <font color='#c5ab5d'>%s</font> включено."
+
+msgid "actionAchievement/title"
+msgstr "Акционная медаль"
+
+msgid "actionAchievements/title"
+msgstr "Акционные медали"
+
+msgid "addTankmanSkill/server_error"
+msgstr "Новое умение не изучено. Попробуйте позже."
+
+msgid "addTankmanSkill/success"
+msgstr "Новое умение успешно изучено."
+
+msgid "addTankmanSkill/vehicle_need_repair"
+msgstr "Ошибка изучения умения. Необходимо отремонтировать танк."
+
+msgid "addTankmanSkill/vehicle_need_wait"
+msgstr "Ошибка изучения умения. Танк заблокирован."
+
+msgid "addTankmanSkill/wrong_vehicle"
+msgstr "Ошибка изучения умения. Неверный танк."
+
+msgid "another_periphery"
+msgstr "Не закончена сессия на другом сервере."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Ошибка присоединения. Вы уже присоединены к команде."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Ошибка присоединения. Неверный номер команды."
+
+msgid "arena_start_errors/join/CAPTCHA"
+msgstr "Ошибка присоединения, CAPTCHA."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Ошибка присоединения. Операция временно заморожена. Попробуйте позже."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Ошибка присоединения. Приглашение устарело."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Ошибка присоединения. Недостаточно прав."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Ошибка присоединения. Команда уже сформирована."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Ошибка присоединения. Слишком долго нет ответа."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Ошибка присоединения. Недоступно для этого типа аккаунта."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Ошибка присоединения к арене."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Ошибка присоединения, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Ошибка присоединения. Требуется перейти на сервер '%s'."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Ошибка присоединения. Требуется перейти на другой сервер."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Ошибка присоединения. Текущий танк не готов."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Невозможно войти в бой. Танк не готов."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Для участия в битве необходимо купить танк."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Ошибка подключения к битве (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Ошибка подключения к битве (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Ошибка подключения к битве (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Ошибка подключения к битве (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Ошибка подключения к битве (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Ошибка подключения к битве (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Ошибка подключения к битве (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Ошибка подключения к битве (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Ошибка подключения к битве (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Ошибка подключения к битве (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Ошибка подключения к битве (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/timeout"
+msgstr ""
+"Время ожидания в очереди на бой истекло, попробуйте сменить танк или зайти "
+"позже."
+
+msgid "bs/kickedFromQueue"
+msgstr ""
+"Невозможно подобрать соперников для данного Специального боя. Попробуйте "
+"переформировать команду."
+
+msgid "bs/memberJoined"
+msgstr "%s присоединился к команде."
+
+msgid "bs/memberLeave"
+msgstr "%s покинул команду."
+
+msgid "bs/memberNotReady"
+msgstr "%s не готов воевать в команде."
+
+msgid "bs/memberOffline"
+msgstr "Потеря связи с %s."
+
+msgid "bs/memberReady"
+msgstr "%s готов воевать в команде."
+
+msgid "buyTankman/limit"
+msgstr "Вы исчерпали лимит бесплатных танкистов на сегодняшний день."
+
+msgid "buyTankman/not_enought_space"
+msgstr ""
+"Ошибка рекрутирования и посадки танкиста в выбранный танк. Для "
+"рекрутирования танкиста необходима свободная койка в казарме. Пожалуйста, "
+"освободите одну койку или приобретите дополнительные койки в Казарме."
+
+msgid "buyTankman/server_error"
+msgstr "Ошибка рекрутирования танкиста. Попробуйте позже."
+
+msgid "buyTankman/success"
+msgstr "<font color='#a3966e'>Танкист рекрутирован.</font>"
+
+msgid "buy_berths/server_error"
+msgstr "Ошибка расширения Казармы. Попробуйте позже."
+
+msgid "buy_berths/success"
+msgstr ""
+"<font color='#a3966e'>Казарма расширена:</font> <font color='#FFE769'>%s</"
+"font>"
+
+msgid "buy_slot/server_error"
+msgstr "Ошибка покупки слота. Попробуйте позже."
+
+msgid "buy_slot/success"
+msgstr ""
+"<font color='#a3966e'>Куплен слот в Ангаре</font><font color='#FFE769'>%s</"
+"font>"
+
+msgid "buy_vehicle_slot_error"
+msgstr ""
+"Не удалось купить '%s' . Нет свободных слотов в Ангаре. Продайте один из "
+"танков или купите новый слот."
+
+msgid "buy_vehicle_slot_error2"
+msgstr ""
+"Не удалось купить '%s' . Нет свободных слотов в Ангаре. Пожалуйста, "
+"освободите слот."
+
+msgid "charge/credit_error"
+msgstr ""
+"Не хватает %s<img src='toolTipCreditsIcon' width='14' height='16' "
+"align='baseline' vspace='-2'/> и <font color='#FFE769'>%s</font> <img "
+"src='icon_gold' width='10' height='9' align='baseline' vspace='0'/>. "
+"Установите боекомплект вручную."
+
+msgid "charge/credit_error_credits"
+msgstr ""
+"Не хватает %s <img src='toolTipCreditsIcon' width='14' height='16' "
+"align='baseline' vspace='-2'/>. Установите боекомплект вручную."
+
+msgid "charge/credit_error_gold"
+msgstr ""
+"Не хватает <font color='#FFE769'>%s</font><img src='icon_gold' width='10' "
+"height='9' align='baseline' vspace='0'/>. Установите боекомплект вручную."
+
+msgid "charge/inventory_error"
+msgstr "Загрузите боекомплект вручную."
+
+msgid "charge/money_spent"
+msgstr ""
+"<img src='LabelExclude'/><font color='#c5ab5d'>ИТОГО</font> <font "
+"color='#a3966e'>(боекомплект)</font><font color='#929290'>%s</font>"
+
+msgid "charge/server_error"
+msgstr "Ошибка загрузки боекомплекта. Попробуйте позже."
+
+msgid "charge/server_error_save"
+msgstr "Ошибка запоминания боекомплекта. Попробуйте позже."
+
+msgid "charge/success"
+msgstr "Боекомплект загружен."
+
+msgid "charge/success_save"
+msgstr "Боекомплект сохранён."
+
+msgid "checkout_error"
+msgstr ""
+"Ошибка сервера при получении информации об игроке. Попробуйте войти еще раз."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "Модуль %s '%s' не подходит для этого танка."
+
+msgid "clientInstallError_too_heavy"
+msgstr ""
+"Модуль %s '%s' не подходит по массе. Попробуйте заменить ходовую часть или "
+"сделать танк легче."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s '%s' не подходит для данной башни танка. Замените башню."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "Модуль %s '%s' не подходит по типу."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "Модуль %s '%s' не подходит по нации."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "Модуль %s '%s' не подходит для этого танка."
+
+msgid "clientRemoveError_too_heavy"
+msgstr "Модуль %s '%s' не подходит по массе. Попробуйте сделать танк легче."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "Модуль %s '%s' не подходит по типу."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "Модуль %s '%s' не подходит по нации."
+
+msgid "connected"
+msgstr ""
+"Добро пожаловать на сервер <font color='#c5ab5d'>'%s'</font><br><font "
+"color='#BFE9FF'>'Ясен</font><font color='#FF3333'>Красен'</font> 0.8.4"
+
+msgid "current_vehicle_changed"
+msgstr "Текущий танк изменён на '%s'."
+
+msgid "customization/camouflage_change_server_error"
+msgstr ""
+"Произошла серверная ошибка при смене камуфляжа. Попробуйте повторить "
+"операцию позже."
+
+msgid "customization/camouflage_change_success/credits"
+msgstr ""
+"<font color='#a3966e'>Смена камуфляжа:</font> <img src='LabelCreditExpense'/>"
+"%s"
+
+msgid "customization/camouflage_change_success/gold"
+msgstr ""
+"<font color='#a3966e'>Смена камуфляжа:</font> <font color='#FFE769'><img "
+"src='LabelGoldExpense'/>%s </font>"
+
+msgid "customization/camouflage_cost_not_found"
+msgstr "Смена камуфляжа невозможна. Невозможно определить цену камуфляжа."
+
+msgid "customization/camouflage_days_not_selected"
+msgstr ""
+"Смена камуфляжа невозможна. Выберите, пожалуйста, срок действия камуфляжа."
+
+msgid "customization/camouflage_drop_server_error"
+msgstr ""
+"Произошла серверная ошибка при удалении камуфляжа. Попробуйте повторить "
+"операцию позже."
+
+msgid "customization/camouflage_drop_success"
+msgstr "Камуфляж успешно удалён."
+
+msgid "customization/camouflage_get_cost_server_error"
+msgstr ""
+"Произошла серверная ошибка при получении пакетов аренды камуфляжа, "
+"попробуйте повторить операцию позже."
+
+msgid "customization/camouflage_not_found_to_drop"
+msgstr "Удалить камуфляж невозможно. Текущий камуфляж не назначен."
+
+msgid "customization/camouflage_not_selected"
+msgstr "Смена камуфляжа невозможна. Выберите камуфляж."
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Кастомизация невозможна. Недостаточно кредитов и золота."
+
+msgid "customization/credits_not_enough"
+msgstr "Кастомизация невозможна. Недостаточно кредитов."
+
+msgid "customization/emblem_change_server_error"
+msgstr ""
+"Произошла серверная ошибка при смене эмблемы. Попробуйте повторить операцию "
+"позже."
+
+msgid "customization/emblem_change_success/credits"
+msgstr "Эмблема успешно изменена: <img src='LabelCreditExpense'/>%s "
+
+msgid "customization/emblem_change_success/gold"
+msgstr ""
+"Эмблема успешно изменена: <font color='#FFE769'><img src='LabelGoldExpense'/>"
+"%s </font>"
+
+msgid "customization/emblem_cost_not_found"
+msgstr "Смена эмблемы невозможна. Невозможно определить цену эмблемы."
+
+msgid "customization/emblem_days_not_selected"
+msgstr "Смена эмблемы невозможна. Выберите, пожалуйста, срок действия эмблемы."
+
+msgid "customization/emblem_drop_server_error"
+msgstr ""
+"Произошла серверная ошибка при удалении эмблемы. Попробуйте повторить "
+"операцию позже."
+
+msgid "customization/emblem_drop_success"
+msgstr "Эмблема успешно удалена."
+
+msgid "customization/emblem_get_cost_server_error"
+msgstr ""
+"Произошла серверная ошибка при получении пакетов аренды эмблем. Попробуйте "
+"повторить операцию позже."
+
+msgid "customization/emblem_not_found_to_drop"
+msgstr "Удалить эмблему невозможно. Текущая эмблема не назначена."
+
+msgid "customization/emblem_not_selected"
+msgstr "Смена эмблемы невозможна. Выберите эмблему."
+
+msgid "customization/gold_not_enough"
+msgstr "Кастомизация невозможна. Недостаточно золота."
+
+msgid "customization/horn_change_server_error"
+msgstr ""
+"Произошла серверная ошибка при смене клаксона. Попробуйте повторить операцию "
+"позже."
+
+msgid "customization/horn_change_success"
+msgstr ""
+"Клаксон успешно изменён: <font color='#FFE769'><img src='LabelGoldExpense'/>"
+"%s </font>"
+
+msgid "customization/horn_cost_not_found"
+msgstr "Смена клаксона невозможна. Невозможно определить цену клаксона."
+
+msgid "customization/horn_drop_server_error"
+msgstr ""
+"Произошла серверная ошибка при удалении клаксона. Попробуйте повторить "
+"операцию позже."
+
+msgid "customization/horn_drop_success"
+msgstr "Клаксон успешно удалён."
+
+msgid "customization/horn_get_cost_server_error"
+msgstr ""
+"Произошла серверная ошибка при запросе клаксонов из магазина, попробуйте "
+"повторить операцию позже."
+
+msgid "customization/horn_not_found_to_drop"
+msgstr "Удалить клаксон невозможно. Текущий клаксон не назначен."
+
+msgid "customization/horn_not_selected"
+msgstr "Смена клаксона невозможна. Выберите клаксон."
+
+msgid "customization/inscription_change_server_error"
+msgstr ""
+"Произошла серверная ошибка при смене надписи. Попробуйте повторить операцию "
+"позже."
+
+msgid "customization/inscription_change_success/credits"
+msgstr "Надпись успешно изменена: <img src='LabelCreditExpense'/>%s."
+
+msgid "customization/inscription_change_success/gold"
+msgstr ""
+"Надпись успешно изменена: <font color='#FFE769'><img src='LabelGoldExpense'/>"
+"%s </font>"
+
+msgid "customization/inscription_cost_not_found"
+msgstr "Смена надписи невозможна. Невозможно определить цену надписи."
+
+msgid "customization/inscription_days_not_selected"
+msgstr "Смена надписи невозможна. Выберите, пожалуйста, срок действия надписи."
+
+msgid "customization/inscription_drop_server_error"
+msgstr ""
+"Произошла серверная ошибка при удалении надписи. Попробуйте повторить "
+"операцию позже."
+
+msgid "customization/inscription_drop_success"
+msgstr "Надпись успешно удалена."
+
+msgid "customization/inscription_get_cost_server_error"
+msgstr ""
+"Произошла серверная ошибка при получении пакетов аренды эмблем. Попробуйте "
+"повторить операцию позже."
+
+msgid "customization/inscription_not_found_to_drop"
+msgstr "Удалить надпись невозможно. Текущая надпись не назначена."
+
+msgid "customization/inscription_not_selected"
+msgstr "Смена надписи невозможна. Выберите надпись."
+
+msgid "customization/vehicle_damaged"
+msgstr "Кастомизация невозможна. Танк повреждён. Необходим ремонт."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Кастомизация невозможна. Танк разбит. Необходим ремонт."
+
+msgid "customization/vehicle_exploded"
+msgstr "Кастомизация невозможна. Танк взорван. Необходим ремонт."
+
+msgid "customization/vehicle_locked"
+msgstr "Кастомизация невозможна. Танк заблокирован."
+
+msgid "denunciation/success"
+msgstr "Жалоба на %(name)s \"%(topic)s\" принята."
+
+msgid "disconnected"
+msgstr "Клиент отключён от сервера."
+
+msgid "dismissTankman/server_error"
+msgstr "Не удалось демобилизовать танкиста. Попробуйте позже."
+
+msgid "dismissTankman/success"
+msgstr "Танкист демобилизован успешно."
+
+msgid "dismissTankman/vehicle_need_repair"
+msgstr "Ошибка демобилизации танкиста. Необходимо отремонтировать танк."
+
+msgid "dismissTankman/vehicle_need_wait"
+msgstr "Ошибка демобилизации танкиста. Танк заблокирован."
+
+msgid "dismissTankman/wrong_vehicle"
+msgstr "Ошибка демобилизации танкиста. Неверный танк."
+
+msgid "dossiers_unavailable"
+msgstr "Учётная запись не готова (DOSSIERS_UNAVAILABLE)"
+
+msgid "dropTankmanSkill/server_error"
+msgstr "Не удалось сбросить умения. Попробуйте позже."
+
+msgid "dropTankmanSkill/success"
+msgstr "Все умения и навыки успешно сброшены. Потрачено %s"
+
+msgid "dropTankmanSkill/vehicle_need_repair"
+msgstr "Ошибка сброса умений. Необходимо отремонтировать танк."
+
+msgid "dropTankmanSkill/vehicle_need_wait"
+msgstr "Ошибка сброса умений. Танк заблокирован."
+
+msgid "dropTankmanSkill/wrong_vehicle"
+msgstr "Ошибка сброса умений. Неверный танк."
+
+msgid "ebank/response/Account block"
+msgstr "Покупка золота не удалась. Пользователь заблокирован."
+
+msgid "ebank/response/Account is not active"
+msgstr "Покупка золота не удалась. Пользователь не активен."
+
+msgid "ebank/response/Account is not exists"
+msgstr "Покупка золота не удалась. Пользователь не существует."
+
+msgid "ebank/response/COOLDOWN"
+msgstr "Операция временно заморожена. Попробуйте позже."
+
+msgid "ebank/response/Cannot get required data: 'user'"
+msgstr "Покупка золота не удалась. Попробуйте позже."
+
+msgid "ebank/response/Exception, Transaction error unknown"
+msgstr "Покупка золота не удалась. Попробуйте позже."
+
+msgid "ebank/response/Existing transactions in system and has false"
+msgstr "Покупка золота не удалась. Запрос уже принят."
+
+msgid "ebank/response/Existing transactions in system and has successfully"
+msgstr "Покупка золота не удалась. Запрос уже принят."
+
+msgid "ebank/response/Invalid password"
+msgstr "Покупка золота не удалась. Неверный пароль."
+
+msgid "ebank/response/Invalide code: -1000"
+msgstr "Покупка золота не удалась. Попробуйте позже."
+
+msgid "ebank/response/MAX_TRANSACTION_VALUE"
+msgstr "Покупка золота не удалась. Неправильная максимальная сумма платежа."
+
+msgid "ebank/response/MIN_TRANSACTION_VALUE"
+msgstr "Покупка золота не удалась. Неправильная минимальная сумма платежа."
+
+msgid "ebank/response/NO_VCOIN"
+msgstr "Покупка золота не удалась. Недостаточно VCOIN."
+
+msgid "ebank/response/Not enough money"
+msgstr "Покупка золота не удалась. Недостаточно средств."
+
+msgid "ebank/response/Product price is invalid"
+msgstr "Покупка золота не удалась. Неверная сумма покупки."
+
+msgid "ebank/response/Receiver not exists"
+msgstr "Покупка золота не удалась. Пользователь не существует."
+
+msgid "ebank/response/SHOP_DESYNC"
+msgstr "Сервер не отвечает. Попробуйте позже."
+
+msgid "ebank/response/ServiceID is not exists. [Service error]"
+msgstr "Покупка золота не удалась. Попробуйте позже."
+
+msgid "ebank/response/ServiceKey is invalid. [Service error]"
+msgstr "Покупка золота не удалась. Попробуйте позже."
+
+msgid "ebank/response/TIMEOUT"
+msgstr "Сервер не отвечает. Попробуйте позже."
+
+msgid "ebank/response/Transaction error in billing system"
+msgstr "Покупка золота не удалась. Попробуйте позже."
+
+msgid "ebank/response/WRONG_ARGS_TYPE"
+msgstr "Сервер не отвечает. Попробуйте позже."
+
+msgid "ebank/response/WRONG_ARG_VALUE"
+msgstr "Сервер не отвечает. Попробуйте позже."
+
+msgid "ebank/response/WRONG_MULTIPLICITY"
+msgstr "Покупка золота не удалась. Неправильная сумма платежа."
+
+msgid "ebank/response/success"
+msgstr ""
+"Запрос на покупку %(gold)s единиц золота принят, золото поступит на ваш счёт "
+"после его обработки. Потрачено %(vcoin)s VCOIN."
+
+msgid "equipTankman/not_enought_space"
+msgstr "Ошибка перемещения танкиста в танк. Недостаточно места в Казарме."
+
+msgid "equipTankman/server_error"
+msgstr "Танкист не перемещён. Попробуйте позже."
+
+msgid "equipTankman/success"
+msgstr "Пересадка танкиста выполнена успешно."
+
+msgid "equipTankman/vehicle_need_repair"
+msgstr "Ошибка перемещения танкиста в танк. Необходимо отремонтировать танк."
+
+msgid "equipTankman/vehicle_need_wait"
+msgstr "Ошибка перемещения танкиста в танк. Танк заблокирован."
+
+msgid "equipTankman/wrong_vehicle"
+msgstr "Ошибка перемещения танкиста в танк. Неверный танк."
+
+msgid "exchange/server_error"
+msgstr ""
+"Ошибка обмена <font color='#FFE769'>%s</font><img src='icon_gold' width='10' "
+"height='9' align='baseline' vspace='0'/>. Попробуйте позже."
+
+msgid "exchange/success"
+msgstr ""
+"<font color='#a3966e'>Обмен завершён. Потрачено: <img src='LabelGoldExpense'/"
+">%s</font>"
+
+msgid "exchangeVehiclesXP/server_error"
+msgstr ""
+"Ошибка перевода <font color='#CED2D1'>%d</font></font><img "
+"src='ToolTipXPIcon' width='16' height='15' align='baseline' vspace='-1'/> в "
+"свободный."
+
+msgid "exchangeXP/server_error"
+msgstr ""
+"Ошибка перевода <font color='#CED2D1'>%s</font></font><img "
+"src='ToolTipXPIcon' width='16' height='15' align='baseline' vspace='-1'/>. "
+"Попробуйте позже."
+
+msgid "exchangeXP/success"
+msgstr ""
+"<font color='#a3966e'>Перевод <font color='#CED2D1'>%s</font><img "
+"src='ToolTipXPIcon' width='16' height='15' align='baseline' vspace='-1'/"
+">в<img src='icon_free_xp' width='16' height='15' align='baseline' "
+"vspace='-1'/> Потрачено</font>%s"
+
+msgid "fitting/artefact_apply_error_not_for_this_vehicle_type"
+msgstr "%s <font color='#c5ab5d'>'%s'</font> не подходит для этого танка."
+
+msgid "fitting/artefact_apply_error_too_heavy"
+msgstr ""
+"%s <font color='#c5ab5d'>'%s'</font> не подходит по весу. Попробуйте "
+"заменить ходовую часть или сделать танк легче."
+
+msgid "fitting/artefact_apply_success"
+msgstr "%s <font color='#c5ab5d'>'%s'</font> установлено."
+
+msgid "fitting/artefact_apply_vehicle_broken"
+msgstr ""
+"Танк повреждён. Установка %s '%s' не удалась. Отремонтируйте танк и "
+"повторите операцию."
+
+msgid "fitting/artefact_apply_vehicle_locked"
+msgstr "Танк заблокирован, установка %s '%s' не удалась."
+
+msgid "fitting/artefact_buy_money_error"
+msgstr ""
+"Для покупки %s <font color='#c5ab5d'>'%s'</font> не хватает %s <img "
+"src='toolTipCreditsIcon' width='14' height='16' align='baseline' vspace='-2'/"
+">"
+
+msgid "fitting/artefact_buy_server_error"
+msgstr ""
+"Не удалось купить %s <font color='#c5ab5d'>'%s'</font>. Попробуйте позже."
+
+msgid "fitting/artefact_buy_success"
+msgstr ""
+"<font color='#a3966e'>%s <font color='#c5ab5d'>'%s'</font> успешно "
+"приобретено (%d шт.)</font>%s"
+
+msgid "fitting/artefact_destroy_success"
+msgstr "%s <font color='#c5ab5d'>'%s'</font> уничтожено при демонтаже."
+
+msgid "fitting/artefact_destroy_vehicle_broken"
+msgstr ""
+"Танк повреждён. %s <font color='#c5ab5d'>'%s'</font> не уничтожено. "
+"Отремонтируйте танк и повторите операцию."
+
+msgid "fitting/artefact_destroy_vehicle_locked"
+msgstr "Танк заблокирован. %s <font color='#c5ab5d'>'%s'</font> не уничтожено."
+
+msgid "fitting/artefact_remove_error_too_heavy"
+msgstr ""
+"%s <font color='#c5ab5d'>'%s'</font> нельзя демонтировать. Попробуйте "
+"заменить ходовую часть или сделать танк легче."
+
+msgid "fitting/artefact_remove_gold_error_not_enough"
+msgstr ""
+"%s <font color='#c5ab5d'>'%s'</font> не демонтировано. Недостаточно золота."
+
+msgid "fitting/artefact_remove_gold_success"
+msgstr ""
+"<font color='#a3966e'>%s <font color='#c5ab5d'>'%s'</font> снято с танка:</"
+"font> <img src='LabelGoldExpense'/>%s"
+
+msgid "fitting/artefact_remove_success"
+msgstr "%s <font color='#c5ab5d'>'%s'</font> снято с танка."
+
+msgid "fitting/artefact_remove_vehicle_broken"
+msgstr ""
+"Танк повреждён. %s <font color='#c5ab5d'>'%s'</font> не демонтировано. "
+"Отремонтируйте танк и повторите операцию."
+
+msgid "fitting/artefact_remove_vehicle_locked"
+msgstr ""
+"Танк заблокирован. %s <font color='#c5ab5d'>'%s'</font> не демонтировано."
+
+msgid "fitting/artefact_sell_server_error"
+msgstr ""
+"Не удалось продать %s <font color='#c5ab5d'>'%s'</font>. Попробуйте позже."
+
+msgid "fitting/artefact_sell_success"
+msgstr ""
+"<font color='#a3966e'>%s <font color='#c5ab5d'>'%s'</font> успешно продано "
+"(%d шт.)</font><b>%s</b>"
+
+msgid "fitting/artefact_server_apply_error"
+msgstr ""
+"Произошла серверная ошибка установки %s <font color='#c5ab5d'>'%s'</font>. "
+"Попробуйте повторить операцию позже."
+
+msgid "fitting/artefact_server_remove_error"
+msgstr ""
+"Не удалось демонтировать %s <font color='#c5ab5d'>'%s'</font>. Попробуйте "
+"позже."
+
+msgid "fitting/module_apply_error_is_current"
+msgstr "Модуль <font color='#c5ab5d'>%s '%s'</font> уже установлен."
+
+msgid "fitting/module_apply_error_no_gun"
+msgstr ""
+"%s <font color='#c5ab5d'>'%s'</font> не установлена. На Складе нет "
+"подходящего орудия."
+
+msgid "fitting/module_apply_error_not_for_current_vehicle"
+msgstr ""
+"%s <font color='#c5ab5d'>'%s'</font> не подходит для данной башни танка. "
+"Замените башню."
+
+msgid "fitting/module_apply_error_not_for_this_vehicle_type"
+msgstr ""
+"Модуль <font color='#c5ab5d'>%s '%s'</font> не подходит для данного танка."
+
+msgid "fitting/module_apply_error_not_with_installed_equipment"
+msgstr ""
+"Модуль <font color='#c5ab5d'>%s '%s'</font> несовместим со снаряжением <font "
+"color='#c5ab5d'>'%s'</font>."
+
+msgid "fitting/module_apply_error_too_heavy"
+msgstr ""
+"Модуль <font color='#c5ab5d'>%s '%s'</font> не подходит по весу. Попробуйте "
+"заменить ходовую часть или сделать танк легче."
+
+msgid "fitting/module_apply_error_too_heavy_chassis"
+msgstr ""
+"Модуль <font color='#c5ab5d'>%s '%s'</font> не подходит по весу. Попробуйте "
+"сделать танк легче."
+
+msgid "fitting/module_apply_error_wrong_item_type"
+msgstr "Модуль <font color='#c5ab5d'>%s '%s'</font> не подходит по типу."
+
+msgid "fitting/module_apply_error_wrong_nation"
+msgstr "Модуль <font color='#c5ab5d'>%s '%s'</font> не подходит по нации."
+
+msgid "fitting/module_apply_success"
+msgstr "Модуль <font color='#c5ab5d'>%s '%s'</font> установлен."
+
+msgid "fitting/module_apply_success_gun_change"
+msgstr ""
+"Модуль <font color='#c5ab5d'>%s '%s'</font> установлен на танк с орудием "
+"<font color='#c5ab5d'>'%s'</font>."
+
+msgid "fitting/module_apply_vehicle_broken"
+msgstr ""
+"Танк повреждён. Установка модуля %s '%s' не удалась. Отремонтируйте танк и "
+"повторите операцию."
+
+msgid "fitting/module_apply_vehicle_locked"
+msgstr ""
+"Танк заблокирован, установка модуля %s <font color='#c5ab5d'>'%s'</font> не "
+"удалась."
+
+msgid "fitting/module_buy_money_error"
+msgstr ""
+"Для покупки %s '%s' не хватает %s <img src='toolTipCreditsIcon' width='14' "
+"height='16' align='baseline' vspace='-2'/>"
+
+msgid "fitting/module_buy_server_error"
+msgstr ""
+"Не удалось купить модуль %s <font color='#c5ab5d'>'%s'</font>. Попробуйте "
+"позже."
+
+msgid "fitting/module_buy_success"
+msgstr ""
+"<font color='#a3966e'>Модуль <font color='#c5ab5d'>%s '%s'</font> успешно "
+"приобретен (%d шт.)</font>%s"
+
+msgid "fitting/module_sell_server_error"
+msgstr ""
+"Не удалось продать %s <font color='#c5ab5d'>'%s'</font>. Попробуйте позже."
+
+msgid "fitting/module_sell_success"
+msgstr ""
+"<font color='#a3966e'>Модуль <font color='#c5ab5d'>%s '%s'</font> успешно "
+"продан (%d шт.)</font><b>%s</b>"
+
+msgid "fitting/module_server_apply_error"
+msgstr ""
+"Произошла серверная ошибка установки модуля %s <font color='#c5ab5d'>'%s'</"
+"font>. Попробуйте повторить операцию позже."
+
+msgid "fitting/remove/incompatibleEqs"
+msgstr ""
+"Снаряжение <font color='#c5ab5d'>'%s'</font> отправлено на Склад в связи с "
+"несовместимостью с устанавливаемым модулем."
+
+msgid "fitting/shell_buy_money_error"
+msgstr ""
+"Для покупки %s не хватает %s <img src='toolTipCreditsIcon' width='14' "
+"height='16' align='baseline' vspace='-2'/>"
+
+msgid "fitting/shell_buy_server_error"
+msgstr "Покупка %s не удалась. Попробуйте позже."
+
+msgid "fitting/shell_buy_success"
+msgstr ""
+"<font color='#a3966e'>Снаряды <font color='#c5ab5d'>%s</font> (%d шт.)</font>"
+"%s"
+
+msgid "fitting/shell_sell_server_error"
+msgstr ""
+"Продажа снаряда <font color='#c5ab5d'>'%s'</font> не удалась. Попробуйте "
+"позже."
+
+msgid "fitting/shell_sell_success"
+msgstr ""
+"<font color='#a3966e'>Снаряд <font color='#c5ab5d'>'%s'</font> успешно "
+"продан (%d шт.)</font><b>%s</b>"
+
+msgid "fitting/vehicle_buy_max_exist"
+msgstr ""
+"Покупка танка '%s' не удалась. В Ангаре нет свободных слотов. Продайте какой-"
+"либо танк, чтобы освободить место для нового."
+
+msgid "fitting/vehicle_buy_money_error"
+msgstr "Для покупки '%s' не хватает %s"
+
+msgid "fitting/vehicle_buy_server_error"
+msgstr "Покупка танка '%s' не удалась. Возможно, у вас уже есть данный танк."
+
+msgid "fitting/vehicle_buy_server_error_centerDown"
+msgstr ""
+"Покупка танка '%s' не удалась. Сервис покупки техники временно недоступен."
+
+msgid "fitting/vehicle_buy_success"
+msgstr ""
+"<font color='#a3966e'>Танк <font color='#c5ab5d'>'%s'</font> приобретен</"
+"font> <b>%s</b>"
+
+msgid "fitting/vehicle_dismantling_sell_success"
+msgstr ""
+"Танк '%s' успешно продан. Получено <img src='LabelCreditProfit'/>%s. "
+"Потрачено <img src='LabelGoldExpense'/>%s."
+
+msgid "fitting/vehicle_sell_barracks_full"
+msgstr ""
+"Продажа танка <font color='#c5ab5d'>%s</font> не удалась. Недостаточно места "
+"в Казарме."
+
+msgid "fitting/vehicle_sell_limit"
+msgstr ""
+"Продажа танка <font color='#c5ab5d'>'%s'</font> не удалась. Вы исчерпали "
+"лимит продажи танков на сегодняшний день."
+
+msgid "fitting/vehicle_sell_server_error"
+msgstr "Продажа танка '%s' не удалась. Попробуйте позже."
+
+msgid "fitting/vehicle_sell_success"
+msgstr ""
+"<font color='#a3966e'>Танк <font color='#c5ab5d'>'%s'</font> продан</font> "
+"<b>%s</b>"
+
+msgid "freeXpToTmanSkill/error/NO_FREE_XP"
+msgstr "Ошибка при обучении танкиста. Недостаточного свободного опыта."
+
+msgid "freeXpToTmanSkill/error/No tankman with given id"
+msgstr "Ошибка при обучении танкиста. Указанного танкиста не существует."
+
+msgid "freeXpToTmanSkill/error/SHOP_DESYNC"
+msgstr "Ошибка при обучении танкиста. Попробуйте позже."
+
+msgid "freeXpToTmanSkill/error/WRONG_ARGS_TYPE"
+msgstr "Ошибка при обучении танкиста. Попробуйте позже."
+
+msgid "freeXpToTmanSkill/success"
+msgstr "Танкист успешно обучен."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr ""
+"Для предотвращения возникновения игровой зависимости у несовершеннолетних "
+"пользователей выход в бой после 23:45 запрещён. В полночь вы будете "
+"отключены от сервера."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Чрезмерное нахождение в игре может навредить вашей повседневной жизни."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Игрового времени осталось: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr ""
+"Ваше игровое время заканчивается. Нельзя начать новый бой. В %s вы будете "
+"отключены от сервера."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Время игры: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "До полуночи осталось: %(timeLeft)s"
+
+msgid "graficsOptionsFail"
+msgstr ""
+"Невозможно применить графические настройки: %s. Данные настройки "
+"несовместимы с вашей видеокартой."
+
+msgid "graficsPresetFail"
+msgstr ""
+"Невозможно применить выбранное качество графики по причине несовместимости с "
+"вашей видеокартой."
+
+msgid "install_component"
+msgstr "Модуль <font color='#c5ab5d'>%s '%s'</font> установлен."
+
+msgid "install_vehicle_broken"
+msgstr ""
+"Танк повреждён. Установка модуля %s <font color='#c5ab5d'>'%s'</font> не "
+"удалась. Отремонтируйте танк и повторите операцию."
+
+msgid "install_vehicle_locked"
+msgstr ""
+"Танк заблокирован, установка модуля %s <font color='#c5ab5d'>'%s'</font> не "
+"удалась."
+
+msgid "inventory/item/already_exists"
+msgstr ""
+"Модуль %(typeString)s '%(userString)s' уже имеется в наличии на Складе."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Запрос на установку модуля отправлен, ожидается ответ от сервера."
+
+msgid "inventory/item/not_found"
+msgstr "Модуль %(typeString)s '%(userString)s' на Складе не найден."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Танк %(userString)s уже имеется в наличии на Складе."
+
+msgid "inventory/vehicle/not_found"
+msgstr "Танк %(userString)s на Складе не найден."
+
+msgid "memberRosterChangedMain"
+msgstr "%s перевёл в основной состав %s."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s перевёл в запасной состав %s."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Недостаточно памяти. Пожалуйста, перезагрузите игру."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Недостаточно памяти. Качество текстур снижено до низкого значения."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Недостаточно памяти. Качество текстур снижено до среднего значения."
+
+msgid "no_readyVehicle"
+msgstr "Танк не готов."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Ошибка ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Ошибка AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Ошибка BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Ошибка CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Командир покинул команду."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Команда расформирована."
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Демобилизация."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Ошибка PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Время истекло."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Неизвестная ошибка."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Ошибка VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Вы исключены из взвода."
+
+msgid "prebattle/kick/type/team"
+msgstr "Вы исключены из роты."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Вы исключены из команды."
+
+msgid "prebattleReady/limits/ammo"
+msgstr ""
+"На выбранный танк загружены снаряды или снаряжение, не удовлетворяющие "
+"условиям битвы."
+
+msgid "prebattleReady/limits/classLevel"
+msgstr ""
+"Выбранный танк не подходит для данной битвы по уровню. Минимальный уровень "
+"для данного класса: %s. Максимальный уровень для данного класса: %s."
+
+msgid "prebattleReady/limits/components"
+msgstr ""
+"На выбранный танк установлены компоненты, не удовлетворяющие условиям битвы."
+
+msgid "prebattleReady/limits/level"
+msgstr ""
+"Выбранный танк не подходит для данной битвы по уровню. Минимальный уровень: "
+"%s. Максимальный уровень: %s."
+
+msgid "prebattleReady/limits/nations"
+msgstr ""
+"Выбранный танк не подходит для данной битвы по нации. Допустимые нации: %s."
+
+msgid "prebattleReady/limits/shells"
+msgstr ""
+"На выбранный танк загружены снаряды, не удовлетворяющие условиям битвы."
+
+msgid "prebattleReady/limits/vehicles"
+msgstr "Выбранный танк не подходит для данной битвы."
+
+msgid "prebattleReady/no_readyVehicle"
+msgstr "Выбранный танк не готов."
+
+msgid "prebattleReady/notSetReadyStatus"
+msgstr "Не удалось присоединиться к команде."
+
+msgid "premium/buyingSuccess"
+msgstr "Куплен премиум аккаунт на срок %d д.: %s "
+
+msgid "premium/continueSuccess"
+msgstr "Премиум аккаунт продлён на %d д.%s. "
+
+msgid "premium/server_error"
+msgstr "Ошибка покупки премиум аккаунта на срок %d дней. Попробуйте позже."
+
+msgid "reequipTankman/not_enought_space"
+msgstr "Ошибка замены танкиста. Недостаточно места в Казарме."
+
+msgid "reequipTankman/server_error"
+msgstr "Замена танкиста не выполнена. Попробуйте позже."
+
+msgid "reequipTankman/success"
+msgstr "Замена танкиста выполнена успешно."
+
+msgid "reequipTankman/vehicle_need_repair"
+msgstr "Ошибка замены танкиста. Необходимо отремонтировать танк."
+
+msgid "reequipTankman/vehicle_need_wait"
+msgstr "Ошибка замены танкиста. Танк заблокирован."
+
+msgid "reequipTankman/wrong_vehicle"
+msgstr "Ошибка замены танкиста. Неверный танк."
+
+msgid "remove_component"
+msgstr "Модуль %s <font color='#c5ab5d'>'%s'</font> удалён из танка."
+
+msgid "remove_vehicle_broken"
+msgstr ""
+"Танк повреждён. Не удалось удалить %s <font color='#c5ab5d'>'%s'</font>. "
+"Отремонтируйте танк и повторите операцию."
+
+msgid "remove_vehicle_locked"
+msgstr ""
+"Танк заблокирован, нельзя удалить %s <font color='#c5ab5d'>'%s'</font>."
+
+msgid "repair/credit_error"
+msgstr ""
+"Не хватает %s <img src='toolTipCreditsIcon' width='14' height='16' "
+"align='baseline' vspace='-2'/> на ремонт танка '%s'."
+
+msgid "repair/server_error"
+msgstr "Ошибка ремонта '%s'. Попробуйте позже."
+
+msgid "repair/success"
+msgstr ""
+"<font color='#c5ab5d'>%s</font> <font color='#a3966e'>(ремонт)</font>%s"
+
+msgid "replaceTankman/not_enough_money"
+msgstr "Ошибка смены документов танкиста. Недостаточно денег."
+
+msgid "replaceTankman/server_error"
+msgstr "Смена документов танкиста не выполнена. Попробуйте позже."
+
+msgid "replaceTankman/success"
+msgstr "<font color='#a3966e'>Смена документов танкиста</font>%s"
+
+msgid "replaceTankman/vehicle_need_repair"
+msgstr "Ошибка смены документов танкиста. Необходимо отремонтировать танк."
+
+msgid "replaceTankman/vehicle_need_wait"
+msgstr "Ошибка смены документов танкиста. Танк заблокирован."
+
+msgid "replaceTankman/wrong_vehicle"
+msgstr "Ошибка смены документов танкиста. Неверный танк."
+
+msgid "retrainingTankman/server_error"
+msgstr "Переобучение танкиста не выполнено. Попробуйте позже."
+
+msgid "retrainingTankman/success"
+msgstr "<font color='#a3966e'>Переобучение танкиста</font>"
+
+msgid "retrainingTankman/vehicle_need_repair"
+msgstr "Ошибка переобучения танкиста. Необходимо отремонтировать танк."
+
+msgid "retrainingTankman/vehicle_need_wait"
+msgstr "Ошибка переобучения танкиста. Танк заблокирован."
+
+msgid "retrainingTankman/wrong_vehicle"
+msgstr "Ошибка переобучения танкиста. Неверный танк."
+
+msgid "sell_vehicle_broken"
+msgstr ""
+"Танк повреждён. Не удалось продать '%s'. Отремонтируйте танк и повторите "
+"операцию."
+
+msgid "sell_vehicle_locked"
+msgstr "Танк заблокирован. Нельзя продать '%s'."
+
+msgid "serverInstallError"
+msgstr ""
+"Произошла серверная ошибка установки модуля %s <font color='#c5ab5d'>'%s'</"
+"font>. Попробуйте повторить операцию позже."
+
+msgid "serverRemoveError"
+msgstr ""
+"Произошла серверная ошибка удаления модуля %s <font color='#c5ab5d'>'%s'</"
+"font>. Попробуйте повторить операцию позже."
+
+msgid "server_shut_down"
+msgstr "Перезагрузка игрового сервера"
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr ""
+"Запрос на покупку и установку модуля отправлен, ожидается ответ от сервера."
+
+msgid "shop/item/buy_server_error"
+msgstr ""
+"Покупка модуля %(typeString)s '%(userString)s' не удалась. Попробуйте позже."
+
+msgid "shop/item/buy_success"
+msgstr ""
+"<font color='#a3966e'>Модуль %(typeString)s <font "
+"color='#c5ab5d'>'%(userString)s'</font> успешно приобретён (%(count)d шт.).</"
+"font> <b>%(price)s</b>"
+
+msgid "shop/item/not_enough_money"
+msgstr ""
+"Для покупки %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> не "
+"хватает %(price)s."
+
+msgid "shop/item/not_found"
+msgstr ""
+"Модуль %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> в "
+"Магазине не найден. Попробуйте позже."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "Для покупки %(userString)s не хватает %(price)s."
+
+msgid "shop/vehicle/not_found"
+msgstr "%(userString)s в Магазине не найден. Попробуйте позже."
+
+msgid "shop_resync"
+msgstr "%(date)s в %(time)s произошли серверные изменения, интерфейс обновлен."
+
+msgid "squad/createError"
+msgstr "Создание взводов доступно только игрокам с премиум аккаунтом."
+
+msgid "squad/kickedFromQueue"
+msgstr ""
+"Невозможно подобрать соперников для данного взвода. Попробуйте "
+"переформировать команду."
+
+msgid "squad/memberJoined"
+msgstr "%s присоединился к взводу."
+
+msgid "squad/memberLeave"
+msgstr "%s покинул взвод."
+
+msgid "squad/memberNotReady"
+msgstr "%s не готов воевать во взводе."
+
+msgid "squad/memberOffline"
+msgstr "Потеря связи с %s."
+
+msgid "squad/memberReady"
+msgstr "%s готов воевать во взводе."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Не удалось войти в бой со взводом."
+
+msgid "team/createError"
+msgstr "Создание рот доступно только игрокам с премиум аккаунтом."
+
+msgid "team/kickedFromQueue"
+msgstr ""
+"Невозможно подобрать соперников для данной роты. Попробуйте переформировать "
+"команду."
+
+msgid "team/memberJoined"
+msgstr "%s присоединился к роте."
+
+msgid "team/memberLeave"
+msgstr "%s покинул роту."
+
+msgid "team/memberNotReady"
+msgstr "%s не готов воевать в роте."
+
+msgid "team/memberOffline"
+msgstr "Потеря связи с %s."
+
+msgid "team/memberReady"
+msgstr "%s готов воевать в роте."
+
+msgid "team/notSetReadyStatus"
+msgstr "Не удалось войти в бой с ротой."
+
+msgid "technicalMaintenance/error/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr ""
+"Ошибка при обслуживании %s. Невозможно пополнить снаряжение. Попробуйте "
+"позже."
+
+msgid "technicalMaintenance/error/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr ""
+"Ошибка при обслуживании %s. Невозможно пополнить снаряжение. Попробуйте "
+"позже."
+
+msgid "technicalMaintenance/error/Cannot equip equipment"
+msgstr ""
+"Ошибка при обслуживании %s. Невозможно пополнить снаряжение. Попробуйте "
+"позже."
+
+msgid "technicalMaintenance/error/Cannot equip shells"
+msgstr ""
+"Ошибка при обслуживании %s. Невозможно пополнить снаряды. Попробуйте позже."
+
+msgid "technicalMaintenance/error/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr ""
+"Ошибка при обслуживании %s. Невозможно пополнить снаряды. Максимальное "
+"количество снарядов загружено."
+
+msgid "technicalMaintenance/error/Component is not in shop"
+msgstr ""
+"Ошибка при обслуживании %s. Невозможно пополнить снаряжение. Попробуйте "
+"позже."
+
+msgid "technicalMaintenance/error/EQS_NO_CREDITS"
+msgstr ""
+"Ошибка при обслуживании %s. Недостаточно кредитов для покупки снаряжения."
+
+msgid "technicalMaintenance/error/EQS_NO_GOLD"
+msgstr ""
+"Ошибка при обслуживании %s. Недостаточно золота для покупки снаряжения."
+
+msgid "technicalMaintenance/error/NOT_RESEARCHED_ITEM"
+msgstr ""
+"Ошибка при обслуживании %s. Невозможно пополнить снаряжение. Попробуйте "
+"позже."
+
+msgid "technicalMaintenance/error/No vehicle with given id"
+msgstr "Ошибка при обслуживании %s. Неверный танк."
+
+msgid "technicalMaintenance/error/SHELLS_NO_CREDITS"
+msgstr ""
+"Ошибка при обслуживании %s. Недостаточно кредитов для покупки снарядов."
+
+msgid "technicalMaintenance/error/SHELLS_NO_GOLD"
+msgstr "Ошибка при обслуживании %s. Недостаточно золота для покупки снарядов."
+
+msgid "technicalMaintenance/error/SHOP_DESYNC"
+msgstr "Ошибка при обслуживании %s. Попробуйте позже."
+
+msgid "technicalMaintenance/error/Vehicle is locked"
+msgstr "Ошибка при обслуживании %s. Танк заблокирован."
+
+msgid "technicalMaintenance/error/WRONG_ARGS_TYPE"
+msgstr "Ошибка при обслуживании %s. Попробуйте позже."
+
+msgid "technicalMaintenance/error/WRONG_ARG_VALUE"
+msgstr "Ошибка при обслуживании %s. Попробуйте позже."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Перевод золота не выполнен. Принимающая сторона отклонила запрос."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Перевод золота недоступен."
+
+msgid "tradingError/NO_WARES"
+msgstr "Певерод золота невозможен. Недостаточно золота."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr ""
+"Предел количества переводов достигнут. Вы не можете сегодня выполнить "
+"перевод золота."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Перевод золота не выполнен. Попробуйте позже."
+
+msgid "training/error/swapTeams"
+msgstr ""
+"Произошла серверная ошибка при попытке поменять команды игроков местами. "
+"Попробуйте повторить операцию позже."
+
+msgid "unloadCrew/not_enought_space"
+msgstr "Ошибка высадки экипажа в Казарму. Недостаточно места в Казарме."
+
+msgid "unloadCrew/server_error"
+msgstr "Высадка экипажа в Казарму не выполнена. Попробуйте позже."
+
+msgid "unloadCrew/success"
+msgstr "Высадка экипажа в Казарму выполнена успешно."
+
+msgid "unloadCrew/vehicle_need_repair"
+msgstr "Ошибка высадки экипажа в Казарму. Необходимо отремонтировать танк."
+
+msgid "unloadCrew/vehicle_need_wait"
+msgstr "Ошибка высадки экипажа в Казарму. Танк заблокирован."
+
+msgid "unloadCrew/wrong_vehicle"
+msgstr "Ошибка высадки экипажа в Казарму. Неверный танк."
+
+msgid "unloadTankman/not_enought_space"
+msgstr "Ошибка высадки танкиста в Казарму. Недостаточно места в Казарме."
+
+msgid "unloadTankman/server_error"
+msgstr "Высадка танкиста в Казарму не выполнена. Попробуйте позже."
+
+msgid "unloadTankman/success"
+msgstr "Высадка танкиста в Казарму выполнена успешно."
+
+msgid "unloadTankman/vehicle_need_repair"
+msgstr "Ошибка высадки танкиста в Казарму. Необходимо отремонтировать танк."
+
+msgid "unloadTankman/vehicle_need_wait"
+msgstr "Ошибка высадки танкиста в Казарму. Танк заблокирован."
+
+msgid "unloadTankman/wrong_vehicle"
+msgstr "Ошибка высадки танкиста в Казарму. Неверный танк."
+
+msgid "unlocks/drawFailed"
+msgstr "Невозможно отобразить дерево исследований из-за неправильных настроек."
+
+msgid "unlocks/in_processing"
+msgstr "Запрос на исследование отправлен, ожидается ответ от сервера."
+
+msgid "unlocks/item/already_unlocked"
+msgstr ""
+"Модуль %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> "
+"исследован."
+
+msgid "unlocks/item/server_error"
+msgstr ""
+"Произошла серверная ошибка исследования модуля %(typeString)s <font "
+"color='#c5ab5d'>'%(userString)s'</font>. Попробуйте повторить операцию позже."
+
+msgid "unlocks/item/unlock_success"
+msgstr ""
+"Модуль %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> "
+"исследован. Потрачено нераспределённого опыта %(vehXP)s, свободного опыта "
+"%(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "%(userString)s исследован."
+
+msgid "unlocks/vehicle/server_error"
+msgstr ""
+"Серверная ошибка исследования %(userString)s. Попробуйте повторить операцию "
+"позже."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr ""
+"%(userString)s исследован. Потрачено нераспределённого опыта %(vehXP)s, "
+"свободного опыта %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Ошибка обучения танкиста. Попробуйте позже."
+
+msgid "upgradeTankman/success"
+msgstr "Обучение выполнено успешно."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Запрос на установку модуля отправлен, ожидается ответ от сервера."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr ""
+"Покупка модуля %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> "
+"не удалась. Попробуйте позже."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr ""
+"<font color='#a3966e'>Модуль <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font> успешно приобретён (%(count)d шт.)</font>%(price)s"
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr ""
+"Модуль %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> уже "
+"имеется в наличии на Складе."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr ""
+"Модуль %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> "
+"исследован."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr ""
+"Для покупки %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> не "
+"хватает %(price)s."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr ""
+"Модуль %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> на "
+"Складе не найден."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr ""
+"Модуль %(typeString)s <font color='#c5ab5d'>'%(userString)s'</font> в "
+"Магазине не найден. Попробуйте позже."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr ""
+"Модуль <font color='#c5ab5d'>%(typeString)s '%(userString)s'</"
+"font><br>Потрачено: <font color='#CED2D1'>%(unspentXP)s</font><img "
+"src='ToolTipXPIcon' width='16' height='15' align='baseline' vspace='-1'/>, "
+"<font color='#ECBF7B'>%(freeXP)s</font><img src='icon_free_xp' width='16' "
+"height='15' align='baseline' vspace='-1'/>"
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Запрос на исследование отправлен, ожидается ответ от сервера."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "Танк %(userString)s уже имеется в наличии на Складе."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "Танк <font color='#c5ab5d'>%(userString)s</font> исследован."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr ""
+"Для покупки танка <font color='#c5ab5d'>%(userString)s</font> не хватает "
+"%(price)s."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "Танк %(userString)s на Складе не найден."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "Танк %(userString)s в Магазине не найден. Попробуйте позже."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr ""
+"Танк <font color='#c5ab5d'>%(userString)s</font> исследован.<br>Потрачено "
+"<font color='#CED2D1'>%(unspentXP)s</font><img src='ToolTipXPIcon' "
+"width='16' height='15' align='baseline' vspace='-1'/>, <font color='#ECBF7B'>"
+"%(freeXP)s</font><img src='icon_free_xp' width='16' height='15' "
+"align='baseline' vspace='-1'/>"
+
+msgid "video/error"
+msgstr "Ошибка воспроизведения видео. Код ошибки: %(code)s."
+
+msgid "window/buttons/close"
+msgstr "Закрыть"
+
+msgid "wrong_slot"
+msgstr "Модуль %s '%s' не подходит для слота %s."
