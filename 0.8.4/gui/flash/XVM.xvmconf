@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Full configuration file (hereinafter - the configuration) with all possible options,
  * default configuration.
  *
@@ -79,27 +79,27 @@
     "medium": {
       "width": 46,    // 0..250 - Width of the player's name column. Default is 46.
       // Display format for the left panel (macros allowed, see readme-en.txt)
-      "formatLeft": "<font color='{{c:xwn}}'>{{nick}}</font>",
+      "formatLeft": "<font color='{{c:wn}}'>{{nick}}</font>",
       // Display format for the right panel (macros allowed, see readme-en.txt)
-      "formatRight": "<font color='{{c:xwn}}'>{{nick}}</font>"
+      "formatRight": "<font color='{{c:wn}}'>{{nick}}</font>"
     },
     // Options for the "medium2" panels - the second of the medium panels
     "medium2": {
       "width": 65,    // 0..250 - Width of the player's name column. Default is 65.
       // Display format for the left panel (macros allowed, see readme-en.txt)
-      "formatLeft": "<font color='{{c:xwn}}'>{{vehicle}}</font>",
+      "formatLeft": "<font color='{{c:twr}}'>{{vehicle}}</font>",
       // Display format for the right panel (macros allowed, see readme-en.txt)
-      "formatRight": "<font color='{{c:xwn}}'>{{vehicle}}</font>"
+      "formatRight": "<font color='{{c:twr}}'>{{vehicle}}</font>"
     },
     // Options for the "large" panels - the widest panels
     "large": {
       "width": 170,  // 0..250 - Width of the player's name column. Default is 170.
       // Display format for player nickname (macros allowed, see readme-en.txt)
-      "nickFormatLeft": "<font color='{{c:rating}}'>{{rating}}</font> {{nick}}",
-      "nickFormatRight": "{{nick}} <font color='{{c:rating}}'>{{rating}}</font>",
+      "nickFormatLeft": "<font color='{{c:wn}}'>{{nick}}</font>",
+      "nickFormatRight": "<font color='{{c:wn}}'>{{nick}}</font>",
       // Display format for vehicle name (macros allowed, see readme-en.txt)
-      "vehicleFormatLeft": "<font color='{{c:wn}}'>{{vehicle}}</font>",
-      "vehicleFormatRight": "<font color='{{c:wn}}'>{{vehicle}}</font> "
+      "vehicleFormatLeft": "<font color='{{c:twr}}'>{{vehicle}}</font>",
+      "vehicleFormatRight": "<font color='{{c:twr}}'>{{vehicle}}</font>"
     }
   },
   "finalStatistic": {
