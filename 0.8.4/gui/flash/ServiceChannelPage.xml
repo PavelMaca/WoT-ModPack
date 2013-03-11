@@ -21,7 +21,7 @@
 	<SeparatorGroupsOfDigits>space</SeparatorGroupsOfDigits>	<!-- [c] thousands separator ("space" - for the Russian version, "." - for the English version -->
 															<!-- c - a single character, if character "space", write the word "space" -->
 	<TotalBattle>							<!-- TOTAL FOR BATTLE -->
-		<StartPos>40</StartPos>								<!-- [n] Indented from the left margin in pixels -->
+		<StartPos>0</StartPos>								<!-- [n] Indented from the left margin in pixels -->
 		<Repair>							<!-- Repair -->
 			<Visible>true</Visible>							<!-- [true|false] Visible -->
 			<Title>Opravy:</Title>							<!-- [s] Title text -->
