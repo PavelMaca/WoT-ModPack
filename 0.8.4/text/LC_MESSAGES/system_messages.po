@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-03-07 17:49+0100\n"
+"PO-Revision-Date: 2013-03-11 11:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -260,8 +260,7 @@ msgstr ""
 
 msgid "customization/camouflage_change_success/credits"
 msgstr ""
-"Kamufláž byla úspěšně nastříkána. - Kreditů: <img src='LabelCreditExpense'/>"
-"%s."
+"Kamufláž byla úspěšně nastříkána. Kreditů: <img src='LabelCreditExpense'/>%s."
 
 msgid "customization/camouflage_change_success/gold"
 msgstr ""
@@ -300,7 +299,7 @@ msgid "customization/emblem_change_server_error"
 msgstr "Chyba serveru při nahrazování emblému."
 
 msgid "customization/emblem_change_success/credits"
-msgstr "Emblém úspěšně nahrazen. - Kreditů: <img src='LabelCreditExpense'/>%s."
+msgstr "Emblém úspěšně nahrazen. Kreditů: <img src='LabelCreditExpense'/>%s."
 
 msgid "customization/emblem_change_success/gold"
 msgstr ""
@@ -581,11 +580,11 @@ msgstr "%s '%s' zničeno demontáží."
 
 msgid "fitting/artefact_destroy_vehicle_broken"
 msgstr ""
-"Vozidlo je poškozeno. %s '%s' není zničeno. Opravte vozidlo a zkuste to "
+"Nelze zničit %s '%s': vozidlo je poškozeno. Opravte vozidlo a zkuste to "
 "znovu."
 
 msgid "fitting/artefact_destroy_vehicle_locked"
-msgstr "Vozidlo je uzamčeno. %s '%s' není zničeno."
+msgstr "Nelze zničit %s '%s': vozidlo je uzamčeno."
 
 msgid "fitting/artefact_remove_error_too_heavy"
 msgstr ""
@@ -603,17 +602,17 @@ msgstr "%s '%s' bylo odmontováno z tanku."
 
 msgid "fitting/artefact_remove_vehicle_broken"
 msgstr ""
-"Vozidlo je poškozeno. %s '%s' není demontováno. Opravte vozidlo a zkuste to "
+"Nelze demontovat %s '%s': vozidlo je poškozeno. Opravte vozidlo a zkuste to "
 "znovu."
 
 msgid "fitting/artefact_remove_vehicle_locked"
-msgstr "Vozidlo je uzamčeno. %s '%s' není demontováno."
+msgstr "Nelze demontovat %s '%s': vozidlo je uzamčeno."
 
 msgid "fitting/artefact_sell_server_error"
-msgstr "%s '%s' se nepodařilo prodat. Zkuste to později."
+msgstr "Nepodařilo se prodat %s '%s'. Zkuste to později."
 
 msgid "fitting/artefact_sell_success"
-msgstr "%s '%s' (%d ks) úspěšně prodáno. + %s."
+msgstr "%s '%s' (%d ks) úspěšně prodáno. Získáno: %s."
 
 msgid "fitting/artefact_server_apply_error"
 msgstr "Chyba serveru při montáži %s '%s'. Zkuste to později."
@@ -662,7 +661,7 @@ msgstr ""
 "vozidlo a zkuste to znovu."
 
 msgid "fitting/module_apply_vehicle_locked"
-msgstr "Tank je uzamčen, nelze namontovat %s '%s'."
+msgstr "Vozidlo je uzamčeno, nelze namontovat %s '%s'."
 
 msgid "fitting/module_buy_money_error"
 msgstr "K nákupu %s '%s', není dostatek %s"
@@ -671,13 +670,13 @@ msgid "fitting/module_buy_server_error"
 msgstr "Nepodařilo se koupit %s '%s'. Zkuste to později."
 
 msgid "fitting/module_buy_success"
-msgstr "%s '%s' (%d ks) úspěšně zakoupeno. - %s."
+msgstr "%s '%s' (%d ks) úspěšně zakoupeno. <br>Utraceno %s."
 
 msgid "fitting/module_sell_server_error"
 msgstr "%s '%s' se nepodařilo prodat. Zkuste to později."
 
 msgid "fitting/module_sell_success"
-msgstr "%s '%s' (%d ks) úspěšně prodáno. + %s."
+msgstr "%s '%s' (%d ks) úspěšně prodáno. <br>Získáno %s."
 
 msgid "fitting/module_server_apply_error"
 msgstr "Chyba serveru při montáži %s '%s'. Zkuste to později."
@@ -694,13 +693,13 @@ msgid "fitting/shell_buy_server_error"
 msgstr "Nepodařilo se koupit granáty %s. Zkuste to později."
 
 msgid "fitting/shell_buy_success"
-msgstr "Granáty %s (%d ks) úspěšně zakoupeny. - %s."
+msgstr "Granáty %s (%d ks) úspěšně zakoupeny. <br>Utraceno %s."
 
 msgid "fitting/shell_sell_server_error"
 msgstr "Nepodařilo se prodat granáty '%s'. Zkuste to později."
 
 msgid "fitting/shell_sell_success"
-msgstr "Granáty '%s' (%d ks) úspěšně prodány. + %s."
+msgstr "Granáty '%s' (%d ks) úspěšně prodány. <br>Získáno %s."
 
 msgid "fitting/vehicle_buy_max_exist"
 msgstr ""
@@ -717,12 +716,12 @@ msgid "fitting/vehicle_buy_server_error_centerDown"
 msgstr "Nelze zakoupit vozidlo '%s'. Služba je dočasně nedostupná."
 
 msgid "fitting/vehicle_buy_success"
-msgstr "Vozidlo '%s' úspěšně zakoupeno. - %s."
+msgstr "Vozidlo '%s' úspěšně zakoupeno. <br>Utraceno %s."
 
 msgid "fitting/vehicle_dismantling_sell_success"
 msgstr ""
-"Vozidlo '%s' úspěšně prodáno. Získáno + <img src='LabelCreditProfit'/>%s. "
-"Utraceno - <img src='LabelGoldExpense'/>%s."
+"Vozidlo '%s' úspěšně prodáno. Získáno <img src='LabelCreditProfit'/>%s. "
+"Utraceno <img src='LabelGoldExpense'/>%s."
 
 msgid "fitting/vehicle_sell_barracks_full"
 msgstr "Vozidlo '%s' nelze prodat. Není místo v kasárnách."
@@ -733,10 +732,10 @@ msgstr ""
 "vozidel."
 
 msgid "fitting/vehicle_sell_server_error"
-msgstr "Nepodařilo se prodat tank '%s'. Zkuste to později."
+msgstr "Nepodařilo se prodat vozidlo '%s'. Zkuste to později."
 
 msgid "fitting/vehicle_sell_success"
-msgstr "Vozidlo '%s' úspěšně prodáno. + %s."
+msgstr "Vozidlo '%s' úspěšně prodáno. <br>Získáno %s."
 
 msgid "freeXpToTmanSkill/error/NO_FREE_XP"
 msgstr "Chyba při výcviku člena posádky. Nedostatek volných zkušeností."
@@ -794,7 +793,7 @@ msgstr ""
 "vozidlo a zkuste to znovu."
 
 msgid "install_vehicle_locked"
-msgstr "Tank je uzamčen, nelze namontovat %s '%s'."
+msgstr "Vozidlo je uzamčeno, nelze namontovat %s '%s'."
 
 msgid "inventory/item/already_exists"
 msgstr "Příslušenství %(typeString)s '%(userString)s' je již ve skladu."
@@ -909,10 +908,10 @@ msgid "prebattleReady/notSetReadyStatus"
 msgstr "K týmu se nelze přidat."
 
 msgid "premium/buyingSuccess"
-msgstr "Prémiový účet zakoupen na %d dnů. Utraceno %s."
+msgstr "Prémiový účet zakoupen na %d dnů. <br>Utraceno %s."
 
 msgid "premium/continueSuccess"
-msgstr "Prémiový účet prodloužen o %d dnů. Utraceno %s."
+msgstr "Prémiový účet prodloužen o %d dnů. <br>Utraceno %s."
 
 msgid "premium/server_error"
 msgstr "Chyba při nákupu prémiového účtu na %d dnů. Zkuste to později."
@@ -940,10 +939,10 @@ msgstr "%s '%s' odstraněno z tanku."
 
 msgid "remove_vehicle_broken"
 msgstr ""
-"Tank je poškozen, nelze odstranit %s '%s'. Opravte tank a zkuste to znova."
+"Nelze odstranit %s '%s': tank je poškozen. Opravte tank a zkuste to znovu."
 
 msgid "remove_vehicle_locked"
-msgstr "Tank je uzamčen, nelze odstranit %s '%s'."
+msgstr "Nelze odstranit %s '%s': tank je uzamčen."
 
 msgid "repair/credit_error"
 msgstr "Je potřeba o %s kreditů více na opravu tanku '%s' ."
@@ -952,7 +951,7 @@ msgid "repair/server_error"
 msgstr "Chyba při opravě tanku '%s'. Zkuste to později."
 
 msgid "repair/success"
-msgstr "Vozidlo '%s' opraveno. - %s."
+msgstr "Vozidlo '%s' opraveno. <br>Utraceno %s."
 
 msgid "replaceTankman/not_enough_money"
 msgstr "Nepodařilo se přepsat osobní data. Nedostatek kreditů."
@@ -961,7 +960,7 @@ msgid "replaceTankman/server_error"
 msgstr "Nepodařilo se přepsat osobní data. Zkuste to později."
 
 msgid "replaceTankman/success"
-msgstr "Osobní data byla úspěšně přepsána. - %s"
+msgstr "Osobní data byla úspěšně přepsána. <br>Utraceno %s"
 
 msgid "replaceTankman/vehicle_need_repair"
 msgstr "Chyba přepisu osobních dat. Opravte tank."
@@ -976,7 +975,7 @@ msgid "retrainingTankman/server_error"
 msgstr "Nepodařilo se přeškolit člena posádky. Zkuste to později."
 
 msgid "retrainingTankman/success"
-msgstr "Člen posádky byl přeškolen úspěšně."
+msgstr "Člen posádky byl úspěšně přeškolen."
 
 msgid "retrainingTankman/vehicle_need_repair"
 msgstr "Chyba přeškolení člena posádky. Opravte tank."
@@ -988,10 +987,10 @@ msgid "retrainingTankman/wrong_vehicle"
 msgstr "Chyba přeškolení člena posádky. Špatný tank."
 
 msgid "sell_vehicle_broken"
-msgstr "Tank je poškozen, nelze prodat '%s'. Opravte tank a zkuste to znova."
+msgstr "Nelze prodat '%s': tank je poškozen. Opravte tank a zkuste to znovu."
 
 msgid "sell_vehicle_locked"
-msgstr "Tank je uzamčen, nelze prodat '%s'."
+msgstr "Nelze prodat '%s': tank je uzamčen."
 
 msgid "serverInstallError"
 msgstr "Chyba serveru při montáži %s '%s'. Zkuste to později."
@@ -1218,8 +1217,9 @@ msgstr ""
 
 msgid "unlocks/item/unlock_success"
 msgstr ""
-"Příslušenství %(typeString)s '%(userString)s' vyzkoumáno za %(vehXP)s "
-"zkušeností a %(freeXP)s volných zkušeností."
+"Příslušenství %(typeString)s '%(userString)s' vyzkoumáno.<br>Zkušeností "
+"tanku použito: <b>%(vehXP)s</b><br>Volných zkušeností použito: <b>%(freeXP)"
+"s</b>"
 
 msgid "unlocks/vehicle/already_unlocked"
 msgstr "Vozidlo %(userString)s je již vyzkoumáno."
@@ -1229,8 +1229,8 @@ msgstr "Chyba serveru při výzkumu vozidla %(userString)s. Zkuste to později."
 
 msgid "unlocks/vehicle/unlock_success"
 msgstr ""
-"Vozidlo %(userString)s vyzkoumáno za %(vehXP)s zkušeností a %(freeXP)s "
-"volných zkušeností."
+"Vozidlo %(userString)s vyzkoumáno.<br>Zkušeností tanku použito: <b>%(vehXP)"
+"s</b><br>Volných zkušeností použito: <b>%(freeXP)s</b>"
 
 msgid "upgradeTankman/server_error"
 msgstr "Chyba při výcviku člena posádky. Zkuste to později."
@@ -1249,7 +1249,7 @@ msgstr ""
 msgid "vehicleComponents/module_buy_success"
 msgstr ""
 "Příslušenství %(typeString)s '%(userString)s' bylo zakoupeno úspěšně "
-"(%(count)d). Stálo to %(price)s."
+"(%(count)d). Utraceno %(price)s."
 
 msgid "vehicleComponents/module_has_in_inventory"
 msgstr "Příslušenství %(typeString)s '%(userString)s' je již ve skladu."
@@ -1271,8 +1271,8 @@ msgstr ""
 
 msgid "vehicleComponents/module_unlock_success"
 msgstr ""
-"%(typeString)s '%(userString)s' vyzkoumán za %(unspentXP)s zkušeností a "
-"%(freeXP)s volných zkušeností."
+"%(typeString)s '%(userString)s' vyzkoumán.<br>Zkušeností tanku použito: <b>"
+"%(unspentXP)s</b><br>Volných zkušeností použito: <b>%(freeXP)s</b>"
 
 msgid "vehicleComponents/unlock_in_processing"
 msgstr "Odeslán požadavek na výzkum. Čekám na odpověď serveru."
@@ -1295,8 +1295,8 @@ msgstr ""
 
 msgid "vehicleComponents/vehicle_unlock_success"
 msgstr ""
-"Tank %(userString)s vyzkoumán za %(unspentXP)s zkušeností a %(freeXP)s "
-"volných zkušeností."
+"Tank %(userString)s vyzkoumán.<br>Zkušeností tanku použito: <b>%(unspentXP)"
+"s</b><br>Volných zkušeností použito: <b>%(freeXP)s</b>"
 
 msgid "video/error"
 msgstr "Chyba při přehrávání videa. Kód chyby: %(code)s."

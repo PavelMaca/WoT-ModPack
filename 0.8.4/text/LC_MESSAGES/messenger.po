@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-03-07 17:43+0100\n"
+"PO-Revision-Date: 2013-03-11 11:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -872,13 +872,13 @@ msgid "serviceChannelMessages/battleResults/credits"
 msgstr "<font color='#CDC673'>Kredity</font>"
 
 msgid "serviceChannelMessages/battleResults/defeat"
-msgstr "<font size='15'>Porážka!</font>"
+msgstr "Porážka!"
 
 msgid "serviceChannelMessages/battleResults/doubleXpFactor"
 msgstr "<img src='LabelDoubleExperience'/>x%d"
 
 msgid "serviceChannelMessages/battleResults/drawGame"
-msgstr "<font size='15'>Remíza!</font>"
+msgstr "Remíza!"
 
 msgid "serviceChannelMessages/battleResults/experience"
 msgstr "<font color='#CDC673'>XP</font>"
@@ -893,7 +893,7 @@ msgid "serviceChannelMessages/battleResults/tank"
 msgstr "<font color='#CDC673'><i>Vozidlo:</i></font>"
 
 msgid "serviceChannelMessages/battleResults/victory"
-msgstr "<font size='15'>Vítězství!</font>"
+msgstr "Vítězství!"
 
 msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
 msgstr ""
@@ -916,7 +916,7 @@ msgid "serviceChannelMessages/goldReceived/received"
 msgstr "Příjem zlaťáků"
 
 msgid "serviceChannelMessages/goldReceivedAsGift"
-msgstr "Bylo vám darováno %(gold)s zlaťáků."
+msgstr "Bylo vám darováno <img src='LabelGoldProfit'/>%(gold)s zlaťáků."
 
 msgid "serviceChannelMessages/invoiceReceived/compensation"
 msgstr "Náhrada za"
@@ -1109,17 +1109,17 @@ msgid "serviceChannelMessages/sysMsg/titles/selling"
 msgstr "Prodáno:"
 
 msgid "serviceChannelMessages/vehCamouflageTimedOut"
-msgstr "Smyta opotřebená kamufláž z vozidla %(vehicleName)s."
+msgstr "Opotřebená kamufláž z vozidla %(vehicleName)s byla odstraněna."
 
 msgid "serviceChannelMessages/vehEmblemTimedOut"
-msgstr "Smyt opotřebený emblém z vozidla %(vehicleName)s."
+msgstr "Opotřebený emblém z vozidla %(vehicleName)s byl odstraněn."
 
 msgid "serviceChannelMessages/vehInscriptionTimedOut"
-msgstr "Smyt opotřebený nápis z vozidla %(vehicleName)s."
+msgstr "Opotřebený nápis z vozidla %(vehicleName)s byl odstraněn."
 
 msgid "serviceChannelMessages/vehicleLock"
 msgstr ""
-"Tank byl zničen. %(vehicleName)s je v opravě (nedostupný pro klanové války) "
+"Tank byl zničen. %(vehicleName)s je v opravě a nedostupný pro klanové války "
 "do %(expireTime)s."
 
 msgid "serviceChannelMessages/vehicleLockExpired"
