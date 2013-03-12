@@ -12,8 +12,8 @@
 <!-- #ffffff - color in a 16-hexadecimal calculation -->
 
 <config>
-	<Version>1.0</Version>								<!-- НЕ ИСПРАВЛЯТЬ!!! Неправильная версия XML-конфига приведет к повисанию клиента -->
-
+	<Version>1.0</Version>						  			<!-- NOTE! Incorrect version of XML-config will hang the client -->
+	
 	<TypeMod>3</TypeMod>									<!-- [1|2|3|4] Fashion type of colored posts -->
 															<!-- 1-standard, 2-MSM (Vslav, Set, V2, Stiv372, Veslo, V1), 3-YasenKrasen, 4-MCM (V0, V3, Hewlett) -->
 	<PremiumAccount>true</PremiumAccount>					<!-- [true|false] Premium account -->
@@ -94,17 +94,17 @@
 				<Icon>2</Icon>								<!-- [0|1|2] Icon: 0-Hide, 1-Front, 2-After -->
 			</Gold>			
 		</Total>
-		<ExperienceAction>					<!-- Опыт по акции -->
-			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Akce:</Title>							<!-- [s] текст заголовка -->
-			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
-			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
-			<Color>#00FFFF</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
-			<Experience>						<!-- Опыт -->
-				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
-				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->
-				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
-				<Icon>2</Icon>								<!-- [0|1|2] Иконка: 0-не отображать, 1-перед, 2-после (работает только для TypeMod 2 или 3) -->															
+		<ExperienceAction>					<!--  Experience for Mid-Week Medal Hunt -->
+			<Visible>true</Visible>							<!-- [true|false] Visible -->
+			<Title>Akce:</Title>							<!-- [s] Title text -->
+			<Bold>false</Bold>								<!-- [true|false] Bold -->
+			<FontSize>12</FontSize>							<!-- [n] Font size -->
+			<Color>#00FFFF</Color>							<!-- [#ffffff] Color in 16-hexadecimal -->
+			<Experience>						<!-- Experience -->
+				<Bold>false</Bold>							<!-- [true|false] Bold -->
+				<FontSize>12</FontSize>						<!-- [n] Font size -->
+				<Color>#1E90FF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
+				<Icon>2</Icon>								<!-- [0|1|2] Icon: 0-Hide, 1-Front, 2-After -->															
 			</Experience>
 		</ExperienceAction>
 	</TotalBattle>		
@@ -245,78 +245,76 @@
 			</GoldBuySale>
 		</Gold>
 	</Statistics>
-	<SysMessage>							<!-- System Messages (all but after the fight) is STANDARD not working -->
-		<Error>true</Error>								<!-- [true|false] Ошибки -->
-		<Warning>true</Warning>								<!-- [true|false] Предупреждения -->
+	<SysMessage>							<!-- System Messages (not from battles)-->
+		<Error>true</Error>															<!-- [true|false] Error -->
+		<Warning>true</Warning>														<!-- [true|false] Warning -->
 		<Information>true</Information>												<!-- [true|false] Information -->
-		<GameGreeting>true</GameGreeting>											<!-- [true|false] Welcome message -->
-		<PowerLevel>true</PowerLevel>												<!-- [true|false] Research -->
-		<PurchaseForCredits>true</PurchaseForCredits>								<!-- [true|false] Purchase (credit) -->
+		<GameGreeting>true</GameGreeting>											<!-- [true|false] Game Greeting -->
+		<PowerLevel>true</PowerLevel>												<!-- [true|false] Powerlevel -->
+		<PurchaseForCredits>true</PurchaseForCredits>								<!-- [true|false] Purchase (credits) -->
 		<PurchaseForGold>true</PurchaseForGold>										<!-- [true|false] Purchase (gold) -->
-		<DismantlingForGold>true</DismantlingForGold>								<!-- [true|false] Dismantling (gold) -->
+		<DismantlingForGold>true</DismantlingForGold>								<!-- [true|false] Selling (gold) -->
 		<Selling>true</Selling>														<!-- [true|false] Selling -->
-		<Repair>true</Repair>														<!-- [true|false] Repairs -->
-		<FinancialTransactionWithCredits>true</FinancialTransactionWithCredits>		<!-- [true|false] Financial Transaction (credits) -->
-		<FinancialTransactionWithGold>true</FinancialTransactionWithGold>		<!-- [true|false] Financial Transaction (gold)  -->
-		<CustomizationForCredits>true</CustomizationForCredits>				<!-- [true|false] Camouflage (credits) -->
-		<CustomizationForGold>true</CustomizationForGold>								<!-- [true|false] Camouflage (gold) -->	
-		<ActionBegin>true</ActionBegin>							<!-- [true|false] О начале акции -->
-		<ActionEnd>true</ActionEnd>							<!-- Системные сообщения (после боя) на СТАНДАРТ не работает -->		
+		<Repair>true</Repair>														<!-- [true|false] Repair -->
+		<FinancialTransactionWithCredits>true</FinancialTransactionWithCredits>		<!-- [true|false] Financial Transactions (credits) -->
+		<FinancialTransactionWithGold>true</FinancialTransactionWithGold>			<!-- [true|false] Financial Transactions (gold)  -->
+		<CustomizationForCredits>true</CustomizationForCredits>						<!-- [true|false] Custumization (credits) -->
+		<CustomizationForGold>true</CustomizationForGold>							<!-- [true|false] Custumization (gold) -->		
+		<ActionBegin>true</ActionBegin>												<!-- [true|false] Action Begin -->
+		<ActionEnd>true</ActionEnd>													<!-- [true|false] Action End -->
 	</SysMessage>
-	<SysMessageBattle>			<!-- System messages (after the fight) is STANDARD not working-->
+	<SysMessageBattle>			<!-- System messages (after a battle) -->
 		<Repair>false</Repair>														<!-- [true|false] Repairs -->
 		<PurchaseForCredits>false</PurchaseForCredits>								<!-- [true|false] Purchase (credits) -->
 		<PurchaseForGold>false</PurchaseForGold>									<!-- [true|false] Purchase (gold) -->	
 	</SysMessageBattle>
-	
-	<ExperienceOfAction>		<!-- Опыт получаемый по акции за достижения. Для корректировки расчета Свободного опыта и Опыта, приведенного к X1 -->
+	<ExperienceOfAction>		<!-- The experience obtained by the action of achievement. To correct the calculation of the free experience and reduced to X1 -->
 		<Action1>
-			<Use>false</Use>															<!-- [true|false] Включено/выключено -->
-			<Title>Válečník</Title>														<!-- [s] Название достижения в вашем клиенте игры -->
-			<Experience>1500</Experience>											<!-- [n] Значение опыта по данному достижению -->
+			<Use>false</Use>														<!-- [true|false] On/Off -->
+			<Title>Útočník</Title>													<!-- [s] Name of achievement as shown in your game client -->
+			<Experience>1250</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action1>
 		<Action2>
-			<Use>false</Use>														<!-- [true|false] Включено/выключено -->
-			<Title>Захватчик</Title>												<!-- [s] Название достижения в вашем клиенте игры -->
-			<Experience>1000</Experience>											<!-- [n] Значение опыта по данному достижению -->
+			<Use>false</Use>														<!-- [true|false] On/Off -->
+			<Title>Spojenec</Title>												<!-- [s] Name of achievement as shown in your game client -->
+			<Experience>750</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action2>
 		<Action3>
-			<Use>false</Use>														<!-- [true|false] Включено/выключено -->
-			<Title>Odstřelovač</Title>													<!-- [s] Название достижения в вашем клиенте игры -->
-			<Experience>550</Experience>											<!-- [n] Значение опыта по данному достижению -->
+			<Use>false</Use>														<!-- [true|false] On/Off -->
+			<Title>Hlídka</Title>												<!-- [s] Name of achievement as shown in your game client -->
+			<Experience>2000</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action3>
 		<Action4>
-			<Use>false</Use>															<!-- [true|false] Включено/выключено -->
-			<Title>Obránce</Title>													<!-- [s] Название достижения в вашем клиенте игры -->
-			<Experience>1250</Experience>											<!-- [n] Значение опыта по данному достижению -->
+			<Use>false</Use>														<!-- [true|false] On/Off -->
+			<Title>Ocelová zeď</Title>												<!-- [s] Name of achievement as shown in your game client -->
+			<Experience>500</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action4>
 		<Action5>
-			<Use>false</Use>														<!-- [true|false] Включено/выключено -->
-			<Title>Ocelová zeď</Title>											<!-- [s] Название достижения в вашем клиенте игры -->
-			<Experience>650</Experience>											<!-- [n] Значение опыта по данному достижению -->
+			<Use>false</Use>														<!-- [true|false] On/Off -->
+			<Title>Obránce</Title>													<!-- [s] Name of achievement as shown in your game client -->
+			<Experience>1250</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action5>		
 		<Action6>
-			<Use>false</Use>														<!-- [true|false] Включено/выключено -->
-			<Title>Spojenec</Title>												<!-- [s] Название достижения в вашем клиенте игры -->
-			<Experience>750</Experience>											<!-- [n] Значение опыта по данному достижению -->
+			<Use>false</Use>														<!-- [true|false] On/Off -->
+			<Title>Průzkumník</Title>													<!-- [s] Name of achievement as shown in your game client -->
+			<Experience>250</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action6>
 		<Action7>
-			<Use>false</Use>														<!-- [true|false] Включено/выключено -->
-			<Title>Průzkumník</Title>												<!-- [s] Название достижения в вашем клиенте игры -->
-			<Experience>300</Experience>											<!-- [n] Значение опыта по данному достижению -->
+			<Use>false</Use>														<!-- [true|false] On/Off -->
+			<Title>Odstřelovač</Title>													<!-- [s] Name of achievement as shown in your game client -->
+			<Experience>300</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action7>
 		<Action8>
-			<Use>false</Use>														<!-- [true|false] Включено/выключено -->
-			<Title>Hlídka</Title>													<!-- [s] Название достижения в вашем клиенте игры -->
-			<Experience>2000</Experience>											<!-- [n] Значение опыта по данному достижению -->
+			<Use>false</Use>														<!-- [true|false] On/Off -->
+			<Title>--vyhrazeno--</Title>													<!-- [s] Name of achievement as shown in your game client -->
+			<Experience>1500</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action8>
 		<Action9>
-			<Use>false</Use>														<!-- [true|false] Включено/выключено -->
-			<Title>Резерв</Title>													<!-- [s] Название достижения в вашем клиенте игры -->
-			<Experience>1500</Experience>											<!-- [n] Значение опыта по данному достижению -->
+			<Use>false</Use>														<!-- [true|false] On/Off -->
+			<Title>--vyhrazeno--</Title>													<!-- [s] Name of achievement as shown in your game client -->
+			<Experience>1500</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action9>
-	</ExperienceOfAction>
-	
+	</ExperienceOfAction>	
 	<test> 						<!-- For tests, do not use -->
 		<TestMode>false</TestMode>							<!-- Do not put true and then ask me stupid questions why it doesn´t work :) -->
 		<StatisticsBattleVictory>4</StatisticsBattleVictory>
