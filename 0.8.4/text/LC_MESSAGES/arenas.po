@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2012-12-13 09:44+0100\n"
+"PO-Revision-Date: 2013-03-11 11:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -15,13 +15,13 @@ msgid "00_planb_testsite/description"
 msgstr "?empty?"
 
 msgid "00_planb_testsite/name"
-msgstr "Střelnice (Training Area)"
+msgstr "Střelnice"
 
 msgid "00_tank_tutorial/description"
 msgstr "?empty?"
 
 msgid "00_tank_tutorial/name"
-msgstr "Танковый полигон"
+msgstr "Výcviková oblast"
 
 msgid "01_karelia/description"
 msgstr ""
@@ -103,9 +103,6 @@ msgstr ""
 
 msgid "08_ruinberg/name"
 msgstr "Ruinberg"
-
-msgid "09_stalingrad_k/description"
-msgstr "?empty?"
 
 msgid "10_hills/description"
 msgstr ""
@@ -292,15 +289,6 @@ msgstr ""
 msgid "39_crimea/name"
 msgstr "Jižní pobřeží (South Coast)"
 
-msgid "41_north_america/description"
-msgstr ""
-"Taktika na této mapě umožňuje využít přesunů v hlubokém kaňonu, nebo "
-"rychlého pohybu po náhorní plošině. Je možné použít všemožné taktické "
-"varianty postupu."
-
-msgid "41_north_america/name"
-msgstr "Kaňon (Canyon)"
-
 msgid "42_north_america/description"
 msgstr ""
 "Tato mapa představuje průmyslovou oblast přístavního města. Na začátku bitvy "
@@ -314,15 +302,6 @@ msgstr ""
 
 msgid "42_north_america/name"
 msgstr "Přístav (Port)"
-
-msgid "43_north_america/description"
-msgstr ""
-"Tuto mapu charakterizuje zalesněný a kamenitý terén. Tanky se mohou skrýt za "
-"balvany, skalní výběžky nebo budovy. Mnoho míst na mapě lze změnit v silné "
-"obranné pozice."
-
-msgid "43_north_america/name"
-msgstr "Severozápad (North West)"
 
 msgid "44_north_america/description"
 msgstr ""
@@ -342,9 +321,6 @@ msgstr ""
 msgid "45_north_america/name"
 msgstr "Dálnice (Highway)"
 
-msgid "46_north_america/name"
-msgstr "Gran Camino"
-
 msgid "47_canada_a/description"
 msgstr ""
 "Tato pobřežní oblast je ohraničena oceánem a horami. Skrz celé území "
@@ -357,15 +333,6 @@ msgstr ""
 msgid "47_canada_a/name"
 msgstr "Klidné pobřeží (Serene Coast)"
 
-msgid "47_canada_b/description"
-msgstr "Grimtown"
-
-msgid "47_canada_b/name"
-msgstr "Grimtown"
-
-msgid "49_africa/name"
-msgstr "Savana (Savanna)"
-
 msgid "51_asia/description"
 msgstr ""
 "A lake, bamboo thickets, and rugged mountain ridges make this map marvellous "
@@ -374,45 +341,6 @@ msgstr ""
 
 msgid "51_asia/name"
 msgstr "Dragon Ridge"
-
-msgid "52_australia/description"
-msgstr "?empty?"
-
-msgid "52_australia/name"
-msgstr "Kamenný les (Stone Forest)"
-
-msgid "53_japan/description"
-msgstr "?empty?"
-
-msgid "53_japan/name"
-msgstr "Hanami"
-
-msgid "55_south_america/name"
-msgstr "Opuštěný přístav (Abandoned Harbor)"
-
-msgid "59_asia_great_wall/description"
-msgstr "?empty?"
-
-msgid "59_asia_great_wall/name"
-msgstr "Hranice říše (Empire Border)"
-
-msgid "60_asia_miao/description"
-msgstr "?empty?"
-
-msgid "60_asia_miao/name"
-msgstr "Staré město (Old Town)"
-
-msgid "61_asia/description"
-msgstr "?empty?"
-
-msgid "64_antarctica_inland/description"
-msgstr "?empty?"
-
-msgid "74_asia_afghanistan/description"
-msgstr "?empty?"
-
-msgid "test_boundless/description"
-msgstr "?empty?"
 
 msgid "type/assault/description1"
 msgstr ""

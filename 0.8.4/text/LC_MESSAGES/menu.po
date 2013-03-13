@@ -15,7 +15,7 @@ msgid "account/profile/emptyBattleList"
 msgstr "Nikdy nebyl v boji"
 
 msgid "accountInfo/credits"
-msgstr "Kreditů:"
+msgstr "Kredity:"
 
 msgid "accountInfo/experience"
 msgstr "Celkem zkušeností:"
@@ -298,14 +298,14 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice v1.30 by "
-"Crabtr33)"
+"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice v1.40YK "
+"by Crabtr33)"
 
 msgid "currentVehicleStatus/ammoNotFull"
 msgstr "Nekompletní munice"
 
 msgid "currentVehicleStatus/battle"
-msgstr "Tank v bitvě"
+msgstr "Vozidlo v bitvě"
 
 msgid "currentVehicleStatus/clanLocked"
 msgstr "?empty?"
@@ -1220,7 +1220,7 @@ msgid "login/status/LOGIN_REJECTED_BAD_DIGEST"
 msgstr "Prosím aktualizujte svého klienta."
 
 msgid "login/status/LOGIN_REJECTED_BAN"
-msgstr "Váš účet byl zablokován do %(time)s. Důvod: %(reason)s."
+msgstr "Váš účet byl uzamčen do %(time)s. Důvod: %(reason)s."
 
 msgid "login/status/LOGIN_REJECTED_BAN_UNLIMITED"
 msgstr "Váš účet byl zablokován. Důvod: %(reason)s."
@@ -1532,7 +1532,7 @@ msgid "prebattle/already_in_awaiting_battle"
 msgstr "Již čekáte na další bitvu."
 
 msgid "prebattle/description"
-msgstr "prebattle/description"
+msgstr "Čekání na bitvu."
 
 msgid "prebattle/exitButton"
 msgstr "Opustit bitvu"
@@ -1655,22 +1655,22 @@ msgid "premium/submitContinue"
 msgstr "Prodloužit"
 
 msgid "price/credits"
-msgstr "Kreditů"
+msgstr "Kreditů<img src='LabelCredit'/>"
 
 msgid "price/gold"
-msgstr "zlaťáků"
+msgstr "zlaťáků<img src='LabelGold'/>"
 
 msgid "price/received"
-msgstr "Získal jste + %s"
+msgstr "Získal jste %s"
 
 msgid "price/spent"
-msgstr "Utratil jste - %s"
+msgstr "Utratil jste %s"
 
 msgid "profile/creationTime"
 msgstr "Založen:"
 
 msgid "profile/credits"
-msgstr "Kreditů:"
+msgstr "Kredity:"
 
 msgid "profile/exchange"
 msgstr "Směna"
@@ -1739,34 +1739,34 @@ msgid "profile/stats/blocks/battleeffect"
 msgstr "Výkony v bitvě"
 
 msgid "profile/stats/blocks/common"
-msgstr "Souhrnné výsledky:"
+msgstr "Souhrnné výsledky"
 
 msgid "profile/stats/blocks/credits"
-msgstr "Zkušenosti:"
+msgstr "Zkušenosti"
 
 msgid "profile/stats/blocks/studying"
 msgstr "Výcvik"
 
 msgid "profile/stats/items/avgExperience"
-msgstr "Průměrně zkušeností za bitvu:"
+msgstr "Průměrně zkušeností za bitvu"
 
 msgid "profile/stats/items/battlesCount"
-msgstr "Účast v bitvách:"
+msgstr "Účast v bitvách"
 
 msgid "profile/stats/items/damageDealt"
-msgstr "Způsobené škody:"
+msgstr "Způsobené škody"
 
 msgid "profile/stats/items/defender"
 msgstr "Obránce:"
 
 msgid "profile/stats/items/effectiveShots"
-msgstr "Efektivita střelby:"
+msgstr "Efektivita střelby"
 
 msgid "profile/stats/items/frags"
-msgstr "Zničeno:"
+msgstr "Zničeno"
 
 msgid "profile/stats/items/fragsBeast"
-msgstr "Maximum zničených v bitvě:"
+msgstr "Maximum zničených v bitvě"
 
 msgid "profile/stats/items/heroes"
 msgstr "Hrdina bitvy:"
@@ -1778,13 +1778,13 @@ msgid "profile/stats/items/lastBattleTime"
 msgstr "Poslední bitva:"
 
 msgid "profile/stats/items/losses"
-msgstr "Porážek:"
+msgstr "Porážek"
 
 msgid "profile/stats/items/maxFrags"
-msgstr "Maximum zničených v bitvě:"
+msgstr "Maximum zničených v bitvě"
 
 msgid "profile/stats/items/maxXP"
-msgstr "Maximum zkušeností za bitvu:"
+msgstr "Maximum zkušeností za bitvu"
 
 msgid "profile/stats/items/medalKay"
 msgstr "Kayova medaile:"
@@ -1814,7 +1814,7 @@ msgid "profile/stats/items/supporter"
 msgstr "Spojenec:"
 
 msgid "profile/stats/items/survivedBattles"
-msgstr "Přežito bitev:"
+msgstr "Přežito bitev"
 
 msgid "profile/stats/items/unknown"
 msgstr "Neznámo"
@@ -1823,10 +1823,10 @@ msgid "profile/stats/items/warrior"
 msgstr "Válečník:"
 
 msgid "profile/stats/items/wins"
-msgstr "Vítězství:"
+msgstr "Vítězství"
 
 msgid "profile/stats/items/xp"
-msgstr "Celkem zkušeností:"
+msgstr "Celkem zkušeností"
 
 msgid "rating/messages/addToFriends"
 msgstr "Přidat hráče do seznamu přátel"
@@ -2208,7 +2208,7 @@ msgid "tankCarousel/vehicleStates/ammoNotFull"
 msgstr "?empty?"
 
 msgid "tankCarousel/vehicleStates/battle"
-msgstr "Tank v bitvě"
+msgstr "Vozidlo v bitvě"
 
 msgid "tankCarousel/vehicleStates/buySlot"
 msgstr "Nákup stání"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2012-12-13 09:44+0100\n"
+"PO-Revision-Date: 2013-03-11 11:45+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -278,6 +278,9 @@ msgstr "Posádka je vyřazena z akce."
 msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
 msgstr "Posádka je zraněna výstřelem [%(entity)s]."
 
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION"
+msgstr "Posádka je následkem nárazu vyřazena z akce."
+
 msgid "player_messages/DEATH_FROM_RAMMING"
 msgstr "Tank byl zničen kolizí s [%(entity)s]."
 
@@ -296,6 +299,9 @@ msgstr "Kolize s [%(entity)s] poškodila [%(device)s]."
 msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
 msgstr "Výstřel [%(entity)s] poškodil [%(device)s]."
 
+msgid "player_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION"
+msgstr "Zařízení [%(device)s] je následkem nárazu poškozeno."
+
 msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
 msgstr "Zařízení [%(device)s] bylo zničeno ohněm."
 
@@ -304,6 +310,9 @@ msgstr "Kolize s [%(entity)s] zničila [%(device)s]."
 
 msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
 msgstr "Výstřel [%(entity)s] zničil [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION"
+msgstr "Zařízení [%(device)s] je následkem nárazu zničeno."
 
 msgid "player_messages/DEVICE_REPAIRED"
 msgstr "Zařízení [%(device)s] opraveno."
@@ -346,6 +355,9 @@ msgstr "Oheň byl uhašen."
 
 msgid "player_messages/TANKMAN_HIT_AT_SHOT"
 msgstr "Výstřel [%(entity)s] vyřadil [%(device)s] z akce."
+
+msgid "player_messages/TANKMAN_HIT_AT_WORLD_COLLISION"
+msgstr "[%(device)s] je následkem nárazu vyřazen z akce."
 
 msgid "player_messages/TANKMAN_RESTORED"
 msgstr "[%(device)s] je zpět v akci."
@@ -513,7 +525,7 @@ msgstr ""
 "Zahajte bitvu s dalším vozidlem."
 
 msgid "postmortem/tips/observerMode/label"
-msgstr "Posmrtný režim"
+msgstr "Režim pozorovatele"
 
 msgid "postmortem/tips/observerMode/text"
 msgstr "Přepínání mezi spojeneckými vozidly."
