@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: \n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
 msgid "account/profile/emptyBattleList"
 msgstr "Nikdy nebyl v boji"
@@ -298,8 +298,8 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená CZ v1.40 by "
-"Crabtr33)"
+"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice v1.40YK "
+"by Crabtr33)"
 
 msgid "currentVehicleStatus/ammoNotFull"
 msgstr "Nekompletní munice"
@@ -1655,16 +1655,16 @@ msgid "premium/submitContinue"
 msgstr "Prodloužit"
 
 msgid "price/credits"
-msgstr "Kreditů<img src='LabelCredit'/>"
+msgstr "<img src='LabelCredit'/> "
 
 msgid "price/gold"
-msgstr "zlaťáků<img src='LabelGold'/>"
+msgstr "<img src='LabelGold'/> "
 
 msgid "price/received"
-msgstr "Získal jste %s"
+msgstr "<font color='#929290'>Získal jste </font>%s"
 
 msgid "price/spent"
-msgstr "Utratil jste %s"
+msgstr "<font color='#929290'>Utratil jste </font>%s"
 
 msgid "profile/creationTime"
 msgstr "Založen:"
@@ -1871,7 +1871,7 @@ msgid "repair/button"
 msgstr "Opravit"
 
 msgid "repair/curiency"
-msgstr "Kreditů"
+msgstr "kreditů"
 
 msgid "repair/repairstatus"
 msgstr "Opraveno:"
