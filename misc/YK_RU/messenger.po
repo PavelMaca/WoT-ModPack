@@ -1,0 +1,1184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2010-06-07 10:57+0200\n"
+"Last-Translator: WoT Translator <<noreply@wargaming.net>\n"
+"Language-Team: WoT Team <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2)"
+
+msgid "battle/hints/changeReceiver"
+msgstr "для смены адресата"
+
+msgid "battle/receivers/common"
+msgstr "ВСЕМ"
+
+msgid "battle/receivers/squad"
+msgstr "ВЗВОДУ"
+
+msgid "battle/receivers/team"
+msgstr "КОМАНДЕ"
+
+msgid "battle/toolTips/cancel"
+msgstr "отменить"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "смена адресата"
+
+msgid "battle/toolTips/default"
+msgstr "с предыдущим адресатом"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Во время чата"
+
+msgid "battle/toolTips/send"
+msgstr "отправить сообщение"
+
+msgid "battle/toolTips/startChat"
+msgstr "Начать чат"
+
+msgid "battle/toolTips/usingChat"
+msgstr "Использование чата"
+
+msgid "battle/toolTips/withAll"
+msgstr "со всеми"
+
+msgid "battle/toolTips/withSquad"
+msgstr "со своим взводом"
+
+msgid "battle/unknown/ally"
+msgstr "Союзник"
+
+msgid "battle/unknown/enemy"
+msgstr "Противник"
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Отправка сообщений заморожена на %s сек."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Команда \"%s\" заморожена на %s сек."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Команда \"%s\" заморожена."
+
+msgid "client/information/addToFriends/message"
+msgstr "Пользователь %s добавлен в группу «Друзья»."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Пользователь %s добавлен в группу «Игнор»."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Поиск не дал результатов."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Пользователь %s удалён из группы «Друзья»."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Пользователь %s удалён из группы «Игнор»."
+
+msgid "client/information/setMuted/message"
+msgstr "Пользователь %s не может передавать вам голосовые сообщения."
+
+msgid "client/information/unsetMuted/message"
+msgstr "Пользователь %s может передавать вам голосовые сообщения."
+
+msgid "client/warnning/emptyUserSearchToken/message"
+msgstr "Задан пустой запрос"
+
+msgid "client/warnning/emptyUserSearchToken/title"
+msgstr "Поиск пользователей"
+
+msgid "client/warnning/invalidUserSearchToken/message"
+msgstr ""
+"Неверная длина либо недопустимый символ в строке поиска. Допустимая длина от "
+"%d до %d символов."
+
+msgid "client/warnning/invalidUserSearchToken/title"
+msgstr "Поиск пользователей"
+
+msgid "command/ATTACKENEMY/arg0"
+msgstr "Имя противника"
+
+msgid "command/ATTENTIONTOCELL/arg0"
+msgstr "&lt;Квадрат на миникарте&gt;"
+
+msgid "command/FOLLOWME/arg0"
+msgstr "Имя союзника"
+
+msgid "command/HELPMEEX/arg0"
+msgstr "Имя союзника"
+
+msgid "command/STOP/arg0"
+msgstr "Имя союзника"
+
+msgid "command/SUPPORTMEWITHFIRE/arg0"
+msgstr "Имя противника"
+
+msgid "command/TURNBACK/arg0"
+msgstr "Имя союзника"
+
+msgid "command/acceptInvite"
+msgstr "Принять приглашение"
+
+msgid "command/addFriend"
+msgstr "Добавить игрока в группу «Друзья»"
+
+msgid "command/addIgnored"
+msgstr "Добавить игрока в группу «Игнор»"
+
+msgid "command/broadcast"
+msgstr "Отправить сообщение"
+
+msgid "command/createChatChannel"
+msgstr "Создать канал"
+
+msgid "command/createInvite"
+msgstr "Создать приглашение"
+
+msgid "command/createPrivate"
+msgstr "Создать приватный канал"
+
+msgid "command/findChatChannels"
+msgstr "Поиск каналов"
+
+msgid "command/findUsers"
+msgstr "Поиск игроков"
+
+msgid "command/getActiveInvites"
+msgstr "Получить список приглашений"
+
+msgid "command/getArchiveInvites"
+msgstr "Получить список приглашений в архиве"
+
+msgid "command/getMembersCount"
+msgstr "Получить число игроков в канале"
+
+msgid "command/leaveChatChannel"
+msgstr "Покинуть канал"
+
+msgid "command/rejectInvite"
+msgstr "Отклонить приглашение"
+
+msgid "command/removeFriend"
+msgstr "Удалить игрока из группы «Друзья»"
+
+msgid "command/removeIgnored"
+msgstr "Удалить игрока из группы «Игнор»"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Получить список членов канала"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Получить список системных каналов"
+
+msgid "command/setMuted"
+msgstr "Отключить голосовые сообщения"
+
+msgid "command/unsetMuted"
+msgstr "Включить голосовые сообщения"
+
+msgid "dialogs/bsChannel/buttons/leave"
+msgstr "Выйти"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Исключить из команды"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Закрыть"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Создать канал"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Поиск и присоединение"
+
+msgid "dialogs/channels/title"
+msgstr "Каналы"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Закрыть"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Присоединиться"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Допустимый пароль 3–12 символов."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Неверный пароль."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Вы пытаетесь присоединиться к защищённому каналу %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Введите пароль:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Предупреждение"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Подключение к каналу"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Добавить в «Друзья»"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Добавить в «Игнор»"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Копировать имя"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Создать приватный канал"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Передать золото"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Удалить из «Друзей»"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Удалить из «Игнора»"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Показать информацию"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Сортировать по имени"
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Сортировать по статусу"
+
+msgid "dialogs/contacts/title"
+msgstr "Список контактов"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Клан"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Друзья"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Игнор"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Отключены голосовые сообщения"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Закрыть"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Создать"
+
+msgid "dialogs/createChannel/errors/activeChannelLimitReached/message"
+msgstr ""
+"Превышено ограничение на создание каналов. Пожалуйста, закройте ненужные "
+"каналы и попробуйте снова."
+
+msgid "dialogs/createChannel/errors/activeChannelLimitReached/title"
+msgstr "Превышено ограничение на создание каналов."
+
+msgid "dialogs/createChannel/errors/invalidName/message"
+msgstr "Имя канала должно содержать 3–32 символа."
+
+msgid "dialogs/createChannel/errors/invalidName/title"
+msgstr "Неверное имя канала."
+
+msgid "dialogs/createChannel/errors/invalidPassword/message"
+msgstr "Допустимый пароль 3–12 символов."
+
+msgid "dialogs/createChannel/errors/invalidPassword/title"
+msgstr "Неверный пароль."
+
+msgid "dialogs/createChannel/errors/invalidRetypePassword/message"
+msgstr "Подтверждение пароля 3–12 символов."
+
+msgid "dialogs/createChannel/errors/invalidRetypePassword/title"
+msgstr "Неверный пароль."
+
+msgid "dialogs/createChannel/errors/notEqualsPasswords/message"
+msgstr "Текст подтверждения пароля не совпадает с введённым текстом пароля."
+
+msgid "dialogs/createChannel/errors/notEqualsPasswords/title"
+msgstr "Неверный пароль."
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Введите пароль"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Имя канала"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Пароль"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Повторите пароль"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Требовать пароль при подключении"
+
+msgid "dialogs/createChannel/title"
+msgstr "Создание канала"
+
+msgid "dialogs/invitations/squad/title"
+msgstr "Пригласить во взвод"
+
+msgid "dialogs/invitations/team/title"
+msgstr "Пригласить в роту"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Закрыть"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Присоединиться"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Искать"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Результат поиска (первые %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Поиск"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Поиск канала"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "В «Друзья»"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "В «Игнор»"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Закрыть"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Искать"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Информация"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Результат поиска (первые %d):"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Поиск"
+
+msgid "dialogs/searchContact/title"
+msgstr "Найти контакты"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Служебный канал"
+
+msgid "dialogs/squadChannel/buttons/afk"
+msgstr "Перерыв"
+
+msgid "dialogs/squadChannel/buttons/dismiss"
+msgstr "Распустить взвод"
+
+msgid "dialogs/squadChannel/buttons/invite"
+msgstr "Пригласить"
+
+msgid "dialogs/squadChannel/buttons/leave"
+msgstr "Выйти из взвода"
+
+msgid "dialogs/squadChannel/buttons/notReady"
+msgstr "Не готов"
+
+msgid "dialogs/squadChannel/buttons/ready"
+msgstr "Готов!"
+
+msgid "dialogs/squadChannel/context/kickPlayer"
+msgstr "Исключить из взвода"
+
+msgid "dialogs/squadChannel/messege/noPremium"
+msgstr ""
+"Пригласить во взвод третьего\n"
+"игрока возможно только при\n"
+"действующем премиум аккаунте."
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Статус: Ушёл на перерыв"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Статус: В бою"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Статус: Не готов"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Статус: не в сети"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Статус: Готов"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Распустить"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Пригласить"
+
+msgid "dialogs/teamChannel/buttons/leave"
+msgstr "Выйти из роты"
+
+msgid "dialogs/teamChannel/buttons/notReady"
+msgstr "Не готов"
+
+msgid "dialogs/teamChannel/buttons/ready"
+msgstr "Готов!"
+
+msgid "dialogs/teamChannel/context/kickPlayer"
+msgstr "Исключить из роты"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "виновен"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "под подозрением"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Убийство союзников: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Отключить голосовые сообщения"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Добавить в «Друзья»"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Добавить в «Игнор»"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Закрыть"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Создать приватный канал"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Принимать голосовые сообщения"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Общее"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Зарегистрирован"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Последний раз был в бою"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Статус:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s — Информация об игроке"
+
+msgid "events/enterChannel"
+msgstr "[%s] присоединился к каналу"
+
+msgid "events/leaveChannel"
+msgstr "[%s] покинул канал"
+
+msgid "keyboardChat"
+msgstr "Чат"
+
+msgid "lobby/bsChannel/title/arenaType"
+msgstr "Карта:"
+
+msgid "lobby/bsChannel/title/battlesLimit"
+msgstr "Боёв/Побед:"
+
+msgid "lobby/bsChannel/title/comment"
+msgstr "Описание:"
+
+msgid "lobby/bsChannel/title/startTime"
+msgstr "До старта боя:"
+
+msgid "lobby/bsChannels/stats/commonLevel"
+msgstr "Уровень:"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Время боя: %s"
+
+msgid "lobby/buttons/channels"
+msgstr "Каналы"
+
+msgid "lobby/buttons/contacts"
+msgstr "Контакты"
+
+msgid "lobby/buttons/createTeam"
+msgstr "Создать роту"
+
+msgid "lobby/buttons/send"
+msgstr "Отправить"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Закрыть канал"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Показывать дату в сообщениях"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Показывать время в сообщениях"
+
+msgid "lobby/faq/close"
+msgstr "Закрыть"
+
+msgid "lobby/faq/title"
+msgstr "FAQ"
+
+msgid "lobby/teamChannel/defaultComment"
+msgstr "Нажмите для изменения текста..."
+
+msgid "lobby/teamChannel/division/ABSOLUTE"
+msgstr "Абсолютная"
+
+msgid "lobby/teamChannel/division/ALL"
+msgstr "Все"
+
+msgid "lobby/teamChannel/division/CHAMPION"
+msgstr "Чемпионская"
+
+msgid "lobby/teamChannel/division/JUNIOR"
+msgstr "Юниорская"
+
+msgid "lobby/teamChannel/division/MIDDLE"
+msgstr "Средняя"
+
+msgid "lobby/teamChannel/isOpen"
+msgstr "Открытая рота"
+
+msgid "lobby/teamChannel/limitsLabel"
+msgstr "Ограничения уровня техники:"
+
+msgid "lobby/teamChannel/notInBattle"
+msgstr "Не в бою"
+
+msgid "lobby/teamChannel/playersBottomLabel"
+msgstr ""
+"Нажмите,\n"
+"чтобы присоединиться"
+
+msgid "lobby/teamChannel/playersTopLabel"
+msgstr "Личный состав"
+
+msgid "lobby/teamChannel/queue"
+msgstr "Очередь"
+
+msgid "lobby/teamChannel/stats/commonLevel"
+msgstr "Суммарный уровень:"
+
+msgid "lobby/teamChannel/stats/count"
+msgstr "Состав роты:"
+
+msgid "lobby/teamChannel/stats/maxPlayers"
+msgstr "Игроков:"
+
+msgid "lobby/teamChannel/stats/vehicleLevel"
+msgstr "Максимальный уровень танков:"
+
+msgid "lobby/teamChannel/stats/vehicleSPGLevel"
+msgstr "Максимальный уровень САУ:"
+
+msgid "lobby/teamChannel/title/level"
+msgstr "Уровень"
+
+msgid "lobby/teamChannel/title/player"
+msgstr "Игрок"
+
+msgid "lobby/teamChannel/title/vehicle"
+msgstr "Танк"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Добавить игрока в «Друзья»"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Добавить игрока в «Игнор»"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Копировать имя"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Создать приватный канал"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Посмотреть данные об игроке"
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Действие %(action)s заморожено на %(cooldownPeriod)s сек."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Открыто максимально возможное количество каналов чата."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Ошибка при добавлении пользователя в «Друзья»."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Ошибка"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Ошибка при добавлении пользователя в «Игнор»."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Ошибка"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Канал с таким именем уже существует."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Ошибка при создании канала."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Канал удалён."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Ошибка присоединения к каналу."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Ошибка выполнения команды чата: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Команда %(command)s заморожена на %(cooldownPeriod)s сек."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Период ожидания подключения к каналу истек."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/createPrivateError/message"
+msgstr ""
+"Нельзя создать приватный канал, поскольку пользователя сейчас нет в сети."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Недопустимый символ"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Ошибка"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Неверный аргумент %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Ошибка"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Неверный пароль для защищенного канала."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Ошибка присоединения к каналу."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Ошибка инициализации чата."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/internalError/message"
+msgstr "Внутренняя ошибка, попробуйте позже."
+
+msgid "server/errors/internalError/title"
+msgstr "Ошибка при создании канала"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Недопустимое имя канала."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Ошибка выполнения команды «Пригласить»."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Ошибка"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "Пользователь %(user)s уже забанен."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "Пользователь %(user)s уже является модератором канала."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Пользователь отключён"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "Пользователь %(user)s не является модератором канала."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Достигнуто максимальное количество пользователей в канале."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Ошибка подключения к каналу"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Недостаточно прав для выполнения операции."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Ошибка чата"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Для присоединения к защищённому каналу введите пароль."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Ошибка присоединения к каналу"
+
+msgid "server/errors/sqlError/message"
+msgstr "Ошибка обращения к БД."
+
+msgid "server/errors/sqlError/title"
+msgstr "Ошибка"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Пользователь добавил вас в «Игнор»."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Ошибка"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Пользователь не существует."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Ошибка"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Достигнуто максимальное количество пользователей в списке контактов."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Ошибка"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Достижения"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Акция"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Акция завершена"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr ""
+"Не удалось пополнить снаряжение на танке <font color='#c5ab5d'>%s</font>. "
+"Купите снаряжение за золото."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr ""
+"Не удалось пополнить снаряжение на танке <font color='#c5ab5d'>%s</font>. "
+"Недостаточно средств."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr ""
+"Не удалось пополнить снаряжение на танке <font color='#c5ab5d'>%s</font>."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr ""
+"<img src='LabelEquipment'/><font color='#c5ab5d'>%s</font> <font "
+"color='#a3966e'>(снаряжение)</font>"
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr ""
+"Не удалось пополнить боекомплект на танке <font color='#c5ab5d'>%s</font>. "
+"Купите снаряды за золото."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr ""
+"Не удалось пополнить боекомплект на танке <font color='#c5ab5d'>%s</font>. "
+"Недостаточно средств."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr ""
+"Не удалось пополнить боекомплект на танке <font color='#c5ab5d'>%s</font>."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr ""
+"<img src='LabelAmmunition'/><font color='#c5ab5d'>%s</font> <font "
+"color='#a3966e'>(боекомплект)</font> "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Не удалось отремонтировать <font color='#c5ab5d'>%s</font>."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr ""
+"Не удалось отремонтировать танк <font color='#c5ab5d'>%s</font>. "
+"Недостаточно средств."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Ремонт танка <font color='#c5ab5d'>%s</font> не выполнен."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr ""
+"<img src='LabelRepair'/><font color='#c5ab5d'>%s</font> <font "
+"color='#a3966e'>(ремонт)</font>"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr ""
+"<img src='PersonalAchievementsIcon' width='16' height='16' align='baseline' "
+"vspace='-3'/>"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Получено %s за акцию '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Получено %s за акции '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr ""
+"<img src='LabelCreditProfit'/>%s <img src='toolTipCreditsIcon' width='14' "
+"height='16' align='baseline' vspace='-2'/>"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s свободного опыта"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr ""
+"<img src='LabelGoldProfit'/>%s <img src='icon_gold' width='10' height='9' "
+"align='baseline' vspace='0'/>"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Бой"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Подробнее"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr ""
+"<font color='#929290'>компенсация от союзников:</font> <font color='#66CC66'>"
+"%s</font>"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr ""
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Поражение"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "<font color='#66CC66'><img src='LabelDoubleExperience'/>x%d</font>"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Ничья"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "Получено"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr ""
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "<font color='#929290'>штраф:</font> <font color='#f9c8c8'>%s</font>"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Танк"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Победа!"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr ""
+"От администрации получено золота: <img src='LabelGoldProfit'/>%(gold)s, "
+"кредитов: <img src='LabelCreditProfit'/>%(credits)s."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr ""
+"От администрации получено кредитов: <img src='LabelCreditProfit'/>%(credits)"
+"s."
+
+msgid "serviceChannelMessages/durationOfPremiumAccounExpires"
+msgstr "Срок действия премиум аккаунта истекает <b>%(expiryTime)s</b>."
+
+msgid "serviceChannelMessages/goldReceived/date"
+msgstr "Дата"
+
+msgid "serviceChannelMessages/goldReceived/financial_transaction"
+msgstr "Финансовая операция"
+
+msgid "serviceChannelMessages/goldReceived/received"
+msgstr "Получено золота"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "От администрации получено золота: %(gold)s."
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Компенсация за"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "кредитами"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "золотом"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "На ваш счёт поступило кредитов"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "С вашего счёта списано кредитов"
+
+msgid "serviceChannelMessages/invoiceReceived/crewLvl"
+msgstr "%d%% экипаж"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Свободный опыт"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Добавлено свободного опыта"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Списано свободного опыта"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "На ваш счёт поступило золота"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "С вашего счёта списано золота"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Квитанция"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Получено снаряжение"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Списано снаряжение"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "шт."
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Добавлено премиум дней"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Списано премиум дней"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Премиум"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Получены слоты"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Списаны слоты"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Новобранцы"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Получены танки"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Списаны танки"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr ""
+"От администрации получено снаряжение: %(typeName)s \"%(itemName)s\" - "
+"%(amount)d шт."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Клановый бой"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Результат боя"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Турнир"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Поражение"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Ничья"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Результаты не определены"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Победа!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Удалена создателем"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Технический сбой"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Вас выбросили"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Техническое поражение"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Техническая ничья"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Результаты не определены"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Техническая победа!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Время ожидания истекло"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Завершено"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(сражение %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Промежуточный итог"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Итог"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Премиум аккаунт куплен. Срок действия истекает <b>%(expiryTime)s</b>."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Срок действия премиум аккаунта истёк."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Премиум аккаунт продлён. Срок действия истекает <b>%(expiryTime)s</b>."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "От администрации получен премиум акаунт на %(days)d д."
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Внимание!"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation"
+msgstr "В связи с проведением технических работ действие %s продлено."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "камуфляжа"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "эмблем"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "надписей"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "премиум аккаунта"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Игровой сервер будет отключён %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Отключение игрового сервера, запланированное %(date)s, отменено."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr ""
+"<img src='VehicleLock' width='10' height='10' align='baseline' vspace='0'/> "
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr ""
+"<img src='VehicleLock' width='10' height='10' align='baseline' vspace='0'/> "
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Ошибка:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr ""
+"<img src='VehicleLock' width='10' height='10' align='baseline' vspace='0'/> "
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Исследовано:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr ""
+"<img src='VehicleLock' width='10' height='10' align='baseline' vspace='0'/> "
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr ""
+"<img src='VehicleLock' width='10' height='10' align='baseline' vspace='0'/> "
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr ""
+"<img src='InformationIcon' width='10' height='10' align='baseline' "
+"vspace='0'/> "
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Срок действия камуфляжа на %(vehicleName)s истёк."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Срок действия эмблемы на %(vehicleName)s истёк."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Срок действия надписи на %(vehicleName)s истёк."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr ""
+"Танк уничтожен. %(vehicleName)s недоступен для кланового боя до %(expireTime)"
+"s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Время блокировки истекло. %(vehicleName)s доступен для кланового боя."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "От администрации получен премиум танк: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Блокировка закончилась. Все танки доступны для кланового боя."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr ""
+"От игрока %(srcName)s получено золота: <img src='LabelGoldProfit'/>"
+"%(srcWares)s."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr ""
+"<img src='LabelGoldExpense'/>%(srcWares)s золота отправлено игроку %(dstName)"
+"s. Комиссия составила <img src='LabelGoldExpense'/>%(fee)s."
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "От администрации получен свободный опыт: %(freeXP)s."
+
+msgid "status/offline"
+msgstr "Не в сети"
+
+msgid "status/online"
+msgstr "В сети"
