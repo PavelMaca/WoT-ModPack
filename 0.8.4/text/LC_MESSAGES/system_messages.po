@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-03-11 11:45+0100\n"
+"PO-Revision-Date: 2013-03-13 12:53+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -260,7 +260,8 @@ msgstr ""
 
 msgid "customization/camouflage_change_success/credits"
 msgstr ""
-"Kamufláž byla úspěšně nastříkána. Kreditů: <img src='LabelCreditExpense'/>%s."
+"Kamufláž byla úspěšně nastříkána. - Kreditů: <img src='LabelCreditExpense'/>"
+"%s."
 
 msgid "customization/camouflage_change_success/gold"
 msgstr ""
@@ -299,7 +300,7 @@ msgid "customization/emblem_change_server_error"
 msgstr "Chyba serveru při nahrazování emblému."
 
 msgid "customization/emblem_change_success/credits"
-msgstr "Emblém úspěšně nahrazen. Kreditů: <img src='LabelCreditExpense'/>%s."
+msgstr "Emblém úspěšně nahrazen. - Kreditů: <img src='LabelCreditExpense'/>%s."
 
 msgid "customization/emblem_change_success/gold"
 msgstr ""
@@ -612,7 +613,7 @@ msgid "fitting/artefact_sell_server_error"
 msgstr "Nepodařilo se prodat %s '%s'. Zkuste to později."
 
 msgid "fitting/artefact_sell_success"
-msgstr "%s '%s' (%d ks) úspěšně prodáno. Získáno: %s."
+msgstr "%s '%s' (%d ks) úspěšně prodáno. %s."
 
 msgid "fitting/artefact_server_apply_error"
 msgstr "Chyba serveru při montáži %s '%s'. Zkuste to později."
@@ -670,13 +671,13 @@ msgid "fitting/module_buy_server_error"
 msgstr "Nepodařilo se koupit %s '%s'. Zkuste to později."
 
 msgid "fitting/module_buy_success"
-msgstr "%s '%s' (%d ks) úspěšně zakoupeno. <br>Utraceno %s."
+msgstr "%s '%s' (%d ks) úspěšně zakoupeno. - %s."
 
 msgid "fitting/module_sell_server_error"
-msgstr "%s '%s' se nepodařilo prodat. Zkuste to později."
+msgstr "Nepodařilo se prodat %s '%s'. Zkuste to později."
 
 msgid "fitting/module_sell_success"
-msgstr "%s '%s' (%d ks) úspěšně prodáno. <br>Získáno %s."
+msgstr "%s '%s' (%d ks) úspěšně prodáno. + %s."
 
 msgid "fitting/module_server_apply_error"
 msgstr "Chyba serveru při montáži %s '%s'. Zkuste to později."
@@ -693,13 +694,13 @@ msgid "fitting/shell_buy_server_error"
 msgstr "Nepodařilo se koupit granáty %s. Zkuste to později."
 
 msgid "fitting/shell_buy_success"
-msgstr "Granáty %s (%d ks) úspěšně zakoupeny. <br>Utraceno %s."
+msgstr "Granáty %s (%d ks) úspěšně zakoupeny. - %s."
 
 msgid "fitting/shell_sell_server_error"
 msgstr "Nepodařilo se prodat granáty '%s'. Zkuste to později."
 
 msgid "fitting/shell_sell_success"
-msgstr "Granáty '%s' (%d ks) úspěšně prodány. <br>Získáno %s."
+msgstr "Granáty '%s' (%d ks) úspěšně prodány. + %s."
 
 msgid "fitting/vehicle_buy_max_exist"
 msgstr ""
@@ -716,12 +717,12 @@ msgid "fitting/vehicle_buy_server_error_centerDown"
 msgstr "Nelze zakoupit vozidlo '%s'. Služba je dočasně nedostupná."
 
 msgid "fitting/vehicle_buy_success"
-msgstr "Vozidlo '%s' úspěšně zakoupeno. <br>Utraceno %s."
+msgstr "Vozidlo '%s' úspěšně zakoupeno. - %s."
 
 msgid "fitting/vehicle_dismantling_sell_success"
 msgstr ""
-"Vozidlo '%s' úspěšně prodáno. Získáno <img src='LabelCreditProfit'/>%s. "
-"Utraceno <img src='LabelGoldExpense'/>%s."
+"Vozidlo '%s' úspěšně prodáno. Získáno + <img src='LabelCreditProfit'/>%s. "
+"Utraceno - <img src='LabelGoldExpense'/>%s."
 
 msgid "fitting/vehicle_sell_barracks_full"
 msgstr "Vozidlo '%s' nelze prodat. Není místo v kasárnách."
@@ -735,7 +736,7 @@ msgid "fitting/vehicle_sell_server_error"
 msgstr "Nepodařilo se prodat vozidlo '%s'. Zkuste to později."
 
 msgid "fitting/vehicle_sell_success"
-msgstr "Vozidlo '%s' úspěšně prodáno. <br>Získáno %s."
+msgstr "Vozidlo '%s' úspěšně prodáno. + %s."
 
 msgid "freeXpToTmanSkill/error/NO_FREE_XP"
 msgstr "Chyba při výcviku člena posádky. Nedostatek volných zkušeností."
@@ -908,10 +909,10 @@ msgid "prebattleReady/notSetReadyStatus"
 msgstr "K týmu se nelze přidat."
 
 msgid "premium/buyingSuccess"
-msgstr "Prémiový účet zakoupen na %d dnů. <br>Utraceno %s."
+msgstr "Prémiový účet zakoupen na %d dnů. Utraceno %s."
 
 msgid "premium/continueSuccess"
-msgstr "Prémiový účet prodloužen o %d dnů. <br>Utraceno %s."
+msgstr "Prémiový účet prodloužen o %d dnů. Utraceno %s."
 
 msgid "premium/server_error"
 msgstr "Chyba při nákupu prémiového účtu na %d dnů. Zkuste to později."
@@ -951,7 +952,7 @@ msgid "repair/server_error"
 msgstr "Chyba při opravě tanku '%s'. Zkuste to později."
 
 msgid "repair/success"
-msgstr "Vozidlo '%s' opraveno. <br>Utraceno %s."
+msgstr "Vozidlo '%s' opraveno. - %s."
 
 msgid "replaceTankman/not_enough_money"
 msgstr "Nepodařilo se přepsat osobní data. Nedostatek kreditů."
@@ -960,7 +961,7 @@ msgid "replaceTankman/server_error"
 msgstr "Nepodařilo se přepsat osobní data. Zkuste to později."
 
 msgid "replaceTankman/success"
-msgstr "Osobní data byla úspěšně přepsána. <br>Utraceno %s"
+msgstr "Osobní data byla úspěšně přepsána. - %s"
 
 msgid "replaceTankman/vehicle_need_repair"
 msgstr "Chyba přepisu osobních dat. Opravte tank."
