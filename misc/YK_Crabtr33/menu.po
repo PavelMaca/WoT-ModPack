@@ -182,6 +182,12 @@ msgstr "Koupit prémiový"
 msgid "common/premiumContinue"
 msgstr "Prodloužit prémiový"
 
+msgid "contextMenu/PutBestCrew"
+msgstr "Použít nejlepší posádku"
+
+msgid "contextMenu/PutOwnCrew"
+msgstr "Použít vlastní posádku"
+
 msgid "contextMenu/addToFriends"
 msgstr "Přidat do seznamu přátel"
 
