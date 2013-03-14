@@ -178,7 +178,7 @@
 			</BattleExperience>
 		</ExperienceX1>
 		<FreeExperience>					<!-- FreeExperience -->
-			<Visible>true</Visible>							<!-- [true|false] Visible -->
+			<Visible>false</Visible>							<!-- [true|false] Visible -->
 			<Title>Volné XP:</Title>						<!-- [s] Title text -->
 			<Bold>false</Bold>								<!-- [true|false] Bold -->
 			<FontSize>12</FontSize>							<!-- [n] Font size -->
@@ -207,13 +207,13 @@
 				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Color of a negative result -->
 			</CreditTotal>
 			<CreditBattle>					<!-- Total per session (credits for fighting) -->
-				<Visible>true</Visible>						<!-- [true|false] Visible (credits for fighting) -->
+				<Visible>false</Visible>						<!-- [true|false] Visible (credits for fighting) -->
 				<Bold>false</Bold>							<!-- [true|false] Bold -->
 				<FontSize>12</FontSize>						<!-- [n] Font size -->			
 				<Color>#FFFFFF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
 			</CreditBattle>
 			<CreditBuySale>					<!-- Total per session (credit transactions Buy / Sell) -->
-				<Visible>true</Visible>						<!-- [true|false] Видимость (credit transactions Buy / Sell) -->
+				<Visible>false</Visible>						<!-- [true|false] Видимость (credit transactions Buy / Sell) -->
 				<Bold>false</Bold>							<!-- [true|false] Bold -->
 				<FontSize>12</FontSize>						<!-- [n] Font size -->			
 				<Color>#FFFFFF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
