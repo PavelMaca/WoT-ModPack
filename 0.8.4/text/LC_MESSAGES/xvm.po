@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: XVM translation\n"
+"POT-Creation-Date: 2013-03-01 11:25+0100\n"
+"PO-Revision-Date: 2013-03-16 15:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../template.php:4
+msgid "chance/error"
+msgstr "Chance error"
+
+#: ../template.php:5
+msgid "chance/win"
+msgstr "Šance na výhru"
+
+#: ../template.php:6
+msgid "chance/global"
+msgstr "Globální"
+
+#: ../template.php:7
+msgid "chance/per-vehicle"
+msgstr "Podle vozidel"
+
+#: ../template.php:10
+msgid "hitlog/attack"
+msgstr "střelba"
+
+#: ../template.php:11
+msgid "hitlog/fire"
+msgstr "požár"
+
+#: ../template.php:12
+msgid "hitlog/ramming"
+msgstr "náraz"
+
+#: ../template.php:13
+msgid "hitlog/world_collision"
+msgstr "prostředí"
+
+#: ../template.php:16
+msgid "captureBar/enemyBaseCapture"
+msgstr ""
+"<font size='15' color='#FFFFFF'>Obsazování nepřátelské základny! {{extra}}</"
+"font>"
+
+#: ../template.php:17
+msgid "captureBar/enemyBaseCaptured"
+msgstr "<font size='17' color='#FFCC66'>Nepřátelská základna obsazena!</font>"
+
+#: ../template.php:19
+msgid "captureBar/allyBaseCapture"
+msgstr ""
+"<font size='15' color='#FFFFFF'>Obsazování spojenecké základny! {{extra}}</"
+"font>"
+
+#: ../template.php:20
+msgid "captureBar/allyBaseCaptured"
+msgstr "<font size='17' color='#FFCC66'>Spojenecká základna obsazena!</font>"
+
+#: ../template.php:22
+msgid "captureBar/capturers"
+msgstr ""
+"Obsazujicích: <b><font color='#FFCC66'>{{tanks}}</font></b> Zbývá: <b><font "
+"color='#FFCC66'>{{time}}</font><b>"
+
+#: ../template.php:25
+msgid "finalStatistics/hitsPercent"
+msgstr "Zásahů / Výstřelů %"
+
+#: ../template.php:26
+msgid "finalStatistics/damegeDetected"
+msgstr "Poškození způsobené detekcí"
+
+#: ../template.php:27
+msgid "finalStatistics/demageDealt"
+msgstr "Poškození"
+
+#: ../template.php:30
+msgid "teamRenderers/headerTip"
+msgstr ""
+"Xwn hodnocení.\n"
+"Pro zobrazení detailních informací, přejeďte kurzorem na jméno hráče."
+
+#: ../template.php:31
+msgid "teamRenderers/friend"
+msgstr "Přítel"
+
+#: ../template.php:32
+msgid "teamRenderers/ignored"
+msgstr "Ignorovaný"
+
+#: ../template.php:35
+msgid "userInfo/eHint"
+msgstr ""
+"Efektivita podle vozidel.\n"
+"Hodnota podle dat z: %DATE%\n"
+"Aktuální hodnotu E najdete v podrobných informacích o vozidle. "
+
+#: ../template.php:36
+msgid "userInfo/lastUpdate"
+msgstr "Data byla aktualzována v"
+
+#: ../template.php:37
+msgid "userInfo/to"
+msgstr " to "
+
+#: ../template.php:38
+msgid "userInfo/eff"
+msgstr "EFF"
+
+#: ../template.php:39
+msgid "userInfo/updated"
+msgstr "aktualizováno"
+
+#: ../template.php:40
+msgid "userInfo/unknown"
+msgstr "-"
+
+#: ../template.php:41
+msgid "userInfo/avgLevel"
+msgstr "Prům. Tier"
+
+#: ../template.php:42
+msgid "userInfo/spotted"
+msgstr "Detekce"
+
+#: ../template.php:43
+msgid "userInfo/defence"
+msgstr "Obrana"
+
+#: ../template.php:44
+msgid "userInfo/capture"
+msgstr "Obsazení"
+
+#: ../template.php:45
+msgid "userInfo/playerAvgTop"
+msgstr "hráč (průměr / nejlepší)"
+
+#: ../template.php:46
+msgid "userInfo/top"
+msgstr "top"
+
+#: ../template.php:47
+msgid "userInfo/effDamage"
+msgstr "Efektivní dmg"
+
+#: ../template.php:48
+msgid "userInfo/level"
+msgstr "Tier"
+
+#: ../template.php:49
+msgid "userInfo/type"
+msgstr "Typ"
+
+#: ../template.php:50
+msgid "userInfo/nation"
+msgstr "Národ"
+
+#: ../template.php:51
+msgid "userInfo/name"
+msgstr "Název"
+
+#: ../template.php:52
+msgid "userInfo/fights"
+msgstr "Bitev"
+
+#: ../template.php:53
+msgid "userInfo/wins"
+msgstr "Výher"
