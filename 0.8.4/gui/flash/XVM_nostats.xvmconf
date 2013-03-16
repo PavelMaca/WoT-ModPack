@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Full configuration file (hereinafter - the configuration) with all possible options,
  * default configuration.
  *
@@ -34,6 +34,14 @@
     "enableStatisticsLog": false,               // true - Enable saving statistics to "xvm-stat.log" file
     "enableUserInfoStatistics": false,           // true - Enable statistics in the user info window
     "enableCompanyStatistics": false             // true - Enable statistics in the company window
+  },
+  // Special XVM hotkeys
+  "hotkeys": { 
+    // onHold: take action by key click or while key is remains pressed 
+    // Keycode values a be found here:
+    // http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
+    // Common keys are Shift - 16, Ctrl - 17, Alt - 18, Q - 81, E - 69, Z - 90, X - 99, C - 67
+    "minimapZoom": { "enabled": true, "onHold": true, "keyCode": 17 }
   },
   // Parameters of the Battle Loading Screen
   "battleLoading": {
@@ -99,7 +107,7 @@
       "nickFormatRight": "<font color='{{c:wn}}'>{{nick}}</font>",
       // Display format for vehicle name (macros allowed, see readme-en.txt)
       "vehicleFormatLeft": "<font color='{{c:twr}}'>{{vehicle}}</font>",
-      "vehicleFormatRight": "<font color='{{c:twr}}'>{{vehicle}}</font> "
+      "vehicleFormatRight": "<font color='{{c:twr}}'>{{vehicle}}</font>"
     }
   },
   "finalStatistic": {
@@ -195,7 +203,10 @@
     "iconScale": 1.5,                 // Vehicles icon size.
                                     // Does not affect attached geometry and textfields.
                                     // Floating point allowed: 0.7 1.4.
-
+    "zoom": { // Map zoom by key pressing. Keys are defined at "keys" upper level section
+      "stepsBack": 4,  // Number of zoom steps to get back from maximum size
+      "centered": true // Center zoomed minimap at display center
+    },
     "labels": {                     // textfields. Basic HTML\CSS supported.
       "nickShrink": 5,              // Maximum nickname size for {{short-nick}} macro.
       "vehicleclassmacro": {        // {{vehicle-class}} macro substitutions by vehicle class.
@@ -440,7 +451,7 @@
     },
     "square" : { // Square with 1000m side. Shows maximum unit draw distance.
       "enabled": true,
-      "artilleryEnabled": false,
+      "artilleryEnabled": false, // Show square if using artillery\SPG vehicle 
       "thickness": 0.7,
       "alpha": 40,
       "color": "0xFFFFFF"
