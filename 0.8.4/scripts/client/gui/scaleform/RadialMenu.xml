@@ -305,102 +305,1389 @@ Example of a complete text unit:
 
 	<MapCommands>
 		<Map_01_karelia>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obrana má přednost</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_01_karelia>
 
 		<Map_02_malinovka>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_02_malinovka>
 
 		<Map_03_campania>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_03_campania>
 
 		<Map_04_himmelsdorf>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_04_himmelsdorf>
 
 		<Map_05_prohorovka>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_05_prohorovka>
 
 		<Map_06_ensk>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_06_ensk>
 
 		<Map_07_lakeville>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_07_lakeville>
 
 		<Map_08_ruinberg>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_08_ruinberg>
 
 		<Map_10_hills>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_10_hills>
 
 		<Map_11_murovanka>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_11_murovanka>
 
 		<Map_13_erlenberg>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_13_erlenberg>
 
 		<Map_14_siegfried_line>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_14_siegfried_line>
 
 		<Map_15_komarin>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_15_komarin>
 
 		<Map_17_munchen>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_17_munchen>
 
 		<Map_18_cliff>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_18_cliff>
 
 		<Map_19_monastery>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_19_monastery>
 
 		<Map_22_slough>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_22_slough>
 
 		<Map_23_westfeld>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_23_westfeld>
 
 		<Map_28_desert>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_28_desert>
 
 		<Map_29_el_hallouf>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_29_el_hallouf>
 
 		<Map_31_airfield>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_31_airfield>
 
 		<Map_33_fjord>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_33_fjord>
 
 		<Map_34_Redshire>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_34_Redshire>
 
 		<Map_35_steppes>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Braňte les</Title>
+						<Icon>Helpme</Icon>
+						<Text>Let's occupy the forest and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_35_steppes>
 
 		<Map_36_fishing_bay>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_36_fishing_bay>
 
 		<Map_37_caucasus>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_37_caucasus>
 
 		<Map_38_mannerheim_line>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_38_mannerheim_line>
 
 		<Map_39_crimea>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_39_crimea>
 
 		<Map_42_north_america>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_42_north_america>
 
 		<Map_44_north_america>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_44_north_america>
 
-		<Map_45_north_america>			
+		<Map_45_north_america>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_45_north_america>
 
 		<Map_47_canada_a>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_47_canada_a>
 
 		<Map_51_asia>
+					<Command>
+						<Title>Jsem tu sám!</Title>
+						<Icon>Helpme</Icon>
+						<Text>I feel so alone here... %(ownPos)s</Text>
+						<Command>HELPME</Command>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+					<Title>Připraven střílet na sektor</Title>
+						<Icon>Helpme</Icon>
+						<Text>Ready to fire at %(viewPos)s, spot something.</Text>
+						<ChatMode>Team</ChatMode>
+						<Ping>%(viewPos)s</Ping>
+					</Command>
+					<Command>
+						<Title>Rush!</Title>
+						<Icon>Followme</Icon>
+						<Text>Let's rush the field path gentlemen.</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Tady zakempíme</Title>
+						<Icon>Stop</Icon>
+						<Text>Let's occupy this flank and wait for "guests".</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
+					<Command>
+						<Title>Obsazujte později</Title>
+						<Icon>Backtobase</Icon>
+						<Text>Defend first, cap later.</Text>
+						<ChatMode>Team</ChatMode>
+						<Command>BACKTOBASE</Command>
+					</Command>
+					<Command>
+						<Title>Spatřen!</Title>
+						<Icon>Turnback</Icon>
+						<Text>I am spotted!</Text>
+						<ChatMode>Team</ChatMode>
+					</Command>
 		</Map_51_asia>
 
 		<Map_Default>
