@@ -1,0 +1,28 @@
+ <DefineSprite Id="223" FrameCount="12">
+        <DoAction>
+            <Actions>
+                <Stop />
+                <End />
+            </Actions>
+        </DoAction>
+        <FrameLabel Name="Process" IsAnchor="false" />
+        <FrameLabel Name="normal" IsAnchor="false" />
+        <PlaceObject2 Depth="1" CharacterId="216" Name="capacityBar" Move="false">
+            <Matrix>
+-               <Translate TranslateX="780" TranslateY="0" />
++               <Translate TranslateX="380" TranslateY="800" />
+            </Matrix>
+        </PlaceObject2>
+        <PlaceObject2 Depth="3" CharacterId="222" Name="quantityInClipBar" Move="false">
+            <Matrix>
+-               <Translate TranslateX="780" TranslateY="0" />
++               <Translate TranslateX="380" TranslateY="800" />
+            </Matrix>
+        </PlaceObject2>
+        <ShowFrame />
+        <DoAction>
+            <Actions>
+                <Stop />
+                <End />
+            </Actions>
+        </DoAction>
