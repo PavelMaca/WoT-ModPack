@@ -304,8 +304,8 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice v1.40YK "
-"by Crabtr33)"
+"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice CZ "
+"v1.40YK by Crabtr33)"
 
 msgid "currentVehicleStatus/ammoNotFull"
 msgstr "Nekompletní munice"
