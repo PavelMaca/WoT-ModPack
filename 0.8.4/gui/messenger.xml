@@ -27,7 +27,7 @@
       <badWord>0 255 255</badWord>
     </colorScheme>
     <serviceChannel>
-      <lifeTime>	16	</lifeTime>
+      <lifeTime>	20	</lifeTime>
       <alphaSpeed>	3	</alphaSpeed>
       <stackLength>	10	</stackLength>
     </serviceChannel>
@@ -40,7 +40,7 @@
     </prebattle>
   </lobby>
   <battle>
-    <lifeTime>	10	</lifeTime>
+    <lifeTime>	20	</lifeTime>
     <alphaSpeed>	3	</alphaSpeed>
     <inactiveStateAlpha>	35	</inactiveStateAlpha>
     <hintText>&lt;font color="#b2b1a4"&gt;&lt;b&gt;[_(#controls:keyboard/key_tab)]&lt;/b&gt;&lt;/font&gt; _(#messenger:battle/hints/changeReceiver)</hintText>
