@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: XVM translation\n"
-"POT-Creation-Date: 2013-03-01 11:25+0100\n"
-"PO-Revision-Date: 2013-03-17 19:44+0100\n"
+"POT-Creation-Date: 2013-03-18 13:10+0100\n"
+"PO-Revision-Date: 2013-03-18 13:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -30,148 +30,179 @@ msgid "chance/per-vehicle"
 msgstr "Dle vozidel"
 
 #: ../template.php:10
+#, fuzzy
+msgid "common/enabled"
+msgstr "povolit"
+
+#: ../template.php:11
+#, fuzzy
+msgid "common/disabled"
+msgstr "zakázat"
+
+#: ../template.php:14
 msgid "hitlog/attack"
 msgstr "střelba"
 
-#: ../template.php:11
+#: ../template.php:15
 msgid "hitlog/fire"
 msgstr "požár"
 
-#: ../template.php:12
+#: ../template.php:16
 msgid "hitlog/ramming"
 msgstr "náraz"
 
-#: ../template.php:13
+#: ../template.php:17
 msgid "hitlog/world_collision"
 msgstr "prostředí"
 
-#: ../template.php:16
+#: ../template.php:20
+#, fuzzy
 msgid "captureBar/enemyBaseCapture"
 msgstr ""
 "<font size='15' color='#FFFFFF'>Obsazování nepřátelské základny! {{extra}}</"
 "font>"
 
-#: ../template.php:17
+#: ../template.php:21
+#, fuzzy
 msgid "captureBar/enemyBaseCaptured"
 msgstr "<font size='17' color='#FFCC66'>Nepřátelská základna obsazena!</font>"
 
-#: ../template.php:19
+#: ../template.php:23
+#, fuzzy
 msgid "captureBar/allyBaseCapture"
 msgstr ""
 "<font size='15' color='#FFFFFF'>Obsazování spojenecké základny! {{extra}}</"
 "font>"
 
-#: ../template.php:20
+#: ../template.php:24
+#, fuzzy
 msgid "captureBar/allyBaseCaptured"
 msgstr "<font size='17' color='#FFCC66'>Spojenecká základna obsazena!</font>"
 
-#: ../template.php:22
+#: ../template.php:26
+#, fuzzy
 msgid "captureBar/capturers"
 msgstr ""
 "Obsazujicích: <b><font color='#FFCC66'>{{tanks}}</font></b> Zbývá: <b><font "
 "color='#FFCC66'>{{time}}</font><b>"
 
-#: ../template.php:25
+#: ../template.php:29
 msgid "finalStatistics/hitsPercent"
 msgstr "Zásahů / Výstřelů %"
 
-#: ../template.php:26
+#: ../template.php:30
 msgid "finalStatistics/damegeDetected"
 msgstr "Poškození způsobené detekcí"
 
-#: ../template.php:27
+#: ../template.php:31
 msgid "finalStatistics/demageDealt"
 msgstr "Poškození"
 
-#: ../template.php:30
+#: ../template.php:34
+#, fuzzy
 msgid "teamRenderers/headerTip"
 msgstr ""
 "Xwn hodnocení.\n"
 "Pro zobrazení detailních informací, přejeďte kurzorem na jméno hráče."
 
-#: ../template.php:31
+#: ../template.php:35
 msgid "teamRenderers/friend"
 msgstr "Přítel"
 
-#: ../template.php:32
+#: ../template.php:36
 msgid "teamRenderers/ignored"
 msgstr "Ignorovaný"
 
-#: ../template.php:35
+#: ../template.php:37
+msgid "teamRenderers/loadStatistics"
+msgstr "Načíst statistiky"
+
+#: ../template.php:40
+#, fuzzy
 msgid "userInfo/eHint"
 msgstr ""
 "Efektivita podle vozidel.\n"
 "Hodnota podle dat z: %DATE%\n"
 "Aktuální hodnotu E najdete v podrobných informacích o vozidle. "
 
-#: ../template.php:36
+#: ../template.php:41
 msgid "userInfo/lastUpdate"
 msgstr "Data byla aktualzována v"
 
-#: ../template.php:37
+#: ../template.php:42
+#, fuzzy
 msgid "userInfo/to"
 msgstr " to "
 
-#: ../template.php:38
+#: ../template.php:43
 msgid "userInfo/eff"
 msgstr "EFF"
 
-#: ../template.php:39
+#: ../template.php:44
 msgid "userInfo/updated"
 msgstr "aktualizováno"
 
-#: ../template.php:40
+#: ../template.php:45
 msgid "userInfo/unknown"
 msgstr "-"
 
-#: ../template.php:41
+#: ../template.php:46
 msgid "userInfo/avgLevel"
 msgstr "Prům. Tier"
 
-#: ../template.php:42
+#: ../template.php:47
 msgid "userInfo/spotted"
 msgstr "Detekce"
 
-#: ../template.php:43
+#: ../template.php:48
 msgid "userInfo/defence"
 msgstr "Obrana"
 
-#: ../template.php:44
+#: ../template.php:49
 msgid "userInfo/capture"
 msgstr "Obsazení"
 
-#: ../template.php:45
+#: ../template.php:50
 msgid "userInfo/playerAvgTop"
 msgstr "hráč (průměr / nejlepší)"
 
-#: ../template.php:46
+#: ../template.php:51
+#, fuzzy
 msgid "userInfo/top"
 msgstr "top"
 
-#: ../template.php:47
+#: ../template.php:52
 msgid "userInfo/effDamage"
 msgstr "Efektivní dmg"
 
-#: ../template.php:48
+#: ../template.php:53
 msgid "userInfo/level"
 msgstr "Tier"
 
-#: ../template.php:49
+#: ../template.php:54
 msgid "userInfo/type"
 msgstr "Typ"
 
-#: ../template.php:50
+#: ../template.php:55
 msgid "userInfo/nation"
 msgstr "Národ"
 
-#: ../template.php:51
+#: ../template.php:56
 msgid "userInfo/name"
 msgstr "Název"
 
-#: ../template.php:52
+#: ../template.php:57
 msgid "userInfo/fights"
 msgstr "Bitev"
 
-#: ../template.php:53
+#: ../template.php:58
 msgid "userInfo/wins"
 msgstr "Výher"
+
+#: ../template.php:61
+msgid "crew/putOwnCrew"
+msgstr "Použít vlastní posádku"
+
+#: ../template.php:62
+msgid "crew/putBestCrew"
+msgstr "Použít nejlepší posádku"
