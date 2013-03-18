@@ -13,7 +13,7 @@
     "author": "Assassik",                       // Config author
     "description": "Default settings for XVM",  // Config description
     "url": "http://code.google.com/p/wot-xvm/", // Address to config updates
-    "date": "06.03.2013",                       // Config last modified
+    "date": "18.03.2013",                       // Config last modified
     "gameVersion": "0.8.4",                     // Supported version of the game
     "modMinVersion": "3.5.0"                    // The minimum required version of the XVM mod
   },
@@ -40,8 +40,8 @@
     // onHold: take action by key click or while key is remains pressed 
     // Keycode values a be found here:
     // http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
-    // Common keys are Shift - 16, Ctrl - 17, Alt - 18, Q - 81, E - 69, Z - 90, X - 99, C - 67
-    "minimapZoom": { "enabled": true, "onHold": true, "keyCode": 17 }
+    // Common keys are Ctrl - 17, X - 99, C - 67
+    "minimapZoom": { "enabled": false, "onHold": false, "keyCode": 17 }
   },
   // Parameters of the Battle Loading Screen
   "battleLoading": {
