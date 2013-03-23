@@ -109,7 +109,7 @@
 		</ExperienceAction>
 	</TotalBattle>		
 	<Statistics>							<!-- Statistics -->
-		<Color>inf1</Color>									<!-- [green|yellow|red|grey|lightGrey|action] Color background -->
+		<Color>grey</Color>									<!-- [green|yellow|red|grey|lightGrey|action] Color background -->
 		<Battle>							<!-- Battles -->
 			<Visible>true</Visible>							<!-- [true|false] Visible -->
 			<Title>Vítězství (Bitev):</Title>					<!-- [s] Title text -->
