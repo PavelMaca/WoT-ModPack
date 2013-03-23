@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: XVM translation\n"
 "POT-Creation-Date: 2013-03-18 13:10+0100\n"
-"PO-Revision-Date: 2013-03-19 20:01+0100\n"
+"PO-Revision-Date: 2013-03-23 13:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -97,7 +97,6 @@ msgid "finalStatistics/demageDealt"
 msgstr "Poškození"
 
 #: ../template.php:34
-#, fuzzy
 msgid "teamRenderers/headerTip"
 msgstr ""
 "Xwn hodnocení.\n"
@@ -116,10 +115,9 @@ msgid "teamRenderers/loadStatistics"
 msgstr "Načítat statistiky"
 
 #: ../template.php:40
-#, fuzzy
 msgid "userInfo/eHint"
 msgstr ""
-"Efektivita podle vozidel.\n"
+"Efektivita vozidel.\n"
 "Hodnota podle dat z: %DATE%\n"
 "Aktuální hodnotu E najdete v podrobných informacích o vozidle. "
 
