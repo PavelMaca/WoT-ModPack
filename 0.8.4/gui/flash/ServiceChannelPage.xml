@@ -232,13 +232,13 @@
 				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Color of a negative result -->
 			</GoldTotal>
 			<GoldBattle>					<!-- Total per session (gold for battle) -->
-				<Visible>true</Visible>						<!-- [true|false] Visible (gold for battle) -->
+				<Visible>false</Visible>						<!-- [true|false] Visible (gold for battle) -->
 				<Bold>false</Bold>							<!-- [true|false] Bold -->
 				<FontSize>12</FontSize>						<!-- [n] Font size -->			
 				<Color>#FFE769</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
 			</GoldBattle>
 			<GoldBuySale>					<!-- Total per session (gold transactions buy / sell) -->
-				<Visible>true</Visible>						<!-- [true|false] Visible (gold transactions Buy / Sell) -->
+				<Visible>false</Visible>						<!-- [true|false] Visible (gold transactions Buy / Sell) -->
 				<Bold>false</Bold>							<!-- [true|false] Bold -->
 				<FontSize>12</FontSize>						<!-- [n] Font size -->			
 				<Color>#FFE769</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
