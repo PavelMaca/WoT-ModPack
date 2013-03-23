@@ -13,7 +13,7 @@
     "author": "Assassik",                       // Config author
     "description": "Default settings for XVM",  // Config description
     "url": "http://code.google.com/p/wot-xvm/", // Address to config updates
-    "date": "18.03.2013",                       // Config last modified
+    "date": "23.03.2013",                       // Config last modified
     "gameVersion": "0.8.4",                     // Supported version of the game
     "modMinVersion": "3.5.0"                    // The minimum required version of the XVM mod
   },
@@ -36,11 +36,11 @@
     "enableCompanyStatistics": false             // true - Enable statistics in the company window
   },
   // Special XVM hotkeys
-  "hotkeys": { 
-    // onHold: take action by key click or while key is remains pressed 
+  "hotkeys": {
+    // onHold: take action by key click or while key is remains pressed
     // Keycode values a be found here:
     // http://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
-    // Common keys are Ctrl - 17, X - 99, C - 67
+    // Common keys are Ctrl - 17, X - 88, C - 67
     "minimapZoom": { "enabled": true, "onHold": true, "keyCode": 17 }
   },
   // Parameters of the Battle Loading Screen
@@ -204,7 +204,7 @@
                                     // Does not affect attached geometry and textfields.
                                     // Floating point allowed: 0.7 1.4.
     "zoom": { // Map zoom by key pressing. Keys are defined at "keys" upper level section
-      "stepsBack": 4,  // Number of zoom steps to get back from maximum size
+      "pixelsBack": 160,  // Number of pixels to get back from maximum size
       "centered": true // Center zoomed minimap at display center
     },
     "labels": {                     // textfields. Basic HTML\CSS supported.
