@@ -167,14 +167,14 @@
   // Hit log (my hits calculator)
   "hitLog": {
     "visible": true,      // On/off switch
-    "x": 270,             // X position (negative values - bind to right side of screen)
+    "x": 370,             // X position (negative values - bind to right side of screen)
     "y": 5,               // Y position (negative values - bind to bottom side of screen)
     "w": 500,             // Width
     "h": 1000,            // Height
     "lines": 5,           // Number of lines with hits. Old lines will be pushed out
     "direction": "down",  // Log direction: up - lines will be added from up to down, down - from down to up.
     "groupHitsByPlayer": true, // Group hits by players name
-	"insertOrder": "end", // Insert order: begin - insert new values to begin, end - add to end
+    "insertOrder": "end", // Insert order: begin - insert new values to begin, end - add to end
     // Substitution for {{dead}} macro when tank is dead
     "deadMarker": "<font face='Wingdings'>N</font>",
     "blowupMarker": "<font face='Wingdings'>M</font>",
@@ -360,6 +360,7 @@
         "enabled": true,
         "major": [
             { "enabled": false, "distance": 445, "thickness": 0.75, "alpha": 35, "color": "0xFFCC66" },  // 445 meters - maximum reveal distance.
+            { "enabled": true, "distance": 50, "thickness": 1, "alpha": 30, "color": "0xFFFFFF" }
         ],
         // Special circles dependent on vehicle type.
         // Many configuration lines for the same vehicle make many circles.
@@ -2116,6 +2117,7 @@
         "usa_M36_Slagger": null,
         "france_ARL_V39": null,
 	"uk_GB40_Gun_Carrier_Churchill": null,
+	"uk_GB74_AT8": null,
         "ussr_S_51": null,
         "ussr_SU_14": null,
         "germany_G_Panther": null,
@@ -2258,6 +2260,7 @@
         "uk_GB68_Matilda_Black_Prince": null,
         "uk_GB20_Crusader": null,
 	"ussr_T_50_2": null,
+	"usa_M24_Chaffee": null,
         "germany_PzV_PzIV": null,
         "germany_PzV_PzIV_ausf_Alfa": null,
         "uk_GB63_TOG_II": null,
