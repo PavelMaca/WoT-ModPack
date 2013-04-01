@@ -1,19 +1,25 @@
-/**
+﻿/**
  * Full configuration file (hereinafter - the configuration) with all possible options,
  * default configuration.
+ *
+ *
+ *
+ *
+ *
+ *
  *
  * Attention! You must NOT use the percent symbol in this file.
  * Instead, the percent symbol should be written: \u0025
  */
 {
   "configVersion": "1.5.0", // Version of the config. Do not remove or change it unnecessarily.
-  "editorVersion": "0.36",  // Version of the editor.
+  "editorVersion": "0.41",  // Version of the editor.
   // Common config options. All settings information in the mod not being used.
   "definition": {
     "author": "Assassik",                       // Config author
     "description": "Default settings for XVM",  // Config description
     "url": "http://code.google.com/p/wot-xvm/", // Address to config updates
-    "date": "23.03.2013",                       // Config last modified
+    "date": "01.04.2013",                       // Config last modified
     "gameVersion": "0.8.4",                     // Supported version of the game
     "modMinVersion": "3.5.0"                    // The minimum required version of the XVM mod
   },
@@ -22,8 +28,8 @@
     "mirroredVehicleIcons": false,               // false - Disable tank icon mirroring (good for alternative icons). True by default.
     "showPostmortemTips": true,                 // false - Disable pop-up panel at the bottom after death. True by default.
     "removePanelsModeSwitcher": false,          // true - Remove the Players Panel mode switcher (buttons for changing size)
-    "highlightVehicleIcon": true,               // false - disable highlighting of selected vehicle icon and squad
-    "clockFormat": "H:N",                       // Show the clock on the Debug Panel (near FPS). Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
+    "highlightVehicleIcon": true,               // false - disable highlighting of own vehicle icon and squad
+    "clockFormat": "H:N",                       // Format of clock on the Debug Panel (near FPS). Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
     "useStandardMarkers": false,                // true - use standard client vehicle markers
     "clanIconsFolder": "../../../clanicons"     // path to clan icons folder relative to res_mods/[GAME VERSION]/gui/flash
   },
@@ -35,6 +41,12 @@
     "enableUserInfoStatistics": true,           // true - Enable statistics in the user info window
     "enableCompanyStatistics": true             // true - Enable statistics in the company window
   },
+  "squad": {
+    "enabled": true,				// Global switch
+    "romanNumb": true,				// Roman level numbers
+    "showClan": true,				// Show player clan
+    "leftLvlBorder": ""				// Grille [4
+  },
   // Special XVM hotkeys
   "hotkeys": {
     // onHold: take action by key click or while key is remains pressed
@@ -45,7 +57,7 @@
   },
   // Parameters of the Battle Loading Screen
   "battleLoading": {
-    "clockFormat": "H:N:S",                     // Show the clock on the Battle Loading Screen. Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
+    "clockFormat": "H:N:S",                     // Format of clock on the Battle Loading Screen. Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
     "showChances": true,                       // true - Enable display of "chance to win" (only with xvm-stat) Read more: http://www.koreanrandom.com/forum/topic/1663-
     "showChancesExp": false,                    // Show experimental "chance to win" formula
     "removeSquadIcon": false,                   // true - Disable Platoon icons. This blank space can house, for example, clan logos
@@ -83,6 +95,29 @@
     "removeSquadIcon": false, // true - Disable Platoon icons.
     // Display options for Team/Clan logos (see battleLoading above).
     "clanIcon": { "show": false, "x": 0, "y": 6, "xr": 0, "yr": 6, "h": 16, "w": 16, "alpha": 90 },
+    // Enemy spotted status marker at right side panel
+    "enemySpottedMarker": {
+      "enabled": false,
+      "Xoffset": 15, // Offset relative to level icon
+      "Yoffset": 0,
+      "format": {
+        // Never seen this enemy
+        "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>*</font>",
+        // This enemy was seen atleast once
+        "lost": "",
+        // Enemy currently revealed at minimap
+        "revealed": "",
+		// Dead enemy
+        "dead": "",
+        // Artillery specific values
+        "artillery": {
+          "neverSeen": "",
+          "lost": "",
+          "revealed": "",
+          "dead": ""
+        }
+      }
+    },
     // Options for the "medium" panels - the first of the medium panels
     "medium": {
       "width": 46,    // 0..250 - Width of the player's name column. Default is 46.
@@ -110,8 +145,9 @@
       "vehicleFormatRight": "<font color='{{c:twr}}'>{{vehicle}}</font>"
     }
   },
+  // Parameters of the After Battle Screen
   "finalStatistic": {
-    "startPage": 1,           // initial page (1, 2, 3)
+    "startPage": 1,           // Initial page (1, 2, 3)
     // 1 - squad
     // 2 - player name
     // 3 - vehicle name
@@ -119,7 +155,7 @@
     // 5 - frags
     // 6 - experience
     // 7 - medals
-    "sortColumn": 4,          // number of column for sorting (1 - 7)
+    "sortColumn": 4,          // Number of column for sorting (1 - 7)
     "showChances": false,     // true - Enable display of "chance to win" (only with xvm-stat)
     "showChancesExp": false   // Show experimental "chance to win" formula
   },
@@ -130,15 +166,15 @@
   },
   // Hit log (my hits calculator)
   "hitLog": {
-    "enabled": true,      // on/off switch
-    "x": 370,             // X position (negative values - bind to right side of screen)
+    "visible": true,      // On/off switch
+    "x": 270,             // X position (negative values - bind to right side of screen)
     "y": 5,               // Y position (negative values - bind to bottom side of screen)
     "w": 500,             // Width
     "h": 1000,            // Height
-    "lines": 5,           // Number of lines. Old lines will be pushed out
+    "lines": 5,           // Number of lines with hits. Old lines will be pushed out
     "direction": "down",  // Log direction: up - lines will be added from up to down, down - from down to up.
-    "insertOrder": "end", // Insert order: begin - insert new values to begin, end - add to end
-    "groupHitsByPlayer": true, // group hits by players name
+    "groupHitsByPlayer": true, // Group hits by players name
+	"insertOrder": "end", // Insert order: begin - insert new values to begin, end - add to end
     // Substitution for {{dead}} macro when tank is dead
     "deadMarker": "<font face='Wingdings'>N</font>",
     "blowupMarker": "<font face='Wingdings'>M</font>",
@@ -161,7 +197,7 @@
   "captureBar": {
     "enabled": true, // On/off switch
     "primaryTitleOffset": 7, // Upper textfield offset in case of big font size
-    "appendPlus" : true, // append plus to three capturers. Cant calculate more than three.
+    "appendPlus" : true, // Append plus to three capturers. Cant calculate more than three.
     // Capture format (macros allowed, see readme-en.txt)
     "enemy": {
       "primaryTitleFormat":   "<font size='15' color='#00CC00'>Obsazování nepřátelské základny! {{extra}}</font>", // Upper textfield
@@ -194,20 +230,18 @@
     // Fields can load images from disk by HTML:
     //   "format": { "ally": "<img src='img://../icons/bzz.png' width='8' height='8'>"}, ...
     //   While file is at WoT\res_mods\icons\bzz.png
-    // On\off minimap mod switch as a whole.
-    // Turned off by default.
-    "enabled": true,
+    "enabled": true,                // false - Disable
     "mapBackgroundImageAlpha": 100, // Map image transparency.
     "selfIconAlpha": 100,           // Self icon transparency. White pointing arrow.
     "cameraAlpha": 100,             // Camera transparency and its attached geometry. Green triangle.
     "iconScale": 1.5,                 // Vehicles icon size.
                                     // Does not affect attached geometry and textfields.
                                     // Floating point allowed: 0.7 1.4.
-    "zoom": { // Map zoom by key pressing. Keys are defined at "keys" upper level section
+    "zoom": { // Map zoom by key pressing. Key is defined at "keys" upper level section.
       "pixelsBack": 160,  // Number of pixels to get back from maximum size
-      "centered": true // Center zoomed minimap at display center
+      "centered": true    // Center zoomed minimap at display center
     },
-    "labels": {                     // textfields. Basic HTML\CSS supported.
+    "labels": {                     // Textfields. Basic HTML\CSS supported.
       "nickShrink": 5,              // Maximum nickname size for {{short-nick}} macro.
       "vehicleclassmacro": {        // {{vehicle-class}} macro substitutions by vehicle class.
         "light": "", // ♦
@@ -215,7 +249,7 @@
         "heavy": "",
         "td": "",    // ▼
         "spg": "■",  // Artillery
-        "superh": "" // superHeavyTank extra class by gui_settings.xml
+        "superh": "" // HT10 by gui_settings.xml
         // Special symbols website:
         //   http://www.fileformat.info/info/unicode/char/25a0/index.htm
         // Great symbolic font by Andrey_Hard for {{vehicle-class}}:
@@ -224,14 +258,12 @@
       "units": { // Textfields for tanks on minimap.
         "revealedEnabled":  true, // Textfields switch for revealed units.
         "lostEnemyEnabled": true, // Textfields switch for lost enemy units. Show last seen position.
-        "format": { // Формат поля.
-          "ally":  "<span class='mm_a'>{{vehicle}}</span>", // Ally
-          "enemy": "<span class='mm_e'>{{vehicle}}</span>", // Enemy
-          "squad": "<textformat leading='-1'><span class='mm_s'><i>{{short-nick}}</i>\n{{vehicle}}</span><textformat>", // Squadmates
-          // Lost enemy units
-          "lost":  "<span class='mm_dot'>\u2022</span><span class='mm_l'><i>{{vehicle}}</i></span>",
-          // For your own marker or spectated subject.
-          "oneself": ""
+        "format": {
+          "ally":  "<span class='mm_a'>{{vehicle}}</span>",
+          "enemy": "<span class='mm_e'>{{vehicle}}</span>",
+          "squad": "<textformat leading='-1'><span class='mm_s'><i>{{short-nick}}</i>\n{{vehicle}}</span><textformat>",
+          "lost":  "<span class='mm_dot'>\u2022</span><span class='mm_l'><i>{{vehicle}}</i></span>",  // Lost enemy units
+          "oneself": ""  // For your own marker or spectated subject.
         },
         "css": { // CSS style.
           "ally":  ".mm_a{font-family:$FieldFont; font-size:8px; color:#C8FFA6;}",
@@ -302,8 +334,7 @@
           "oneself": 100
         }
       },
-      "mapSize": { // Textfield for map side size. 1000m, 700m, 600m.
-        // Works only with xvm-stat.exe if locale is not RU, EN or CH
+      "mapSize": { // Textfield for map side size. 1000m, 700m, 600m. Works only with xvm-stat.exe if locale is not RU, EN or CH
         "enabled": true,
         "format": "<b>{{cellsize}}0 m</b>",
         "css": "font-size:10px; color:#FFCC66;",
@@ -325,13 +356,10 @@
         "height": 30
       }
     },
-    "circles": { // Distance circles. Only real map meters. Only for owned unit.
-        // Works only with xvm-stat.exe if locale is not RU, EN or CH
+    "circles": { // Distance circles. Only real map meters. Only for owned unit.  Works only with xvm-stat.exe if locale is not RU, EN or CH
         "enabled": true,
         "major": [
-            // 445 meters - maximum reveal distance.
-            { "enabled": false, "distance": 445, "thickness": 0.75, "alpha": 35, "color": "0xFFCC66" },
-            { "enabled": true, "distance": 50, "thickness": 1, "alpha": 30, "color": "0xFFFFFF" }
+            { "enabled": false, "distance": 445, "thickness": 0.75, "alpha": 35, "color": "0xFFCC66" },  // 445 meters - maximum reveal distance.
         ],
         // Special circles dependent on vehicle type.
         // Many configuration lines for the same vehicle make many circles.
@@ -339,7 +367,7 @@
         //   See other vehicle types at:
         // http://code.google.com/p/wot-xvm/source/browse/trunk/src/xvm/src/wot/utils/VehicleInfoData2.as
         //   Artillery gun fire range may differ depending on vehicle angle relative to ground
-        // and vehicle height positioning relative to target.
+        // and vehicle height positioning relative to target. These factors are not considered.
         // See pics at http://goo.gl/ZqlPa
         "special": [
             { "su_18":            { "enabled": true, "distance": 552,  "thickness": 1, "alpha": 60, "color": "0xEE4444" } },
@@ -451,13 +479,13 @@
     },
     "square" : { // Square with 1000m side. Shows maximum unit draw distance.
       "enabled": true,
-      "artilleryEnabled": false, // Show square if using artillery\SPG vehicle 
+      "artilleryEnabled": false, // Show square if using artillery\SPG vehicle
       "thickness": 0.7,
       "alpha": 40,
       "color": "0xFFFFFF"
     }
   },
-  // OVER-TARGET MARKERS
+  // Over-target markers
   "markers": {
     // Ally
     "ally": {
@@ -565,6 +593,7 @@
           "textFields": [
             // Text field with the name of the tank
             {
+	      "name": "Tank name",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -36,                       // Position on the Y axis
@@ -589,6 +618,7 @@
             },
             // Text field with the remaining / maximum health
             {
+	      "name": "Tank HP",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -20,                       // Position on the Y axis
@@ -715,6 +745,7 @@
           "textFields": [
             // Text field with the name of the player
             {
+              "name": "Player name",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -36,                       // Position on the Y axis
@@ -739,6 +770,7 @@
             },
             // Text field with the percentage of remaining health
             {
+              "name": "Remain HP",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -20,                       // Position on the Y axis
@@ -995,6 +1027,7 @@
           "textFields": [
             // Text field with the name of the player
             {
+              "name": "Player name",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -34,                       // Position on the Y axis
@@ -1019,6 +1052,7 @@
             },
             // Text field with the name of the tank
             {
+              "name": "Tank name",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -20,                       // Position on the Y axis
@@ -1151,6 +1185,7 @@
           "textFields": [
             // Text field with the name of the tank
             {
+              "name": "Tank name",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -36,                       // Position on the Y axis
@@ -1175,6 +1210,7 @@
             },
             // Text field with the remaining / maximum health
             {
+              "name": "Tank HP",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -20,                       // Position on the Y axis
@@ -1301,6 +1337,7 @@
           "textFields": [
             // Text field with the name of the player
             {
+              "name": "Player name",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -36,                       // Position on the Y axis
@@ -1325,6 +1362,7 @@
             },
             // Text field with the percentage of remaining health
             {
+              "name": "Remain HP",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -20,                       // Position on the Y axis
@@ -1581,6 +1619,7 @@
           "textFields": [
             // Text field with the name of the player
             {
+              "name": "Player name",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -34,                       // Position on the Y axis
@@ -1605,6 +1644,7 @@
             },
             // Text field with the name of the tank
             {
+              "name": "Tank name",
               "visible": true,                // false - Disable
               "x": 0,                         // Position on the X axis
               "y": -20,                       // Position on the Y axis
@@ -1632,7 +1672,7 @@
       }
     }
   },
-  // COLOR SETTINGS
+  // Color settings
   "colors": {
     // System colors
     "system": {
@@ -1966,13 +2006,15 @@
         "germany_PanzerJager_I": null,
         "usa_T18": null,
         "france_RenaultFT_AC": null,
+	"uk_GB39_Universal_CarrierQF2": null,
         "ussr_SU_18": null,
         "usa_T57": null,
         "france_RenaultBS": null,
         "ussr_BT_7": null,
         "ussr_T_46": null,
+	"germany_Pz_II_AusfG": null,
         "germany_Pz38t": null,
-        "germany_PzII_Luchs": null,
+        "germany_PzI_ausf_C": null,
         "germany_PzIII_A": null,
         "germany_T_15": null,
         "usa_M22_Locust": null,
@@ -1991,6 +2033,7 @@
         "usa_T82": null,
         "france_FCM_36Pak40": null,
         "france_RenaultUE57": null,
+	"uk_GB42_Valentine_AT": null,
         "ussr_SU_26": null,
         "germany_Sturmpanzer_II": null,
         "germany_Wespe": null,
@@ -1998,11 +2041,12 @@
         "france_Lorraine39_L_AM": null,
         "ussr_A_20": null,
         "germany_Pz38_NA": null,
+	"germany_PzII_Luchs": null,
         "usa_M5_Stuart": null,
         "china_Ch09_M5": null,
-        "ussr_A_32": null,
         "ussr_T_28": null,
         "germany_PzIII": null,
+	"germany_PzIII_training": null,
         "usa_M3_Grant": null,
         "uk_GB07_Matilda": null,
         "france_B1": null,
@@ -2011,14 +2055,14 @@
         "usa_M8A1": null,
         "usa_T40": null,
         "france_Somua_Sau_40": null,
+	"uk_GB57_Alecto": null,
         "ussr_SU_5": null,
         "germany_Grille": null,
         "usa_M7_Priest": null,
         "france__105_leFH18B2": null,
         "france_AMX_105AM": null,
-        "ussr_T_50_2": null,
-        "germany_VK2801": null,
-        "usa_M24_Chaffee": null,
+        "germany_VK1602": null,
+        "france_ELC_AMX": null,
         "ussr_T_34": null,
         "germany_PzIII_IV": null,
         "germany_PzIV": null,
@@ -2038,19 +2082,23 @@
         "usa_M10_Wolverine": null,
         "usa_T49": null,
         "france_S_35CA": null,
+	"uk_GB73_AT2": null,
         "ussr_SU_8": null,
         "germany_Hummel": null,
         "usa_M41": null,
         "france_AMX_13F3AM": null,
+	"germany_VK2801": null,
         "usa_T21": null,
         "france_AMX_12t": null,
         "china_Ch15_59_16": null,
         "ussr_T_34_85": null,
+	"ussr_T_34_85_training": null,
         "germany_PzIV_schmalturm": null,
         "germany_VK3001H": null,
         "germany_VK3001P": null,
         "germany_VK3601H": null,
         "usa_M4A3E8_Sherman": null,
+	"usa_M4A3E8_Sherman_training": null,
         "usa_Sherman_Jumbo": null,
         "uk_GB21_Cromwell": null,
         "china_Ch20_Type58": null,
@@ -2067,6 +2115,7 @@
         "usa_M18_Hellcat": null,
         "usa_M36_Slagger": null,
         "france_ARL_V39": null,
+	"uk_GB40_Gun_Carrier_Churchill": null,
         "ussr_S_51": null,
         "ussr_SU_14": null,
         "germany_G_Panther": null,
@@ -2079,10 +2128,12 @@
         "ussr_KV_13": null,
         "ussr_T_43": null,
         "germany_PzV": null,
+	"germany_PzV_training": null,
         "germany_VK3002DB": null,
         "usa_T20": null,
         "uk_GB22_Comet": null,
         "china_Ch04_T34_1": null,
+	"china_Ch04_T34_1_training": null,
         "ussr_IS": null,
         "ussr_KV_3": null,
         "germany_PzVI": null,
@@ -2099,6 +2150,7 @@
         "usa_T25_AT": null,
         "france_AMX_AC_Mle1946": null,
         "uk_GB71_AT_15A": null,
+	"uk_GB75_AT7": null,
         "ussr_Object_212": null,
         "germany_G_Tiger": null,
         "usa_M40M43": null,
@@ -2116,6 +2168,7 @@
         "ussr_KV4": null,
         "germany_Lowe": null,
         "germany_PzVIB_Tiger_II": null,
+	"germany_PzVIB_Tiger_II_training": null,
         "germany_VK4502A": null,
         "usa_M6A2E1": null,
         "usa_T32": null,
@@ -2131,6 +2184,7 @@
         "usa_T28": null,
         "usa_T28_Prototype": null,
         "france_AMX_AC_Mle1948": null,
+	"uk_GB72_AT15": null,
         "ussr_Object_261": null,
         "germany_G_E": null,
         "usa_T92": null,
@@ -2156,6 +2210,7 @@
         "usa_T30": null,
         "usa_T95": null,
         "france_AMX50_Foch": null,
+	"uk_GB32_Tortoise": null,
         "ussr_T62A": null,
         "germany_E50_Ausf_M": null,
         "usa_M48A1": null,
@@ -2177,20 +2232,22 @@
         "usa_T110E3": null,
         "usa_T110E4": null,
         "france_AMX_50Fosh_155": null,
+	"uk_GB48_FV215b_183": null,
         "germany_Bison_I": null,
         "usa_T2_lt": null,
+	"germany_PzI": null,
         "ussr_M3_Stuart_LL": null,
         "ussr_BT_SV": null,
         "germany_PzII_J": null,
         "ussr_T_127": null,
+	"usa_Sexton_I": null,
         "ussr_T_50": null,
-        "germany_VK1602": null,
         "ussr_Valentine_LL": null,
         "germany_B_1bis_captured": null,
+	"ussr_A_32": null,
         "france_AMX40": null,
         "uk_GB04_Valentine": null,
         "uk_GB60_Covenanter": null,
-        "france_ELC_AMX": null,
         "germany_PzIV_Hydro": null,
         "ussr_Churchill_LL": null,
         "ussr_Matilda_II_LL": null,
@@ -2200,6 +2257,7 @@
         "usa_M4A2E4": null,
         "uk_GB68_Matilda_Black_Prince": null,
         "uk_GB20_Crusader": null,
+	"ussr_T_50_2": null,
         "germany_PzV_PzIV": null,
         "germany_PzV_PzIV_ausf_Alfa": null,
         "uk_GB63_TOG_II": null,

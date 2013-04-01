@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: XVM translation\n"
-"POT-Creation-Date: 2013-03-18 13:10+0100\n"
-"PO-Revision-Date: 2013-03-23 13:03+0100\n"
+"POT-Creation-Date: 2013-03-29 18:57+0100\n"
+"PO-Revision-Date: 2013-04-01 14:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -117,9 +117,9 @@ msgstr "Načítat statistiky"
 #: ../template.php:40
 msgid "userInfo/eHint"
 msgstr ""
-"Efektivita vozidel.\n"
-"Hodnota podle dat z: %DATE%\n"
-"Aktuální hodnotu E najdete v podrobných informacích o vozidle. "
+"E - Efektivita hráče s vozidlem.\n"
+"Hodnota je aktuální k datu: %DATE%\n"
+"Aktuální hodnotu  najdete v podrobných informacích o vozidle."
 
 #: ../template.php:41
 msgid "userInfo/lastUpdate"
@@ -201,3 +201,51 @@ msgstr "Použít vlastní posádku"
 #: ../template.php:62
 msgid "crew/putBestCrew"
 msgstr "Použít nejlepší posádku"
+
+#: ../template.php:65
+msgid "squad/battleLevels"
+msgstr "MM"
+
+#: ../template.php:66
+msgid "squad/USSR"
+msgstr "USSR"
+
+#: ../template.php:67
+msgid "squad/Germany"
+msgstr "Německo"
+
+#: ../template.php:68
+msgid "squad/USA"
+msgstr "USA"
+
+#: ../template.php:69
+msgid "squad/France"
+msgstr "Francie"
+
+#: ../template.php:70
+msgid "squad/UK"
+msgstr "Británie"
+
+#: ../template.php:71
+msgid "squad/China"
+msgstr "Čína"
+
+#: ../template.php:72
+msgid "squad/HT"
+msgstr "těžký"
+
+#: ../template.php:73
+msgid "squad/MT"
+msgstr "střední"
+
+#: ../template.php:74
+msgid "squad/LT"
+msgstr "lehký"
+
+#: ../template.php:75
+msgid "squad/TD"
+msgstr "stíhač"
+
+#: ../template.php:76
+msgid "squad/SPG"
+msgstr "dělostřelec"
