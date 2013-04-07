@@ -369,7 +369,7 @@ Example of a complete text unit:
 			<Command>
 				<Title>To muselo bolet</Title>
 				<Icon>Folowme</Icon>
-				<Text>%(Name)s, %(randpart)s</Text>
+				<Text>%(name)s, %(randpart)s</Text>
 				<Variants>
 					<Variant>did you get my present?</Variant>
 					<Variant>hope your crew is fine.</Variant>
