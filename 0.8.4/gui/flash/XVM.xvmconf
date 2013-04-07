@@ -181,7 +181,7 @@
     // Default header format (before first hit). Macros IS NOT allowed.
     "defaultHeader":  "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>0</font>",
     // Hits header format, including last hit (macros allowed, see readme-en.txt)
-    "formatHeader": "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>{{n}}</font> | <font size='0{{vehicle}}'><font color='#FFFFFF'>Poškození:</font> <b>{{dmg-total}}</b> | <font color='#FFFFFF'>Poslední:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font></font>",
+    "formatHeader": "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>{{n}}</font> | <font color='#FFFFFF'>Poškození:</font> <b>{{dmg-total}}</b> | <font color='#FFFFFF'>Poslední:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font>",
     // List of hits format (macros allowed, see readme-en.txt)
     "formatHistory": "<textformat tabstops='[18,70,135,205]'><font size='12'>×{{n-player}}<tab>&nbsp;<font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab>&nbsp;<font color='{{c:dmg-kind}}'>-{{dmg}}</font>&nbsp;</font>({{dmg-player}})<tab>&nbsp;<font color='{{c:vtype}}'>{{vehicle}}<tab>&nbsp;<font size='12'>{{nick}}</font>&nbsp;{{dead}}</font></textformat>",
     "shadow": {                       //   Shadow options
