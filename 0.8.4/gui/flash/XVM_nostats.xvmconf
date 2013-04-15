@@ -19,7 +19,7 @@
     "author": "Assassik",                       // Config author
     "description": "Default settings for XVM",  // Config description
     "url": "http://code.google.com/p/wot-xvm/", // Address to config updates
-    "date": "01.04.2013",                       // Config last modified
+    "date": "15.04.2013",                       // Config last modified
     "gameVersion": "0.8.4",                     // Supported version of the game
     "modMinVersion": "3.5.0"                    // The minimum required version of the XVM mod
   },
@@ -485,6 +485,29 @@
       "alpha": 40,
       "color": "0xFFFFFF"
     }
+  },
+  "battleMessenger": {
+    "enabled": true,
+    "chatLength": 10,
+    "ignoreClan": true,
+    "ignoreSquad": true,
+    "blockAlly": {
+      "dead": false,
+      "alive": false
+    },
+    "blockEnemy": {
+      "dead": true,
+      "alive": false
+    },
+    "antispam": {
+      "enabled": true,
+      "duplicateCount": 2,
+      "duplicateInterval": 7,
+      "playerCount": 3,
+      "playerInterval": 7,
+      "filters": ["siem", "noob", "fuck"]
+    },
+    "debugMode": false
   },
   // Over-target markers
   "markers": {
