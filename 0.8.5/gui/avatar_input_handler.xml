@@ -17,7 +17,6 @@
       <scrollSensitivity>	5	</scrollSensitivity>
       <angleRange>10 110</angleRange>
       <distRange>0 300</distRange>
-      <noscroll>false</noscroll>
     </camera>
   </arcadeMode>
   <strategicMode>
@@ -39,10 +38,7 @@
       <keySensitivity>0.01</keySensitivity>
       <sensitivity>0.005</sensitivity>
       <scrollSensitivity>0.0025</scrollSensitivity>
-      <zoomX4>true</zoomX4>
       <zooms>2 4 8</zooms>
-      <zooms2>2 4 8 10</zooms2>
-      <noscroll>false</noscroll>
     </camera>
   </sniperMode>
   <videoMode>
