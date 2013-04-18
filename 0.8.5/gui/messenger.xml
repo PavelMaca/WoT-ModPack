@@ -422,6 +422,10 @@ _(#messenger:battle/toolTips/duringChat)
       <icon>AccountTypeChangedIcon</icon>
       <message>&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </AOGASNotify>
+    <ConverterNotify>
+      <type>yellow</type>
+      <message>&lt;font color='#c5ab5d'&gt;_(#messenger:serviceChannelMessages/sysMsg/converter/title)&lt;/font&gt;&lt;br/&gt;&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
+    </ConverterNotify>
     <actionBegin>
       <type>action</type>
       <defaultIcon>action</defaultIcon>
