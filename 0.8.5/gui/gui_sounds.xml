@@ -3,10 +3,10 @@
     <default>
       <firealert>/assassik/assassik/firealert</firealert>
       <sixthsense>/assassik/assassik/sixthsense</sixthsense>
-      <5secs>/locastan/locastan/5secs</5secs>
-      <1min>/locastan/locastan/1min</1min>
-      <3mins>/locastan/locastan/3mins</3mins>
-      <30secs>/locastan/locastan/30secs</30secs>
+      <alert_3min>/assassik/assassik/3min</alert_3min>
+      <alert_1min>/assassik/assassik/1min</alert_1min>
+      <alert_30sec>/assassik/assassik/30sec</alert_30sec>
+      <alert_5sec>/assassik/assassik/5sec</alert_5sec>
       <over>/GUI/buttons/highlight</over>
       <press>/GUI/buttons/play</press>
     </default>
