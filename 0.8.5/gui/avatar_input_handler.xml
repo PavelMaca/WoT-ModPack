@@ -1,0 +1,98 @@
+<avatar_input_handler.xml>
+  <postMortemMode>
+    <camera>
+      <keySensitivity>0.025</keySensitivity>
+      <sensitivity>0.0025</sensitivity>
+      <scrollSensitivity>	5	</scrollSensitivity>
+      <angleRange>10 110</angleRange>
+      <distRange>2 25</distRange>
+    </camera>
+  </postMortemMode>
+  <arcadeMode>
+    <aim>arcade</aim>
+    <numScrolls>	1	</numScrolls>
+    <camera>
+      <keySensitivity>0.025</keySensitivity>
+      <sensitivity>0.0025</sensitivity>
+      <scrollSensitivity>	5	</scrollSensitivity>
+      <angleRange>10 110</angleRange>
+      <distRange>0 300</distRange>
+    </camera>
+  </arcadeMode>
+  <strategicMode>
+    <aim>strategic</aim>
+    <camera>
+      <keySensitivity>0.5</keySensitivity>
+      <sensitivity>0.05</sensitivity>
+      <scrollSensitivity>0.25</scrollSensitivity>
+      <distRange>40 100</distRange>
+    </camera>
+  </strategicMode>
+  <sniperMode>
+    <aim>sniper</aim>
+    <binoculars>
+      <background>gui/maps/ingame/aim/binoculars.dds</background>
+    </binoculars>
+    <numScrolls>	1	</numScrolls>
+    <camera>
+      <keySensitivity>0.01</keySensitivity>
+      <sensitivity>0.005</sensitivity>
+      <scrollSensitivity>0.0025</scrollSensitivity>
+      <zooms>2 4 8</zooms>
+    </camera>
+  </sniperMode>
+  <videoMode>
+    <camera>
+      <sensitivity>0.15</sensitivity>
+      <scrollSensitivity>0.25</scrollSensitivity>
+      <linearVelocity>5.0</linearVelocity>
+      <linearVelocityAcceleration>0.5</linearVelocityAcceleration>
+      <keyMoveLeft>KEY_A</keyMoveLeft>
+      <keyMoveRight>KEY_D</keyMoveRight>
+      <keyMoveUp>KEY_Q</keyMoveUp>
+      <keyMoveDown>KEY_E</keyMoveDown>
+      <keyMoveForward>KEY_W</keyMoveForward>
+      <keyMoveBackward>KEY_S</keyMoveBackward>
+      <keyLinearVelocityIncrement>KEY_I</keyLinearVelocityIncrement>
+      <keyLinearVelocityDecrement>KEY_K</keyLinearVelocityDecrement>
+      <angularVelocity>1.0</angularVelocity>
+      <angularVelocityAcceleration>0.8</angularVelocityAcceleration>
+      <keyRotateLeft>KEY_NUMPAD4</keyRotateLeft>
+      <keyRotateRight>KEY_NUMPAD6</keyRotateRight>
+      <keyRotateUp>KEY_NUMPAD8</keyRotateUp>
+      <keyRotateDown>KEY_NUMPAD5</keyRotateDown>
+      <keyRotateClockwise>KEY_NUMPAD3</keyRotateClockwise>
+      <keyRotateCClockwise>KEY_NUMPAD2</keyRotateCClockwise>
+      <keyAngularVelocityIncrement>KEY_O</keyAngularVelocityIncrement>
+      <keyAngularVelocityDecrement>KEY_L</keyAngularVelocityDecrement>
+      <keySetDefaultRoll>KEY_R</keySetDefaultRoll>
+      <zoomVelocity>0.1</zoomVelocity>
+      <zoomVelocityAcceleration>0.05</zoomVelocityAcceleration>
+      <keyZoomGrowUp>KEY_INSERT</keyZoomGrowUp>
+      <keyZoomGrowDown>KEY_DELETE</keyZoomGrowDown>
+      <keyZoomVelocityIncrement>KEY_NUMPADMINUS</keyZoomVelocityIncrement>
+      <keyZoomVelocityDecrement>KEY_ADD</keyZoomVelocityDecrement>
+      <keySetDefaultFov>KEY_F</keySetDefaultFov>
+      <linearFriction>2.0</linearFriction>
+      <rotationFriction>1.0</rotationFriction>
+      <keySwitchInertia>KEY_P</keySwitchInertia>
+      <keySwitchRotateAroundPoint>KEY_C</keySwitchRotateAroundPoint>
+      <keyTargetRadiusIncrement>KEY_NUMPAD7</keyTargetRadiusIncrement>
+      <keyTargetRadiusDecrement>KEY_NUMPAD1</keyTargetRadiusDecrement>
+      <targetRadiusVelocity>3.0</targetRadiusVelocity>
+      <keySwitchLandCamera>KEY_X</keySwitchLandCamera>
+      <predefinedVelocities>
+        <KEY_1>	1	</KEY_1>
+        <KEY_2>	2	</KEY_2>
+        <KEY_3>	3	</KEY_3>
+        <KEY_4>	4	</KEY_4>
+        <KEY_5>	5	</KEY_5>
+        <KEY_6>	6	</KEY_6>
+        <KEY_7>	7	</KEY_7>
+        <KEY_8>	8	</KEY_8>
+        <KEY_9>	9	</KEY_9>
+        <KEY_0>	10	</KEY_0>
+      </predefinedVelocities>
+    </camera>
+  </videoMode>
+</avatar_input_handler.xml>
