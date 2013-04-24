@@ -1,0 +1,15 @@
+--- gui_sounds.xml	2013-04-24 07:45:54.219800000 +0200
++++ ../../0.8.5/gui/gui_sounds.xml	2013-04-24 07:51:34.004200000 +0200
+@@ -1,6 +1,12 @@
+ <gui_sounds.xml>
+   <controls>
+     <default>
++      <firealert>/assassik/assassik/firealert</firealert>
++      <sixthsense>/assassik/assassik/sixthsense</sixthsense>
++      <alert_3min>/assassik/assassik/3min</alert_3min>
++      <alert_1min>/assassik/assassik/1min</alert_1min>
++      <alert_30sec>/assassik/assassik/30sec</alert_30sec>
++      <alert_5sec>/assassik/assassik/5sec</alert_5sec>
+       <over>/GUI/buttons/highlight</over>
+       <press>/GUI/buttons/play</press>
+     </default>
