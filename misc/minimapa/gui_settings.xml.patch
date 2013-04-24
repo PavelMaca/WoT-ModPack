@@ -1,0 +1,12 @@
+--- gui_settings.xml	2013-04-24 07:55:24.025400000 +0200
++++ ../../0.8.5/gui/gui_settings.xml	2013-04-24 07:54:28.489400000 +0200
+@@ -21,7 +21,7 @@
+   <customizationHorns>False</customizationHorns>
+   <customizationEmblems>	True	</customizationEmblems>
+   <customizationInscriptions>	True	</customizationInscriptions>
+-  <showMinimapSuperHeavy>False</showMinimapSuperHeavy>
++  <showMinimapSuperHeavy>True</showMinimapSuperHeavy>
+   <showMinimapDeath>	True	</showMinimapDeath>
+   <permanentMinimapDeath>False</permanentMinimapDeath>
+   <markerHitSplashDuration>	1000	</markerHitSplashDuration>
+\ No newline at end of file
