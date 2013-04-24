@@ -101,9 +101,9 @@
 	<timeMCpanelbkH>100</timeMCpanelbkH> 									<!-- МАСШТАБ ПОДЛОЖКИ (ВЫСОТА) - ЗАДАЕТСЯ В ПРОЦЕНТАХ 100%=ОРИГИНАЛЬНЫЙ РАЗМЕР  -->
 	<timeMCpanelA>100</timeMCpanelA>  										<!-- ПРОЗРАЧНОСТЬ ПАНЕЛИ 0-100 -->
 	<timeMCpanelbackA>50</timeMCpanelbackA>    								<!-- ПРОЗРАЧНОСТЬ ПОДЛОЖКИ 0-100 -->
-	<timeMCpanelColor>0x00ff00</timeMCpanelColor> 							<!-- ЦВЕТ СТРОКИ "ВРЕМЯ ПЕРЕЗАРЯДКИ" 0XFF0000 -->
+	<timeMCpanelColor>0xff0000</timeMCpanelColor> 							<!-- ЦВЕТ СТРОКИ "ВРЕМЯ ПЕРЕЗАРЯДКИ" 0XFF0000 -->
 	<reloadWord>ОК</reloadWord>												<!-- СЛОВО, ОТОБРАЖАЕМОЕ ПРИ ПЕРЕЗАРЯДКЕ -->
-	<wordColor>0xff0000</wordColor>											<!-- ЦВЕТ СЛОВА, ОТОБРАЖАЕМОГО ПРИ ПЕРЕЗАРЯДКЕ 0XFF0000 -->
+	<wordColor>0x00ff00</wordColor>											<!-- ЦВЕТ СЛОВА, ОТОБРАЖАЕМОГО ПРИ ПЕРЕЗАРЯДКЕ 0XFF0000 -->
 	<timeMCpanelbackColor>0x000000</timeMCpanelbackColor>   				<!-- ЦВЕТ ПОДЛОЖКИ "ВРЕМЯ ПЕРЕЗАРЯДКИ" 0X000000 -->
 	<timerround>10</timerround>												<!-- ДОЛИ ОКРУГДЕНИЯ 1=ЦЕЛОЕ, 10=ДЕСЯТЫЕ, 100=СОТЫЕ И Т.Д. -->
 	
