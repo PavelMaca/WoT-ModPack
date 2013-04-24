@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-03-17 12:05+0100\n"
+"PO-Revision-Date: 2013-04-24 12:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -946,6 +946,9 @@ msgstr "Nedostatek paměti. Kvalita textur byla snížena na nízkou."
 
 msgid "memory_critical/tex_was_lowered_to_medium"
 msgstr "Nedostatek paměti. Kvalita textur byla snížena na střední."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Nedostatek paměti. Kvalita textur je minimalizována."
 
 msgid "no_readyVehicle"
 msgstr "Vozidlo není připraveno."

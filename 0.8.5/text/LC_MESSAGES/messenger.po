@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-03-23 15:02+0100\n"
+"PO-Revision-Date: 2013-04-24 12:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -1109,6 +1109,48 @@ msgstr "Herní server bude odpojen v %(date)s."
 
 msgid "serviceChannelMessages/serverRebootCancelled"
 msgstr "Odpojení serveru zrušeno, bylo plánováno na %(date)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Kamufláž"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Získáno kreditů: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Odečteno kreditů: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Emblémy změněny"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "Získáno volných zkušeností: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "Odečteno volných zkušeností: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Získáno zlaťáků: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Odečteno zlaťáků: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Nápisy změněny"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Přidáno pozic: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Odtraněno pozic: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Pozor!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Přidáno vozidel: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Odstraněno vozidel: %(vehicles)s"
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
 msgstr ""
