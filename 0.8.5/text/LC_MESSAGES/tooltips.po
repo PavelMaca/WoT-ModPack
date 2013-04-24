@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-03-13 12:03+0100\n"
+"PO-Revision-Date: 2013-04-24 13:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
 msgid "XP/body"
 msgstr ""
@@ -25,6 +25,9 @@ msgstr "Informace o medaili se nahrávají..."
 
 msgid "achievement/action/unavailable/title"
 msgstr "Kampaňová medaile"
+
+msgid "achievement/custom/notEnough"
+msgstr "...a další vozidla:"
 
 msgid "achievement/note"
 msgstr "(Kliknutím pravého tlačítka zobrazíte popis)"
@@ -442,11 +445,41 @@ msgstr "Kliknutím směníte zlaťáky na kredity."
 msgid "header/gold_exchange/header"
 msgstr "Směna zlaťáků"
 
+msgid "header/header_buttons/barracks/body"
+msgstr "Verbovat tankisty; poslat tankisty do kasáren."
+
+msgid "header/header_buttons/barracks/header"
+msgstr "Kasárna"
+
 msgid "header/header_buttons/hangar/body"
 msgstr "Zavřít všechny okna a vrátit se do garáže."
 
 msgid "header/header_buttons/hangar/header"
 msgstr "Návrat do garáže"
+
+msgid "header/header_buttons/inventory/body"
+msgstr "Prodat vozidla, příslušenství, vybavení a spotřební doplňky."
+
+msgid "header/header_buttons/inventory/header"
+msgstr "Sklad"
+
+msgid "header/header_buttons/profile/body"
+msgstr "Zobrazit statistiky a získaná ocenění."
+
+msgid "header/header_buttons/profile/header"
+msgstr "Služební záznam"
+
+msgid "header/header_buttons/shop/body"
+msgstr "Koupit vozidla, příslušenství, vybavení a spotřební doplňky."
+
+msgid "header/header_buttons/shop/header"
+msgstr "Obchod"
+
+msgid "header/header_buttons/techtree/body"
+msgstr "Vyzkoumat a koupit vozidla a příslušenství."
+
+msgid "header/header_buttons/techtree/header"
+msgstr "Výzkum"
 
 msgid "header/info/players_online_full/body"
 msgstr ""

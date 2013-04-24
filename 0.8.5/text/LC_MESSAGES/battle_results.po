@@ -3,13 +3,16 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-30 12:00+0300\n"
-"PO-Revision-Date: 2013-03-13 12:04+0100\n"
+"PO-Revision-Date: 2013-04-24 13:09+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Team <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Spojenci:"
 
 msgid "common/battleEfficiency/none"
 msgstr "Nebyla zničena ani detekována žádná vozidla."
@@ -38,6 +41,9 @@ msgstr "Zkušenosti"
 msgid "common/details/xpTitleFirstVictory"
 msgstr " (х%d za první vítězství dne)"
 
+msgid "common/tooltip/assist"
+msgstr "Poškození nepřátelského vozidla díky vašemu nasvícení: %s"
+
 msgid "common/tooltip/crits"
 msgstr "Kritické poškození nepřátelského vozidla: %s"
 
@@ -55,12 +61,6 @@ msgstr "Toto nepřátelské vozidlo jste detekovali."
 
 msgid "common/tooltip/teamKill"
 msgstr "Toto spojenecké vozidlo jste zničili."
-
-msgid "common/unknownPlayerName"
-msgstr "n/a"
-
-msgid "common/unknownVehicleName"
-msgstr "n/a"
 
 msgid "common/vehicleState/alive"
 msgstr "Přežil"
@@ -144,7 +144,7 @@ msgid "finish/reason/1win"
 msgstr "Všechna nepřátelská vozidla zničena"
 
 msgid "finish/reason/2"
-msgstr "Spojenecká základna obsazena"
+msgstr "Základna obsazena"
 
 msgid "finish/reason/3"
 msgstr "Čas bitvy vypršel"
@@ -161,6 +161,12 @@ msgstr "Promiňte, výsledky bitvy jsou nedostupné."
 msgid "tankSelector/next"
 msgstr "Další vozidlo s"
 
+msgid "team/damageHeader/body"
+msgstr "Seřadit podle poškození způsobeného nepřátelským vozidlům"
+
+msgid "team/damageHeader/header"
+msgstr "Poškození"
+
 msgid "team/fragHeader/body"
 msgstr "Řadit podle počtu zničených nepřátelských vozidel."
 
@@ -168,10 +174,10 @@ msgid "team/fragHeader/header"
 msgstr "Nepřátel zničeno"
 
 msgid "team/healthHeader/body"
-msgstr "Řadit podle udělených škod."
+msgstr "Řadit podle zbývající výdrže."
 
 msgid "team/healthHeader/header"
-msgstr "Škody"
+msgstr "Výdrž"
 
 msgid "team/medalHeader/body"
 msgstr "Řadit podle počtu získaných ocenění."
@@ -203,6 +209,9 @@ msgstr "Obsazení nepřátelské základny"
 msgid "team/stats/labels_damageAssisted"
 msgstr "Poškození způsobené detekcí"
 
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Poškození způsobené vaší detekcí"
+
 msgid "team/stats/labels_damageDealt"
 msgstr "Poškození"
 
@@ -227,8 +236,14 @@ msgstr "Najeto"
 msgid "team/stats/labels_pierced"
 msgstr "\tprůstřelů"
 
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tprůstřelů"
+
 msgid "team/stats/labels_potentialDamageReceived"
 msgstr "Obdržené potenciální poškození"
+
+msgid "team/stats/labels_ricochetReceived"
+msgstr "\todrazy"
 
 msgid "team/stats/labels_shots"
 msgstr "Vypáleno výstřelů"
