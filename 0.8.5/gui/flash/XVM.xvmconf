@@ -519,7 +519,7 @@
       "duplicateInterval": 7,
       "playerCount": 3,
       "playerInterval": 7,
-      "filters": ["siem", "noob", "fuck"]
+      "filters": ["siem", "noob", "fuck", "clan", "witam", "pozz", "üdv", "idiot", "stfu", "uninstall", "tetris", "l2p", "recruiting", "search" ]
     },
     "debugMode": false
   },
