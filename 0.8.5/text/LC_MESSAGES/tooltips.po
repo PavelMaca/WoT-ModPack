@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-04-24 13:11+0100\n"
+"PO-Revision-Date: 2013-04-27 11:05+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -452,10 +452,10 @@ msgid "header/header_buttons/barracks/header"
 msgstr "Kasárna"
 
 msgid "header/header_buttons/hangar/body"
-msgstr "Zavřít všechny okna a vrátit se do garáže."
+msgstr "Vyberte vozidlo a vstupte do bitvy."
 
 msgid "header/header_buttons/hangar/header"
-msgstr "Návrat do garáže"
+msgstr "Zpět do garáže"
 
 msgid "header/header_buttons/inventory/body"
 msgstr "Prodat vozidla, příslušenství, vybavení a spotřební doplňky."
@@ -962,7 +962,7 @@ msgstr ""
 "nebo pošlete tohoto člena posádky do jiného vozidla."
 
 msgid "tankman/status/inactiveSkillsRoleFormat"
-msgstr "«%s»"
+msgstr "\"%s\""
 
 msgid "tankman/status/wrongPremiumVehicle"
 msgstr ""
@@ -1027,19 +1027,19 @@ msgid "techTreePage/nations/china/header"
 msgstr "Přejít na technologický strom Číny"
 
 msgid "techTreePage/nations/france/header"
-msgstr "Přejít na technologický strom Francie"
+msgstr "Přejít na výzkum Francie"
 
 msgid "techTreePage/nations/germany/header"
-msgstr "Přejít na technologický strom Německa"
+msgstr "Přejít na výzkum Německa"
 
 msgid "techTreePage/nations/uk/header"
-msgstr "Přejít na technologický strom Británie"
+msgstr "Přejít na výzkum Británie"
 
 msgid "techTreePage/nations/usa/header"
-msgstr "Přejít na technologický strom USA"
+msgstr "Přejít na výzkum USA"
 
 msgid "techTreePage/nations/ussr/header"
-msgstr "Přejít na technologický strom SSSR"
+msgstr "Přejít na výzkum SSSR"
 
 msgid "training/create/invites_checkbox/body"
 msgstr ""

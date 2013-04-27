@@ -298,7 +298,7 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená CZ v1.40 by "
+"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená CZ v1.50 by "
 "Crabtr33)"
 
 msgid "currentVehicleStatus/ammoNotFull"
@@ -1655,7 +1655,7 @@ msgid "premium/submitContinue"
 msgstr "Prodloužit"
 
 msgid "price/credits"
-msgstr "Kreditů"
+msgstr "kreditů"
 
 msgid "price/gold"
 msgstr "zlaťáků"
@@ -1871,7 +1871,7 @@ msgid "repair/button"
 msgstr "Opravit"
 
 msgid "repair/curiency"
-msgstr "Kreditů"
+msgstr "kreditů"
 
 msgid "repair/repairstatus"
 msgstr "Opraveno:"
