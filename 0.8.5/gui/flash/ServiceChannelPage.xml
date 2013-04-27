@@ -96,7 +96,7 @@
 		</Total>
 		<ExperienceAction>					<!--  Experience for Mid-Week Medal Hunt -->
 			<Visible>true</Visible>							<!-- [true|false] Visible -->
-			<Title>XP za akci:</Title>							<!-- [s] Title text -->
+			<Title>XP z akce:</Title>							<!-- [s] Title text -->
 			<Bold>false</Bold>								<!-- [true|false] Bold -->
 			<FontSize>12</FontSize>							<!-- [n] Font size -->
 			<Color>#00FFFF</Color>							<!-- [#ffffff] Color in 16-hexadecimal -->

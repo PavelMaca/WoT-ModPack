@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-04-24 18:50+0100\n"
+"PO-Revision-Date: 2013-04-27 11:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -141,13 +141,13 @@ msgid "arcade/mixing"
 msgstr "Indikátor rozptylu"
 
 msgid "arcade/mixing/type0"
-msgstr "Kruh, zelený"
+msgstr "Kruh, plný (zelený)"
 
 msgid "arcade/mixing/type1"
-msgstr "Kruh, modrý"
+msgstr "Kruh, plný (modrý)"
 
 msgid "arcade/mixing/type2"
-msgstr "Kruh, tečkovaný"
+msgstr "Kruh, tečkovaný (originální)"
 
 msgid "arcade/mixing/type3"
 msgstr "Nitkový kříž (s posuvným indikátorem nabíjení)"
@@ -771,13 +771,13 @@ msgid "sniper/snpMixing"
 msgstr "Indikátor rozptylu"
 
 msgid "sniper/snpMixing/type0"
-msgstr "Kruh, zelený"
+msgstr "Kruh, plný (zelený)"
 
 msgid "sniper/snpMixing/type1"
-msgstr "Kruh, modrý"
+msgstr "Kruh, plný (modrý)"
 
 msgid "sniper/snpMixing/type2"
-msgstr "Kruh, tečkovaný"
+msgstr "Kruh, tečkovaný (originální)"
 
 msgid "sniper/snpNet"
 msgstr "Indikátory"
