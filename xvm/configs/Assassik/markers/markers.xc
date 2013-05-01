@@ -60,20 +60,13 @@
 		"vehicleIcon": ${"def.vehicleIcon"},
 		"healthBar": ${"def.healthBar"},
 		"damageText": ${"def.damageText"},
-		"damageTextPlayer": {
-			"$ref": { "path":"def.damageText" },
-			"damageMessage": "player {{dmg}}"
-		},
-		"damageTextSquadman": {
-			"$ref": { "path":"def.damageText" },
-			"damageMessage": "squad {{dmg}}"
-		},
+		"damageTextPlayer": ${"def.damageText"},
+		"damageTextSquadman": ${"def.damageText"},
 		"contourIcon": ${"def.contourIcon"},
 		"clanIcon": ${"../defines.xc":"clanIcon"},
 		"levelIcon": ${"def.levelIcon"},
 		"actionMarker": ${"def.actionMarker"}
 	},
-	
 		
 	"def": {
 		  "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
@@ -147,7 +140,7 @@
 		  "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
             "x": 0,                           //   Position on the X axis
-            "y": -74,                         //   Position on the Y axis
+            "y": ${ "defines.xc":"stats.contourIconY" },                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
             "amount": 0                       //   Color intensity from 0 to 100. The default is 0 (off).
