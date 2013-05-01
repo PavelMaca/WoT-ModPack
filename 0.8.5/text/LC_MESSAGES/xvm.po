@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: XVM translation\n"
-"POT-Creation-Date: 2013-04-03 22:38+0100\n"
-"PO-Revision-Date: 2013-04-04 11:46+0100\n"
+"POT-Creation-Date: 2013-04-28 23:59+0100\n"
+"PO-Revision-Date: 2013-04-29 00:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -158,58 +158,74 @@ msgstr "Bitev"
 msgid "userInfo/wins"
 msgstr "Výher"
 
+#: ../template.php:49
+msgid "userInfo/inHangar"
+msgstr "V hangáru"
+
+#: ../template.php:50
+msgid "userInfo/showOnlyTanksInOurHangar"
+msgstr "Zobrazit pouze tanky z vlastního hangáru"
+
 #: ../template.php:51
+msgid "userInfo/filter"
+msgstr "Filter"
+
+#: ../template.php:54
 msgid "crew/putOwnCrew"
 msgstr "Použít vlastní posádku"
 
-#: ../template.php:52
+#: ../template.php:55
 msgid "crew/putBestCrew"
 msgstr "Použít nejlepší posádku"
 
-#: ../template.php:55
-msgid "squad/battleLevels"
+#: ../template.php:58
+msgid "squad/vehicle"
+msgstr "Vozidlo"
+
+#: ../template.php:59
+msgid "squad/battleTiers"
 msgstr "MM"
 
-#: ../template.php:56
+#: ../template.php:60
 msgid "squad/USSR"
 msgstr "USSR"
 
-#: ../template.php:57
+#: ../template.php:61
 msgid "squad/Germany"
 msgstr "Německo"
 
-#: ../template.php:58
+#: ../template.php:62
 msgid "squad/USA"
 msgstr "USA"
 
-#: ../template.php:59
+#: ../template.php:63
 msgid "squad/France"
 msgstr "Francie"
 
-#: ../template.php:60
+#: ../template.php:64
 msgid "squad/UK"
 msgstr "Británie"
 
-#: ../template.php:61
+#: ../template.php:65
 msgid "squad/China"
 msgstr "Čína"
 
-#: ../template.php:62
+#: ../template.php:66
 msgid "squad/HT"
 msgstr "Těžký tank"
 
-#: ../template.php:63
+#: ../template.php:67
 msgid "squad/MT"
 msgstr "Střední tank"
 
-#: ../template.php:64
+#: ../template.php:68
 msgid "squad/LT"
 msgstr "Lehký tank"
 
-#: ../template.php:65
+#: ../template.php:69
 msgid "squad/TD"
 msgstr "Stíhač tanků"
 
-#: ../template.php:66
+#: ../template.php:70
 msgid "squad/SPG"
 msgstr "Dělostřelectvo"
