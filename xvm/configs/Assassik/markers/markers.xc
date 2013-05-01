@@ -60,20 +60,13 @@
 		"vehicleIcon": ${"def.vehicleIcon"},
 		"healthBar": ${"def.healthBar"},
 		"damageText": ${"def.damageText"},
-		"damageTextPlayer": {
-			"$ref": { "path":"def.damageText" },
-			"damageMessage": "player {{dmg}}"
-		},
-		"damageTextSquadman": {
-			"$ref": { "path":"def.damageText" },
-			"damageMessage": "squad {{dmg}}"
-		},
+		"damageTextPlayer": ${"def.damageText"},
+		"damageTextSquadman": ${"def.damageText"},
 		"contourIcon": ${"def.contourIcon"},
 		"clanIcon": ${"../defines.xc":"clanIcon"},
 		"levelIcon": ${"def.levelIcon"},
 		"actionMarker": ${"def.actionMarker"}
 	},
-	
 		
 	"def": {
 		  "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
