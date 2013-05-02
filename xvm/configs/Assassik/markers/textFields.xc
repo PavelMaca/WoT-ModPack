@@ -74,7 +74,6 @@
 	// Text field with win ratio
     "globalWinRate": {
 		"$ref": { "path":"template" },
-		"visible": ${ "defines.xc":"stats.enabled" },
 		"name": "Global Win Rate",
 		"y": -52,
 		"format": "<font color='{{c:t-rating}}'>{{t-rating}}</font>  <font color='{{c:t-battles}}'>{{t-battles}}</font> <font color='{{c:kb}}'>({{kb}})</font>"

@@ -140,7 +140,7 @@
 		  "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
             "x": 0,                           //   Position on the X axis
-            "y": ${ "defines.xc":"stats.contourIconY" },                         //   Position on the Y axis
+            "y": -74,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
             "amount": 0                       //   Color intensity from 0 to 100. The default is 0 (off).
