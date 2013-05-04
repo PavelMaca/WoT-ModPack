@@ -4,7 +4,10 @@
 {
   // Display format for the left column (macros allowed, see readme-en.txt)
   "formatLeft": "<textformat tabstops='[43,73,103,128,163]'>&nbsp;<tab><font color='{{c:rating}}'>{{rating:3}}</font>&nbsp;<tab><font color='{{c:wn}}'>{{wn}}</font>&nbsp;<tab><font color='{{c:kb}}'>{{kb:3}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:t-battles}}'>{{t-battles:4}}</font><tab>&nbsp;</textformat>",
-
+ 
+  // -3 in tabstops='[40,70,100,123,163]
+  "formatLeft_loading": "<textformat tabstops='[40,70,100,123,163]'>&nbsp;<tab><font color='{{c:rating}}'>{{rating:3}}</font>&nbsp;<tab><font color='{{c:wn}}'>{{wn}}</font>&nbsp;<tab><font color='{{c:kb}}'>{{kb:3}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:t-battles}}'>{{t-battles:4}}</font><tab>&nbsp;</textformat>",
+  
   // Display format for the right column (macros allowed, see readme-en.txt)
   "formatRight": "<textformat tabstops='[25,55,85]'><font color='{{c:t-battles}}'>{{t-battles:4}}</font>&nbsp;<tab>|&nbsp;<font color='{{c:kb}}'>{{kb:3}}</font><tab>&nbsp;<font color='{{c:wn}}'>{{wn}}</font><tab>&nbsp;<font color='{{c:rating}}'>{{rating:3}}</font></textformat>",
 
