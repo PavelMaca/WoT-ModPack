@@ -11,7 +11,7 @@
     // Display options for Team/Clan logos
 	"clanIcon": ${"defines.xc":"clanIcon"},
     // Display format for the left Players Panel (macros allowed, see readme-en.txt)
-    "formatLeft": ${"defines.xc":"formatLeft"},
+    "formatLeft": ${"defines.xc":"formatLeft_loading"},
     // Display format for the right Players Panel (macros allowed, see readme-en.txt)
     "formatRight": ${"defines.xc":"formatRight"}
   }
