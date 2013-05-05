@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: XVM translation\n"
-"POT-Creation-Date: 2013-04-28 23:59+0100\n"
-"PO-Revision-Date: 2013-04-29 00:00+0100\n"
+"POT-Creation-Date: 2013-05-05 18:19+0100\n"
+"PO-Revision-Date: 2013-05-05 18:24+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -134,98 +134,117 @@ msgstr "hráč (průměr / nejlepší)"
 msgid "userInfo/effDamage"
 msgstr "Efektivní dmg"
 
-#: ../template.php:43
-msgid "userInfo/level"
-msgstr "Tier"
-
 #: ../template.php:44
-msgid "userInfo/type"
-msgstr "Typ"
+msgid "userInfo/allTanks"
+msgstr "Vše"
 
 #: ../template.php:45
-msgid "userInfo/nation"
-msgstr "Národ"
+msgid "userInfo/allTanksTooltip"
+msgstr "Zobrazit všechny vozidla ve hře"
 
 #: ../template.php:46
-msgid "userInfo/name"
-msgstr "Název"
+msgid "userInfo/playerTanks"
+msgstr "Hraná vozidla"
 
 #: ../template.php:47
-msgid "userInfo/fights"
-msgstr "Bitev"
+msgid "userInfo/playerTanksTooltip"
+msgstr "Zobrazit pouze vozidla s kterými hráč hrál"
 
 #: ../template.php:48
-msgid "userInfo/wins"
-msgstr "Výher"
+msgid "userInfo/inHangar"
+msgstr "V mém hangáru"
 
 #: ../template.php:49
-msgid "userInfo/inHangar"
-msgstr "V hangáru"
+msgid "userInfo/inHangarTooltip"
+msgstr "Zobrazit pouze vozidla z mého hangáru"
 
 #: ../template.php:50
-msgid "userInfo/showOnlyTanksInOurHangar"
-msgstr "Zobrazit pouze tanky z vlastního hangáru"
-
-#: ../template.php:51
 msgid "userInfo/filter"
 msgstr "Filter"
 
+#: ../template.php:52
+msgid "userInfo/level"
+msgstr "Tier"
+
+#: ../template.php:53
+msgid "userInfo/type"
+msgstr "Typ"
+
 #: ../template.php:54
+msgid "userInfo/nation"
+msgstr "Národ"
+
+#: ../template.php:55
+msgid "userInfo/name"
+msgstr "Název"
+
+#: ../template.php:56
+msgid "userInfo/fights"
+msgstr "Bitev"
+
+#: ../template.php:57
+msgid "userInfo/wins"
+msgstr "Výher"
+
+#: ../template.php:60
 msgid "crew/putOwnCrew"
 msgstr "Použít vlastní posádku"
 
-#: ../template.php:55
+#: ../template.php:61
 msgid "crew/putBestCrew"
 msgstr "Použít nejlepší posádku"
 
-#: ../template.php:58
+#: ../template.php:64
 msgid "squad/vehicle"
 msgstr "Vozidlo"
 
-#: ../template.php:59
+#: ../template.php:65
 msgid "squad/battleTiers"
 msgstr "MM"
 
-#: ../template.php:60
+#: ../template.php:66
 msgid "squad/USSR"
 msgstr "USSR"
 
-#: ../template.php:61
+#: ../template.php:67
 msgid "squad/Germany"
 msgstr "Německo"
 
-#: ../template.php:62
+#: ../template.php:68
 msgid "squad/USA"
 msgstr "USA"
 
-#: ../template.php:63
+#: ../template.php:69
 msgid "squad/France"
 msgstr "Francie"
 
-#: ../template.php:64
+#: ../template.php:70
 msgid "squad/UK"
 msgstr "Británie"
 
-#: ../template.php:65
+#: ../template.php:71
 msgid "squad/China"
 msgstr "Čína"
 
-#: ../template.php:66
+#: ../template.php:72
 msgid "squad/HT"
 msgstr "Těžký tank"
 
-#: ../template.php:67
+#: ../template.php:73
 msgid "squad/MT"
 msgstr "Střední tank"
 
-#: ../template.php:68
+#: ../template.php:74
 msgid "squad/LT"
 msgstr "Lehký tank"
 
-#: ../template.php:69
+#: ../template.php:75
 msgid "squad/TD"
 msgstr "Stíhač tanků"
 
-#: ../template.php:70
+#: ../template.php:76
 msgid "squad/SPG"
 msgstr "Dělostřelectvo"
+
+#~ msgid "userInfo/showOnlyTanksInOurHangar"
+#~ msgstr "Zobrazit pouze tanky z vlastního hangáru"
