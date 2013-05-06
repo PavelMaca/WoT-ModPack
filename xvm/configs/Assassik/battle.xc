@@ -1,18 +1,36 @@
 ﻿/**
- * General parameters for the battle interface
+ * General parameters for the battle interface.
+ * Общие параметры боевого интерфейса.
  */
 {
   "battle": {
-    "mirroredVehicleIcons": false,               // false - Disable tank icon mirroring (good for alternative icons). True by default.
-    "showPostmortemTips": true,                 // false - Disable pop-up panel at the bottom after death. True by default.
-    "removePanelsModeSwitcher": false,          // true - Remove the Players Panel mode switcher (buttons for changing size)
-    "highlightVehicleIcon": true,               // false - disable highlighting of own vehicle icon and squad
-    "clockFormat": "H:N",                       // Format of clock on the Debug Panel (near FPS). Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
-    "useStandardMarkers": false,                // true - use standard client vehicle markers
-    "clanIconsFolder": "clanicons"     // path to clan icons folder relative to res_mods/[GAME VERSION]/gui/flash
+    // false - Disable tank icon mirroring (good for alternative icons).
+    // false - отключить зеркалирования иконок танков (полезно для альтернативных иконок).
+    "mirroredVehicleIcons": false,
+    // false - Disable pop-up panel at the bottom after death.
+    // false - отключить всплывающую внизу панель после смерти.
+    "showPostmortemTips": true,
+    // true - Remove the Players Panel mode switcher (buttons for changing size).
+    // true - убрать переключатель режимов ушей мышкой.
+    "removePanelsModeSwitcher": false,
+    // false - disable highlighting of own vehicle icon and squad.
+    // false - отключить подсветку иконки своего танка и взвода.
+    "highlightVehicleIcon": true,
+    // Format of clock on the Debug Panel (near FPS). Format: Y:year, M:month, D:day, H:hour, N:minutes, S:seconds. "" - remove clock.
+    // Формат часов на экране панели отладки (возле FPS). Формат: Y:год, M:месяц, D:день, H:часы, N:минуты, S:секунды. "" - убрать часы.
+    "clockFormat": "H:N",
+    // true - use standard client vehicle markers.
+    // true - использовать стандартные маркеры клиента.
+    "useStandardMarkers": false,
+    // Path to clan icons folder relative to res_mods/xvm/res.
+    // Путь к папке иконок кланов относительно res_mods/xvm/res.
+    "clanIconsFolder": "clanicons"
   },
-  // Frag counter panel at top side of battle windows interface
+  // Frag counter panel at top side of battle windows interface.
+  // Панель счёта в бою.
   "fragCorrelation": {
-    "hideTeamTextFields": true // true - hide textfields "Allies | Enemies"
+    // true - hide textfields "Allies | Enemies".
+    // true - cпрятать два текстовых поля "Союзники | Противники".
+    "hideTeamTextFields": true
   }
 }

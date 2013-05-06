@@ -1,98 +1,141 @@
 ﻿/**
- * Full configuration file (hereinafter - the configuration) with all possible
- * options, default configuration.
+ * Main configuration file (hereinafter - the configuration).
  *
- * Attention! You must NOT use the percent symbol in this file.
+ * Attention! You must NOT use the percent symbol in configuration files.
  * Instead, the percent symbol should be written: \u0025
+ *
+ * --------------------------------------------------------------------------
+ * Esli vy vidite nizhe bessmyslennyj nabor simvolov - smenite kodirovku
+ * na UTF8+BOM
+ *
+ * Главный конфигурационный файл (далее - конфиг).
+ *
+ * Внимание! Использование символа процента в файлах конфига не допустимо.
+ * Вместо символа процента следует писать: \u0025
+ *
+ * Внимание! Кодировка файлов должна оставаться UTF8+BOM. В противном случае
+ * вместо кириллицы в игре будут пустые глифы.
+ * Для редактирования используйте Notepad++. http://goo.gl/y6iet
+ * В случае блокнота Windows: Сохранить как -> Кодировка: UTF.
  */
 {
-   // Version of the config. Do not remove or change it unnecessarily.
+  // Version of the config. Do not remove or change it unnecessarily.
+  // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
   "configVersion": "4.0.0",
 
   // Version of the editor.
+  // Версия редактора.
   "editorVersion": "0.50",
 
   // Common config options. All settings information in the mod not being used.
+  // Общие параметры конфига. Все параметры информационные, в моде не используются.
   "definition": {
-    // сonfig author
+    // Config author.
+    // Автор конфига.
     "author": "Assassik",
 
-    // config description
+    // Config description.
+    // Описание конфига.
     "description": "Special config for modified XVM files by Assassik",
 
-    // address to config updates
+    // Address to config updates.
+    // Адрес, где выкладываются обновления конфига.
     "url": "https://github.com/PavelMaca/WOT-XVM",
 
-    // config last modified
+    // Config last modified.
+    // Дата последней модификации конфига.
     "date": "01.05.2013",
 
-    // supported version of the game
+    // Supported version of the game.
+    // Поддерживаемая версия игры.
     "gameVersion": "0.8.5",
 
-    // minimum required version of the XVM mod
+    // The minimum required version of the XVM mod.
+    // Минимально необходимая версия мода XVM.
     "modMinVersion": "4.0.0"
   },
 
-  // Parametrs of the Hangar
+  // Parameters for hangar.
+  // Параметры ангара.
   "hangar": ${"hangar.xc":"hangar"},
 
-  // Achievements window
+  // Parameters for userinfo window.
+  // Параметры окна достижений.
   "userInfo": ${"hangar.xc":"userInfo"},
 
-  // General parameters for the battle interface
+  // General parameters for the battle interface.
+  // Общие параметры боевого интерфейса.
   "battle": ${"battle.xc":"battle"},
 
-  // Frag counter panel at top side of battle windows interface
+  // Frag counter panel.
+  // Панель счёта в бою.
   "fragCorrelation": ${"battle.xc":"fragCorrelation"},
 
-  // Options for player statistics (only with xvm-stat)
+  // Options for player statistics (only with xvm-stat).
+  // Блок управлением статистикой (только с xvm-stat).
   "rating": ${"rating.xc":"rating"},
 
-  // Special XVM hotkeys
+  // Special XVM hotkeys.
+  // Специальные горячие клавиши XVM.
   "hotkeys": ${"hotkeys.xc":"hotkeys"},
 
-  // Squad window
+  // Parameters for squad window.
+  // Параметры окна взвода.
   "squad": ${"squad.xc":"squad"},
 
-  // Parameters of the Battle Loading Screen
+  // Parameters of the Battle Loading screen.
+  // Параметры экрана загрузки боя.
   "battleLoading": ${"battleLoading.xc":"battleLoading"},
 
-  // Parameters of the Battle Statistics Form
+  // Parameters of the Battle Statistics form.
+  // Параметры окна статистики по клавише Tab.
   "statisticForm": ${"statisticForm.xc":"statisticForm"},
 
-  // Parameters of the Players Panels
+  // Parameters of the Players Panels ("ears").
+  // Параметры панелей игроков ("ушей").
   "playersPanel": ${"playersPanel.xc":"playersPanel"},
 
-  // Parameters of the After Battle Screen
+  // Parameters of the After Battle Screen.
+  // Параметры окна послебоевой статистики.
   "finalStatistic": ${"finalStatistic.xc":"finalStatistic"},
 
-  // {{turret}} marker display strings
+  // {{turret}} marker display strings.
+  // Отображаемые строки {{turret}} маркера.
   "turretMarkers": ${"turretMarkers.xc":"turretMarkers"},
 
-  // Hit log (my hits calculator)
+  // Hit log (my hits calculator).
+  // Лог попаданий (счетчик своих попаданий).
   "hitLog": ${"hitLog.xc":"hitLog"},
 
-  // Capture bar
+  // Capture bar.
+  // Полоса захвата.
   "captureBar": ${"captureBar.xc":"captureBar"},
 
-  // Minimap
+  // Minimap.
+  // Миникарта.
   "minimap": ${"minimap/minimap.xc":"minimap"},
 
-  // Over-target markers
+  // Over-target markers.
+  // Маркеры над танками.
   "markers": ${"markers/markers.xc":"markers"},
 
-  // Color settings
+  // Color settings.
+  // Настройки цветов.
   "colors": ${"colors.xc":"colors"},
 
-  // Options for dynamic transparency
+  // Options for dynamic transparency.
+  // Настройки динамической прозрачности.
   "alpha": ${"alpha.xc":"alpha"},
 
-  // Text substitutions
+  // Text substitutions.
+  // Текстовые подстановки.
   "texts": ${"texts.xc":"texts"},
 
-  // Icon sets
+  // Icon sets.
+  // Наборы иконок.
   "iconset": ${"iconset.xc":"iconset"},
 
-  // Vehicle names mapping. null value for standard name.
+  // Vehicle names mapping.
+  // Замена названий танков.
   "vehicleNames": ${"vehicleNames.xc":"vehicleNames"}
 }
