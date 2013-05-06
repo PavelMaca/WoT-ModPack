@@ -1,33 +1,53 @@
 ﻿/**
- *
+ * General parameters for minimap.
+ * Общие параметры миникарты. Видео по некоторым аспектам редактирования http://www.youtube.com/watch?feature=player_embedded&v=NBJcqWuEoLo
  */
 {
-  // Minimap
   "minimap": {
-    // Hint: minimap size can be changed by "-" and "=" keyboard buttons.
-    // Fields can load images from disk by HTML:
-    //   "format": { "ally": "<img src='img://../icons/bzz.png' width='8' height='8'>"}, ...
-    //   While file is at WoT\res_mods\icons\bzz.png
-    //
-    "enabled": true,                // false - Disable
-    "mapBackgroundImageAlpha": 100, // Map image transparency.
-    "selfIconAlpha": 100,           // Self icon transparency. White pointing arrow.
-    "cameraAlpha": 100,             // Camera transparency and its attached geometry. Green triangle.
-    "iconScale": 1,                 // Vehicles icon size.
-                                    // Does not affect attached geometry and textfields.
-                                    // Floating point allowed: 0.7 1.4.
-    "zoom": { // Map zoom by key pressing. Key is defined at "keys" upper level section.
-      "pixelsBack": 160,  // Number of pixels to get back from maximum size
-      "centered": true    // Center zoomed minimap at display center
+    // false - Disable.
+    // false - отключить.
+    "enabled": true,
+    // Map image transparency.
+    // Прозрачность изображения карты.
+    "mapBackgroundImageAlpha": 100,
+    // Self icon transparency. White pointing arrow.
+    // Прозрачность своей иконки. Белая стрелка.
+    "selfIconAlpha": 100,
+    // Camera transparency and its attached geometry (green triangle).
+    // Прозрачность камеры и прикрепленной геометрии (зеленый треугольник).
+    "cameraAlpha": 100,
+    // Vehicles icon size. Does not affect attached geometry and textfields. Floating point allowed: 0.7, 1.4.
+    // Размер иконки техники. Не влияет на прикрепленную к геометрию и текстовые поля. Можно дробные: 0.7, 1.4.
+    "iconScale": 1,
+    // Map zoom by key pressing. Key is defined at file "hotkeys.xc".
+    // Увеличение миникарты по нажатию кнопки. Кнопка задается в файле "hotkeys.xc".
+    "zoom": {
+      // Number of pixels to get back from maximum size (screen height-minimap height).
+      // Число пикселей для уменьшения миникарты от максимального размера (высота экрана-высота миникарты).
+      "pixelsBack": 160,
+      // false - does not set zoomed minimap at display center.
+      // false - не устанавливать увеличенную миникарту по центру экрана.
+      "centered": true
     },
+    // Minimap labels.
+    // Надписи на миникарте.
     "labels": ${"minimapLabels.xc":"labels"},
+    // Minimap circles.
+    // Круги на миникарте.
     "circles": ${"minimapCircles.xc":"circles"},
+    // Minimap lines.
+    // Линии на миникарте.
     "lines": ${"minimapLines.xc":"lines"},
-    "square" : { // Square with 1000m side. Shows maximum unit draw distance.
+    "square" : { // Квадрат со стороной 1000m. Показывает границы максимальной отрисовка юнитов.
       "enabled": true,
-      "artilleryEnabled": false, // Show square if using artillery\SPG vehicle
+      // Show square if using artillery\SPG vehicle.
+      // Показывать ли квадрат в случае артиллерии.
+      "artilleryEnabled": false,
+      // Толщина линии.
       "thickness": 0.7,
+      // Прозрачность.
       "alpha": 40,
+      // Цвет.
       "color": "0xFFFFFF"
     }
   }

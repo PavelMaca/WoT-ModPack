@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: XVM translation\n"
 "POT-Creation-Date: 2013-05-05 18:19+0100\n"
-"PO-Revision-Date: 2013-05-05 18:24+0100\n"
+"PO-Revision-Date: 2013-05-06 10:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -152,7 +152,7 @@ msgstr "Zobrazit pouze vozidla s kterými hráč hrál"
 
 #: ../template.php:48
 msgid "userInfo/inHangar"
-msgstr "V mém hangáru"
+msgstr "V hangáru"
 
 #: ../template.php:49
 msgid "userInfo/inHangarTooltip"
