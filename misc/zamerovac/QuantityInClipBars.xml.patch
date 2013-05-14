@@ -1,0 +1,17 @@
+--- orig/QuantityInClipBars.xml	2013-05-14 19:40:59.633000000 +0200
++++ QuantityInClipBars.xml	2013-05-14 19:47:50.911000000 +0200
+@@ -9678,12 +9678,12 @@
+           </FrameLabel>
+           <PlaceObject2 replace="0" depth="1" objectID="216" name="capacityBar">
+             <transform>
+-              <Transform transX="780" transY="0"/>
++              <Transform transX="380" transY="800"/>
+             </transform>
+           </PlaceObject2>
+           <PlaceObject2 replace="0" depth="3" objectID="223" name="quantityInClipBar">
+             <transform>
+-              <Transform transX="780" transY="0"/>
++              <Transform transX="380" transY="800"/>
+             </transform>
+           </PlaceObject2>
+           <ShowFrame/>
