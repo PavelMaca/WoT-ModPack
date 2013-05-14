@@ -18,36 +18,36 @@
       "updateInterval": 10000,
       // Axis field coordinates
       // Положение поля по осям
-      "x": 100,
-      "y": 25,
+      "x": 170,
+      "y": 35,
       // Transparecy
       // Прозрачность от 0 до 100
-      "alpha": 50,
-      // Server to responce time text delimeter
+      "alpha": 80,
+      // Server to responce time text delimiter
       // Разделитель сервера от времени отклика
-      "delimeter": ": ",
+      "delimiter": ": ",
       // Maximum number of column rows
       // Максимальное количество строк одной колонки
       "maxRows": 4,
       // Gap between columns
       // Пространство между колонками
-      "columnGap": 5,
+      "columnGap": 10,
       // Text style
       // Стиль текста
       "fontStyle": {
         // Font name
         // Название шрифта
         "name": "$FieldFont",
-        "size": 14, // Размер
+        "size": 12, // Размер
         "bold": false,  // Жирный
         "italic": false, // Курсив
         // Different colors depending on server responce time
         // Разные цвета в зависимости от времени отклика сервера
         "color": {
-          "great": "0x33FFCC", // Отличный
-          "good": "0x99FF33",  // Хороший
-          "poor": "0xFFFF33",  // Так себе
-          "bad": "0xFF7733"    // Плохой
+          "great": "0xFFCC66", // Отличный
+          "good": "0xE5E4E1",  // Хороший
+          "poor": "0x96948F",  // Так себе
+          "bad": "0xD64D4D"    // Плохой
         }
       },
       // Threshold values defining responce quality
@@ -71,9 +71,9 @@
         "color": "0x000000",
         "distance": 0,
         "angle": 0,
-        "alpha": 100,
-        "blur": 3,
-        "strength": 5
+        "alpha": 70,
+        "blur": 4,
+        "strength": 2
       }
     }
   },
