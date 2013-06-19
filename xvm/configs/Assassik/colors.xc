@@ -1,208 +1,316 @@
 ﻿/**
- *
+ * Color settings.
+ * Настройки цветов.
  */
 {
-	"def":{
-		"white": "0xFCFCFC",
-		"yellow": "0xF8F400",
-		"gold": "0xFFCC33",
-		
-		"orange": "0xFE7903",
-		"lightOrange": "0xFFB964",
-		
-		"red": "0xF50800", 
-		"darkRed": "0xCC3333",
-		
-		"lightBlue": "0x00EAFF",
-		"lightGreen": "0x96FF00",
-		
-		"turquoise": "0x02C9B3",
-		"purple": "0xD042F3"
-		
-	},
-	
-	"ranking": {
-	  "error": 		${"def.white"},
-      "veryBad": 	${"def.red"},
-      "bad":		${"def.orange"},
-      "normal":		${"def.yellow"},
-      "good":		${"def.lightGreen"},
-      "veryGood":	${"def.turquoise"},
-      "unique":		${"def.purple"}
-	},
-		
-   // Color settings
+  // Color values for substitutions.
+  // Значения цветов для подстановок.
+  "def": {
+    "al": "0x96FF00", // ally       / союзник
+    "sq": "0xFFB964", // squadman   / взводный
+    "tk": "0x00EAFF", // teamKiller / тимкиллер
+    "en": "0xF50800", // enemy      / противник
+    "pl": "0xFFDD33", // player     / игрок
+    // Dynamic color by various statistical parameters.
+    // Динамический цвет по различным статистическим показателям.
+    "colorRating": {
+      "undefined":    "0xFCFCFC",   // undefined  / неопределенно
+      "very_bad":     "0xFE0E00",   // very bad   / очень плохо
+      "bad":          "0xFE7903",   // bad        / плохо
+      "normal":       "0xF8F400",   // normal     / средне
+      "good":         "0x60FF00",   // good       / хорошо
+      "very_good":    "0x02C9B3",   // very good  / очень хорошо
+      "unique":       "0xD042F3"    // unique     / уникально
+    },
+    // Dynamic color by remaining health points.
+    // Динамический цвет по оставшемуся запасу прочности.
+    "colorHP": {
+      "very_low":         "0xFF0000",   // very low       / очень низкий
+      "low":              "0xDD4444",   // low            / низкий
+      "average":          "0xFFCC22",   // average        / средний
+      "above_average":    "0xFCFCFC"    // above-average  / выше среднего
+    }
+  },
   "colors": {
-    // System colors
+    // System colors.
+    // Системные цвета.
     "system": {
-	  "ally_alive_normal": ${"def.lightGreen"},             // Ally - alive
-      "ally_alive_blind": ${"def.lightGreen"},              // Ally - alive - color blind mode
-      "ally_dead_normal": "0x009900",              // Ally - dead
-      "ally_dead_blind": "0x009900",               // Ally - dead - color blind mode
-      "ally_blowedup_normal": "0x007700",          // Ally - blown-up
-      "ally_blowedup_blind": "0x007700",           // Ally - blown-up - color blind mode
-      "squadman_alive_normal": ${"def.lightOrange"},         // Platoon member - alive
-      "squadman_alive_blind": "0xFFFF00",          // Platoon member - alive - color blind mode
-      "squadman_dead_normal": "0xCA7000",          // Platoon member - dead
-      "squadman_dead_blind": "0xAAAA00",           // Platoon member - dead - color blind mode
-      "squadman_blowedup_normal": "0xA45A00",      // Platoon member - blown-up
-      "squadman_blowedup_blind": "0x888800",       // Platoon member - blown-up - color blind mode
-      "teamKiller_alive_normal": ${"def.lightBlue"},       // Team killer - alive
-      "teamKiller_alive_blind": ${"def.lightBlue"},        // Team killer - alive - color blind mode
-      "teamKiller_dead_normal": "0x097783",        // Team killer - dead
-      "teamKiller_dead_blind": "0x097783",         // Team killer - dead - color blind mode
-      "teamKiller_blowedup_normal": "0x096A75",    // Team killer - blown-up
-      "teamKiller_blowedup_blind": "0x096A75",     // Team killer - blown-up - color blind mode
-      "enemy_alive_normal": ${"def.red"},            // Enemy - alive
-      "enemy_alive_blind": "0x8379FE",             // Enemy - alive - color blind mode
-      "enemy_dead_normal": "0x840500",             // Enemy - dead
-      "enemy_dead_blind": "0x47407A",              // Enemy - dead - color blind mode
-      "enemy_blowedup_normal": "0x5A0401",         // Enemy - blown-up
-      "enemy_blowedup_blind": "0x3B365F"           // Enemy - blown-up - color blind mode
+      // Format: object_state
+      // Object:      ally, squadman, teamKiller, enemy
+      // State:       alive, dead, blowedup
+      // ----
+      // Формат: объект_состояние
+      // Объект:      ally - союзник, squadman - взводный, teamKiller - тимкиллер, enemy - противник
+      // Состояние:   alive - живой, dead - мертвый, blowedup - взорвана боеукладка
+      "ally_alive":          ${"def.al"},
+      "ally_dead":           "0x009900",
+      "ally_blowedup":       "0x007700",
+      "squadman_alive":      ${"def.sq"},
+      "squadman_dead":       "0xCA7000",
+      "squadman_blowedup":   "0xA45A00",
+      "teamKiller_alive":    ${"def.tk"},
+      "teamKiller_dead":     "0x097783",
+      "teamKiller_blowedup": "0x096A75",
+      "enemy_alive":         ${"def.en"},
+      "enemy_dead":          "0x840500",
+      "enemy_blowedup":      "0x5A0401"
     },
-    // Color for damage text animation
-    //   src_dst_type
-    //   src: ally, squadman, enemy, unknown, player
-    //   dst: ally, squadman, allytk, enemytk, enemy
-    //   type: hit, kill, blowup
-    "damage": ${"colorsDamage.xc":"damage"},
-    // Damage kind
+    // Dynamic color by damage kind.
+    // Динамический цвет по типу урона.
     "dmg_kind": {
-      "attack": "0xFFAA55",                        // attack
-      "fire": "0xFF6655",                          // fire
-      "ramming": "0x998855",                       // ramming
-      "world_collision": "0x228855",               // world_collision
-      "other": "0xCCCCCC"                          // other
+      "attack": "0xFFAA55",          // attack / атака
+      "fire": "0xFF6655",            // fire / пожар
+      "ramming": "0x998855",         // ramming / таран
+      "world_collision": "0x228855", // world collision / столкновение с объектами, падение
+      "other": "0xCCCCCC"            // other / другое
     },
-    // Dynamic color by vehicle type
+    // Dynamic color by vehicle type.
+    // Динамический цвет по типу техники.
     "vtype": {
-      "LT":  "0xA2FF9A",                           // Color for light tanks
-      "MT":  "0xFFF198",                           // Color for medium tanks
-      "HT":  "0xFFACAC",                           // Color for heavy tanks
-      "SPG": "0xEFAEFF",                           // Color for arty
-      "TD":  "0xA0CFFF",                           // Color for tank destroyers
-      "premium": "0xFFCC66",                       // Color for premium tanks
-      "usePremiumColor": false                     // Enable/disable premium color usage
+      // Цвет для легких танков.
+      "LT":  "0xA2FF9A",
+      // Цвет для средних танков.
+      "MT":  "0xFFF198",
+      // Цвет для тяжелых танков.
+      "HT":  "0xFFACAC",
+      // Цвет для арты.
+      "SPG": "0xEFAEFF",
+      // Цвет для ПТ.
+      "TD":  "0xA0CFFF",
+      // Цвет для премиумной техники.
+      "premium": "0xFFCC66",
+      // Включить/выключить использование премиумного цвета.
+      "usePremiumColor": false
     },
-    // Dynamic color by remaining absolute health
+    // Color settings for damage.
+    // Настройки цвета для урона.
+    "damage": {
+      // Format: src_dst_type.
+      // Src:  ally, squadman, enemy, unknown, player.
+      // Dst:  ally, squadman, allytk, enemytk, enemy.
+      // Type: hit, kill, blowup.
+      // ----
+      // Формат: источник_получатель_тип.
+      // Источник:   ally - союзник, squadman - взводный, enemy - противник, unknown - неизвестный (не виден игроку), player - игрок.
+      // Получатель: ally, squadman, enemy, allytk - союзник тимкиллер, enemytk - противник тимкиллер.
+      // Тип:        hit - попадание, kill - убийство, blowup - боеукладка.
+      "ally_ally_hit":		${"def.tk"},
+      "ally_ally_kill":		${"def.tk"},
+      "ally_ally_blowup":	${"def.tk"},
+      "ally_squadman_hit":	${"def.tk"},
+      "ally_squadman_kill":	${"def.tk"},
+      "ally_squadman_blowup":	${"def.tk"},
+      "ally_enemy_hit":		${"def.en"},
+      "ally_enemy_kill":	${"def.en"},
+      "ally_enemy_blowup":	${"def.en"},
+      "ally_allytk_hit":	${"def.tk"},
+      "ally_allytk_kill":	${"def.tk"},
+      "ally_allytk_blowup":	${"def.tk"},
+      "ally_enemytk_hit":	${"def.en"},
+      "ally_enemytk_kill":	${"def.en"},
+      "ally_enemytk_blowup":	${"def.en"},
+      "squadman_ally_hit":	${"def.tk"},
+      "squadman_ally_kill":	${"def.tk"},
+      "squadman_ally_blowup":	${"def.tk"},
+      "squadman_squadman_hit":	${"def.tk"},
+      "squadman_squadman_kill":	${"def.tk"},
+      "squadman_squadman_blowup":	${"def.tk"},
+      "squadman_enemy_hit":	${"def.en"},
+      "squadman_enemy_kill":	${"def.en"},
+      "squadman_enemy_blowup":	${"def.en"},
+      "squadman_allytk_hit":	${"def.tk"},
+      "squadman_allytk_kill":	${"def.tk"},
+      "squadman_allytk_blowup":	${"def.tk"},
+      "squadman_enemytk_hit":	${"def.en"},
+      "squadman_enemytk_kill":	${"def.en"},
+      "squadman_enemytk_blowup":${"def.en"},
+      "enemy_ally_hit":		${"def.al"},
+      "enemy_ally_kill":	${"def.al"},
+      "enemy_ally_blowup":	${"def.al"},
+      "enemy_squadman_hit":	${"def.sq"},
+      "enemy_squadman_kill":	${"def.sq"},
+      "enemy_squadman_blowup":	${"def.sq"},
+      "enemy_enemy_hit":	${"def.en"},
+      "enemy_enemy_kill":	${"def.en"},
+      "enemy_enemy_blowup":	${"def.en"},
+      "enemy_allytk_hit":	${"def.al"},
+      "enemy_allytk_kill":	${"def.al"},
+      "enemy_allytk_blowup":	${"def.al"},
+      "enemy_enemytk_hit":	${"def.en"},
+      "enemy_enemytk_kill":	${"def.en"},
+      "enemy_enemytk_blowup":	${"def.en"},
+      "unknown_ally_hit":	${"def.al"},
+      "unknown_ally_kill":	${"def.al"},
+      "unknown_ally_blowup":	${"def.al"},
+      "unknown_squadman_hit":	${"def.sq"},
+      "unknown_squadman_kill":	${"def.sq"},
+      "unknown_squadman_blowup":${"def.sq"},
+      "unknown_enemy_hit":	${"def.en"},
+      "unknown_enemy_kill":	${"def.en"},
+      "unknown_enemy_blowup":	${"def.en"},
+      "unknown_allytk_hit":	${"def.al"},
+      "unknown_allytk_kill":	${"def.al"},
+      "unknown_allytk_blowup":	${"def.al"},
+      "unknown_enemytk_hit":	${"def.en"},
+      "unknown_enemytk_kill":	${"def.en"},
+      "unknown_enemytk_blowup":	${"def.en"},
+      "player_ally_hit":	${"def.pl"},
+      "player_ally_kill":	${"def.pl"},
+      "player_ally_blowup":	${"def.pl"},
+      "player_squadman_hit":	${"def.pl"},
+      "player_squadman_kill":	${"def.pl"},
+      "player_squadman_blowup":	${"def.pl"},
+      "player_enemy_hit":	${"def.pl"},
+      "player_enemy_kill":	${"def.pl"},
+      "player_enemy_blowup":	${"def.pl"},
+      "player_allytk_hit":	${"def.pl"},
+      "player_allytk_kill":	${"def.pl"},
+      "player_allytk_blowup":	${"def.pl"},
+      "player_enemytk_hit":	${"def.pl"},
+      "player_enemytk_kill":	${"def.pl"},
+      "player_enemytk_blowup":	${"def.pl"}
+    },
+    // Values below should be from smaller to larger.
+    // Значения ниже должны быть от меньшего к большему.
+    // ----
+    // Dynamic color by remaining absolute health.
+    // Динамический цвет по оставшемуся здоровью.
     "hp": [
-      { "value": 201,  "color": ${"def.red"} },    // Color for health less than 201
-      { "value": 401,  "color": ${"def.darkRed"} },    // Color for health less than 401
-      { "value": 1001, "color": ${"def.gold"} },    // Color for health less than 1001
-      { "value": 9999, "color": ${"def.white"} }     // Color for health 1000 and more
+      { "value": 201,  "color": ${"def.colorHP.very_low"     } },      // Цвет для значений менее 201
+      { "value": 401,  "color": ${"def.colorHP.low"          } },      // Цвет для значений менее 401
+      { "value": 1001, "color": ${"def.colorHP.average"      } },      // Цвет для значений менее 1001
+      { "value": 9999, "color": ${"def.colorHP.above_average"} }       // Цвет для остальных значений
     ],
-    // Dynamic color by remaining health percent
+    // Dynamic color by remaining health percent.
+    // Динамический цвет по проценту оставшегося здоровья.
     "hp_ratio": [
-      { "value": 10,  "color": ${"def.red"} },    // Color for health less than 10 prercent
-      { "value": 25,  "color": ${"def.darkRed"} },    // Color for health less than 25 prercent
-      { "value": 50,  "color": ${"def.gold"} },    // Color for health less than 50 prercent
-      { "value": 101, "color": ${"def.white"} }     // Color for health 50 prercent and more
+      { "value": 10,  "color": ${"def.colorHP.very_low"     } },       // Цвет для значений менее 10 проц
+      { "value": 25,  "color": ${"def.colorHP.low"          } },       // Цвет для значений менее 25 проц
+      { "value": 50,  "color": ${"def.colorHP.average"      } },       // Цвет для значений менее 50 проц
+      { "value": 101, "color": ${"def.colorHP.above_average"} }        // Цвет для остальных значений
     ],
-    // Dynamic color for XVM Scale (only with xvm-stat)
-    // http://www.koreanrandom.com/forum/topic/2625-xvm-scale
+    // Dynamic color for XVM Scale (only with xvm-stat).
+    // Динамический цвет по шкале XVM (только с xvm-stat).
+    // http://www.koreanrandom.com/forum/topic/2625-/
     "x": [
-      { "value": 17,  "color": ${"ranking.veryBad"} },   // 00   - 16.5 - very bad   (20% of players)
-      { "value": 34,  "color": ${"ranking.bad"} },   // 16.5 - 33.5 - bad        (better then 20% of players)
-      { "value": 53,  "color": ${"ranking.normal"} },   // 33.5 - 52.5 - normal     (better then 60% of players)
-      { "value": 76,  "color": ${"ranking.good"} },   // 52.5 - 75.5 - good       (better then 90% of players)
-      { "value": 93,  "color": ${"ranking.veryGood"} },   // 75.5 - 92.5 - very good  (better then 99% of players)
-      { "value": 999, "color": ${"ranking.unique"} }    // 92.5 - XX   - unique     (better then 99.9% of players)
+      { "value": 17,  "color": ${"def.colorRating.very_bad" } },   // 00   - 16.5 - very bad   (20% of players)
+      { "value": 34,  "color": ${"def.colorRating.bad"      } },   // 16.5 - 33.5 - bad        (better then 20% of players)
+      { "value": 53,  "color": ${"def.colorRating.normal"   } },   // 33.5 - 52.5 - normal     (better then 60% of players)
+      { "value": 76,  "color": ${"def.colorRating.good"     } },   // 52.5 - 75.5 - good       (better then 90% of players)
+      { "value": 93,  "color": ${"def.colorRating.very_good"} },   // 75.5 - 92.5 - very good  (better then 99% of players)
+      { "value": 999, "color": ${"def.colorRating.unique"   } }    // 92.5 - XX   - unique     (better then 99.9% of players)
     ],
-    // Dynamic color by efficiency (only with xvm-stat)
+    // Dynamic color by efficiency (only with xvm-stat).
+    // Динамический цвет по эффективности (только с xvm-stat).
     "eff": [
-      { "value": 645,  "color": ${"ranking.veryBad"} },   //    0 - 644  - very bad
-      { "value": 875,  "color": ${"ranking.bad"} },   //  645 - 869  - bad
-      { "value": 1155, "color": ${"ranking.normal"} },   //  870 - 1149 - normal
-      { "value": 1470, "color": ${"ranking.good"} },   // 1150 - 1464 - good
-      { "value": 1740, "color": ${"ranking.veryGood"} },   // 1465 - 1724 - very good
-      { "value": 9999, "color": ${"ranking.unique"} }    // 1725 - *    - unique
+      { "value": 645,  "color": ${"def.colorRating.very_bad" } },  //    0 - 644  - very bad
+      { "value": 875,  "color": ${"def.colorRating.bad"      } },  //  645 - 874  - bad
+      { "value": 1155, "color": ${"def.colorRating.normal"   } },  //  875 - 1154 - normal
+      { "value": 1470, "color": ${"def.colorRating.good"     } },  // 1155 - 1469 - good
+      { "value": 1740, "color": ${"def.colorRating.very_good"} },  // 1470 - 1739 - very good
+      { "value": 9999, "color": ${"def.colorRating.unique"   } }   // 1740 - *    - unique
     ],
-    // Dynamic color by WN6 rating (only with xvm-stat)
+    // Dynamic color by WN6 rating (only with xvm-stat).
+    // Динамический цвет по рейтингу WN6 (только с xvm-stat).
     "wn": [
-      { "value": 435,  "color": ${"ranking.veryBad"} },   //    0 - 434  - very bad
-      { "value": 805,  "color": ${"ranking.bad"} },   //  435 - 799  - bad
-      { "value": 1200, "color": ${"ranking.normal"} },   //  800 - 1194 - normal
-      { "value": 1595, "color": ${"ranking.good"} },   // 1195 - 1584 - good
-      { "value": 1900, "color": ${"ranking.veryGood"} },   // 1585 - 1879 - very good
-      { "value": 9999, "color": ${"ranking.unique"} }    // 1880 - *    - unique
+      { "value": 435,  "color": ${"def.colorRating.very_bad" } },  //    0 - 434  - very bad
+      { "value": 805,  "color": ${"def.colorRating.bad"      } },  //  435 - 804  - bad
+      { "value": 1200, "color": ${"def.colorRating.normal"   } },  //  805 - 1199 - normal
+      { "value": 1595, "color": ${"def.colorRating.good"     } },  // 1200 - 1594 - good
+      { "value": 1900, "color": ${"def.colorRating.very_good"} },  // 1595 - 1899 - very good
+      { "value": 9999, "color": ${"def.colorRating.unique"   } }   // 1900 - *    - unique
     ],
+    // Dynamic color by TEFF (E) rating (only with xvm-stat).
+    // Динамический цвет по рейтингу TEFF (E) (только с xvm-stat).
     "e": [
-      { "value": 0.01, "color": ${"ranking.error"} },
-      { "value": 2,    "color": ${"ranking.veryBad"} },
-      { "value": 4,    "color": ${"ranking.bad"} },
-      { "value": 5,    "color": ${"ranking.normal"} },
-      { "value": 7,    "color": ${"ranking.good"} },
-      { "value": 9,    "color": ${"ranking.veryGood"} },
-      { "value": 20,   "color": ${"ranking.unique"} }
+      { "value": 0.01, "color": ${"def.colorRating.undefined"} },
+      { "value": 2,    "color": ${"def.colorRating.very_bad" } },
+      { "value": 4,    "color": ${"def.colorRating.bad"      } },
+      { "value": 5,    "color": ${"def.colorRating.normal"   } },
+      { "value": 7,    "color": ${"def.colorRating.good"     } },
+      { "value": 9,    "color": ${"def.colorRating.very_good"} },
+      { "value": 20,   "color": ${"def.colorRating.unique"   } }
     ],
-    // Dynamic color by win percent (only with xvm-stat)
+    // Dynamic color by win percent (only with xvm-stat).
+    // Динамический цвет по проценту побед (только с xvm-stat).
     "rating": [
-      { "value": 47,  "color": ${"ranking.veryBad"} },   //  0   - 46.5  - very bad
-      { "value": 49,  "color": ${"ranking.bad"} },   // 46.5 - 48.5  - bad
-      { "value": 52,  "color": ${"ranking.normal"} },   // 48.5 - 51.5  - normal
-      { "value": 57,  "color": ${"ranking.good"} },   // 51.5 - 56.5  - good
-      { "value": 64,  "color": ${"ranking.veryGood"} },   // 56.5 - 63.5  - very good
-      { "value": 101, "color": ${"ranking.unique"} }    // 63.5 - 100   - unique
+      { "value": 47,  "color": ${"def.colorRating.very_bad" } },   //  0   - 46.5  - very bad
+      { "value": 49,  "color": ${"def.colorRating.bad"      } },   // 46.5 - 48.5  - bad
+      { "value": 52,  "color": ${"def.colorRating.normal"   } },   // 48.5 - 51.5  - normal
+      { "value": 57,  "color": ${"def.colorRating.good"     } },   // 51.5 - 56.5  - good
+      { "value": 64,  "color": ${"def.colorRating.very_good"} },   // 56.5 - 63.5  - very good
+      { "value": 101, "color": ${"def.colorRating.unique"   } }    // 63.5 - 100   - unique
     ],
-    // Dynamic color by TWR (T-Calc) (only with xvm-stat)
+    // Dynamic color by TWR (T-Calc) (only with xvm-stat).
+    // Динамический цвет по TWR (T-Calc) (только с xvm-stat).
     "twr": [
-      { "value": 47,  "color": ${"ranking.veryBad"} },   //  0   - 46.5  - very bad
-      { "value": 49,  "color": ${"ranking.bad"} },   // 46.5 - 48.5  - bad
-      { "value": 52,  "color": ${"ranking.normal"} },   // 48.5 - 51.5  - normal
-      { "value": 57,  "color": ${"ranking.good"} },   // 51.5 - 56.5  - good
-      { "value": 62,  "color": ${"ranking.veryGood"} },   // 56.5 - 61.5  - very good
-      { "value": 101, "color": ${"ranking.unique"} }    // 61.5 - 100   - unique
+      { "value": 47,  "color": ${"def.colorRating.very_bad" } },   //  0   - 46.5  - very bad
+      { "value": 49,  "color": ${"def.colorRating.bad"      } },   // 46.5 - 48.5  - bad
+      { "value": 52,  "color": ${"def.colorRating.normal"   } },   // 48.5 - 51.5  - normal
+      { "value": 57,  "color": ${"def.colorRating.good"     } },   // 51.5 - 56.5  - good
+      { "value": 62,  "color": ${"def.colorRating.very_good"} },   // 56.5 - 61.5  - very good
+      { "value": 101, "color": ${"def.colorRating.unique"   } }    // 61.5 - 100   - unique
     ],
-    // Dynamic color by kilo-battles (only with xvm-stat)
+    // Dynamic color by kilo-battles (only with xvm-stat).
+    // Динамический цвет по количеству кило-боев (только с xvm-stat).
     "kb": [
-      { "value": 2,   "color": ${"ranking.veryBad"} },   //  0 - 1
-      { "value": 5,   "color": ${"ranking.bad"} },   //  2 - 4
-      { "value": 9,   "color": ${"ranking.normal"} },   //  5 - 8
-      { "value": 14,  "color": ${"ranking.good"} },   //  9 - 13
-      { "value": 20,  "color": ${"ranking.veryGood"} },   // 14 - 19
-      { "value": 999, "color": ${"ranking.unique"} }    // 20 - *
+      { "value": 2,   "color": ${"def.colorRating.very_bad" } },   //  0 - 1
+      { "value": 5,   "color": ${"def.colorRating.bad"      } },   //  2 - 4
+      { "value": 9,   "color": ${"def.colorRating.normal"   } },   //  5 - 8
+      { "value": 14,  "color": ${"def.colorRating.good"     } },   //  9 - 13
+      { "value": 20,  "color": ${"def.colorRating.very_good"} },   // 14 - 19
+      { "value": 999, "color": ${"def.colorRating.unique"   } }    // 20 - *
     ],
-    // Dynamic color by battles on current tank (only with xvm-stat)
+    // Dynamic color by battles on current tank (only with xvm-stat).
+    // Динамический цвет по количеству боев на текущем танке (только с xvm-stat).
     "t_battles": [
-      { "value": 100,   "color": ${"ranking.veryBad"} }, //    0 - 99
-      { "value": 250,   "color": ${"ranking.bad"} }, //  100 - 249
-      { "value": 500,   "color": ${"ranking.normal"} }, //  250 - 499
-      { "value": 1000,  "color": ${"ranking.good"} }, //  500 - 999
-      { "value": 1800,  "color": ${"ranking.veryGood"} }, // 1000 - 1799
-      { "value": 99999, "color": ${"ranking.unique"} }  // 1800 - *
+      { "value": 100,   "color": ${"def.colorRating.very_bad" } }, //    0 - 99
+      { "value": 250,   "color": ${"def.colorRating.bad"      } }, //  100 - 249
+      { "value": 500,   "color": ${"def.colorRating.normal"   } }, //  250 - 499
+      { "value": 1000,  "color": ${"def.colorRating.good"     } }, //  500 - 999
+      { "value": 1800,  "color": ${"def.colorRating.very_good"} }, // 1000 - 1799
+      { "value": 99999, "color": ${"def.colorRating.unique"   } }  // 1800 - *
     ],
+    // Dynamic color by average damage on current tank (only with xvm-stat).
+    // Динамический цвет по среднему урону за бой на текущем танке (только с xvm-stat).
     "tdb": [
-      { "value": 1,    "color": ${"ranking.error"} },
-      { "value": 500,  "color": ${"ranking.veryBad"} },
-      { "value": 1000, "color": ${"ranking.normal"} },
-      { "value": 2000, "color": ${"ranking.good"} }
+      { "value": 1,    "color": ${"def.colorRating.undefined"} },
+      { "value": 500,  "color": ${"def.colorRating.very_bad" } },
+      { "value": 1000, "color": ${"def.colorRating.normal"   } },
+      { "value": 2000, "color": ${"def.colorRating.good"     } }
     ],
+    // Dynamic color by average damage efficiency on current tank (only with xvm-stat).
+    // Динамический цвет по эффективности урона за бой на текущем танке (только с xvm-stat).
     "tdv": [
-      { "value": 0.01, "color": ${"ranking.error"} },
-      { "value": 0.6,  "color": ${"ranking.veryBad"} },
-      { "value": 0.8,  "color": ${"ranking.bad"} },
-      { "value": 1.0,  "color": ${"ranking.normal"} },
-      { "value": 1.3,  "color": ${"ranking.good"} },
-      { "value": 2.0,  "color": ${"ranking.veryGood"} },
-      { "value": 15,   "color": ${"ranking.unique"} }
+      { "value": 0.01, "color": ${"def.colorRating.undefined"} },
+      { "value": 0.6,  "color": ${"def.colorRating.very_bad" } },
+      { "value": 0.8,  "color": ${"def.colorRating.bad"      } },
+      { "value": 1.0,  "color": ${"def.colorRating.normal"   } },
+      { "value": 1.3,  "color": ${"def.colorRating.good"     } },
+      { "value": 2.0,  "color": ${"def.colorRating.very_good"} },
+      { "value": 15,   "color": ${"def.colorRating.unique"   } }
     ],
+    // Dynamic color by average frags per battle on current tank (only with xvm-stat).
+    // Динамический цвет по среднему количеству фрагов за бой на текущем танке (только с xvm-stat).
     "tfb": [
-      { "value": 0.01, "color": ${"ranking.error"} },
-      { "value": 0.6,  "color": ${"ranking.veryBad"} },
-      { "value": 0.8,  "color": ${"ranking.bad"} },
-      { "value": 1.0,  "color": ${"ranking.normal"} },
-      { "value": 1.3,  "color": ${"ranking.good"} },
-      { "value": 2.0,  "color": ${"ranking.veryGood"} },
-      { "value": 15,   "color": ${"ranking.unique"} }
+      { "value": 0.01, "color": ${"def.colorRating.undefined"} },
+      { "value": 0.6,  "color": ${"def.colorRating.very_bad" } },
+      { "value": 0.8,  "color": ${"def.colorRating.bad"      } },
+      { "value": 1.0,  "color": ${"def.colorRating.normal"   } },
+      { "value": 1.3,  "color": ${"def.colorRating.good"     } },
+      { "value": 2.0,  "color": ${"def.colorRating.very_good"} },
+      { "value": 15,   "color": ${"def.colorRating.unique"   } }
     ],
+    // Dynamic color by number of spotted enemies per battle on current tank (only with xvm-stat).
+    // Динамический цвет по среднему количеству засвеченных врагов за бой на текущем танке (только с xvm-stat).
     "tsb": [
-      { "value": 0.01, "color": ${"ranking.error"} },
-      { "value": 0.6,  "color": ${"ranking.veryBad"} },
-      { "value": 0.8,  "color": ${"ranking.bad"} },
-      { "value": 1.0,  "color": ${"ranking.normal"} },
-      { "value": 1.3,  "color": ${"ranking.good"} },
-      { "value": 2.0,  "color": ${"ranking.veryGood"} },
-      { "value": 15,   "color": ${"ranking.unique"} }
+      { "value": 0.01, "color": ${"def.colorRating.undefined"} },
+      { "value": 0.6,  "color": ${"def.colorRating.very_bad" } },
+      { "value": 0.8,  "color": ${"def.colorRating.bad"      } },
+      { "value": 1.0,  "color": ${"def.colorRating.normal"   } },
+      { "value": 1.3,  "color": ${"def.colorRating.good"     } },
+      { "value": 2.0,  "color": ${"def.colorRating.very_good"} },
+      { "value": 15,   "color": ${"def.colorRating.unique"   } }
     ]
   }
 }
