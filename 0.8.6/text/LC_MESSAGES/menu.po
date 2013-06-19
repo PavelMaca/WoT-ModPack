@@ -176,17 +176,29 @@ msgstr "Všechny servery jsou znovu dostupné."
 msgid "centerIsUnAvailable"
 msgstr "Herní servery jsou dočasně nedostupné."
 
+msgid "classes/AT-SPG"
+msgstr "Stíhače tanků"
+
+msgid "classes/SPG"
+msgstr "Dělostřelectvo"
+
+msgid "classes/anyType"
+msgstr "Všechny typy"
+
+msgid "classes/heavyTank"
+msgstr "Těžké tanky"
+
+msgid "classes/lightTank"
+msgstr "Lehké tanky"
+
+msgid "classes/mediumTank"
+msgstr "Střední tanky"
+
 msgid "common/premiumBuy"
 msgstr "Koupit prémiový"
 
 msgid "common/premiumContinue"
 msgstr "Prodloužit prémiový"
-
-msgid "contextMenu/PutBestCrew"
-msgstr "Použít nejlepší posádku"
-
-msgid "contextMenu/PutOwnCrew"
-msgstr "Použít vlastní posádku"
 
 msgid "contextMenu/addToFriends"
 msgstr "Přidat do seznamu přátel"
@@ -304,7 +316,7 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice CZ [8.5] "
+"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená edice CZ [8.6] "
 "v1.50YK by Crabtr33)"
 
 msgid "currentVehicleStatus/ammoNotFull"
@@ -1191,7 +1203,7 @@ msgid "login/registrationLink"
 msgstr "Registrace"
 
 msgid "login/rememberPassword"
-msgstr "Uložit heslo (nebezpečné!)"
+msgstr "Uložit heslo"
 
 msgid "login/status/ALREADY_ONLINE_LOCALLY"
 msgstr "Klient je již lokálně připojen (např. prohlížení map offline)."
@@ -1283,6 +1295,9 @@ msgstr "Špatný e-mail nebo heslo."
 msgid "login/status/LOGIN_REJECTED_RATE_LIMITED"
 msgstr "Server je přetížen. Vyčkejte na připojení."
 
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_ALLOWED"
+msgstr "Registrace je dočasně zakázána."
+
 msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_CONFIRMED"
 msgstr ""
 "Nelze se přihlásit. Prohledejte prosím vaší emailovou schránku, najděte "
@@ -1307,6 +1322,9 @@ msgstr "Relace automatického přihlášení expirovala. Zadejte znovu vaše hes
 
 msgid "login/status/UNKNOWN_ERROR"
 msgstr "Došlo k neznámé chybě."
+
+msgid "login/status/accountNotReady"
+msgstr "Účet není připraven. Zkuste to později."
 
 msgid "login/status/connecting"
 msgstr "?empty?"
@@ -1760,7 +1778,7 @@ msgid "profile/stats/items/battlesCount"
 msgstr "Účast v bitvách"
 
 msgid "profile/stats/items/damageDealt"
-msgstr "Způsobené škody"
+msgstr "Poškození"
 
 msgid "profile/stats/items/defender"
 msgstr "Obránce:"
