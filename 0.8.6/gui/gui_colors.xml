@@ -1,21 +1,40 @@
 <gui_colors.xml>
-  <selected>
-    <default>
-      <rgba>255 195 100 255</rgba>
-      <transform>
-         <mult>1 1 1 1</mult>
-         <offset>0 0 0 0</offset>
-      </transform>
-    </default>
-    <color_blind>
-      <rgba>255 255 0 255</rgba>
-      <transform>
-         <mult>1 1 1 1</mult>
-         <offset>0 0 0 0</offset>
-      </transform>
-    </color_blind>
-  </selected>
-  <selected_dead>
+  <whiteColor>
+    <alias_color>white</alias_color>
+    <rgba>255 255 255 255</rgba>
+  </whiteColor>
+  <darkYellowColor>
+    <alias_color>yellow</alias_color>
+    <rgba>255 195 100 255</rgba>
+  </darkYellowColor>
+  <yellowColor>
+    <alias_color>yellow</alias_color>
+    <rgba>255 255 0 255</rgba>
+  </yellowColor>
+  <blueColor>
+    <alias_color>	blue	</alias_color>
+    <rgba>0 234 255 255</rgba>
+  </blueColor>
+  <greenColor>
+    <alias_color>green</alias_color>
+    <rgba>123 236 55 255</rgba>
+  </greenColor>
+  <redColor>
+    <alias_color>red</alias_color>
+    <rgba>245 8 0 255</rgba>
+  </redColor>
+  <purpleColor>
+    <alias_color>purple</alias_color>
+    <rgba>131 121 254 255</rgba>
+  </purpleColor>
+  <oliveTransform>
+    <rgba>178 178 3 255</rgba>
+    <transform>
+      <mult>1 1 1 1</mult>
+      <offset>0 0 0 0</offset>
+    </transform>
+  </oliveTransform>
+  <selectedOrSquadDeadSchema>
     <default>
       <rgba>199 154 83 255</rgba>
       <transform>
@@ -24,15 +43,96 @@
       </transform>
     </default>
     <color_blind>
-      <rgba>178 178 3 255</rgba>
+      <schemeGroup>oliveTransform</schemeGroup>
+    </color_blind>
+  </selectedOrSquadDeadSchema>
+  <teamKillerDeadTransform>
+    <rgba>0 122 132 255</rgba>
+    <transform>
+      <mult>1 1 1 1</mult>
+      <offset>0 0 0 0</offset>
+    </transform>
+  </teamKillerDeadTransform>
+  <greenSchema>
+    <default>
+      <schemeGroup>greenColor</schemeGroup>
+    </default>
+    <color_blind>
+      <schemeGroup>greenColor</schemeGroup>
+    </color_blind>
+  </greenSchema>
+  <redPurpleSchema>
+    <default>
+      <schemeGroup>	redColor	</schemeGroup>
+    </default>
+    <color_blind>
+      <schemeGroup>purpleColor</schemeGroup>
+    </color_blind>
+  </redPurpleSchema>
+  <blueSchema>
+    <default>
+      <schemeGroup>blueColor</schemeGroup>
+    </default>
+    <color_blind>
+      <schemeGroup>blueColor</schemeGroup>
+    </color_blind>
+  </blueSchema>
+  <allySchema>
+    <default>
+      <adjust>
+      </adjust>
+    </default>
+    <color_blind>
+      <adjust>
+      </adjust>
+    </color_blind>
+  </allySchema>
+  <enemySchema>
+    <default>
+      <adjust>
+      </adjust>
+    </default>
+    <color_blind>
+      <adjust>
+      </adjust>
+    </color_blind>
+  </enemySchema>
+  <vm_ally_schema>
+    <schemeGroup>greenColor</schemeGroup>
+    <transform>
+      <mult>1 1 1 1</mult>
+      <offset>0 25 0 0</offset>
+    </transform>
+  </vm_ally_schema>
+  <vm_dead_ally_schema>
+    <alias_color>green</alias_color>
+    <rgba>52 118 12 255</rgba>
+    <transform>
+      <mult>1 1 1 1</mult>
+      <offset>0 20 0 0</offset>
+    </transform>
+  </vm_dead_ally_schema>
+  <selected>
+    <default>
+      <schemeGroup>darkYellowColor</schemeGroup>
       <transform>
-        <mult>0.8 0.8 0.2 0.5</mult>
+        <mult>1.0 0.8 0.3 1</mult>
+        <offset>0 0 0 0</offset>
+      </transform>
+    </default>
+    <color_blind>
+      <schemeGroup>yellowColor</schemeGroup>
+      <transform>
+        <mult>1.0 1.0 0.3 1</mult>
         <offset>0 0 0 0</offset>
       </transform>
     </color_blind>
+  </selected>
+  <selected_dead>
+    <schemeGroup>selectedOrSquadDeadSchema</schemeGroup>
   </selected_dead>
   <normal>
-    <rgba>255 255 255 255</rgba>
+    <schemeGroup>whiteColor</schemeGroup>
     <transform>
       <mult>1 1 1 1</mult>
       <offset>0 0 0 0</offset>
@@ -47,14 +147,14 @@
   </normal_dead>
   <squad>
     <default>
-      <rgba>255 195 100 255</rgba>
+      <schemeGroup>darkYellowColor</schemeGroup>
       <transform>
         <mult>1.0 0.8 0.3 1</mult>
         <offset>0 0 0 0</offset>
       </transform>
     </default>
     <color_blind>
-      <rgba>255 255 0 255</rgba>
+      <schemeGroup>darkYellowColor</schemeGroup>
       <transform>
         <mult>1.0 1.0 0.3 1</mult>
         <offset>0 0 0 0</offset>
@@ -62,31 +162,18 @@
     </color_blind>
   </squad>
   <squad_dead>
-    <default>
-      <rgba>199 154 83 255</rgba>
-      <transform>
-        <mult>0.8 0.6 0.2 0.5</mult>
-        <offset>0 0 0 0</offset>
-      </transform>
-    </default>
-    <color_blind>
-      <rgba>178 178 3 255</rgba>
-      <transform>
-        <mult>0.8 0.8 0.2 0.5</mult>
-        <offset>0 0 0 0</offset>
-      </transform>
-    </color_blind>
+    <schemeGroup>selectedOrSquadDeadSchema</schemeGroup>
   </squad_dead>
   <teamkiller>
     <default>
-      <rgba>0 234 255 255</rgba>
+      <schemeGroup>blueColor</schemeGroup>
       <transform>
         <mult>0 1 1 1</mult>
         <offset>0 13 42 0</offset>
       </transform>
     </default>
     <color_blind>
-      <rgba>0 234 255 255</rgba>
+      <schemeGroup>blueColor</schemeGroup>
       <transform>
         <mult>0 1 1 1</mult>
         <offset>0 13 42 0</offset>
@@ -95,30 +182,22 @@
   </teamkiller>
   <teamkiller_dead>
     <default>
-      <rgba>0 122 132 255</rgba>
-      <transform>
-        <mult>0 0.4 0.6 0.7</mult>
-        <offset>0 0 0 0</offset>
-      </transform>
+      <schemeGroup>teamKillerDeadTransform</schemeGroup>
     </default>
     <color_blind>
-      <rgba>0 122 132 255</rgba>
-      <transform>
-        <mult>0 0.4 0.6 0.7</mult>
-        <offset>0 0 0 0</offset>
-      </transform>
+      <schemeGroup>teamKillerDeadTransform</schemeGroup>
     </color_blind>
   </teamkiller_dead>
   <VIP>
     <default>
-      <rgba>255 255 0 255</rgba>
+      <schemeGroup>yellowColor</schemeGroup>
       <transform>
         <mult>1.0 1.0 0.3 1</mult>
         <offset>0 0 0 0</offset>
       </transform>
     </default>
     <color_blind>
-      <rgba>255 255 0 255</rgba>
+      <schemeGroup>yellowColor</schemeGroup>
       <transform>
         <mult>1.0 1.0 0.3 1</mult>
         <offset>0 0 0 0</offset>
@@ -127,35 +206,29 @@
   </VIP>
   <VIP_dead>
     <default>
-      <rgba>178 178 3 255</rgba>
-      <transform>
-        <mult>0.8 0.8 0.2 0.5</mult>
-        <offset>0 0 0 0</offset>
-      </transform>
+      <schemeGroup>oliveTransform</schemeGroup>
     </default>
     <color_blind>
-      <rgba>178 178 3 255</rgba>
-      <transform>
-        <mult>0.8 0.8 0.2 0.5</mult>
-        <offset>0 0 0 0</offset>
-      </transform>
+      <schemeGroup>oliveTransform</schemeGroup>
     </color_blind>
   </VIP_dead>
   <vm_ally>
-    <alias_color>green</alias_color>
-    <rgba>123 236 55 255</rgba>
-    <transform>
-      <mult>1 1 1 1</mult>
-      <offset>0 1 0 0</offset>
-    </transform>
+    <schemeGroup>allySchema</schemeGroup>
+    <default>
+      <schemeGroup>vm_ally_schema</schemeGroup>
+    </default>
+    <color_blind>
+      <schemeGroup>vm_ally_schema</schemeGroup>
+    </color_blind>
   </vm_ally>
   <vm_dead_ally>
-    <alias_color>green</alias_color>
-    <rgba>52 118 12 255</rgba>
-    <transform>
-      <mult>1 1 1 1</mult>
-      <offset>0 1 0 0</offset>
-    </transform>
+    <schemeGroup>allySchema</schemeGroup>
+    <default>
+      <schemeGroup>vm_dead_ally_schema</schemeGroup>
+    </default>
+    <color_blind>
+      <schemeGroup>vm_dead_ally_schema</schemeGroup>
+    </color_blind>
   </vm_dead_ally>
   <vm_squadman>
     <default>
@@ -167,8 +240,7 @@
       </transform>
     </default>
     <color_blind>
-      <alias_color>yellow</alias_color>
-      <rgba>255 255 0 255</rgba>
+      <schemeGroup>yellowColor</schemeGroup>
       <transform>
         <mult>1 1 0 1</mult>
         <offset>68 71 0 0</offset>
@@ -194,33 +266,31 @@
     </color_blind>
   </vm_dead_squadman>
   <vm_teamKiller>
-    <alias_color>	blue	</alias_color>
-    <rgba>0 234 255 255</rgba>
+    <schemeGroup>blueColor</schemeGroup>
     <transform>
       <mult>0 1 1 1</mult>
-      <offset>0 58 88 1</offset>
+      <offset>0 55 88 1</offset>
     </transform>
   </vm_teamKiller>
   <vm_dead_teamKiller>
     <alias_color>	blue	</alias_color>
-    <rgba>0 138 149 255</rgba>
+    <rgba>0 126 172 255</rgba>
     <transform>
       <mult>0 1 1 1</mult>
       <offset>0 58 88 1</offset>
     </transform>
   </vm_dead_teamKiller>
   <vm_enemy>
+    <schemeGroup>enemySchema</schemeGroup>
     <default>
-      <alias_color>red</alias_color>
-      <rgba>245 8 0 255</rgba>
+      <schemeGroup>	redColor	</schemeGroup>
       <transform>
         <mult>1 1 1 1</mult>
         <offset>0 1 0 0</offset>
       </transform>
     </default>
     <color_blind>
-      <alias_color>purple</alias_color>
-      <rgba>131 121 254 255</rgba>
+      <schemeGroup>purpleColor</schemeGroup>
       <transform>
         <mult>0.69 0.9 1 1</mult>
         <offset>0 0 81 0</offset>
@@ -228,6 +298,7 @@
     </color_blind>
   </vm_enemy>
   <vm_dead_enemy>
+    <schemeGroup>enemySchema</schemeGroup>
     <default>
       <alias_color>red</alias_color>
       <rgba>121 3 0 255</rgba>
@@ -278,103 +349,70 @@
     </color_blind>
   </FragCorrelationDraw>
   <FragCorrelationWin>
-    <alias_color>green</alias_color>
-    <rgba>123 236 55 255</rgba>
+    <schemeGroup>greenSchema allySchema</schemeGroup>
   </FragCorrelationWin>
   <FragCorrelationLoose>
-    <default>
-      <alias_color>red</alias_color>
-      <rgba>245 8 0 255</rgba>
-    </default>
-    <color_blind>
-      <alias_color>purple</alias_color>
-      <rgba>131 121 254 255</rgba>
-    </color_blind>
+    <schemeGroup>redPurpleSchema enemySchema</schemeGroup>
   </FragCorrelationLoose>
   <timerNormal>
-    <alias_color>white</alias_color>
-    <rgba>255 255 255 255</rgba>
+    <schemeGroup>whiteColor</schemeGroup>
   </timerNormal>
   <timerRed>
-    <default>
-      <alias_color>red</alias_color>
-      <rgba>245 8 0 255</rgba>
-    </default>
-    <color_blind>
-      <alias_color>purple</alias_color>
-      <rgba>131 121 254 255</rgba>
-    </color_blind>
+    <schemeGroup>redPurpleSchema</schemeGroup>
   </timerRed>
   <capture_bar_green>
-    <alias_color>green</alias_color>
-    <rgba>123 236 55 255</rgba>
+    <schemeGroup>greenColor</schemeGroup>
   </capture_bar_green>
   <capture_bar_red>
-    <default>
-      <alias_color>red</alias_color>
-      <rgba>245 8 0 255</rgba>
-    </default>
-    <color_blind>
-      <alias_color>purple</alias_color>
-      <rgba>131 121 254 255</rgba>
-    </color_blind>
+    <schemeGroup>redPurpleSchema</schemeGroup>
   </capture_bar_red>
   <flag_team_green>
-    <alias_color>green</alias_color>
-    <rgba>97 191 34 255</rgba>
+    <schemeGroup>allySchema</schemeGroup>
+    <default>
+      <alias_color>green</alias_color>
+      <rgba>97 191 34 255</rgba>
+    </default>
+    <color_blind>
+      <alias_color>green</alias_color>
+      <rgba>97 191 34 255</rgba>
+    </color_blind>
   </flag_team_green>
   <flag_team_red>
+    <schemeGroup>enemySchema</schemeGroup>
     <default>
       <alias_color>red</alias_color>
       <rgba>200 20 0 255</rgba>
     </default>
     <color_blind>
-      <alias_color>purple</alias_color>
-      <rgba>131 121 254 255</rgba>
+      <schemeGroup>purpleColor</schemeGroup>
     </color_blind>
   </flag_team_red>
   <team_commander>
-    <alias_color>white</alias_color>
-    <rgba>255 255 255 255</rgba>
+    <schemeGroup>whiteColor</schemeGroup>
   </team_commander>
   <team_user>
     <alias_color>	gray	</alias_color>
     <rgba>154 151 142 255</rgba>
   </team_user>
   <team_self>
-    <alias_color>yellow</alias_color>
-    <rgba>255 195 100 255</rgba>
+    <schemeGroup>darkYellowColor</schemeGroup>
   </team_self>
   <teamPointbasered>
-    <default>
-      <alias_color>red</alias_color>
-    </default>
-    <color_blind>
-      <alias_color>purple</alias_color>
-    </color_blind>
+    <schemeGroup>redPurpleSchema enemySchema</schemeGroup>
   </teamPointbasered>
   <teamPointbaseblue>
-    <default>
-      <alias_color>	blue	</alias_color>
-    </default>
-    <color_blind>
-      <alias_color>	blue	</alias_color>
-    </color_blind>
+    <schemeGroup>blueSchema allySchema</schemeGroup>
   </teamPointbaseblue>
   <teamPointspawnred>
-    <default>
-      <alias_color>red</alias_color>
-    </default>
-    <color_blind>
-      <alias_color>purple</alias_color>
-    </color_blind>
+    <schemeGroup>redPurpleSchema</schemeGroup>
   </teamPointspawnred>
   <teamPointspawnblue>
-    <default>
-      <alias_color>	blue	</alias_color>
-    </default>
-    <color_blind>
-      <alias_color>	blue	</alias_color>
-    </color_blind>
+    <schemeGroup>blueSchema allySchema</schemeGroup>
   </teamPointspawnblue>
+  <backMarkertutorialTargetblue>
+    <schemeGroup>blueSchema</schemeGroup>
+  </backMarkertutorialTargetblue>
+  <backMarkertutorialTargetred>
+    <schemeGroup>redPurpleSchema</schemeGroup>
+  </backMarkertutorialTargetred>
 </gui_colors.xml>
