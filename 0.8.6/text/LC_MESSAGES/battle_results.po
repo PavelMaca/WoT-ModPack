@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-30 12:00+0300\n"
-"PO-Revision-Date: 2013-04-24 13:09+0100\n"
+"PO-Revision-Date: 2013-06-19 14:29+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Team <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -41,32 +41,129 @@ msgstr "Zkušenosti"
 msgid "common/details/xpTitleFirstVictory"
 msgstr " (х%d za první vítězství dne)"
 
-msgid "common/tooltip/assist"
-msgstr "Poškození nepřátelského vozidla díky vašemu nasvícení: %s"
+msgid "common/tooltip/assist/discription"
+msgstr "Poškození způsobené s vaší pomocí"
 
-msgid "common/tooltip/crits"
-msgstr "Kritické poškození nepřátelského vozidla: %s"
+msgid "common/tooltip/assist/header"
+msgstr "Pomoc při zničení"
 
-msgid "common/tooltip/damage"
-msgstr "Poškození nepřátelského vozidla: %s"
+msgid "common/tooltip/assist/part1"
+msgstr "Poškození způsobené detekcí (výdrž)"
 
-msgid "common/tooltip/evil"
-msgstr "Poškození nepřátelského vozidla díky vašemu nasvícení: %s"
+msgid "common/tooltip/assist/part2"
+msgstr "Poškození způsobené střelbou do pásů (výdrž)"
 
-msgid "common/tooltip/kill"
-msgstr "Toto nepřátelské vozidlo jste zničili."
+msgid "common/tooltip/assist/total"
+msgstr "Celkové poškození způsobené spojenci (výdrž):"
 
-msgid "common/tooltip/spotted"
-msgstr "Toto nepřátelské vozidlo jste detekovali."
+msgid "common/tooltip/crits/discription"
+msgstr ""
+"Poškozené a zničené přislušenství nepřátelského vozidla,\n"
+"zranění členové posádky"
 
-msgid "common/tooltip/teamKill"
-msgstr "Toto spojenecké vozidlo jste zničili."
+msgid "common/tooltip/crits/header"
+msgstr "Poškozené příslušenství a zranění členové posádky"
+
+msgid "common/tooltip/crits/part1"
+msgstr "Vyřazeno:"
+
+msgid "common/tooltip/crits/part2"
+msgstr "Zničeno:"
+
+msgid "common/tooltip/crits/part3"
+msgstr "Zraněno:"
+
+msgid "common/tooltip/crits/total"
+msgstr "Celkem:"
+
+msgid "common/tooltip/damage/discription"
+msgstr "Poškození způsobené nepřátelskému vozidlu"
+
+msgid "common/tooltip/damage/header"
+msgstr "Poškození"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Celkové poškození (Výdrž)"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Celkový počet průstřelů"
+
+msgid "common/tooltip/kill-1/discription"
+msgstr "Nepřátelské vozidlo zničeno"
+
+msgid "common/tooltip/kill/header"
+msgstr "Nepřítel zničen"
+
+msgid "common/tooltip/kill0/discription"
+msgstr "Nepřátelské vozidlo zničeno výstřelem"
+
+msgid "common/tooltip/kill1/discription"
+msgstr "Nepřátelské vozidlo zničeno požárem"
+
+msgid "common/tooltip/kill2/discription"
+msgstr "Nepřátelské vozidlo zničeno nárazem"
+
+msgid "common/tooltip/kill3/discription"
+msgstr "Nepřátelské vozidlo rozdrceno"
+
+msgid "common/tooltip/kill4/discription"
+msgstr "Nepřátelské vozidlo zničeno vjezdem do zakázané zóny"
+
+msgid "common/tooltip/kill5/discription"
+msgstr "Nepřátelské vozidlo se utopilo"
+
+msgid "common/tooltip/spotted/discription"
+msgstr ""
+"Nahlášení pozic nepřítele \n"
+"spojencům"
+
+msgid "common/tooltip/spotted/header"
+msgstr "Detekce"
+
+msgid "common/tooltip/teamKill-1/discription"
+msgstr "Spojenecké vozidlo zničeno"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Zničení spojence"
+
+msgid "common/tooltip/teamKill0/discription"
+msgstr "Spojenecké vozidlo zničeno výstřelem"
+
+msgid "common/tooltip/teamKill1/discription"
+msgstr "Spojenecké vozidlo zničeno požárem"
+
+msgid "common/tooltip/teamKill2/discription"
+msgstr "Spojenecké vozidlo zničeno nárazem"
+
+msgid "common/tooltip/teamKill3/discription"
+msgstr "Spojenecké vozidlo rozdrceno"
+
+msgid "common/tooltip/teamKill4/discription"
+msgstr "Spojenecké vozidlo zničeno vjezdem do zakázané zóny"
+
+msgid "common/tooltip/teamKill5/discription"
+msgstr "Spojenecké vozidlo se utopilo"
 
 msgid "common/vehicleState/alive"
 msgstr "Přežil"
 
-msgid "common/vehicleState/dead"
-msgstr "Zničen hráčem (%s)"
+msgid "common/vehicleState/dead0"
+msgstr "Zničeno výstřelem"
+
+msgid "common/vehicleState/dead1"
+msgstr "Zničeno požárem"
+
+msgid "common/vehicleState/dead2"
+msgstr "Zničeno nárazem"
+
+msgid "common/vehicleState/dead3"
+msgstr "Rozdrceno"
+
+msgid "common/vehicleState/dead4"
+msgstr "Zničeno vjezdem do zakázané zóny"
+
+msgid "common/vehicleState/dead5"
+msgstr "Vozidlo utopeno"
 
 msgid "common/xpMultiplierSign"
 msgstr "x"
@@ -221,6 +318,9 @@ msgstr "Poškozeno nepřátel"
 msgid "team/stats/labels_droppedCapturePoints"
 msgstr "Bodů za obranu základny"
 
+msgid "team/stats/labels_heHitsReceived"
+msgstr "\tpoškození způsobené HE municí"
+
 msgid "team/stats/labels_he_hits"
 msgstr "\tpoškození způsobené HE municí"
 
@@ -233,17 +333,17 @@ msgstr "Zničeno nepřátel"
 msgid "team/stats/labels_mileage"
 msgstr "Najeto"
 
+msgid "team/stats/labels_noDamageShotsReceived"
+msgstr "\tzásahů bez poškození"
+
 msgid "team/stats/labels_pierced"
 msgstr "\tprůstřelů"
 
-msgid "team/stats/labels_piercingsReceived"
+msgid "team/stats/labels_piercedReceived"
 msgstr "\tprůstřelů"
 
 msgid "team/stats/labels_potentialDamageReceived"
 msgstr "Obdržené potenciální poškození"
-
-msgid "team/stats/labels_ricochetReceived"
-msgstr "\todrazy"
 
 msgid "team/stats/labels_shots"
 msgstr "Vypáleno výstřelů"

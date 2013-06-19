@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-04-27 11:03+0100\n"
+"PO-Revision-Date: 2013-06-19 14:31+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -257,8 +257,38 @@ msgstr "[%(entity)s] netřeba opravovat, je plně funkční."
 msgid "player_messages/ALLY_HIT"
 msgstr "Zasáhl jste spojence %(entity)s!"
 
-msgid "player_messages/DEATH_FROM_DEATH_ZONE"
-msgstr "Vozidlo zničeno následkem vstupu do zóny smrti."
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Spojenec [%(target)s] byl zničen spojencem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "Spojenec [%(attacker)s] zničil nepřítele [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vozidlo bylo zičeno spojencem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Spojenec [%(target)s] byl ztracen v boji."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "Nepřítel [%(attacker)s] zničil spojence [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Nepřítel [%(attacker)s] zničil nepřítele [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vozidlo bylo zničeno nepřítelem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "Nepřítel [%(target)s] byl ztracen v boji."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Spojenec [%(target)s] zničen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "Nepřítel [%(target)s] zničen."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vozidlo zničeno."
 
 msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
 msgstr "Zařízení [%(device)s] vybuchlo v ohni."
@@ -266,11 +296,38 @@ msgstr "Zařízení [%(device)s] vybuchlo v ohni."
 msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
 msgstr "Zařízení [%(device)s] bylo zničeno výstřelem [%(entity)s]."
 
-msgid "player_messages/DEATH_FROM_DROWNING"
-msgstr "Tank je zaplaven."
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Spojenec [%(attacker)s] utopil spojence [%(target)s]."
 
-msgid "player_messages/DEATH_FROM_FIRE"
-msgstr "Tank byl zničen ohněm."
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "Spojenec [%(attacker)s] utopil nepřítele [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vozidlo bylo utopeno spojencem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Spojenec [%(target)s] se utopil."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "Nepřítel [%(attacker)s] utopil spojence [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Nepřítel [%(attacker)s] utopil nepřítele [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vozidlo bylo utopeno nepřítelem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Nepřítel [%(target)s] se utopil."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Spojenec [%(target)s] byl utopen."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "Nepřítel [%(target)s] byl utopen."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vozidlo utopeno."
 
 msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
 msgstr "Posádka je vyřazena z akce."
@@ -278,50 +335,150 @@ msgstr "Posádka je vyřazena z akce."
 msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
 msgstr "Posádka je zraněna výstřelem [%(entity)s]."
 
-msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION"
-msgstr "Posádka je následkem nárazu vyřazena z akce."
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Posádka spojence [%(target)s] byla vyřazena spojencem [%(attacker)s]."
 
-msgid "player_messages/DEATH_FROM_RAMMING"
-msgstr "Tank byl zničen kolizí s [%(entity)s]."
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Posádka nepřítele [%(target)s] byla vyřazena spojencem [%(attacker)s]."
 
-msgid "player_messages/DEATH_FROM_SHOT"
-msgstr "Tank byl zničen výstřelem [%(entity)s]."
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Posádka byla vyřazena spojencem [%(attacker)s]."
 
-msgid "player_messages/DEATH_FROM_WORLD_COLLISION"
-msgstr "Vozidlo je zničeno po pádu."
+msgid ""
+"player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Spojenec [%(target)s] vyřadil svou posádku."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Posádka spojence [%(target)s] byla vyřazena nepřítelem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr ""
+"Posádka nepřítele [%(target)s] byla vyřazena nepřítelem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Posádka byla vyřazena nepřítelem [%(attacker)s]."
+
+msgid ""
+"player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Nepřítel [%(target)s] vyřadil svou posádku."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Posádka spojence [%(target)s] byla vyřazena."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Posádka nepřítele [%(target)s] byla vyřazena."
+
+msgid ""
+"player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Posádka vyřazena."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Spojenec [%(attacker)s] zničil spojence [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "Spojenec [%(attacker)s] zničil nepřítele [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Vozidlo bylo zičeno spojencem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Spojenec [%(target)s] rozdrcen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "Nepřítel [%(attacker)s] zničil spojence [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Nepřítel [%(attacker)s] zničil nepřítele [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Vozidlo bylo zničeno nepřítelem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Nepřítel [%(target)s] rozdrcen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Spojenec [%(target)s] zničen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "Nepřítel [%(target)s] zničen."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vozidlo zničeno."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Spojenec %(attacker)s zničil spojence %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Spojenec %(target)s byl ztracen v boji."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s zničil %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Nepřítel %(attacker)s zničil nepřítele %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Nepřítel %(target)s byl ztracen v boji."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Spojenec %(target)s je zničen!"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s je zničen!"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Spojenec [%(attacker)s] rozdrtil spojence [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Spojenec [%(attacker)s] rozdrtil nepřítele [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vozidlo bylo rozdrceno spojencem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Spojenec [%(target)s] rozdrcen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Nepřítel [%(attacker)s] rozdrtil spojence [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Nepřítel [%(attacker)s] rozdrtil nepřítele [%(target)s]."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vozidlo bylo rozdrceno nepřítelem [%(attacker)s]."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Nepřítel [%(target)s] rozdrcen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Spojenec [%(target)s] byl rozdrcen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Nepřítel [%(target)s] byl rozdrcen."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vozidlo rozdrceno."
 
 msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
 msgstr "Zařízení [%(device)s] je poškozeno ohněm."
 
-msgid "player_messages/DEVICE_CRITICAL_AT_RAMMING"
-msgstr "Kolize s [%(entity)s] poškodila [%(device)s]."
-
 msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
 msgstr "Výstřel [%(entity)s] poškodil [%(device)s]."
-
-msgid "player_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION"
-msgstr "Zařízení [%(device)s] je následkem nárazu poškozeno."
 
 msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
 msgstr "Zařízení [%(device)s] bylo zničeno ohněm."
 
-msgid "player_messages/DEVICE_DESTROYED_AT_RAMMING"
-msgstr "Kolize s [%(entity)s] zničila [%(device)s]."
-
 msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
 msgstr "Zařízení [%(device)s] zničeno výstřelem [%(entity)s]."
-
-msgid "player_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION"
-msgstr "Zařízení [%(device)s] je následkem nárazu zničeno."
 
 msgid "player_messages/DEVICE_REPAIRED"
 msgstr "Zařízení [%(device)s] opraveno."
 
 msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
 msgstr "Zařízení [%(device)s] je v provozu."
-
-msgid "player_messages/DEVICE_STARTED_FIRE_AT_RAMMING"
-msgstr "Po kolizi s [%(entity)s] vzplálo zařízení [%(device)s]."
 
 msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
 msgstr "Zařízení [%(device)s] vzplálo po výstřelu [%(entity)s]."
@@ -356,9 +513,6 @@ msgstr "Oheň byl uhašen."
 msgid "player_messages/TANKMAN_HIT_AT_SHOT"
 msgstr "Výstřel [%(entity)s] vyřadil [%(device)s] z akce."
 
-msgid "player_messages/TANKMAN_HIT_AT_WORLD_COLLISION"
-msgstr "[%(device)s] je následkem nárazu vyřazen z akce."
-
 msgid "player_messages/TANKMAN_RESTORED"
 msgstr "[%(device)s] je zpět v akci."
 
@@ -370,15 +524,6 @@ msgstr "Obsazení přátelské základny%s:"
 
 msgid "player_messages/ally_base_captured_notification"
 msgstr "Přátelská základna%s obsazena!"
-
-msgid "player_messages/ally_frag"
-msgstr "%(attacker)s zničil %(target)s."
-
-msgid "player_messages/ally_friendly_fire_frag"
-msgstr "Spojenec %(attacker)s zničil spojence %(target)s."
-
-msgid "player_messages/ally_suicide"
-msgstr "Spojenec %(entity)s byl ztracen v boji."
 
 msgid "player_messages/base_captured_by_notification"
 msgstr "Obsazení základny%s:"
@@ -392,15 +537,6 @@ msgstr "Obsazení nepřátelské základny%s:"
 msgid "player_messages/enemy_base_captured_notification"
 msgstr "Nepřátelská základna%s obsazena!"
 
-msgid "player_messages/enemy_frag"
-msgstr "%(attacker)s zničil %(target)s."
-
-msgid "player_messages/enemy_friendly_fire_frag"
-msgstr "Nepřítel %(attacker)s zničil nepřítele %(target)s."
-
-msgid "player_messages/enemy_suicide"
-msgstr "Nepřítel %(entity)s byl ztracen v boji."
-
 msgid "player_messages/enemy_team_name"
 msgstr "Protivníci"
 
@@ -409,12 +545,6 @@ msgstr "Klakson je uzamčen; dostupný za %d sekund."
 
 msgid "player_messages/loader_intuition_was_used"
 msgstr "Použita schopnost [Intuice]."
-
-msgid "player_messages/player_frag"
-msgstr "%(target)s je zničen!"
-
-msgid "player_messages/player_friendly_fire_frag"
-msgstr "Spojenec %(target)s je zničen!"
 
 msgid "player_messages/postmortem_caption"
 msgstr "Hráč %(name)s (%(type)s); Výdrž: %(health)d%%"
@@ -712,3 +842,171 @@ msgstr "Bitva začne za"
 
 msgid "timer/waiting"
 msgstr "Čeká se na hráče…"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Vozidlo bylo zničeno spojencem [%(entity)s] v zakázané zóně."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Vozidlo bylo zničeno nepřítelem [%(entity)s] v zakázané zóně."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Vozidlo bylo zničeno vjezdem do zakázané zóny."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Vozidlo bylo utopeno spojencem [%(entity)s]."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Vozidlo bylo utopeno nepřítelem [%(entity)s]."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Vozidlo utopeno."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Tank byl zničen ohněm."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Posádka byla vyřazena z akce silným nárazem spojence [%(entity)s]."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Posádka byla vyřazena z akce silným nárazem nepřítele [%(entity)s]."
+
+msgid ""
+"vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Posádka byla následkem silného nárazu vyřazena z akce."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Spojenec [%(entity)s] zničil vozidlo nárazem."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Nepřítel [%(entity)s] zničil vozidlo nárazem."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Vozidlo bylo zničeno nárazem."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Tank byl zničen výstřelem [%(entity)s]."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Vozidlo bylo rozdrceno spojencem [%(entity)s]."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Vozidlo bylo rozdrceno nepřítelem [%(entity)s]."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Vozidlo rozdrceno."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Spojenec [%(entity)s] poškodil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Spojenec [%(entity)s] poškodil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] poškozeno nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Nepřítel [%(entity)s] poškodil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Nepřítel [%(entity)s] poškodil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] poškozeno nárazem."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Silný náraz spojence [%(entity)s] poškodil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Silný náraz spojence [%(entity)s] poškodil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] je následkem nárazu poškozeno."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Silný náraz nepřítele [%(entity)s] poškodil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Silný náraz nepřítele [%(entity)s] poškodil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] je následkem nárazu poškozeno."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Spojenec [%(entity)s] zničil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Spojenec [%(entity)s] zničil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] bylo zničeno nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Nepřítel [%(entity)s] zničil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Nepřítel [%(entity)s] zničil zařízení [%(device)s] nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] bylo zničeno nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Silný náraz spojence [%(entity)s] zničil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Silný náraz spojence [%(entity)s] zničil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] bylo zničeno silným nárazem."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Silný náraz nepřítele [%(entity)s] zničil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Silný náraz nepřítele [%(entity)s] zničil zařízení [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] bylo zničeno silným nárazem."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr ""
+"Zařízení [%(device)s] začalo hořet následkem nárazu spojence [%(entity)s]."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr ""
+"Zařízení [%(device)s] začalo hořet následkem nárazu spojence [%(entity)s]."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Zařízení [%(device)s] začalo následkem nárazu hořet."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr ""
+"Zařízení [%(device)s] začalo hořet následkem nárazu nepřítele [%(entity)s]."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr ""
+"Zařízení [%(device)s] začalo hořet následkem nárazu nepřítele [%(entity)s]."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Zařízení [%(device)s] začalo následkem nárazu hořet."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr ""
+"[%(device)s] byl zraněn následkem silného nárazu spojence [%(entity)s]."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr ""
+"[%(device)s] byl zraněn následkem silného nárazu spojence [%(entity)s]."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] byl následkem nárazu zraněn."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr ""
+"[%(device)s] byl zraněn následkem silného nárazu nepřítele [%(entity)s]."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr ""
+"[%(device)s] byl zraněn následkem silného nárazu nepřítele [%(entity)s]."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] byl následkem nárazu zraněn."

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-04-27 11:08+0100\n"
+"PO-Revision-Date: 2013-06-19 14:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -74,6 +74,12 @@ msgstr "Zobrazovat stopy pásů"
 msgid "WATER_QUALITY"
 msgstr "Kvalita vodní hladiny"
 
+msgid "alternativeVoices/fieldset/header"
+msgstr "Hlasová oznámení"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Hlasové zprávy v bitvě"
+
 msgid "apply_button"
 msgstr "Použít"
 
@@ -84,28 +90,28 @@ msgid "arcade/centralTag"
 msgstr "Centrální značka"
 
 msgid "arcade/centralTag/type0"
-msgstr "Kruh, černý"
+msgstr "A-značka I"
 
 msgid "arcade/centralTag/type1"
-msgstr "Kruh, bílý"
+msgstr "A-značka II"
 
 msgid "arcade/centralTag/type2"
-msgstr "Kříž, černý"
+msgstr "A-značka III"
 
 msgid "arcade/centralTag/type3"
-msgstr "Kříž, bílý"
+msgstr "V-značka"
 
 msgid "arcade/centralTag/type4"
-msgstr "X-kříž, černý"
+msgstr "Nitkový kříž I"
 
 msgid "arcade/centralTag/type5"
-msgstr "X-kříž, bílý"
+msgstr "Nitkový kříž II"
 
 msgid "arcade/centralTag/type6"
-msgstr "Bod, černý"
+msgstr "T-značka"
 
 msgid "arcade/centralTag/type7"
-msgstr "Bod, bílý"
+msgstr "I-značka"
 
 msgid "arcade/centralTag/type8"
 msgstr "Test"
@@ -117,22 +123,22 @@ msgid "arcade/gunTag"
 msgstr "Značka kanónu"
 
 msgid "arcade/gunTag/type0"
-msgstr "Bod, černý"
+msgstr "Zatržítko I (s indikátorem šance prostřelení pancíře)"
 
 msgid "arcade/gunTag/type1"
-msgstr "Bod, bílý"
+msgstr "Zatržítko II (s indikátorem nabíjení)"
 
 msgid "arcade/gunTag/type2"
-msgstr "Kříž, černý"
+msgstr "Zatržítko III"
 
 msgid "arcade/gunTag/type3"
-msgstr "Kříž, bílý"
+msgstr "Nitkový kříž I (s indikátorem šance prostřelení pancíře)"
 
 msgid "arcade/gunTag/type4"
-msgstr "X-kříž, černý"
+msgstr "Nitkový kříž II (s indikátorem nabíjení)"
 
 msgid "arcade/gunTag/type5"
-msgstr "X-kříž, bílý"
+msgstr "Nitkový kříž III"
 
 msgid "arcade/gunTag/type6"
 msgstr "Test"
@@ -141,13 +147,13 @@ msgid "arcade/mixing"
 msgstr "Indikátor rozptylu"
 
 msgid "arcade/mixing/type0"
-msgstr "Kruh, plný (zelený)"
+msgstr "Kruh I (naplňuje se při nabíjení) "
 
 msgid "arcade/mixing/type1"
-msgstr "Kruh, plný (modrý)"
+msgstr "Kruh II (s posuvným indikátorem nabíjení)"
 
 msgid "arcade/mixing/type2"
-msgstr "Kruh, tečkovaný (originální)"
+msgstr "Kruh III (bez indikátoru nabíjení)"
 
 msgid "arcade/mixing/type3"
 msgstr "Nitkový kříž (s posuvným indikátorem nabíjení)"
@@ -162,13 +168,13 @@ msgid "arcade/net"
 msgstr "Indikátory"
 
 msgid "arcade/net/type0"
-msgstr "Vodorovný, vnější"
+msgstr "Indikátory typ I (diagonální)"
 
 msgid "arcade/net/type1"
-msgstr "Vodorovný, vnitřní"
+msgstr "Indikátory typ II (horizontální)"
 
 msgid "arcade/net/type2"
-msgstr "Žádný, vnitřní"
+msgstr "Indikátory pancíře"
 
 msgid "arcade/net/type3"
 msgstr "Test"
@@ -248,8 +254,14 @@ msgstr "Standard"
 msgid "edgeDetectAA"
 msgstr "Chytrá detekce AA"
 
+msgid "fpsPerfomancer"
+msgstr "Dynamická změna kvality efektů"
+
 msgid "fullScreenMode"
 msgstr "Režim celé obrazovky"
+
+msgid "game/dynamicCamera"
+msgstr "Povolit dynamickou kameru"
 
 msgid "game/enableMortalPostEffect"
 msgstr "Povolit efekty v posmrtném režimu"
@@ -717,28 +729,28 @@ msgid "sniper/snpCentralTag"
 msgstr "Centrální značka"
 
 msgid "sniper/snpCentralTag/type0"
-msgstr "Kruh, černý"
+msgstr "A-značka I"
 
 msgid "sniper/snpCentralTag/type1"
-msgstr "Kruh, bílý"
+msgstr "A-značka II"
 
 msgid "sniper/snpCentralTag/type2"
-msgstr "Kříž, černý"
+msgstr "A-značka III"
 
 msgid "sniper/snpCentralTag/type3"
-msgstr "Kříž, bílý"
+msgstr "V-značka"
 
 msgid "sniper/snpCentralTag/type4"
-msgstr "X-kříž, černý"
+msgstr "Nitkový kříž I"
 
 msgid "sniper/snpCentralTag/type5"
-msgstr "X-kříž, bílý"
+msgstr "Nitkový kříž II"
 
 msgid "sniper/snpCentralTag/type6"
-msgstr "Bod, černý"
+msgstr "T-značka"
 
 msgid "sniper/snpCentralTag/type7"
-msgstr "Bod, bílý"
+msgstr "I-značka"
 
 msgid "sniper/snpCentralTag/type8"
 msgstr "Test"
@@ -750,46 +762,46 @@ msgid "sniper/snpGunTag"
 msgstr "Značka kanónu"
 
 msgid "sniper/snpGunTag/type0"
-msgstr "Bod, černý"
+msgstr "Zatržítko I (s indikátorem šance prostřelení pancíře)"
 
 msgid "sniper/snpGunTag/type1"
-msgstr "Bod, bílý"
+msgstr "Zatržítko II (s indikátorem nabíjení)"
 
 msgid "sniper/snpGunTag/type2"
-msgstr "Kříž, černý"
+msgstr "Zatržítko III"
 
 msgid "sniper/snpGunTag/type3"
-msgstr "Kříž, bílý"
+msgstr "Nitkový kříž I (s indikátorem šance prostřelení pancíře)"
 
 msgid "sniper/snpGunTag/type4"
-msgstr "X-kříž, černý"
+msgstr "Nitkový kříž II (s indikátorem nabíjení)"
 
 msgid "sniper/snpGunTag/type5"
-msgstr "X-kříž, bílý"
+msgstr "Nitkový kříž III"
 
 msgid "sniper/snpMixing"
 msgstr "Indikátor rozptylu"
 
 msgid "sniper/snpMixing/type0"
-msgstr "Kruh, plný (zelený)"
+msgstr "Kruh I (naplňuje se při nabíjení)"
 
 msgid "sniper/snpMixing/type1"
-msgstr "Kruh, plný (modrý)"
+msgstr "Kruh II (s posuvným indikátorem nabíjení)"
 
 msgid "sniper/snpMixing/type2"
-msgstr "Kruh, tečkovaný (originální)"
+msgstr "Kruh III (bez indikátoru nabíjení)"
 
 msgid "sniper/snpNet"
 msgstr "Indikátory"
 
 msgid "sniper/snpNet/type0"
-msgstr "Vodorovný s rámečkem"
+msgstr "Indikátory typ I (diagonální)"
 
 msgid "sniper/snpNet/type1"
-msgstr "Vodorovný bez rámečku"
+msgstr "Indikátory typ II (horizontální)"
 
 msgid "sniper/snpNet/type2"
-msgstr "Žádný, vnitřní"
+msgstr "Indikátory pancíře"
 
 msgid "sniper/snpReloader"
 msgstr "Nabíjení"
@@ -802,6 +814,15 @@ msgstr "Hlasy tankistů dle národností"
 
 msgid "sound/players_notifications"
 msgstr "Upozornění od ostatních hráčů"
+
+msgid "sound/soundModes/baluev"
+msgstr "Baluev"
+
+msgid "sound/soundModes/default"
+msgstr "Standardní"
+
+msgid "sound/soundModes/merzlikin"
+msgstr "Merzlikin"
 
 msgid "sound/vivox/buttons/capture_devices_refresh"
 msgstr "Aktualizace seznamu zařízení"
@@ -846,7 +867,7 @@ msgid "sounds/vehicles"
 msgstr "Tank"
 
 msgid "sounds/voice"
-msgstr "Hlasové zprávy"
+msgstr "Hlasová oznámení"
 
 msgid "title"
 msgstr "Nastavení"

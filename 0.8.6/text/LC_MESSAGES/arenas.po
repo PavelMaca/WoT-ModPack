@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-04-24 13:09+0100\n"
+"PO-Revision-Date: 2013-06-19 14:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -351,6 +351,14 @@ msgstr ""
 
 msgid "60_asia_miao/name"
 msgstr "Perlová řeka (Pearl River)"
+
+msgid "73_asia_korea/description"
+msgstr ""
+"Velkou část této mapy zabírá údolí skryté uprostřed hor. Početné vesnice, "
+"skály, stromy a keře ovlivňují bitevní taktiku."
+
+msgid "73_asia_korea/name"
+msgstr "Posvátné údolí (Sacred Valley)"
 
 msgid "type/assault/description1"
 msgstr ""

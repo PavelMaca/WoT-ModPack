@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-04-27 11:05+0100\n"
+"PO-Revision-Date: 2013-06-19 14:20+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -215,10 +215,10 @@ msgid "customization/emblemLeft/current/drop/body"
 msgstr "Ostranit aktuální Emblém 1"
 
 msgid "customization/emblemLeft/current/drop/header"
-msgstr "Ostranit aktuální Emblém 2"
+msgstr "Ostranit aktuální Emblém 1"
 
 msgid "customization/emblemRight/current/drop/body"
-msgstr "Ostranit aktuální Emblém 3"
+msgstr "Odstranit aktuální Emblém 2"
 
 msgid "customization/emblemRight/current/drop/header"
 msgstr "Odstranit Emblém 2"
@@ -918,6 +918,14 @@ msgstr ""
 
 msgid "settings_dialog/sound/PTTKey/header"
 msgstr "Stlačte a mluvte"
+
+msgid "settings_dialog/sound/alternativeVoices/header"
+msgstr "Ukázka"
+
+msgid "settings_dialog/sound/soundModeInvalid"
+msgstr ""
+"Soubory zvoleného hlasu oznámení\n"
+"jsou poškozené nebo chybí."
 
 msgid "shop/listItemRenderer/note"
 msgstr "(Kliknutím levého tlačítka koupíte stání)"

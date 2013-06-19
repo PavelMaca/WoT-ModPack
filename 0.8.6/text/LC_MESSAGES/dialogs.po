@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-04-24 13:09+0100\n"
+"PO-Revision-Date: 2013-06-19 14:21+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -284,6 +284,21 @@ msgid "controlsWrongNotification/submit"
 msgstr "Uložit"
 
 msgid "controlsWrongNotification/title"
+msgstr "Chyba"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Storno"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr ""
+"Soubory pro zvolený hlas oznámení jsou poškozené nebo chybí. Bude nastaven "
+"výchozí hlas oznámení.\n"
+"Jedna nebo více kláves není přiřazeno. Uložit toto nastavení?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Uložit"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
 msgstr "Chyba"
 
 msgid "createAnAccount/message"
@@ -786,6 +801,24 @@ msgstr "OK"
 msgid "leftTrainingAndAcceptInvite/title"
 msgstr "Pozvánka"
 
+msgid "loginWarningConfirm/cancel"
+msgstr "Storno"
+
+msgid "loginWarningConfirm/submit"
+msgstr "OK"
+
+msgid "loginWarningConfirm/title"
+msgstr "Pozor"
+
+msgid "loginWarningInfo/cancel"
+msgstr "OK"
+
+msgid "loginWarningInfo/submit"
+msgstr "OK"
+
+msgid "loginWarningInfo/title"
+msgstr "Pozor"
+
 msgid "lowAmmo/cancel"
 msgstr "Ne"
 
@@ -1189,7 +1222,7 @@ msgid "shopSyncError/cancel"
 msgstr "OK"
 
 msgid "shopSyncError/message"
-msgstr "Обновите клиент. Если не поможет - обновите сервер."
+msgstr "Chyba: Aktualizujte klienta"
 
 msgid "shopSyncError/title"
 msgstr "Nesynchronizováno"
@@ -1206,6 +1239,20 @@ msgstr "Zapomenout"
 
 msgid "skillDropWindow/title"
 msgstr "Potvrzení zapomenutí schopnosti nebo kvalifikace"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Storno"
+
+msgid "soundModeInvalid/message"
+msgstr ""
+"Soubory pro zvolený hlas oznámení jsou poškozené nebo chybí. Bude nastaven "
+"výchozí hlas oznámení."
+
+msgid "soundModeInvalid/submit"
+msgstr "Uložit"
+
+msgid "soundModeInvalid/title"
+msgstr "Chyba"
 
 msgid "squadHaveNotReadyPlayers/cancel"
 msgstr "Storno"
@@ -1415,6 +1462,9 @@ msgstr "MUNICE:"
 msgid "vehicleSellDialog/cancel"
 msgstr "Storno"
 
+msgid "vehicleSellDialog/commonResult"
+msgstr "CELKEM:"
+
 msgid "vehicleSellDialog/complexOptionalDevice"
 msgstr "INTEGROVANÉ VYBAVENÍ:"
 
@@ -1501,9 +1551,6 @@ msgstr "Lehký tank"
 
 msgid "vehicleSellDialog/vehicleType/mediumTank"
 msgstr "Střední tank"
-
-msgid "vehicleSellDialog/сommonResult"
-msgstr "CELKEM:"
 
 msgid "voiceChatInitFailed/cancel"
 msgstr "OK"
