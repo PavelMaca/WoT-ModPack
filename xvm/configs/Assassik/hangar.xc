@@ -44,10 +44,10 @@
         // Different colors depending on server responce time
         // Разные цвета в зависимости от времени отклика сервера
         "color": {
-          "great": ${"colors.xc":"ranking.unique"},   // Отличный
-          "good": ${"colors.xc":"ranking.good"},  // Хороший
-          "poor": ${"colors.xc":"ranking.bad"},  // Так себе
-          "bad": ${"colors.xc":"ranking.veryBad"}    // Плохой
+          "great": ${"colors.xc":"def.colorRating.unique"},   // Отличный
+          "good": ${"colors.xc":"def.colorRating.good"},  // Хороший
+          "poor": ${"colors.xc":"def.colorRating.bad"},  // Так себе
+          "bad": ${"colors.xc":"def.colorRating.very_bad"}    // Плохой
         }
       },
       // Threshold values defining responce quality
