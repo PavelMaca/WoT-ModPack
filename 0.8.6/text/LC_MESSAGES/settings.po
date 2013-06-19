@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-04-27 11:08+0100\n"
+"PO-Revision-Date: 2013-06-19 15:15+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -73,6 +73,12 @@ msgstr "Zobrazovat stopy pásů"
 
 msgid "WATER_QUALITY"
 msgstr "Kvalita vodní hladiny"
+
+msgid "alternativeVoices/fieldset/header"
+msgstr "Hlasová oznámení"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Hlasové zprávy v bitvě"
 
 msgid "apply_button"
 msgstr "Použít"
@@ -248,8 +254,14 @@ msgstr "Standard"
 msgid "edgeDetectAA"
 msgstr "Chytrá detekce AA"
 
+msgid "fpsPerfomancer"
+msgstr "Dynamická změna kvality efektů"
+
 msgid "fullScreenMode"
 msgstr "Režim celé obrazovky"
+
+msgid "game/dynamicCamera"
+msgstr "Povolit dynamickou kameru"
 
 msgid "game/enableMortalPostEffect"
 msgstr "Povolit efekty v posmrtném režimu"
@@ -803,6 +815,15 @@ msgstr "Hlasy tankistů dle národností"
 msgid "sound/players_notifications"
 msgstr "Upozornění od ostatních hráčů"
 
+msgid "sound/soundModes/baluev"
+msgstr "Baluev"
+
+msgid "sound/soundModes/default"
+msgstr "Standardní"
+
+msgid "sound/soundModes/merzlikin"
+msgstr "Merzlikin"
+
 msgid "sound/vivox/buttons/capture_devices_refresh"
 msgstr "Aktualizace seznamu zařízení"
 
@@ -846,7 +867,7 @@ msgid "sounds/vehicles"
 msgstr "Tank"
 
 msgid "sounds/voice"
-msgstr "Hlasové zprávy"
+msgstr "Hlasová oznámení"
 
 msgid "title"
 msgstr "Nastavení"
