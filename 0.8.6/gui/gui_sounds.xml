@@ -148,7 +148,6 @@
     </overrides>
   </controls>
   <effects>
-    <vehicle_changing>/GUI/buttons/tank_changing</vehicle_changing>
     <spend_credits>/GUI/buttons/coins</spend_credits>
     <spend_gold>/GUI/buttons/coins</spend_gold>
     <spend_credits_and_gold>/GUI/buttons/coins</spend_credits_and_gold>
@@ -156,5 +155,8 @@
     <earn_credits>/GUI/buttons/coins</earn_credits>
     <earn_gold>/GUI/buttons/coins</earn_gold>
     <earn_credits_and_gold>/GUI/buttons/coins</earn_credits_and_gold>
+    <sound_mode_preview01>/ingame_voice/notifications_VO/enemy_hp_damaged_by_projectile_by_player</sound_mode_preview01>
+    <sound_mode_preview02>/ingame_voice/notifications_VO/track_destroyed</sound_mode_preview02>
+    <sound_mode_preview03>/ingame_voice/notifications_VO/enemy_fire_started_by_player</sound_mode_preview03>
   </effects>
 </gui_sounds.xml>
