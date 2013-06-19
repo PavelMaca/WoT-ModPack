@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-04-27 11:14+0100\n"
+"PO-Revision-Date: 2013-06-19 15:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -504,6 +504,12 @@ msgstr "Čas do zahájení:"
 msgid "lobby/bsChannels/stats/commonLevel"
 msgstr "Úroveň:"
 
+msgid "lobby/bsChannels/stats/required"
+msgstr "Požaduje:"
+
+msgid "lobby/bsChannels/stats/vehicleType"
+msgstr "Typ:"
+
 msgid "lobby/bsChannels/title/startTime"
 msgstr "Čas bitvy: %s"
 
@@ -902,17 +908,59 @@ msgstr "Remíza!"
 msgid "serviceChannelMessages/battleResults/experience"
 msgstr "XP"
 
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Volných zkušeností obdrženo"
+
 msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Příjem zlaťáků"
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "Pokuta: %s"
 
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Úkol byl dokončen! Odměna"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Postele přidány do kasáren"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Vybavení přidáno"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Připsány prémiové dny"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Stání přidáno"
+
 msgid "serviceChannelMessages/battleResults/tank"
 msgstr "Vozidlo"
 
+msgid "serviceChannelMessages/battleResults/training_battle"
+msgstr "Cvičná bitva"
+
 msgid "serviceChannelMessages/battleResults/victory"
 msgstr "Vítězství!"
+
+msgid "serviceChannelMessages/battleTutorial/reasons/extermination"
+msgstr "Tank zničen"
+
+msgid "serviceChannelMessages/battleTutorial/reasons/failed"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/battleTutorial/reasons/finished"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/battleTutorial/reasons/timeout"
+msgstr "Čas vypršel"
+
+msgid "serviceChannelMessages/battleTutorial/results/failed"
+msgstr "Školení selhalo."
+
+msgid "serviceChannelMessages/battleTutorial/results/finished"
+msgstr "Školení dokončeno!"
 
 msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
 msgstr ""
@@ -1138,10 +1186,10 @@ msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
 msgstr "Nápisy změněny"
 
 msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
-msgstr "Přidáno pozic: %(freeXP)s"
+msgstr "Přidáno pozic: %(slots)s"
 
 msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
-msgstr "Odtraněno pozic: %(freeXP)s"
+msgstr "Odtraněno pozic: %(slots)s"
 
 msgid "serviceChannelMessages/sysMsg/converter/title"
 msgstr "Pozor!"
