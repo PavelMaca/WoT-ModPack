@@ -4,6 +4,7 @@
   <finPasswordURL>
   </finPasswordURL>
   <migrationURL>http://wot.kongzhong.com/jihuo/jihuo.html?%s</migrationURL>
+  <securitySettingsURL>https://eu.wargaming.net/personal/?utm_source=game-client&amp;utm_medium=notify&amp;utm_campaign=change-password</securitySettingsURL>
   <nations_order>
     <_1>china</_1>
     <_2>france</_2>
@@ -47,7 +48,9 @@
   </movingText>
   <freeXpToTankman>False</freeXpToTankman>
   <eula>
-    <full>False</full>
+    <full>
+      <lang>ko</lang>
+    </full>
     <url>http://worldoftanks.eu/user_agreement?language={0}</url>
   </eula>
 </gui_settings.xml>
