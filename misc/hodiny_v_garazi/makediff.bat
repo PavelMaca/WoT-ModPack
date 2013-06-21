@@ -1,0 +1,1 @@
+  diff -u2 orig\logos.xml logos.xml > logos.xml.patch

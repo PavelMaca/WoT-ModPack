@@ -161,7 +161,7 @@
   <sniperMode>
     <aim>sniper</aim>
     <binoculars>
-      <background>maps/fx/gobo_binoculars.dds</background>
+      <background></background>
     </binoculars>
     <numScrolls>	1	</numScrolls>
     <camera>
