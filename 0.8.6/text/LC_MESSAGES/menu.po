@@ -317,7 +317,7 @@ msgstr "Nastavit jako rezervní"
 msgid "copy"
 msgstr ""
 "Wargaming.net 2008-2013. Všechna práva vyhrazena. <font "
-"color='#BFE9FF'>«[8.6] Crabtr33 rozšířená edice CZ v1.60YK»</font>"
+"color='#BFE9FF'>«[8.6] Crabtr33 rozšířená edice CZ v1.61YK»</font>"
 
 msgid "currentVehicleStatus/ammoNotFull"
 msgstr "Nekompletní munice"
@@ -1144,7 +1144,8 @@ msgid "loading/game"
 msgstr "Nahrává se… Prosím čekejte…"
 
 msgid "loading/gameInfo"
-msgstr " "
+msgstr ""
+"Tato hra je vhodná pro <font color='#03953f'>VŠECHNY</font> věkové kategorie."
 
 msgid "loading/helpTip"
 msgstr "Pro nápovědu v bitvě stiskněte F1."
