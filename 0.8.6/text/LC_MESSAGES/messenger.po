@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-06-19 15:46+0100\n"
+"PO-Revision-Date: 2013-07-01 12:32+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -1002,7 +1002,7 @@ msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
 msgstr "zlaťáky"
 
 msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
-msgstr "Kredity připsány"
+msgstr "Kredity byly připsány na váš účet"
 
 msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
 msgstr "Kredity byly strženy z vašeho účtu"
@@ -1017,13 +1017,13 @@ msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
 msgstr "Přidáno volných zkušeností"
 
 msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
-msgstr "Volné zkušenosti odečteny"
+msgstr "Odepsáno volných zkušeností"
 
 msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
-msgstr "Zlaťáky připsány"
+msgstr "Zlaťáky byly připsány na váš účet"
 
 msgid "serviceChannelMessages/invoiceReceived/goldDebited"
-msgstr "Zlaťáky odečteny"
+msgstr "Zlaťáky byly strženy z vašeho účtu"
 
 msgid "serviceChannelMessages/invoiceReceived/invoice"
 msgstr "Účtenka"
@@ -1041,7 +1041,7 @@ msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
 msgstr "Připsány prémiové dny"
 
 msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
-msgstr "Prémiové dny odečteny"
+msgstr "Odepsány prémiové dny"
 
 msgid "serviceChannelMessages/invoiceReceived/premium_account"
 msgstr "Prémiový"
@@ -1159,7 +1159,7 @@ msgid "serviceChannelMessages/serverRebootCancelled"
 msgstr "Odpojení serveru zrušeno, bylo plánováno na %(date)s."
 
 msgid "serviceChannelMessages/sysMsg/converter/camouflages"
-msgstr "Kamufláž změněna"
+msgstr "Kamufláž"
 
 msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
 msgstr "Získáno kreditů: %(credits)s"
