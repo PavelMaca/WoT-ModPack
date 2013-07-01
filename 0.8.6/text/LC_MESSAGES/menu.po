@@ -316,8 +316,8 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena. (Rozšířená CZ v1.51 by "
-"Assassik)"
+"Wargaming.net 2008-2013. Všechna práva vyhrazena. <font "
+"color='#BFE9FF'>«[8.6] Crabtr33 rozšířená edice CZ v1.60YK»</font>"
 
 msgid "currentVehicleStatus/ammoNotFull"
 msgstr "Nekompletní munice"
@@ -478,22 +478,16 @@ msgid "customization/marker/camouflage/defaultHint"
 msgstr "Vyberte si kamufláž pro snížení viditelnosti vozidla."
 
 msgid "customization/marker/camouflage/desertHint"
-msgstr ""
-"Viditelnost vozidla na mapách pouštního typu bude snížena o %(bold_tag_open)s"
-"%(percents)s%%%(bold_tag_close)s"
+msgstr "Snižuje viditelnost vozidla na pouštních mapách"
 
 msgid "customization/marker/camouflage/new"
 msgstr "NOVÁ"
 
 msgid "customization/marker/camouflage/summerHint"
-msgstr ""
-"Viditelnost vozidla na mapách letního typu bude snížena o %(bold_tag_open)s"
-"%(percents)s%%%(bold_tag_close)s"
+msgstr "Snižuje viditelnost vozidla na letních mapách"
 
 msgid "customization/marker/camouflage/winterHint"
-msgstr ""
-"Viditelnost vozidla na mapách zimního typu bude snížena o %(bold_tag_open)s"
-"%(percents)s%%%(bold_tag_close)s"
+msgstr "Snižuje viditelnost vozidla na zimních mapách"
 
 msgid "customization/period/day"
 msgstr "na 1 den"
@@ -602,37 +596,38 @@ msgid "disconnect/codes/0"
 msgstr "<?empty?>"
 
 msgid "disconnect/codes/1001"
-msgstr "Desynchronizace skladu (1001)"
+msgstr "desynchronizace součástí souvisejících s \"Vozidly\" (1001)"
 
 msgid "disconnect/codes/1002"
-msgstr "Desynchronizace skladu (1002)"
+msgstr "desynchronizace součástí souvisejících s \"Podvozkem\" (1002)"
 
 msgid "disconnect/codes/1003"
-msgstr "Desynchronizace skladu (1003)"
+msgstr "desynchronizace součástí souvisejících s \"Věží\" (1003)"
 
 msgid "disconnect/codes/1004"
-msgstr "Desynchronizace skladu (1004)"
+msgstr "desynchronizace součástí souvisejících s \"Dělem\" (1004)"
 
 msgid "disconnect/codes/1005"
-msgstr "Desynchronizace skladu (1005)"
+msgstr "desynchronizace součástí souvisejících s \"Motorem\" (1005)"
 
 msgid "disconnect/codes/1006"
-msgstr "Desynchronizace skladu (1006)"
+msgstr "desynchronizace součástí souvisejících s \"Palivovou nádrží\" (1006)"
 
 msgid "disconnect/codes/1007"
-msgstr "Desynchronizace skladu (1007)"
+msgstr "desynchronizace součástí souvisejících s \"Rádiem\" (1007)"
 
 msgid "disconnect/codes/1008"
-msgstr "Desynchronizace skladu (1008)"
+msgstr "desynchronizace součástí souvisejících s \"Posádkou\" (1008)"
 
 msgid "disconnect/codes/1009"
-msgstr "Desynchronizace skladu (1009)"
+msgstr "desynchronizace součástí souvisejících s \"Vybavením\" (1009)"
 
 msgid "disconnect/codes/1010"
-msgstr "Desynchronizace skladu (1010)"
+msgstr "desynchronizace součástí souvisejících s \"Municí\" (1010)"
 
 msgid "disconnect/codes/1011"
-msgstr "Desynchronizace skladu (1011)"
+msgstr ""
+"desynchronizace součástí souvisejících se \"Spotřebními doplňky\" (1011)"
 
 msgid "exchange/cancel"
 msgstr "Storno"
