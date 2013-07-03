@@ -1,5 +1,5 @@
 ﻿<!-- Total per Battle + session Statistics  -->
-<!-- Author: Vslav666 -->
+<!-- Author: Vslav666, CZ by Assassik -->
 
 <!-- To edit ServiceChannelPage.xml use an editor that supports UTF-8, for example Notepad + +. WordPad does not support this encoding, and will "kill" the config file. -->
 
@@ -12,27 +12,52 @@
 <!-- #ffffff - color in a 16-hexadecimal calculation -->
 
 <config>
-	<Version>1.0</Version>						  			<!-- NOTE! Incorrect version of XML-config will hang the client -->
+	<Version>1.1</Version>				<!-- NOTE! Incorrect version of XML-config will hang the client -->	
 	
-	<TypeMod>3</TypeMod>									<!-- [1|2|3|4] Fashion type of colored posts -->
-															<!-- 1-standard, 2-MSM (Vslav, Set, V2, Stiv372, Veslo, V1), 3-YasenKrasen, 4-MCM (V0, V3, Hewlett) -->
-	<PremiumAccount>false</PremiumAccount>					<!-- [true|false] Premium account -->
-															<!-- true = Premium Account, false = Regular Account -->
-	<SeparatorGroupsOfDigits>space</SeparatorGroupsOfDigits>	<!-- [c] thousands separator ("space" - for the Russian version, "." - for the English version -->
-															<!-- c - a single character, if character "space", write the word "space" -->
-	<TotalBattle>							<!-- TOTAL FOR BATTLE -->
-		<StartPos>0</StartPos>								<!-- [n] Indented from the left margin in pixels -->
-		<Repair>							<!-- Repair -->
-			<Visible>true</Visible>							<!-- [true|false] Visible -->
-			<Title>Opravy:</Title>							<!-- [s] Title text -->
-			<Bold>false</Bold>								<!-- [true|false] Bold -->
-			<FontSize>12</FontSize>							<!-- [n] Font size -->
-			<Color>#CDC673</Color>							<!-- [#ffffff] Color in 16-hexadecimal -->
-			<Credit>						<!-- Credits -->
-				<Bold>false</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->
-				<Color>#FFFFFF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-				<Icon>2</Icon>								<!-- [0|1|2] Icon: 0-Hide, 1-Front, 2-After -->
+	<TypeMod>3</TypeMod>				<!-- [1|2|3|4] Fashion type of colored posts -->				
+							<!-- 1-standard, 2-MSM (Vslav, Set, V2, Stiv372, Veslo, V1), 3-YasenKrasen, 4-MCM (V0, V3, Hewlett) -->
+	<PremiumAccount>false</PremiumAccount>		<!-- [true|false] Premium account -->
+															<!-- true (истина) = Премиум аккаунт, false (ложь) = Обычный аккаунт -->
+	<SeparatorGroupsOfDigits>space</SeparatorGroupsOfDigits>	<!-- [c] thousands separator example "space" for 1 589, "." for 1.589 format -->
+																<!-- c - один символ, исключение символ "пробел", пишем слово "space" -->
+	<TotalBattle>			<!-- TOTAL FOR BATTLE -->
+		<StartPos>0</StartPos>								<!-- [n] Отступ от левого края в пикселах -->
+		<Experience>				<!-- Опыт за бой -->
+			<Visible>false</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>XP X1/X0/Volné:</Title>					<!-- [s] текст заголовка -->
+			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
+			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
+			<Color>#CDC673</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			<X1>							<!-- Опыт X1 за бой -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Опыт X1 за бой -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</X1>
+			<X0>							<!-- Опыт X0 за бой -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Опыт X0 за бой -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</X0>
+			<Free>							<!-- Свободный опыт за бой -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Свободный опыт за бой -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#CD853F</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Free>
+		</Experience>
+		<Repair>					<!-- Ремонт -->
+			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>Opravy:</Title>							<!-- [s] текст заголовка -->
+			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
+			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
+			<Color>#CDC673</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			<Credit>						<!-- Кредиты -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->
+				<Color>#FFFFFF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+				<Icon>2</Icon>								<!-- [0|1|2] Иконка: 0-не отображать, 1-перед, 2-после (работает только для TypeMod 2 или 3) -->															
 			</Credit>
 		</Repair>
 		<Ammunition>						<!-- Ammunition -->
@@ -95,7 +120,7 @@
 			</Gold>			
 		</Total>
 		<ExperienceAction>					<!--  Experience for Mid-Week Medal Hunt -->
-			<Visible>true</Visible>							<!-- [true|false] Visible -->
+			<Visible>false</Visible>							<!-- [true|false] Visible -->
 			<Title>XP z akce:</Title>							<!-- [s] Title text -->
 			<Bold>false</Bold>								<!-- [true|false] Bold -->
 			<FontSize>12</FontSize>							<!-- [n] Font size -->
@@ -108,165 +133,195 @@
 			</Experience>
 		</ExperienceAction>
 	</TotalBattle>		
-	<Statistics>							<!-- Statistics -->
-		<Color>grey</Color>									<!-- [green|yellow|red|grey|lightGrey|action] Color background -->
-		<Battle>							<!-- Battles -->
-			<Visible>true</Visible>							<!-- [true|false] Visible -->
-			<Title>Vítězství (Bitev):</Title>					<!-- [s] Title text -->
-			<Bold>false</Bold>								<!-- [true|false] Bold -->
-			<FontSize>12</FontSize>							<!-- [n] Font size -->
-			<Color>#929290</Color>							<!-- [#ffffff] Color in 16-hexadecimal -->
-			<BattleVictory>					<!-- Battles wins -->
-				<Bold>true</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->
-				<Percent>50</Percent>						<!-- [n] Percentage of color change -->
-				<ColorPlus>#00EE00</ColorPlus>				<!-- [#ffffff] Color when the result is greater than or equal to the percentage -->
-				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Color when the result is lesser than the percentage -->
-			</BattleVictory>
-			<BattleDrawGame>				<!-- Battle draws -->
-				<Visible>true</Visible>						<!-- [true|false] Visibility (Draws) -->
-				<Bold>true</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->
-				<Color>#EE00EE</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</BattleDrawGame>
-			<BattleTotal>					<!-- Total battles -->
-				<Bold>true</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->
-				<Color>#FFFF00</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</BattleTotal>
-			<VictoryPercent>				<!-- Victory percent -->
-				<Bold>false</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->
-				<Rounding>2</Rounding>						<!-- [0...100] Accuracy percentage of victories, number of decimal separator -->
-				<Percent>50</Percent>						<!-- [n] Percentage of color change -->
-				<ColorPlus>#00EE00</ColorPlus>				<!-- [#ffffff] Color when the result is greater than or equal to the percentage -->
-				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Color when the result is lesser than the percentage -->
+	
+	<Statistics>			<!-- СТАТИСТИКА -->
+		<Color>grey</Color>								<!-- [green|yellow|red|grey|lightGrey|action] Цвет блока -->
+		<Battle>					<!-- Колво боев -->
+			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>Vítězství (Bitev):</Title>						<!-- [s] текст заголовка -->
+			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
+			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
+			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			<Victory>						<!-- Колво побед -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->
+				<Percent>55</Percent>						<!-- [n] Процент для изменения цвета -->
+				<ColorPlus>#00EE00</ColorPlus>				<!-- [#ffffff] Цвет, результат больше или равно Процент -->
+				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Цвет, результат меньше Процент -->
+			</Victory>
+			<DrawGame>						<!-- Колво ничьих -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость (колва ничьих) -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->
+				<Color>#EE00EE</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</DrawGame>
+			<Total>							<!-- Колво боев -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->
+				<Color>#FFFF00</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Total>
+			<VictoryPercent>				<!-- Процент побед -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость (Процент побед) -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->
+				<Rounding>2</Rounding>						<!-- [0...100] Точность процента побед, кол-во знаков после разделителя -->
+				<Percent>50</Percent>						<!-- [n] Процент для изменения цвета -->
+				<ColorPlus>#00EE00</ColorPlus>				<!-- [#ffffff] Цвет, результат больше или равно Процент -->
+				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Цвет, результат меньше Процент -->
 			</VictoryPercent>
 		</Battle>
-		<Experience>						<!-- Experience -->
-			<Visible>true</Visible>							<!-- [true|false] Visible -->
-			<Title>XP (s bonusy):</Title>								<!-- [s] Title text -->
-			<Bold>false</Bold>								<!-- [true|false] Bold -->
-			<FontSize>12</FontSize>							<!-- [n] Font size -->
-			<Color>#929290</Color>							<!-- [#ffffff] Color in 16-hexadecimal -->
-			<ExperienceAverage>				<!-- Average Experience per session -->
-				<Bold>true</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#1E90FF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</ExperienceAverage>
-			<BattleExperience>				<!-- Experience per session -->
-				<Bold>false</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#1E90FF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</BattleExperience>
+		<Experience>				<!-- Опыт -->
+			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>XP (s bonusy):</Title>							<!-- [s] текст заголовка -->
+			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
+			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
+			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			<Average>						<!-- Средний опыт за сессию -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Средний опыт за сессию -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Average>
+			<Total>							<!-- Опыт за сессию -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Опыт за сессию -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Total>
 		</Experience>
-		<ExperienceX1>						<!-- Experience is shown as X1 -->
-			<Visible>true</Visible>							<!-- [true|false] Visible -->
-			<Title>XP (bez bonusu):</Title>						<!-- [s] Title text -->
-			<Bold>false</Bold>								<!-- [true|false] Bold -->
-			<FontSize>12</FontSize>							<!-- [n] Font size -->
-			<Color>#929290</Color>							<!-- [#ffffff] Color in 16-hexadecimal -->
-			<ExperienceAverage>				<!-- Average Experience per session X1 -->
-				<Bold>true</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#1E90FF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</ExperienceAverage>
-			<BattleExperience>				<!-- Experience X1 per session -->
-				<Bold>false</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#1E90FF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</BattleExperience>
+		<ExperienceX1>				<!-- Опыт, приведенный к X1 -->
+			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>XP (bez bonusu):</Title>						<!-- [s] текст заголовка -->
+			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
+			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
+			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			<Average>						<!-- Средний опыт X1 за сессию -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Средний опыт X1 за сессию -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Average>
+			<Total>							<!-- Опыт X1 за сессию -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Опыт X1 за сессию -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Total>
 		</ExperienceX1>
-		<FreeExperience>					<!-- FreeExperience -->
-			<Visible>false</Visible>							<!-- [true|false] Visible -->
-			<Title>Volné XP:</Title>						<!-- [s] Title text -->
-			<Bold>false</Bold>								<!-- [true|false] Bold -->
-			<FontSize>12</FontSize>							<!-- [n] Font size -->
-			<Color>#929290</Color>							<!-- [#ffffff] Color in 16-hexadecimal -->
-			<Battle>						<!-- Free experience for the last fight -->
-				<Bold>true</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#CD853F</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</Battle>
-			<Total>							<!-- Free experience for session -->
-				<Bold>false</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#CD853F</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
+		<ExperienceX0>				<!-- Опыт X0 без учета акций, X2 и прем. аккаунта -->
+			<Visible>false</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>Volné XP (X0):</Title>						<!-- [s] текст заголовка -->
+			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
+			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
+			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			<Average>						<!-- Средний опыт X0 за сессию -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Средний опыт X0 за сессию -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Average>
+			<Total>							<!-- Опыт X0 за сессию -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Опыт X0 за сессию -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Total>
+		</ExperienceX0>
+		<FreeExperience>			<!-- Свободный Опыт -->
+			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>Volné XP:</Title>							<!-- [s] текст заголовка -->
+			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
+			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
+			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			<Average>						<!-- Средний Свободный опыт за сессию -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Средний Свободный опыт за сессию -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#CD853F</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Average>
+			<Total>							<!-- Свободный опыт за сессию -->
+				<Visible>true</Visible>						<!-- [true|false] Видимость Свободный опыт за сессию -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#CD853F</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
 			</Total>
 		</FreeExperience>
-		<Credit>							<!-- Credits -->
-			<Visible>true</Visible>							<!-- [true|false] Visible -->
-			<Title>Kredity:</Title>							<!-- [s] Title text -->
-			<Bold>false</Bold>								<!-- [true|false] Bold -->
-			<FontSize>12</FontSize>							<!-- [n] Font size -->
-			<Color>#929290</Color>							<!-- [#ffffff] Color in 16-hexadecimal -->
-			<CreditTotal>					<!-- Total per session (credits) -->
-				<Bold>true</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<ColorPlus>#00EE00</ColorPlus>				<!-- [#ffffff] Color of a positive result -->
-				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Color of a negative result -->
-			</CreditTotal>
-			<CreditBattle>					<!-- Total per session (credits for fighting) -->
-				<Visible>false</Visible>						<!-- [true|false] Visible (credits for fighting) -->
-				<Bold>false</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#FFFFFF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</CreditBattle>
-			<CreditBuySale>					<!-- Total per session (credit transactions Buy / Sell) -->
-				<Visible>false</Visible>						<!-- [true|false] Видимость (credit transactions Buy / Sell) -->
-				<Bold>false</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#FFFFFF</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</CreditBuySale>
+		<Credit>					<!-- Кредиты -->
+			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>Kredity:</Title>							<!-- [s] текст заголовка -->
+			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
+			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
+			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			<Total>							<!-- Итого за сессию (кредиты) -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<ColorPlus>#00EE00</ColorPlus>				<!-- [#ffffff] Цвет, положительный результат -->
+				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Цвет, отрицательный результат -->
+			</Total>
+			<Battle>						<!-- Итого за сессию (кредиты за бой) -->
+				<Visible>false</Visible>						<!-- [true|false] Видимость (кредиты за бой) -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#FFFFFF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Battle>
+			<BuySale>						<!-- Итого за сессию (кредиты по операциям купи/продай) -->
+				<Visible>false</Visible>						<!-- [true|false] Видимость (кредиты по операциям купи/продай) -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#FFFFFF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</BuySale>
 		</Credit>
-		<Gold>								<!-- Gold -->
-			<Visible>true</Visible>							<!-- [true|false] Visible -->
-			<Title>Zlaťáky:</Title>							<!-- [s] Title text -->
-			<Bold>false</Bold>								<!-- [true|false] Bold -->
-			<FontSize>12</FontSize>							<!-- [n] Font size -->
-			<Color>#929290</Color>							<!-- [#ffffff] Color in 16-hexadecimal -->
-			<GoldTotal>						<!-- Total per session (Gold) -->
-				<Bold>true</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<ColorPlus>#00EE00</ColorPlus>				<!-- [#ffffff] Color of a positive result -->
-				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Color of a negative result -->
-			</GoldTotal>
-			<GoldBattle>					<!-- Total per session (gold for battle) -->
-				<Visible>false</Visible>						<!-- [true|false] Visible (gold for battle) -->
-				<Bold>false</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#FFE769</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</GoldBattle>
-			<GoldBuySale>					<!-- Total per session (gold transactions buy / sell) -->
-				<Visible>false</Visible>						<!-- [true|false] Visible (gold transactions Buy / Sell) -->
-				<Bold>false</Bold>							<!-- [true|false] Bold -->
-				<FontSize>12</FontSize>						<!-- [n] Font size -->			
-				<Color>#FFE769</Color>						<!-- [#ffffff] Color in 16-hexadecimal -->
-			</GoldBuySale>
+		<Gold>						<!-- Золото -->
+			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>Zlaťáky:</Title>							<!-- [s] текст заголовка -->
+			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
+			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
+			<Color>#929290</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			<Total>							<!-- Итого за сессию (золото) -->
+				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<ColorPlus>#00EE00</ColorPlus>				<!-- [#ffffff] Цвет, положительный результат -->
+				<ColorMinus>#EE0000</ColorMinus>			<!-- [#ffffff] Цвет, отрицательный результат -->
+			</Total>
+			<Battle>						<!-- Итого за сессию (золото за бой) -->
+				<Visible>false</Visible>						<!-- [true|false] Видимость (золото за бой) -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#FFE769</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</Battle>
+			<BuySale>						<!-- Итого за сессию (золото по операциям купи/продай) -->
+				<Visible>false</Visible>						<!-- [true|false] Видимость (золото по операциям купи/продай) -->
+				<Bold>false</Bold>							<!-- [true|false] Жирный шрифт -->
+				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
+				<Color>#FFE769</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+			</BuySale>
 		</Gold>
 	</Statistics>
-	<SysMessage>							<!-- System Messages (not from battles)-->
-		<Error>true</Error>															<!-- [true|false] Error -->
-		<Warning>true</Warning>														<!-- [true|false] Warning -->
-		<Information>true</Information>												<!-- [true|false] Information -->
-		<GameGreeting>true</GameGreeting>											<!-- [true|false] Game Greeting -->
-		<PowerLevel>true</PowerLevel>												<!-- [true|false] Powerlevel -->
-		<PurchaseForCredits>true</PurchaseForCredits>								<!-- [true|false] Purchase (credits) -->
-		<PurchaseForGold>true</PurchaseForGold>										<!-- [true|false] Purchase (gold) -->
-		<DismantlingForGold>true</DismantlingForGold>								<!-- [true|false] Selling (gold) -->
-		<Selling>true</Selling>														<!-- [true|false] Selling -->
-		<Repair>true</Repair>														<!-- [true|false] Repair -->
-		<FinancialTransactionWithCredits>true</FinancialTransactionWithCredits>		<!-- [true|false] Financial Transactions (credits) -->
-		<FinancialTransactionWithGold>true</FinancialTransactionWithGold>			<!-- [true|false] Financial Transactions (gold)  -->
-		<CustomizationForCredits>true</CustomizationForCredits>						<!-- [true|false] Custumization (credits) -->
-		<CustomizationForGold>true</CustomizationForGold>							<!-- [true|false] Custumization (gold) -->		
-		<ActionBegin>true</ActionBegin>												<!-- [true|false] Action Begin -->
-		<ActionEnd>true</ActionEnd>													<!-- [true|false] Action End -->
+	
+	<SysMessage>				<!-- Системные сообщения (все, кроме после боя) на СТАНДАРТ не работает -->
+		<AdminMessage>true</AdminMessage>											<!-- [true|false] Сообщения администрации, в частности про акции -->
+		<Error>true</Error>															<!-- [true|false] Ошибки -->
+		<Warning>true</Warning>													<!-- [true|false] Предупреждения -->
+		<Information>true</Information>											<!-- [true|false] Информация -->
+		<GameGreeting>true</GameGreeting>											<!-- [true|false] Приветствие в начале игры -->
+		<PowerLevel>true</PowerLevel>												<!-- [true|false] Исследования -->
+		<PurchaseForCredits>true</PurchaseForCredits>								<!-- [true|false] Покупка (кредиты) -->
+		<PurchaseForGold>true</PurchaseForGold>									<!-- [true|false] Покупка (золото) -->
+		<DismantlingForGold>true</DismantlingForGold>								<!-- [true|false] Демонтаж (золото) -->
+		<Selling>true</Selling>													<!-- [true|false] Продажа -->
+		<Repair>true</Repair>														<!-- [true|false] Ремонт -->
+		<FinancialTransactionWithCredits>true</FinancialTransactionWithCredits>	<!-- [true|false] Фин. операции (кредиты) -->
+		<FinancialTransactionWithGold>true</FinancialTransactionWithGold>			<!-- [true|false] Фин. операции (золото)  -->
+		<CustomizationForCredits>true</CustomizationForCredits>					<!-- [true|false] Камуфляж (кредиты) -->
+		<CustomizationForGold>true</CustomizationForGold>							<!-- [true|false] Камуфляж (золото) -->		
+		<ActionBegin>true</ActionBegin>											<!-- [true|false] О начале непонятно какой акции -->
+		<ActionEnd>true</ActionEnd>												<!-- [true|false] Об окончании непонятно какой акции -->
 	</SysMessage>
-	<SysMessageBattle>			<!-- System messages (after a battle) -->
-		<Repair>false</Repair>														<!-- [true|false] Repairs -->
-		<PurchaseForCredits>false</PurchaseForCredits>								<!-- [true|false] Purchase (credits) -->
-		<PurchaseForGold>false</PurchaseForGold>									<!-- [true|false] Purchase (gold) -->	
+	
+	<SysMessageBattle>			<!-- Системные сообщения (после боя) на СТАНДАРТ не работает -->
+		<Repair>false</Repair>														<!-- [true|false] Ремонт -->
+		<PurchaseForCredits>false</PurchaseForCredits>								<!-- [true|false] Покупка (кредиты) -->
+		<PurchaseForGold>false</PurchaseForGold>									<!-- [true|false] Покупка (золото) -->	
 	</SysMessageBattle>
 	<ExperienceOfAction>		<!-- The experience obtained by the action of achievement. To correct the calculation of the free experience and reduced to X1 -->
 		<Action1>
@@ -314,12 +369,62 @@
 			<Title>--vyhrazeno--</Title>													<!-- [s] Name of achievement as shown in your game client -->
 			<Experience>1500</Experience>											<!-- [n] The value of experience for this achievement -->
 		</Action9>
-	</ExperienceOfAction>	
-	<test> 						<!-- For tests, do not use -->
-		<TestMode>false</TestMode>							<!-- Do not put true and then ask me stupid questions why it doesn´t work :) -->
-		<StatisticsBattleVictory>4</StatisticsBattleVictory>
+	</ExperienceOfAction>
+		
+	<StandartMessages>		<!-- Ключевые слова для Стандартных сообщений -->
+		<GameGreeting>Добро пожаловать на сервер</GameGreeting>
+		<Victory>Победа</Victory>
+		<DrawGame>Ничья</DrawGame>
+		<Battle>					<!-- Ключевые слова для сообщений о результатах боя -->
+			<MessageCredit>Получено кредитов:</MessageCredit>
+			<MessageExperience>Получено опыта:</MessageExperience>
+			<MessageCoefficientExperience>x</MessageCoefficientExperience>		<!-- "x" eng для всех версий -->
+			<MessageExperienceCompensation1>штраф</MessageExperienceCompensation1>
+			<MessageExperienceCompensation2>компенсация</MessageExperienceCompensation2>
+			<MessageExperienceCompensation3>Получено кредитов:</MessageExperienceCompensation3>
+		</Battle>
+		<BuySale> 					<!-- Ключевые слова для сообщений о купи/продай -->
+			<RAE>
+				<Repair>Ремонт</Repair>
+				<Ammunition>Боекомплект</Ammunition>
+				<Equipment>Снаряжение</Equipment>
+				<Credit>Потрачено кредитов</Credit>
+				<Gold>Потрачено золота</Gold>
+			</RAE>
+			<Credit11>Потрачено кредитов</Credit11>
+			<Credit21>Получено кредитов</Credit21>
+			<Credit22>На ваш счёт поступило кредитов</Credit22>
+			<Credit31>Всего на закупку боекомплекта потрачено</Credit31>
+			<Gold11>Потрачено золота</Gold11>
+			<Gold12>Комиссия составила</Gold12>
+			<Gold13>золота отправлено игроку</Gold13>
+			<Gold14>золота успешно завершён</Gold14>
+			<Gold21>Получено золота</Gold21>
+			<Gold22>На ваш счёт поступило золота</Gold22>
+			<Gold31>Всего на закупку боекомплекта потрачено</Gold31>
+		</BuySale>
+	</StandartMessages>
+	
+	<ErrorMessages>		<!-- Сообщения об ошибках -->
+		<FileConfigNotFound>Config: ServiceChannelPage.xml nalezen, aplikuji výchozí nastavení.</FileConfigNotFound>
+		<FileConfigVariableNotFound>Config: hodnota nenalzena, aplikují výchozí hodnotu.</FileConfigVariableNotFound>
+		<FileConfigVersionIncorrect>Config: Vyžaduji ServiceChannelPage.xml verzi "1.1"</FileConfigVersionIncorrect>
+	</ErrorMessages>
+	
+	<test> 						<!-- для тестов, НЕ ИСПОЛЬЗОВАТЬ -->
+		<TestMode>false</TestMode>							<!-- не надо ставить true, а потом задавать мне глупые вопросы, почему не работает :) -->
+		<StatisticsBattleVictory>8</StatisticsBattleVictory>
 		<StatisticsBattleDrawGame>2</StatisticsBattleDrawGame>
-		<StatisticsBattleTotal>11</StatisticsBattleTotal>
+		<StatisticsBattleTotal>12</StatisticsBattleTotal>
+		<StatisticsExperienceTotal>2000</StatisticsExperienceTotal>
+		<StatisticsExperienceX1Total>4000</StatisticsExperienceX1Total>
+		<StatisticsExperienceX0Total>6000</StatisticsExperienceX0Total>
+		<StatisticsFreeExperienceTotal>8000</StatisticsFreeExperienceTotal>
+		<StatisticsCreditBattle>158200</StatisticsCreditBattle>
+		<StatisticsCreditBuySale>-126055</StatisticsCreditBuySale>
+		<StatisticsGoldBattle>0</StatisticsGoldBattle>
+		<StatisticsGoldBuySale>-200</StatisticsGoldBuySale>
 	</test>
 </config>
+
 
