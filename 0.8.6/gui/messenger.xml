@@ -124,7 +124,7 @@ _(#messenger:battle/toolTips/duringChat)
     <inviteToSpecialBattle>&lt;img src='%(icon)s' width='16' height='16' align='baseline' vspace='-1'/&gt;&amp;nbsp;&lt;font color='#FFFFFF'&gt;%(text)s&lt;/font&gt;</inviteToSpecialBattle>
     <battleResultAchieves>&lt;br/&gt;&lt;font color='#929290'&gt;&lt;i&gt;_(#messenger:serviceChannelMessages/battleResults/achieves)&lt;/i&gt; &lt;font color='#00FFFF'&gt;%(achieves)s&lt;/font&gt;&lt;/font&gt;</battleResultAchieves>
     <battleResultLocks>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/vehicleLock)&lt;/font&gt;</battleResultLocks>
-    <battleResultGold>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/gold): &lt;font color='#FFC363'&gt;&lt;img src='LabelGold'/&gt;%(gold)s&lt;/font&gt;&lt;/font&gt;</battleResultGold>
+    <battleResultGold>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/gold): &lt;font color='#FFC363'&gt;&lt;img src='LabelBattleGold'/&gt;%(gold)s&lt;/font&gt;&lt;/font&gt;</battleResultGold>
     <battleQuests>&lt;br/&gt;&lt;font color='#D6D7D4'&gt;_(#messenger:serviceChannelMessages/battleResults/quests):&lt;/font&gt;%(achieves)s</battleQuests>
     <battleQuestsSlots>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/quests/vehicleSlots): &lt;font color='#D6D7D4'&gt;%(slots)s&lt;/font&gt;&lt;/font&gt;</battleQuestsSlots>
     <battleQuestsBerths>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/quests/berths): &lt;font color='#D6D7D4'&gt;%(berths)s&lt;/font&gt;&lt;/font&gt;</battleQuestsBerths>
@@ -135,10 +135,10 @@ _(#messenger:battle/toolTips/duringChat)
     <compensationForQuestsReceived>&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/compensation) %(items)s %(compensation)s&lt;/font&gt;</compensationForQuestsReceived>
     <goldCompensationQuestsReceived>&lt;br/&gt;_(#messenger:serviceChannelMessages/invoiceReceived/compensation/gold) &lt;font color='#D6D7D4'&gt;%(amount)s&lt;/font&gt;</goldCompensationQuestsReceived>
     <creditsCompensationQuestsReceived>&lt;br/&gt;_(#messenger:serviceChannelMessages/invoiceReceived/compensation/credits) &lt;font color='#D6D7D4'&gt;%(amount)s&lt;/font&gt;</creditsCompensationQuestsReceived>
-    <goldAccruedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/goldAccrued): &lt;font color='#E2D2A2'&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</goldAccruedInvoiceReceived>
-    <goldDebitedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/goldDebited): &lt;font color='#E2D2A2'&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</goldDebitedInvoiceReceived>
-    <creditsAccruedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/creditsAccrued): &lt;font color='#E2D2A2'&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</creditsAccruedInvoiceReceived>
-    <creditsDebitedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/creditsDebited): &lt;font color='#E2D2A2'&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</creditsDebitedInvoiceReceived>
+    <goldAccruedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/goldAccrued): &lt;font color='#E2D2A2'&gt;&lt;b&gt;&lt;img src='LabelGoldProfit'/&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</goldAccruedInvoiceReceived>
+    <goldDebitedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/goldDebited): &lt;font color='#E2D2A2'&gt;&lt;b&gt;&lt;img src=LabelGoldExpense'/&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</goldDebitedInvoiceReceived>
+    <creditsAccruedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/creditsAccrued): &lt;font color='#E2D2A2'&gt;&lt;b&gt;&lt;img src='LabelCreditProfit'/&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</creditsAccruedInvoiceReceived>
+    <creditsDebitedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/creditsDebited): &lt;font color='#E2D2A2'&gt;&lt;b&gt;&lt;img src='LabelCreditExpense'/&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</creditsDebitedInvoiceReceived>
     <premiumAccruedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/premiumAccrued): &lt;font color='#E2D2A2'&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</premiumAccruedInvoiceReceived>
     <premiumDebitedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/premiumDebited): &lt;font color='#E2D2A2'&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</premiumDebitedInvoiceReceived>
     <freeXpAccruedInvoiceReceived>&lt;font color='#E2D2A2'&gt;_(#messenger:serviceChannelMessages/invoiceReceived/freeXpAccrued): &lt;font color='#E2D2A2'&gt;&lt;b&gt;%(amount)s&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;</freeXpAccruedInvoiceReceived>
@@ -173,7 +173,7 @@ _(#messenger:battle/toolTips/duringChat)
     <adminMessage>
       <type>lightGrey</type>
       <icon>MessageIcon</icon>
-      <message>&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
+      <message>&lt;img src='LabelAdminMessage'/&gt;&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </adminMessage>
     <battleVictoryResult>
       <type>	green	</type>
@@ -420,7 +420,7 @@ _(#messenger:battle/toolTips/duringChat)
     <GameGreetingSysMessage>
       <type>hello</type>
       <icon>MessageIcon</icon>
-      <message>&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
+      <message>&lt;img src='LabelGameGreeting'/&gt;&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </GameGreetingSysMessage>
     <PowerLevelSysMessage>
       <type>green</type>
