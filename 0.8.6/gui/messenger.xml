@@ -420,7 +420,7 @@ _(#messenger:battle/toolTips/duringChat)
     <GameGreetingSysMessage>
       <type>hello</type>
       <icon>MessageIcon</icon>
-      <message>&lt;img src='LabelGameGreeting'/&gt;&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
+      <message>&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </GameGreetingSysMessage>
     <PowerLevelSysMessage>
       <type>green</type>

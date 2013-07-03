@@ -23,8 +23,8 @@
 	<TotalBattle>			<!-- TOTAL FOR BATTLE -->
 		<StartPos>0</StartPos>								<!-- [n] Отступ от левого края в пикселах -->
 		<Experience>				<!-- Опыт за бой -->
-			<Visible>true</Visible>							<!-- [true|false] Видимость секции -->
-			<Title>Опыт X1/X0/Своб:</Title>					<!-- [s] текст заголовка -->
+			<Visible>false</Visible>							<!-- [true|false] Видимость секции -->
+			<Title>XP X1/X0/Volné:</Title>					<!-- [s] текст заголовка -->
 			<Bold>false</Bold>								<!-- [true|false] Жирный шрифт -->
 			<FontSize>12</FontSize>							<!-- [n] Размер шрифта -->
 			<Color>#CDC673</Color>							<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
