@@ -116,6 +116,8 @@ Example of a complete text unit:
 <RadialMenu.xml>
 	  <!-- MapMenuKey lets you choose keybind for the map specific command set-->
   <MapMenuKey>KEY_LALT</MapMenuKey>
+  <MenuReloadHotkey>KEY_LCONTROL+KEY_F11</MenuReloadHotkey>
+  <HotkeyCommandDelay>250</HotkeyCommandDelay>
 	<TankMenu>
 		<CommonCommands>
 			<!-- =1= -->
@@ -446,7 +448,17 @@ Example of a complete text unit:
 		<CommonCommands>
 		</CommonCommands>
 	</heavyTankMenu>
--->
+	<AT-SPGMenu>
+		<TeamCommands>
+		</TeamCommands>
+    
+		<EnemyCommands>
+		</EnemyCommands>
+    
+		<CommonCommands>
+		</CommonCommands>
+	</AT-SPGMenu>
+  -->
 <!--
 	<TankSpecificCommands>	
 		<AMX_12t>
