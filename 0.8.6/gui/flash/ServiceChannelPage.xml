@@ -12,7 +12,7 @@
 <!-- #ffffff - color in a 16-hexadecimal calculation -->
 
 <config>
-	<Version>1.1</Version>				<!-- NOTE! Incorrect version of XML-config will hang the client -->	
+	<Version>1.2</Version>				<!-- NOTE! Incorrect version of XML-config will hang the client -->	
 	
 	<TypeMod>3</TypeMod>				<!-- [1|2|3|4] Fashion type of colored posts -->				
 							<!-- 1-standard, 2-MSM (Vslav, Set, V2, Stiv372, Veslo, V1), 3-YasenKrasen, 4-MCM (V0, V3, Hewlett) -->
@@ -20,7 +20,13 @@
 															<!-- true (истина) = Премиум аккаунт, false (ложь) = Обычный аккаунт -->
 	<SeparatorGroupsOfDigits>space</SeparatorGroupsOfDigits>	<!-- [c] thousands separator example "space" for 1 589, "." for 1.589 format -->
 																<!-- c - один символ, исключение символ "пробел", пишем слово "space" -->
-	<TotalBattle>			<!-- TOTAL FOR BATTLE -->
+	<TotalBattle>			<!-- ИТОГО ЗА БОЙ -->
+		<Color>
+			<Victory>default</Victory>						<!-- [green|yellow|red|grey|lightGrey|action|battleResult|default] Цвет блока при победе -->
+			<DrawGame>default</DrawGame>					<!-- [green|yellow|red|grey|lightGrey|action|battleResult|default] Цвет блока при ничьей -->
+			<Defeat>default</Defeat>						<!-- [green|yellow|red|grey|lightGrey|action|battleResult|default] Цвет блока при поражении -->
+															<!-- default - цвет по умолчанию, заданный в моде цветных сообщений  -->
+		</Color>								
 		<StartPos>0</StartPos>								<!-- [n] Отступ от левого края в пикселах -->
 		<Experience>				<!-- Опыт за бой -->
 			<Visible>false</Visible>							<!-- [true|false] Видимость секции -->
@@ -33,18 +39,21 @@
 				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
 				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
 				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+				<Icon>2</Icon>								<!-- [0|1|2] Иконка: 0-не отображать, 1-перед, 2-после (работает только для TypeMod 2 или 3) -->
 			</X1>
 			<X0>							<!-- Опыт X0 за бой -->
 				<Visible>true</Visible>						<!-- [true|false] Видимость Опыт X0 за бой -->
 				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
 				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
 				<Color>#1E90FF</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+				<Icon>2</Icon>								<!-- [0|1|2] Иконка: 0-не отображать, 1-перед, 2-после (работает только для TypeMod 2 или 3) -->
 			</X0>
 			<Free>							<!-- Свободный опыт за бой -->
 				<Visible>true</Visible>						<!-- [true|false] Видимость Свободный опыт за бой -->
 				<Bold>true</Bold>							<!-- [true|false] Жирный шрифт -->
 				<FontSize>12</FontSize>						<!-- [n] Размер шрифта -->			
 				<Color>#CD853F</Color>						<!-- [#ffffff] Цвет в 16-ричной системе исчисления -->
+				<Icon>2</Icon>								<!-- [0|1|2] Иконка: 0-не отображать, 1-перед, 2-после (работает только для TypeMod 2 или 3) -->
 			</Free>
 		</Experience>
 		<Repair>					<!-- Ремонт -->
@@ -375,6 +384,7 @@
 		<GameGreeting>Добро пожаловать на сервер</GameGreeting>
 		<Victory>Победа</Victory>
 		<DrawGame>Ничья</DrawGame>
+		<Defeat>Поражение</Defeat>
 		<Battle>					<!-- Ключевые слова для сообщений о результатах боя -->
 			<MessageCredit>Получено кредитов:</MessageCredit>
 			<MessageExperience>Получено опыта:</MessageExperience>
