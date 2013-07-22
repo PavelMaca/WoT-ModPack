@@ -27,7 +27,7 @@
 
   // Version of the editor.
   // Версия редактора.
-  "editorVersion": "0.50",
+  "editorVersion": "0.57",
 
   // Common config options. All settings information in the mod not being used.
   // Общие параметры конфига. Все параметры информационные, в моде не используются.
@@ -46,7 +46,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "05.07.2013",
+    "date": "22.07.2013",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -54,8 +54,16 @@
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "4.0.0"
+    "modMinVersion": "4.0.1"
   },
+
+  // Language used in mod
+  // "auto" - automatically detect language from game client,
+  // or specify file name located in res_mods/xvm/l10n/ (ex: "en")
+  // Используемый язык в моде
+  // "auto" - автоматически определять язык клиента игры,
+  // или укажите имя файла в папке res_mods/xvm/l10n/ (например, "en")
+  "language": "auto",
 
   // Parameters for login screen.
   // Параметры экрана логина.
