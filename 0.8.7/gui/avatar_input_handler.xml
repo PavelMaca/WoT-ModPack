@@ -15,9 +15,9 @@
       <range>120 0.4</range>
       <range>140 0.3</range>
     </massSensitivity>
-    <collisionSpeedToImpulseRatio>0.0</collisionSpeedToImpulseRatio>
-    <minCollisionSpeed>100</minCollisionSpeed>
-    <zeroDamageHitSensitivity>0.60</zeroDamageHitSensitivity>
+    <collisionSpeedToImpulseRatio>0.1</collisionSpeedToImpulseRatio>
+    <minCollisionSpeed>90</minCollisionSpeed>
+    <zeroDamageHitSensitivity>0</zeroDamageHitSensitivity>
   </dynamicCameraCommon>
   <postMortemMode>
     <camera>
@@ -46,19 +46,19 @@
           <scaleCoeff>1.0 1.0 0.4</scaleCoeff>
         </randomNoiseOscillatorSpherical>
         <impulseSensitivities>
-          <shot>0</shot>
-          <hit>0</hit>
-          <otherShot>0</otherShot>
-          <splash>0</splash>
-          <vehicleExplosion>0</vehicleExplosion>
+          <shot>0.0</shot>
+          <hit>0.0</hit>
+          <otherShot>0.0</otherShot>
+          <splash>0.0</splash>
+          <vehicleExplosion>0.0</vehicleExplosion>
         </impulseSensitivities>
         <noiseSensitivities>
-          <shot>3.0</shot>
-          <hit>30.0</hit>
-          <otherShot>15.0</otherShot>
-          <splash>30.0</splash>
-          <collision>0.5</collision>
-          <vehicleExplosion>25.0</vehicleExplosion>
+          <shot>0.0</shot>
+          <hit>0.0</hit>
+          <otherShot>0.0</otherShot>
+          <splash>0.0</splash>
+          <collision>0.0</collision>
+          <vehicleExplosion>0.0</vehicleExplosion>
         </noiseSensitivities>
         <impulseLimits>
         </impulseLimits>
@@ -84,7 +84,7 @@
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>	5	</scrollSensitivity>
       <angleRange>10 110</angleRange>
-      <distRange>2 300</distRange>
+      <distRange>2 250</distRange>
       <dynamics>
         <impulseOscillator>
           <mass>1.0</mass>
@@ -105,19 +105,19 @@
           <scaleCoeff>1.0 1.0 0.4</scaleCoeff>
         </randomNoiseOscillatorSpherical>
         <impulseSensitivities>
-          <shot>0</shot>
-          <hit>0</hit>
-          <otherShot>0</otherShot>
-          <splash>0</splash>
-          <vehicleExplosion>0</vehicleExplosion>
+          <shot>0.0</shot>
+          <hit>0.0</hit>
+          <otherShot>0.0</otherShot>
+          <splash>0.0</splash>
+          <vehicleExplosion>0.0</vehicleExplosion>
         </impulseSensitivities>
         <noiseSensitivities>
-          <shot>3.0</shot>
-          <hit>45.0</hit>
-          <otherShot>15.0</otherShot>
-          <splash>50.0</splash>
-          <collision>0.65</collision>
-          <vehicleExplosion>25.0</vehicleExplosion>
+          <shot>0.0</shot>
+          <hit>0.0</hit>
+          <otherShot>0.0</otherShot>
+          <splash>0.0</splash>
+          <collision>0.0</collision>
+          <vehicleExplosion>0.0</vehicleExplosion>
         </noiseSensitivities>
         <impulseLimits>
         </impulseLimits>
@@ -155,20 +155,20 @@
           <drag>33.0</drag>
         </randomNoiseOscillatorFlat>
         <impulseSensitivities>
-          <hit>250.0</hit>
-          <splash>300.0</splash>
+          <hit>0.0</hit>
+          <splash>0.0</splash>
         </impulseSensitivities>
         <noiseSensitivities>
-          <shot>100.0</shot>
-          <hit>1500.0</hit>
-          <splash>1500.0</splash>
-          <projectileHit>21.0</projectileHit>
+          <shot>0.0</shot>
+          <hit>0.0</hit>
+          <splash>0.0</splash>
+          <projectileHit>0.0</projectileHit>
         </noiseSensitivities>
         <impulseLimits>
         </impulseLimits>
         <noiseLimits>
-          <shot>50.0 50.0</shot>
-          <projectileHit>10.0 10.0</projectileHit>
+          <shot>0.0 0.0</shot>
+          <projectileHit>0.0 0.0</projectileHit>
         </noiseLimits>
       </dynamics>
     </camera>
@@ -204,27 +204,27 @@
           <scaleCoeff>1.0 1.0 1.0</scaleCoeff>
         </randomNoiseOscillatorSpherical>
         <impulseSensitivities>
-          <shot>4.0</shot>
-          <hit>3.0</hit>
-          <otherShot>0.5</otherShot>
-          <splash>5.0</splash>
-          <vehicleExplosion>5.2</vehicleExplosion>
+          <shot>0.0</shot>
+          <hit>0.0</hit>
+          <otherShot>0.0</otherShot>
+          <splash>0.0</splash>
+          <vehicleExplosion>0.0</vehicleExplosion>
         </impulseSensitivities>
         <noiseSensitivities>
-          <shot>25.0</shot>
-          <hit>40.0</hit>
-          <otherShot>10.0</otherShot>
-          <splash>25.0</splash>
-          <collision>0.5</collision>
-          <vehicleExplosion>26.0</vehicleExplosion>
+          <shot>0.0</shot>
+          <hit>0.0</hit>
+          <otherShot>0.0</otherShot>
+          <splash>0.0</splash>
+          <collision>0.0</collision>
+          <vehicleExplosion>0.0</vehicleExplosion>
         </noiseSensitivities>
         <impulseLimits>
-          <shot>0.1 2.0</shot>
-          <hit>0.0 1.3</hit>
+          <shot>0.0 0.0</shot>
+          <hit>0.0 0.0</hit>
         </impulseLimits>
         <noiseLimits>
-          <shot>0.4 3.5</shot>
-          <hit>0.05 3.0</hit>
+          <shot>0.0 0.0</shot>
+          <hit>0.0 0.0</hit>
         </noiseLimits>
         <accelerationSensitivity>0.2 0.4 0.2</accelerationSensitivity>
         <accelerationThreshold>2.0</accelerationThreshold>
