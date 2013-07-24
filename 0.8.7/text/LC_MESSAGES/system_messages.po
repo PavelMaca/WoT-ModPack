@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-07-03 12:41+0100\n"
+"PO-Revision-Date: 2013-07-24 17:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,9 @@ msgstr "Zrychlený výcvik posádky <font color='#c5ab5d'>%s</font> je vypnutý.
 
 msgid "XPToTmen/successTrue"
 msgstr "Zrychlený výcvik posádky <font color='#c5ab5d'>%s</font> je zapnutý."
+
+msgid "account_was_restored"
+msgstr "Váš účet byl úspěšně obnoven"
 
 msgid "actionAchievement/title"
 msgstr "Kampaňová medaile"
@@ -932,6 +935,36 @@ msgstr "<font color='#c5ab5d'>%(userString)s</font> již je v garáži."
 msgid "inventory/vehicle/not_found"
 msgstr "<font color='#c5ab5d'>%(userString)s</font> není v garáži k nalezení."
 
+msgid "login_to_other_game_unknown"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do jiné hry"
+
+msgid "login_to_other_game_wot"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotblitz"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Warships"
+
 msgid "memberRosterChangedMain"
 msgstr "%s převelel %s na frontu."
 
@@ -941,14 +974,9 @@ msgstr "%s převelel %s do zálohy."
 msgid "memory_critical/insufficient_memory_please_reboot"
 msgstr "Nedostatek paměti. Prosím restartujte hru."
 
-msgid "memory_critical/tex_was_lowered_to_low"
-msgstr "Nedostatek paměti. Kvalita textur byla snížena na nízkou."
-
-msgid "memory_critical/tex_was_lowered_to_medium"
-msgstr "Nedostatek paměti. Kvalita textur byla snížena na střední."
-
 msgid "memory_critical/tex_was_lowered_to_min"
-msgstr "Nedostatek paměti. Kvalita textur je minimalizována."
+msgstr ""
+"Nedostatek paměti. Grafické nastavení bylo změněno. Prosím restartujte hru."
 
 msgid "no_readyVehicle"
 msgstr "Vozidlo není připraveno."
