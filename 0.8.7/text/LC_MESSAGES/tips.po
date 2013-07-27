@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-07-01 12:31+0100\n"
+"PO-Revision-Date: 2013-06-30 16:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -269,7 +269,7 @@ msgstr "Když píšete zprávu v bivě, pište stručně, výstižně a k věci.
 
 msgid "tip36"
 msgstr ""
-"V boji zblízka může samohybné dělo zničit mepřátelské vozidlo přímou palbou."
+"V boji zblízka může samohybné dělo zničit nepřátelské vozidlo přímou palbou."
 
 msgid "tip37"
 msgstr ""

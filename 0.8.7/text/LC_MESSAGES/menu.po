@@ -316,8 +316,8 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena. <font "
-"color='#BFE9FF'>«[8.7] Crabtr33 rozšířená edice CZ v1.61YK»</font>"
+"Wargaming.net 2008-2013. Všechna práva vyhrazena.  [8.7] Crabtr33 rozšířená "
+"edice CZ v1.62 YK"
 
 msgid "currentVehicleStatus/ammoNotFull"
 msgstr "Nekompletní munice"

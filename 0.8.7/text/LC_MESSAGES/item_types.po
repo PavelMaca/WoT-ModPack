@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-07-24 17:16+0100\n"
+"PO-Revision-Date: 2013-07-27 13:34+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -90,19 +90,19 @@ msgid "shell/dimension/sm"
 msgstr "cm"
 
 msgid "shell/kinds/ARMOR_PIERCING"
-msgstr "Průbojný"
+msgstr "Průbojný (AP)"
 
 msgid "shell/kinds/ARMOR_PIERCING_CR"
-msgstr "Podkalib."
+msgstr "Podkaliberní (APCR)"
 
 msgid "shell/kinds/ARMOR_PIERCING_HE"
-msgstr "Průbojně výbušný"
+msgstr "Průbojně výbušný (APHE)"
 
 msgid "shell/kinds/HIGH_EXPLOSIVE"
-msgstr "Explozivní"
+msgstr "Explozivní (HE)"
 
 msgid "shell/kinds/HOLLOW_CHARGE"
-msgstr "Kumulativní"
+msgstr "Kumulativní (HEAT)"
 
 msgid "shell/kindsAbbreviation/ARMOR_PIERCING"
 msgstr "AP"
