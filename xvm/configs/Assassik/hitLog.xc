@@ -19,7 +19,18 @@
     // Маркеры видимы только в квадрате со стороной в 1000м.
     // Квадрат в 1000 метров это ограничение игрового движка. Максимальная дистанция отрисовки маркеров.
     // Данные по конкретному врагу не могут быть обновлены пока не видно его маркер или обломки.
-    "hpLeft": true,
+    "hpLeft": {
+        // false - Disable.
+        // false - отключить.
+        "enabled": true,
+        // Header, macros ARE NOT allowed.
+        // Заголовок, макросы НЕ разрешены.
+        "header": "Zbývajicí HP:",
+        // Row in HP list (macros allowed, see readme-en.txt).
+        // Строка в списке попаданий (допускаются макроподстановки, см. readme-ru.txt)
+        "format": "<textformat tabstops='[40,110]'><font color='{{c:hp-ratio}}'>{{hp}}</font><tab> <font color='{{c:vtype}}'>{{vehicle}}<tab> <font size='12'>{{nick}}</font></font></textformat>"
+    },
+    
     // X position (negative values - bind to right side of screen).
     // Позиция X (отрицательные значения - привязать к правой стороне экрана).
     "x": 370,
@@ -43,12 +54,12 @@
     "groupHitsByPlayer": true,
     // Insert order: begin - insert new values to begin, end - add to end.
     // Сортировка попаданий: begin - новые значения добавляются сверху, end - снизу.
-	"insertOrder": "end",
+    "insertOrder": "end",
     // Substitution for {{dead}} macro when tank is dead.
     // Подстановка для макроса {{dead}}, когда танк умирает.
     "deadMarker": "<font face='Wingdings'>N</font>",
     "blowupMarker": "<font face='Wingdings'>M</font>",
-    // Default header format (before first hit). Macros IS NOT allowed.
+    // Default header format (before first hit). Macros ARE NOT allowed.
     // Формат заголовка по умолчанию (до первого попадания). Макросы НЕ допускаются.
     "defaultHeader":  "<font color='#FFFFFF'>Zásahů:</font> <font size='13'>0</font>",
     // Hits header format, including last hit (macros allowed, see readme-en.txt).
