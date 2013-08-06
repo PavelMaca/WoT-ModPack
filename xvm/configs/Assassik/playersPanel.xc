@@ -5,9 +5,9 @@
 {
   "def": {
     "nick": "<font color='{{c:wn}}'>{{nick}}</font>",
-    "vehicle": "<font color='{{c:twr}}'>{{vehicle}}</font>"
+    "vehicle": "<font color='{{c:t-battles}}'>{{vehicle}}</font>"
   },
-  
+
   "playersPanel": {
     // Opacity percentage of the panels. 0 - transparent, 100 - opaque.
     // Прозрачность в процентах ушей. 0 - прозрачные, 100 - не прозрачные.
@@ -28,16 +28,16 @@
     "enemySpottedMarker": {
       // false - Disable.
       // false - отключить.
-      "enabled": false,
+      "enabled": true,
       // Offset relative to level icon (by X, Y).
       // Смещение относительно иконки уровня танка (по X, Y).
-      "Xoffset": 15,
-      "Yoffset": 0,
+      "Xoffset": -29,
+      "Yoffset": -18,
       // Формат.
       "format": {
         // Never seen this enemy.
         // Этот враг никогда не светился.
-        "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>*</font>",
+        "neverSeen": "<font face='Lucida Sans Unicode' size='18' color='#DEDEDE'>\u25C0</font>",
         // This enemy was seen atleast once.
         // Этот враг светился хотя бы один раз и отмечен на миникарте как потерянный.
         "lost": "",
