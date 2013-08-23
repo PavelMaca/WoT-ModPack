@@ -18,16 +18,16 @@
     "enemy": { // Вражеской.
       // Upper textfield.
       // Верхнее текстовое поле.
-      "primaryTitleFormat": "<font size='15' color='#00CC00'>Obsazování nepřátelské základny! {{extra}}</font>",
+      "primaryTitleFormat": "<font size='15' color='#00CC00'>{{l10n:enemyBaseCapture}} {{extra}}</font>",
       // Lower textfield.
       // Нижнее текстовое поле.
       "secondaryTitleFormat": "<font size='15' color='#FFFFFF'>{{points}}</font>",
       // Full capture text.
       // Текст полного захвата.
-      "captureDoneFormat": "<font size='17' color='#FFCC66'>Nepřátelská základna obsazena!</font>",
+      "captureDoneFormat":    "<font size='17' color='#FFCC66'>{{l10n:enemyBaseCaptured}}</font>",
       // Extra text available after necessary calculations.
       // Дополнительный текст после необходимого расчета.
-      "extra": "Obsazujicích: <b><font color='#FFCC66'>{{tanks}}</font></b> Zbývá: <b><font color='#FFCC66'>{{time}}</font><b>",
+      "extra": "{{l10n:Capturers}}: <b><font color='#FFCC66'>{{tanks}}</font></b> {{l10n:Timeleft}}: <b><font color='#FFCC66'>{{time}}</font><b>",
       // Fields shadow
       // Тень полей.
       "shadow": {
@@ -45,10 +45,10 @@
       }
     },
     "ally": { // Союзников.
-      "primaryTitleFormat":   "<font size='15' color='#FF0000'>Obsazování spojenecké základny! {{extra}}</font>",
+      "primaryTitleFormat":   "<font size='15' color='#FF0000'>{{l10n:allyBaseCapture}} {{extra}}</font>",
       "secondaryTitleFormat": "<font size='15' color='#FFFFFF'>{{points}}</font>",
-      "captureDoneFormat":    "<font size='17' color='#FFCC66'>Spojenecká základna obsazena!</font>",
-      "extra": "Obsazujicích: <b><font color='#FFCC66'>{{tanks}}</font></b> Zbývá: <b><font color='#FFCC66'>{{time}}</font><b>",
+      "captureDoneFormat":    "<font size='17' color='#FFCC66'>{{l10n:allyBaseCaptured}}</font>",
+      "extra": "{{l10n:Capturers}}: <b><font color='#FFCC66'>{{tanks}}</font></b> {{l10n:Timeleft}}: <b><font color='#FFCC66'>{{time}}</font><b>",
       "shadow": {
         "color": "0x000000",
         "alpha": 70,

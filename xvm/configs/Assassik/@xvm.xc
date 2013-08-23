@@ -23,7 +23,7 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
-  "configVersion": "4.0.0",
+  "configVersion": "4.1.1",
 
   // Version of the editor.
   // Версия редактора.
@@ -46,15 +46,15 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "22.07.2013",
+    "date": "23.08.2013",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.8.6",
+    "gameVersion": "0.8.7",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "4.0.1"
+    "modMinVersion": "4.1.1"
   },
 
   // Language used in mod
@@ -84,7 +84,7 @@
   // Frag counter panel.
   // Панель счёта в бою.
   "fragCorrelation": ${"battle.xc":"fragCorrelation"},
-  
+
   // Ingame crits panel by "expert" skill.
   // Внутриигровая панель критов от навыка "экспет".
   "expertPanel": ${"battle.xc":"expertPanel"},
