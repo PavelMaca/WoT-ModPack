@@ -6,7 +6,7 @@
 		"ally": ${"ally-enemy"},
 		"enemy": ${"ally-enemy"}
 	},
-  
+
 	"ally-enemy": {
 		"alive": {
 			// alive - normal mode (without 'Alt')
@@ -20,7 +20,7 @@
 			// alive - alternative mode (pressing 'Alt')
 			"extended": {
 				"$ref": { "path":"sectionTemplate" },
-				"contourIcon": { 
+				"contourIcon": {
 					"$ref": { "path":"sectionTemplate.contourIcon" },
 					"visible": true
 				},
@@ -51,8 +51,8 @@
 				"textFields": [
 					${"textFields.xc":"playerName"},
 					${"textFields.xc":"tankNameDead"}
-				]			
-			}	
+				]
+			}
 		}
 	},
 	
@@ -135,7 +135,7 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "Munice!"        //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "{{l10n:blownUp}}"        //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
 		  "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
@@ -157,5 +157,5 @@
             "y": -67,                         //   Position on the Y axis
             "alpha": 100                      //   Opacity
           }
-	}  
+	}
 }
