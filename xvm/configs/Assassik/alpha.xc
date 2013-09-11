@@ -23,7 +23,7 @@
   },
   "alpha": {
     // Dynamic transparency by remaining health.
-    // Динамическая прозрачность по оставшемуся здоровью. 
+    // Динамическая прозрачность по оставшемуся здоровью.
     "hp": [
       { "value": 200,  "alpha": ${"alphaHP.very_low"     } },
       { "value": 400,  "alpha": ${"alphaHP.low"          } },
@@ -88,16 +88,6 @@
       { "value": 64,  "alpha": ${"alphaRating.very_good"} },
       { "value": 101, "alpha": ${"alphaRating.unique"   } }
     ],
-    // Dynamic transparency by TWR (T-Calc) (only with xvm-stat).
-    // Динамическая прозрачность по TWR (T-Calc) (только с xvm-stat).
-    "twr": [
-      { "value": 47,  "alpha": ${"alphaRating.very_bad" } },
-      { "value": 49,  "alpha": ${"alphaRating.bad"      } },
-      { "value": 52,  "alpha": ${"alphaRating.normal"   } },
-      { "value": 57,  "alpha": ${"alphaRating.good"     } },
-      { "value": 62,  "alpha": ${"alphaRating.very_good"} },
-      { "value": 101, "alpha": ${"alphaRating.unique"   } }
-    ],
     // Dynamic transparency by kilo-battles (only with xvm-stat).
     // Динамическая прозрачность по количеству кило-боев (только с xvm-stat).
     "kb": [
@@ -107,6 +97,16 @@
       { "value": 14,  "alpha": ${"alphaRating.good"     } },
       { "value": 20,  "alpha": ${"alphaRating.very_good"} },
       { "value": 999, "alpha": ${"alphaRating.unique"   } }
+    ],
+    // Dynamic transparency by average level of player tanks (only with xvm-stat).
+    // Динамическая прозрачность по среднему уровню танков игрока (только с xvm-stat).
+    "avglvl": [
+      { "value": 2,   "alpha": ${"alphaRating.very_bad" } },
+      { "value": 3,   "alpha": ${"alphaRating.bad"      } },
+      { "value": 5,   "alpha": ${"alphaRating.normal"   } },
+      { "value": 7,   "alpha": ${"alphaRating.good"     } },
+      { "value": 9,   "alpha": ${"alphaRating.very_good"} },
+      { "value": 11,  "alpha": ${"alphaRating.unique"   } }
     ],
     // Dynamic transparency by battles on current tank (only with xvm-stat).
     // Динамическая прозрачность по количеству боев на текущем танке (только с xvm-stat).
