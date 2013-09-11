@@ -1,0 +1,540 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2013-07-27 11:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: WoT Tým <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid "afterburning/descr"
+msgstr "+15% k výkonu motoru po jednu minutu"
+
+msgid "afterburning/name"
+msgstr "Opičí kapky"
+
+msgid "aimingStabilizer/descr"
+msgstr ""
+"+20% zlepšení přesnosti\n"
+"v pohybu a při otáčení věží"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Vertikální stabilizátor Mk 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Vertikální stabilizátor Mk 2"
+
+msgid "antifragmentationLining_heavy/descr"
+msgstr ""
+"+30% k ochraně pancíře proti nárazům a výbuchům \n"
+"+30% k ochraně posádky proti zranění"
+
+msgid "antifragmentationLining_heavy/name"
+msgstr "Těžká protistřepinová vložka"
+
+msgid "antifragmentationLining_light/descr"
+msgstr ""
+"+20% k ochraně pancíře proti nárazům a výbuchům \n"
+"+20% k ochraně posádky proti zranění"
+
+msgid "antifragmentationLining_light/name"
+msgstr "Lehká protistřepinová vložka"
+
+msgid "antifragmentationLining_medium/descr"
+msgstr ""
+"+25% k ochraně pancíře proti nárazům a výbuchům \n"
+"+25% k ochraně posádky proti zranění"
+
+msgid "antifragmentationLining_medium/name"
+msgstr "Střední protistřepinová vložka"
+
+msgid "antifragmentationLining_superheavy/descr"
+msgstr ""
+"+50% k ochraně pancíře proti nárazům a výbuchům \n"
+"+50% k ochraně posádky proti zranění"
+
+msgid "antifragmentationLining_superheavy/name"
+msgstr "Supertěžká protistřepinová vložka"
+
+msgid "autoExtinguishers/always"
+msgstr "+10% k ochraně proti požáru."
+
+msgid "autoExtinguishers/descr"
+msgstr "Automatické uhašení požáru ve vašem vozidle."
+
+msgid "autoExtinguishers/name"
+msgstr "Automatický hasící přístroj"
+
+msgid "autoExtinguishers/onUse"
+msgstr "automatické uhašení požáru ve vašem vozidle. Pouze jedno použití."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "camouflageNet/descr"
+msgstr ""
+"+25% zlepšené maskování stojícího vozidla\n"
+"Omezení: Aktivuje se po 3s od zastavení"
+
+msgid "camouflageNet/name"
+msgstr "Maskovací síť"
+
+msgid "carbonDioxide/descr"
+msgstr "+50% výdrže palivových nádrží"
+
+msgid "carbonDioxide/name"
+msgstr "Naplnění nádrží CO2"
+
+msgid "chocolate/always"
+msgstr "+10% ke všem schopnostem a specializacím posádky po dobu trvání bitvy."
+
+msgid "chocolate/descr"
+msgstr "+10% ke všem schopnostem a specializacím posádky."
+
+msgid "chocolate/name"
+msgstr "Čokoláda"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Omezení: Německá vozidla."
+
+msgid "coatedOptics/descr"
+msgstr ""
+"+10% dohled i za pohybu (max. 445m)\n"
+"Omezení: Dohled se s «Binokulárním dalekohledem» nesčítá\n"
+"Info: Max. vzdálenost vykreslování cíle je čtverec 1 000m"
+
+msgid "coatedOptics/name"
+msgstr "Skládaná optika"
+
+msgid "cocacola/always"
+msgstr "+10% ke všem schopnostem a specializacím posádky po dobu trvání bitvy."
+
+msgid "cocacola/descr"
+msgstr "+10% ke všem schopnostem a specializacím posádky."
+
+msgid "cocacola/name"
+msgstr "Plechovka Coly"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Omezení: Vozidla USA"
+
+msgid "enhancedAimDrives/descr"
+msgstr "+10% rychlost zaměření"
+
+msgid "enhancedAimDrives/name"
+msgstr "Vylepšený pohon děla"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Vylepšené Bellevillovi pružící podložky"
+
+msgid "enhancedHorizontal_elastic_elements/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedHorizontal_elastic_elements/name"
+msgstr "Vylepšené horizontální listové pružiny"
+
+msgid "enhancedHorizontal_springs/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedHorizontal_springs/name"
+msgstr "Vylepšené vinuté pružiny Třída 1"
+
+msgid "enhancedHorizontal_springs_class2/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedHorizontal_springs_class2/name"
+msgstr "Vylepšené vinuté pružiny Třída 2"
+
+msgid "enhancedHorizontal_springs_class3/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedHorizontal_springs_class3/name"
+msgstr "Vylepšené vinuté pružiny Třída 3"
+
+msgid "enhancedLevers/name"
+msgstr "Vylepšené závěsy kol"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Vylepšené podélné torzní tyče"
+
+msgid "enhancedSprings/name"
+msgstr "Vylepšené pérování"
+
+msgid "enhancedSprings_class2/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedSprings_class2/name"
+msgstr "Vylepšené listové pružiny Třída 2"
+
+msgid "enhancedSprings_class3/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedSprings_class3/name"
+msgstr "Vylepšené listové pružiny Třída 3"
+
+msgid "enhancedSuspension/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedSuspension_Christie/name"
+msgstr "Vylepšený systém Christieho podvozku"
+
+msgid "enhancedSuspension_Vikkers/name"
+msgstr "Vylepšený systém Vickersova podvozku"
+
+msgid "enhancedSuspension_candle/name"
+msgstr "Vylepšený systém pevného zavěšení"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Vylepšené torzní tyče Třída 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Vylepšené torzní tyče Třída 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Vylepšené torzní tyče Třída 5+ t"
+
+msgid "enhancedVertical_elastic_elements/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedVertical_elastic_elements/name"
+msgstr "Vylepšené vertikální listové pružiny"
+
+msgid "enhancedVertical_springs/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedVertical_springs/name"
+msgstr "Vylepšené vertikální vinuté pružiny Třída 1"
+
+msgid "enhancedVertical_springs_class2/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedVertical_springs_class2/name"
+msgstr "Vylepšené vertikální vinuté pružiny Třída 2"
+
+msgid "enhancedVertical_springs_class3/descr"
+msgstr ""
+"+10% nosnost podvozku\n"
+"+20% zvýšená výdrž podvozku\n"
+" -50% poškození korby způsobené poškozením pásů při dopadu"
+
+msgid "enhancedVertical_springs_class3/name"
+msgstr "Vylepšené vertikální vinuté pružiny Třída 3"
+
+msgid "filterCyclone/descr"
+msgstr "+50% výdrž motoru"
+
+msgid "filterCyclone/name"
+msgstr "Filtr „Cyklón“"
+
+msgid "gasoline100/always"
+msgstr "+5% k výkonu motoru a rychlosti otáčení věže po dobu trvání bitvy."
+
+msgid "gasoline100/descr"
+msgstr "+5% k výkonu motoru a rychlosti otáčení věže."
+
+msgid "gasoline100/name"
+msgstr "100-oktanový benzín"
+
+msgid "gasoline100/onUse"
+msgstr "?empty?"
+
+msgid "gasoline100/restriction"
+msgstr "Omezení: Německé, Americké, Britské a Francouzské benzínové motory."
+
+msgid "gasoline105/always"
+msgstr "+10% k výkonu motoru a rychlosti otáčení věže po dobu trvání bitvy."
+
+msgid "gasoline105/descr"
+msgstr "+10% k výkonu motoru a rychlosti otáčení věže."
+
+msgid "gasoline105/name"
+msgstr "105-oktanový benzín"
+
+msgid "gasoline105/onUse"
+msgstr "?empty?"
+
+msgid "gasoline105/restriction"
+msgstr "Omezení: Německé, Americké, Britské a Francouzské benzínové motory."
+
+msgid "grousers/descr"
+msgstr ""
+"+10% k pohyblivosti v bahně\n"
+"+5% k pohyblivosti v běžném terénu"
+
+msgid "grousers/name"
+msgstr "Rozšíření tankových pásů"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Okamžité uhašení požáru ve vašem vozidle."
+
+msgid "handExtinguishers/name"
+msgstr "Manuální hasící přístroj"
+
+msgid "handExtinguishers/onUse"
+msgstr "uhašení požáru ve vašem vozidle. Pouze jedno použití."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "hotCoffee/always"
+msgstr "+10% ke všem schopnostem a specializacím posádky po dobu trvání bitvy."
+
+msgid "hotCoffee/descr"
+msgstr "+10% ke všem schopnostem a specializacím posádky."
+
+msgid "hotCoffee/name"
+msgstr "Silná káva"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Omezení: Francouzská vozidla."
+
+msgid "improvedVentilation/descr"
+msgstr ""
+"+5% ke všem schopnostem celé posádky\n"
+"Omezení: Reálné zlepšení parametrů +2.5%"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Vylepšená ventilace Třída 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Vylepšená ventilace Třída 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Vylepšená ventilace Třída 3"
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Hydraulický nabiják pro velkorážné dělostřelectvo"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Hydraulický nabiják pro velkorážná děla"
+
+msgid "largeMedkit/always"
+msgstr "+15% k ochraně posádky proti zranění."
+
+msgid "largeMedkit/descr"
+msgstr "Léčba všech zraněných členů posádky."
+
+msgid "largeMedkit/name"
+msgstr "Velká lékárnička"
+
+msgid "largeMedkit/onUse"
+msgstr "léčba všech zraněných členů posádky. Pouze jedno použití."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/always"
+msgstr "+10% k rychlosti oprav příslušenství."
+
+msgid "largeRepairkit/descr"
+msgstr "Oprava veškerého poškozeného příslušenství."
+
+msgid "largeRepairkit/name"
+msgstr "Velká sada nářadí"
+
+msgid "largeRepairkit/onUse"
+msgstr "Oprava veškerého poškozeného příslušenství. Pouze jedno použití."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "lendLeaseOil/always"
+msgstr "+5% k výkonu motoru po dobu trvání bitvy."
+
+msgid "lendLeaseOil/descr"
+msgstr "+5% k výkonu motoru."
+
+msgid "lendLeaseOil/name"
+msgstr "Olej"
+
+msgid "lendLeaseOil/onUse"
+msgstr "?empty?"
+
+msgid "lendLeaseOil/restriction"
+msgstr "Omezení: Sovětská vozidla"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Hydraulický nabiják pro dělostřelectvo středních ráží"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Hydraulický nabiják pro děla středních ráží"
+
+msgid "qualityOil/always"
+msgstr "+5% k výkonu motoru po dobu trvání bitvy."
+
+msgid "qualityOil/descr"
+msgstr "+5% k výkonu motoru."
+
+msgid "qualityOil/name"
+msgstr "Kvalitní olej"
+
+msgid "qualityOil/onUse"
+msgstr "?empty?"
+
+msgid "qualityOil/restriction"
+msgstr "Omezení: Čínská vozidla."
+
+msgid "rammer/descr"
+msgstr "-10% čas nabíjení"
+
+msgid "ration/always"
+msgstr "+10% ke všem schopnostem a specializacím posádky po dobu trvání bitvy."
+
+msgid "ration/descr"
+msgstr "+10% ke všem schopnostem a specializacím posádky po dobu trvání bitvy."
+
+msgid "ration/name"
+msgstr "Zvláštní příděl potravy"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Omezení: Sovětská vozidla"
+
+msgid "ration_china/always"
+msgstr "+10% ke všem schopnostem a specializacím posádky po dobu trvání bitvy."
+
+msgid "ration_china/descr"
+msgstr "+10% ke všem schopnostem a specializacím posádky."
+
+msgid "ration_china/name"
+msgstr "Chutnější potravinové dávky"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Omezení: Čínská vozidla."
+
+msgid "ration_uk/always"
+msgstr "+10% ke všem schopnostem a specializacím posádky po dobu trvání bitvy."
+
+msgid "ration_uk/descr"
+msgstr "+10% ke všem schopnostem a specializacím posádky po dobu trvání bitvy."
+
+msgid "ration_uk/name"
+msgstr "Pudink a čaj"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Omezení: Francouzská vozidla."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "+10% k výkonu motoru, ale poškozuje motor."
+
+msgid "removedRpmLimiter/name"
+msgstr "Odstranění omezovače výkonu"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "+10% k výkonu motoru, ale poškozuje motor. Vícenásobné použití."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Omezení: Sovětská a Čínská vozidla."
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Léčba zraněného člena posádky"
+
+msgid "smallMedkit/name"
+msgstr "Malá lékárnička"
+
+msgid "smallMedkit/onUse"
+msgstr "léčba zraněného člena posádky. Pouze jedno použití."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Oprava poškozeného příslušenství nebo dvou poškozených pásů."
+
+msgid "smallRepairkit/name"
+msgstr "Malá sada nářadí"
+
+msgid "smallRepairkit/onUse"
+msgstr ""
+"oprava poškozeného příslušenství nebo dvou poškozených pásů. Pouze jedno "
+"použití."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "stereoscope/descr"
+msgstr ""
+"+25% dohled stojícího vozidla (max. 445m)\n"
+"Omezení: Aktivuje se po 3s od zastavení\n"
+"Info: Max. vzdálenost vykreslování cíle je čtverec 1 000m"
+
+msgid "stereoscope/name"
+msgstr "Binokulární dalekohled"
+
+msgid "toolbox/descr"
+msgstr "+25% rychlost oprav"
+
+msgid "toolbox/name"
+msgstr "Nástroje"
+
+msgid "wetCombatPack/descr"
+msgstr "+50% výdrž beden s municí"
+
+msgid "wetCombatPack_class1/name"
+msgstr "\"Mokré\" bedny s municí Třída 1"
+
+msgid "wetCombatPack_class2/name"
+msgstr "\"Mokré\" bedny s municí Třída 2"
