@@ -1,53 +1,319 @@
 <messenger.xml>
-  <protocols>
-    <test>XmppPlugin</test>
-  </protocols>
-  <lobby>
+  <defUserPreferences>
+  </defUserPreferences>
+  <colorsSchemes>
     <colorScheme>
-      <group>
-        <channelOwner>146 130 188</channelOwner>
-        <channelModerator>155 2 2</channelModerator>
-        <chatAdmin>155 2 2</chatAdmin>
-      </group>
-      <userRoster>
-        <himself>
-          <online>255 195 100</online>
-        </himself>
-        <user>
-          <online>201 201 182</online>
-          <offline>150 150 135</offline>
-        </user>
-        <friend>
-          <online>133 177 128</online>
-          <offline>93 129 89</offline>
-        </friend>
-        <ignored>
-          <offline>80 80 80</offline>
-        </ignored>
-      </userRoster>
-      <breaker>27 194 255</breaker>
-      <messageBody>151 149 137</messageBody>
-      <badWord>0 255 255</badWord>
+      <name>groups</name>
+      <item>
+        <name>	channelOwner	</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>146 130 188</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>	channelModerator	</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>155 2 2</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>chatAdmin</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>155 2 2</rgb>
+          </color>
+        </colors>
+      </item>
     </colorScheme>
-    <serviceChannel>
-      <lifeTime>	20	</lifeTime>
-      <alphaSpeed>	3	</alphaSpeed>
-      <stackLength>	10	</stackLength>
-    </serviceChannel>
-    <invites>
-      <linkFormat>&lt;u&gt;&lt;a href="asfunction:_root.invitesHandler.doLink,%(id)d"&gt;%(message)s (%(sentAt)s)&lt;/a&gt;&lt;/u&gt; &lt;br/&gt;</linkFormat>
-      <noteFormat>&lt;br/&gt;&lt;font color='#d13e3e'&gt;%(note)s&lt;/font&gt;</noteFormat>
-    </invites>
-    <prebattle>
-      <forseDestroyChannel>	True	</forseDestroyChannel>
-    </prebattle>
-  </lobby>
-  <battle>
-    <lifeTime>	20	</lifeTime>
-    <alphaSpeed>	3	</alphaSpeed>
-    <inactiveStateAlpha>	35	</inactiveStateAlpha>
-    <hintText>&lt;font color="#b2b1a4"&gt;&lt;b&gt;[_(#controls:keyboard/key_tab)]&lt;/b&gt;&lt;/font&gt; _(#messenger:battle/hints/changeReceiver)</hintText>
-    <toolTipText>_(#messenger:battle/toolTips/usingChat)
+    <colorScheme>
+      <name>rosters</name>
+      <item>
+        <name>himself</name>
+        <colors>
+          <color>
+            <name>online</name>
+            <rgb>255 195 100</rgb>
+          </color>
+          <color>
+            <name>offline</name>
+            <rgb>255 195 100</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>friend</name>
+        <colors>
+          <color>
+            <name>online</name>
+            <rgb>133 177 128</rgb>
+          </color>
+          <color>
+            <name>offline</name>
+            <rgb>93 129 89</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>ignored</name>
+        <colors>
+          <color>
+            <name>online</name>
+            <rgb>80 80 80</rgb>
+          </color>
+          <color>
+            <name>offline</name>
+            <rgb>80 80 80</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>other</name>
+        <colors>
+          <color>
+            <name>online</name>
+            <rgb>201 201 182</rgb>
+          </color>
+          <color>
+            <name>offline</name>
+            <rgb>150 150 135</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>breaker</name>
+        <colors>
+          <color>
+            <name>online</name>
+            <rgb>27 194 255</rgb>
+          </color>
+          <color>
+            <name>offline</name>
+            <rgb>27 194 255</rgb>
+          </color>
+        </colors>
+      </item>
+    </colorScheme>
+    <colorScheme>
+      <name>battle/player</name>
+      <item>
+        <name>himself</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>255 195 100</rgb>
+          </color>
+          <color>
+            <name>colorBlind</name>
+            <rgb>255 255 0</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>	teammate	</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>128 214 58</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>enemy</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>218 4 0</rgb>
+          </color>
+          <color>
+            <name>colorBlind</name>
+            <rgb>131 121 254</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>unknown</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>153 153 153</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>teamkiller</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>0 235 255</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>	squadman	</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>255 195 100</rgb>
+          </color>
+          <color>
+            <name>colorBlind</name>
+            <rgb>255 255 0</rgb>
+          </color>
+        </colors>
+      </item>
+    </colorScheme>
+    <colorScheme>
+      <name>battle/message</name>
+      <item>
+        <name>	team	</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>128 214 58</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>common</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>255 255 255</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>squad</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>255 195 100</rgb>
+          </color>
+          <color>
+            <name>colorBlind</name>
+            <rgb>255 255 0</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>unknown</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>153 153 153</rgb>
+          </color>
+        </colors>
+      </item>
+    </colorScheme>
+    <colorScheme>
+      <name>battle/receiver</name>
+      <item>
+        <name>	team	</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>121 211 15</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>common</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>150 148 126</rgb>
+          </color>
+        </colors>
+      </item>
+      <item>
+        <name>squad</name>
+        <colors>
+          <color>
+            <name>default</name>
+            <rgb>255 170 71</rgb>
+          </color>
+          <color>
+            <name>colorBlind</name>
+            <rgb>255 255 0</rgb>
+          </color>
+        </colors>
+      </item>
+    </colorScheme>
+  </colorsSchemes>
+  <settingsSet>
+    <settings>
+      <name>lobby</name>
+      <set>
+        <name>serviceChannel</name>
+        <items>
+          <item>
+            <name>	lifeTime	</name>
+            <value>	6000	</value>
+          </item>
+          <item>
+            <name>alphaSpeed</name>
+            <value>	2000	</value>
+          </item>
+          <item>
+            <name>stackLength</name>
+            <value>	5	</value>
+          </item>
+          <item>
+            <name>padding</name>
+            <value>	0	</value>
+          </item>
+        </items>
+      </set>
+      <item>
+        <name>	messageRawFormat	</name>
+        <value>&lt;font color="#%(user)s"&gt;{0:&gt;s}&lt;/font&gt;&amp;nbsp;&lt;font color="#%(time)s"&gt;{1:&gt;s}&lt;/font&gt;&lt;font color="#979589"&gt;{2:&gt;s}&lt;/font&gt;</value>
+      </item>
+      <item>
+        <name>badWordFormat</name>
+        <value>&lt;font color="#00FFFF"&gt;{0:&gt;s}&lt;/font&gt;</value>
+      </item>
+    </settings>
+    <settings>
+      <name>battle</name>
+      <set>
+        <name>	messageLifeCycle	</name>
+        <items>
+          <item>
+            <name>	lifeTime	</name>
+            <value>	10	</value>
+          </item>
+          <item>
+            <name>alphaSpeed</name>
+            <value>	3	</value>
+          </item>
+        </items>
+      </set>
+      <item>
+        <name>messageFormat</name>
+        <value>&lt;font color='#%(playerColor)s'&gt;%(playerName)s&amp;nbsp;:&amp;nbsp;&lt;/font&gt;&lt;font color='#%(messageColor)s'&gt;%(messageText)s&lt;/font&gt;</value>
+      </item>
+      <item>
+        <name>	targetFormat	</name>
+        <value>&lt;font color='#FFF4B5'&gt;&amp;lt;%(target)s&amp;gt;&lt;/font&gt;</value>
+      </item>
+      <item>
+        <name>inactiveStateAlpha</name>
+        <value>	35	</value>
+      </item>
+      <item>
+        <name>	hintText	</name>
+        <value>&lt;font color="#b2b1a4"&gt;&lt;b&gt;[_(#controls:keyboard/key_tab)]&lt;/b&gt;&lt;/font&gt; _(#messenger:battle/hints/changeReceiver)</value>
+      </item>
+      <item>
+        <name>toolTipText</name>
+        <value>_(#messenger:battle/toolTips/usingChat)
 
 _(#messenger:battle/toolTips/startChat)
 [_(#controls:keyboard/key_enter)] - _(#messenger:battle/toolTips/default)
@@ -57,71 +323,46 @@ _(#messenger:battle/toolTips/startChat)
 _(#messenger:battle/toolTips/duringChat)
 [_(#controls:keyboard/key_tab)] - _(#messenger:battle/toolTips/changeReceiver)
 [_(#controls:keyboard/key_enter)] - _(#messenger:battle/toolTips/send)
-[_(#controls:keyboard/key_escape)] - _(#messenger:battle/toolTips/cancel)</toolTipText>
-    <receivers>
-      <team>
-        <label>&lt;font color="#%s"&gt;_(#messenger:battle/receivers/team) : &lt;/font&gt;</label>
-        <order>	1	</order>
-      </team>
-      <common>
-        <label>&lt;font color="#%s"&gt;_(#messenger:battle/receivers/common) : &lt;/font&gt;</label>
-        <modifiers>
-          <modifier>	17	</modifier>
-          <modifier>	163	</modifier>
-        </modifiers>
-        <order>	2	</order>
-      </common>
-      <squad>
-        <label>&lt;font color="#%s"&gt;_(#messenger:battle/receivers/squad) : &lt;/font&gt;</label>
-        <modifiers>
-          <modifier>	161	</modifier>
-        </modifiers>
-        <order>	3	</order>
-      </squad>
-    </receivers>
-    <colorScheme>
-      <player>
-        <himself>
-          <default>255 195 100</default>
-          <colorBlind>255 255 0</colorBlind>
-        </himself>
-        <teammate>128 214 58</teammate>
-        <enemy>
-          <default>218 4 0</default>
-          <colorBlind>131 121 254</colorBlind>
-        </enemy>
-        <unknown>153 153 153</unknown>
-        <teamkiller>0 235 255</teamkiller>
-        <squadman>
-          <default>255 195 100</default>
-          <colorBlind>255 255 0</colorBlind>
-        </squadman>
-      </player>
-      <messageBody>
-        <team>128 214 58</team>
-        <common>255 255 255</common>
-        <squad>
-          <default>255 195 100</default>
-          <colorBlind>255 255 0</colorBlind>
-        </squad>
-        <unknown>153 153 153</unknown>
-      </messageBody>
-      <receiverLabel>
-        <team>121 211 15</team>
-        <common>150 148 126</common>
-        <squad>
-          <default>255 170 71</default>
-          <colorBlind>255 255 0</colorBlind>
-        </squad>
-      </receiverLabel>
-    </colorScheme>
-  </battle>
-  <debug>
-    <dumpWaitingToDestroyChannels>	True	</dumpWaitingToDestroyChannels>
-  </debug>
+[_(#controls:keyboard/key_escape)] - _(#messenger:battle/toolTips/cancel)</value>
+      </item>
+      <set>
+        <name>receivers</name>
+        <items>
+          <item>
+            <name>	team	</name>
+            <value>
+              <label>&lt;font color="#%s"&gt;_(#messenger:battle/receivers/team) : &lt;/font&gt;</label>
+              <order>	1	</order>
+            </value>
+          </item>
+          <item>
+            <name>common</name>
+            <value>
+              <label>&lt;font color="#%s"&gt;_(#messenger:battle/receivers/common) : &lt;/font&gt;</label>
+              <modifiers>
+                <modifier>	17	</modifier>
+                <modifier>	163	</modifier>
+              </modifiers>
+              <order>	2	</order>
+            </value>
+          </item>
+          <item>
+            <name>squad</name>
+            <value>
+              <label>&lt;font color="#%s"&gt;_(#messenger:battle/receivers/squad) : &lt;/font&gt;</label>
+              <modifiers>
+                <modifier>	161	</modifier>
+              </modifiers>
+              <order>	3	</order>
+            </value>
+          </item>
+        </items>
+      </set>
+    </settings>
+  </settingsSet>
   <htmlTemplatesSimple>
     <battleErrorMessage>&lt;font color='#FF3362'&gt;%(error)s&lt;/font&gt;</battleErrorMessage>
-    <inviteToSpecialBattle>&lt;img src='%(icon)s' width='16' height='16' align='baseline' vspace='-1'/&gt;&amp;nbsp;&lt;font color='#FFFFFF'&gt;%(text)s&lt;/font&gt;</inviteToSpecialBattle>
+    <inviteToSpecialBattle>&lt;img src='img://gui/maps/icons/library/%(icon)s.png' width='16' height='16' align='baseline' vspace='-1'/&gt;&amp;nbsp;&lt;font color='#FFFFFF'&gt;%(text)s&lt;/font&gt;</inviteToSpecialBattle>
     <battleResultAchieves>&lt;br/&gt;&lt;font color='#929290'&gt;&lt;i&gt;_(#messenger:serviceChannelMessages/battleResults/achieves)&lt;/i&gt; &lt;font color='#00FFFF'&gt;%(achieves)s&lt;/font&gt;&lt;/font&gt;</battleResultAchieves>
     <battleResultLocks>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/vehicleLock)&lt;/font&gt;</battleResultLocks>
     <battleResultGold>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/gold): &lt;font color='#FFC363'&gt;&lt;img src='LabelBattleGold'/&gt;%(gold)s&lt;/font&gt;&lt;/font&gt;</battleResultGold>
@@ -180,8 +421,7 @@ _(#messenger:battle/toolTips/duringChat)
       <icon>	TournamentBattleResultIcon	</icon>
       <showMore>
         <enabled>	True	</enabled>
-        <command>battleResults.show</command>
-        <param>arenaUniqueID</param>
+        <command>showBattleResults</command>
       </showMore>
       <message>&lt;img src='LabelVictory'/&gt;&lt;font color='#00EE00' size='15'&gt;_(#messenger:serviceChannelMessages/battleResults/victory)&lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#00EE00'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;&lt;font color='#CDC673'&gt;_(#messenger:serviceChannelMessages/battleResults/experience)&lt;/font&gt;: &lt;font color='#1E90FF'&gt;&lt;img src='LabelBattleExperience'/&gt;%(xp)s&lt;/font&gt;&lt;img src='LabelExperienceCompensation'/&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;&lt;font color='#CDC673'&gt;_(#messenger:serviceChannelMessages/battleResults/credits)&lt;/font&gt;: &lt;font color='#FFFFFF'&gt;&lt;img src='LabelBattleCredit'/&gt;%(credits)s&lt;img src='toolTipCreditsIcon' align='baseline' vspace='-3'/&gt;&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s %(quests)s</message>
     </battleVictoryResult>
@@ -190,8 +430,7 @@ _(#messenger:battle/toolTips/duringChat)
       <icon>	ClanBattleResultIcon	</icon>
       <showMore>
         <enabled>	True	</enabled>
-        <command>battleResults.show</command>
-        <param>arenaUniqueID</param>
+        <command>showBattleResults</command>
       </showMore>
       <message>&lt;img src='LabelDrawGame'/&gt;&lt;font color='#EE00EE' size='15'&gt;_(#messenger:serviceChannelMessages/battleResults/drawGame)&lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#EE00EE'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;&lt;font color='#CDC673'&gt;_(#messenger:serviceChannelMessages/battleResults/experience)&lt;/font&gt;: &lt;font color='#1E90FF'&gt;&lt;img src='LabelBattleExperience'/&gt;%(xp)s&lt;/font&gt;&lt;img src='LabelExperienceCompensation'/&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;&lt;font color='#CDC673'&gt;_(#messenger:serviceChannelMessages/battleResults/credits)&lt;/font&gt;: &lt;font color='#FFFFFF'&gt;&lt;img src='LabelBattleCredit'/&gt;%(credits)s&lt;img src='toolTipCreditsIcon' align='baseline' vspace='-3'/&gt;&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s %(quests)s</message>
     </battleDrawGameResult>
@@ -200,8 +439,7 @@ _(#messenger:battle/toolTips/duringChat)
       <icon>	BattleResultIcon	</icon>
       <showMore>
         <enabled>	True	</enabled>
-        <command>battleResults.show</command>
-        <param>arenaUniqueID</param>
+        <command>showBattleResults</command>
       </showMore>
       <message>&lt;img src='LabelDefeat'/&gt;&lt;font color='#EE0000' size='15'&gt;_(#messenger:serviceChannelMessages/battleResults/defeat)&lt;/font&gt;&lt;br/&gt;&lt;font color='#FFFFFF'&gt;%(arenaName)s %(createdAt)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#EE0000'&gt;%(vehicleName)s &lt;/font&gt;&lt;br/&gt;&lt;font color='#929290'&gt;&lt;font color='#CDC673'&gt;_(#messenger:serviceChannelMessages/battleResults/experience)&lt;/font&gt;: &lt;font color='#1E90FF'&gt;&lt;img src='LabelBattleExperience'/&gt;%(xp)s&lt;/font&gt;&lt;img src='LabelExperienceCompensation'/&gt;%(xpEx)s &lt;/font&gt;%(gold)s&lt;br/&gt;&lt;font color='#929290'&gt;&lt;font color='#CDC673'&gt;_(#messenger:serviceChannelMessages/battleResults/credits)&lt;/font&gt;: &lt;font color='#FFFFFF'&gt;&lt;img src='LabelBattleCredit'/&gt;%(credits)s&lt;img src='toolTipCreditsIcon' align='baseline' vspace='-3'/&gt;&lt;/font&gt;%(creditsEx)s&lt;/font&gt; %(achieves)s%(lock)s %(quests)s</message>
     </battleDefeatResult>
@@ -211,7 +449,6 @@ _(#messenger:battle/toolTips/duringChat)
       <showMore>
         <enabled>	True	</enabled>
         <command>Tutorial.Dispatcher.BattleHistory</command>
-        <param>arenaUniqueID</param>
       </showMore>
       <message>&lt;font color='#D6D7D4'&gt;%(result)s %(reason)s&lt;/font&gt;
 &lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/training_battle): %(arenaName)s %(startedAt)s&lt;/font&gt;
@@ -225,7 +462,6 @@ _(#messenger:battle/toolTips/duringChat)
       <showMore>
         <enabled>	True	</enabled>
         <command>Tutorial.Dispatcher.BattleHistory</command>
-        <param>arenaUniqueID</param>
       </showMore>
       <message>&lt;font color='#D6D7D4'&gt;%(result)s %(reason)s&lt;/font&gt;
 &lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/training_battle): %(arenaName)s %(startedAt)s&lt;/font&gt;
@@ -479,6 +715,7 @@ _(#messenger:battle/toolTips/duringChat)
     </AOGASNotify>
     <ConverterNotify>
       <type>yellow</type>
+      <icon>AccountTypeChangedIcon</icon>
       <message>&lt;font color='#c5ab5d'&gt;_(#messenger:serviceChannelMessages/sysMsg/converter/title)&lt;/font&gt;&lt;br/&gt;&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </ConverterNotify>
     <actionBegin>
