@@ -5,6 +5,7 @@
   </finPasswordURL>
   <migrationURL>http://wot.kongzhong.com/jihuo/jihuo.html?%s</migrationURL>
   <securitySettingsURL>https://eu.wargaming.net/personal/?utm_source=game-client&amp;utm_medium=notify&amp;utm_campaign=change-password</securitySettingsURL>
+  <recoveryPswdURL>https://eu.wargaming.net/personal/password_reset/new/</recoveryPswdURL>
   <nations_order>
     <_1>china</_1>
     <_2>france</_2>
@@ -12,6 +13,7 @@
     <_4>uk</_4>
     <_5>usa</_5>
     <_6>	ussr	</_6>
+    <_7>japan</_7>
   </nations_order>
   <minimapSize>	True	</minimapSize>
   <goldTransfer>False</goldTransfer>
@@ -33,6 +35,7 @@
   <clearLoginValue>False</clearLoginValue>
   <specPrebatlesVisible>	True	</specPrebatlesVisible>
   <battleStatsInHangar>	True	</battleStatsInHangar>
+  <igrCredentialsReset>False</igrCredentialsReset>
   <rssUrl>
   </rssUrl>
   <language_bar>
