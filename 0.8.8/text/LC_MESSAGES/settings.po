@@ -1,0 +1,975 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2013-06-29 14:14+0100\n"
+"Last-Translator: \n"
+"Language-Team: WoT Tým <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+
+msgid "DECALS_QUALITY"
+msgstr "Kvalita obtisků"
+
+msgid "EFFECTS_QUALITY"
+msgstr "Kvalita zvláštních efektů"
+
+msgid "FAR_PLANE"
+msgstr "Vzdálenost vykreslování"
+
+msgid "FLORA_QUALITY"
+msgstr "Kvalita rostlinstva"
+
+msgid "LANGUAGE_CODE"
+msgstr "cs"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Kvalita osvětlení"
+
+msgid "OBJECT_LOD"
+msgstr "Vzdálenost načítání objektů"
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Post Processing"
+
+msgid "RENDER_PIPELINE"
+msgstr "Grafika"
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Verze shaderů"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Kvalita stínů"
+
+msgid "SMOKE_ENABLED"
+msgstr "Kouř"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Zvláštní efekty v odstřelovacím režimu"
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Zobrazovat trávu v odstřelovacím režimu"
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Kvalita listí"
+
+msgid "TERRAIN_QUALITY"
+msgstr "Kvalita krajiny"
+
+msgid "TEXTURE_QUALITY"
+msgstr "Kvalita textur"
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Zobrazovat prach od pásů"
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Zobrazovat stopy pásů"
+
+msgid "WATER_QUALITY"
+msgstr "Kvalita vodní hladiny"
+
+msgid "alternativeVoices/fieldset/header"
+msgstr "Hlasová oznámení"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Hlasové zprávy v bitvě"
+
+msgid "apply_button"
+msgstr "Použít"
+
+msgid "arcade/cassette"
+msgstr "Zásobník"
+
+msgid "arcade/centralTag"
+msgstr "Centrální značka"
+
+msgid "arcade/centralTag/type0"
+msgstr "Kruh, černý"
+
+msgid "arcade/centralTag/type1"
+msgstr "Kruh, bílý"
+
+msgid "arcade/centralTag/type2"
+msgstr "Kříž, černý"
+
+msgid "arcade/centralTag/type3"
+msgstr "Kříž, bílý"
+
+msgid "arcade/centralTag/type4"
+msgstr "X-kříž, černý"
+
+msgid "arcade/centralTag/type5"
+msgstr "X-kříž, bílý"
+
+msgid "arcade/centralTag/type6"
+msgstr "Bod, černý"
+
+msgid "arcade/centralTag/type7"
+msgstr "Bod, bílý"
+
+msgid "arcade/centralTag/type8"
+msgstr "Záměrný bod I"
+
+msgid "arcade/condition"
+msgstr "Stav"
+
+msgid "arcade/gunTag"
+msgstr "Značka kanónu"
+
+msgid "arcade/gunTag/type0"
+msgstr "Bod, černý"
+
+msgid "arcade/gunTag/type1"
+msgstr "Bod, bílý"
+
+msgid "arcade/gunTag/type2"
+msgstr "Kříž, černý"
+
+msgid "arcade/gunTag/type3"
+msgstr "Kříž, bílý"
+
+msgid "arcade/gunTag/type4"
+msgstr "X-kříž, černý"
+
+msgid "arcade/gunTag/type5"
+msgstr "X-kříž, bílý"
+
+msgid "arcade/gunTag/type6"
+msgstr "Záměrný bod I (s indikátorem šance prostřelení pancíře)"
+
+msgid "arcade/mixing"
+msgstr "Indikátor rozptylu"
+
+msgid "arcade/mixing/type0"
+msgstr "Kruh, plný (zelený)"
+
+msgid "arcade/mixing/type1"
+msgstr "Kruh, plný (modrý)"
+
+msgid "arcade/mixing/type2"
+msgstr "Kruh, tečkovaný (originální)"
+
+msgid "arcade/mixing/type3"
+msgstr "Nitkový kříž (s posuvným indikátorem nabíjení)"
+
+msgid "arcade/mixing/type4"
+msgstr "Nitkový kříž II"
+
+msgid "arcade/mixing/type5"
+msgstr "Test"
+
+msgid "arcade/net"
+msgstr "Indikátory"
+
+msgid "arcade/net/type0"
+msgstr "Vodorovný, vnější"
+
+msgid "arcade/net/type1"
+msgstr "Vodorovný, vnitřní"
+
+msgid "arcade/net/type2"
+msgstr "Žádný, vnitřní"
+
+msgid "arcade/net/type3"
+msgstr "Přerušovaný"
+
+msgid "arcade/reloader"
+msgstr "Nabíjení"
+
+msgid "aspectRatio"
+msgstr "Širokoúhlý režim"
+
+msgid "aspect_ratio"
+msgstr "Poměr stran zobrazení"
+
+msgid "autodetectButton"
+msgstr "Autodetekce"
+
+msgid "cancel_button"
+msgstr "Storno"
+
+msgid "chat/censorshipMessages"
+msgstr "Cenzura zpráv"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Pamatovat si pozici kamery a oken kanálů"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Pamatovat si pozici kamery a ostatních oken"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Přijímat pozvánky pouze od hráčů ze seznamu přátel"
+
+msgid "chat/removeSpam"
+msgstr "Skrýt spam"
+
+msgid "chat/showDateMessage"
+msgstr "Zobrazit ve zprávách datum"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Upozornění na připojení/odpojení uživatelů"
+
+msgid "chat/showTimeMessage"
+msgstr "Zobrazit ve zprávách čas"
+
+msgid "chat/storeReceiverInBattle"
+msgstr "Uložit příjemce zprávy"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Arkáda"
+
+msgid "cursor/ServerAim"
+msgstr "Povolit serverový zaměřovač"
+
+msgid "cursor/SnipperTitle"
+msgstr "Snajpr"
+
+msgid "cursorTitle"
+msgstr "Zaměřovač"
+
+msgid "customAAMode/mode0"
+msgstr "Vypnuto"
+
+msgid "customAAMode/mode1"
+msgstr "FXAA"
+
+msgid "defaultBtn"
+msgstr "Standard"
+
+msgid "dynamicCamera"
+msgstr "Povolit dynamickou kameru"
+
+msgid "edgeDetectAA"
+msgstr "Chytrá detekce AA"
+
+msgid "fpsPerfomancer"
+msgstr "Dynamická změna kvality efektů"
+
+msgid "fullScreenMode"
+msgstr "Režim celé obrazovky"
+
+msgid "game/dynamicCamera"
+msgstr "Povolit dynamickou kameru"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Povolit efekty v posmrtném režimu"
+
+msgid "game/enableVoIP"
+msgstr "Hlasová komunikace"
+
+msgid "game/fieldset/headerChat"
+msgstr "Pokec"
+
+msgid "game/fieldset/headerGameplay"
+msgstr "Typy bitev"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Minimapa"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Označení vozidel"
+
+msgid "game/playerPanelSettings"
+msgstr "Konfigurace týmového panelu"
+
+msgid "game/playersPanelState/large"
+msgstr "Kompletní panel"
+
+msgid "game/playersPanelState/medium"
+msgstr "Standardní panel"
+
+msgid "game/playersPanelState/none"
+msgstr "Žádný panel"
+
+msgid "game/playersPanelState/short"
+msgstr "Zkrácený panel"
+
+msgid "game/ppShowLevels"
+msgstr "Zobrazit úroveň vozidla"
+
+msgid "game/ppShowTypes"
+msgstr "Zobrazovat typ vozidla"
+
+msgid "game/ppStartStateLabel"
+msgstr "Typ"
+
+msgid "game/replayEnabled"
+msgstr "Povolit záznam bitvy"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Zobrazit informace zničenému vozidlu"
+
+msgid "game/showLanguageBar"
+msgstr "Zobrazit panel jazyků"
+
+msgid "game/showVehicleIcon"
+msgstr "Zobrazit ikonu vozidla"
+
+msgid "game/showVehicleLevel"
+msgstr "Zobrazit úroveň vozidla"
+
+msgid "game/showVehiclesCounter"
+msgstr "Zobrazit značky vozidel na panelu bitevních výsledků"
+
+msgid "gameTitle"
+msgstr "Hra"
+
+msgid "gameplay/assault"
+msgstr "Útok (po vyzkoumání vozidel VI. úrovně)"
+
+msgid "gameplay/ctf"
+msgstr "Standardní bitva"
+
+msgid "gameplay/domination"
+msgstr "Střetnutí (po vyzkoumání vozidel IV. úrovně)"
+
+msgid "gamma"
+msgstr "Gamma(celá obrazovka)"
+
+msgid "graficTitle"
+msgstr "Grafika"
+
+msgid "graphicsQuality/ANISOTROPIC_16X"
+msgstr "Anisotropické 16x"
+
+msgid "graphicsQuality/ANISOTROPIC_2X"
+msgstr "Anisotropické 2x"
+
+msgid "graphicsQuality/ANISOTROPIC_4X"
+msgstr "Anisotropické 4x"
+
+msgid "graphicsQuality/ANISOTROPIC_8X"
+msgstr "Anisotropické 8x"
+
+msgid "graphicsQuality/BILINEAR"
+msgstr "Bilineární"
+
+msgid "graphicsQuality/CUSTOM"
+msgstr "Vlastní"
+
+msgid "graphicsQuality/DEFERRED"
+msgstr "Vylepšená"
+
+msgid "graphicsQuality/FAR"
+msgstr "Daleko"
+
+msgid "graphicsQuality/FORWARD"
+msgstr "Standardní"
+
+msgid "graphicsQuality/HIGH"
+msgstr "Vysoká"
+
+msgid "graphicsQuality/LOW"
+msgstr "Nízká"
+
+msgid "graphicsQuality/LOWEST"
+msgstr "Velmi nízká"
+
+msgid "graphicsQuality/MAX"
+msgstr "Maximální"
+
+msgid "graphicsQuality/MEDIUM"
+msgstr "Střední"
+
+msgid "graphicsQuality/MIN"
+msgstr "Minimální"
+
+msgid "graphicsQuality/NEAR"
+msgstr "Blízko"
+
+msgid "graphicsQuality/OFF"
+msgstr "Vypnuto"
+
+msgid "graphicsQuality/ON"
+msgstr "Zapnuto"
+
+msgid "graphicsQuality/POINT"
+msgstr "Optimální"
+
+msgid "graphicsQuality/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsQuality/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsQuality/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsQuality/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsQuality/TRILINEAR"
+msgstr "Trilineární"
+
+msgid "graphicsQuality/VERYHIGH"
+msgstr "Velmi vysoká"
+
+msgid "graphicsQuality/VERY_HIGH"
+msgstr "Velmi vysoká"
+
+msgid "graphics_details"
+msgstr "Kvalita zobrazení grafiky"
+
+msgid "isColorBlind"
+msgstr "Alternativní barvy (pro barvoslepé)"
+
+msgid "keyboard/backDraftInvert"
+msgstr "Ivertovat při couvání"
+
+msgid "keyboard/keyboard"
+msgstr "Klávesnice"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Speciální zaměřovač"
+
+msgid "keyboard/keysBlocks/command/attack"
+msgstr "Požaduji podporu!"
+
+msgid "keyboard/keysBlocks/command/attack/ext"
+msgstr "(zaměřovač na nepříteli)"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Zafixování podvozku (stíhače)"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Dozadu"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Dozadu"
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Dolů"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Doleva"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Doprava"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Nahoru"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Výstřel"
+
+msgid "keyboard/keysBlocks/command/follow_me"
+msgstr "Následujte mě!"
+
+msgid "keyboard/keysBlocks/command/follow_me/ext"
+msgstr "(zaměřovač na spojenci)"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Dopředu"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Dopředu"
+
+msgid "keyboard/keysBlocks/command/help_me"
+msgstr "Pomoc!"
+
+msgid "keyboard/keysBlocks/command/help_me_temp"
+msgstr "Pomoc!"
+
+msgid "keyboard/keysBlocks/command/help_me_temp/ext"
+msgstr "(zaměřovač na spojenci)"
+
+msgid "keyboard/keysBlocks/command/help_me_temp2"
+msgstr "Požaduji podporu!"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Vybavení 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Vybavení 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Vybavení 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Vybavení 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Vybavení 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Vybavení 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Vybavení 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Vybavení 8"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Doleva"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Automatické zaměřování"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Vypnout automatické zaměřování"
+
+msgid "keyboard/keysBlocks/command/my_target"
+msgstr "Útočím…"
+
+msgid "keyboard/keysBlocks/command/my_target/ext"
+msgstr "(zaměřovač dělostřelectva na nepříteli)"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Zamítám!"
+
+msgid "keyboard/keysBlocks/command/positive"
+msgstr "Potvrzuji!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Aktivace mikrofonu"
+
+msgid "keyboard/keysBlocks/command/reload"
+msgstr "Nabíjím!"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Doplnit zásobník munice"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Doprava"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Skrýt rozhraní"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Zobrazit menu příkazů"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Zmenšit"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Zvětšit"
+
+msgid "keyboard/keysBlocks/command/stop"
+msgstr "Stát!"
+
+msgid "keyboard/keysBlocks/command/stop/ext"
+msgstr "(zaměřovač na spojenci)"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Zastavit a vystřelit"
+
+msgid "keyboard/keysBlocks/command/switch_view"
+msgstr "Přepínání režimu"
+
+msgid "keyboard/keysBlocks/command/to_back"
+msgstr "Zpět!"
+
+msgid "keyboard/keysBlocks/command/to_back/ext"
+msgstr "(zaměřovač na spojenci)"
+
+msgid "keyboard/keysBlocks/command/to_base"
+msgstr "Braňte základnu!"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Klakson"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Skrýt/Zobrazit"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Kamera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Ovládání rychlosti"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Spotřební doplňky"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Výstřel"
+
+msgid "keyboard/keysBlocks/group/logitech_keyboard"
+msgstr "Klávesnice Logitech"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Minimapa"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Jízda"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Zprávy"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Ostatní"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Hlasová komunikace"
+
+msgid "keyboard/mouse"
+msgstr "Myš"
+
+msgid "keyboardTitle"
+msgstr "Ovládání"
+
+msgid "marker/AllyTitle"
+msgstr "Spojenci"
+
+msgid "marker/DeadTitle"
+msgstr "Zničení"
+
+msgid "marker/EnemyTitle"
+msgstr "Protivníci"
+
+msgid "marker/alt"
+msgstr "Alternativní"
+
+msgid "marker/base"
+msgstr "Normální"
+
+msgid "marker/damage"
+msgstr "Obdržené poškození"
+
+msgid "marker/dead"
+msgstr "Zobrazit pro zničené"
+
+msgid "marker/hp"
+msgstr "Výdrž vozidla"
+
+msgid "marker/hp/type0"
+msgstr "Procent %"
+
+msgid "marker/hp/type1"
+msgstr "HP zbývá / celkem"
+
+msgid "marker/hp/type2"
+msgstr "HP zbývá"
+
+msgid "marker/hp/type3"
+msgstr "Skrýt"
+
+msgid "marker/hpIndicator"
+msgstr "Indikátor výdrže"
+
+msgid "marker/icon"
+msgstr "Ikona vozidla"
+
+msgid "marker/level"
+msgstr "Úroveň vozidla"
+
+msgid "marker/name"
+msgstr "Název vozidla"
+
+msgid "marker/name/type2"
+msgstr "Skrýt"
+
+msgid "marker/nickname"
+msgstr "Jméno hráče"
+
+msgid "markerTitle"
+msgstr "Značky"
+
+msgid "minimap/labels/alpha"
+msgstr "Průhlednost minimapy"
+
+msgid "minimap/labels/size"
+msgstr "Maximální velikost"
+
+msgid "monitor"
+msgstr "Monitor"
+
+msgid "mouse/sensitivity/art"
+msgstr "Dělostřelectvo"
+
+msgid "mouse/sensitivity/header"
+msgstr "Citlivost"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Invertovat horizontálně"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Invertovat vertikálně"
+
+msgid "mouse/sensitivity/main"
+msgstr "Arkáda"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Snajpr"
+
+msgid "mouse/startDist"
+msgstr "Pozice kamery"
+
+msgid "multisamplingType"
+msgstr "Antialiasing"
+
+msgid "multisamplingType/type0"
+msgstr "Vypnuto"
+
+msgid "multisamplingType/type1032"
+msgstr "CSAA 8x"
+
+msgid "multisamplingType/type1040"
+msgstr "CSAA 16x"
+
+msgid "multisamplingType/type12"
+msgstr "12x"
+
+msgid "multisamplingType/type16"
+msgstr "16x"
+
+msgid "multisamplingType/type2"
+msgstr "2x"
+
+msgid "multisamplingType/type2056"
+msgstr "CSAA 8xQ"
+
+msgid "multisamplingType/type2064"
+msgstr "CSAA 16xQ"
+
+msgid "multisamplingType/type4"
+msgstr "4x"
+
+msgid "multisamplingType/type6"
+msgstr "6x"
+
+msgid "multisamplingType/type8"
+msgstr "8x"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "resolution"
+msgstr "Rozlišení obrazovky"
+
+msgid "sniper/cassette"
+msgstr "Zásobník"
+
+msgid "sniper/centralTag"
+msgstr "Centrální značka"
+
+msgid "sniper/centralTag/type0"
+msgstr "Kruh, černý"
+
+msgid "sniper/centralTag/type1"
+msgstr "Kruh, bílý"
+
+msgid "sniper/centralTag/type2"
+msgstr "Kříž, černý"
+
+msgid "sniper/centralTag/type3"
+msgstr "Kříž, bílý"
+
+msgid "sniper/centralTag/type4"
+msgstr "X-kříž, černý"
+
+msgid "sniper/centralTag/type5"
+msgstr "X-kříž, bílý"
+
+msgid "sniper/centralTag/type6"
+msgstr "Bod, černý"
+
+msgid "sniper/centralTag/type7"
+msgstr "Bod, bílý"
+
+msgid "sniper/centralTag/type8"
+msgstr "Záměrný bod I"
+
+msgid "sniper/condition"
+msgstr "Stav"
+
+msgid "sniper/gunTag"
+msgstr "Značka kanónu"
+
+msgid "sniper/gunTag/type0"
+msgstr "Bod, černý"
+
+msgid "sniper/gunTag/type1"
+msgstr "Bod, bílý"
+
+msgid "sniper/gunTag/type2"
+msgstr "Kříž, černý"
+
+msgid "sniper/gunTag/type3"
+msgstr "Kříž, bílý"
+
+msgid "sniper/gunTag/type4"
+msgstr "X-kříž, černý"
+
+msgid "sniper/gunTag/type5"
+msgstr "X-kříž, bílý"
+
+msgid "sniper/mixing"
+msgstr "Indikátor rozptylu"
+
+msgid "sniper/mixing/type0"
+msgstr "Kruh, plný (zelený)"
+
+msgid "sniper/mixing/type1"
+msgstr "Kruh, plný (modrý)"
+
+msgid "sniper/mixing/type2"
+msgstr "Kruh, tečkovaný (originální)"
+
+msgid "sniper/net"
+msgstr "Indikátory"
+
+msgid "sniper/net/type0"
+msgstr "Vodorovný s rámečkem"
+
+msgid "sniper/net/type1"
+msgstr "Vodorovný bez rámečku"
+
+msgid "sniper/net/type2"
+msgstr "Žádný, vnitřní"
+
+msgid "sniper/reloader"
+msgstr "Nabíjení"
+
+msgid "sound/fieldset/header"
+msgstr "Hlasitost"
+
+msgid "sound/nationalVoices"
+msgstr "Hlasy tankistů dle národností"
+
+msgid "sound/players_notifications"
+msgstr "Upozornění od ostatních hráčů"
+
+msgid "sound/soundModes/U01"
+msgstr "Uživatel 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Uživatel 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Uživatel 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Uživatel 4"
+
+msgid "sound/soundModes/default"
+msgstr "Standardní"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Národní"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Aktualizace seznamu zařízení"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Ukončit test"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Zahájit test"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Hlasitost efektů během hlasové komunikace"
+
+msgid "sound/vivox/master_volume"
+msgstr "Hlasitost hlasové komunikace"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Citlivost mikrofonu"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Test hlasové komunikace"
+
+msgid "soundTitle"
+msgstr "Hlasitost"
+
+msgid "sounds/ambient"
+msgstr "Prostředí"
+
+msgid "sounds/arena"
+msgstr "Hudba"
+
+msgid "sounds/effects"
+msgstr "Efekty"
+
+msgid "sounds/gui"
+msgstr "Zvuky rozhraní"
+
+msgid "sounds/masterVolume"
+msgstr "Celková úroveň hlasitosti"
+
+msgid "sounds/vehicles"
+msgstr "Tank"
+
+msgid "sounds/voice"
+msgstr "Hlasová oznámení"
+
+msgid "title"
+msgstr "Nastavení"
+
+msgid "tripleBuffered"
+msgstr "Triple buffering"
+
+msgid "vertical_sync"
+msgstr "Vertikální synchronizace"
+
+msgid "vertical_sync/Off"
+msgstr "Vypnuto"
+
+msgid "vertical_sync/On"
+msgstr "Zapnuto"
+
+msgid "vibro/device/state/connected"
+msgstr "Stav: připojeno"
+
+msgid "vibro/device/state/notConnected"
+msgstr "Stav: odpojeno"
+
+msgid "vibro/fieldset/header"
+msgstr "Vibrační podložka Gametrix"
+
+msgid "vibro/labels/acceleration"
+msgstr "Akcelerace"
+
+msgid "vibro/labels/collisions"
+msgstr "Kolize"
+
+msgid "vibro/labels/damage"
+msgstr "Poškození"
+
+msgid "vibro/labels/engine"
+msgstr "Motor"
+
+msgid "vibro/labels/gain"
+msgstr "Intenzita efektů"
+
+msgid "vibro/labels/gui"
+msgstr "Efekty"
+
+msgid "vibro/labels/hits"
+msgstr "Zásahy"
+
+msgid "vibro/labels/shots"
+msgstr "Nabíjení a střelba"
+
+msgid "voice_chat/PTT"
+msgstr "Aktivace mikrofonu"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Hlasová komunikace"
+
+msgid "voice_chat/header/common"
+msgstr "Obecné"
+
+msgid "voice_chat/header/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/header/speakers"
+msgstr "Sluchátka"
+
+msgid "voice_chat/microphone"
+msgstr "Mikrofon"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Zapnout mikrofon"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Povolit hlasovou komunikaci"
+
+msgid "windowSize"
+msgstr "Velikost okna"
+
+msgid "windowTitle"
+msgstr "W.o.T. Klient"
