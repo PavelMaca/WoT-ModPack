@@ -18,9 +18,15 @@
     "clanIcon": ${"defines.xc":"clanIcon"},
     // Display format for the left panel (macros allowed, see readme-en.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatLeft": ${"defines.xc":"formatLeft"},
+    "formatLeftNick": "{{nick}}",
     // Display format for the right panel (macros allowed, see readme-en.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatRight": ${"defines.xc":"formatRight"}
+    "formatRightNick": "{{nick}}",
+    // Display format for the left panel (macros allowed, see readme-en.txt).
+    // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
+    "formatLeftVehicle": ${"defines.xc":"formatLeft"},
+    // Display format for the right panel (macros allowed, see readme-en.txt).
+    // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
+    "formatRightVehicle": ${"defines.xc":"formatRight"}
   }
 }

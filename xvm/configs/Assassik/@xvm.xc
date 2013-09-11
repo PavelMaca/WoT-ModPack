@@ -52,18 +52,26 @@
     // Поддерживаемая версия игры.
     "gameVersion": "0.8.7",
 
+    // Language used in mod
+    // "auto" - automatically detect language from game client,
+    // or specify file name located in res_mods/xvm/l10n/ (ex: "en")
+    // Используемый язык в моде
+    // "auto" - автоматически определять язык клиента игры,
+    // или укажите имя файла в папке res_mods/xvm/l10n/ (например, "en")
+    "language": "auto",
+
+    // Game Region
+    // "auto" - automatically detect game region from game client,
+    // or specify one of: "RU", "EU", "NA", "CN", "SEA", "VN", "KR"
+    // Регион (игровой кластер)
+    // "auto" - автоматически определять регион из клиента игры,
+    // или укажите один из: "RU", "EU", "NA", "CN", "SEA", "VN", "KR"
+    "region": "auto",
+
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
     "modMinVersion": "4.1.1"
   },
-
-  // Language used in mod
-  // "auto" - automatically detect language from game client,
-  // or specify file name located in res_mods/xvm/l10n/ (ex: "en")
-  // Используемый язык в моде
-  // "auto" - автоматически определять язык клиента игры,
-  // или укажите имя файла в папке res_mods/xvm/l10n/ (например, "en")
-  "language": "auto",
 
   // Parameters for login screen.
   // Параметры экрана логина.
