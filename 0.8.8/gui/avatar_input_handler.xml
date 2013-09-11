@@ -17,7 +17,7 @@
     </massSensitivity>
     <collisionSpeedToImpulseRatio>0.1</collisionSpeedToImpulseRatio>
     <minCollisionSpeed>90</minCollisionSpeed>
-    <zeroDamageHitSensitivity>0</zeroDamageHitSensitivity>
+    <zeroDamageHitSensitivity>0.0</zeroDamageHitSensitivity>
   </dynamicCameraCommon>
   <postMortemMode>
     <camera>
@@ -25,7 +25,7 @@
       <sensitivity>0.0025</sensitivity>
       <scrollSensitivity>	5	</scrollSensitivity>
       <angleRange>10 110</angleRange>
-      <distRange>2 25</distRange>
+      <distRange>2 250</distRange>
       <dynamics>
         <impulseOscillator>
           <mass>1.0</mass>
