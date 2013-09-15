@@ -23,11 +23,11 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
-  "configVersion": "4.1.1",
+  "configVersion": "5.0.0",
 
   // Version of the editor.
   // Версия редактора.
-  "editorVersion": "0.57",
+  "editorVersion": "0.60",
 
   // Common config options. All settings information in the mod not being used.
   // Общие параметры конфига. Все параметры информационные, в моде не используются.
@@ -46,11 +46,11 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "23.08.2013",
+    "date": "15.09.2013",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.8.7",
+    "gameVersion": "0.8.8",
 
     // Language used in mod
     // "auto" - automatically detect language from game client,
@@ -58,14 +58,14 @@
     // Используемый язык в моде
     // "auto" - автоматически определять язык клиента игры,
     // или укажите имя файла в папке res_mods/xvm/l10n/ (например, "en")
-    "language": "auto",
+    "language": "cs",
 
     // Game Region
     // "auto" - automatically detect game region from game client,
-    // or specify one of: "RU", "EU", "NA", "CN", "SEA", "VN", "KR"
+    // or specify one of: "RU", "EN", "NA", "CN", "SEA", "VN", "KR"
     // Регион (игровой кластер)
     // "auto" - автоматически определять регион из клиента игры,
-    // или укажите один из: "RU", "EU", "NA", "CN", "SEA", "VN", "KR"
+    // или укажите один из: "RU", "EN", "NA", "CN", "SEA", "VN", "KR"
     "region": "auto",
 
     // The minimum required version of the XVM mod.

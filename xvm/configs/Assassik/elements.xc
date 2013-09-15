@@ -15,4 +15,8 @@
  *      Defines                         // global defines
  */
 {
+  "elements": [
+    //${"snippet-1.xc"},
+    //${"snippet-2.xc"}
+  ]
 }
