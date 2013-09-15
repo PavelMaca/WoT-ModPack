@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-07-27 11:52+0100\n"
+"PO-Revision-Date: 2013-09-15 13:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.5.5\n"
 
 msgid "battle/hints/changeReceiver"
 msgstr "změna příjemce"
@@ -86,22 +86,22 @@ msgstr "%s nemá povoleno vést s vámi hlasovou komunikaci."
 msgid "client/information/unsetMuted/message"
 msgstr "%s má povoleno vést s vámi hlasovou komunikaci."
 
-msgid "client/warnning/emptyUserSearchToken/message"
+msgid "client/warning/emptyUserSearchToken/message"
 msgstr "Prázdný dotaz"
 
-msgid "client/warnning/emptyUserSearchToken/title"
+msgid "client/warning/emptyUserSearchToken/title"
 msgstr "Hledat uživatele"
 
-msgid "client/warnning/invalidUserSearchToken/message"
+msgid "client/warning/invalidUserSearchToken/message"
 msgstr ""
 "Neplatný znak nebo nesprávná délka ve vyhledávacím řetězci. Povolený počet "
 "znaků je od %d do %d."
 
-msgid "client/warnning/invalidUserSearchToken/title"
+msgid "client/warning/invalidUserSearchToken/title"
 msgstr "Hledat uživatele"
 
 msgid "command/ATTACKENEMY/arg0"
-msgstr "Jméno cíle"
+msgstr "Název cíle"
 
 msgid "command/ATTENTIONTOCELL/arg0"
 msgstr "&lt;Čtverec na minimapě&gt;"
@@ -116,7 +116,7 @@ msgid "command/STOP/arg0"
 msgstr "Jméno spojence"
 
 msgid "command/SUPPORTMEWITHFIRE/arg0"
-msgstr "Jméno cíle"
+msgstr "Název cíle"
 
 msgid "command/TURNBACK/arg0"
 msgstr "Jméno spojence"
@@ -145,7 +145,7 @@ msgstr "Založit soukromý kanál"
 msgid "command/findChatChannels"
 msgstr "Hledat kanály"
 
-msgid "command/findUsers"
+msgid "command/findUser"
 msgstr "Hledat hráče"
 
 msgid "command/getActiveInvites"
@@ -180,9 +180,6 @@ msgstr "Zakázat hlasovou komunikaci"
 
 msgid "command/unsetMuted"
 msgstr "Povolit hlasovou komunikaci"
-
-msgid "dialogs/bsChannel/buttons/leave"
-msgstr "Opustit"
 
 msgid "dialogs/bsChannel/context/kickPlayer"
 msgstr "Vyloučit z týmu"
@@ -251,10 +248,10 @@ msgid "dialogs/contacts/contact/userInfo"
 msgstr "Zobrazit podrobnosti"
 
 msgid "dialogs/contacts/group/sortByName"
-msgstr "Řadit podle jména"
+msgstr "Řadit podle jména."
 
 msgid "dialogs/contacts/group/sortByStatus"
-msgstr "Řadit podle stavu"
+msgstr "Řadit podle stavu."
 
 msgid "dialogs/contacts/title"
 msgstr "Seznam kontaktů"
@@ -286,19 +283,19 @@ msgid "dialogs/createChannel/errors/activeChannelLimitReached/title"
 msgstr "Překročení maximálního povoleného počtu kanálů."
 
 msgid "dialogs/createChannel/errors/invalidName/message"
-msgstr "Název kanálu musí obsahovat 3 až 32 znaků."
+msgstr "Název kanálu musí obsahovat %d až %d znaků."
 
 msgid "dialogs/createChannel/errors/invalidName/title"
 msgstr "Nesprávný název kanálu."
 
 msgid "dialogs/createChannel/errors/invalidPassword/message"
-msgstr "Heslo musí obsahovat 3 až 12 znaků."
+msgstr "Heslo musí obsahovat %d až %d znaků."
 
 msgid "dialogs/createChannel/errors/invalidPassword/title"
 msgstr "Nesprávné heslo."
 
 msgid "dialogs/createChannel/errors/invalidRetypePassword/message"
-msgstr "Potvrzení hesla musí obsahovat 3 až 12 znaků."
+msgstr "Text potvrzení hesla musí obsahovat %d až %d znaků."
 
 msgid "dialogs/createChannel/errors/invalidRetypePassword/title"
 msgstr "Nesprávné heslo."
@@ -326,12 +323,6 @@ msgstr "Požadovat heslo"
 
 msgid "dialogs/createChannel/title"
 msgstr "Založení kanálu"
-
-msgid "dialogs/invitations/squad/title"
-msgstr "Pozvánka do čety"
-
-msgid "dialogs/invitations/team/title"
-msgstr "Pozvánka do roty"
 
 msgid "dialogs/searchChannel/buttons/close"
 msgstr "Zavřít"
@@ -429,12 +420,6 @@ msgstr "Pozvat"
 msgid "dialogs/teamChannel/buttons/leave"
 msgstr "Opustit"
 
-msgid "dialogs/teamChannel/buttons/notReady"
-msgstr "Nepřipraven"
-
-msgid "dialogs/teamChannel/buttons/ready"
-msgstr "Připraven!"
-
 msgid "dialogs/teamChannel/context/kickPlayer"
 msgstr "Vyhodit z roty"
 
@@ -489,27 +474,6 @@ msgstr "[%s] opustil kanál"
 msgid "keyboardChat"
 msgstr "Pokec"
 
-msgid "lobby/bsChannel/title/arenaType"
-msgstr "Mapa:"
-
-msgid "lobby/bsChannel/title/battlesLimit"
-msgstr "Bitev/Vítězství:"
-
-msgid "lobby/bsChannel/title/comment"
-msgstr "Popis:"
-
-msgid "lobby/bsChannel/title/startTime"
-msgstr "Čas do zahájení:"
-
-msgid "lobby/bsChannels/stats/commonLevel"
-msgstr "Úroveň:"
-
-msgid "lobby/bsChannels/stats/required"
-msgstr "Požaduje:"
-
-msgid "lobby/bsChannels/stats/vehicleType"
-msgstr "Typ:"
-
 msgid "lobby/bsChannels/title/startTime"
 msgstr "Čas bitvy: %s"
 
@@ -518,9 +482,6 @@ msgstr "Kanály"
 
 msgid "lobby/buttons/contacts"
 msgstr "Kontakty"
-
-msgid "lobby/buttons/createTeam"
-msgstr "Založit rotu"
 
 msgid "lobby/buttons/send"
 msgstr "Odeslat"
@@ -539,66 +500,6 @@ msgstr "Zavřít"
 
 msgid "lobby/faq/title"
 msgstr "FAQ"
-
-msgid "lobby/teamChannel/defaultComment"
-msgstr "Kliknutím upravte text…"
-
-msgid "lobby/teamChannel/division/ABSOLUTE"
-msgstr "Veteráni"
-
-msgid "lobby/teamChannel/division/ALL"
-msgstr "Vše"
-
-msgid "lobby/teamChannel/division/CHAMPION"
-msgstr "Mazáci"
-
-msgid "lobby/teamChannel/division/JUNIOR"
-msgstr "Bažanti"
-
-msgid "lobby/teamChannel/division/MIDDLE"
-msgstr "Záklaďáci"
-
-msgid "lobby/teamChannel/isOpen"
-msgstr "Otevřít rotu"
-
-msgid "lobby/teamChannel/limitsLabel"
-msgstr "Omezení úrovně vozidla:"
-
-msgid "lobby/teamChannel/notInBattle"
-msgstr "Není v bitvě"
-
-msgid "lobby/teamChannel/playersBottomLabel"
-msgstr "Kliknutím vstupte"
-
-msgid "lobby/teamChannel/playersTopLabel"
-msgstr "Vojenský personál"
-
-msgid "lobby/teamChannel/queue"
-msgstr "Zájemci"
-
-msgid "lobby/teamChannel/stats/commonLevel"
-msgstr "Celková úroveň:"
-
-msgid "lobby/teamChannel/stats/count"
-msgstr "Personál tankové roty:"
-
-msgid "lobby/teamChannel/stats/maxPlayers"
-msgstr "Hráči:"
-
-msgid "lobby/teamChannel/stats/vehicleLevel"
-msgstr "Maximální úroveň vozidla:"
-
-msgid "lobby/teamChannel/stats/vehicleSPGLevel"
-msgstr "Maximální úroveň dělostřelectva:"
-
-msgid "lobby/teamChannel/title/level"
-msgstr "Úroveň"
-
-msgid "lobby/teamChannel/title/player"
-msgstr "Hráč"
-
-msgid "lobby/teamChannel/title/vehicle"
-msgstr "Vozidlo"
 
 msgid "lobby/users/actions/addToFriends"
 msgstr "Přidat tohoto hráče mezi přátele"
@@ -933,7 +834,7 @@ msgid "serviceChannelMessages/battleResults/quests/premium"
 msgstr "Připsány prémiové dny"
 
 msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
-msgstr "Stání přidáno"
+msgstr "Stání přidána"
 
 msgid "serviceChannelMessages/battleResults/tank"
 msgstr "Vozidlo"
@@ -954,13 +855,16 @@ msgid "serviceChannelMessages/battleTutorial/reasons/finished"
 msgstr "?empty?"
 
 msgid "serviceChannelMessages/battleTutorial/reasons/timeout"
-msgstr "Čas vypršel"
+msgstr "Váš čas vypršel"
 
 msgid "serviceChannelMessages/battleTutorial/results/failed"
 msgstr "Školení selhalo."
 
 msgid "serviceChannelMessages/battleTutorial/results/finished"
 msgstr "Školení dokončeno!"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Zavřít"
 
 msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
 msgstr ""
@@ -1002,7 +906,7 @@ msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
 msgstr "zlaťáky"
 
 msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
-msgstr "Kredity byly připsány na váš účet"
+msgstr "Kredity přidány"
 
 msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
 msgstr "Kredity byly strženy z vašeho účtu"
@@ -1014,22 +918,22 @@ msgid "serviceChannelMessages/invoiceReceived/freeXp"
 msgstr "Volné zkušenosti"
 
 msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
-msgstr "Přidáno volných zkušeností"
+msgstr "Volné zkušeností přidány"
 
 msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
 msgstr "Odepsáno volných zkušeností"
 
 msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
-msgstr "Zlaťáky byly připsány na váš účet"
+msgstr "Zlaťáky přidány"
 
 msgid "serviceChannelMessages/invoiceReceived/goldDebited"
-msgstr "Zlaťáky byly strženy z vašeho účtu"
+msgstr "Zlaťáky strženy"
 
 msgid "serviceChannelMessages/invoiceReceived/invoice"
 msgstr "Účtenka"
 
 msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
-msgstr "Získán spotřební doplněk"
+msgstr "Spotřební doplňky přidány"
 
 msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
 msgstr "Odepsán spotřební doplněk"
@@ -1047,7 +951,7 @@ msgid "serviceChannelMessages/invoiceReceived/premium_account"
 msgstr "Prémiový"
 
 msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
-msgstr "Přidána stání"
+msgstr "Stání přidána"
 
 msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
 msgstr "Odebrána stání"
@@ -1056,10 +960,10 @@ msgid "serviceChannelMessages/invoiceReceived/tankmen"
 msgstr "Povolávací rozkaz"
 
 msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
-msgstr "Získáno vozidlo"
+msgstr "Vozidla přidána"
 
 msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
-msgstr "Odepsáno vozidlo"
+msgstr "Vozidla odstraněna"
 
 msgid "serviceChannelMessages/itemReceivedAsGift"
 msgstr ""
@@ -1159,7 +1063,7 @@ msgid "serviceChannelMessages/serverRebootCancelled"
 msgstr "Odpojení serveru zrušeno, bylo plánováno na %(date)s."
 
 msgid "serviceChannelMessages/sysMsg/converter/camouflages"
-msgstr "Kamufláž"
+msgstr "Kamufláž změněna"
 
 msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
 msgstr "Získáno kreditů: <img src='LabelCreditProfit'/>%(credits)s"
@@ -1186,7 +1090,7 @@ msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
 msgstr "Nápisy změněny"
 
 msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
-msgstr "Přidáno pozic: %(slots)s"
+msgstr "Stání přidáno: %(slots)s"
 
 msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
 msgstr "Odtraněno pozic: %(slots)s"
@@ -1195,10 +1099,10 @@ msgid "serviceChannelMessages/sysMsg/converter/title"
 msgstr "Pozor!"
 
 msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
-msgstr "Přidáno vozidel: %(vehicles)s"
+msgstr "Vozidel přidáno: %(vehicles)s"
 
 msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
-msgstr "Odstraněno vozidel: %(vehicles)s"
+msgstr "Vozidel odstraněno: %(vehicles)s"
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
 msgstr ""
@@ -1267,7 +1171,7 @@ msgstr ""
 
 msgid "serviceChannelMessages/vehicleReceivedAsGift"
 msgstr ""
-"Bylo vám darováno prémiové vozidlo: <font color='#c5ab5d'>%(vehicleName)s</"
+"Bylo vám uděleno prémiové vozidlo: <font color='#c5ab5d'>%(vehicleName)s</"
 "font>"
 
 msgid "serviceChannelMessages/vehiclesAllLockExpired"
