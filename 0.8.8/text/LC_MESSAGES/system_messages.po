@@ -1,0 +1,1854 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2013-09-16 03:49+0100\n"
+"Last-Translator: i_maliavko <i_maliavko@wargaming.net>\n"
+"Language-Team: WoT Tým <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+
+msgid "account_was_restored"
+msgstr "Váš účet byl úspěšně obnoven"
+
+msgid "actionAchievement/title"
+msgstr "Kampaňová medaile"
+
+msgid "actionAchievements/title"
+msgstr "Kampaňové medaile"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Chyba při zkoumání nové schopnosti. Špatný tank."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Nepodařilo se vyzkoumat novou schopnost. Zkuste to později."
+
+msgid "add_tankman_skill/success"
+msgstr "Nová schopnost úspěšně naučena."
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Chyba při zkoumání nové schopnosti. Tank je uzamčen."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Chyba při zkoumání nové schopnosti. Opravte svůj tank."
+
+msgid "another_periphery"
+msgstr "Stále jste přihlášen(a) na jiném serveru."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Chyba při vstupu do bitvy: již jste součástí týmu."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Chyba při vstupu do bitvy: špatný počet týmů."
+
+msgid "arena_start_errors/join/CAPTCHA"
+msgstr "Chyba při připojení k bitvě, CAPTCHA."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr ""
+"Chyba připojení. Operace je dočasně nedostupná. Zkuste to znovu později."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Chyba při vstupu do bitvy: pozvánka expirovala."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Chyba připojení, nedostatečná oprávnění."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Chyba při vstupu do bitvy: tým byl již zformován."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Chyba při vstupu do bitvy: čas připojení vypršel."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Chyba připojení, nedostupné pro tento typ účtu."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Chyba při vstupu do bitvy."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Chyba připojení, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Chyba připojení. Vyberte si prosím server '%s'."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Chyba připojení. Vyberte si prosím jiný server."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Chyba při vstupu do bitvy: aktuální tank není připraven."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Nelze se připojit do bitvy: vozidlo není připraveno."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Kupte si prosím vozidlo, abyste se mohli připojit do bitvy."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Chyba při připojení do bitvy (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Chyba při připojení do bitvy (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Chyba při připojení do bitvy (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Chyba při připojení do bitvy (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Chyba při připojení do bitvy (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Chyba při připojení do bitvy (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Chyba při připojení do bitvy (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Chyba při připojení do bitvy (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Chyba při připojení do bitvy (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Chyba při připojení do bitvy (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Chyba při připojení do bitvy (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/timeout"
+msgstr ""
+"Čas vyhrazený čekání na bitvu vypršel. Vyberte si jiné vozidlo nebo to "
+"zkuste později znovu."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> se "
+"nehodí pro toto vozidlo.</font>"
+
+msgid "artefact_apply/error_too_heavy"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> má "
+"příliš velkou hmotnost. Zvažte výměnu podvozku nebo odlehčení vozidla.</font>"
+
+msgid "artefact_apply/gold_error_not_enough"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> nelze "
+"demontovat. Nedostatek zlaťáků.</font>"
+
+msgid "artefact_apply/gold_success"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> "
+"demontováno z vozidla.<br>Utraceno:</font> <font color='#FFE769'>%(money)s</"
+"font>"
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr ""
+"<font color='#929290'>Špatné vozidlo. %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font> nelze namontovat.</font>"
+
+msgid "artefact_apply/server_error"
+msgstr ""
+"<font color='#929290'>Chyba serveru při montáži %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font>. Zkuste to později.</font>"
+
+msgid "artefact_apply/success"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> "
+"namontováno na vozidlo.</font>"
+
+msgid "artefact_apply/vehicle_locked"
+msgstr ""
+"<font color='#929290'>Vozidlo uzamčeno. %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font> nelze namontovat.</font>"
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr ""
+"<font color='#929290'>Vozidlo poškozeno. %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font> nelze namontovat. Opravte vozidlo a zkuste "
+"to znovu.</font>"
+
+msgid "artefact_buy/invalid_module"
+msgstr ""
+"<font color='#929290'>Nelze koupit %(kind)s <font color='#c5ab5d'>%(name)s</"
+"font>. Špatné příslušenství.</font>"
+
+msgid "artefact_buy/not_enough_credits"
+msgstr ""
+"<font color='#929290'>Nelze koupit %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font>. Nedostatek kreditů.</font>"
+
+msgid "artefact_buy/not_enough_gold"
+msgstr ""
+"<font color='#929290'>Nelze koupit %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font>. Nedostatek zlaťáků.</font>"
+
+msgid "artefact_buy/server_error"
+msgstr ""
+"<font color='#929290'>Nelze koupit %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font>. Zkuste to později.</font>"
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr ""
+"<font color='#929290'>Nelze koupit příslušenství %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font>. Server je momentálně nedostupný.</font>"
+
+msgid "artefact_buy/success"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> "
+"uspěšně zakoupeno (%(count)s kusů).<br>Utraceno:</font>%(money)s"
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr ""
+"<font color='#929290'>Špatné vozidlo. %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font> nelze namontovat.</font>"
+
+msgid "artefact_destroy/server_error"
+msgstr ""
+"<font color='#929290'>Chyba serveru při zničení %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font>. Zkuste to později.</font>"
+
+msgid "artefact_destroy/success"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> "
+"zničeno demontováním.</font>"
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr ""
+"<font color='#929290'>Vozidlo uzamčeno. %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font> nelze zničit.</font>"
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr ""
+"<font color='#929290'>Vozidlo poškozeno. %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font> nebylo zničeno. Opravte vozidlo a zkuste "
+"to znovu.</font>"
+
+msgid "artefact_remove/error_too_heavy"
+msgstr ""
+"<font color='#929290'>Nelze demontovat %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font>. Zvažte výměnu podvozku nebo odlehčení "
+"vozidla.</font>"
+
+msgid "artefact_remove/gold_error_not_enough"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> nelze "
+"demontovat. Nedostatek zlaťáků.</font>"
+
+msgid "artefact_remove/gold_success"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> "
+"demontováno z vozidla.<br>Utraceno:</font> <font color='#FFE769'>%(money)s</"
+"font>"
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr ""
+"<font color='#929290'>Spotřební doplněk <font color='#c5ab5d'>'%s'</font> "
+"přesunut do skladu kvůli nekompatibilitě s aktuálním vybavením.</font>"
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr ""
+"<font color='#929290'>Špatné vozidlo. %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font> nelze demontovat.</font>"
+
+msgid "artefact_remove/server_error"
+msgstr ""
+"<font color='#929290'>Chyba serveru při demontování  %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font>. Zkuste to později.</font>"
+
+msgid "artefact_remove/success"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> "
+"demontováno z vozidla.</font>"
+
+msgid "artefact_remove/vehicle_locked"
+msgstr ""
+"<font color='#929290'>Vozidlo uzamčeno. %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font> nelze demontovat.</font>"
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr ""
+"<font color='#929290'>Vozidlo poškozeno. %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font> nelze demontovat. Opravte vozidlo a zkuste "
+"to znovu.</font>"
+
+msgid "artefact_sell/invalid_module"
+msgstr ""
+"<font color='#929290'>Nelze prodat %(kind)s <font color='#c5ab5d'>%(name)s</"
+"font>. Špatné příslušenství.</font>"
+
+msgid "artefact_sell/server_error"
+msgstr ""
+"<font color='#929290'>Nelze prodat %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font>. Zkuste to později.</font>"
+
+msgid "artefact_sell/success"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> "
+"úspěšně prodáno (%(count)s kusů).<br>Získáno: </font>%(money)s"
+
+msgid "battleSession/kickedFromQueue"
+msgstr ""
+"Pro aktuální rotu nelze nalézt protivníky. Zvažte reorganizaci svého týmu."
+
+msgid "battleSession/memberJoined"
+msgstr "%s se připojil k týmu."
+
+msgid "battleSession/memberLeave"
+msgstr "%s opustil tým."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s není připraven k boji pro tým."
+
+msgid "battleSession/memberOffline"
+msgstr "Spojení s %s bylo přerušeno."
+
+msgid "battleSession/memberReady"
+msgstr "%s je připraven k boji pro tým."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr ""
+"Pro dnešní den jste dosáhl(a) limitu nákupů tanků zdarma. Pokračovat můžete "
+"zítra."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Chyba při rozšíření kasáren. Nedostatek kreditů."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Chyba při rozšíření kasáren. Nedostatek zlaťáků."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Chyba při rozšiřování kasáren. Zkuste to později."
+
+msgid "buy_tankmen_berths/success"
+msgstr ""
+"<font color='#929290'>Kasárna rozšířena.<br>Utraceno: </font><font "
+"color='#FFE769'><img src='LabelGoldExpense'/>%(money)s</font>&nbsp;<img "
+"src='img://gui/maps/icons/library/YasenKrasen/GoldIcon.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>"
+
+msgid "buy_vehicle_slot_error"
+msgstr ""
+"Nepodařilo se koupit tank <font color='#c5ab5d'>'%s'</font>. Nejsou žádná "
+"volná stání v garáži. Zauvažujte nad prodejem nepoužívaného tanku nebo "
+"nákupem nového stání."
+
+msgid "buy_vehicle_slot_error2"
+msgstr ""
+"Nepodařilo se koupit tank <font color='#c5ab5d'>'%s'</font>. Nejsou žádná "
+"volná stání v garáži. Prosím uvolněte stání."
+
+msgid "charge/credit_error"
+msgstr ""
+"Je třeba <font color='#929290'>%s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/CreditsIcon.png' width='16' height='16' align='baseline' "
+"vspace='-4'/> a <font color='#FFE769'>%s</font>&nbsp;<img src='img://gui/"
+"maps/icons/library/YasenKrasen/GoldIcon.png' width='16' height='16' "
+"align='baseline' vspace='-3'/>. Doplňte munici manuálně."
+
+msgid "charge/credit_error_credits"
+msgstr ""
+"Je třeba o <font color='#929290'>%s</font>&nbsp;<img src='img://gui/maps/"
+"icons/library/YasenKrasen/CreditsIcon.png' width='16' height='16' "
+"align='baseline' vspace='-4'/> více. Doplňte munici manuálně."
+
+msgid "charge/credit_error_gold"
+msgstr ""
+"Je třeba o <font color='#FFE769'>%s</font>&nbsp;<img src='img://gui/maps/"
+"icons/library/YasenKrasen/GoldIcon.png' width='16' height='16' "
+"align='baseline' vspace='-3'/> více. Doplňte munici manuálně."
+
+msgid "charge/inventory_error"
+msgstr ""
+"Munici se nepodařilo doplnit. Zauvažujte nad manuálním doplněním munice."
+
+msgid "charge/money_spent"
+msgstr ""
+"<img src='LabelExclude'/><font color='#c5ab5d'>Celkem:</font> <font "
+"color='#a3966e'>(munice)</font><font color='#FFFFFF'>%s</font>"
+
+msgid "charge/server_error"
+msgstr "Munici se nepodařilo naložit. Zkuste to později."
+
+msgid "charge/server_error_save"
+msgstr "Munici se nepodařilo uložit. Zkuste to později."
+
+msgid "charge/success"
+msgstr "Munice naložena."
+
+msgid "charge/success_save"
+msgstr "Munice uložena úspěšně."
+
+msgid "checkout_error"
+msgstr ""
+"Chyba serveru při získávání informací o hráči. Zkuste to prosím později."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "<font color='#c5ab5d'>%s '%s'</font> není určeno pro tento tank."
+
+msgid "clientInstallError_too_heavy"
+msgstr ""
+"Hmotnost <font color='#c5ab5d'>%s '%s'</font> je příliš vysoká. Zauvažujte "
+"nad výměnou podvozku, nebo odlehčením tanku."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr ""
+"<font color='#c5ab5d'>%s '%s'</font> nelze namontovat na tuto věž. Vyměňte "
+"věž."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "<font color='#c5ab5d'>%s '%s'</font> je špatného typu."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "<font color='#c5ab5d'>%s '%s'</font> není správné národnosti."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "<font color='#c5ab5d'>%s '%s'</font> není určeno pro tento tank."
+
+msgid "clientRemoveError_too_heavy"
+msgstr ""
+"Hmotnost <font color='#c5ab5d'>%s '%s'</font> je příliš vysoká. Zauvažujte "
+"nad odlehčením tanku."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "<font color='#c5ab5d'>%s '%s'</font> je špatného typu."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "<font color='#c5ab5d'>%s '%s'</font> není správné národnosti."
+
+msgid "company/createError"
+msgstr "Zakládat roty mohou pouze uživatelé s prémiovým účtem."
+
+msgid "company/kickedFromQueue"
+msgstr ""
+"Pro vaši aktuální rotu nelze nalézt soupeře. Zvažte reorganizaci vašich "
+"jednotek."
+
+msgid "company/memberJoined"
+msgstr "%s se přidal k rotě."
+
+msgid "company/memberLeave"
+msgstr "%s opustil rotu."
+
+msgid "company/memberNotReady"
+msgstr "%s není připraven pro boj v rotě."
+
+msgid "company/memberOffline"
+msgstr "Spojení s %s bylo přerušeno."
+
+msgid "company/memberReady"
+msgstr "%s je připraven pro boj v rotě."
+
+msgid "company/notSetReadyStatus"
+msgstr "Nelze se připojit do bitvy s rotou."
+
+msgid "connected"
+msgstr "Vítejte na World of Tanks serveru <font color='#c5ab5d'>%s</font>!"
+
+msgid "current_vehicle_changed"
+msgstr "Aktuální tank je nahrazen vozidlem <font color='#c5ab5d'>'%s'</font>."
+
+msgid "customization/camouflage_change_server_error"
+msgstr ""
+"Při stříkání kamufláže došlo k chybě na serveru. Zkuste to znovu později."
+
+msgid "customization/camouflage_change_success/credits"
+msgstr ""
+"Kamufláž úspěšně nastříkána.<br>Utraceno: <font color='#FFFFFF'><img "
+"src='LabelCreditExpense'/>%s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/CreditsIcon.png' width='16' height='16' align='baseline' "
+"vspace='-4'/>"
+
+msgid "customization/camouflage_change_success/gold"
+msgstr ""
+"Kamufláž úspěšně nastříkána.<br>Utraceno: <font color='#FFE769'><img "
+"src='LabelGoldExpense'/>%s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/GoldIcon.png' width='16' height='16' align='baseline' "
+"vspace='-3'/>"
+
+msgid "customization/camouflage_cost_not_found"
+msgstr "Nelze aplikovat kamufláž. Nelze zjistit cenu."
+
+msgid "customization/camouflage_days_not_selected"
+msgstr "Kamufláž nelze nastríkat. Vyberte si prosím lhůtu užívání kamufláže."
+
+msgid "customization/camouflage_drop_server_error"
+msgstr ""
+"Při smývání kamufláže došlo k chybě na serveru. Zkuste to znovu později."
+
+msgid "customization/camouflage_drop_success"
+msgstr "Kamufláž byla úspěšně smyta."
+
+msgid "customization/camouflage_get_cost_server_error"
+msgstr ""
+"Chyba serveru při získávání balíčků kamufláží. Zkuste to prosím později."
+
+msgid "customization/camouflage_not_found_to_drop"
+msgstr "Kamufláž nelze odstranit protože není vybrána."
+
+msgid "customization/camouflage_not_selected"
+msgstr "Kamufláž nelze nastříkat, protože není vybrána."
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Přizpůsobení nelze realizovat. Nedostatek kreditů a zlaťáků."
+
+msgid "customization/credits_not_enough"
+msgstr "Přizpůsobení nelze realizovat. Nedostatek kreditů."
+
+msgid "customization/emblem_change_server_error"
+msgstr "Chyba serveru při nahrazování emblému."
+
+msgid "customization/emblem_change_success/credits"
+msgstr ""
+"Emblém úspěšně nahrazen.<br>Utraceno: <font color='#FFFFFF'><img "
+"src='LabelCreditExpense'/>%s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/CreditsIcon.png' width='16' height='16' align='baseline' "
+"vspace='-4'/>"
+
+msgid "customization/emblem_change_success/gold"
+msgstr ""
+"Emblém úspěšně nahrazen.<br>Utraceno: <font color='#FFE769'><img "
+"src='LabelGoldExpense'/>%s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/GoldIcon.png' width='16' height='16' align='baseline' "
+"vspace='-3'/>"
+
+msgid "customization/emblem_cost_not_found"
+msgstr "Emblém nelze nahradit. Cena nenalezena."
+
+msgid "customization/emblem_days_not_selected"
+msgstr "Emblém nelze nahradit. Vyberte prosím dobu platnosti."
+
+msgid "customization/emblem_drop_server_error"
+msgstr "Chyba serveru při odstraňování emblému. Zkuste to později."
+
+msgid "customization/emblem_drop_success"
+msgstr "Emblém úspěšně odstraněn."
+
+msgid "customization/emblem_get_cost_server_error"
+msgstr "Chyba serveru při získávání balíčků emblému. Zkuste to později."
+
+msgid "customization/emblem_not_found_to_drop"
+msgstr "Emblém nelze odstranit. Aktuální emblém není vybrán."
+
+msgid "customization/emblem_not_selected"
+msgstr "Emblém nelze nahradit. Vyberte prosím emblém."
+
+msgid "customization/gold_not_enough"
+msgstr "Přizpůsobení není možné. Nedostatek zlaťáků."
+
+msgid "customization/horn_change_server_error"
+msgstr "Při výměně klaksonu došlo k chybě na serveru. Zkuste to znovu později."
+
+msgid "customization/horn_change_success"
+msgstr ""
+"Klakson byl úspěšně instalován.<br>Utraceno: <font color='#FFE769'><img "
+"src='LabelGoldExpense'/>%s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/GoldIcon.png' width='16' height='16' align='baseline' "
+"vspace='-3'/>"
+
+msgid "customization/horn_cost_not_found"
+msgstr "Nelze namontovat klakson. Nelze zjistit cenu."
+
+msgid "customization/horn_drop_server_error"
+msgstr ""
+"Při odstraňování klaksonu došlo k chybě na serveru. Zkuste to znovu později."
+
+msgid "customization/horn_drop_success"
+msgstr "Klakson byl úspěšně odstraněn."
+
+msgid "customization/horn_get_cost_server_error"
+msgstr ""
+"Chyba serveru při získávání seznamu klaksonů v obchodě. Zkuste to prosím "
+"později."
+
+msgid "customization/horn_not_found_to_drop"
+msgstr "Klakson nelze odstranit, protože není vybrán."
+
+msgid "customization/horn_not_selected"
+msgstr "Klakson instalovat vyměnit, protože není vybrán."
+
+msgid "customization/inscription_change_server_error"
+msgstr "Chyba serveru při nahrazování nápisu. Zkuste to později."
+
+msgid "customization/inscription_change_success/credits"
+msgstr ""
+"Nápis úspěšně nahrazen.<br>Utraceno: <font color='#FFFFFF'><img "
+"src='LabelCreditExpense'/>%s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/CreditsIcon.png' width='16' height='16' align='baseline' "
+"vspace='-4'/>"
+
+msgid "customization/inscription_change_success/gold"
+msgstr ""
+"Nápis úspěšně nahrazen.<br>Utraceno: <font color='#FFE769'><img "
+"src='LabelGoldExpense'/>%s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/GoldIcon.png' width='16' height='16' align='baseline' "
+"vspace='-3'/>"
+
+msgid "customization/inscription_cost_not_found"
+msgstr "Nápis nelze nahradit. Cena nenalezena."
+
+msgid "customization/inscription_days_not_selected"
+msgstr "Nápis nelze nahradit. Vyberte prosím dobu platnosti."
+
+msgid "customization/inscription_drop_server_error"
+msgstr "Chyba serveru při odstraňování nápisu. Zkuste to později."
+
+msgid "customization/inscription_drop_success"
+msgstr "Nápis úspěšně odstaněn."
+
+msgid "customization/inscription_get_cost_server_error"
+msgstr "Chyba serveru při získávání balíčků emblému. Zkuste to později."
+
+msgid "customization/inscription_not_found_to_drop"
+msgstr "Nápis nelze odstranit. Aktuální nápis není vybrán."
+
+msgid "customization/inscription_not_selected"
+msgstr "Nápis nelze nahradit. Vyberte prosím nápis."
+
+msgid "customization/vehicle_damaged"
+msgstr "Přizpůsobení nelze realizovat. Vozidlo je poškozeno. Nutno opravit."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Přizpůsobení nelze realizovat. Vozidlo je vyřazeno. Nutno opravit."
+
+msgid "customization/vehicle_exploded"
+msgstr "Přizpůsobení nelze realizovat. Vozidlo je zničeno. Nutno opravit."
+
+msgid "customization/vehicle_locked"
+msgstr "Přizpůsobení není možné. Vozidlo je uzamčeno."
+
+msgid "denunciation/success"
+msgstr "Akceptována stížnost na %(name)s \"%(topic)s\"."
+
+msgid "disconnected"
+msgstr "Klient je odpojen od serveru."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Chyba při propouštění člena posádky. Špatný tank."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Nepodařilo se demobilizovat člena posádky. Zkuste to později."
+
+msgid "dismiss_tankman/success"
+msgstr "Člen posádky byl úspěšně demobilizován."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Chyba při propouštění člena posádky. Tank je uzamčen."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Chyba při propouštění člena posádky. Opravte tank."
+
+msgid "dossiers_unavailable"
+msgstr "Účet není připraven (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Chyba při zapomínání schopností. Špatné vozidlo."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Nelze zapomenout schopnosti. Zkuste to později."
+
+msgid "drop_tankman_skill/success"
+msgstr ""
+"Všechny schopnosti a specializace úspěšně zapomenuty. Utraceno %(money)s"
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Chyba při zapomínání schopností. Vozidlo je uzamčeno."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Chyba při zapomínání schopností. Opravte vaše vozidlo."
+
+msgid "ebank/response/Account block"
+msgstr "Nelze koupit zlaťáky. Účet je zablokován."
+
+msgid "ebank/response/Account is not active"
+msgstr "Nelze koupit zlaťáky. Účet je neaktivní."
+
+msgid "ebank/response/Account is not exists"
+msgstr "Nelze koupit zlaťáky. Účet neexistuje."
+
+msgid "ebank/response/COOLDOWN"
+msgstr "Nelze pokračovat. Zuste to později."
+
+msgid "ebank/response/Cannot get required data: 'user'"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/Exception, Transaction error unknown"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/Existing transactions in system and has false"
+msgstr "Nelze koupit zlaťáky. Účet je zablokován."
+
+msgid "ebank/response/Existing transactions in system and has successfully"
+msgstr "Nelze koupit zlaťáky. Transkce probíhá."
+
+msgid "ebank/response/Invalid password"
+msgstr "Nelze koupit zlaťáky. Špatné heslo."
+
+msgid "ebank/response/Invalide code: -1000"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/MAX_TRANSACTION_VALUE"
+msgstr "Nelze koupit zlaťáky. Špatná maximální hodnota transakce."
+
+msgid "ebank/response/MIN_TRANSACTION_VALUE"
+msgstr "Nelze koupit zlaťáky. Špatná minimální hodnota transakce."
+
+msgid "ebank/response/NO_VCOIN"
+msgstr "Nelze koupit zlaťáky. Nedostatek VCOIN."
+
+msgid "ebank/response/Not enough money"
+msgstr "Nelze koupit zlaťáky. Nedostatek peněz."
+
+msgid "ebank/response/Product price is invalid"
+msgstr "Nelze koupit zlaťáky. Špatná cena."
+
+msgid "ebank/response/Receiver not exists"
+msgstr "Nelze koupit zlaťáky. Účet neexistuje."
+
+msgid "ebank/response/SHOP_DESYNC"
+msgstr "Server neodpovídá. Zkuste to později."
+
+msgid "ebank/response/ServiceID is not exists. [Service error]"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/ServiceKey is invalid. [Service error]"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/TIMEOUT"
+msgstr "Server neodpovídá. Zkuste to později."
+
+msgid "ebank/response/Transaction error in billing system"
+msgstr "Nelze koupit zlaťáky. Zkuste to později."
+
+msgid "ebank/response/WRONG_ARGS_TYPE"
+msgstr "Server neodpovídá. Zkuste to později."
+
+msgid "ebank/response/WRONG_ARG_VALUE"
+msgstr "Server neodpovídá. Zkuste to později."
+
+msgid "ebank/response/WRONG_MULTIPLICITY"
+msgstr "Nelze koupit zlaťáky. Špatná hodnota transakce."
+
+msgid "ebank/response/success"
+msgstr "%(gold)s úspěšně zakoupeno. %(vcoin)s VCOIN utraceno."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Chyba při přesunu člena posádky do vozidla. Špatný tank."
+
+msgid "equip_tankman/server_error"
+msgstr "Člena posádky se nepodařilo přesunout do vozidla. Zkuste to později."
+
+msgid "equip_tankman/success"
+msgstr "Člen posádky úspěšně přesunut."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Chyba při přesunu člena posádky do vozidla. Tank je uzamčen."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Chyba při přesunu člena posádky do vozidla. Opravte tank."
+
+msgid "exchange/server_error"
+msgstr ""
+"Chyba při konverzi <font color='#FFE769'>%s</font>&nbsp;<img src='img://gui/"
+"maps/icons/library/YasenKrasen/GoldIcon.png' width='16' height='16' "
+"align='baseline' vspace='-3'/>.Zkuste to později."
+
+msgid "exchange/success"
+msgstr ""
+"<font color='#FFE769'><img src='LabelGoldExpense'/>%s</font> <font "
+"color='#929290'>zlaťáků úspěšně směněno..<br>Získáno:</font> %s"
+
+msgid "exchangeVehiclesXP/server_error"
+msgstr ""
+"Chyba při konverzi <font color='#929290'><b>%d</b></font>&nbsp;<img "
+"src='img://gui/maps/icons/library/YasenKrasen/XpIcon.png' width='16' "
+"height='16' align='baseline' vspace='-3'/> na volné zkušenosti."
+
+msgid "exchangeXP/server_error"
+msgstr ""
+"Chyba při konverzi <font color='#929290'><b>%s</b></font>&nbsp;<img "
+"src='img://gui/maps/icons/library/YasenKrasen/XpIcon.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>. Zkuste to později."
+
+msgid "exchangeXP/success"
+msgstr ""
+"<font color='#FFFFFF'>%s</font>&nbsp;<img src='img://gui/maps/icons/library/"
+"YasenKrasen/XpIcon.png' width='16' height='16' align='baseline' vspace='-3'/"
+"> <font color='#929290'>úspěšně zkonvertováno na volné zkušenosti. Utraceno:"
+"</font>%s"
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Operace není k dispozici."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Chyba při výcviku člena posádky. Nedostatek volných zkušeností."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Chyba při výcviku člena posádky. Tento člen posádky neexistuje."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Chyba při výcviku člena posádky. Zkuste to později."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_TYPE"
+msgstr "Chyba při výcviku člena posádky. Zkuste to později."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Nelze vycvičit člena posádky. Zkuste to později."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr ""
+"Člen posádky úspěšně vycvičen. Volných zkušeností utraceno: %(freeXP)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr ""
+"Для предотвращения возникновения игровой зависимости у несовершеннолетних "
+"пользователей выход в бой после 23:45 запрещён. В полночь вы будете "
+"отключены от сервера."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Чрезмерное нахождение в игре может навредить вашей повседневной жизни."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Zbývající čas relace hry: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr ""
+"Ваше игровое время заканчивается. Нельзя начать новый бой. В %s вы будете "
+"отключены от сервера."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Trvání relace hry: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Zbývající čas do půlnoci: %(timeLeft)s"
+
+msgid "graficsOptionsFail"
+msgstr "Nekompatibilní grafická karta. Nelze použít následující volbu: %s."
+
+msgid "graficsPresetFail"
+msgstr ""
+"Nekompatibilní grafická karta. Vybranou konfiguraci grafického výstupu nelze "
+"použít."
+
+msgid "install_component"
+msgstr "%s <font color='#c5ab5d'>'%s'</font> namontováno na tank."
+
+msgid "install_vehicle_broken"
+msgstr ""
+"Nelze namontovat příslušenství %s <font color='#c5ab5d'>'%s'</font>: vozidlo "
+"je poškozeno. Opravte vozidlo a zkuste to znovu."
+
+msgid "install_vehicle_locked"
+msgstr ""
+"Tank je uzamčen, nelze namontovat %s <font color='#c5ab5d'>'%s'</font>."
+
+msgid "inventory/item/already_exists"
+msgstr ""
+"Příslušenství <font color='#c5ab5d'>%(typeString)s '%(userString)s'</font> "
+"je již ve skladu."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Požadavek na montáž příslušenství odeslán. Čekám na odpověď serveru."
+
+msgid "inventory/item/not_found"
+msgstr ""
+"Příslušenství <font color='#c5ab5d'>%(typeString)s '%(userString)s'</font> "
+"není ve skladu k nalezení."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "Vozidlo <font color='#c5ab5d'>%(userString)s</font> již je v garáži."
+
+msgid "inventory/vehicle/not_found"
+msgstr ""
+"Vozidlo <font color='#c5ab5d'>%(userString)s</font> není v garáži k nalezení."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr ""
+"Chyba servisu '%(vehName)s'. Nelze doplnit spotřební doplňky. Zkuste to "
+"později."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr ""
+"Chyba servisu '%(vehName)s'. Nelze doplnit spotřební doplňky. Zkuste to "
+"později."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr ""
+"Chyba servisu '%(vehName)s'. Nelze doplnit spotřební doplňky. Zkuste to "
+"později."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Chyba servisu '%(vehName)s'. Nelze doplnit munici. Zkuste to později."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr ""
+"Chyba servisu '%(vehName)s'. Nelze doplnit munici. Maximálni množství munice "
+"naloženo."
+
+msgid "layout_apply/Component is not in shop"
+msgstr ""
+"Chyba servisu '%(vehName)s'. Nelze doplnit spotřební doplňky. Zkuste to "
+"později."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr ""
+"Chyba servisu '%(vehName)s'. Nedostatek kreditů pro nákup spotřebních "
+"doplňků. Zkuste to později."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr ""
+"Chyba servisu '%(vehName)s'. Nedostatek zlaťáků pro nákup spotřebních "
+"doplňků. Zkuste to později."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr ""
+"Chyba servisu '%(vehName)s'. Nelze doplnit spotřební doplňky. Zkuste to "
+"později."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Chyba servisu  '%(vehName)s'. Špatné vozidlo."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Chyba servisu '%(vehName)s'. Nedostatek kreditů pro nákup munice."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Chyba servisu '%(vehName)s'. Nedostatek zlaťáků pro nákup munice."
+
+msgid "layout_apply/SHOP_DESYNC"
+msgstr "Chyba servisu '%(vehName)s'. Zkuste to později."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Chyba servisu '%(vehName)s'. Vozidlo je uzamčeno."
+
+msgid "layout_apply/WRONG_ARGS_TYPE"
+msgstr "Chyba servisu '%(vehName)s'. Zkuste to později."
+
+msgid "layout_apply/WRONG_ARG_VALUE"
+msgstr "Chyba servisu '%(vehName)s'. Zkuste to později."
+
+msgid "layout_apply/server_error"
+msgstr "Chyba servisu '%(vehName)s'. Zkuste to později."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Celkem utraceno za munici %(money)s."
+
+msgid "login_to_other_game_unknown"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do jiné hry"
+
+msgid "login_to_other_game_wot"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotblitz"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr ""
+"aktuální herní relace byla přerušena. Vaše Wargaming.net&nbsp;ID bylo "
+"použité pro přihlášení do World&nbsp;of&nbsp;Warships"
+
+msgid "memberRosterChangedMain"
+msgstr "%s převelel %s na frontu."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s převelel %s do zálohy."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Nedostatek paměti. Prosím restartujte hru."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Nedostatek paměti. Nízká kvalita textur."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Nedostatek paměti. Střední kvalita textur."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr ""
+"Nedostatek paměti. Grafické nastavení bylo změněno. Prosím restartujte hru."
+
+msgid "module_apply/error_is_current"
+msgstr ""
+"<font color='#929290'>Příslušenství %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font> je už namontováno.</font>"
+
+msgid "module_apply/error_need_turret"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> není "
+"kompatibilní s aktuální věží. Nahraďte věž.</font>"
+
+msgid "module_apply/error_no_gun"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> nelze "
+"namontovat. Žádné kompatibilní dělo ve skladu.</font>"
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> není "
+"kompatibilní s aktuální věží. Nahraďte věž.</font>"
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> se "
+"nehodí pro toto vozidlo.</font>"
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr ""
+"<font color='#929290'>Příslušenství %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font> není kompatibilní se spotřebními doplňky <font "
+"color='#c5ab5d'>'%s'</font>.</font>"
+
+msgid "module_apply/error_too_heavy"
+msgstr ""
+"<font color='#929290'>Příslušenství %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font> má příliš velkou hmotnost. Zvažte výměnu podvozku nebo odlehčení "
+"vozidla.</font>"
+
+msgid "module_apply/error_too_heavy_chassis"
+msgstr ""
+"<font color='#929290'>Příslušenství %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font> má příliš velkou hmotnost. Zvažte odlehčení vozidla.</font>"
+
+msgid "module_apply/error_wrong_item_type"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> je "
+"špatného typu.</font>"
+
+msgid "module_apply/error_wrong_nation"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> je "
+"špatné národnosti.</font>"
+
+msgid "module_apply/incompatibleEqs"
+msgstr ""
+"<font color='#929290'>Spotřební doplňek <font color='#c5ab5d'>'%(items)s'</"
+"font> byl odeslán do skladu kvůli nekompatibilitě s aktuálním příslušenstvím."
+"</font>"
+
+msgid "module_apply/invalid_vehicle"
+msgstr ""
+"<font color='#929290'>Špatné vozidlo. Nelze namontovat příslušenství %(kind)"
+"s <font color='#c5ab5d'>'%(name)s'</font>.</font>"
+
+msgid "module_apply/server_error"
+msgstr ""
+"<font color='#929290'>Chyba serveru při montáži %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font>. Zkuste to později.</font>"
+
+msgid "module_apply/success"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> "
+"namontováno na vozidlo.</font>"
+
+msgid "module_apply/success_gun_change"
+msgstr ""
+"<font color='#929290'>%(kind)s <font color='#c5ab5d'>'%(name)s'</font> "
+"namontováno na vozidlo s dělem <font color='#c5ab5d'>'%(gun)s'</font>.</font>"
+
+msgid "module_apply/vehicle_locked"
+msgstr ""
+"<font color='#929290'>Vozido je uzamčeno, nelze namontovat příslušenství"
+"%(kind)s <font color='#c5ab5d'>'%(name)s'</font>.</font>"
+
+msgid "module_apply/vehicle_need_repair"
+msgstr ""
+"<font color='#929290'>Nelze namontovat příslušenství %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font>: vozidlo je poškozeno. Opravte své vozidlo "
+"a zkuste to znovu.</font>"
+
+msgid "module_buy/invalid_module"
+msgstr ""
+"<font color='#929290'>Nelze koupit %(kind)s <font color='#c5ab5d'>%(name)s</"
+"font>. Špatné příslušenství.</font>"
+
+msgid "module_buy/not_enough_credits"
+msgstr ""
+"<font color='#929290'>Nelze koupit %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font>. Nedostatek kreditů.</font>"
+
+msgid "module_buy/not_enough_gold"
+msgstr ""
+"<font color='#929290'>Nelze koupit %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font>. Nedostatek zlaťáků.</font>"
+
+msgid "module_buy/server_error"
+msgstr ""
+"<font color='#929290'>Nelze koupit %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font>. Zkuste to později.</font>"
+
+msgid "module_buy/server_error_centerDown"
+msgstr ""
+"<font color='#929290'>Nelze koupit příslušenství %(kind)s <font "
+"color='#c5ab5d'>'%(name)s'</font>. Server je momentálně nedostupný.</font>"
+
+msgid "module_buy/success"
+msgstr ""
+"<font color='#929290'>Příslušenství %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font> úspěšně zakoupeno (%(count)s kusů).<br>Utraceno:</font>%(money)s."
+
+msgid "module_sell/invalid_module"
+msgstr "Nelze prodat %(kind)s %(name)s. Špatné příslušenství."
+
+msgid "module_sell/server_error"
+msgstr "Nelze prodat %(kind)s '%(name)s'. Zkuste to později."
+
+msgid "module_sell/success"
+msgstr ""
+"<font color='#929290'>Příslušenství %(kind)s <font color='#c5ab5d'>'%(name)"
+"s'</font> úspěšně úspěšně (%(count)s kusů).<br>Získáno:</font>%(money)s"
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Chyba ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Chyba AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Chyba BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Chyba CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Velitel opustil tým."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Tým byl rozpuštěn."
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Demobilizace."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Chyba PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Čas vypršel."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Neznámá chyba."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Chyba VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Velitel vás vyloučil z čety."
+
+msgid "prebattle/kick/type/team"
+msgstr "Velitel vás vyloučil z roty."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Velitel vás vyloučil z týmu."
+
+msgid "prebattle/request/isInCoolDown"
+msgstr "Operace \"%(request)s\" je pozastavena na %(coolDown)d sekund."
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Nahradit hlasovou komunikaci"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Nastavení nahrazení"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Hledat"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Pozvat do týmu"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Nepřipraven"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Tým není připraven"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Nahradit týmy"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr ""
+"Do bitev se mohou připojit pouze týmy s minimálním počtem vozidel: "
+"%(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr ""
+"Pouze týmy s celkovou úrovní mezi %(minTotalLevel)d a %(maxTotalLevel)d se "
+"mohou připojit do bitev."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Jsou povolena pouze vozidla s úrovní od%(minLevel)d do %(maxLevel)d."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Špatná národnost vozidla pro tuto bitvu."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr ""
+"Munice a spotřební doplňky naložené na vybraném vozidle nejsou v souladu s "
+"podmínkami bitvy."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr ""
+"Špatná úroveň vozidla pro tuto bitvu. Minimální úroveň pro tento typ: %s. "
+"Maximální úroveň vozidla pro tuto třídu: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Špatný typ vozidla pro tuto bitvu. Povolené typy: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr ""
+"Součásti namontované na vybraném vozidle nejsou v souladu s podmínkami bitvy."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr ""
+"Špatná úroveň vozidla pro tuto bitvu. Minimální úroveň pro tento typ: %s. "
+"Maximální úroveň vozidla pro tuto třídu: %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Špatný národ vozidla pro tuto bitvu. Povolené národy: %s."
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Munice naložená na vybraném vozidle není v souladu s podmínkami bitvy."
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Špatné vozidlo pro tuto bitvu."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Vybraný vůz není připravený."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "K týmu se nelze přidat."
+
+msgid "prebattle_start_failed/kickedFromQueue/company"
+msgstr ""
+"Pro vaši aktuální rotu nelze nalézt soupeře. Zvažte reorganizaci vašich "
+"jednotek."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr ""
+"Nelze nalézt protivníky pro aktuální tým. Zvažte reorganizaci svého týmu."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr ""
+"Pro vaši aktuální četu nelze nalézt vhodného soupeře, reorganizujte prosím "
+"svůj tým."
+
+msgid "premium/buyingSuccess"
+msgstr ""
+"<font color='#929290'>Prémiový účet zakoupen na <font color='#c5ab5d'>%d</"
+"font> dnů.<br>Utraceno:</font>%s."
+
+msgid "premium/continueSuccess"
+msgstr ""
+"<font color='#929290'>Prémiový účet prodloužen o <font color='#c5ab5d'>%d</"
+"font> dnů.<br>Utraceno:</font>%s."
+
+msgid "premium/not_enough_gold"
+msgstr ""
+"<font color='#929290'>Nedostatek zlaťáků pro nákup prémiového účtu na <font "
+"color='#c5ab5d'>%d</font> dny(ů).</font>"
+
+msgid "premium/server_error"
+msgstr ""
+"<font color='#929290'>Nelze koupit prémiový účet na <font color='#c5ab5d'>"
+"%d</font> dny(ů). Zkuste to později.</font>"
+
+msgid "recruit_window/financial_success"
+msgstr "Člen posádky úspěšně naverbován.<br>Utraceno:%(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Již jste překročil(a) dnešní limit volných členů posádek."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Chyba při náboru člena posádky. Nedostatek kreditů."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Chyba při náboru člena posádky. Nedostatek zlaťáků."
+
+msgid "recruit_window/not_enough_space"
+msgstr ""
+"Chyba při verbování člena posádky nebo jeho přesunu. V kasárnách není další "
+"postel. Uvolněte nějakou nebo kupte další."
+
+msgid "recruit_window/server_error"
+msgstr "Chyba při verbování člena posádky. Zkuste to později."
+
+msgid "recruit_window/success"
+msgstr "Člen posádky byl naverbován úspěšně."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Chyba při nahrazování člena posádky. Špatné vozidlo."
+
+msgid "reequip_tankman/server_error"
+msgstr "Nelze nahradit člena posádky. Zkuste to později."
+
+msgid "reequip_tankman/success"
+msgstr "Člen posádky byl úspěšně nahrazen."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Chyba při nahrazování člena posádky. Vozidlo je uzamčeno."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Chyba při nahrazování člena posádky. Opravte vozidlo."
+
+msgid "remove_component"
+msgstr "%s <font color='#c5ab5d'>'%s'</font> odstraněno z tanku."
+
+msgid "remove_vehicle_broken"
+msgstr ""
+"Tank je poškozen, nelze odstranit %s <font color='#c5ab5d'>'%s'</font>. "
+"Opravte tank a zkuste to znova."
+
+msgid "remove_vehicle_locked"
+msgstr "Tank je uzamčen, nelze odstranit %s <font color='#c5ab5d'>'%s'</font>."
+
+msgid "repair/credit_error"
+msgstr ""
+"Je potřeba o <font color='#FFFFFF'>%s</font>&nbsp;<img src='img://gui/maps/"
+"icons/library/YasenKrasen/CreditsIcon.png' width='16' height='16' "
+"align='baseline' vspace='-4'/> více na opravu <font color='#c5ab5d'>'%s'</"
+"font>."
+
+msgid "repair/server_error"
+msgstr ""
+"Chyba při opravě tanku <font color='#c5ab5d'>'%s'</font>. Zkuste to později."
+
+msgid "repair/success"
+msgstr ""
+"<font color='#929290'>Tank <font color='#c5ab5d'>'%s'</font> byl opraven."
+"<br>Utraceno:</font>%s."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Chyba přepisu osobních dat. Špatný tank."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Nepodařilo se přepsat osobní data. Nedostatek kreditů."
+
+msgid "replace_tankman/server_error"
+msgstr "Nepodařilo se přepsat osobní data. Zkuste to později."
+
+msgid "replace_tankman/success"
+msgstr ""
+"Osobní záznam úspěšně nahrazen. Utraceno <font color='#c5ab5d'>%(money)s</"
+"font>"
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Chyba přepisu osobních dat. Tank je uzamčen."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Chyba přepisu osobních dat. Opravte tank."
+
+msgid "retraining_tankman/financial_success"
+msgstr "Člen posádky byl úspěšně přeškolen. Utraceno %(price)s."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Chyba přeškolení člena posádky. Špatný tank."
+
+msgid "retraining_tankman/server_error"
+msgstr "Nepodařilo se přeškolit člena posádky. Zkuste to později."
+
+msgid "retraining_tankman/success"
+msgstr "<font color='#929290'>Člen posádky byl přeškolen úspěšně.</font>"
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Chyba přeškolení člena posádky. Tank je uzamčen."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Chyba přeškolení člena posádky. Opravte tank."
+
+msgid "securityMessage/bad_email"
+msgstr ""
+"Zaregistrovali jste vaši emailovou adresu na podezřelém serveru. Z důvodu "
+"zabezpečení si prosím změňte váš email. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Změna nastavení zabezpečení"
+
+msgid "securityMessage/no_phone"
+msgstr ""
+"Z důvodu zabezpečení si prosím přidejte ke svému účtu telefonní číslo. "
+"%(link)s"
+
+msgid "securityMessage/no_question"
+msgstr ""
+"Pro obnovení hesla si prosím ve správě účtu určete bezpečnostní otázku. "
+"%(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "<font color='#BFE9FF'>[0.8.8] Rozšířené statistiky 0.1-test</font>"
+
+msgid "securityMessage/poor_pass"
+msgstr ""
+"Vaše přihlašovací heslo není dostatečně silné. Změňte si prosím heslo. "
+"%(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr ""
+"Nelze prodat <font color='#c5ab5d'>'%s'</font>: Tank je poškozen. Opravte "
+"tank a zkuste to znova."
+
+msgid "sell_vehicle_locked"
+msgstr "Nelze prodat <font color='#c5ab5d'>'%s'</font>: Tank je uzamčen."
+
+msgid "serverInstallError"
+msgstr ""
+"Chyba serveru při montáži %s <font color='#c5ab5d'>'%s'</font>. Zkuste to "
+"později."
+
+msgid "serverRemoveError"
+msgstr ""
+"Chyba při demontáži %s <font color='#c5ab5d'>'%s'</font>, zkuste to později."
+
+msgid "server_shut_down"
+msgstr "Restartuje se herní server"
+
+msgid "shell_buy/invalid_module"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>%(name)s</font>. "
+"Špatná munice.</font>"
+
+msgid "shell_buy/not_enough_credits"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>%(name)s</font>. "
+"Nedostatek kreditů.</font>"
+
+msgid "shell_buy/not_enough_gold"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>%(name)s</font>. "
+"Nedostatek zlaťáků.</font>"
+
+msgid "shell_buy/server_error"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>%(name)s</font>. "
+"Zkuste to později.</font>"
+
+msgid "shell_buy/server_error_centerDown"
+msgstr ""
+"<font color='#929290'>Nelze koupit munici <font color='#c5ab5d'>%(name)s</"
+"font>. Server je dočasně nedostupný.</font>"
+
+msgid "shell_buy/success"
+msgstr ""
+"<font color='#929290'>Munice <font color='#c5ab5d'>%(name)s</font> úspěšně "
+"zakoupena (%(count)s kusů).<br>Utraceno:%(money)s."
+
+msgid "shell_sell/invalid_module"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>%(name)s</font>. "
+"Špatná munice.</font>"
+
+msgid "shell_sell/server_error"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>'%(name)s'</font>. "
+"Zkuste to později.</font>"
+
+msgid "shell_sell/success"
+msgstr ""
+"<font color='#929290'>Munice <font color='#c5ab5d'>'%(name)s'</font> úspěšně "
+"prodána (%(count)s kusů).<br>Získáno:</font>%(money)s."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr ""
+"Požadavek na nákup a montáž příslušenství odeslán. Čekám na odpověď serveru."
+
+msgid "shop/item/buy_server_error"
+msgstr ""
+"Nepodařilo se koupit <font color='#c5ab5d'>%(typeString)s '%(userString)s'</"
+"font>. Zkuste to prosím později."
+
+msgid "shop/item/buy_success"
+msgstr ""
+"<font color='#929290'>Příslušenství <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font> bylo zakoupeno úspěšně (%(count)d).<br>Utraceno:</"
+"font>%(price)s."
+
+msgid "shop/item/not_enough_money"
+msgstr ""
+"<font color='#929290'>K nákupu <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font> potřebujete o</font> %(price)s <font "
+"color='#929290'>více.</font>"
+
+msgid "shop/item/not_found"
+msgstr ""
+"Příslušenství <font color='#c5ab5d'>%(typeString)s '%(userString)s'</font> "
+"není v obchodě k nalezení. Zkuste to prosím později."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr ""
+"<font color='#929290'>K nákupu <font color='#c5ab5d'>%(userString)s</font> "
+"potřebujete o </font>%(price)s <font color='#929290'>více.</font>"
+
+msgid "shop/vehicle/not_found"
+msgstr ""
+"Vozidlo <font color='#c5ab5d'>%(userString)s</font> není v obchodě k "
+"nalezení. Zkuste to prosím později."
+
+msgid "shop_resync"
+msgstr ""
+"Došlo ke změnám na serveru, rozhraní aktualizováno %(date)s v %(time)s."
+
+msgid "squad/createError"
+msgstr "Čety mohou zakládat pouze uživatelé s prémiovým účtem."
+
+msgid "squad/kickedFromQueue"
+msgstr ""
+"Pro vaši aktuální četu nelze nalézt vhodného soupeře, reorganizujte prosím "
+"svůj tým."
+
+msgid "squad/memberJoined"
+msgstr "%s se připojil k četě."
+
+msgid "squad/memberLeave"
+msgstr "%s opustil četu."
+
+msgid "squad/memberNotReady"
+msgstr "%s není připraven pro boj v četě."
+
+msgid "squad/memberOffline"
+msgstr "Spojení s %s bylo přerušeno."
+
+msgid "squad/memberReady"
+msgstr "%s je připraven pro boj v četě."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Nelze se připojit do bitvy s četou."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Převod zlaťáků nedokončen. Příjemce odmítl transakci."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Převod zlaťáků není dostupný."
+
+msgid "tradingError/NO_WARES"
+msgstr "Zlaťáky nelze převést, protože jich tolik nemáte."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Další převody je možné realizovat až zítra."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Při převodu zlaťáků došlo k chybě. Zkuste to později."
+
+msgid "training/error/swapTeams"
+msgstr "Chyba serveru při pokusu o prohození týmů. Zkuste to později."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Chyba při přesunu posádky do kasáren. Špatné vozidlo."
+
+msgid "unload_crew/not_enough_space"
+msgstr "Chyba při přesunu posádky do kasáren. Nedostatek postelí."
+
+msgid "unload_crew/server_error"
+msgstr "Nelze přesunou posádku do kasáren. Zkuste to později."
+
+msgid "unload_crew/success"
+msgstr "Posádka úspěně přesunuta do kasáren."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Chyba při přesunu posádky do kasáren. Vozidlo je uzamčeno."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Chyba při přesunu posádky do kasáren. Opravte vozidlo."
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Chyba při přesunu člena posádky do kasáren. Špatné vozidlo."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Chyba při přesunu člena posádky do kasáren. Nedostatek postelí."
+
+msgid "unload_tankman/server_error"
+msgstr "Nelze přesunou člena posádky do kasáren. Zkuste to později."
+
+msgid "unload_tankman/success"
+msgstr "Člen posádky úspěně přesunut do kasáren."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Chyba při přesunu člena posádky do kasáren. Vozidlo je uzamčeno."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Chyba při přesunu člena posádky do kasáren. Opravte vozidlo."
+
+msgid "unlocks/drawFailed"
+msgstr "Chybné nastavení. Výzkum je uzamčen."
+
+msgid "unlocks/in_processing"
+msgstr "Odeslán požadavek na výzkum. Čekám na odpověď serveru."
+
+msgid "unlocks/item/already_unlocked"
+msgstr ""
+"<font color='#c5ab5d'>%(typeString)s '%(userString)s'</font> je již "
+"vyzkoumáno."
+
+msgid "unlocks/item/server_error"
+msgstr ""
+"Chyba serveru při výzkumu příslušenství <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font>. Zkuste to později."
+
+msgid "unlocks/item/unlock_success"
+msgstr ""
+"Příslušenství <font color='#c5ab5d'>%(typeString)s '%(userString)s'</font> "
+"vyzkoumáno.<br>Zkušeností tanku zbývá: <font color='#909090'><b>%(vehXP)s</"
+"b></font>&nbsp;<img src='img://gui/maps/icons/library/YasenKrasen/XpIcon."
+"png' width='16' height='16' align='baseline' vspace='-3'/><br>Volných "
+"zkušeností použito: <font color='#ECBF7B'><b>%(freeXP)s</b></font>&nbsp;<img "
+"src='img://gui/maps/icons/library/YasenKrasen/FreeXpIcon.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>"
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "<font color='#c5ab5d'>%(userString)s</font> je již vyzkoumáno."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Chyba serveru při výzkumu vozidla %(userString)s. Zkuste to později."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr ""
+"<font color='#c5ab5d'>%(userString)s</font> vyzkoumáno.<br>Zkušeností tanku "
+"zbývá: <font color='#909090'><b>%(vehXP)s</b></font>&nbsp;<img src='img://"
+"gui/maps/icons/library/YasenKrasen/XpIcon.png' width='16' height='16' "
+"align='baseline' vspace='-3'/><br>Volných zkušeností použito: <font "
+"color='#ECBF7B'><b>%(freeXP)s</b></font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/FreeXpIcon.png' width='16' height='16' align='baseline' "
+"vspace='-3'/>"
+
+msgid "upgradeTankman/server_error"
+msgstr "Chyba při výcviku člena posádky. Zkuste to později."
+
+msgid "upgradeTankman/success"
+msgstr "Výcvik úspěšně dokončen."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Požadavek na montáž příslušenství odeslán. Čekám na odpověď serveru."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr ""
+"<font color='#929290'>Nepodařilo se koupit <font color='#c5ab5d'>"
+"%(typeString)s '%(userString)s'</font>. Zkuste to prosím později.</font>"
+
+msgid "vehicleComponents/module_buy_success"
+msgstr ""
+"<font color='#929290'>Příslušenství <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font> bylo zakoupeno úspěšně (%(count)d).<br>Utraceno:</"
+"font>%(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr ""
+"<font color='#929290'>Příslušenství <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font> je již ve skladu.</font>"
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr ""
+"<font color='#929290'>Příslušenství <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font> je již vyzkoumáno.</font>"
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr ""
+"<font color='#929290'>K nákupu <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font> potřebujete o </font>%(price)s <font "
+"color='#929290'>více.</font>"
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr ""
+"<font color='#929290'>Příslušenství <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font> není ve skladu k nalezení.</font>"
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr ""
+"<font color='#929290'>Příslušenství <font color='#c5ab5d'>%(typeString)s "
+"'%(userString)s'</font> není v obchodě k nalezení. Zkuste to prosím později."
+"</font>"
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr ""
+"%<font color='#c5ab5d'>%(typeString)s '%(userString)s'</font> vyzkoumán."
+"<br>Zkušeností tanku použito: <font color='#909090'><b>%(unspentXP)s</b></"
+"font>&nbsp;<img src='img://gui/maps/icons/library/YasenKrasen/XpIcon.png' "
+"width='16' height='16' align='baseline' vspace='-3'/><br>Volných zkušeností "
+"použito: <font color='#ECBF7B'><b>%(freeXP)s</b></font>&nbsp;<img src='img://"
+"gui/maps/icons/library/YasenKrasen/FreeXpIcon.png' width='16' height='16' "
+"align='baseline' vspace='-3'/>"
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Odeslán požadavek na výzkum. Čekám na odpověď serveru."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr ""
+"<font color='#929290'>Vozidlo <font color='#c5ab5d'>%(userString)s</font> "
+"již je v garáži.</font>"
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr ""
+"<font color='#929290'>Vozidlo <font color='#c5ab5d'>%(userString)s</font> je "
+"již vyzkoumáno.</font>"
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr ""
+"<font color='#929290'>K nákupu <font color='#c5ab5d'>%(userString)s</font> "
+"potřebujete o </font>%(price)s <font color='#929290'>více.</font>"
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr ""
+"<font color='#929290'>Vozidlo <font color='#c5ab5d'>%(userString)s</font> "
+"není v garáži k nalezení.</font>"
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr ""
+"<font color='#929290'>Vozidlo <font color='#c5ab5d'>%(userString)s</font> "
+"není v obchodě k nalezení. Zkuste to prosím později.</font>"
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr ""
+"<font color='#c5ab5d'>%(userString)s</font> vyzkoumán.<br>Zkušeností tanku "
+"použito: <font color='#909090'><b>%(unspentXP)s</b></font>&nbsp;<img "
+"src='img://gui/maps/icons/library/YasenKrasen/XpIcon.png' width='16' "
+"height='16' align='baseline' vspace='-3'/><br>Volných zkušeností použito: "
+"<font color='#ECBF7B'><b>%(freeXP)s</b></font>&nbsp;<img src='img://gui/maps/"
+"icons/library/YasenKrasen/FreeXpIcon.png' width='16' height='16' "
+"align='baseline' vspace='-3'/>"
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Špatné vozidlo.</font>"
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Nedostatek kreditů.</font>"
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Nedostatek zlaťáků.</font>"
+
+msgid "vehicle_buy/server_error"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Toto vozidlo už možná máte.</font>"
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr ""
+"<font color='#929290'>Nelze koupit vozidlo <font color='#c5ab5d'>'%(vehName)"
+"s'</font>. Server je dočasně nedostupný.</font>"
+
+msgid "vehicle_buy/success"
+msgstr ""
+"<font color='#929290'><font color='#c5ab5d'>'%(vehName)s'</font> úspěšně "
+"zakoupeno.<br>Utraceno:</font><font color='#FFFFFF'>%(price)s</font>&nbsp;"
+"<img src='img://gui/maps/icons/library/YasenKrasen/CreditsIcon.png' "
+"width='16' height='16' align='baseline' vspace='-4'/>"
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr ""
+"<font color='#929290'>Nelze prodat <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Špatné vozidlo.</font>"
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr ""
+"<font color='#929290'>Nelze prodat <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Nedostatek kreditů.</font>"
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr ""
+"<font color='#929290'>Nelze prodat <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Nedostatek zlaťáků.</font>"
+
+msgid "vehicle_sell/not_enough_space"
+msgstr ""
+"<font color='#929290'>Nelze prodat <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Nedostatek lůžek v kasárnách.</font>"
+
+msgid "vehicle_sell/server_error"
+msgstr ""
+"<font color='#929290'>Nelze prodat <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Zkuste to později.</font>"
+
+msgid "vehicle_sell/success"
+msgstr ""
+"<font color='#929290'><font color='#c5ab5d'>'%(vehName)s'</font> úspěšně "
+"prodáno.<br>Získáno:</font>%(money)s."
+
+msgid "vehicle_sell/success_dismantling"
+msgstr ""
+"<font color='#929290'><font color='#c5ab5d'>'%(vehName)s'</font> úspěšně "
+"prodáno.<br>Received: <font color='#ffffff'>%(gainMoney)s</font>&nbsp;<img "
+"src='img://gui/maps/icons/library/YasenKrasen/CreditsIcon.png' width='16' "
+"height='16' align='baseline' vspace='-4'/><br>Utraceno:</font> <font "
+"color='#FFE769'>%(spendMoney)s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/GoldIcon.png' width='16' height='16' align='baseline' "
+"vspace='-3'/>"
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr ""
+"<font color='#929290'>Nelze koupit <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Vozidlo je uzamčeno.</font>"
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr ""
+"<font color='#929290'>Nelze prodat <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Opravte své vozidlo.</font>"
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr ""
+"<font color='#929290'>Nelze prodat <font color='#c5ab5d'>'%(vehName)s'</"
+"font>. Dosáhli jste dnešního limitu vozidel.</font>"
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Chyba při nákupu stání. Zkuste to později."
+
+msgid "vehicle_slot_buy/success"
+msgstr ""
+"<font color='#929290'>Další stání v garáži bylo zakoupeno.<br>Utraceno:</"
+"font>%(money)s."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr ""
+"<font color='#929290'>Chyba při změně zrychleného výcviku posádky <font "
+"color='#c5ab5d'>'%(vehName)s'</font>. Špatné vozidlo.</font>"
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr ""
+"<font color='#929290'>Chyba při změně zrychleného výcviku posádky <font "
+"color='#c5ab5d'>'%(vehName)s'</font>. Zkuste to později.</font>"
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr ""
+"<font color='#929290'>Zrychlený výcvik posádky <font "
+"color='#c5ab5d'>'%(vehName)s'</font> je vypnutý.</font>"
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr ""
+"<font color='#929290'>Zrychlený výcvik posádky <font "
+"color='#c5ab5d'>'%(vehName)s'</font> je zapnutý.</font>"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr ""
+"<font color='#929290'>Chyba při změně zrychleného výcviku posádky <font "
+"color='#c5ab5d'>'%(vehName)s'</font>. Vozidlo je uzamčeno.</font>"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr ""
+"<font color='#929290'>Chyba při změně zrychleného výcviku posádky <font "
+"color='#c5ab5d'>'%(vehName)s'</font>. Opravte vozidlo.</font>"
+
+msgid "video/error"
+msgstr "Chyba při přehrávání videa. Kód chyby: %(code)s."
+
+msgid "window/buttons/close"
+msgstr "Zavřít"
+
+msgid "wrong_slot"
+msgstr "%s <font color='#c5ab5d'>'%s'</font> nelze umístit do %s."

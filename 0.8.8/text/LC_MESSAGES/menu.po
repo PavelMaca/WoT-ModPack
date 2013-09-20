@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"Last-Translator: \n"
+"Last-Translator: i_maliavko <i_maliavko@wargaming.net>\n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -323,7 +323,7 @@ msgstr "Nastavit jako rezervní"
 msgid "copy"
 msgstr ""
 "Wargaming.net 2008-2013. Všechna práva vyhrazena.  [8.8] Crabtr33 rozšířená "
-"edice CZ v1.70"
+"edice CZ v1.80"
 
 msgid "currentVehicleStatus/ammoNotFull"
 msgstr "Nekompletní munice"
@@ -593,7 +593,7 @@ msgstr ""
 
 msgid "descriptions/vehicleGun"
 msgstr ""
-"%(reloadTime)s ran/min; Průměrné poškození: %(avgDamage)s\n"
+"%(reloadTime)s ran/min.; Průměrné poškození: %(avgDamage)s\n"
 "Průměrná průbojnost: %(avgPiercingPower)s mm"
 
 msgid "descriptions/vehicleRadio"
@@ -1156,8 +1156,7 @@ msgid "loading/game"
 msgstr "Nahrává se… Prosím čekejte…"
 
 msgid "loading/gameInfo"
-msgstr ""
-"Tato hra je vhodná pro <font color='#03953f'>VŠECHNY</font> věkové kategorie."
+msgstr " "
 
 msgid "loading/helpTip"
 msgstr "Pro nápovědu v bitvě stiskněte F1."
@@ -1477,7 +1476,7 @@ msgid "moduleInfo/params/aimingTime"
 msgstr "<h>Čas zaměření <p>(sekund)</p></h>"
 
 msgid "moduleInfo/params/armor"
-msgstr "<h>Pancíř <p>(čelní/boční/zadní, mm)</p></h>"
+msgstr "<h>Pancíř <p>(čelní/boční/zadní mm)</p></h>"
 
 msgid "moduleInfo/params/avgDamage"
 msgstr "<h>Průměrné poškození <p>(HP)</p></h>"
@@ -1519,7 +1518,7 @@ msgid "moduleInfo/params/reloadMagazineTime"
 msgstr "<h>Doba úplného nabití <p>(s)</p></h>"
 
 msgid "moduleInfo/params/reloadTime"
-msgstr "<h>Rychlost střelby <p>(ran/min)</p></h>"
+msgstr "<h>Rychlost střelby <p>(ran/min.)</p></h>"
 
 msgid "moduleInfo/params/rotationSpeed"
 msgstr "<h>Rychlost otáčení se <p>(stupňů/s)</p></h>"
@@ -1954,7 +1953,7 @@ msgid "research/labels/totalXP"
 msgstr "Celkem"
 
 msgid "research/labels/vehXP"
-msgstr "Zkušenosti"
+msgstr "Zkušenosti tanku"
 
 msgid "research/premium/benefits/fifth"
 msgstr "Zrychlený výcvik posádky dostupný od první bitvy."
@@ -2337,7 +2336,7 @@ msgid "tank_params/damageAvg"
 msgstr "<h1>Průměrné poškození za výstřel <p>(HP)</p></h1>"
 
 msgid "tank_params/damageAvgPerMinute"
-msgstr "<h1>Průměrné poškození za minutu <p>(HP/min)</p></h1>"
+msgstr "<h1>Průměrné poškození za minutu <p>(HP/min.)</p></h1>"
 
 msgid "tank_params/enginePower"
 msgstr "<h1>Výkon motoru <p>(koní)</p></h1>"
@@ -2352,7 +2351,7 @@ msgid "tank_params/gunRotationSpeed"
 msgstr "<h1>Rychlost nastavení odměru <p>(stupňů/s)</p></h1>"
 
 msgid "tank_params/hullArmor"
-msgstr "<h1>Pancíř korby <p>(čelní/boční/zadní, mm)</p></h1>"
+msgstr "<h1>Pancíř korby <p>(čelní/boční/zadní mm)</p></h1>"
 
 msgid "tank_params/maxAmmo"
 msgstr "<h1>Munice <p>(střel)</p></h1>"
@@ -2370,7 +2369,7 @@ msgid "tank_params/radioDistance"
 msgstr "<h1>Dosah rádia <p>(m)</p></h1>"
 
 msgid "tank_params/reloadTime"
-msgstr "<h1>Rychlost střelby <p>(ran/min)</p></h1>"
+msgstr "<h1>Rychlost střelby <p>(ran/min.)</p></h1>"
 
 msgid "tank_params/reloadTimeSecs"
 msgstr "<h1>Doba nabíjení <p>(sekund)</p></h1>"
@@ -2382,7 +2381,7 @@ msgid "tank_params/speedLimits"
 msgstr "<h1>Maximální rychlost <p>(km/h)</p></h1>"
 
 msgid "tank_params/turretArmor"
-msgstr "<h1>Pancíř věže <p>(čelní/boční/zadní, mm)</p></h1>"
+msgstr "<h1>Pancíř věže <p>(čelní/boční/zadní mm)</p></h1>"
 
 msgid "tank_params/turretRotationSpeed"
 msgstr "<h1>Rychlost rotace věže <p>(stupňů/s)</p></h1>"
@@ -2580,16 +2579,16 @@ msgid "tankmanTrainingWindow/trainingTo"
 msgstr "Úroveň výcviku:"
 
 msgid "tankmen/AT-SPG"
-msgstr "Stíhače tanků"
+msgstr "Stíhač tanků"
 
 msgid "tankmen/SPG"
 msgstr "Dělostřelectvo"
 
 msgid "tankmen/heavyTank"
-msgstr "těžký tank"
+msgstr "Těžký tank"
 
 msgid "tankmen/lightTank"
-msgstr "lehký tank"
+msgstr "Lehký tank"
 
 msgid "tankmen/lockReason/broken"
 msgstr "(Tank poškozen)"
@@ -2601,7 +2600,7 @@ msgid "tankmen/lockReason/prebattle"
 msgstr "(Čeká na bitvu)"
 
 msgid "tankmen/mediumTank"
-msgstr "střední tank"
+msgstr "Střední tank"
 
 msgid "tankmsnPersonalCase/lackOfSkillsForLearn"
 msgstr "Člen posádky se naučil všechny schopnosti a specializace"
@@ -2818,7 +2817,7 @@ msgid "vehicleInfo/params/radioDistance"
 msgstr "Dosah rádia (m)"
 
 msgid "vehicleInfo/params/reloadTime"
-msgstr "Rychlost střelby (ran/min)"
+msgstr "Rychlost střelby (ran/min.)"
 
 msgid "vehicleInfo/params/speedLimits"
 msgstr "Maximální rychlost (km/h)"
