@@ -123,7 +123,7 @@
 
   // Parameters of the After Battle Screen.
   // Параметры окна послебоевой статистики.
-  "battleResults": ${"battleResults.xc":"battleResults"}
+  "battleResults": ${"battleResults.xc":"battleResults"},
 
   // {{turret}} marker display strings.
   // Отображаемые строки {{turret}} маркера.
