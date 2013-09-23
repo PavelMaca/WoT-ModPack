@@ -31,19 +31,19 @@
       "enabled": true,
       // Offset relative to level icon (by X, Y).
       // Смещение относительно иконки уровня танка (по X, Y).
-      "Xoffset": -29,
-      "Yoffset": -18,
+      "Xoffset": -35,
+      "Yoffset": -7,
       // Формат.
       "format": {
         // Never seen this enemy.
         // Этот враг никогда не светился.
-        "neverSeen": "<font face='Lucida Sans Unicode' size='18' color='#DEDEDE'>\u25C0</font>",
+        "neverSeen": "",
         // This enemy was seen atleast once.
         // Этот враг светился хотя бы один раз и отмечен на миникарте как потерянный.
-        "lost": "",
+        "lost": "<img src='xvmres://Assassik/icons/lost.png' width='20' height='20'>",
         // Enemy currently revealed at minimap.
         // Виден на миникарте прямо сейчас.
-        "revealed": "",
+        "revealed": "<img src='xvmres://Assassik/icons/revealed.png' width='20' height='20'>",
         // Dead enemy.
         // Уничтоженный враг.
         "dead": "",
