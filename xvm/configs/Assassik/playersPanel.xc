@@ -51,8 +51,8 @@
         // Специфичные значения для артиллерии.
         "artillery": {
           "neverSeen": "",
-          "lost": "",
-          "revealed": "",
+          "lost": "<img src='xvmres://Assassik/icons/lost.png' width='20' height='20'>",
+          "revealed": "<img src='xvmres://Assassik/icons/revealed.png' width='20' height='20'>",
           "dead": ""
         }
       }
