@@ -63,6 +63,8 @@
     "Capture": "Obsazení",
     "player (average / top)": "hráč (průměr / nejlepší)",
     "Spec dmg": "Škody/HP",
+    "Ratings": "Hodnocení",
+    "Summary": "Celkový přehled",
 
     // UserInfo - filters
     "Filter": "Filtr",
