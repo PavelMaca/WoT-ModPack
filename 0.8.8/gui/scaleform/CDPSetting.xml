@@ -39,7 +39,7 @@
 	
 		<!-- Настройка панели повреждений -->
 		<damagePanel>
-			<location x="0" y="230" center="false"/> <!-- x, y - координаты расположения панели. Отсчет координат идет от левого нижнего угла экрана. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->			
+			<location x="0" y="230" center="false"/> <!-- x, y - координаты расположения панели. Отсчет координат идет от левого нижнего угла экрана. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
 		</damagePanel>
 		
 		<!-- Настройка панели снарядов -->
@@ -100,7 +100,7 @@
 	</crew>
 	
 	<!-- Настройка иконки фиксации корпуса -->
-	<lockIcon> 
+	<lockIcon>
 		<location x="142" y="52" center="false"/> <!-- x, y - координаты расположения элемента. Отсчет координат идет от верхнего левого угла панели. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
 		<filter size="3" angle="0" distance="0" color="0xFF0000" alpha="100" strength="80"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
 		<scale x="100" y="100"/> <!-- x, y - масштаб элемента в процентах. 100 - оригинальный размер -->
@@ -131,25 +131,25 @@
 	<!-- Настройка журнала полученного урона -->
 	<damageLog visible="true"> <!-- visible - видимость элемента, true/false - включено/выключено -->
 		<location x="235" y="3" center="false"/> <!-- x, y - координаты расположения элемента. Отсчет координат идет от верхнего левого угла панели. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
-		<text alpha="100" width="450" height="226"/> <!-- alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). width, height - ширина и высота поля --> 
-		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
-		<format><![CDATA[<textformat leading='5' tabstops='[30,70,100,180]'><b><font color='#FFFFFF' size='15'>{{count}}:</b><tab><font color='{{c:dmgKind}}'>-{{dmg-one}}</font><tab><font color='{{c:shellGold}}'>{{atk-shell}}</font><tab><font color='{{c:vehType}}'>{{atk-veh-short}}</font></font></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
+		<text alpha="100" width="450" height="226"/> <!-- alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). width, height - ширина и высота поля -->
+		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="100"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
+		<format><![CDATA[<textformat leading='5' tabstops='[65]'><font face='$fieldFont'><font color='{{c:shellGold}}'>{{count}}: </font><font color='{{c:dmgKind}}'>-{{dmg-one}}</font><tab><font color='{{c:vehType}}'>{{atk-veh-short}}</font></font></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
 		<direction>down</direction> <!-- Направление записи в журнал. up - последний урон всегда вверху, down - последний урон всегда внизу -->
 	</damageLog>
 	
 	<!-- Настройка всплывающего сообщения о последнем полученном уроне -->
 	<damageHit visible="true"> <!-- visible - видимость элемента, true/false - включено/выключено -->
-		<location x="0" y="-120" center="true"/> <!-- x, y - координаты расположения элемента. Отсчет координат идет от верхнего левого угла панели. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
-		<text alpha="100" width="500" height="100"/> <!-- alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). width, height - ширина и высота поля -->  
-		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
-		<format><![CDATA[<b><font size='40' color='{{c:dmgKind}}'>-{{dmg-one}}</font>{{n}}<font size='40' color='{{c:vehType}}'>{{atk-veh-short}}</font></b>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
+		<location x="0" y="-150" center="true"/> <!-- x, y - координаты расположения элемента. Отсчет координат идет от верхнего левого угла панели. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
+		<text alpha="100" width="500" height="100"/> <!-- alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). width, height - ширина и высота поля -->
+		<filter size="30" angle="0" distance="0" color="0xFF0000" alpha="80" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
+		<format><![CDATA[<font size='40' face='$fieldFont'><font color='{{c:shellGold}}'>-{{dmg-one}}</font>{{n}}<font size='20' color='#FFFFFF'>{{atk-veh-short}}</font></font>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
 		<delay>7</delay> <!-- Время, после которого сообщение исчезнет -->
 	</damageHit>
 	
 	<!-- Настройка сообщения о пожаре -->
 	<fireMessage enabled="true"> <!-- enabled - видимость элемента, true/false - включено/выключено -->
 		<location x="0" y="-50" center="true"/> <!-- x, y - координаты расположения элемента. Отсчет координат идет от верхнего левого угла панели. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
-		<text font="Cuprum" size="40" color="0xFFFFFF" alpha="100" align="center" bold="false" leading="0" width="500" height="70"/> <!-- font - шрифт. size - размер шрифта. color - цвет шрифта. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). align - выравнивание текста, left/right/center - лево/право/центр. bold - жирный тест, true/false - включено/выключено. leading - межстрочный интервал. width, height - ширина и высота поля -->  
+		<text font="Cuprum" size="40" color="0xFFFFFF" alpha="100" align="center" bold="false" leading="0" width="500" height="70"/> <!-- font - шрифт. size - размер шрифта. color - цвет шрифта. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). align - выравнивание текста, left/right/center - лево/право/центр. bold - жирный тест, true/false - включено/выключено. leading - межстрочный интервал. width, height - ширина и высота поля -->
 		<filter size="30" angle="0" distance="0" color="0xFF0000" alpha="80" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
 		<format>Tank hoří!</format> <!-- Как будет выглядеть строка в игре. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
 	</fireMessage>
@@ -206,14 +206,14 @@
 	<colors>
 		<shellGold credits="#FFFFFF" gold="#FFAA55"/> <!-- Цвет по типу снаряда. credits - кредиты. gold - золото -->
 		<dmgKind attack="#FFAA55" fire="#FF6655" ramming="#998855" collision="#228855"/> <!-- Цвет по типу урона. attack - пробитие/осколки. fire - пожар. ramming - таран. collision - столкновение с объектами/падение -->
-		<vehType LT="#A2FF9A" MT="#FFACAC" HT="#FFF198" SPG="#EFAEFF" TD="#A0CFFF"/> <!-- Цвет по типу техники. LT - легкий танк. MT - средний танк. HT - тяжелый танк. SPG - САУ. TD - ПТ-САУ -->
+		<vehType LT="#A2FF9A" MT="#FFF198" HT="#FFACAC" SPG="#EFAEFF" TD="#A0CFFF"/> <!-- Цвет по типу техники. LT - легкий танк. MT - средний танк. HT - тяжелый танк. SPG - САУ. TD - ПТ-САУ -->
 	</colors>
 	
 	<!-- Настройка отображения типов снарядов. Для макроса {{atk-shell}} -->
 	<shellType>
 		<AP>AP</AP> <!-- Бронебойный -->
-		<CR>CR</CR> <!-- Подкалиберный -->
-		<HC>HC</HC> <!-- Кумулятивный -->
+		<CR>APCR</CR> <!-- Подкалиберный -->
+		<HC>HEAT</HC> <!-- Кумулятивный -->
 		<HE>HE</HE> <!-- Осколочно-фугасный -->
 		<other></other> <!-- Другое -->
 	</shellType>
