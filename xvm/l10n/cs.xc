@@ -76,6 +76,8 @@
     // Squad
     "Vehicle": "Vozidlo",
     "Battle tiers": "MM",
+    "Type": "Typ",
+    "Nation": "Národ",
     "ussr": "SSSR",
     "germany": "Německo",
     "usa": "USA",
