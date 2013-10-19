@@ -148,10 +148,10 @@
 		<location x="0" y="-150" center="true"/> <!-- x, y - координаты расположения элемента. Отсчет координат идет от верхнего левого угла панели. center - включение отсчета x координаты от центра экрана, true/false - включено/выключено -->
 		<text alpha="100" width="500" height="100"/> <!-- alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). width, height - ширина и высота поля -->
 		<filter size="30" angle="0" distance="0" color="0xFF0000" alpha="80" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
-		<format><![CDATA[<font size='40' face='$fieldFont'><font color='{{c:shellGold}}'>-{{dmg-one}}</font>{{n}}<font size='20' color='#FFFFFF'>{{atk-veh-short}}</font></font>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
+		<format><![CDATA[<font face='$fieldFont'><font size='40' color='{{c:shellGold}}'>-{{dmg-one}}</font>{{n}}<font size='20' color='#FFFFFF'>{{atk-veh-short}}</font></font>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
 		<delay>7</delay> <!-- Время, после которого сообщение исчезнет -->
 		<notPierced visible="true"> <!-- Показывать не пробития и рикошеты, true/false - включено/выключено -->
-			<format><![CDATA[<font size='40' face='$fieldFont'><font color='{{c:shellGold}}'>{{atk-hit-kind}}</font>{{n}}<font size='20' color='#FFFFFF'>{{atk-veh-short}}</font></font>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
+			<format><![CDATA[<font face='$fieldFont'><font size='40'> </font>{{n}}<font size='20' color='#FFFFFF'>{{atk-veh-short}}</font></font>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
 		</notPierced>
 	</damageHit>
 	
