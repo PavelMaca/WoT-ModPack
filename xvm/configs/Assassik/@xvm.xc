@@ -27,7 +27,23 @@
 
   // Version of the editor.
   // Версия редактора.
-  "editorVersion": "0.60",
+  "editorVersion": "0.64",
+
+  // Language used in mod
+  // "auto" - automatically detect language from game client,
+  // or specify file name located in res_mods/xvm/l10n/ (ex: "en")
+  // Используемый язык в моде
+  // "auto" - автоматически определять язык клиента игры,
+  // или укажите имя файла в папке res_mods/xvm/l10n/ (например, "en")
+  "language": "cs",
+
+  // Game Region
+  // "auto" - automatically detect game region from game client,
+  // or specify one of: "RU", "EU", "US", "SEA", "VTC", "KR"
+  // Регион (игровой кластер)
+  // "auto" - автоматически определять регион из клиента игры,
+  // или укажите один из: "RU", "EU", "US", "SEA", "VTC", "KR"
+  "region": "auto",
 
   // Common config options. All settings information in the mod not being used.
   // Общие параметры конфига. Все параметры информационные, в моде не используются.
@@ -42,35 +58,19 @@
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
-    "url": "https://github.com/PavelMaca/WOT-XVM",
+    "url": "http://code.google.com/p/wot-xvm/",
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "13.10.2013",
+    "date": "27.10.2013",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
     "gameVersion": "0.8.8",
 
-    // Language used in mod
-    // "auto" - automatically detect language from game client,
-    // or specify file name located in res_mods/xvm/l10n/ (ex: "en")
-    // Используемый язык в моде
-    // "auto" - автоматически определять язык клиента игры,
-    // или укажите имя файла в папке res_mods/xvm/l10n/ (например, "en")
-    "language": "cs",
-
-    // Game Region
-    // "auto" - automatically detect game region from game client,
-    // or specify one of: "RU", "EN", "NA", "CN", "SEA", "VN", "KR"
-    // Регион (игровой кластер)
-    // "auto" - автоматически определять регион из клиента игры,
-    // или укажите один из: "RU", "EN", "NA", "CN", "SEA", "VN", "KR"
-    "region": "auto",
-
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "4.1.1"
+    "modMinVersion": "5.0.0"
   },
 
   // Parameters for login screen.
@@ -94,11 +94,11 @@
   "fragCorrelation": ${"battle.xc":"fragCorrelation"},
 
   // Ingame crits panel by "expert" skill.
-  // Внутриигровая панель критов от навыка "экспет".
+  // Внутриигровая панель критов от навыка "эксперт".
   "expertPanel": ${"battle.xc":"expertPanel"},
 
-  // Options for player statistics (only with xvm-stat).
-  // Блок управлением статистикой (только с xvm-stat).
+  // Options for player statistics.
+  // Блок управлением статистикой.
   "rating": ${"rating.xc":"rating"},
 
   // Special XVM hotkeys.
@@ -139,7 +139,7 @@
 
   // Minimap.
   // Миникарта.
-  "minimap": ${"minimap/minimap.xc":"minimap"},
+  "minimap": ${"minimap.xc":"minimap"},
 
   // Over-target markers.
   // Маркеры над танками.
