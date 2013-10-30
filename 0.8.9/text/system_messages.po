@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: World Of Tanks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2013-09-27 11:06+0100\n"
+"PO-Revision-Date: 2013-10-30 22:04+0100\n"
 "Last-Translator: i_maliavko <i_maliavko@wargaming.net>\n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
@@ -203,6 +203,11 @@ msgstr ""
 "úspěšně zakoupeno (<font color='#FFFFFF'>%(count)s</font> kusů).<br>Utraceno:"
 "</font>%(money)s"
 
+msgid "artefact_buy/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
+
 msgid "artefact_destroy/invalid_vehicle"
 msgstr ""
 "<font color='#929290'>Špatné vozidlo. %(kind)s <font color='#c5ab5d'>'%(name)"
@@ -312,6 +317,64 @@ msgstr "Spojení s %s bylo přerušeno."
 msgid "battleSession/memberReady"
 msgstr "%s je připraven k boji pro tým."
 
+msgid "buy_and_equip_tankman/financial_success"
+msgstr "Člen posádky byl úspěšně naverbován a přesunut. Utraceno %(price)s."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Již jste překročili dnešní limit volných členů posádek."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Nelze naverbovat a přesunout člena posádky. Špatné vozidlo."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Nelze naverbovat a přesunout člena posádky. Nedostatek kreditů."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Nelze naverbovat a přesunout člena posádky. Nedostatek zlaťáků."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Nelze naverbovat a přesunout člena posádky. Zkuste to později."
+
+msgid "buy_and_equip_tankman/success"
+msgstr "Člen posádky byl úspěšně naverbován a přesunut."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Nelze naverbovat a přesunout člena posádky. Vozidlo je uzamčeno."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
+
+msgid "buy_and_reequip_tankman/financial_success"
+msgstr "Člen posádky byl úspěšně naverbován a nahrazen. Utraceno %(price)s."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Již jste překročili dnešní limit volných členů posádek."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Nelze naverbovat a nahradit člena posádky. Špatné vozidlo."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Nelze naverbovat a nahradit člena posádky. Nedostatek kreditů."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Nelze naverbovat a nahradit člena posádky. Nedostatek zlaťáků."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Nelze naverbovat a nahradit člena posádky. Zkuste to později."
+
+msgid "buy_and_reequip_tankman/success"
+msgstr "Člen posádky byl úspěšně naverbován a nahrazen."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Nelze naverbovat a nahradit člena posádky. Vozidlo je uzamčeno."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
+
 msgid "buy_free_vehicle_limit_error"
 msgstr ""
 "Pro dnešní den jste dosáhl(a) limitu nákupů tanků zdarma. Pokračovat můžete "
@@ -332,6 +395,11 @@ msgstr ""
 "color='#FFE769'><img src='LabelGoldExpense'/>%(money)s</font>&nbsp;<img "
 "src='img://gui/maps/icons/library/YasenKrasen/GoldIcon.png' width='16' "
 "height='16' align='baseline' vspace='-3'/>"
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
 
 msgid "buy_vehicle_slot_error"
 msgstr ""
@@ -571,7 +639,7 @@ msgid "customization/horn_not_found_to_drop"
 msgstr "Klakson nelze odstranit, protože není vybrán."
 
 msgid "customization/horn_not_selected"
-msgstr "Klakson instalovat vyměnit, protože není vybrán."
+msgstr "Klakson nelze vyměnit, protože není vybrán."
 
 msgid "customization/inscription_change_server_error"
 msgstr "Chyba serveru při nahrazování nápisu. Zkuste to později."
@@ -753,35 +821,45 @@ msgstr "Chyba při přesunu člena posádky do vozidla. Tank je uzamčen."
 msgid "equip_tankman/vehicle_need_repair"
 msgstr "Chyba při přesunu člena posádky do vozidla. Opravte tank."
 
+msgid "exchange/not_enough_gold"
+msgstr "Nedostatek zlaťáků ke směně."
+
 msgid "exchange/server_error"
 msgstr ""
-"Chyba při konverzi <font color='#FFE769'>%s</font>&nbsp;<img src='img://gui/"
-"maps/icons/library/YasenKrasen/GoldIcon.png' width='16' height='16' "
+"Chyba při směně <font color='#FFE769'>%(gold)s</font>&nbsp;<img src='img://"
+"gui/maps/icons/library/YasenKrasen/GoldIcon.png' width='16' height='16' "
 "align='baseline' vspace='-3'/>.Zkuste to později."
 
 msgid "exchange/success"
 msgstr ""
-"<font color='#FFE769'><img src='LabelGoldExpense'/>%s</font> <font "
-"color='#929290'>zlaťáků úspěšně směněno..<br>Získáno:</font> %s"
+"<font color='#FFE769'><img src='LabelGoldExpense'/>%(gold)s</font> <font "
+"color='#929290'>zlaťáků úspěšně směněno..<br>Získáno:</font> %(credits)s"
 
-msgid "exchangeVehiclesXP/server_error"
+msgid "exchange/wallet_not_available"
 msgstr ""
-"Chyba při konverzi <font color='#929290'><b>%d</b></font>&nbsp;<img "
-"src='img://gui/maps/icons/library/YasenKrasen/XpIcon.png' width='16' "
-"height='16' align='baseline' vspace='-3'/> na volné zkušenosti."
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Nedostatek zlaťáků pro konverzi %(xp)s zkušeností."
 
 msgid "exchangeXP/server_error"
 msgstr ""
-"Chyba při konverzi <font color='#929290'><b>%s</b></font>&nbsp;<img "
+"Chyba při konverzi <font color='#929290'><b>%(xp)s</b></font>&nbsp;<img "
 "src='img://gui/maps/icons/library/YasenKrasen/XpIcon.png' width='16' "
 "height='16' align='baseline' vspace='-3'/>. Zkuste to později."
 
 msgid "exchangeXP/success"
 msgstr ""
-"<font color='#FFFFFF'>%s</font>&nbsp;<img src='img://gui/maps/icons/library/"
-"YasenKrasen/XpIcon.png' width='16' height='16' align='baseline' vspace='-3'/"
-"> <font color='#929290'>úspěšně zkonvertováno na volné zkušenosti. Utraceno:"
-"</font>%s"
+"<font color='#FFFFFF'>%(xp)s</font>&nbsp;<img src='img://gui/maps/icons/"
+"library/YasenKrasen/XpIcon.png' width='16' height='16' align='baseline' "
+"vspace='-3'/> <font color='#929290'>úspěšně zkonvertováno na volné "
+"zkušenosti. Utraceno:</font>%(gold)s"
+
+msgid "exchangeXP/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
 
 msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
 msgstr "Operace není k dispozici."
@@ -906,6 +984,11 @@ msgstr ""
 "Chyba servisu '%(vehName)s'. Nedostatek zlaťáků pro nákup spotřebních "
 "doplňků. Zkuste to později."
 
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
+
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr ""
 "Chyba servisu '%(vehName)s'. Nelze doplnit spotřební doplňky. Zkuste to "
@@ -919,6 +1002,11 @@ msgstr "Chyba servisu '%(vehName)s'. Nedostatek kreditů pro nákup munice."
 
 msgid "layout_apply/SHELLS_NO_GOLD"
 msgstr "Chyba servisu '%(vehName)s'. Nedostatek zlaťáků pro nákup munice."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
 
 msgid "layout_apply/SHOP_DESYNC"
 msgstr "Chyba servisu '%(vehName)s'. Zkuste to později."
@@ -937,6 +1025,11 @@ msgstr "Chyba servisu '%(vehName)s'. Zkuste to později."
 
 msgid "layout_apply/success_money_spent"
 msgstr "<font color='#929290'>Celkem utraceno za munici</font>%(money)s"
+
+msgid "layout_apply/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
 
 msgid "login_to_other_game_unknown"
 msgstr ""
@@ -1107,6 +1200,11 @@ msgstr ""
 "s'</font> úspěšně zakoupeno (<font color='#FFFFFF'>%(count)s</font> kusů)."
 "<br>Utraceno:</font>%(money)s"
 
+msgid "module_buy/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
+
 msgid "module_sell/invalid_module"
 msgstr "Nelze prodat %(kind)s %(name)s. Špatné příslušenství."
 
@@ -1118,6 +1216,11 @@ msgstr ""
 "<font color='#929290'>Příslušenství %(kind)s <font color='#c5ab5d'>'%(name)"
 "s'</font> úspěšně prodáno (<font color='#FFFFFF'>%(count)s</font> kusů)."
 "<br>Získáno:</font>%(money)s"
+
+msgid "prebattle/hasLockedState"
+msgstr ""
+"Nelze přijmout pozvánku, protože už čekáte na bitvu. Opusťte frontu před "
+"bitvou, nebo bitvu odehrajte a zkuste to znovu."
 
 msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
 msgstr "Chyba ARENA_CREATION_FAILURE."
@@ -1170,6 +1273,9 @@ msgstr "Nahradit hlasovou komunikaci"
 msgid "prebattle/request/name/CHANGE_SETTINGS"
 msgstr "Nastavení nahrazení"
 
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Měním"
+
 msgid "prebattle/request/name/PREBATTLES_LIST"
 msgstr "Hledat"
 
@@ -1177,13 +1283,16 @@ msgid "prebattle/request/name/SEND_INVITE"
 msgstr "Pozvat do týmu"
 
 msgid "prebattle/request/name/SET_PLAYER_STATE"
-msgstr "Nepřipraven"
+msgstr "Potvrďte připravenost"
 
 msgid "prebattle/request/name/SET_TEAM_STATE"
-msgstr "Tým není připraven"
+msgstr "Potvrďte připravenost týmu"
 
 msgid "prebattle/request/name/SWAP_TEAMS"
 msgstr "Nahradit týmy"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Hledat"
 
 msgid "prebattle/teamInvalid/limit/minCount"
 msgstr ""
@@ -1272,11 +1381,16 @@ msgstr ""
 "<font color='#929290'>Nelze koupit prémiový účet na <font color='#c5ab5d'>"
 "%d</font> dny(ů). Zkuste to později.</font>"
 
+msgid "premium/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
+
 msgid "recruit_window/financial_success"
 msgstr "Člen posádky úspěšně naverbován.<br>Utraceno:%(price)s."
 
 msgid "recruit_window/free_tankmen_limit"
-msgstr "Již jste překročil(a) dnešní limit volných členů posádek."
+msgstr "Již jste překročili dnešní limit volných členů posádek."
 
 msgid "recruit_window/not_enough_credits"
 msgstr "Chyba při náboru člena posádky. Nedostatek kreditů."
@@ -1294,6 +1408,11 @@ msgstr "Chyba při verbování člena posádky. Zkuste to později."
 
 msgid "recruit_window/success"
 msgstr "Člen posádky byl naverbován úspěšně."
+
+msgid "recruit_window/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
 
 msgid "reequip_tankman/invalid_vehicle"
 msgstr "Chyba při nahrazování člena posádky. Špatné vozidlo."
@@ -1423,6 +1542,11 @@ msgstr ""
 msgid "server_shut_down"
 msgstr "Restartuje se herní server"
 
+msgid "session_tracker_kick"
+msgstr ""
+"Vaše Wargaming.net&nbsp;ID bylo použité pro přihlášení do jiné hry. Aktuální "
+"herní relace byla přerušena."
+
 msgid "shell_buy/invalid_module"
 msgstr ""
 "<font color='#929290'>Nelze koupit <font color='#c5ab5d'>%(name)s</font>. "
@@ -1453,6 +1577,11 @@ msgstr ""
 "<font color='#929290'>Munice <font color='#c5ab5d'>%(name)s</font> úspěšně "
 "zakoupena (<font color='#FFFFFF'>%(count)s</font> kusů).<br>Utraceno:</font>"
 "%(money)s"
+
+msgid "shell_buy/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
 
 msgid "shell_sell/invalid_module"
 msgstr ""
@@ -1551,8 +1680,113 @@ msgstr "Další převody je možné realizovat až zítra."
 msgid "tradingError/UNEXPECTED_ERROR"
 msgstr "Při převodu zlaťáků došlo k chybě. Zkuste to později."
 
+msgid "training/error/doAction"
+msgstr "Chyba výcvikové mapy. Zkuste to později."
+
 msgid "training/error/swapTeams"
 msgstr "Chyba serveru při pokusu o prohození týmů. Zkuste to později."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Hráč se nemůže připojit k týmu."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Hráč se už připojil k týmu."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Nelze se připojit k týmu."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Celková úroveň vozidel byla překročena."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Nesprávné číslo slotu"
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Nelze najít tým."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Nelze odeslat pozvánku."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Operace je momentálně nedostupná."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Nepodařilo se dokončit poslední operaci s týmem."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Vozidlo není připraveno k bitvě, nebo v garáži není žádné vozidlo."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Nelze zařadit vozidlo do slotu."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Nedostatečné oprávnění pro tuto operaci."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Účet uzamčen."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Tým je ve frontě nebo ve výsledcích vyhledávání."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Nelze se připojit k týmu. Přístup zamítnut."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Tým není ve frontě."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Tým není ve výsledcích vyhledávání."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Tým není připraven."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Tým nebyl nalezen."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Tým neexistuje."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Byli jste přidáni na velitelovu černou listinu."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Nelze vyhodit hráče z týmu."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Nelze založit tým, nebo se k němu pripojit."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Nelze založit tým."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Tým neexistuje."
+
+msgid "unit/info/offlineStatus"
+msgstr "Spojení s %(userName)s bylo ztraceno."
+
+msgid "unit/info/onlineStatus"
+msgstr "Spojení s %(userName)s bylo obnoveno."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Pozvánka už byla odeslána."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Chyba při připojení k týmu. Byli jste z týmu vyhozeni."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Byli jste automaticky vyhozeni ze seznamu dobrovolníků."
+
+msgid "unit/warnings/KICKED_FROM_UNIT_ASSEMBLER"
+msgstr "Čas vyhledávání vypršel. Požadovaný tým nebyl nalezen."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Byli jste vyhozeni velitelem."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Čas vyhledávání vypršel. Požadovaní hráči nebyli nalezeni."
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Nelze potvrdit připravenost pro připojení k týmu."
 
 msgid "unload_crew/invalid_vehicle"
 msgstr "Chyba při přesunu posádky do kasáren. Špatné vozidlo."
@@ -1757,6 +1991,11 @@ msgstr ""
 "<font color='#929290'><font color='#c5ab5d'>'%(vehName)s'</font> úspěšně "
 "zakoupeno.<br>Utraceno:</font><font color='#FFFFFF'>%(price)s</font>&nbsp;"
 
+msgid "vehicle_buy/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
+
 msgid "vehicle_sell/invalid_vehicle"
 msgstr ""
 "<font color='#929290'>Nelze prodat <font color='#c5ab5d'>'%(vehName)s'</"
@@ -1812,6 +2051,14 @@ msgstr ""
 "<font color='#929290'>Nelze prodat <font color='#c5ab5d'>'%(vehName)s'</"
 "font>. Dosáhli jste dnešního limitu vozidel.</font>"
 
+msgid "vehicle_sell/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Chyba při nákupu stání. Nedostatek zlaťáků."
+
 msgid "vehicle_slot_buy/server_error"
 msgstr "Chyba při nákupu stání. Zkuste to později."
 
@@ -1819,6 +2066,11 @@ msgid "vehicle_slot_buy/success"
 msgstr ""
 "<font color='#929290'>Další stání v garáži bylo zakoupeno.<br>Utraceno:</"
 "font>%(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr ""
+"Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
+"obnovení funkčnosti Peněženky jedna."
 
 msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
 msgstr ""
@@ -1852,6 +2104,36 @@ msgstr ""
 
 msgid "video/error"
 msgstr "Chyba při přehrávání videa. Kód chyby: %(code)s."
+
+msgid "wallet/available"
+msgstr ""
+"Peněženka jedna byla úspěšně synchronizována. Všechny vaše zlaťáky a volné "
+"zkušenosti jsou nyní k dispozici."
+
+msgid "wallet/available_freexp"
+msgstr ""
+"Peněženka jedna byla úspěšně synchronizována. Všechny vaše volné zkušenosti "
+"jsou nyní k dispozici."
+
+msgid "wallet/available_gold"
+msgstr ""
+"Peněženka jedna byla úspěšně synchronizována. Všechny vaše zlaťáky jsou nyní "
+"k dispozici."
+
+msgid "wallet/not_available"
+msgstr ""
+"Probíhá získávání údajů o stavu vašeho účtu. Všechny vaše zlaťáky a volné "
+"zkušenosti budou brzy k dispozici."
+
+msgid "wallet/not_available_freexp"
+msgstr ""
+"Probíhá získávání údajů o stavu vašeho účtu. Všechny vaše volné zkušenosti "
+"budou brzy k dispozici."
+
+msgid "wallet/not_available_gold"
+msgstr ""
+"Probíhá získávání údajů o stavu vašeho účtu. Všechny vaše zlaťáky budou brzy "
+"k dispozici."
 
 msgid "window/buttons/close"
 msgstr "Zavřít"
