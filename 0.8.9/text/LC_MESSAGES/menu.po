@@ -331,8 +331,8 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena.  [8.8] Crabtr33 rozšířená "
-"edice CZ v1.82"
+"Wargaming.net 2008-2013. Všechna práva vyhrazena.  [8.9] Crabtr33 rozšířená "
+"edice CZ v1.90"
 
 msgid "currentVehicleStatus/ammoNotFull"
 msgstr "Nekompletní munice"
@@ -1680,7 +1680,7 @@ msgid "prebattle/already_in_awaiting_battle"
 msgstr "Již čekáte na další bitvu."
 
 msgid "prebattle/description"
-msgstr "Čekání na bitvu."
+msgstr "prebattle/description"
 
 msgid "prebattle/exitButton"
 msgstr "Opustit bitvu"
@@ -2034,7 +2034,7 @@ msgid "research/labels/totalXP"
 msgstr "Celkem"
 
 msgid "research/labels/vehXP"
-msgstr "Zkušenosti tanku"
+msgstr "Zkušenosti vozidla"
 
 msgid "research/premium/benefits/fifth"
 msgstr "Zrychlený výcvik posádky dostupný od první bitvy."
@@ -2669,10 +2669,10 @@ msgid "tankmen/SPG"
 msgstr "Dělostřelectvo"
 
 msgid "tankmen/heavyTank"
-msgstr "Těžký tank"
+msgstr "těžký tank"
 
 msgid "tankmen/lightTank"
-msgstr "Lehký tank"
+msgstr "lehký tank"
 
 msgid "tankmen/lockReason/broken"
 msgstr "(Tank poškozen)"
@@ -2684,7 +2684,7 @@ msgid "tankmen/lockReason/prebattle"
 msgstr "(Čeká na bitvu)"
 
 msgid "tankmen/mediumTank"
-msgstr "Střední tank"
+msgstr "střední tank"
 
 msgid "tankmsnPersonalCase/lackOfSkillsForLearn"
 msgstr "Člen posádky se naučil všechny schopnosti a specializace"

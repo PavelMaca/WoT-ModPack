@@ -1,0 +1,2341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"Last-Translator: i_maliavko <i_maliavko@wargaming.net>\n"
+"Language-Team: WoT Team <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid "camouflage/bicolor"
+msgstr "Dvoubarevná"
+
+msgid "camouflage/china/bicolor/china_historical_01"
+msgstr ""
+"Lemovaná kamufláž\n"
+"(50-tá léta)\n"
+"Variace na ČLOA (Čínská lidová osvobozenecká armáda) vícebarevnou kamufláž."
+
+msgid "camouflage/china/bicolor/china_historical_02"
+msgstr ""
+"Dvoubarevná strakatá kamufláž\n"
+"(pozdní 40-tá, - 50-tá léta)\n"
+"Raný typ kamufláže používaný ČLOA."
+
+msgid "camouflage/china/bicolor/china_historical_03"
+msgstr ""
+"Dvoubarevná zimní kamufláž\n"
+"(pozdní 40-tá až raná 50-tá léta)\n"
+"Bílé pruhy na standardním pozadí."
+
+msgid "camouflage/china/bicolor/china_historical_04"
+msgstr ""
+"Temná strakatá kamufláž\n"
+"(50-tá léta)\n"
+"Raný typ kamufláže používaný ČLOA."
+
+msgid "camouflage/china/bicolor/china_historical_13"
+msgstr ""
+"Dvoubarevná strakatá kamufláž\n"
+"(80-tá léta)\n"
+"Vzor používaný v jižní Číně na jaře a na podzim."
+
+msgid "camouflage/china/bicolor/china_historical_desert"
+msgstr ""
+"Vícebarevná pouštní kamufláž\n"
+"(od pozdních 80-tých let)\n"
+"Pozdní typ kamufláže na principu zkreslujících barev pro pouštní oblasti."
+
+msgid "camouflage/china/bicolor/china_historical_winter_1"
+msgstr ""
+"Bílá zimní kamufláž\n"
+"(pozdní 40-tá až 50-tá léta)\n"
+"Vozidlo bylo natřeno bíle pomocí vápna nebo jiné barvy."
+
+msgid "camouflage/china/bicolor/china_historical_winter_2"
+msgstr ""
+"Dvoubarevná zimní kamufláž\n"
+"(50-tá, - 60-tá léta)\n"
+"Bílá barva byla nanesena takovým způsobem, že podkladová barva nabrala "
+"podobu pruhů a skvrn."
+
+msgid "camouflage/china/tricolor/china_historical_05"
+msgstr ""
+"Pozdní tříbarevná kamufláž\n"
+"(do pozdních 80-tých let)\n"
+"Základní tříbarevná kamufláž používaná ČLOA."
+
+msgid "camouflage/china/tricolor/china_historical_06"
+msgstr ""
+"Raná mnohobarevná kamufláž\n"
+"(od poloviny 50-tých let)\n"
+"Černé skvrny a světlé barevné pruhy na podkladové barvě."
+
+msgid "camouflage/china/tricolor/china_historical_07"
+msgstr ""
+"Světlá strakatá kamufláž\n"
+"(od poloviny 50-tých let)\n"
+"Pozdní typ dvoubarevné kamufláže ČLOA."
+
+msgid "camouflage/china/tricolor/china_historical_08"
+msgstr ""
+"'Velká skvrnitá' kamufláž\n"
+"(od pozdních 60-tých let)\n"
+"Stále se používá."
+
+msgid "camouflage/china/tricolor/china_historical_09"
+msgstr ""
+"Tříbarevná kamufláž\n"
+"(od 80-tých let)\n"
+"Používáno v severní Číně, obzvláště během léta."
+
+msgid "camouflage/china/tricolor/china_historical_10"
+msgstr ""
+"Tříbarevná kamufláž\n"
+"(od 90-tých let)\n"
+"Používáno v severovýchodní Číně, obzvláště během léta."
+
+msgid "camouflage/china/tricolor/china_historical_11"
+msgstr ""
+"Tříbarevná pouštní kamufláž\n"
+"Zelené pruhy různých odstínů na žlutém pozadí\n"
+"Používáno ČLOA až do začátku 21. století."
+
+msgid "camouflage/china/tricolor/china_historical_12"
+msgstr ""
+"Tříbarevná kamufláž\n"
+"(od 80-tých let)\n"
+"Používáno v jižní Číně, obzvláště během léta."
+
+msgid "camouflage/china/tricolor/china_historical_14"
+msgstr ""
+"Tříbarevná digitální kamufláž\n"
+"Geometrické barevné skvrny rozdělují siluetu vozidla na fragmenty. Stále se "
+"používá."
+
+msgid "camouflage/default"
+msgstr "Základní barva"
+
+msgid "camouflage/desert"
+msgstr "Pouštní (3 mapy; od tieru 3)"
+
+msgid "camouflage/france/bicolor/Winter"
+msgstr ""
+"Bílá zimní kamufláž\n"
+"Zimní vzor se používal na zajatá Francouzská vozidla, která bojovala v "
+"obrněných silách Osy na východní frontě."
+
+msgid "camouflage/france/bicolor/franch_1"
+msgstr ""
+"Raná dvoubarevná kamufláž\n"
+"(od 1918 do 1940)\n"
+"Používaná během 1. sv. války\n"
+"a v meziválečném období."
+
+msgid "camouflage/france/bicolor/franch_4"
+msgstr ""
+"Raná dvoubarevná kamufláž\n"
+"(30-tá léta)\n"
+"Používáno před invazí do Francie."
+
+msgid "camouflage/france/bicolor/franch_5"
+msgstr ""
+"Zimní kamufláž\n"
+"(podzim 1925)\n"
+"Francouzi neměli originální zimní vzory. Nicméně, v Jižní Africe se "
+"používaly světle šedé pruhy na základním pozadí."
+
+msgid "camouflage/france/tricolor/Branches_and_Leaves"
+msgstr ""
+"\"Zelený háj\"\n"
+"(jaro a léto 1940)\n"
+"Experimentální kamufláž.\n"
+"Používal jí 8. tankový prapor."
+
+msgid "camouflage/france/tricolor/Geometric_Shapes"
+msgstr ""
+"Dvoubarevná černě pruhovaná fragmentovaná kamufláž\n"
+"(1919)\n"
+"Raná kamufláž Francouzských obrněných jednotek."
+
+msgid "camouflage/france/tricolor/Gyrus"
+msgstr ""
+"Tříbarevná kamufláž se širokými propletenými pruhy\n"
+"(1999)\n"
+"Kamufláž Francouzských mírových sil."
+
+msgid "camouflage/france/tricolor/franch_10"
+msgstr ""
+"Tříbarevná lemovaná kamufláž\n"
+"(od 1939 do 1940)\n"
+"Používáno během předválečného období a v prvních letech 2. světové války."
+
+msgid "camouflage/france/tricolor/franch_2"
+msgstr ""
+"Obtahovaná kamufláž\n"
+"(1939)\n"
+"Prvky kamufláže jsou zvýrazněný černým obtažením.\n"
+"Po roce 1940 používáno bez obtahů."
+
+msgid "camouflage/france/tricolor/franch_3"
+msgstr ""
+"Pozdní lemovaná kamufláž\n"
+"(konec 30-tých. let - první polovina 40-tých let)\n"
+"Toto barevné schéma se používalo až do roku 1940."
+
+msgid "camouflage/france/tricolor/franch_6"
+msgstr ""
+"Tříbarevná kamufláž\n"
+"(od 1918 do 1920)\n"
+"Používáno během 1. sv. války a v poválečncýh letech."
+
+msgid "camouflage/france/tricolor/franch_7"
+msgstr ""
+"Raná diagonální kamufláž\n"
+"(od 1918 do 1920)\n"
+"Používáno během 1. sv. války a v poválečncýh letech."
+
+msgid "camouflage/france/tricolor/franch_8"
+msgstr ""
+"Skvrnitá tříbarevná kamufláž\n"
+"(od 1918 do 1920)\n"
+"Používáno během 1. sv. války a v poválečncýh letech."
+
+msgid "camouflage/france/tricolor/franch_9"
+msgstr ""
+"Hnědé, černě lemované skvrny na zeleném podkladu\n"
+"(1939)\n"
+"Další varianta předválečné kamufláže.\n"
+"V roce 1940 bylo schéma používáno bez lemování."
+
+msgid "camouflage/germany/bicolor/Dark_Spots"
+msgstr ""
+"Tříbarevná skvrnitá kamufláž\n"
+"(červenec 1943)\n"
+"Používaná 19. tankovou divizí během operace Citadela na východní frontě."
+
+msgid "camouflage/germany/bicolor/Diagonal_Stripes"
+msgstr ""
+"Tříbarevná diagonální kamufláž\n"
+"(jaro a léto 1944)\n"
+"Používaná obrněnými jednotkami během kampaně v Normandii."
+
+msgid "camouflage/germany/bicolor/Feldgrau"
+msgstr ""
+"Předválečná kamufláž\n"
+"(od 1935 do 1940)\n"
+"Hnědé pruhy na základním tmavě šedém pozadí.\n"
+"Od roku 1940 byl používán pouze tmavě šedý vzor."
+
+msgid "camouflage/germany/bicolor/GrayZigzag"
+msgstr ""
+"Raná pouštní kamufláž\n"
+"(od 1941 do 1942)\n"
+"Světle žluto-hnědé barvy na tmavě šedém pozadí.\n"
+"Pozadí prolíná přes barvy v podobě skvrn nebo pruhů."
+
+msgid "camouflage/germany/bicolor/Polylines"
+msgstr ""
+"Dvoubarevná diagonální kamufláž\n"
+"(léto 1944)\n"
+"Používaná 3. tankovou armádou Wehrmachtu v Litvě."
+
+msgid "camouflage/germany/bicolor/RedClouds"
+msgstr ""
+"'Skvrnitá' kamufláž\n"
+"(od 1943 do 1944)\n"
+"Hnědé skvrny na podkladové světle žluto-hnědé.\n"
+"Používáno na všech frontách."
+
+msgid "camouflage/germany/bicolor/WhiteDiagonal"
+msgstr ""
+"Dvoubarevná zimní kamufláž\n"
+"(od zimy 1941 do 1943)\n"
+"Bílé pruhy na temně šedém pozadí.\n"
+"Používáno na východní frontě."
+
+msgid "camouflage/germany/bicolor/Winter"
+msgstr ""
+"Bílá zimní kamufláž\n"
+"Jelikož se suchá bílá barva v Německu nevyráběla, byly misto ní používány "
+"všechny ostatní druhy bílé barvy.\n"
+"Neexistovala žádná pravidla nebo nařízení o tom, jak používat zimní kamufláž."
+
+msgid "camouflage/germany/bicolor/YellowBacillus"
+msgstr ""
+"'Pruhovaně skvrnitá' žluto-hnědá kamufláž\n"
+"(od 1943 do 1945)\n"
+"Variace kamufláže s hnědými pruhy\n"
+"a skvrnami na žlutém podkladu."
+
+msgid "camouflage/germany/tricolor/Branch"
+msgstr ""
+"Tříbarevná kamufláž \"vlákna\"\n"
+"(1944)\n"
+"Hnědé a tmavě zelené pruhy na základním podkladu.\n"
+"Schéma bylo široce používáno Německými divizemi na konci 2. světové války."
+
+msgid "camouflage/germany/tricolor/Honeycomb"
+msgstr ""
+"Tříbarevná kamufláž 'zebra'\n"
+"(1944)\n"
+"Hnědé skvrny se šedým lemováním na základním podkladu.\n"
+"Ke konci války byly kvůli nedostatku benzínu barvy míchány\n"
+"s vodou, což způsobovalo že více prosvítala podkladová barva."
+
+msgid "camouflage/germany/tricolor/Ragged_Patches"
+msgstr ""
+"Tříbarevná \"velká strakatá\" kamufláž\n"
+"(od 1941 do 1945)\n"
+"Tmavě zelené a hnědé skvrny na základním podkladu.\n"
+"Schéma bylo využíváno na západní frontě."
+
+msgid "camouflage/germany/tricolor/SnowOnBands"
+msgstr ""
+"Barevná světle pruhovaná kamufláž\n"
+"(od 1944 do 1945)\n"
+"Také se nazývala \"přepadová\" kamufláž a používala se na všech frontách."
+
+msgid "camouflage/germany/tricolor/SnowOnSpots"
+msgstr ""
+"Barevná tmavě strakatá kamufláž\n"
+"(od 1944 do 1945)\n"
+"Používáno na všech frontách."
+
+msgid "camouflage/germany/tricolor/Spots"
+msgstr ""
+"Tříbarevná polní kamufláž\n"
+"(1944)\n"
+"Malé zelené a hnědé skvrny přes podkladovou barvu."
+
+msgid "camouflage/historical"
+msgstr "Historická"
+
+msgid "camouflage/japan/desert_blue-brown"
+msgstr ""
+"Kamufláž Císařského námořnictva\n"
+"(od 30. let)\n"
+"Šedo-modrá akvamarínová barva se používala na obojživelná vozidla Císařského "
+"námořnictva.\n"
+"K vylepšení kamufláže se používaly nepravidelné skvrny a pruhy,\n"
+"v barvách odpovídajících oblasti operací — v tomto případě okrové."
+
+msgid "camouflage/japan/desert_green-brown_spots"
+msgstr ""
+"Tříbarevná strakatá kamufláž\n"
+"(30. léta a od roku 1945)\n"
+"Zelené a hnědé skvrny na podkladu v barvě khaki.\n"
+"Od roku 1945 se místo khaki používala světle zelená barva.\n"
+"První maskovací vzor se stále používá."
+
+msgid "camouflage/japan/summer_four-color"
+msgstr ""
+"Tříbarevná lemovaná kamufláž\n"
+"(Od 30. let do roku 1942)\n"
+"Hnědo-zeleno-žlutá kamufláž s černým nebo hnědým lemováním.\n"
+"Později se žlutá barva přestala používat.\n"
+"Nicméně, vzor se používal v Číně a Mandžusku až do roku 1945."
+
+msgid "camouflage/japan/summer_three-color_spots"
+msgstr ""
+"Tříbarevná horská kamufláž\n"
+"(40. léta)\n"
+"Používala se v hornatých oblastech Číny."
+
+msgid "camouflage/japan/winter_spots"
+msgstr ""
+"Bílá strakatá kamufláž\n"
+"(od roku 1945)\n"
+"Bílé skvrny na základním podkladu.\n"
+"V současné době se používají skvrny pravidelných tvarů a různých velikostí."
+
+msgid "camouflage/japan/winter_white"
+msgstr ""
+"“Bělavá” kamufláž\n"
+"(Od roku 1942 do roku 1945)\n"
+"V severní Číně se vozidla natírala na bílo.\n"
+"Barva byla natírána přes standardní letní kamufláž."
+
+msgid "camouflage/summer"
+msgstr "Letní (31 map; od tieru 1)"
+
+msgid "camouflage/tricolor"
+msgstr "Vícebarevná"
+
+msgid "camouflage/uk/bicolor/LRDG"
+msgstr ""
+"Maskovací skupiny LRDG\n"
+"(od 1941 do 1942)\n"
+"Používáno při pohybu jednotek v hluboké poušti."
+
+msgid "camouflage/uk/bicolor/bicolor_classic"
+msgstr ""
+"Jednoduchá dvoubarevná kamufláž\n"
+"(od 1941 do 1943)\n"
+"Používala 22. obrněná brigáda."
+
+msgid "camouflage/uk/bicolor/desert_splintered"
+msgstr ""
+"'Roztříštěná' kamufláž\n"
+"(od 1941 do 1943)\n"
+"Hnědé skvrny přes podkladovou barvu,\n"
+"rozbíjejí siluetu tanku na samostatné geometrické tvary."
+
+msgid "camouflage/uk/bicolor/grassy_green"
+msgstr ""
+"Kamufláž zelená tráva\n"
+"(1940)\n"
+"Maskovací vzor určený pro evropská bojiště."
+
+msgid "camouflage/uk/bicolor/large-Mickey_Mouse_ears"
+msgstr ""
+"Bílá zimní kamufláž\n"
+"(zima v letech 1944–1945)\n"
+"Skvrny natřené na bílém podkladu."
+
+msgid "camouflage/uk/bicolor/winter"
+msgstr ""
+"Bílá zimní kamufláž\n"
+"(zima v letech 1944–1945)\n"
+"Používaly se všechny druhy bílé barvy. Neexistovala žádná pravidla nebo "
+"nařízení\n"
+"o tom, jak používat zimní kamufláž. Každá posádka si zvolila vlastní."
+
+msgid "camouflage/uk/tricolor/large-spotted"
+msgstr ""
+"Kombinovaná pouštní kamufláž\n"
+"(od roku 1941 do roku 1943)\n"
+"Používala se během severoafrické kampaně."
+
+msgid "camouflage/uk/tricolor/sophisticated_bicolor"
+msgstr ""
+"Dělené maskovací pásy\n"
+"(1941)\n"
+"Používáno Britskými tanky."
+
+msgid "camouflage/uk/tricolor/stains_with_notches"
+msgstr ""
+"\"Úhledně skvrnitá\" kamufláž\n"
+"(od 1941 do 1943)\n"
+"Velké hnědé skvrny s dvojitým černo-bílým lemem na žlutém pozadí.\n"
+"Používáno v severní Africe."
+
+msgid "camouflage/uk/tricolor/tricolor_canadian"
+msgstr ""
+"Kanadská kamufláž\n"
+"(1942)\n"
+"Používala 1. kanadská taková brigáda během operace u městečka Dieppe."
+
+msgid "camouflage/uk/tricolor/tricolor_classic"
+msgstr ""
+"Tříbarevná univerzální kamufláž\n"
+"(od 1942 do 1945)\n"
+"Používáno v závěrečných fázích 2. světové války."
+
+msgid "camouflage/uk/tricolor/tricolor_diagonal"
+msgstr ""
+"'Pruhovaná' kamufláž\n"
+"(1942)\n"
+"Princip spočívá ve zkreslujících barvách.\n"
+"Používáno v severní Africe."
+
+msgid "camouflage/usa/bicolor/BretagneSky"
+msgstr ""
+"Zimní kamufláž\n"
+"(od 1941 do 1945)\n"
+"Původně byly používány všechny látky bílé barvy,\n"
+"jako například křída, vápno, sůl.\n"
+"Tmavě zelený podklad prosvítá ve formě pruhů a skvrn."
+
+msgid "camouflage/usa/bicolor/GuamBicolor"
+msgstr ""
+"Tropická dvoubarevná kamufláž\n"
+"(od 1942 do 1945)\n"
+"Používáno na bojištích Pacifiku, zejména na ostrově Guam a Okinawa."
+
+msgid "camouflage/usa/bicolor/IvozimaBicolor"
+msgstr ""
+"Pouštní dvoubarevná kamufláž\n"
+"(od 1943 do 1945)\n"
+"Používáno v Servení Africe a na Sicílii, také v Pacifiku, například na "
+"ostrově Iwo Jima."
+
+msgid "camouflage/usa/bicolor/Membane"
+msgstr ""
+"'Cikcak' kamufláž\n"
+"(od 1943 do 1944)\n"
+"Používáno v Itálii a na Sicílii.\n"
+"Špinavě žluté pruhy na tmavě zeleném podkladu."
+
+msgid "camouflage/usa/bicolor/WhiteScar"
+msgstr ""
+"'Pruhovaná' kamufláž\n"
+"(únor 1944)\n"
+"Používáno 4. plukem námořní pěchoty při operacích v Pacifiku."
+
+msgid "camouflage/usa/bicolor/Winter"
+msgstr ""
+"Bílá zimní kamufláž\n"
+"(zima v letech 1944–1945)\n"
+"Používaly se všechny druhy bílé barvy. Neexistovala žádná pravidla nebo "
+"nařízení\n"
+"o tom, jak používat zimní kamufláž. Každá posádka si zvolila vlastní."
+
+msgid "camouflage/usa/tricolor/IvozimaTricolor"
+msgstr ""
+"Tropická tříbarevná kamufláž\n"
+"(únor 1944)\n"
+"Používáno na ostrově Iwo Jima a při dalsích operacích v Pacifiku."
+
+msgid "camouflage/usa/tricolor/OldschoolUsa"
+msgstr ""
+"Raná kamufláž\n"
+"(od 1917 do 1918)\n"
+"Původní Francouzký vzor byl přijat během 1. sv. války."
+
+msgid "camouflage/usa/tricolor/RudesheimTricolor"
+msgstr ""
+"Evropská tříbarevná kamufláž\n"
+"(od 1944 do 1945)\n"
+"Často aplikováno i přes veškeré náhradní díly a vybavení umístěné na vozidle."
+
+msgid "camouflage/usa/tricolor/Tri-color_Spotted"
+msgstr ""
+"Tříbarevná tropická kamufláž.\n"
+"Žlutozelené a hnědé body na základním podkladu."
+
+msgid "camouflage/usa/tricolor/Tropical_tricolor"
+msgstr ""
+"Tropická tříbarevná kamufláž\n"
+"(od 1943 do 1945)\n"
+"Používáno ve válce v Pacifiku."
+
+msgid "camouflage/ussr/bicolor/Band"
+msgstr ""
+"Tříbarevná kamufláž \"velké skvrny\"\n"
+"(pozdní 50-tá léta)\n"
+"Používaná skupinou speciálních vojenských sil Jihozápad."
+
+msgid "camouflage/ussr/bicolor/Branches"
+msgstr ""
+"Kamufláž \"větve stromů\"\n"
+"(1944)\n"
+"Používáno v 6. tankové armádě."
+
+msgid "camouflage/ussr/bicolor/BrownStains"
+msgstr ""
+"Letní dvoubarevná kamufláž\n"
+"(od 1944 do 1945)\n"
+"Používáno 334. plukem těžkého dělostřelectva.\n"
+"Hnědé pruhy na tmavě zeleném podkladu."
+
+msgid "camouflage/ussr/bicolor/Brown_Spots"
+msgstr ""
+"Tříbarevná strakatá kamufláž.\n"
+"Hojně se používala v létě roku 1941."
+
+msgid "camouflage/ussr/bicolor/Katukov"
+msgstr ""
+"'Katukovského' zimní kamufláž\n"
+"(zima 1941–1942)\n"
+"Používáno 1. Gardovou tankovou brigádou.\n"
+"Ačkoli je vzor spojován s konkrétní jednotkou,\n"
+"byl založen na předválečných požadavcích na zimní kamufláž."
+
+msgid "camouflage/ussr/bicolor/SpringGhost"
+msgstr ""
+"Jarní kamufláž\n"
+"(duben 1942)\n"
+"Vápno aplikováno na zelený podklad\n"
+"a následně setřeno aby došlo k různé úrovni prolínání s podkladem."
+
+msgid "camouflage/ussr/bicolor/White_Spots"
+msgstr ""
+"Dvoubarevná kamufláž \"malé skvrny\"\n"
+"Hojně se používala od roku 1941 do roku 1945."
+
+msgid "camouflage/ussr/bicolor/Winter"
+msgstr ""
+"Bílá zimní kamufláž\n"
+"Bílé vápno nebo jiná bílá barva byla nanesena na standardní podklad v jedné "
+"nebo více vrstvách.\n"
+"Tento způsob se používal v průběhu celé 2. světové války."
+
+msgid "camouflage/ussr/tricolor/GasolinePellicle"
+msgstr ""
+"Letní tříbarevná kamufláž\n"
+"(1942)\n"
+"Používáno jetnotkami dislokovanými v okolí Leningradu. Hnědé pruhy na "
+"podkladové barvě."
+
+msgid "camouflage/ussr/tricolor/Leningrad"
+msgstr ""
+"'Velká skvrnitá' kamufláž\n"
+"(od srpna 1939)\n"
+"Doporučeno jednotkám dislokovaným v západních vojenských oblastech."
+
+msgid "camouflage/ussr/tricolor/OldschoolRkka"
+msgstr ""
+"Tříbarevná 'velká skvrnitá' kamufláž\n"
+"(od 1941 do 1942)\n"
+"Používáno 1. tankovou divizí v Karélii."
+
+msgid "camouflage/ussr/tricolor/Talvisota"
+msgstr ""
+"'Geometrická' tříbarevná kamufláž\n"
+"(od 1941 do 1942)\n"
+"Používaná 1. tankovou divizí v Karélii."
+
+msgid "camouflage/ussr/tricolor/TricolorZebra"
+msgstr ""
+"'Diagonální' kamufláž\n"
+"(červen – červenec 1941)\n"
+"Aplikována v souladu s předválečnými požadavky.\n"
+"Nebyla efektivní a proto byla stažena."
+
+msgid "camouflage/ussr/tricolor/four-color_stains"
+msgstr ""
+"Čtyřbarevná ranná kamufláž.\n"
+"Schéma bylo uvedeno v roce 1939.\n"
+"Hnědé, žluté a světle hnědé barvy na základním podkladu."
+
+msgid "camouflage/winter"
+msgstr "Zimní (4 mapy; od tieru 3)"
+
+msgid "emblem/animals"
+msgstr "Zvířata"
+
+msgid "emblem/battle"
+msgstr "Vojenské"
+
+msgid "emblem/cool"
+msgstr "Různé"
+
+msgid "emblem/group1/animal_1"
+msgstr "Lev"
+
+msgid "emblem/group1/animal_10"
+msgstr "Medvěd 1"
+
+msgid "emblem/group1/animal_11"
+msgstr "Medvěd 2"
+
+msgid "emblem/group1/animal_12"
+msgstr "Kůň 1"
+
+msgid "emblem/group1/animal_13"
+msgstr "Pták"
+
+msgid "emblem/group1/animal_14"
+msgstr "Tigr 1"
+
+msgid "emblem/group1/animal_15"
+msgstr "Ještěr"
+
+msgid "emblem/group1/animal_16"
+msgstr "Tigr 2"
+
+msgid "emblem/group1/animal_17"
+msgstr "Vosa"
+
+msgid "emblem/group1/animal_18"
+msgstr "Had"
+
+msgid "emblem/group1/animal_19"
+msgstr "Nosorožec 2"
+
+msgid "emblem/group1/animal_2"
+msgstr "Orel 1"
+
+msgid "emblem/group1/animal_20"
+msgstr "Býk 4"
+
+msgid "emblem/group1/animal_21"
+msgstr "Kanec"
+
+msgid "emblem/group1/animal_22"
+msgstr "Kůň 2"
+
+msgid "emblem/group1/animal_23"
+msgstr "Kůň 3"
+
+msgid "emblem/group1/animal_24"
+msgstr "Okřídlený 1"
+
+msgid "emblem/group1/animal_25"
+msgstr "Okřídlený 2"
+
+msgid "emblem/group1/animal_26"
+msgstr "Kočkovitý 1"
+
+msgid "emblem/group1/animal_27"
+msgstr "Kočkovitý 2"
+
+msgid "emblem/group1/animal_28"
+msgstr "Kočkovitý 3"
+
+msgid "emblem/group1/animal_29"
+msgstr "Kočkovitý 4"
+
+msgid "emblem/group1/animal_3"
+msgstr "Orel 2"
+
+msgid "emblem/group1/animal_30"
+msgstr "Kočkovitý 5"
+
+msgid "emblem/group1/animal_31"
+msgstr "Pavouk 1"
+
+msgid "emblem/group1/animal_32"
+msgstr "Pavouk 2"
+
+msgid "emblem/group1/animal_4"
+msgstr "Býk 1"
+
+msgid "emblem/group1/animal_5"
+msgstr "Býk 2"
+
+msgid "emblem/group1/animal_6"
+msgstr "Orel 3"
+
+msgid "emblem/group1/animal_7"
+msgstr "Orel 4"
+
+msgid "emblem/group1/animal_8"
+msgstr "Býk 3"
+
+msgid "emblem/group1/animal_9"
+msgstr "Nosorožec 1"
+
+msgid "emblem/group1/star"
+msgstr "Hvězda"
+
+msgid "emblem/group2/battle_1"
+msgstr "Vlajka"
+
+msgid "emblem/group2/battle_10"
+msgstr "Hvězda 3"
+
+msgid "emblem/group2/battle_11"
+msgstr "Hvězda 4"
+
+msgid "emblem/group2/battle_12"
+msgstr "Sekera 2"
+
+msgid "emblem/group2/battle_13"
+msgstr "Helma 2"
+
+msgid "emblem/group2/battle_14"
+msgstr "Helma 3"
+
+msgid "emblem/group2/battle_15"
+msgstr "Koruna 1"
+
+msgid "emblem/group2/battle_16"
+msgstr "Věž"
+
+msgid "emblem/group2/battle_17"
+msgstr "Koruna 2"
+
+msgid "emblem/group2/battle_18"
+msgstr "Meč 2"
+
+msgid "emblem/group2/battle_19"
+msgstr "Meč 3"
+
+msgid "emblem/group2/battle_2"
+msgstr "Hvězda 1"
+
+msgid "emblem/group2/battle_20"
+msgstr "Lebka 1"
+
+msgid "emblem/group2/battle_21"
+msgstr "Lebka 2"
+
+msgid "emblem/group2/battle_22"
+msgstr "Hvězda 5"
+
+msgid "emblem/group2/battle_23"
+msgstr "Emblém 2"
+
+msgid "emblem/group2/battle_24"
+msgstr "Lebka 3"
+
+msgid "emblem/group2/battle_25"
+msgstr "Lebka 4"
+
+msgid "emblem/group2/battle_26"
+msgstr "Hvězda 6"
+
+msgid "emblem/group2/battle_27"
+msgstr "Kříž 1"
+
+msgid "emblem/group2/battle_28"
+msgstr "Klíč"
+
+msgid "emblem/group2/battle_3"
+msgstr "Emblém 1"
+
+msgid "emblem/group2/battle_4"
+msgstr "Helma 1"
+
+msgid "emblem/group2/battle_5"
+msgstr "Hvězda 3"
+
+msgid "emblem/group2/battle_6"
+msgstr "Sekera 1"
+
+msgid "emblem/group2/battle_7"
+msgstr "Palcát"
+
+msgid "emblem/group2/battle_8"
+msgstr "Perlík"
+
+msgid "emblem/group2/battle_9"
+msgstr "Meč 1"
+
+msgid "emblem/group3/cool_1"
+msgstr "Znak 1"
+
+msgid "emblem/group3/cool_10"
+msgstr "Chili paprička"
+
+msgid "emblem/group3/cool_11"
+msgstr "Pantofel"
+
+msgid "emblem/group3/cool_12"
+msgstr "Indián 1"
+
+msgid "emblem/group3/cool_13"
+msgstr "Indián 2"
+
+msgid "emblem/group3/cool_14"
+msgstr "Granát"
+
+msgid "emblem/group3/cool_15"
+msgstr "Pruhy"
+
+msgid "emblem/group3/cool_16"
+msgstr "Blesk 1"
+
+msgid "emblem/group3/cool_17"
+msgstr "Dívka"
+
+msgid "emblem/group3/cool_18"
+msgstr "Karta 1"
+
+msgid "emblem/group3/cool_19"
+msgstr "Karta 2"
+
+msgid "emblem/group3/cool_2"
+msgstr "Čtyřlístek"
+
+msgid "emblem/group3/cool_20"
+msgstr "Karta 3"
+
+msgid "emblem/group3/cool_21"
+msgstr "Karta 4"
+
+msgid "emblem/group3/cool_22"
+msgstr "Znak 2"
+
+msgid "emblem/group3/cool_23"
+msgstr "Bomba"
+
+msgid "emblem/group3/cool_24"
+msgstr "Taxi"
+
+msgid "emblem/group3/cool_25"
+msgstr "Karta 5"
+
+msgid "emblem/group3/cool_26"
+msgstr "Karta 6"
+
+msgid "emblem/group3/cool_27"
+msgstr "Žehlička"
+
+msgid "emblem/group3/cool_28"
+msgstr "Emblém 1"
+
+msgid "emblem/group3/cool_29"
+msgstr "Emblém 2"
+
+msgid "emblem/group3/cool_3"
+msgstr "Srdce"
+
+msgid "emblem/group3/cool_4"
+msgstr "Lebka 1"
+
+msgid "emblem/group3/cool_5"
+msgstr "Lebka 2"
+
+msgid "emblem/group3/cool_6"
+msgstr "Dýně"
+
+msgid "emblem/group3/cool_7"
+msgstr "Kuželky"
+
+msgid "emblem/group3/cool_8"
+msgstr "Cigareta"
+
+msgid "emblem/group3/cool_9"
+msgstr "Kostka"
+
+msgid "emblem/group4/signs_1"
+msgstr "Vlajka Chile"
+
+msgid "emblem/group4/signs_10"
+msgstr "Vlajka Vietnamu"
+
+msgid "emblem/group4/signs_11"
+msgstr "Vlajka Bulharska"
+
+msgid "emblem/group4/signs_12"
+msgstr "Vlajka Kyrgyzstánu"
+
+msgid "emblem/group4/signs_13"
+msgstr "Vlajka Gruzie"
+
+msgid "emblem/group4/signs_14"
+msgstr "Vlajka Turecka"
+
+msgid "emblem/group4/signs_15"
+msgstr "Vlajka Brazílie"
+
+msgid "emblem/group4/signs_16"
+msgstr "Vlajka Ázerbajdžánu"
+
+msgid "emblem/group4/signs_17"
+msgstr "Vlajka Irska"
+
+msgid "emblem/group4/signs_18"
+msgstr "Vlajka Estonska"
+
+msgid "emblem/group4/signs_19"
+msgstr "Vlajka Řecka"
+
+msgid "emblem/group4/signs_2"
+msgstr "Vlajka Malajsie"
+
+msgid "emblem/group4/signs_20"
+msgstr "Vlajka Belgie"
+
+msgid "emblem/group4/signs_21"
+msgstr "Vlajka Nového Zélandu"
+
+msgid "emblem/group4/signs_22"
+msgstr "Vlajka Švýcarska"
+
+msgid "emblem/group4/signs_23"
+msgstr "Vlajka Jižní Koreje"
+
+msgid "emblem/group4/signs_24"
+msgstr "Vlajka Izraele"
+
+msgid "emblem/group4/signs_25"
+msgstr "Vlajka Itálie"
+
+msgid "emblem/group4/signs_26"
+msgstr "Vlajka Srbska"
+
+msgid "emblem/group4/signs_27"
+msgstr "Vlajka Slovenska"
+
+msgid "emblem/group4/signs_28"
+msgstr "Vlajka Rumunska"
+
+msgid "emblem/group4/signs_29"
+msgstr "Vlajka Španělska"
+
+msgid "emblem/group4/signs_3"
+msgstr "Vlajka Monaka"
+
+msgid "emblem/group4/signs_30"
+msgstr "Vlajka Lotyšska"
+
+msgid "emblem/group4/signs_31"
+msgstr "Vlajka Rakouska"
+
+msgid "emblem/group4/signs_32"
+msgstr "Vlajka Norska"
+
+msgid "emblem/group4/signs_33"
+msgstr "Vlajka Maďarska"
+
+msgid "emblem/group4/signs_34"
+msgstr "Vlajka Nizozemska"
+
+msgid "emblem/group4/signs_35"
+msgstr "Vlajka Švédska"
+
+msgid "emblem/group4/signs_36"
+msgstr "Vlajka Francie"
+
+msgid "emblem/group4/signs_37"
+msgstr "Vlajka Finska"
+
+msgid "emblem/group4/signs_38"
+msgstr "Vlajka Islandu"
+
+msgid "emblem/group4/signs_39"
+msgstr "Vlajka Austrálie"
+
+msgid "emblem/group4/signs_4"
+msgstr "Vlajka Arménie"
+
+msgid "emblem/group4/signs_40"
+msgstr "Vlajka Kazachstánu"
+
+msgid "emblem/group4/signs_41"
+msgstr "Vlajka Británie"
+
+msgid "emblem/group4/signs_42"
+msgstr "Vlajka Polska"
+
+msgid "emblem/group4/signs_43"
+msgstr "Vlajka Běloruska"
+
+msgid "emblem/group4/signs_44"
+msgstr "Vlajka USA"
+
+msgid "emblem/group4/signs_45"
+msgstr "Vlajka Německa"
+
+msgid "emblem/group4/signs_46"
+msgstr "Vlajka Ukrajiny"
+
+msgid "emblem/group4/signs_47"
+msgstr "Vlajka Argentiny"
+
+msgid "emblem/group4/signs_48"
+msgstr "Vlajka Ruska"
+
+msgid "emblem/group4/signs_49"
+msgstr "Vlajka Chorvatska"
+
+msgid "emblem/group4/signs_5"
+msgstr "Vlajka Uzbekistánu"
+
+msgid "emblem/group4/signs_50"
+msgstr "Vlajka Japonska"
+
+msgid "emblem/group4/signs_51"
+msgstr "Vlajka Dánska"
+
+msgid "emblem/group4/signs_52"
+msgstr "Vlajka Moldavska"
+
+msgid "emblem/group4/signs_53"
+msgstr "Vlajka České republiky"
+
+msgid "emblem/group4/signs_54"
+msgstr "Vlajka Kanady"
+
+msgid "emblem/group4/signs_55"
+msgstr "Vlajka Litvy"
+
+msgid "emblem/group4/signs_56"
+msgstr "Vlajka Taiwanu"
+
+msgid "emblem/group4/signs_57"
+msgstr "Vlajka Bosny a Hercegoviny"
+
+msgid "emblem/group4/signs_58"
+msgstr "Vlajka Slovinska"
+
+msgid "emblem/group4/signs_59"
+msgstr "Vlajka SSSR"
+
+msgid "emblem/group4/signs_6"
+msgstr "Vlajka Singapuru"
+
+msgid "emblem/group4/signs_60"
+msgstr "Erb Moskvy"
+
+msgid "emblem/group4/signs_61"
+msgstr "Erb Minsku"
+
+msgid "emblem/group4/signs_62"
+msgstr "Erb Novosibirsku"
+
+msgid "emblem/group4/signs_63"
+msgstr "Erb Petrohradu"
+
+msgid "emblem/group4/signs_64"
+msgstr "Erb Oděsy"
+
+msgid "emblem/group4/signs_65"
+msgstr "Erb Krasnodaru"
+
+msgid "emblem/group4/signs_66"
+msgstr "Erb Helsinek"
+
+msgid "emblem/group4/signs_67"
+msgstr "Erb Rostova na Donu"
+
+msgid "emblem/group4/signs_68"
+msgstr "Erb Kazaně"
+
+msgid "emblem/group4/signs_69"
+msgstr "Erb Jekatěrinburgu"
+
+msgid "emblem/group4/signs_7"
+msgstr "Vlajka Hongkongu"
+
+msgid "emblem/group4/signs_70"
+msgstr "Erb Volgogradu"
+
+msgid "emblem/group4/signs_71"
+msgstr "Erb Kyjeva"
+
+msgid "emblem/group4/signs_72"
+msgstr "Erb Velkého Novgorodu"
+
+msgid "emblem/group4/signs_73"
+msgstr "Erb Permu"
+
+msgid "emblem/group4/signs_74"
+msgstr "Erb Smolenska"
+
+msgid "emblem/group4/signs_75"
+msgstr "Erb Čeljabinska"
+
+msgid "emblem/group4/signs_76"
+msgstr "Erb Voroněže"
+
+msgid "emblem/group4/signs_77"
+msgstr "Erb Samary"
+
+msgid "emblem/group4/signs_78"
+msgstr "Vlajka Čínské lidové republiky"
+
+msgid "emblem/group4/signs_8"
+msgstr "Vlajka Filipín"
+
+msgid "emblem/group4/signs_80"
+msgstr "Vlajka Mexika"
+
+msgid "emblem/group4/signs_81"
+msgstr "Vlajka Jihoafrické republiky"
+
+msgid "emblem/group4/signs_82"
+msgstr "Vlajka Thajska"
+
+msgid "emblem/group4/signs_83"
+msgstr "Vlajka Myanmaru"
+
+msgid "emblem/group4/signs_84"
+msgstr "Vlajka Jordánska"
+
+msgid "emblem/group4/signs_85"
+msgstr "Vlajka Mongolska"
+
+msgid "emblem/group4/signs_86"
+msgstr "Vlajka Indie"
+
+msgid "emblem/group4/signs_87"
+msgstr "Vlajka Indonésie"
+
+msgid "emblem/group4/signs_9"
+msgstr "Vlajka Portugalska"
+
+msgid "emblem/signs"
+msgstr "Vlajky a erby"
+
+msgid "horns/bike_bell_01"
+msgstr "Cyklo zvonek"
+
+msgid "horns/car_01"
+msgstr "Auto 1"
+
+msgid "horns/car_02"
+msgstr "Auto 2"
+
+msgid "horns/car_03"
+msgstr "Auto 3"
+
+msgid "horns/car_04"
+msgstr "Auto 4"
+
+msgid "horns/car_05"
+msgstr "Auto 5"
+
+msgid "horns/car_06"
+msgstr "Auto 6"
+
+msgid "horns/car_07"
+msgstr "Auto 7"
+
+msgid "horns/comedy_01"
+msgstr "Vtípek"
+
+msgid "horns/music_01"
+msgstr "Audio test 1"
+
+msgid "horns/music_02"
+msgstr "Audio test 2"
+
+msgid "horns/music_03"
+msgstr "Audio test 3"
+
+msgid "horns/music_04"
+msgstr "Audio test 4"
+
+msgid "horns/siren_01"
+msgstr "Siréna 1"
+
+msgid "horns/siren_02"
+msgstr "Siréna 2"
+
+msgid "horns/siren_03"
+msgstr "Siréna 3"
+
+msgid "horns/titanic_01"
+msgstr "Parník 1"
+
+msgid "horns/titanic_02"
+msgstr "Parník 2"
+
+msgid "horns/titanic_03"
+msgstr "Parník 3"
+
+msgid "horns/toy_01"
+msgstr "Hračka 1"
+
+msgid "horns/toy_02"
+msgstr "Hračka 2"
+
+msgid "horns/toy_03"
+msgstr "Hračka 3"
+
+msgid "horns/train_01"
+msgstr "Lokomotiva 1"
+
+msgid "horns/train_02"
+msgstr "Lokomotiva 2"
+
+msgid "horns/train_03"
+msgstr "Lokomotiva 3"
+
+msgid "horns/train_04"
+msgstr "Lokomotiva 4"
+
+msgid "horns/train_05"
+msgstr "Lokomotiva 5"
+
+msgid "horns/train_06"
+msgstr "Lokomotiva 6"
+
+msgid "horns/train_07"
+msgstr "Lokomotiva 7"
+
+msgid "horns/truck_01"
+msgstr "Náklaďák 1"
+
+msgid "horns/truck_02"
+msgstr "Náklaďák 2"
+
+msgid "horns/truck_03"
+msgstr "Trubka 1"
+
+msgid "horns/truck_04"
+msgstr "Náklaďák 4"
+
+msgid "horns/vip_01"
+msgstr "VIP 1"
+
+msgid "horns/vip_02"
+msgstr "VIP 2"
+
+msgid "horns/vip_03"
+msgstr "VIP 3"
+
+msgid "horns/vuvuzela_01"
+msgstr "Vuvuzela 1"
+
+msgid "horns/whistle_01"
+msgstr "Píšťala 1"
+
+msgid "horns/whistle_02"
+msgstr "Píšťala 2"
+
+msgid "inscription/animal"
+msgstr "Zvířata"
+
+msgid "inscription/china/Fen"
+msgstr "Učte se od soudruha Lei Fenga!"
+
+msgid "inscription/china/action"
+msgstr "Každá akce vyvolává reakci."
+
+msgid "inscription/china/better"
+msgstr "Být nejlepší!"
+
+msgid "inscription/china/blood"
+msgstr "Hory mají při západu slunce barvu krve"
+
+msgid "inscription/china/destiny"
+msgstr "Nejnapínavější zážitek je boj s osudem"
+
+msgid "inscription/china/difficult"
+msgstr "Překonávejte obtíže, když bojujete za vítězství!"
+
+msgid "inscription/china/faith"
+msgstr "Nebojím se těch, kteří nemají víru"
+
+msgid "inscription/china/fight"
+msgstr "V žívotě a ve válce nevěříme nikomu"
+
+msgid "inscription/china/firm"
+msgstr "Vytrvejte tváří v tvář smrti"
+
+msgid "inscription/china/harm"
+msgstr "Neublížím vám, pokud neulbížíte vy mě"
+
+msgid "inscription/china/help"
+msgstr "Jsem vždy připraven pomoci"
+
+msgid "inscription/china/hero"
+msgstr "I v této době existují hrdinové"
+
+msgid "inscription/china/knock_down"
+msgstr "Porazit imperialismus"
+
+msgid "inscription/china/light"
+msgstr "Dejte mi jen trochu světla a já vám dám hvězdu"
+
+msgid "inscription/china/myself"
+msgstr "Udělej to sám"
+
+msgid "inscription/china/pain"
+msgstr "Nebojíme se bolesti ani smrti"
+
+msgid "inscription/china/people"
+msgstr "Sloužit lidem"
+
+msgid "inscription/china/success"
+msgstr "Věřte ve vítězství. Překonejte obtíže. Dosáhněte úspěchu."
+
+msgid "inscription/china/sun"
+msgstr "Všechno zlé je pro něco dobré"
+
+msgid "inscription/china/united"
+msgstr "Společně usilujte o vítězství"
+
+msgid "inscription/china/walk_alone"
+msgstr "Mohu projít úplně sám, bez obav z vichřice či zuřících vln"
+
+msgid "inscription/china/war"
+msgstr "Nechoďte do války nepřipravení"
+
+msgid "inscription/china/wish"
+msgstr "Mám ohromné příležitosti ke splnění mých přání"
+
+msgid "inscription/france/abord"
+msgstr "Francie především"
+
+msgid "inscription/france/alma"
+msgstr "Alma"
+
+msgid "inscription/france/alpes"
+msgstr "Rhône-Alpes"
+
+msgid "inscription/france/aquitaine"
+msgstr "Akvitánie"
+
+msgid "inscription/france/aramis"
+msgstr "Aramis"
+
+msgid "inscription/france/arc"
+msgstr "Johanka z Arku"
+
+msgid "inscription/france/armagnac"
+msgstr "Armaňak"
+
+msgid "inscription/france/armor"
+msgstr "Côtes-d'Armor"
+
+msgid "inscription/france/artagnan"
+msgstr "d'Artagnan"
+
+msgid "inscription/france/athos"
+msgstr "Athos"
+
+msgid "inscription/france/azur"
+msgstr "Côte d'Azur"
+
+msgid "inscription/france/bombard"
+msgstr "Bombarda"
+
+msgid "inscription/france/bonoparte"
+msgstr "Bonaparte"
+
+msgid "inscription/france/bourgogne"
+msgstr "Burgundsko"
+
+msgid "inscription/france/boyard"
+msgstr "Fort Boyard"
+
+msgid "inscription/france/brazzaville"
+msgstr "Brazzaville"
+
+msgid "inscription/france/brest"
+msgstr "Brest"
+
+msgid "inscription/france/bretagne"
+msgstr "Bretaň"
+
+msgid "inscription/france/caen"
+msgstr "Caen"
+
+msgid "inscription/france/casablanca"
+msgstr "Casablanca"
+
+msgid "inscription/france/chat"
+msgstr "Divoká kočka"
+
+msgid "inscription/france/courageux"
+msgstr "Odvážný"
+
+msgid "inscription/france/denis"
+msgstr "Saint-Denis"
+
+msgid "inscription/france/fantasque"
+msgstr "Vzpurný"
+
+msgid "inscription/france/flandre"
+msgstr "Flandry"
+
+msgid "inscription/france/foch"
+msgstr "Foch"
+
+msgid "inscription/france/fort"
+msgstr "Fort-de-France"
+
+msgid "inscription/france/france"
+msgstr "Francie"
+
+msgid "inscription/france/glorieux"
+msgstr "Chrabrý"
+
+msgid "inscription/france/guepard"
+msgstr "Gepard"
+
+msgid "inscription/france/ile"
+msgstr "Île-de-France"
+
+msgid "inscription/france/intrepide"
+msgstr "Neohrožený"
+
+msgid "inscription/france/jaguar"
+msgstr "Jaguár"
+
+msgid "inscription/france/june"
+msgstr "18. června 1940"
+
+msgid "inscription/france/leopard"
+msgstr "Leopard"
+
+msgid "inscription/france/libre"
+msgstr "Za svobodnou Francii!"
+
+msgid "inscription/france/lille"
+msgstr "Lille"
+
+msgid "inscription/france/limousin"
+msgstr "Limousin"
+
+msgid "inscription/france/lion"
+msgstr "Lev"
+
+msgid "inscription/france/loire"
+msgstr "Pays de la Loire"
+
+msgid "inscription/france/lorette"
+msgstr "Notre Dame De Lorette"
+
+msgid "inscription/france/lorraine"
+msgstr "Lorraine"
+
+msgid "inscription/france/lutte"
+msgstr "Boj pokračuje"
+
+msgid "inscription/france/lynx"
+msgstr "Rys"
+
+msgid "inscription/france/lyon"
+msgstr "Lyon"
+
+msgid "inscription/france/marseille"
+msgstr "Marseille"
+
+msgid "inscription/france/moscowa"
+msgstr "Moskva"
+
+msgid "inscription/france/nord"
+msgstr "Sever"
+
+msgid "inscription/france/normandie"
+msgstr "Normandie"
+
+msgid "inscription/france/nostradamus"
+msgstr "Nostradamus"
+
+msgid "inscription/france/olivier"
+msgstr "Olivier"
+
+msgid "inscription/france/orleans"
+msgstr "Orléans"
+
+msgid "inscription/france/ouragan"
+msgstr "Hurikán"
+
+msgid "inscription/france/ours"
+msgstr "Medvěd"
+
+msgid "inscription/france/panther"
+msgstr "Panter"
+
+msgid "inscription/france/paris"
+msgstr "Paříž"
+
+msgid "inscription/france/pirate"
+msgstr "Pirát"
+
+msgid "inscription/france/pommard"
+msgstr "Pommard"
+
+msgid "inscription/france/porthos"
+msgstr "Porthos"
+
+msgid "inscription/france/puma"
+msgstr "Puma"
+
+msgid "inscription/france/richelieu"
+msgstr "Richelieu"
+
+msgid "inscription/france/sirocco"
+msgstr "Sirocco"
+
+msgid "inscription/france/tell"
+msgstr "Vilém Tell"
+
+msgid "inscription/france/temeraire"
+msgstr "Drzý"
+
+msgid "inscription/france/terrible"
+msgstr "Hrozivý"
+
+msgid "inscription/france/tornade"
+msgstr "Tornádo"
+
+msgid "inscription/france/toulouse"
+msgstr "Toulouse"
+
+msgid "inscription/france/vertus"
+msgstr "Vertus"
+
+msgid "inscription/france/vive"
+msgstr "Vive la France!"
+
+msgid "inscription/france/yvelines"
+msgstr "Yvelines"
+
+msgid "inscription/geographical"
+msgstr "Geografické"
+
+msgid "inscription/germany/adalbert"
+msgstr "Adalbert"
+
+msgid "inscription/germany/asgard"
+msgstr "Ásgard"
+
+msgid "inscription/germany/badem"
+msgstr "Badem"
+
+msgid "inscription/germany/berlin"
+msgstr "Berlín"
+
+msgid "inscription/germany/bernd"
+msgstr "Pochmurný Bernd"
+
+msgid "inscription/germany/berserker"
+msgstr "Berserker"
+
+msgid "inscription/germany/bismarck"
+msgstr "Bismarck"
+
+msgid "inscription/germany/brandenburg"
+msgstr "Braniborská marka"
+
+msgid "inscription/germany/breslau"
+msgstr "Vratislav"
+
+msgid "inscription/germany/brunhild"
+msgstr "Brunhilda"
+
+msgid "inscription/germany/cyklop"
+msgstr "Kyklop"
+
+msgid "inscription/germany/dresden"
+msgstr "Drážďany"
+
+msgid "inscription/germany/dusseldorf"
+msgstr "Düsseldorf"
+
+msgid "inscription/germany/elfriede"
+msgstr "Elfrída"
+
+msgid "inscription/germany/emil"
+msgstr "Tvrdohlavý Emil"
+
+msgid "inscription/germany/ergebt"
+msgstr "Všichni se vzdejte!"
+
+msgid "inscription/germany/essen"
+msgstr "Essen"
+
+msgid "inscription/germany/faust"
+msgstr "Faust"
+
+msgid "inscription/germany/ferdinand"
+msgstr "Ferdinand"
+
+msgid "inscription/germany/frans"
+msgstr "Franz"
+
+msgid "inscription/germany/fritz"
+msgstr "Starý Fritz"
+
+msgid "inscription/germany/goeben"
+msgstr "Goeben"
+
+msgid "inscription/germany/greta"
+msgstr "Gréta"
+
+msgid "inscription/germany/gretchen"
+msgstr "Gretchen"
+
+msgid "inscription/germany/griffon"
+msgstr "Gryf"
+
+msgid "inscription/germany/hagen"
+msgstr "Hagen"
+
+msgid "inscription/germany/hans"
+msgstr "Tlustý Hans"
+
+msgid "inscription/germany/hansel"
+msgstr "Mladý Hänsel"
+
+msgid "inscription/germany/heiland"
+msgstr "Heimdall"
+
+msgid "inscription/germany/heinz"
+msgstr "Nabručený Heinz"
+
+msgid "inscription/germany/herkules"
+msgstr "Herkules"
+
+msgid "inscription/germany/hummel"
+msgstr "Čmelák"
+
+msgid "inscription/germany/jager"
+msgstr "Lovec"
+
+msgid "inscription/germany/jotuhn"
+msgstr "Jötunn"
+
+msgid "inscription/germany/karl"
+msgstr "Karel Hrozný"
+
+msgid "inscription/germany/karlsruhe"
+msgstr "Karlsruhe"
+
+msgid "inscription/germany/konig"
+msgstr "Král"
+
+msgid "inscription/germany/leopard"
+msgstr "Leopard"
+
+msgid "inscription/germany/lotti"
+msgstr "Lotti"
+
+msgid "inscription/germany/ludwig"
+msgstr "Statečný Ludwig"
+
+msgid "inscription/germany/mammut"
+msgstr "Mamut"
+
+msgid "inscription/germany/marder"
+msgstr "Kuna"
+
+msgid "inscription/germany/margret"
+msgstr "Margret"
+
+msgid "inscription/germany/mephisto"
+msgstr "Mephisto"
+
+msgid "inscription/germany/munchen"
+msgstr "Mnichov"
+
+msgid "inscription/germany/nixe"
+msgstr "Näkki"
+
+msgid "inscription/germany/norbert"
+msgstr "Norbert"
+
+msgid "inscription/germany/ostpreusen"
+msgstr "Východní Prusko"
+
+msgid "inscription/germany/otto"
+msgstr "Rudý Otto"
+
+msgid "inscription/germany/panther"
+msgstr "Panter"
+
+msgid "inscription/germany/pommern"
+msgstr "Pomořansko"
+
+msgid "inscription/germany/puma"
+msgstr "Puma"
+
+msgid "inscription/germany/ragnarok"
+msgstr "Ragnarok"
+
+msgid "inscription/germany/rose"
+msgstr "Růže"
+
+msgid "inscription/germany/saar"
+msgstr "Sársko"
+
+msgid "inscription/germany/sachsen"
+msgstr "Sasko"
+
+msgid "inscription/germany/salzburg"
+msgstr "Salzburg"
+
+msgid "inscription/germany/schmidt"
+msgstr "Zlomyslný Schmidt"
+
+msgid "inscription/germany/schnuk"
+msgstr "Schnuk"
+
+msgid "inscription/germany/schulz"
+msgstr "Drzý Schulz"
+
+msgid "inscription/germany/schwaben"
+msgstr "Švábsko"
+
+msgid "inscription/germany/schwarz"
+msgstr "Vychrtlý Schwarz"
+
+msgid "inscription/germany/siegfried"
+msgstr "Siegfried"
+
+msgid "inscription/germany/teutone"
+msgstr "Teuton"
+
+msgid "inscription/germany/tiger"
+msgstr "Tygr"
+
+msgid "inscription/germany/westfalen"
+msgstr "Vestfálsko"
+
+msgid "inscription/germany/wien"
+msgstr "Vídeň"
+
+msgid "inscription/germany/wolf"
+msgstr "Mazaný vlk"
+
+msgid "inscription/germany/wotan"
+msgstr "Wotan"
+
+msgid "inscription/historical"
+msgstr "Historické"
+
+msgid "inscription/japan/attack"
+msgstr "Zaútočte!"
+
+msgid "inscription/japan/blow"
+msgstr "Smrtící úder"
+
+msgid "inscription/japan/commandos"
+msgstr "Zvláštní útok"
+
+msgid "inscription/japan/patriotism"
+msgstr "Vlastenectví"
+
+msgid "inscription/japan/shield"
+msgstr "Císařův štít"
+
+msgid "inscription/japan/spirit"
+msgstr "Duch samuraje"
+
+msgid "inscription/japan/steel"
+msgstr "Ocel"
+
+msgid "inscription/japan/taku"
+msgstr "Průkopník"
+
+msgid "inscription/japan/waterfall"
+msgstr "Vodopád"
+
+msgid "inscription/motto"
+msgstr "Slogany"
+
+msgid "inscription/names"
+msgstr "Jména"
+
+msgid "inscription/other"
+msgstr "Různé"
+
+msgid "inscription/sentence"
+msgstr "Citáty"
+
+msgid "inscription/uk/ace"
+msgstr "Eso"
+
+msgid "inscription/uk/achilles"
+msgstr "Achilles"
+
+msgid "inscription/uk/agility"
+msgstr "Hbitost"
+
+msgid "inscription/uk/ali"
+msgstr "Ali Baba"
+
+msgid "inscription/uk/apollo"
+msgstr "Apollón"
+
+msgid "inscription/uk/avenger"
+msgstr "Mstitel"
+
+msgid "inscription/uk/battleaxe"
+msgstr "Bitevní sekera"
+
+msgid "inscription/uk/bert"
+msgstr "Bert"
+
+msgid "inscription/uk/blockbuster"
+msgstr "Trhák"
+
+msgid "inscription/uk/brother"
+msgstr "Bratr ve zbrani"
+
+msgid "inscription/uk/bullpup"
+msgstr "Bullpup"
+
+msgid "inscription/uk/centaur"
+msgstr "Kentaur"
+
+msgid "inscription/uk/clang"
+msgstr "Řinčení železa"
+
+msgid "inscription/uk/cossack"
+msgstr "Kozák"
+
+msgid "inscription/uk/daredevil"
+msgstr "Odvážlivec"
+
+msgid "inscription/uk/demon"
+msgstr "Démon"
+
+msgid "inscription/uk/destroyer"
+msgstr "Ničitel"
+
+msgid "inscription/uk/devastator"
+msgstr "Devastátor"
+
+msgid "inscription/uk/dogs"
+msgstr "Psi války"
+
+msgid "inscription/uk/dragon"
+msgstr "Drak"
+
+msgid "inscription/uk/dreadnought"
+msgstr "Dreadnought"
+
+msgid "inscription/uk/duke"
+msgstr "Železný vévoda"
+
+msgid "inscription/uk/dust"
+msgstr "Písečný démon"
+
+msgid "inscription/uk/elusive"
+msgstr "Nepolapitelný"
+
+msgid "inscription/uk/face"
+msgstr "Tvář války"
+
+msgid "inscription/uk/fireball"
+msgstr "Ohnivá koule"
+
+msgid "inscription/uk/firm"
+msgstr "Známá firma"
+
+msgid "inscription/uk/fist"
+msgstr "Železná pěst"
+
+msgid "inscription/uk/for_king"
+msgstr "Za krále!"
+
+msgid "inscription/uk/gnome"
+msgstr "Skřítek"
+
+msgid "inscription/uk/god_king"
+msgstr "Bůh ochraňuj krále"
+
+msgid "inscription/uk/god_queen"
+msgstr "Bůh ochraňuj královnu"
+
+msgid "inscription/uk/harbinger"
+msgstr "Zvěstovatel apokalypsy"
+
+msgid "inscription/uk/hit_run"
+msgstr "Udeř a uteč"
+
+msgid "inscription/uk/hunter"
+msgstr "Lovec"
+
+msgid "inscription/uk/impertinent"
+msgstr "Drzý"
+
+msgid "inscription/uk/invulnerable"
+msgstr "Nezranitelný"
+
+msgid "inscription/uk/jumbo"
+msgstr "Slon"
+
+msgid "inscription/uk/junior"
+msgstr "Junior"
+
+msgid "inscription/uk/manowar"
+msgstr "Válečník"
+
+msgid "inscription/uk/miller"
+msgstr "Zlatý Miller"
+
+msgid "inscription/uk/panda"
+msgstr "Panda"
+
+msgid "inscription/uk/phantom"
+msgstr "Přízrak"
+
+msgid "inscription/uk/princess"
+msgstr "Princezna"
+
+msgid "inscription/uk/robroy"
+msgstr "Rob Roy"
+
+msgid "inscription/uk/scorpion"
+msgstr "Škorpión"
+
+msgid "inscription/uk/serenade"
+msgstr "Serenáda pro osla"
+
+msgid "inscription/uk/squirrel"
+msgstr "Veverka"
+
+msgid "inscription/uk/talisman"
+msgstr "Talisman"
+
+msgid "inscription/uk/thunderbolt"
+msgstr "Thunderbolt"
+
+msgid "inscription/uk/tiger"
+msgstr "Kde-je-tygr"
+
+msgid "inscription/uk/ussr"
+msgstr "Zdravíme naše spojence v SSSR"
+
+msgid "inscription/uk/viper"
+msgstr "Zmije"
+
+msgid "inscription/uk/warrior"
+msgstr "Ocelový válečník"
+
+msgid "inscription/uk/warspite"
+msgstr "Warspite"
+
+msgid "inscription/uk/wrath"
+msgstr "Hněv nebes"
+
+msgid "inscription/usa/accident"
+msgstr "Nehoda"
+
+msgid "inscription/usa/ally"
+msgstr "Ally Oop"
+
+msgid "inscription/usa/america"
+msgstr "Kapitán Amerika"
+
+msgid "inscription/usa/apocalypse"
+msgstr "Apokalypsa"
+
+msgid "inscription/usa/babe"
+msgstr "Dítě"
+
+msgid "inscription/usa/bambino"
+msgstr "Jezulátko"
+
+msgid "inscription/usa/baribal"
+msgstr "Baribal"
+
+msgid "inscription/usa/bastogne"
+msgstr "První v Bastogne"
+
+msgid "inscription/usa/betty"
+msgstr "Betty"
+
+msgid "inscription/usa/bison"
+msgstr "Bizon"
+
+msgid "inscription/usa/blackjack"
+msgstr "Black Jack"
+
+msgid "inscription/usa/blood"
+msgstr "Stará krev a odvaha"
+
+msgid "inscription/usa/bombshell"
+msgstr "Blesk z čistého nebe"
+
+msgid "inscription/usa/boomerang"
+msgstr "Bumerang"
+
+msgid "inscription/usa/brother"
+msgstr "Bratr ve zbrani"
+
+msgid "inscription/usa/bull"
+msgstr "Býk z lesů"
+
+msgid "inscription/usa/charlie"
+msgstr "Charlie"
+
+msgid "inscription/usa/chopper"
+msgstr "Chopper"
+
+msgid "inscription/usa/cobra"
+msgstr "Kobra královská"
+
+msgid "inscription/usa/daddy"
+msgstr "Velký taťka"
+
+msgid "inscription/usa/desperate"
+msgstr "Zoufalství"
+
+msgid "inscription/usa/devastator"
+msgstr "Devastátor"
+
+msgid "inscription/usa/dot"
+msgstr "Tečka, tečka, tečka, čárka"
+
+msgid "inscription/usa/finn"
+msgstr "Huckleberry Finn"
+
+msgid "inscription/usa/fireball"
+msgstr "Ohnivá koule"
+
+msgid "inscription/usa/firefly"
+msgstr "Světluška"
+
+msgid "inscription/usa/furious"
+msgstr "Zuřivý"
+
+msgid "inscription/usa/geronimo"
+msgstr "Geronimo"
+
+msgid "inscription/usa/glory"
+msgstr "Glory, Glory, Hallelujah!"
+
+msgid "inscription/usa/god"
+msgstr "Věříme v Boha"
+
+msgid "inscription/usa/hawk"
+msgstr "Válečný jestřáb"
+
+msgid "inscription/usa/hell_1"
+msgstr "Peklo na kolech"
+
+msgid "inscription/usa/hell_2"
+msgstr "Vítejte v pekle"
+
+msgid "inscription/usa/honey"
+msgstr "Miláček"
+
+msgid "inscription/usa/hothead"
+msgstr "Odvážlivec"
+
+msgid "inscription/usa/hunter"
+msgstr "Lovec"
+
+msgid "inscription/usa/hurricane"
+msgstr "Hurikán"
+
+msgid "inscription/usa/joe"
+msgstr "Nádherný Joe"
+
+msgid "inscription/usa/kilroy"
+msgstr "Kilroy byl tady"
+
+msgid "inscription/usa/king_kong"
+msgstr "King Kong"
+
+msgid "inscription/usa/lulu"
+msgstr "Lulu Belle"
+
+msgid "inscription/usa/magnet"
+msgstr "Vedoucí magnet"
+
+msgid "inscription/usa/mud"
+msgstr "Staré bláto a koleje"
+
+msgid "inscription/usa/rhodes"
+msgstr "Betty Rhodes"
+
+msgid "inscription/usa/sam"
+msgstr "Strýček Sam"
+
+msgid "inscription/usa/sawyer"
+msgstr "Tom Sawyer"
+
+msgid "inscription/usa/scot"
+msgstr "Létající skot"
+
+msgid "inscription/usa/strike"
+msgstr "Náhlý úder"
+
+msgid "inscription/usa/superman"
+msgstr "Superman"
+
+msgid "inscription/usa/thatcher"
+msgstr "Becky Thatcherová"
+
+msgid "inscription/usa/thunderbolt"
+msgstr "Thunderbolt"
+
+msgid "inscription/usa/tornado"
+msgstr "Tornádo"
+
+msgid "inscription/usa/warlock"
+msgstr "Černokněžník"
+
+msgid "inscription/usa/yankee"
+msgstr "Zatracený yankee"
+
+msgid "inscription/ussr/angry"
+msgstr "Hrozivý"
+
+msgid "inscription/ussr/arctic"
+msgstr "Braňte Sovětskou Arktidu!"
+
+msgid "inscription/ussr/armorer"
+msgstr "Tulský zbrojíř"
+
+msgid "inscription/ussr/avenger"
+msgstr "Lidový mstitel"
+
+msgid "inscription/ussr/belarus"
+msgstr "Za Sovětské Bělorusko"
+
+msgid "inscription/ussr/berlin"
+msgstr "Do Berlína!"
+
+msgid "inscription/ussr/brave"
+msgstr "Odvážný"
+
+msgid "inscription/ussr/chapaev"
+msgstr "Čapajev"
+
+msgid "inscription/ussr/cook"
+msgstr "Tuslký pekař"
+
+msgid "inscription/ussr/defender"
+msgstr "Obránce vlasti"
+
+msgid "inscription/ussr/don"
+msgstr "Dmitrij Donský"
+
+msgid "inscription/ussr/donbass"
+msgstr "Doněčští mstitelé"
+
+msgid "inscription/ussr/enemy"
+msgstr "Bijte nepřítele!"
+
+msgid "inscription/ussr/farmer"
+msgstr "Jejský kolchozník"
+
+msgid "inscription/ussr/fearless"
+msgstr "Neohrožený"
+
+msgid "inscription/ussr/frunze"
+msgstr "Frunze"
+
+msgid "inscription/ussr/fulminatory"
+msgstr "Hřmící"
+
+msgid "inscription/ussr/furious"
+msgstr "Zuřivý"
+
+msgid "inscription/ussr/girlfriend"
+msgstr "Bojující přítelkyně"
+
+msgid "inscription/ussr/go"
+msgstr "Vpřed!"
+
+msgid "inscription/ussr/gold"
+msgstr "Chervonny"
+
+msgid "inscription/ussr/intrepid"
+msgstr "Neohrožený"
+
+msgid "inscription/ussr/invader"
+msgstr "Bijte okupanty!"
+
+msgid "inscription/ussr/komsomol"
+msgstr "Komsomolec"
+
+msgid "inscription/ussr/kuibyshev"
+msgstr "Kujbyšev"
+
+msgid "inscription/ussr/kutuzov"
+msgstr "Kutuzov"
+
+msgid "inscription/ussr/leningrad"
+msgstr "Za Leningrad!"
+
+msgid "inscription/ussr/leningradian"
+msgstr "Leningradec"
+
+msgid "inscription/ussr/leopard"
+msgstr "Sněžný leopard"
+
+msgid "inscription/ussr/liberator"
+msgstr "Osvoboditel"
+
+msgid "inscription/ussr/lightning"
+msgstr "Třaskavý"
+
+msgid "inscription/ussr/mayakovsky"
+msgstr "Vladimir Majakovskij"
+
+msgid "inscription/ussr/metallurg"
+msgstr "Čeljabinský hutník"
+
+msgid "inscription/ussr/moscow"
+msgstr "Za Moskvu!"
+
+msgid "inscription/ussr/motherland_1"
+msgstr "Za vlast!"
+
+msgid "inscription/ussr/motherland_2"
+msgstr "Za matku Rus!"
+
+msgid "inscription/ussr/motherland_3"
+msgstr "Za naší sovětskou vlast!"
+
+msgid "inscription/ussr/muromets"
+msgstr "Ilja Muromec"
+
+msgid "inscription/ussr/neva"
+msgstr "Alexandr Něvský"
+
+msgid "inscription/ussr/penza"
+msgstr "Penzská pomsta!"
+
+msgid "inscription/ussr/pioneer"
+msgstr "Průkopník"
+
+msgid "inscription/ussr/polar"
+msgstr "Sovětský polárník"
+
+msgid "inscription/ussr/rash"
+msgstr "Hbitý"
+
+msgid "inscription/ussr/red"
+msgstr "Rudá armáda je nejsilnější!"
+
+msgid "inscription/ussr/rudy"
+msgstr "Rudý"
+
+msgid "inscription/ussr/runaway"
+msgstr "Nezkrotný"
+
+msgid "inscription/ussr/russian"
+msgstr "Rusové se nevzdávají!"
+
+msgid "inscription/ussr/ruthless"
+msgstr "Nemilosrdný"
+
+msgid "inscription/ussr/schoolboy"
+msgstr "Student automobilky"
+
+msgid "inscription/ussr/sevastopol"
+msgstr "Udržet Sevastopol!"
+
+msgid "inscription/ussr/shchors"
+msgstr "Nikolaj Sčors"
+
+msgid "inscription/ussr/smashing"
+msgstr "Drtící"
+
+msgid "inscription/ussr/spartak"
+msgstr "Spartakus"
+
+msgid "inscription/ussr/stalin_1"
+msgstr "Za Stalina!"
+
+msgid "inscription/ussr/stalin_2"
+msgstr "Josef Stalin"
+
+msgid "inscription/ussr/stalinist"
+msgstr "Stalinisti"
+
+msgid "inscription/ussr/steelmaker"
+msgstr "Krivoj Rogský ocelář"
+
+msgid "inscription/ussr/strong"
+msgstr "Rozhodný"
+
+msgid "inscription/ussr/susanin"
+msgstr "Ivan Susanin"
+
+msgid "inscription/ussr/suvorov"
+msgstr "Suvorov"
+
+msgid "inscription/ussr/tigers"
+msgstr "Bojujte proti tygrům!"
+
+msgid "inscription/ussr/toberlin"
+msgstr "Na Berlín!"
+
+msgid "inscription/ussr/tutsan"
+msgstr "Lovec"
+
+msgid "inscription/ussr/ukraine"
+msgstr "Za Sovětskou Ukrajinu"
+
+msgid "inscription/ussr/varangian"
+msgstr "\"Varjag\""
+
+msgid "inscription/ussr/victor"
+msgstr "Vítězný"
+
+msgid "inscription/ussr/victory_1"
+msgstr "K vítězství!"
+
+msgid "inscription/ussr/victory_2"
+msgstr "Zvítězíme!"
+
+msgid "inscription/ussr/victory_3"
+msgstr "Vítězství bude naše!"
+
+msgid "inscription/ussr/warlike"
+msgstr "Bojovný"
+
+msgid "inscription/ussr/west"
+msgstr "Na západ!"
