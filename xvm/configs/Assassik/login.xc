@@ -12,6 +12,9 @@
     "autologin": false,
     // Ping servers
     // Пинг серверов
+    // Auto confirm old replays playing
+    // Автоматически подтверждать проигрывание старых реплеев
+    "confirmOldReplays": false,
     "pingServers": {
       "$ref": { "file": "hangar.xc", "path": "hangar.pingServers" },
       // true - Show ping to the servers
