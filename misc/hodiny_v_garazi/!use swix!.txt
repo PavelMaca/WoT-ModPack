@@ -1,1 +1,0 @@
-použít swix, swfmill má problém s tlaèítky -> nelze èistì dekompilovat
