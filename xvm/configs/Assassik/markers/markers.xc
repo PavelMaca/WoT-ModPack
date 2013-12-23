@@ -135,7 +135,7 @@
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
-            "blowupMessage": "{{l10n:blownUp}}"        //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
+            "blowupMessage": "{{l10n:blownUp}}\n{{dmg}}"        //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
 		  "contourIcon": {                    // Vehicle icon
             "visible": false,                 //   false - Disable
