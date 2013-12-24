@@ -368,6 +368,9 @@ _(#messenger:battle/toolTips/duringChat)
     <battleResultGold>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/gold): &lt;font color='#FFC363'&gt;&lt;img src='LabelGold'/&gt;%(gold)s&lt;/font&gt;&lt;/font&gt;</battleResultGold>
     <battleQuests>&lt;br/&gt;&lt;font color='#D6D7D4'&gt;_(#messenger:serviceChannelMessages/battleResults/quests):&lt;/font&gt;%(achieves)s</battleQuests>
     <battleQuestsSlots>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/quests/vehicleSlots): &lt;font color='#D6D7D4'&gt;%(slots)s&lt;/font&gt;&lt;/font&gt;</battleQuestsSlots>
+    <battleQuestsFreeXP>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/quests/freeXP): &lt;font color='#D6D7D4'&gt;%(freeXP)s&lt;/font&gt;&lt;/font&gt;</battleQuestsFreeXP>
+    <battleQuestsCredits>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/quests/credits): &lt;font color='#D6D7D4'&gt;%(credits)s&lt;/font&gt;&lt;/font&gt;</battleQuestsCredits>
+    <battleQuestsGold>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/quests/gold): &lt;font color='#FFC363'&gt;%(gold)s&lt;/font&gt;&lt;/font&gt;</battleQuestsGold>
     <battleQuestsBerths>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/quests/berths): &lt;font color='#D6D7D4'&gt;%(berths)s&lt;/font&gt;&lt;/font&gt;</battleQuestsBerths>
     <battleQuestsPremium>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/quests/premium): &lt;font color='#D6D7D4'&gt;%(days)s&lt;/font&gt;&lt;/font&gt;</battleQuestsPremium>
     <battleQuestsItems>&lt;br/&gt;&lt;font color='#929290'&gt;_(#messenger:serviceChannelMessages/battleResults/quests/items): &lt;font color='#D6D7D4'&gt;%(names)s&lt;/font&gt;&lt;/font&gt;</battleQuestsItems>
@@ -763,5 +766,10 @@ _(#messenger:battle/toolTips/duringChat)
       </filters>
       <message>&lt;font color='#E2D2A2'&gt;%(text)s&lt;/font&gt;</message>
     </serverDowntimeCompensation>
+    <tokenQuests>
+      <type>	battleResult	</type>
+      <icon>	BattleResultIcon	</icon>
+      <message>&lt;font color='#D6D7D4'&gt;_(#messenger:serviceChannelMessages/battleResults/quests):&lt;/font&gt;%(achieves)s</message>
+    </tokenQuests>
   </htmlTemplates>
 </messenger.xml>
