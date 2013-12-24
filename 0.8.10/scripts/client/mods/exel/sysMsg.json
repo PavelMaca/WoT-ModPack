@@ -46,9 +46,9 @@
 			"AmmoCost":"Боекомплект: {{AmmoCost}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
 			"EquipCost":"Снаряжение: {{EquipCost}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n"},
 		"brf":{
-			"isWin":"<font color='#60FF00' size='13'>Победа!</font>\n",
-			"isDraw":"<font color='#FE7903' size='13'>Ничья</font>\n",
-			"isDefeat":"<font color='#FE0E00' size='13'>Поражение</font>\n",
+			"isWin":"<img src='LabelVictory'/>",
+			"isDraw":"<img src='LabelDrawGame'/>",
+			"isDefeat":"<img src='LabelDefeat'/>",
 			"xp":"Получено:{{dailyXPFactor}} {{xp}}<img src='img://gui/maps/icons/library/XpIcon-1.png' width='14' height='14' align='baseline' vspace='-4'>",
 			"vehicle":"<font color='#FFBC33' size='12'>{{vehicle}}</font>\n",
 			"credits":"  {{credits}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
