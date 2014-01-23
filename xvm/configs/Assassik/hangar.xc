@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Parameters for hangar
  * Параметры ангара
  */
@@ -16,9 +16,9 @@
     // true - Show mastery mark in tech tree
     // true - Показывать знак мастерства в дереве исследований
     "masteryMarkInTechTree": true,
-    // true - Show extra data in profile (experimental)
-    // true - Показывать расширенные данные в профиле (экспериментально)
-    "showExtraDataInProfile": true,
+    // true - Hide price button in tech tree
+    // true - Прятать кнопку с ценой в дереве исследований
+    "hidePricesInTechTree": false,
     // true - Enable widgets
     // true - включить виджеты
     "widgetsEnabled": false,
