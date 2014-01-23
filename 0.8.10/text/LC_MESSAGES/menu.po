@@ -6,10 +6,12 @@ msgstr ""
 "Last-Translator: i_maliavko <i_maliavko@wargaming.net>\n"
 "Language-Team: WoT Tým <noreply@wargaming.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "PO-Revision-Date: \n"
-"X-Generator: Poedit 1.5.5\n"
+"Language: cs_CZ\n"
+"X-Generator: Poedit 1.6.3\n"
 
 msgid "account/profile/emptyBattleList"
 msgstr "Nikdy nebyl v boji"
@@ -331,8 +333,8 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2013. Všechna práva vyhrazena.  [8.10] Crabtr33 rozšířená "
-"edice CZ v1.90"
+"Wargaming.net 2008-2014. Všechna práva vyhrazena. "
+"[8.10]Crabtr33 rozšířená CZ v2.00"
 
 msgid "currentVehicleStatus/ammoNotFull"
 msgstr "Nekompletní munice"
@@ -624,12 +626,12 @@ msgstr ""
 
 msgid "descriptions/vehicleEngine"
 msgstr ""
-"Výkon: %(enginePower)s koní\n"
+"Výkon: %(enginePower)s koní.\n"
 "Pravděpodobnost požáru při zásahu: %(fireStartingChance)s"
 
 msgid "descriptions/vehicleGun"
 msgstr ""
-"%(reloadTime)s ran/min.; Průměrné poškození: %(avgDamage)s\n"
+"%(reloadTime)s ran/min; Průměrné poškození: %(avgDamage)s\n"
 "Průměrná průbojnost: %(avgPiercingPower)s mm"
 
 msgid "descriptions/vehicleRadio"
@@ -709,8 +711,8 @@ msgstr "Doplnění účtu"
 
 msgid "exchangeVcoin/vcoinIsTight"
 msgstr ""
-"Operaci nelze provést. Na vašem účtu není dostatek VCOIN. Minimálně %(minval)"
-"s VCOIN je potřeba."
+"Operaci nelze provést. Na vašem účtu není dostatek VCOIN. Minimálně "
+"%(minval)s VCOIN je potřeba."
 
 msgid "exchangeXP/available"
 msgstr "Dostupná zkušenost:"
@@ -1623,7 +1625,7 @@ msgid "moduleInfo/params/reloadMagazineTime"
 msgstr "<h>Doba úplného nabití <p>(s)</p></h>"
 
 msgid "moduleInfo/params/reloadTime"
-msgstr "<h>Rychlost střelby <p>(ran/min.)</p></h>"
+msgstr "<h>Rychlost střelby <p>(ran/min)</p></h>"
 
 msgid "moduleInfo/params/rotationSpeed"
 msgstr "<h>Rychlost otáčení <p>(stupňů/s)</p></h>"
@@ -1830,16 +1832,16 @@ msgid "premium/submitContinue"
 msgstr "Prodloužit"
 
 msgid "price/credits"
-msgstr "<img src='LabelCredit'/> "
+msgstr "kreditů"
 
 msgid "price/gold"
-msgstr "<img src='LabelGold'/> "
+msgstr "zlaťáků"
 
 msgid "price/received"
-msgstr "<font color='#929290'>Získal jste </font>%s"
+msgstr "Získal jste %s"
 
 msgid "price/spent"
-msgstr "<font color='#929290'>Utratil jste </font>%s"
+msgstr "Utratil jste %s"
 
 msgid "profile/clan/label"
 msgstr "Klan:"
@@ -2061,7 +2063,7 @@ msgid "research/labels/totalXP"
 msgstr "Celkem"
 
 msgid "research/labels/vehXP"
-msgstr "Zkušenosti vozidla"
+msgstr "Zkušenosti"
 
 msgid "research/premium/benefits/fifth"
 msgstr "Zrychlený výcvik posádky dostupný od první bitvy."
@@ -2494,13 +2496,13 @@ msgid "tank_params/damageAvg"
 msgstr "<h1>Průměrné poškození za výstřel <p>(HP)</p></h1>"
 
 msgid "tank_params/damageAvgPerMinute"
-msgstr "<h1>Průměrné poškození za minutu <p>(HP/min.)</p></h1>"
+msgstr "<h1>Průměrné poškození za minutu <p>(HP/min)</p></h1>"
 
 msgid "tank_params/enginePower"
-msgstr "<h1>Výkon motoru <p>(koní)</p></h1>"
+msgstr "<h1>Výkon motoru <p>(hp)</p></h1>"
 
 msgid "tank_params/enginePowerPerTon"
-msgstr "<h1>Měrný výkon <p>(koní/t)</p></h1>"
+msgstr "<h1>Měrný výkon <p>(hp/t)</p></h1>"
 
 msgid "tank_params/explosionRadius"
 msgstr "<h1>Poloměr výbuchu <p>(m)</p></h1>"
@@ -2527,7 +2529,7 @@ msgid "tank_params/radioDistance"
 msgstr "<h1>Dosah rádia <p>(m)</p></h1>"
 
 msgid "tank_params/reloadTime"
-msgstr "<h1>Rychlost střelby <p>(ran/min.)</p></h1>"
+msgstr "<h1>Rychlost střelby <p>(ran/min)</p></h1>"
 
 msgid "tank_params/reloadTimeSecs"
 msgstr "<h1>Doba nabíjení <p>(s)</p></h1>"
@@ -2975,7 +2977,7 @@ msgid "vehicleInfo/params/radioDistance"
 msgstr "Dosah rádia (m)"
 
 msgid "vehicleInfo/params/reloadTime"
-msgstr "Rychlost střelby (ran/min.)"
+msgstr "Rychlost střelby (ran/min)"
 
 msgid "vehicleInfo/params/speedLimits"
 msgstr "Maximální rychlost (km/h)"
