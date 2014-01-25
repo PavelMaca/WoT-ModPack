@@ -76,6 +76,6 @@
 		"$ref": { "path":"template" },
 		"name": "Global Win Rate",
 		"y": -50,
-		"format": "<font color='{{c:t-rating}}'>{{t-rating}}</font>  <font color='{{c:t-battles}}'>{{t-battles}}</font> <font color='{{c:kb}}'>({{kb}})</font>"
+		"format": "<font color='{{c:wn8}}'>{{wn8}}</font> | <font color='{{c:t-battles}}'>{{t-battles}}</font>"
 	}
 }
