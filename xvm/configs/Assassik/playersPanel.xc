@@ -4,7 +4,7 @@
  */
 {
   "def": {
-    "nick": "<font color='{{c:wn}}'>{{nick}}</font>",
+    "nick": "<font color='{{c:wn8}}'>{{nick}}</font>",
     "vehicle": "<font color='{{c:t-battles}}'>{{vehicle}}</font>"
   },
 
