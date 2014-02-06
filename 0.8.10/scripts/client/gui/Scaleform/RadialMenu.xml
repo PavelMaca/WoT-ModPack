@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- 
+<!--
 CustomCommandRose v.2.2.3 by hedger, translated by locastan.
 Mod "Radial menu customizable commands"
 
@@ -17,11 +17,11 @@ before.
 
 There is a menu, in which commands are selected with reference to the map. They
 automatically load in combination with a particular map. This mode
-is activated by pressing the left alt button + key to show the radial menu (which is by 
+is activated by pressing the left alt button + key to show the radial menu (which is by
 default z, so leftalt + z give you the mapspecific commands).
 
 There is also a separate configuration for artillery.
-        
+
 Base configuration file is the RadialMenu.xml located at
     res_mods \ 0.8.4 \ scripts \ client \ gui \ Scaleform \
 
@@ -66,7 +66,7 @@ Each command is formatted as follows:
       <Icon> Icon (see list below) </Icon>
       <Text> Full text displayed in the chat (supports macros) </Text>
       <ChatMode> Chat mode, Team or All </ChatMode>
-	  
+	
 	        <!- - These are optional commands - ->
       <Command>The capitalize Iconnames so they appear on the minimap</Command>
       <Variants>List of phrase variants that replace %(randpart)s macro
@@ -83,7 +83,7 @@ Valid names of icons:
   'Followme', 'Turnback', 'Helpmeex', 'Stop', 'Support', 'AttackSPG']
 
 Valid names of Command for appearance on Minimap:
-[ 'ATTACK', 'ATTACKENEMY', 'BACKTOBASE', 'FOLLOWME', 'HELPME', 'HELPMEEX', 
+[ 'ATTACK', 'ATTACKENEMY', 'BACKTOBASE', 'FOLLOWME', 'HELPME', 'HELPMEEX',
   'NEGATIVE', 'POSITIVE', 'RELOADINGGUN' 'STOP', 'SUPPORTMEWITHFIRE', 'TURNBACK']
 
 Supported macros in chat text:
@@ -109,7 +109,7 @@ Example of a complete text unit:
          <Variant>That's enough out of you</Variant>
          <Variant>Too many shill voices in the wind</Variant>
 		 </Variants>
-		 <Ping>B7 D9</Ping> 
+		 <Ping>B7 D9</Ping>
          <Hotkey>KEY_LALT+KEY_1</Hotkey>
 </ Command>
 -->
@@ -133,7 +133,6 @@ Example of a complete text unit:
 				<Text>Back to base, please hurry!</Text>
 				<ChatMode>Team</ChatMode>
 				<Command>BACKTOBASE</Command>
-				<Hotkey>KEY_LCONTROL+KEY_F</Hotkey>
 			</Command>
 			<!-- =3= -->
 			<Command>
@@ -228,7 +227,6 @@ Example of a complete text unit:
 				<Text>Back to base, please hurry!</Text>
 				<ChatMode>Team</ChatMode>
 				<Command>BACKTOBASE</Command>
-				<Hotkey>KEY_LCONTROL+KEY_F</Hotkey>
 			</Command>
 			<!-- =3= -->
 			<Command>
@@ -415,14 +413,14 @@ Example of a complete text unit:
 		</EnemyCommands>
 	</SPGMenu>
 	
-<!-- 
+<!--
 	<lightTankMenu>
 		<TeamCommands>
 		</TeamCommands>
-    
+
 		<EnemyCommands>
 		</EnemyCommands>
-    
+
 		<CommonCommands>
 		</CommonCommands>
 	</lightTankMenu>
@@ -430,10 +428,10 @@ Example of a complete text unit:
 	<mediumTankMenu>
 		<TeamCommands>
 		</TeamCommands>
-    
+
 		<EnemyCommands>
 		</EnemyCommands>
-    
+
 		<CommonCommands>
 		</CommonCommands>
 	</mediumTankMenu>
@@ -441,26 +439,26 @@ Example of a complete text unit:
 	<heavyTankMenu>
 		<TeamCommands>
 		</TeamCommands>
-    
+
 		<EnemyCommands>
 		</EnemyCommands>
-    
+
 		<CommonCommands>
 		</CommonCommands>
 	</heavyTankMenu>
 	<AT-SPGMenu>
 		<TeamCommands>
 		</TeamCommands>
-    
+
 		<EnemyCommands>
 		</EnemyCommands>
-    
+
 		<CommonCommands>
 		</CommonCommands>
 	</AT-SPGMenu>
   -->
 <!--
-	<TankSpecificCommands>	
+	<TankSpecificCommands>
 		<AMX_12t>
 			<Alias>AutoloaderTank</Alias>
 		</AMX_12t>
@@ -474,39 +472,39 @@ Example of a complete text unit:
 
 
 	<MapCommands>
-		<Map_01_karelia /> 
-		<Map_02_malinovka /> 
-		<Map_03_campania /> 
-		<Map_04_himmelsdorf /> 
-		<Map_05_prohorovka /> 
-		<Map_06_ensk /> 
-		<Map_07_lakeville /> 
-		<Map_08_ruinberg /> 
-		<Map_10_hills /> 
-		<Map_11_murovanka /> 
-		<Map_13_erlenberg /> 
-		<Map_14_siegfried_line /> 
-		<Map_15_komarin /> 
-		<Map_17_munchen /> 
-		<Map_18_cliff /> 
-		<Map_19_monastery /> 
-		<Map_22_slough /> 
-		<Map_23_westfeld /> 
-		<Map_28_desert /> 
-		<Map_29_el_hallouf /> 
-		<Map_31_airfield /> 
-		<Map_33_fjord /> 
-		<Map_34_Redshire /> 
-		<Map_35_steppes /> 
-		<Map_36_fishing_bay /> 
-		<Map_37_caucasus /> 
-		<Map_38_mannerheim_line /> 
-		<Map_39_crimea /> 
-		<Map_42_north_america /> 
-		<Map_44_north_america /> 
-		<Map_45_north_america /> 
-		<Map_47_canada_a /> 
-		<Map_51_asia /> 
+		<Map_01_karelia />
+		<Map_02_malinovka />
+		<Map_03_campania />
+		<Map_04_himmelsdorf />
+		<Map_05_prohorovka />
+		<Map_06_ensk />
+		<Map_07_lakeville />
+		<Map_08_ruinberg />
+		<Map_10_hills />
+		<Map_11_murovanka />
+		<Map_13_erlenberg />
+		<Map_14_siegfried_line />
+		<Map_15_komarin />
+		<Map_17_munchen />
+		<Map_18_cliff />
+		<Map_19_monastery />
+		<Map_22_slough />
+		<Map_23_westfeld />
+		<Map_28_desert />
+		<Map_29_el_hallouf />
+		<Map_31_airfield />
+		<Map_33_fjord />
+		<Map_34_Redshire />
+		<Map_35_steppes />
+		<Map_36_fishing_bay />
+		<Map_37_caucasus />
+		<Map_38_mannerheim_line />
+		<Map_39_crimea />
+		<Map_42_north_america />
+		<Map_44_north_america />
+		<Map_45_north_america />
+		<Map_47_canada_a />
+		<Map_51_asia />
 		<Map_Default>
 			<Command>
 				<Title>Jsem tu sám!</Title>
@@ -552,20 +550,5 @@ Example of a complete text unit:
 	
 	<!-- These command only work per their hotkey, define as many as you like -->
   	<HotkeyOnlyCommands>
-		<Command>
-			<Title>Attack!</Title>
-			<Icon>Attack</Icon>
-			<Text>Lets go and kill more of them than us!</Text>
-			<ChatMode>Team</ChatMode>
-			<Hotkey>KEY_LALT+KEY_1</Hotkey>
-		</Command>
-
-		<Command>
-			<Title>Don't do it!</Title>
-			<Icon>Stop</Icon>
-			<Text>Dont go out to mess with them!</Text>
-			<ChatMode>Team</ChatMode>
-			<Hotkey>KEY_LALT+KEY_2</Hotkey>
-		</Command>
 	</HotkeyOnlyCommands>
 </RadialMenu.xml>
