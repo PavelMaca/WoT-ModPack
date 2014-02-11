@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2014-01-05 20:48+0100\n"
+"Last-Translator: WoT Translator <noreply@wargaming.net>\n"
+"Language-Team: WoT Team <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Language: cs_CZ\n"
+"X-Generator: Poedit 1.6.3\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Dobít zásobník munice"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Jízda vzad s tempomatem"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Jízda vpřed s tempomatem"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Vypnout automatické zaměřování"
+
+msgid "battleControls/fire"
+msgstr "Střelba"
+
+msgid "battleControls/hideInterface"
+msgstr "Zobrazit/skrýt rozhraní"
+
+msgid "battleControls/hideMinimap"
+msgstr "Ukázat/Skrýt Minimapu"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Uložit screen do adresáře"
+
+msgid "battleControls/movementBackward"
+msgstr "Jízda vzad"
+
+msgid "battleControls/movementForward"
+msgstr "Jízda vpřed"
+
+msgid "battleControls/movementLeft"
+msgstr "Otáčení/pohyb doleva"
+
+msgid "battleControls/movementRight"
+msgstr "Otáčení/pohyb doprava"
+
+msgid "battleControls/showCursor"
+msgstr "Zobrazit kurzor"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(pro minimapu, seznam hráčů, atp.)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Zobrazit alternativní značku"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Zafixování podvozku (stíhače)"
+
+msgid "battleControls/title"
+msgstr "Režim bitvy"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Zapnout/vypnout automatické zaměřování"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(se zaměřovačem na cíli)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Zobrazit/skrýt seznamy týmů"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Zapnout/vypnout odstřelovací režim"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "nebo dělostřelecký režim"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Zapnout hlasovou komunikaci"
+
+msgid "chatControls/change"
+msgstr "Týmu/Všem"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Vstup do režimu psaní"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Opustit režim psaní"
+
+msgid "chatControls/send"
+msgstr "Poslat zprávu"
+
+msgid "chatControls/title"
+msgstr "Režim psaní"
+
+msgid "chatShortcuts/attack"
+msgstr "Zaútočte!"
+
+msgid "chatShortcuts/attackEnemy"
+msgstr "Útočím!"
+
+msgid "chatShortcuts/attackEnemy/ext"
+msgstr "(se zaměřovačem na cíli)"
+
+msgid "chatShortcuts/backToBase"
+msgstr "Braňte základnu!"
+
+msgid "chatShortcuts/followMe"
+msgstr "Následuj mě!"
+
+msgid "chatShortcuts/helpMe"
+msgstr "Pomoc!"
+
+msgid "chatShortcuts/helpMeEx"
+msgstr "Pomoc!"
+
+msgid "chatShortcuts/negative"
+msgstr "Negativní!"
+
+msgid "chatShortcuts/positive"
+msgstr "Potvrzuji!"
+
+msgid "chatShortcuts/reloadingGun"
+msgstr "Nabíjím!"
+
+msgid "chatShortcuts/stop"
+msgstr "Stát!"
+
+msgid "chatShortcuts/supportMeWithFire"
+msgstr "Žádám palbu!"
+
+msgid "chatShortcuts/title"
+msgstr "Komunikační zkratky:"
+
+msgid "chatShortcuts/toBack"
+msgstr "Zpět!"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Zbývající granáty"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Směr střelby"
+
+msgid "crosshairControls/dispercion"
+msgstr "Rozptyl"
+
+msgid "crosshairControls/example/damage"
+msgstr "-200"
+
+msgid "crosshairControls/example/hp"
+msgstr "440/640"
+
+msgid "crosshairControls/example/name"
+msgstr "T-35-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Pozice děla"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Výdrž hráče"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Indikátor výdrže"
+
+msgid "crosshairControls/hpValues"
+msgstr "Výdrž cíle (%/zbývá/celkem)"
+
+msgid "crosshairControls/marker"
+msgstr "Záměrný bod"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Nabíjení"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Čas nabíjení děla v sekundách"
+
+msgid "crosshairControls/targetClass"
+msgstr "Značka typu vozidla"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Vzdálenost cíle"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Ikona vozidla"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Úroveň vozidla"
+
+msgid "crosshairControls/targetName"
+msgstr "Model vozidla / Jméno hráče"
+
+msgid "crosshairControls/title"
+msgstr "Ukazatele děla a zaměřovače"
+
+msgid "markerColors/enemy"
+msgstr "Nepřítel"
+
+msgid "markerColors/friend"
+msgstr "Spojenec"
+
+msgid "markerColors/squadPlayer"
+msgstr "Spolubojovník v četě"
+
+msgid "markerColors/teamKiller"
+msgstr "Hráč poškozující vlastní"
+
+msgid "markerColors/title"
+msgstr "Barvy značek:"
+
+msgid "markerMarks/attack"
+msgstr "Útočím"
+
+msgid "markerMarks/follow"
+msgstr "Následuj mě!"
+
+msgid "markerMarks/help"
+msgstr "Pomoc!"
+
+msgid "markerMarks/target/sau"
+msgstr "Cíl dělostřelectva"
+
+msgid "markerMarks/target/tank"
+msgstr "Cíl tanku"
+
+msgid "markerMarks/title"
+msgstr "Značky na minimapě:"
+
+msgid "radialMenu/attackEnemy"
+msgstr "Požaduji podporu!"
+
+msgid "radialMenu/attackEnemy/ext"
+msgstr "(se zaměřovačem na cíli)"
+
+msgid "radialMenu/show"
+msgstr "Zobrazit příkazové menu"
+
+msgid "radialMenu/show/ext"
+msgstr "(seznam příkazů v závislosti na cíli)"
+
+msgid "radialMenu/title"
+msgstr "Příkazové menu"
+
+msgid "returnToGame"
+msgstr "Esc - zpět do hry"
+
+msgid "settings/button"
+msgstr "Nastavení"
+
+msgid "settings/help"
+msgstr "Ke zobrazení a úpravě ovládání klikněte na tlačítko nastavení."
+
+msgid "vehicleTypes/title"
+msgstr "Značky vozidel"
