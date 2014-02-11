@@ -118,7 +118,6 @@
     </overrides>
   </controls>
   <effects>
-    <vehicle_changing>/GUI/buttons/tank_changing</vehicle_changing>
     <spend_credits>/GUI/buttons/coins</spend_credits>
     <spend_gold>/GUI/buttons/coins</spend_gold>
     <spend_credits_and_gold>/GUI/buttons/coins</spend_credits_and_gold>
