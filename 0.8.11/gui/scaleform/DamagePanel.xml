@@ -8,9 +8,9 @@
 
 	<!-- Макрос для определения команды атаковавшего игрока - {{tank-team}} -->
 	<configTeamAttacker>
-		<formatPlayer>игрок</formatPlayer> <!-- игрок -->
-		<formatAlly>союзник</formatAlly> <!-- союзник -->
-		<formatEnemy>противник</formatEnemy> <!-- противник -->
+		<formatPlayer></formatPlayer> <!-- игрок -->
+		<formatAlly><![CDATA[<font color="#00FF00"> (spojenec)</font>]]></formatAlly> <!-- союзник -->
+		<formatEnemy></formatEnemy> <!-- противник -->
 	</configTeamAttacker>
 	
 	<!-- Макрос для определения типа полученного урона - {{dmg-reason}} -->
@@ -24,13 +24,13 @@
 	
 	<!-- Макрос для определения типа попадания - {{hit-reason}} -->
 	<configReasonHit>
-		<formatRicochet><![CDATA[<font size='14' color='#999999'><b>рикошет</b></font>]]></formatRicochet> <!-- рикошет -->
-		<formatArmorNotPierced><![CDATA[<font size='14' color='#999999'><b>не пробито</b></font>]]></formatArmorNotPierced> <!-- непробитие -->
-		<formatArmorPiercedNoDamage><![CDATA[<font size='14' color='#999999'><b>без урона</b></font>]]></formatArmorPiercedNoDamage> <!-- пробитие без урона -->
-		<formatCriticalHit><![CDATA[<font size='14' color='#999999'><b>крит</b></font>]]></formatCriticalHit> <!-- критическое повреждение модуля или экипажа -->
-		<formatArmorPierced><![CDATA[<b>{{dmg-one}}</b>]]></formatArmorPierced> <!-- пробитие с уроном -->
-		<formatSplash><![CDATA[<b>{{dmg-one}}</b> <font face='DPSymbol' size='17'>9</font>]]></formatSplash> <!-- урон от осколков ОФ снаряда -->
-		<formatOtherDamage><![CDATA[<b>{{dmg-one}}</b>]]></formatOtherDamage> <!-- другой урон (пожар/таран/падение) -->
+		<formatRicochet><![CDATA[]]></formatRicochet> <!-- рикошет -->
+		<formatArmorNotPierced><![CDATA[]]></formatArmorNotPierced> <!-- непробитие -->
+		<formatArmorPiercedNoDamage><![CDATA[]]></formatArmorPiercedNoDamage> <!-- пробитие без урона -->
+		<formatCriticalHit><![CDATA[0]]></formatCriticalHit> <!-- критическое повреждение модуля или экипажа -->
+		<formatArmorPierced><![CDATA[{{dmg-one}}]]></formatArmorPierced> <!-- пробитие с уроном -->
+		<formatSplash><![CDATA[{{dmg-one}}]]></formatSplash> <!-- урон от осколков ОФ снаряда -->
+		<formatOtherDamage><![CDATA[{{dmg-one}}]]></formatOtherDamage> <!-- другой урон (пожар/таран/падение) -->
 	</configReasonHit>
 	
 	<!-- Макрос для определения части танка, в которую было попадание снаряда - {{tank-part}} -->
@@ -98,9 +98,9 @@
 		<addFire total = "true"/> <!-- total (true, false) - cуммирование урона от пожара в списке полученного урона -->
 		<location x = "235" y = "-5" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "500" height = "236"/> <!-- width - ширина элемента. height - высота элемента -->
-		<filter size = "5" angle = "90" distance = "0" color = "0x000000" alpha = "100" strength = "250"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
-        <format><![CDATA[<textformat leading='5' tabstops='[65]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{number}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-shortname}}</font></font></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
-        <format_key><![CDATA[<textformat leading='5' tabstops='[65]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{number}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-nick}}</font></font></textformat>]]></format_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) в списке истории полученного урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
+		<filter size = "2" angle = "0" distance = "0" color = "0x000000" alpha = "100" strength = "100"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
+        <format><![CDATA[<textformat leading='5' tabstops='[65]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}} : </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-shortname}}</font>{{tank-team}}</font></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
+        <format_key><![CDATA[<textformat leading='5' tabstops='[65]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-nick}}</font>{{tank-team}}</font></textformat>]]></format_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) в списке истории полученного урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
 	</configListLog>
 	
 	<!-- Сообщение о последнем полученном уроне -->
@@ -108,9 +108,9 @@
 		<noDamage add = "true"/> <!-- add (true, false) - отображение в сообщении непробитий/рикошетов -->
 		<location x = "0" y = "-150" centerX = "true" centerY = "false"/> <!-- x, y, - координаты расположения сообщения относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "500" height = "150"/> <!-- width - ширина элемента. height - высота элемента -->
-		<filter size = "30" angle = "0" distance = "0" color = "0xFF000" alpha = "80" strength = "200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
-		<delay>7</delay> <!-- время в секундах, по истечении которого сообщение исчезнет -->
-		<format><![CDATA[<font face='$fieldFont'><font size='40' color='{{clr-shell-gold}}'>-{{dmg-one}}</font><br /><font size='20' color='#FFFFFF'>{{tank-shortname}}</font></font>]]></format> <!-- текст, который будет отображать строку с последним полученным уроном (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
+		<filter size = "30" angle = "0" distance = "0" color = "0xFF0000" alpha = "80" strength = "200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
+		<delay>5</delay> <!-- время в секундах, по истечении которого сообщение исчезнет -->
+		<format><![CDATA[<font face='$fieldFont'><font size='40' color='{{clr-shell-gold}}'>{{hit-reason}}</font><br /><font size='20' color='#FFFFFF'>{{tank-shortname}}</font></font>]]></format> <!-- текст, который будет отображать строку с последним полученным уроном (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
     </configLastShot>
 	
 	<!-- Cообщение о пожаре -->
@@ -139,8 +139,8 @@
 		<format_key><![CDATA[<textformat leading='4' tabstops='[75,150]'>{{tank-reload}} sek<tab>[ <font color='{{clr-tank-team}}'><b>{{tank-nick}}</b></font> ] </textformat>]]></format_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) с информационным таймером о времени, прошедшего с момента последнего получения урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
 		<format_reload><![CDATA[[ <font color='{{clr-tank-team}}'><b>{{tank-shortname}}</b></font> ] nabito..]]></format_reload> <!-- текст, который отображает строку с информационным таймером перезарядки атаковавшего игрока (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
 		<format_reload_key><![CDATA[[ <font color='{{clr-tank-team}}'><b>{{tank-nick}}</b></font> ] nabito..]]></format_reload_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) с информационным таймером перезарядки атаковавшего игрока (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-		<format_destroy><![CDATA[Уничтожен {{tank-team}}ом <b>{{tank-shortname}}</b>..]]></format_destroy> <!-- текст, который отображает строку с информационным таймером о времени, прошедшего с момента последнего получения урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-		<format_destroy_key><![CDATA[Уничтожен {{tank-team}}ом <b>{{tank-nick}}</b>..]]></format_destroy_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) с информационным таймером о времени, прошедшего с момента последнего получения урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
+		<format_destroy><![CDATA[[Zničen od {{tank-shortname}} v {{time-game}}]]></format_destroy> <!-- текст, который отображает строку с информационным таймером о времени, прошедшего с момента последнего получения урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
+		<format_destroy_key><![CDATA[Zničen od {{tank-nick}} v {{time-game}}]]></format_destroy_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) с информационным таймером о времени, прошедшего с момента последнего получения урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
 	</configTimerHit>
 	
 	<!-- Ремонт выведенного из строя модуля -->
