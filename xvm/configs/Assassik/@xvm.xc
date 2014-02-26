@@ -165,5 +165,8 @@
   // Замена названий танков.
   "vehicleNames": ${"vehicleNames.xc":"vehicleNames"},
 
-  "wn8": ${"expected_tank_values_latest.xc"}
+  "wn8": {
+      "header": ${"expected_tank_values_latest.xc":"header"},
+      "data": ${"expected_tank_values_latest.xc":"data"}
+  }
 }
