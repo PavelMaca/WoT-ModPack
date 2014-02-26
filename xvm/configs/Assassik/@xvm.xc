@@ -23,7 +23,7 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
-  "configVersion": "5.0.0",
+  "configVersion": "5.1.0",
 
   // Version of the editor.
   // Версия редактора.
@@ -62,15 +62,15 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "23.01.2014",
+    "date": "26.02.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.8.10",
+    "gameVersion": "0.8.11",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "5.0.0"
+    "modMinVersion": "5.1.0"
   },
 
   // Parameters for login screen.
@@ -163,5 +163,7 @@
 
   // Vehicle names mapping.
   // Замена названий танков.
-  "vehicleNames": ${"vehicleNames.xc":"vehicleNames"}
+  "vehicleNames": ${"vehicleNames.xc":"vehicleNames"},
+
+  "wn8": ${"expected_tank_values_latest.xc"}
 }
