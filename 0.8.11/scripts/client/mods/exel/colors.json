@@ -49,6 +49,23 @@
 		{ "value": 93,	"color": "#02C9B3" },	
 		{ "value": 999,   "color": "#D042F3" }	
 	],
+	"wn8": [					
+		{ "value": 310, "color": "#FE0E00" },	
+		{ "value": 750, "color": "#FE7903" },	
+		{ "value": 1310,"color": "#F8F400" },	
+		{ "value": 1965,"color": "#60FF00" },	
+		{ "value": 2540,"color": "#02C9B3" },	
+		{ "value": 9999,"color": "#D042F3" }	
+	],
+	"xwn8": [
+		{ "value": 1,   "color": "#EE0001" },
+		{ "value": 17,  "color": "#FE0E00" },
+		{ "value": 34,  "color": "#FE7903" },
+		{ "value": 53,  "color": "#F8F400" },
+		{ "value": 76,  "color": "#60FF00" },
+		{ "value": 93,  "color": "#02C9B3" },
+		{ "value": 999, "color": "#D042F3" }
+    ],
 	"eff": [
 		{ "value": 0.1,       "color": "#D6D7D4" },
 		{ "value": 630,       "color": "#FE0E00" },
