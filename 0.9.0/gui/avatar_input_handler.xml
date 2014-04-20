@@ -1,9 +1,4 @@
 <avatar_input_handler.xml>
-  <fovCommon>
-    <horizontalFov>90.0</horizontalFov>
-    <horizontalFovBigAspect>180.0</horizontalFovBigAspect>
-    <verticalFov>60.0</verticalFov>
-  </fovCommon>
   <dynamicCameraCommon>
     <caliberImpulses>
       <range>0 0.0</range>
@@ -21,8 +16,9 @@
       <range>140 0.3</range>
     </massSensitivity>
     <collisionSpeedToImpulseRatio>0.1</collisionSpeedToImpulseRatio>
-    <minCollisionSpeed>90</minCollisionSpeed>
+    <minCollisionSpeed>90.0</minCollisionSpeed>
     <zeroDamageHitSensitivity>0.0</zeroDamageHitSensitivity>
+    <ownShotImpulseDelay>0.005</ownShotImpulseDelay>
   </dynamicCameraCommon>
   <postMortemMode>
     <camera>
@@ -78,7 +74,7 @@
         <accelerationThreshold>1.5</accelerationThreshold>
         <accelerationMax>15.0</accelerationMax>
         <maxShotImpulseDistance>35.0</maxShotImpulseDistance>
-        <maxExplosionImpulseDistance>45.0</maxExplosionImpulseDistance>
+        <maxExplosionImpulseDistance>150.0</maxExplosionImpulseDistance>
         <zoomExposure>0.33</zoomExposure>
       </dynamics>
     </camera>
@@ -128,7 +124,7 @@
           <otherShot>0.0</otherShot>
           <splash>0.0</splash>
           <collision>0.0</collision>
-          <vehicleExplosion>0.0</vehicleExplosion>
+          <vehicleExplosion>	0	</vehicleExplosion>
         </noiseSensitivities>
         <impulseLimits>
         </impulseLimits>
@@ -141,7 +137,7 @@
         <accelerationThreshold>1.5</accelerationThreshold>
         <accelerationMax>15.0</accelerationMax>
         <maxShotImpulseDistance>35.0</maxShotImpulseDistance>
-        <maxExplosionImpulseDistance>45.0</maxExplosionImpulseDistance>
+        <maxExplosionImpulseDistance>125.0</maxExplosionImpulseDistance>
         <zoomExposure>0.33</zoomExposure>
       </dynamics>
     </camera>
@@ -153,7 +149,6 @@
       <sensitivity>0.05</sensitivity>
       <scrollSensitivity>0.25</scrollSensitivity>
       <distRange>40 100</distRange>
-      <fovMult>1.0</fovMult>
       <dynamics>
         <oscillator>
           <mass>1.5</mass>
@@ -187,9 +182,24 @@
   </strategicMode>
   <sniperMode>
     <aim>sniper</aim>
-    <binoculars>
-      <background></background>
-    </binoculars>
+    <binoculars_usual>
+      <background>system/maps/slens_map.dds</background>
+      <distortion>system/maps/slens_nornal.dds</distortion>
+      <rgbCube>system/maps/post_processing/cube/wgr_lens_gb5.dds</rgbCube>
+      <greenOffset>4.0</greenOffset>
+      <blueOffset>8.0</blueOffset>
+      <aberrationRadius>0.5</aberrationRadius>
+      <distortionAmount>-0.003</distortionAmount>
+    </binoculars_usual>
+    <binoculars_coated>
+      <background>system/maps/slens_map.dds</background>
+      <distortion>system/maps/slens_nornal.dds</distortion>
+      <rgbCube>system/maps/post_processing/cube/wgr_lens_blue2.dds</rgbCube>
+      <greenOffset>3.5</greenOffset>
+      <blueOffset>7.0</blueOffset>
+      <aberrationRadius>0.5</aberrationRadius>
+      <distortionAmount>-0.003</distortionAmount>
+    </binoculars_coated>
     <numScrolls>	1	</numScrolls>
     <camera>
       <keySensitivity>0.01</keySensitivity>
@@ -220,7 +230,7 @@
           <hit>0.0</hit>
           <otherShot>0.0</otherShot>
           <splash>0.0</splash>
-          <vehicleExplosion>0.0</vehicleExplosion>
+          <vehicleExplosion>	0	</vehicleExplosion>
         </impulseSensitivities>
         <noiseSensitivities>
           <shot>0.0</shot>
@@ -228,7 +238,7 @@
           <otherShot>0.0</otherShot>
           <splash>0.0</splash>
           <collision>0.0</collision>
-          <vehicleExplosion>0.0</vehicleExplosion>
+          <vehicleExplosion>	0	</vehicleExplosion>
         </noiseSensitivities>
         <impulseLimits>
           <shot>0.0 0.0</shot>
