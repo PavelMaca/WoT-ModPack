@@ -27,7 +27,7 @@
 
   // Version of the editor.
   // Версия редактора.
-  "editorVersion": "0.64",
+  "editorVersion": "0.80",
 
   // Language used in mod
   // "auto" - automatically detect language from game client,
@@ -58,15 +58,15 @@
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
-    "url": "http://code.google.com/p/wot-xvm/",
+    "url": "http://www.modxvm.com/",
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "26.02.2014",
+    "date": "22.04.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.8.11",
+    "gameVersion": "0.9.0",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
