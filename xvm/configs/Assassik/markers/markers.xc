@@ -3,6 +3,7 @@
  */
 {
 	"markers": {
+        "useStandardMarkers": false,
 		"ally": ${"ally-enemy"},
 		"enemy": ${"ally-enemy"}
 	},
