@@ -24,7 +24,7 @@
 			"strength": 200               //     Intensity
 		}
 	},
-	
+
 	// Text field with the name of the vehicle
 	"tankName": {
 		"$ref": { "path":"template" },
@@ -32,12 +32,12 @@
 		"y": -36,
 		"format": "{{vehicle}}{{turret}}"
     },
-	
+
 	"tankNameDead": {
 		"$ref": { "path":"tankName" },
 		"y": -20
     },
-	
+
     // Text field with the remaining / maximum health
     "tankHp": {
 		"$ref": { "path":"template" },
@@ -54,15 +54,14 @@
 		},
 		"format": "{{hp}} / {{hp-max}}"
 	},
-	
+
 	// Text field with the percentage of remaining health
 	"remainHp": {
 		"$ref": { "path":"tankHp" },
 		"name": "Remain HP",
-		// Percent symbol - \u0025
-		"format": "{{hp-ratio}}\u0025"
+		"format": "{{hp-ratio}}%"
 	},
-	
+
 	// Text field with the name of the player
 	"playerName": {
 		"$ref": { "path":"template" },
@@ -70,7 +69,7 @@
 		"y": -36,
 		"format": "{{nick}}"
 	},
-				
+
 	// Text field with win ratio
     "globalWinRate": {
 		"$ref": { "path":"template" },
