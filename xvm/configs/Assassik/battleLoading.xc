@@ -22,10 +22,10 @@
     "clanIcon": ${"defines.xc":"clanIcon"},
     // Display format for the left Players Panel (macros allowed, see readme-en.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatLeftNick": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
+    "formatLeftNick": "{{name%.16s~..}}<font alpha='#A0'>{{clan}}</font>",
     // Display format for the right panel (macros allowed, see readme-en.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatRightNick": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
+    "formatRightNick": "{{name%.16s~..}}<font alpha='#A0'>{{clan}}</font>",
     // Display format for the left panel (macros allowed, see readme-en.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
     "formatLeftVehicle": ${"defines.xc":"formatLeft_loading"},
