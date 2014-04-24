@@ -1,0 +1,152 @@
+{
+    "showStatForBattle": true,
+    "battleStatText": "\n<font color='#F0DDB9'>WN8: <font color='{{c:WN8}}'><b>{{WN8}} ({{XWN8}})</b></font><tab><font color='#F0DDB9'>WN6: <font color='{{c:WN6}}'><b>{{WN6}}</b></font><tab><font color='#F0DDB9'>Eff: <font color='{{c:EFF}}'><b>{{EFF}}</b></font></font>",
+    "hideMessagePatterns": [
+        "Už 30 dnů",
+        "telefonní číslo",
+        "Posádka úspěšně přesunuta do kasáren.",
+        "Člen posádky úspěšně přesunut.",
+        "eSport"
+    ],
+    "ignoreBattleType": [2, 4],
+    "showResetButton": false,
+    "textResetButton": "Resetovat",
+    "dailyAutoReset": true,
+    "battleEndedMessageDefeat": "<font color='#FE0E00'>Porážka {{map}} - {{vehicle}}</font>",
+    "battleEndedMessageDraw": "<font color='#FE7903'>Remíza {{map}} - {{vehicle}}</font>",
+    "battleEndedMessageWin": "<font color='#60FF00'>Vítězství {{map}} - {{vehicle}}</font>",
+    "template": [
+		"<font color='#F0DDB9' face='$FieldFont' size='13'><textformat leading='-1' tabstops='[100,160]'><font color='#BFE9FF'><b>Statistika<tab>Celkem<tab>Průměr</b></font>",
+		"<font color='#F0DDB9'><img src='img://gui/maps/icons/library/Crab_stats/Line.png' width='260' height='3' align='middle' vspace='-15'>",
+		"<font size='8'> </font>",
+    	"<textformat leading='-2' tabstops='[85,110,170]'><font color='#F0DDB9'>Vítězství:<tab><img src='img://gui/maps/icons/library/Crab_stats/TournamentBattleResultIcon-3.png' width='14' height='14' align='baseline' vspace='-3'><tab>{{winsCount}}/{{battlesCount}}<tab><font color='{{c:rWIN}}'><b>{{avgWinRate}}%</b></font>",
+        "<textformat leading='-2' tabstops='[85,110,170]'><font color='#F0DDB9'>Zkušenosti:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/maxExp40x32.png' width='19' height='15' align='baseline' vspace='-4'><tab><font color='#F0DDB9'>{{totalXP}}</font><tab><font color='{{c:avgXP}}'><b>{{avgXP}}</b></font>",
+        "<textformat leading='-2' tabstops='[85,110]'><font color='#F0DDB9'>Kredity:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/CreditsIcon1.png' width='16' height='16' align='baseline' vspace='-4'><tab><font color='{{c:credits}}'><b>{{credits}}</b></font>",
+		"<font size='8'> </font>",
+		"<textformat leading='-2' tabstops='[85,110,170]'><font color='#F0DDB9'>Poškození:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/avgDamage40x32.png' width='19' height='15' align='baseline' vspace='-3'><tab>{{totalDmg}}<tab><font color='{{c:rDAMAGE}}'><b>{{avgDamage}}</b></font>",
+		"<textformat leading='-2' tabstops='[85,110,170]'><font color='#F0DDB9'>Asistence:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/assist40x32.png' width='19' height='15' align='baseline' vspace='-3'><tab>{{totalAssist}}<tab><font color='{{c:avgAssist}}'><b>{{avgAssist}}</b></font>",
+        "<textformat leading='-2' tabstops='[85,110,170]'><font color='#F0DDB9'>Zničeno:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/maxDestroyed40x32.png' width='19' height='15' align='baseline' vspace='-3'><tab>{{totalFrag}}<tab><font color='{{c:rFRAG}}'><b>{{avgFrag}}</b></font>",
+		"<font size='8'> </font>",
+		"<textformat leading='-2' tabstops='[85,110,170]'><font color='#F0DDB9'>Detekováno:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/commanderDestroyedSmall.png' width='16' height='14' align='baseline' vspace='-4'><tab>{{totalSpot}}<tab><font color='{{c:rSPOT}}'><b>{{avgSpot}}</b></font>",
+        "<textformat leading='-2' tabstops='[85,110,170]'><font color='#F0DDB9'>Obrana:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/battles40x32.png' width='18' height='15' align='baseline' vspace='-4'><tab><font color='#F0DDB9'>{{totalDef}}</font><tab><font color='{{c:rDEF}}'><b>{{avgDef}}</b></font>",
+		"<textformat leading='-2' tabstops='[85,110,170]'><font color='#F0DDB9'>Obsazení:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/wins40x32.png' width='18' height='15' align='baseline' vspace='-4'><tab><font color='#F0DDB9'>{{totalCap}}</font><tab><font color='{{c:avgCap}}'><b>{{avgCap}}</b></font>",
+        "<textformat leading='-2' tabstops='[85,110,170]'><font color='#F0DDB9'><font face='Lucida Console'>\u00F8</font> Tier/B.Tier:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/survival40x32.png' width='19' height='15' align='baseline' vspace='-4'><tab><font color='#F0DDB9'><b>{{avgTier}}</b><tab>{{avgBattleTier}}</font></textformat>",
+        "<font color='#F0DDB9'><img src='img://gui/maps/icons/library/Crab_stats/Line.png' width='260' height='3' align='middle' vspace='-15'></font>",
+		"<font size='8'> </font></textformat>",
+		"<textformat leading='-2' tabstops='[60, 120, 180,]'><font face='$FieldFont' size='13'><font color='#F0DDB9'><b>WN8</b><tab><b>XWN8</b><tab><b>WN6</b><tab><b>Eff</b></font></textformat>",
+		"<textformat leading='-2' tabstops='[60, 120, 180,]'><font color='{{c:WN8}}'><b>{{WN8}}</b></font><tab><font color='{{c:XWN8}}'><b>{{XWN8}}</b></font><tab><font color='{{c:WN6}}'><b>{{WN6}}</b></font><tab><font color='{{c:EFF}}'><b>{{EFF}}</b></font></font></font></textformat>",
+        "<font color='#F0DDB9'><img src='img://gui/maps/icons/library/Crab_stats/Line.png' width='260' height='3' align='middle' vspace='-15'></font>"
+    ],
+    "colors": {
+        "WN8": [
+		        { "value": 0,         "color": "#BB0000" },
+            { "value": 300,       "color": "#FF0000" },
+		        { "value": 600,       "color": "#FF6600" },
+		        { "value": 900,       "color": "#F8F400" },
+		        { "value": 1200,      "color": "#99CC00" },
+		        { "value": 1500,      "color": "#00CC00" },
+		        { "value": 1750,      "color": "#66BBFF" },
+		        { "value": 2300,      "color": "#D042F3" },
+		        { "value": 2900,      "color": "#FF00FF" }
+        ],
+        "XWN8": [
+		        { "value": 0,         "color": "#BB0000" },
+            { "value": 17,        "color": "#FF0000" },
+		        { "value": 29,        "color": "#FF6600" },
+		        { "value": 39,        "color": "#F8F400" },
+		        { "value": 49,        "color": "#99CC00" },
+		        { "value": 60,        "color": "#00CC00" },
+		        { "value": 69,        "color": "#66BBFF" },
+		        { "value": 87,        "color": "#D042F3" },
+		        { "value": 98,        "color": "#FF00FF" }
+        ],
+		    "WN6": [
+		        { "value": 0,         "color": "#BB0000" },
+       	    { "value": 500,       "color": "#FF0000" },
+		        { "value": 700,       "color": "#FF6600" },
+		        { "value": 900,       "color": "#F8F400" },
+		        { "value": 1100,      "color": "#99CC00" },
+		        { "value": 1350,      "color": "#00CC00" },
+		        { "value": 1500,      "color": "#66BBFF" },
+		        { "value": 1700,      "color": "#D042F3" },
+		        { "value": 2000,      "color": "#FF00FF" }
+        ],
+		    "EFF": [
+         	  { "value": 0,         "color": "#FF0000" },
+		        { "value": 600,       "color": "#FF6600" },
+		        { "value": 900,       "color": "#F8F400" },
+		        { "value": 1200,      "color": "#00CC00" },
+		        { "value": 1500,      "color": "#66BBFF" },
+		        { "value": 1800,      "color": "#D042F3" },
+    		    { "value": 2050,      "color": "#FF00FF" }
+        ],
+        "rWIN": [
+            { "value": 0.34, 	  "color": "#FF0000" },
+            { "value": 0.57,	  "color": "#FF6600" },
+            { "value": 0.81, 	  "color": "#F8F400" },
+            { "value": 1.03, 	  "color": "#00CC00" },
+            { "value": 1.22, 	  "color": "#66BBFF" },
+            { "value": 1.57, 	  "color": "#D042F3" }
+        ],
+        "rDAMAGE": [
+            { "value": 0.34, 	  "color": "#C1AC9C" },
+            { "value": 0.57,	  "color": "#C1AC9C" },
+            { "value": 0.81, 	  "color": "#C1AC9C" },
+            { "value": 1.03, 	  "color": "#C1AC9C" },
+            { "value": 1.22, 	  "color": "#C1AC9C" },
+            { "value": 1.57, 	  "color": "#C1AC9C" }
+        ],
+		    "avgAssist": [
+            { "value": 550,		  "color": "#C1AC9C" },
+            { "value": 750,		  "color": "#C1AC9C" },
+            { "value": 1050, 	  "color": "#C1AC9C" },
+            { "value": 1450, 	  "color": "#C1AC9C" },
+            { "value": 1900, 	  "color": "#C1AC9C" },
+            { "value": 9999, 	  "color": "#C1AC9C" }
+        ],
+        "rFRAG": [
+            { "value": 0.34, 	  "color": "#C1AC9C" },
+            { "value": 0.57,	  "color": "#C1AC9C" },
+            { "value": 0.81, 	  "color": "#C1AC9C" },
+            { "value": 1.03, 	  "color": "#C1AC9C" },
+            { "value": 1.22, 	  "color": "#C1AC9C" },
+            { "value": 1.57, 	  "color": "#C1AC9C" }
+        ],
+        "rSPOT": [
+            { "value": 0.34, 	  "color": "#C1AC9C" },
+            { "value": 0.57,	  "color": "#C1AC9C" },
+            { "value": 0.81, 	  "color": "#C1AC9C" },
+            { "value": 1.03, 	  "color": "#C1AC9C" },
+            { "value": 1.22, 	  "color": "#C1AC9C" },
+            { "value": 1.57, 	  "color": "#C1AC9C" }
+        ],
+        "rDEF": [
+            { "value": 0.34, 	  "color": "#C1AC9C" },
+            { "value": 0.57,	  "color": "#C1AC9C" },
+            { "value": 0.81, 	  "color": "#C1AC9C" },
+            { "value": 1.03, 	  "color": "#C1AC9C" },
+            { "value": 1.22, 	  "color": "#C1AC9C" },
+            { "value": 1.57, 	  "color": "#C1AC9C" }
+        ],
+		    "avgCap": [
+            { "value": 0.34, 	  "color": "#C1AC9C" },
+            { "value": 0.57,	  "color": "#C1AC9C" },
+            { "value": 0.81, 	  "color": "#C1AC9C" },
+            { "value": 1.03, 	  "color": "#C1AC9C" },
+            { "value": 1.22, 	  "color": "#C1AC9C" },
+            { "value": 1.57, 	  "color": "#C1AC9C" }
+        ],
+        "avgXP": [
+            { "value": 0,    	  "color": "#C1AC9C" },
+            { "value": 120,  	  "color": "#C1AC9C" },
+            { "value": 280,  	  "color": "#C1AC9C" },
+            { "value": 500,  	  "color": "#C1AC9C" },
+            { "value": 800,  	  "color": "#C1AC9C" },
+            { "value": 1000, 	  "color": "#C1AC9C" }
+        ],
+        "credits": [
+            { "value": -1, 		  "color": "#F02828" },
+            { "value": 1,		  "color": "#66CC66" }
+        ]
+    }
+}
