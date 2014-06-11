@@ -4,7 +4,7 @@
       <over>/GUI/buttons/highlight</over>
       <press>/GUI/buttons/play</press>
       <critical_ammoBay>/Damage_Panel/Critical_Module/critical_ammoBay</critical_ammoBay>
-	  <fire_alert>/assassik/assassik/firealert</fire_alert>
+      <fire_alert>/assassik/assassik/firealert</fire_alert>
       <sixthsense>/assassik/assassik/sixthsense</sixthsense>
       <alert_3min>/assassik/assassik/3min</alert_3min>
       <alert_1min>/assassik/assassik/1min</alert_1min>
@@ -114,18 +114,77 @@
 					barracksItemRendererEmpty
 					customizationItemRenderer</groups>
       </rendererNormal>
+      <timerTick>
+        <sounds>
+          <press>/GUI/notifications_FX/cybersport_timer</press>
+        </sounds>
+        <groups>
+        </groups>
+      </timerTick>
+      <cybersportAutoSearch>
+        <sounds>
+          <press>/GUI/notifications_FX/cybersport_auto_search</press>
+        </sounds>
+        <groups>
+        </groups>
+      </cybersportAutoSearch>
+      <fort_building>
+        <sounds>
+          <over>/GUI/buttons/highlight</over>
+          <out>/GUI/buttons/highlight</out>
+          <press>/GUI/ur/building_click</press>
+        </sounds>
+        <groups>base_building
+					warSchool_building
+					trophy_building
+					training_building
+					tankodrom_building
+					intendancy_building
+					finance_building
+					car_building</groups>
+      </fort_building>
     </schemas>
     <overrides>
     </overrides>
   </controls>
   <effects>
     <spend_credits>/GUI/buttons/coins</spend_credits>
+    <transport_constrain>/GUI/ur/empty_event</transport_constrain>
+    <transport_enter>/GUI/ur/empty_event</transport_enter>
+    <transport_exit>/GUI/ur/empty_event</transport_exit>
+    <transport_first_step>/GUI/ur/empty_event</transport_first_step>
+    <transport_next_step>/GUI/ur/empty_event</transport_next_step>
+    <transport_approve>/GUI/ur/transport_approve</transport_approve>
+    <fort_create>/GUI/ur/fort_create</fort_create>
+    <direction_create>/GUI/ur/direction_create</direction_create>
+    <direction_close>/GUI/ur/direction_close</direction_close>
     <spend_gold>/GUI/buttons/coins</spend_gold>
     <spend_credits_and_gold>/GUI/buttons/coins</spend_credits_and_gold>
     <select_radial_button>/GUI/buttons/cancelcloseno</select_radial_button>
     <earn_credits>/GUI/buttons/coins</earn_credits>
     <earn_gold>/GUI/buttons/coins</earn_gold>
     <earn_credits_and_gold>/GUI/buttons/coins</earn_credits_and_gold>
+    <fort_entered_foundation_state>/GUI/ur/fort_entered_foundation_state</fort_entered_foundation_state>
+    <fort_fixed_in_building>/GUI/ur/fort_fixed_in_building</fort_fixed_in_building>
+    <fort_upgrade_building>/GUI/ur/fort_upgrade_building</fort_upgrade_building>
+    <fort_demount_building>/GUI/ur/fort_demount_building</fort_demount_building>
+    <fort_order_inprogress>/GUI/ur/fort_order_in_progress</fort_order_inprogress>
+    <fort_order_isready>/GUI/ur/fort_order_isready</fort_order_isready>
+    <activate_requisition>/GUI/ur/activate_battlePayments</activate_requisition>
+    <activate_evacuation>/GUI/ur/activate_battlePayments</activate_evacuation>
+    <activate_heavyTrucks>/GUI/ur/activate_battlePayments</activate_heavyTrucks>
+    <activate_militaryManeuvers>/GUI/ur/activate_battlePayments</activate_militaryManeuvers>
+    <activate_additionalBriefing>/GUI/ur/activate_battlePayments</activate_additionalBriefing>
+    <activate_tacticalTraining>/GUI/ur/activate_battlePayments</activate_tacticalTraining>
+    <activate_battlePayments>/GUI/ur/activate_battlePayments</activate_battlePayments>
+    <base_building_endPrcBld>/GUI/ur/empty_event</base_building_endPrcBld>
+    <warSchool_building_endPrcBld>/GUI/ur/empty_event</warSchool_building_endPrcBld>
+    <trophy_building_endPrcBld>/GUI/ur/empty_event</trophy_building_endPrcBld>
+    <training_building_endPrcBld>/GUI/ur/empty_event</training_building_endPrcBld>
+    <tankodrom_building_endPrcBld>/GUI/ur/empty_event</tankodrom_building_endPrcBld>
+    <intendancy_building_endPrcBld>/GUI/ur/empty_event</intendancy_building_endPrcBld>
+    <finance_building_endPrcBld>/GUI/ur/empty_event</finance_building_endPrcBld>
+    <car_building_endPrcBld>/GUI/ur/empty_event</car_building_endPrcBld>
     <sound_mode_preview01>/ingame_voice/notifications_VO/enemy_hp_damaged_by_projectile_by_player</sound_mode_preview01>
     <sound_mode_preview02>/ingame_voice/notifications_VO/enemy_killed_by_player</sound_mode_preview02>
     <sound_mode_preview03>/ingame_voice/notifications_VO/enemy_fire_started_by_player</sound_mode_preview03>
