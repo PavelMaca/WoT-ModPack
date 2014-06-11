@@ -1,26 +1,11 @@
-﻿/**
- * Czech translation file.
- */
 {
   "locale": {
-    // Author of translation
-    "XVM_translator": "Crabtr33",
-
-    // Ping
     "Initialization": "Načítání",
-
-    // BattleLoading
     "New version available": "Nová verze k dispozici",
-
-    // Win chance
     "Chance error": "Chyba",
     "Chance to win": "Šance na výhru",
-    //"global": "Celková",
-    //"per-vehicle": "Dle vozidel",
     "chanceLive": "Aktuální",
     "chanceBattleTier": "T",
-
-    // Hitlog
     "attack": "střelba",
     "fire": "požár",
     "ramming": "náraz",
@@ -28,32 +13,22 @@
     "Hits": "Zásahů",
     "Total": "Celkem",
     "Last": "Poslední",
-
-    // Hp Left
     "hpLeftTitle": "Zbývající HP:",
-
-    // Capture
     "enemyBaseCapture": "Obsazování nepřátelské základny!",
     "enemyBaseCaptured": "Nepřátelská základna obsazena!",
     "allyBaseCapture": "Obsazování spojenecké základny!",
     "allyBaseCaptured": "Spojenecká základna obsazena!",
     "Timeleft": "Čas",
     "Capturers": "Vozidel",
-
-    // BattleResults
     "Hit percent": "Zásahů / Výstřelů \u0025",
-    "Damage (assisted / own)": "Poškození (s pomocí / vlastní)",
-
-    // TeamRenderer
+    "Damage (assisted / own)": "Poškození (asistence / vlastní)",
     "Friend": "Přítel",
     "Ignored": "Ignorovaný",
     "unknown": "-",
     "Fights": "Bitev",
     "Wins": "Výher",
-    "Data was updated at": "Data byla aktualizována v",
+    "Data was updated at": "Data aktualizována",
     "Load statistics": "Načítat statistiky",
-
-    // UserInfo
     "General stats": "Všeobecné statistiky",
     "Summary": "Celkový přehled",
     "Avg level": "Prům. Tier",
@@ -65,35 +40,31 @@
     "avg": "prům",
     "top": "nej",
     "draws": "remízy",
-    "Maximum damage": "Maximum poškození",
+    "Maximum damage": "Nejvyšší poškození",
     "Specific damage (Avg dmg / HP)": "Potenciál škod (prům. škody / HP)",
     "Capture points": "Obsazení základny",
     "Defence points": "Obrana základny",
     "Filter": "Filtr",
     "Extra data (WoT 0.8.8+)": "Extra data (WoT 0.8.8+)",
     "Average battle time": "Průměrný čas bitvy",
-    "Average battle time per day": "Průměrný čas bitvy na den",
-    "Battles after 0.8.8": "Bitev po 0.8.8",
-    "Average experience": "Průměrné zkušenosti",
-    "Average experience without premium": "Průměrné zkušenosti bez prémium účtu",
-    "Average distance driven per battle": "Průměrná ujetá vzdálenost na bitvu",
-    "Average woodcuts per battle": "Průměrné poražené stromy na bitvu",
-    "Average damage assisted": "Průměrné poškození asistencí",
-    "    by tracking": "    shazováním pásů",
-    "    by spotting": "    spotem",
-    "Average HE shells fired (splash)": "Průměrně vystřeleno HE náboje (splash)",
-    "Average HE shells received (splash)": "Průměrné obdržené HE náboje (splash)",
-    "Average penetrations per battle": "Průměrné penetrace na bitvu",
-    "Average hits received": "Průměrné obdržené zásahy",
-    "Average penetrations received": "Průměrné obdržené penetrace",
-    "Average ricochets received": "Průměrné obdržené odrazy",
-
-    // Crew
-    "PutOwnCrew": "Použít vlastní posádku",
-    "PutBestCrew": "Použít nejlepší posádku",
-    "PutClassCrew": "Použít posádku stejné třídy",
-
-    // Squad
+    "Average battle time per day": "Průměrně odehraný čas za den",
+    "Battles after 0.8.8": "Odehráho bitev po 8.8",
+    "Average experience": "Průměrná XP (s bonusy)",
+    "Average experience without premium": "Průměrná XP bez Prémium účtu",
+    "Average distance driven per battle": "Průměr ujeté vzdálenosti na bitvu (km)",
+    "Average woodcuts per battle": "Průměr poražených stromů na bitvu",
+    "Average damage assisted": "Průměrné poškození - asistence",
+    "    by tracking": "    • shazováním pásů",
+    "    by spotting": "    • detekcí",
+    "Average HE shells fired (splash)": "Prům. vystřeleno HE nábojů (splash)",
+    "Average HE shells received (splash)": "Prům. obdržené HE nábojů (splash)",
+    "Average penetrations per battle": "Průměr průstřelů na bitvu",
+    "Average hits received": "Průměr obdržených zásahů",
+    "Average penetrations received": "Průměr obdržených průstřelů",
+    "Average ricochets received": "Průměrně odraženo",
+    "PutOwnCrew": "Vlastní posádka",
+    "PutBestCrew": "Nejlepší posádka",
+    "PutClassCrew": "Posádka stejné třídy",
     "Vehicle": "Vozidlo",
     "Battle tiers": "MM",
     "Type": "Typ",
@@ -110,8 +81,17 @@
     "LT": "Lehký tank",
     "TD": "Stíhač tanků",
     "SPG": "Dělostřelectvo",
-
-    // VehicleMarkersManager
-    "blownUp": "Munice!"
+    "blownUp": "Munice!",
+    "token/network_error": "Chyba sítě. Statistiky XVM nejsou k dispozici. Zkuste to později.",
+    "token/bad_token": "Špatný token.\n{{l10n:token/notify_xvm_site}}",
+    "token/blocked": "Stav: <font color='#FF0000'>Blokován</font><br>{{l10n:token/notify_xvm_site}}",
+    "token/inactive": "Stav: <font color='#FFFF00'>Neaktivní</font><br>{{l10n:token/notify_xvm_site}}",
+    "token/unknown_status": "Stav neznámý",
+    "token/notify_xvm_site": "Prosím jděte na <a href='#XVM_SITE#'>stránky XVM</a> a aktivujte statistiky.",
+    "": "Crabtr33",
+    "": "Stav: <font color='#00FF00'>Aktivní</font>",
+    "": "Zbývá dnů:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Zbývá hodin:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Počet přístupů:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }
