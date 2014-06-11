@@ -1,0 +1,3275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"Last-Translator: i_maliavko <i_maliavko@wargaming.net>\n"
+"Language-Team: WoT Tým <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"PO-Revision-Date: \n"
+"Language: cs_CZ\n"
+"X-Generator: Poedit 1.6.5\n"
+
+msgid "account/profile/emptyBattleList"
+msgstr "Nikdy nebyl v boji"
+
+msgid "accountInfo/credits"
+msgstr "Kredity:"
+
+msgid "accountInfo/experience"
+msgstr "Celkem zkušeností:"
+
+msgid "accountInfo/gold"
+msgstr "Zlaťáků:"
+
+msgid "accountTypes/base"
+msgstr "Standardní účet"
+
+msgid "accountTypes/demo"
+msgstr "Testovací účet"
+
+msgid "accountTypes/free"
+msgstr "Volný účet"
+
+msgid "accountTypes/guest"
+msgstr "Anonymní účet"
+
+msgid "accountTypes/premium"
+msgstr "Prémiový účet"
+
+msgid "ammoReload/additionBuy"
+msgstr "Nákup"
+
+msgid "ammoReload/ammunition"
+msgstr "Munice:"
+
+msgid "ammoReload/autoFill"
+msgstr "Doplnit munici"
+
+msgid "ammoReload/cancel"
+msgstr "Storno"
+
+msgid "ammoReload/clearAmmunition"
+msgstr "Vyložit munici"
+
+msgid "ammoReload/damage/title"
+msgstr "Poškození:"
+
+msgid "ammoReload/damage/units"
+msgstr "?empty?"
+
+msgid "ammoReload/fill"
+msgstr "Doplnit"
+
+msgid "ammoReload/inTank"
+msgstr "Ve vozidle"
+
+msgid "ammoReload/onInventory"
+msgstr "Ve skladu"
+
+msgid "ammoReload/piercingPower/title"
+msgstr "Průbojnost: do max"
+
+msgid "ammoReload/piercingPower/units"
+msgstr "mm"
+
+msgid "ammoReload/reloadTitle"
+msgstr "Munice pro"
+
+msgid "ammoReload/title"
+msgstr "Doplnění munice"
+
+msgid "ammoReload/totalcost"
+msgstr "Celkem:"
+
+msgid "barracks/barracksRenderer/placesCount"
+msgstr "Dostupná lůžka:"
+
+msgid "barracks/btnBuyBerth"
+msgstr "Rozšíření kasáren"
+
+msgid "barracks/btnBuyBerthDecs"
+msgstr "Rozšířit kasárna o dalších {%d} postelí?"
+
+msgid "barracks/btnBuyTankman"
+msgstr "Naverbovat člena posádky"
+
+msgid "barracks/btnDissmiss"
+msgstr "Propustit"
+
+msgid "barracks/btnNewPlace"
+msgstr "Rozšířit kasárna"
+
+msgid "barracks/btnRecruit"
+msgstr "Verbovat"
+
+msgid "barracks/btnUnload"
+msgstr "Poslat do kasáren"
+
+msgid "barracks/menu/locationFilter/all"
+msgstr "V kasárnách a ve vozidlech"
+
+msgid "barracks/menu/locationFilter/barracks"
+msgstr "V kasárnách"
+
+msgid "barracks/menu/locationFilter/tanks"
+msgstr "Ve všech vozidlech v garáži"
+
+msgid "barracks/menu/locationFilter/textfield"
+msgstr "Umístění:"
+
+msgid "barracks/menu/roleFilter/all"
+msgstr "Všichni členi posádek"
+
+msgid "barracks/menu/roleFilter/commander"
+msgstr "Velitelé"
+
+msgid "barracks/menu/roleFilter/driver"
+msgstr "Řidiči"
+
+msgid "barracks/menu/roleFilter/gunner"
+msgstr "Střelci"
+
+msgid "barracks/menu/roleFilter/loader"
+msgstr "Nabíječi"
+
+msgid "barracks/menu/roleFilter/radioman"
+msgstr "Radisté"
+
+msgid "barracks/menu/roleFilter/textfield"
+msgstr "Kvalifikace:"
+
+msgid "barracks/menu/tankTypeFilter/textfield"
+msgstr "Výcvik:"
+
+msgid "barracks/placesCount"
+msgstr "Volné postele: {%d} z {%d}"
+
+msgid "barracks/tankmenCount"
+msgstr "Zobrazena posádka: {%d} z {%d}"
+
+msgid "bonusType/0"
+msgstr "Neznámý"
+
+msgid "bonusType/1"
+msgstr "Náhodná bitva"
+
+msgid "bonusType/2"
+msgstr "Týmový výcvik"
+
+msgid "bonusType/3"
+msgstr "Bitva v rotě"
+
+msgid "bonusType/4"
+msgstr "Speciální bitva"
+
+msgid "bonusType/5"
+msgstr "Speciální bitva"
+
+msgid "bonusType/6"
+msgstr "Bojový výcvik"
+
+msgid "bonusType/7"
+msgstr "Týmová bitva"
+
+msgid "bonusType/8"
+msgstr "Historická bitva"
+
+msgid "bonusType/9"
+msgstr "Náhodná bitva"
+
+msgid "browser/window/title"
+msgstr "Prohlížeč"
+
+msgid "carousel_tank_filter/AT-SPG"
+msgstr "Stíhače tanků"
+
+msgid "carousel_tank_filter/SPG"
+msgstr "Dělostřelectvo"
+
+msgid "carousel_tank_filter/all"
+msgstr "Vše"
+
+msgid "carousel_tank_filter/heavyTank"
+msgstr "Těžké tanky"
+
+msgid "carousel_tank_filter/lightTank"
+msgstr "Lehké tanky"
+
+msgid "carousel_tank_filter/mediumTank"
+msgstr "Střední tanky"
+
+msgid "carousel_tank_filter/ready"
+msgstr "Pouze primární"
+
+msgid "centerIsAvailable"
+msgstr "Všechny servery jsou znovu dostupné."
+
+msgid "centerIsUnAvailable"
+msgstr "Herní servery jsou dočasně nedostupné."
+
+msgid "classes/AT-SPG"
+msgstr "Stíhač tanků"
+
+msgid "classes/SPG"
+msgstr "Dělostřelectvo"
+
+msgid "classes/anyType"
+msgstr "Všechny typy"
+
+msgid "classes/heavyTank"
+msgstr "Těžké tanky"
+
+msgid "classes/lightTank"
+msgstr "Lehké tanky"
+
+msgid "classes/mediumTank"
+msgstr "Střední tanky"
+
+msgid "common/premiumBuy"
+msgstr "Koupit prémiový"
+
+msgid "common/premiumContinue"
+msgstr "Prodloužit prémiový"
+
+msgid "contextMenu/addToFriends"
+msgstr "Přidat do přátel"
+
+msgid "contextMenu/addToIgnored"
+msgstr "Přidat do ignorovaných"
+
+msgid "contextMenu/appeal"
+msgstr "Stížnost"
+
+msgid "contextMenu/blackmail"
+msgstr "Vyhrůžky v reálném životě"
+
+msgid "contextMenu/bot"
+msgstr "Neaktivita/bot"
+
+msgid "contextMenu/buy"
+msgstr "Koupit"
+
+msgid "contextMenu/buyAndEquip"
+msgstr "Koupit a namontovat"
+
+msgid "contextMenu/cancelBuy"
+msgstr "Zrušit nákup"
+
+msgid "contextMenu/copyToClipBoard"
+msgstr "Kopírovat do schránky"
+
+msgid "contextMenu/createPrivateChannel"
+msgstr "Založit soukromý kanál"
+
+msgid "contextMenu/dismiss"
+msgstr "Propustit"
+
+msgid "contextMenu/equip"
+msgstr "Namontovat"
+
+msgid "contextMenu/flood"
+msgstr "Spam"
+
+msgid "contextMenu/forbiddenNick"
+msgstr "Urážlivá přezdívka či název"
+
+msgid "contextMenu/goToNationTree"
+msgstr "Výzkum"
+
+msgid "contextMenu/goToNextVehicle"
+msgstr "Výzkum modulů"
+
+msgid "contextMenu/kickPlayer"
+msgstr "Vyloučit z týmu"
+
+msgid "contextMenu/lockSlot"
+msgstr "Zamknout slot"
+
+msgid "contextMenu/moduleInfo"
+msgstr "Charakteristiky"
+
+msgid "contextMenu/moneyTransfer"
+msgstr "Převod zlaťáků…"
+
+msgid "contextMenu/notFairPlay"
+msgstr "Nesportovní chování"
+
+msgid "contextMenu/offend"
+msgstr "Urážky a provokace"
+
+msgid "contextMenu/personalCase"
+msgstr "Osobní záznam"
+
+msgid "contextMenu/removeFromFriends"
+msgstr "Odstranit ze seznamu přátel"
+
+msgid "contextMenu/removeFromIgnored"
+msgstr "Odstranit ze seznamu ignorovaných"
+
+msgid "contextMenu/selectVehicleInHangar"
+msgstr "Vybrat vozidlo v garáži"
+
+msgid "contextMenu/sell"
+msgstr "Prodat"
+
+msgid "contextMenu/sellFromInventory"
+msgstr "Prodat ze skladu"
+
+msgid "contextMenu/setMuted"
+msgstr "Zakázat hlasovou komunikaci"
+
+msgid "contextMenu/showVehicleStatistics"
+msgstr "Zobrazit statistiky pro toto vozidlo"
+
+msgid "contextMenu/swindle"
+msgstr "Prodej zlaťáků / podvod"
+
+msgid "contextMenu/tankmanUnload"
+msgstr "Poslat do kasáren"
+
+msgid "contextMenu/tankmanUnloadAll"
+msgstr "Přesunout celou posádku do kasáren"
+
+msgid "contextMenu/unload"
+msgstr "Přesunout do skladu"
+
+msgid "contextMenu/unlock"
+msgstr "Výzkum"
+
+msgid "contextMenu/unlockSlot"
+msgstr "Odemknout slot"
+
+msgid "contextMenu/unsetMuted"
+msgstr "Povolit hlasovou komunikaci"
+
+msgid "contextMenu/userInfo"
+msgstr "Detaily uživatele"
+
+msgid "contextMenu/vehicleCheck"
+msgstr "Nastavit jako primární"
+
+msgid "contextMenu/vehicleInfo"
+msgstr "Charakteristiky"
+
+msgid "contextMenu/vehicleInfoEx"
+msgstr "Detaily o vozidle"
+
+msgid "contextMenu/vehicleResearch"
+msgstr "Výzkum"
+
+msgid "contextMenu/vehicleSell"
+msgstr "Prodat"
+
+msgid "contextMenu/vehicleUncheck"
+msgstr "Nastavit jako rezervní"
+
+msgid "copy"
+msgstr ""
+"Wargaming.net 2008-2014. Všechna práva vyhrazena. [9.0]Crabtr33 rozšířená CZ "
+"v2.21"
+
+msgid "currentVehicleStatus/ammoNotFull"
+msgstr "Nekompletní munice"
+
+msgid "currentVehicleStatus/battle"
+msgstr "Vozidlo v bitvě"
+
+msgid "currentVehicleStatus/clanLocked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/crewNotFull"
+msgstr "Nekompletní posádka"
+
+msgid "currentVehicleStatus/damaged"
+msgstr "Opravte své vozidlo"
+
+msgid "currentVehicleStatus/destroyed"
+msgstr "Opravte své vozidlo"
+
+msgid "currentVehicleStatus/exploded"
+msgstr "Opravte své vozidlo"
+
+msgid "currentVehicleStatus/inPrebattle"
+msgstr "V operační jednotce"
+
+msgid "currentVehicleStatus/locked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/notpresent"
+msgstr ""
+"Musíte si\n"
+"koupit vozidlo"
+
+msgid "currentVehicleStatus/serverRestriction"
+msgstr "Omezení serveru"
+
+msgid "currentVehicleStatus/undamaged"
+msgstr "Připraveno k boji!"
+
+msgid "customization/buttons/apply"
+msgstr "Přijmout"
+
+msgid "customization/buttons/close"
+msgstr "Zavřít"
+
+msgid "customization/change/camouflage"
+msgstr "Kamufláž"
+
+msgid "customization/change/emblemLeft"
+msgstr "Emblém 1"
+
+msgid "customization/change/emblemRight"
+msgstr "Emblém 2"
+
+msgid "customization/change/horn"
+msgstr "Klakson"
+
+msgid "customization/change/inscriptionLeft"
+msgstr "Nápis 1"
+
+msgid "customization/change/inscriptionRight"
+msgstr "Nápis 2"
+
+msgid "customization/group/igr"
+msgstr "IGR %(igrImg)s"
+
+msgid "customization/items/camouflage"
+msgstr "Kamufláž"
+
+msgid "customization/items/emblemLeft"
+msgstr "Emblém 1"
+
+msgid "customization/items/emblemRight"
+msgstr "Emblém 2"
+
+msgid "customization/items/horn"
+msgstr "Klakson"
+
+msgid "customization/items/inscriptionLeft"
+msgstr "Nápis 1"
+
+msgid "customization/items/inscriptionRight"
+msgstr "Nápis 2"
+
+msgid "customization/labels/camouflage/current"
+msgstr "Aktuální:"
+
+msgid "customization/labels/camouflage/new"
+msgstr "Nová:"
+
+msgid "customization/labels/camouflage/period"
+msgstr "Nastříkat kamufláž:"
+
+msgid "customization/labels/camouflage/price"
+msgstr "Kamufláž"
+
+msgid "customization/labels/camouflage/section"
+msgstr "Kamufláž"
+
+msgid "customization/labels/camouflage/timeLeft/days"
+msgstr "dnů: %d"
+
+msgid "customization/labels/camouflage/timeLeft/hours"
+msgstr "hodin: %d"
+
+msgid "customization/labels/emblem/current"
+msgstr "Aktuální:"
+
+msgid "customization/labels/emblem/new"
+msgstr "Nový:"
+
+msgid "customization/labels/emblem/period"
+msgstr "Použít emblém:"
+
+msgid "customization/labels/emblemLeft/price"
+msgstr "Emblém 1"
+
+msgid "customization/labels/emblemLeft/section"
+msgstr "Emblém 1"
+
+msgid "customization/labels/emblemRight/price"
+msgstr "Emblém 2"
+
+msgid "customization/labels/emblemRight/section"
+msgstr "Emblém 2"
+
+msgid "customization/labels/horn/current"
+msgstr "Aktuální:"
+
+msgid "customization/labels/horn/new"
+msgstr "Nový:"
+
+msgid "customization/labels/horn/price"
+msgstr "Klakson"
+
+msgid "customization/labels/horn/section"
+msgstr "Klakson"
+
+msgid "customization/labels/inscription/period"
+msgstr "Použít nápis:"
+
+msgid "customization/labels/inscriptionLeft/price"
+msgstr "Nápis 1"
+
+msgid "customization/labels/inscriptionLeft/section"
+msgstr "Nápis 1"
+
+msgid "customization/labels/inscriptionRight/price"
+msgstr "Nápis 2"
+
+msgid "customization/labels/inscriptionRight/section"
+msgstr "Nápis 2"
+
+msgid "customization/labels/timeLeft/days"
+msgstr "zbývá dnů: %d"
+
+msgid "customization/labels/timeLeft/hours"
+msgstr "zbývá hodin: %d"
+
+msgid "customization/labels/timeLeft/lastMinute"
+msgstr "1 min"
+
+msgid "customization/labels/timeLeft/title"
+msgstr "Zbývá:"
+
+msgid "customization/labels/totalPrice"
+msgstr "Celkem:"
+
+msgid "customization/marker/camouflage/defaultHint"
+msgstr "Vyberte si kamufláž pro snížení viditelnosti vozidla"
+
+msgid "customization/marker/camouflage/desertHint"
+msgstr "Snižuje viditelnost vozidla na pouštních mapách"
+
+msgid "customization/marker/camouflage/new"
+msgstr "NOVÁ"
+
+msgid "customization/marker/camouflage/summerHint"
+msgstr "Snižuje viditelnost vozidla na letních mapách"
+
+msgid "customization/marker/camouflage/winterHint"
+msgstr "Snižuje viditelnost vozidla na zimních mapách"
+
+msgid "customization/period/day"
+msgstr "na 1 den"
+
+msgid "customization/period/days"
+msgstr "na %d dnů"
+
+msgid "customization/period/igr"
+msgstr "na prémium %(igrImg)s"
+
+msgid "customization/period/infinity"
+msgstr "trvale"
+
+msgid "customization/remove/camouflage/side-01"
+msgstr "Aktuální kamufláž"
+
+msgid "customization/remove/camouflage/side-02"
+msgstr "bude ZNIČENA"
+
+msgid "customization/remove/camouflage0/side-01"
+msgstr "Zimní kamufláž"
+
+msgid "customization/remove/camouflage1/side-01"
+msgstr "Letní kamufláž"
+
+msgid "customization/remove/camouflage2/side-01"
+msgstr "Pouštní kamufláž"
+
+msgid "customization/remove/emblemLeft/side-01"
+msgstr "Aktuální Emblém 1"
+
+msgid "customization/remove/emblemLeft/side-02"
+msgstr "bude ODSTRANĚN"
+
+msgid "customization/remove/emblemRight/side-01"
+msgstr "Aktuální Emblém 2"
+
+msgid "customization/remove/emblemRight/side-02"
+msgstr "bude ODSTRANĚN"
+
+msgid "customization/remove/horn/side-01"
+msgstr "Aktuální klakson bude"
+
+msgid "customization/remove/horn/side-02"
+msgstr "ODSTRANĚN"
+
+msgid "customization/remove/inscriptionLeft/side-01"
+msgstr "Aktuální Nápis 1"
+
+msgid "customization/remove/inscriptionLeft/side-02"
+msgstr "bude ODSTRANĚN"
+
+msgid "customization/remove/inscriptionRight/side-01"
+msgstr "Aktuální Nápis 2"
+
+msgid "customization/remove/inscriptionRight/side-02"
+msgstr "bude ODSTRANĚN"
+
+msgid "customization/store/camouflage/side-02"
+msgstr "bude zachována a může být použita později"
+
+msgid "customization/store/emblemLeft/side-02"
+msgstr "bude zachován a může být použit později"
+
+msgid "customization/store/emblemRight/side-02"
+msgstr "bude zachován a může být použit později"
+
+msgid "customization/store/inscriptionLeft/side-02"
+msgstr "bude zachován a může být použit později"
+
+msgid "customization/store/inscriptionRight/side-02"
+msgstr "bude zachován a může být použit později"
+
+msgid "customization/title"
+msgstr "Vnější vzhled"
+
+msgid "day/1"
+msgstr "Pondělí"
+
+msgid "day/2"
+msgstr "Úterý"
+
+msgid "day/3"
+msgstr "Středy"
+
+msgid "day/4"
+msgstr "Čtvrtka"
+
+msgid "day/5"
+msgstr "Pátku"
+
+msgid "day/6"
+msgstr "Soboty"
+
+msgid "day/7"
+msgstr "Neděle"
+
+msgid "demonstrator/window/info"
+msgstr "Výběr mapy je povolený pouze pro náhodnou bitvu"
+
+msgid "demonstrator/window/title"
+msgstr "Výběr mapy"
+
+msgid "denunciation/0"
+msgstr "Urážky a provokace"
+
+msgid "denunciation/1"
+msgstr "Nesportovní chování"
+
+msgid "denunciation/2"
+msgstr "Urážlivá přezdívka či název"
+
+msgid "denunciation/3"
+msgstr "Neaktivita/bot"
+
+msgid "denunciation/4"
+msgstr "Spam"
+
+msgid "denunciation/5"
+msgstr "Prodej zlaťáků / podvod"
+
+msgid "denunciation/6"
+msgstr "Vyhrůžky v reálném životě"
+
+msgid "descriptions/shell"
+msgstr "Poškození: %(damage)s"
+
+msgid "descriptions/shellFull"
+msgstr ""
+"Průbojnost: %(piercingPower)s mm\n"
+"Poškození: %(damage)s"
+
+msgid "descriptions/vehicle"
+msgstr "%(weight)s t; Pancíř: do max %(hullArmor)s mm; Dělo %(caliber)s mm"
+
+msgid "descriptions/vehicleChassis"
+msgstr ""
+"Rychlost otáčení: do %(rotationSpeed)s stupňů/s\n"
+"Maximální nosnost: %(maxLoad)s t"
+
+msgid "descriptions/vehicleEngine"
+msgstr ""
+"Výkon: %(enginePower)s koní.\n"
+"Pravděpodobnost požáru při zásahu: %(fireStartingChance)s"
+
+msgid "descriptions/vehicleGun"
+msgstr ""
+"%(reloadTime)s ran/min; Průměrné poškození: %(avgDamage)s\n"
+"Průměrná průbojnost: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleRadio"
+msgstr "Dosah rádia: do %(radioDistance)s m"
+
+msgid "descriptions/vehicleTurret"
+msgstr ""
+"Pancíř: %(armor)s mm; Rotace: %(rotationSpeed)s stupňů/s\n"
+"Dohled: cca %(circularVisionRadius)s m"
+
+msgid "disconnect/codes/0"
+msgstr "<?empty?>"
+
+msgid "disconnect/codes/1001"
+msgstr "desynchronizace komponentů souvisejících s „Vozidly\" (1001)"
+
+msgid "disconnect/codes/1002"
+msgstr "desynchronizace komponentů souvisejících s „Podvozkem\" (1002)"
+
+msgid "disconnect/codes/1003"
+msgstr "desynchronizace komponentů souvisejících s „Věží\" (1003)"
+
+msgid "disconnect/codes/1004"
+msgstr "desynchronizace komponentů souvisejících s „Dělem\" (1004)"
+
+msgid "disconnect/codes/1005"
+msgstr "desynchronizace komponentů souvisejících s „Motorem\" (1005)"
+
+msgid "disconnect/codes/1006"
+msgstr "desynchronizace komponentů souvisejících s „Palivovou nádrží\" (1006)"
+
+msgid "disconnect/codes/1007"
+msgstr "desynchronizace komponentů souvisejících s „Rádiem\" (1007)"
+
+msgid "disconnect/codes/1008"
+msgstr "desynchronizace komponentů souvisejících s „Posádkou\" (1008)"
+
+msgid "disconnect/codes/1009"
+msgstr "desynchronizace komponentů souvisejících s „Vybavením\" (1009)"
+
+msgid "disconnect/codes/1010"
+msgstr "desynchronizace komponentů souvisejících s „Municí\" (1010)"
+
+msgid "disconnect/codes/1011"
+msgstr ""
+"desynchronizace komponentů souvisejících se „Spotřebními doplňky\" (1011)"
+
+msgid "disconnect/codes/1012"
+msgstr "desynchronizace komponentů souvisejících s \"Posádkou\" (1012)"
+
+msgid "exchange/cancel"
+msgstr "Storno"
+
+msgid "exchange/no_gold"
+msgstr "Nedostatek zlaťáků pro konverzi."
+
+msgid "exchange/onhand"
+msgstr "Aktuální zůstatek:"
+
+msgid "exchange/rate"
+msgstr "Směnný kurz:"
+
+msgid "exchange/result"
+msgstr "Zbývající zůstatek:"
+
+msgid "exchange/submit"
+msgstr "Směnit"
+
+msgid "exchange/title"
+msgstr "Směna zlaťáků"
+
+msgid "exchange/toexchange"
+msgstr "Směnit:"
+
+msgid "exchangeVcoin/buyVcoinBtnName"
+msgstr "Doplnění vcoin"
+
+msgid "exchangeVcoin/title"
+msgstr "Doplnění účtu"
+
+msgid "exchangeVcoin/vcoinIsTight"
+msgstr ""
+"Operaci nelze provést. Na vašem účtu není dostatek VCOIN. Minimálně "
+"%(minval)s VCOIN je potřeba."
+
+msgid "exchangeXP/available"
+msgstr "Dostupná zkušenost:"
+
+msgid "exchangeXP/cancel"
+msgstr "Storno"
+
+msgid "exchangeXP/change"
+msgstr "Konvertovat ({%d} za {%d}):"
+
+msgid "exchangeXP/pay"
+msgstr "Celkem:"
+
+msgid "exchangeXP/submit"
+msgstr "Převést"
+
+msgid "exchangeXP/title"
+msgstr "Konverze na volné zkušenosti"
+
+msgid "finalStatistic/commonStats/resultlabel/lose"
+msgstr "Porážka"
+
+msgid "finalStatistic/commonStats/resultlabel/tie"
+msgstr "Remíza"
+
+msgid "finalStatistic/commonStats/resultlabel/win"
+msgstr "Vítězství!"
+
+msgid "finalStatistic/tabs/commonStats"
+msgstr "Osobní skóre"
+
+msgid "finalStatistic/tabs/detailsStats"
+msgstr "Podrobná zpráva"
+
+msgid "finalStatistic/tabs/teamStats"
+msgstr "Týmové skóre"
+
+msgid "finalStatistic/window/title"
+msgstr "Výsledky bitvy"
+
+msgid "fittingListItemRenderer/replace"
+msgstr "Změna pořadí doplňků"
+
+msgid "fittingListItemRenderer/unload"
+msgstr "Odmontovat a umístit do skladu"
+
+msgid "fortificationCtx/assignedPlayers"
+msgstr "Закреплённые игроки"
+
+msgid "fortificationCtx/destroy"
+msgstr "Снос строения"
+
+msgid "fortificationCtx/directionControl"
+msgstr "Контроль направлений"
+
+msgid "fortificationCtx/modernization"
+msgstr "Модернизация"
+
+msgid "fortificationCtx/prepareOrder"
+msgstr "Подготовить приказ"
+
+msgid "hangar/ammunitionPanel/maitenanceBtn"
+msgstr "Servis"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/checkboxAuto"
+msgstr "Automatické doplnění"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/label"
+msgstr "Munice"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/buy"
+msgstr "Nákup"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/inventory"
+msgstr "Ve skladu"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/price"
+msgstr "Cena"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/ammo"
+msgstr "Doplnit"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/apply"
+msgstr "Akceptovat"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/close"
+msgstr "Zavřít"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/equipment"
+msgstr "Doplnit"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/labelTotal"
+msgstr "Celkem:"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/repair"
+msgstr "Opravit"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/checkboxAuto"
+msgstr "Automatické doplnění"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/label"
+msgstr "Spotřební doplňky"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/buy"
+msgstr "Nákup"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/inventory"
+msgstr "Ve skladu"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/price"
+msgstr "Cena"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/checkboxAuto"
+msgstr "Automatické opravy"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/label"
+msgstr "Opravy"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/title"
+msgstr "Servis"
+
+msgid "hangar/ammunitionPanel/tuningBtn"
+msgstr "Vnější vzhled"
+
+msgid "hangar/crew/tooltip/drop_skill"
+msgstr "Klikněte pro zapomenutí specializace."
+
+msgid "hangar/crew/tooltip/new_skill"
+msgstr "Klikněte pro vyzkoumání další specializace."
+
+msgid "hangar/vehicle_locked"
+msgstr "Vozidlo uzamčeno."
+
+msgid "hangar/xpToTmenCheckbox/tooltip"
+msgstr ""
+"Spotřebovat všechny zkušenosti získané s tímto vozidlem na výcvik posádky. "
+"Nejméně zkušený člen posádky se bude učit dvakrát rychleji."
+
+msgid "header/account/premium/days"
+msgstr "dnů: "
+
+msgid "header/account/premium/hours"
+msgstr "hodin: "
+
+msgid "header/serverInfo"
+msgstr "Server"
+
+msgid "headerButtons/account/accountRefill"
+msgstr "Získat zlaťáky"
+
+msgid "headerButtons/account/expGathering"
+msgstr "Konvertovat zkušenosti"
+
+msgid "headerButtons/account/goldExchange"
+msgstr "Směnit zlaťáky"
+
+msgid "headerButtons/account/premium"
+msgstr "Prodloužit prémiový"
+
+msgid "headerButtons/barracks"
+msgstr "Kasárna"
+
+msgid "headerButtons/battle"
+msgstr "Bitva!"
+
+msgid "headerButtons/battle/menu/battle_session"
+msgstr "Speciální bitva"
+
+msgid "headerButtons/battle/menu/historical"
+msgstr "Historická bitva"
+
+msgid "headerButtons/battle/menu/squad"
+msgstr "Četa"
+
+msgid "headerButtons/battle/menu/standart"
+msgstr "Náhodná bitva"
+
+msgid "headerButtons/battle/menu/team"
+msgstr "Bitva v rotě"
+
+msgid "headerButtons/battle/menu/training"
+msgstr "Týmový výcvik"
+
+msgid "headerButtons/battle/menu/unit"
+msgstr "Týmová bitva"
+
+msgid "headerButtons/battle/types/company"
+msgstr "Bitva v rotě"
+
+msgid "headerButtons/battle/types/company/descr"
+msgstr "Bitva s manuálním výběrem spojenců proti náhodným protivníkům."
+
+msgid "headerButtons/battle/types/companyLeave"
+msgstr "Bitva v rotě"
+
+msgid "headerButtons/battle/types/companyLeaveOwner"
+msgstr "Bitva v rotě"
+
+msgid "headerButtons/battle/types/historicalBattles"
+msgstr "Historická bitva"
+
+msgid "headerButtons/battle/types/historicalBattles/descr"
+msgstr "Rekonstrukce významných tankových bitev."
+
+msgid "headerButtons/battle/types/historicalBattlesLeave"
+msgstr "Historická bitva"
+
+msgid "headerButtons/battle/types/historicalBattlesLeave/descr"
+msgstr "Kliknutím opustíte režim."
+
+msgid "headerButtons/battle/types/leaveCompany/descr"
+msgstr "Kliknutím opustíte režim."
+
+msgid "headerButtons/battle/types/leaveSpec/descr"
+msgstr "Kliknutím opustíte režim."
+
+msgid "headerButtons/battle/types/leaveTraining/descr"
+msgstr "Kliknutím opustíte režim."
+
+msgid "headerButtons/battle/types/leaveUnit/descr"
+msgstr "Kliknutím opustíte režim."
+
+msgid "headerButtons/battle/types/spec"
+msgstr "Speciální bitva"
+
+msgid "headerButtons/battle/types/spec/descr"
+msgstr "Účast v šampionátech, turnajích a klanových válkách."
+
+msgid "headerButtons/battle/types/specLeave"
+msgstr "Speciální bitva"
+
+msgid "headerButtons/battle/types/squad"
+msgstr "Četa"
+
+msgid "headerButtons/battle/types/squad/descr"
+msgstr "Operační jednotka 2 až 3 hráčů, spolupracujících v náhodných bitvách."
+
+msgid "headerButtons/battle/types/squadBattle"
+msgstr "Poslat do bitvy"
+
+msgid "headerButtons/battle/types/squadLeave"
+msgstr "Četa"
+
+msgid "headerButtons/battle/types/squadLeave/descr"
+msgstr "Klikněte pro opuštění čety."
+
+msgid "headerButtons/battle/types/squadLeaveOwner"
+msgstr "Četa"
+
+msgid "headerButtons/battle/types/standart"
+msgstr "Náhodná bitva"
+
+msgid "headerButtons/battle/types/standart/descr"
+msgstr "Bitva s automatickým výběrem spojenců a protivníků."
+
+msgid "headerButtons/battle/types/standartLeave/descr"
+msgstr "Opustit bitvu"
+
+msgid "headerButtons/battle/types/training"
+msgstr "Týmový výcvik"
+
+msgid "headerButtons/battle/types/training/descr"
+msgstr "Cvičná bitva s manuálním výběrem spojenců a protivníků."
+
+msgid "headerButtons/battle/types/trainingLeave"
+msgstr "Týmový výcvik"
+
+msgid "headerButtons/battle/types/trainingLeaveOwner"
+msgstr "Týmový výcvik"
+
+msgid "headerButtons/battle/types/unit"
+msgstr "Týmová bitva"
+
+msgid "headerButtons/battle/types/unit/descr"
+msgstr "Bitva mezi týmy se stejnými dovednostmi."
+
+msgid "headerButtons/battle/types/unitLeave"
+msgstr "Týmová bitva"
+
+msgid "headerButtons/browser"
+msgstr "Prohlížeč"
+
+msgid "headerButtons/forts"
+msgstr "Укрепрайоны"
+
+msgid "headerButtons/hangar"
+msgstr "Garáž"
+
+msgid "headerButtons/inventory"
+msgstr "Sklad"
+
+msgid "headerButtons/menu"
+msgstr "Menu"
+
+msgid "headerButtons/notReady"
+msgstr "Nepřipraven!"
+
+msgid "headerButtons/profile"
+msgstr "Služební záznam"
+
+msgid "headerButtons/rating"
+msgstr "Hodnocení"
+
+msgid "headerButtons/ready"
+msgstr "Připraven!"
+
+msgid "headerButtons/shop"
+msgstr "Obchod"
+
+msgid "headerButtons/techtree"
+msgstr "Výzkum"
+
+msgid "igr/info"
+msgstr "%(igrIcon)s Вы играете в IGR"
+
+msgid "ingame_menu/buttons/back"
+msgstr "Zpět do hry"
+
+msgid "ingame_menu/buttons/help"
+msgstr "Nápověda"
+
+msgid "ingame_menu/buttons/logoff"
+msgstr "Návrat do garáže"
+
+msgid "ingame_menu/buttons/settings"
+msgstr "Nastavení"
+
+msgid "ingame_menu/title"
+msgstr "Bitevní nabídka"
+
+msgid "inventory/device/errors/not_removable"
+msgstr " "
+
+msgid "inventory/device/errors/reserved"
+msgstr " "
+
+msgid "inventory/errors/reserved"
+msgstr " "
+
+msgid "inventory/header/equipment/myVehicle"
+msgstr "Spotřební doplňky pro %(vehicle)s:"
+
+msgid "inventory/header/equipment/myVehicles"
+msgstr "Spotřební doplňky %(nation)s:"
+
+msgid "inventory/header/equipment/otherVehicles"
+msgstr "Spotřební doplňky pro má vozidla %(nation)s:"
+
+msgid "inventory/header/module/myVehicle"
+msgstr "%(type)s pro %(vehicle)s:"
+
+msgid "inventory/header/module/myVehicles"
+msgstr "%(type)s pro má vozidla %(nation)s:"
+
+msgid "inventory/header/module/otherVehicles"
+msgstr "%(type)s, není kompatibilní s %(nation)s:"
+
+msgid "inventory/header/optionalDevice/myVehicle"
+msgstr "Vybavení pro %(vehicle)s:"
+
+msgid "inventory/header/optionalDevice/myVehicles"
+msgstr "Vybavení pro má vozidla %(nation)s:"
+
+msgid "inventory/header/optionalDevice/otherVehicles"
+msgstr "Vybavení není kompatibilní s %(nation)s:"
+
+msgid "inventory/header/shell/myInventoryGuns"
+msgstr "Granáty pro má děla ve skladu %(nation)s:"
+
+msgid "inventory/header/shell/myVehicleGun"
+msgstr "Granáty pro aktuální dělo na %(vehicle)s:"
+
+msgid "inventory/header/shell/myVehiclesInventoryGuns"
+msgstr "Granáty pro všechna má děla %(nation)s:"
+
+msgid "inventory/header/shell/otherGuns"
+msgstr "Granáty nekompatibilní s mými děly %(nation)s:"
+
+msgid "inventory/header/vehicle"
+msgstr "Veškeré mé %(type)s%(nation)s:"
+
+msgid "inventory/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/equipment/fits/myVehicles/name"
+msgstr "Mými vozidly"
+
+msgid "inventory/menu/equipment/fits/name"
+msgstr "Kompatibilní s:"
+
+msgid "inventory/menu/equipment/fits/otherVehicles/name"
+msgstr "Nekompatibilní s mými vozidly"
+
+msgid "inventory/menu/equipment/name"
+msgstr "Spotřební doplňky"
+
+msgid "inventory/menu/module/extra/name"
+msgstr "Zobrazit:"
+
+msgid "inventory/menu/module/extra/onVehicle/name"
+msgstr "Na vozidlech"
+
+msgid "inventory/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/module/fits/myVehicles/name"
+msgstr "Mými vozidly"
+
+msgid "inventory/menu/module/fits/name"
+msgstr "Kompatibilní s:"
+
+msgid "inventory/menu/module/fits/otherVehicles/name"
+msgstr "Nekompatibilní s mými vozidly"
+
+msgid "inventory/menu/module/name"
+msgstr "Moduly"
+
+msgid "inventory/menu/module/types/name"
+msgstr "Typy modulů:"
+
+msgid "inventory/menu/module/types/vehicleChassis/name"
+msgstr "Podvozky"
+
+msgid "inventory/menu/module/types/vehicleEngine/name"
+msgstr "Motory"
+
+msgid "inventory/menu/module/types/vehicleGun/name"
+msgstr "Děla"
+
+msgid "inventory/menu/module/types/vehicleRadio/name"
+msgstr "Rádia"
+
+msgid "inventory/menu/module/types/vehicleTurret/name"
+msgstr "Věže"
+
+msgid "inventory/menu/optionalDevice/extra/name"
+msgstr "Zobrazit:"
+
+msgid "inventory/menu/optionalDevice/extra/onVehicle/name"
+msgstr "Na vozidlech"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicles/name"
+msgstr "Mými vozidly"
+
+msgid "inventory/menu/optionalDevice/fits/name"
+msgstr "Kompatibilní s:"
+
+msgid "inventory/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "Nekompatibilní s mými vozidly"
+
+msgid "inventory/menu/optionalDevice/name"
+msgstr "Vybavení"
+
+msgid "inventory/menu/shell/fits/myInventoryGuns/name"
+msgstr "Děla ve skladu"
+
+msgid "inventory/menu/shell/fits/myVehicleGun/name"
+msgstr "Aktuálním dělem na"
+
+msgid "inventory/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "Všemi mými děly"
+
+msgid "inventory/menu/shell/fits/name"
+msgstr "Kompatibilní s:"
+
+msgid "inventory/menu/shell/fits/otherGuns/name"
+msgstr "Nekompatibilní s mými děly"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "AP - Průbojná"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "Podkaliberní"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "Průbojně výbušná"
+
+msgid "inventory/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "HE - Explozivní"
+
+msgid "inventory/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "HEAT - Kumulativní"
+
+msgid "inventory/menu/shell/kinds/name"
+msgstr "Typy granátů:"
+
+msgid "inventory/menu/shell/name"
+msgstr "Granáty"
+
+msgid "inventory/menu/vehicle/extra/brocken/name"
+msgstr "Poškozená vozidla"
+
+msgid "inventory/menu/vehicle/extra/locked/name"
+msgstr "Vozidla v bitvě"
+
+msgid "inventory/menu/vehicle/extra/name"
+msgstr "Zobrazit:"
+
+msgid "inventory/menu/vehicle/name"
+msgstr "Vozidla"
+
+msgid "inventory/menu/vehicle/tags/all/name"
+msgstr "Všechny typy"
+
+msgid "inventory/menu/vehicle/tags/at-spg/name"
+msgstr "Stíhače tanků"
+
+msgid "inventory/menu/vehicle/tags/heavyTank/name"
+msgstr "Těžké tanky"
+
+msgid "inventory/menu/vehicle/tags/lightTank/name"
+msgstr "Lehké tanky"
+
+msgid "inventory/menu/vehicle/tags/mediumTank/name"
+msgstr "Střední tanky"
+
+msgid "inventory/menu/vehicle/tags/name"
+msgstr "Typ vozidla:"
+
+msgid "inventory/menu/vehicle/tags/spg/name"
+msgstr "Dělostřelectvo"
+
+msgid "inventory/table/buttonSell"
+msgstr "Prodat"
+
+msgid "inventory/table/header/count"
+msgstr "Počet"
+
+msgid "inventory/table/header/price"
+msgstr "Cena"
+
+msgid "levels/1"
+msgstr "1. úroveň"
+
+msgid "levels/10"
+msgstr "10. úroveň"
+
+msgid "levels/2"
+msgstr "2. úroveň"
+
+msgid "levels/3"
+msgstr "3. úroveń"
+
+msgid "levels/4"
+msgstr "4. úroveň"
+
+msgid "levels/5"
+msgstr "5. úroveň"
+
+msgid "levels/6"
+msgstr "6. úroveň"
+
+msgid "levels/7"
+msgstr "7. úroveň"
+
+msgid "levels/8"
+msgstr "8. úroveň"
+
+msgid "levels/9"
+msgstr "9. úroveň"
+
+msgid "levels/all"
+msgstr "Všechny úrovně"
+
+msgid "loading/battleTypes/0"
+msgstr "Speciální bitva"
+
+msgid "loading/battleTypes/1"
+msgstr "Náhodná bitva"
+
+msgid "loading/battleTypes/2"
+msgstr "Týmový výcvik"
+
+msgid "loading/battleTypes/3"
+msgstr "Bitva v rotě"
+
+msgid "loading/battleTypes/4"
+msgstr "Bojový výcvik"
+
+msgid "loading/battleTypes/5"
+msgstr "Týmová bitva"
+
+msgid "loading/battleTypes/6"
+msgstr "Historická bitva"
+
+msgid "loading/battleTypes/desc/0"
+msgstr " "
+
+msgid "loading/battleTypes/desc/1"
+msgstr " "
+
+msgid "loading/battleTypes/desc/2"
+msgstr ""
+"Vylepšujte své bojové dovednosti\n"
+"společně se svými spolubojovníky.\n"
+"Za tyto bitvy nezískáte žádné zkušenosti."
+
+msgid "loading/battleTypes/desc/3"
+msgstr " "
+
+msgid "loading/battleTypes/desc/4"
+msgstr " "
+
+msgid "loading/battleTypes/desc/5"
+msgstr " "
+
+msgid "loading/battleTypes/desc/6"
+msgstr " "
+
+msgid "loading/game"
+msgstr "Nahrává se… Prosím čekejte…"
+
+msgid "loading/gameInfo"
+msgstr " "
+
+msgid "loading/helpTip"
+msgstr "Pro nápovědu v bitvě stiskněte F1."
+
+msgid "loading/team1"
+msgstr "Spojenci"
+
+msgid "loading/team2"
+msgstr "Nepřátelé"
+
+msgid "lobby_menu/buttons/back"
+msgstr "Zpět do hry"
+
+msgid "lobby_menu/buttons/exit"
+msgstr "Opustit hru"
+
+msgid "lobby_menu/buttons/logoff"
+msgstr "Odpojit od serveru"
+
+msgid "lobby_menu/buttons/refuse-training"
+msgstr "Přerušit výcvik"
+
+msgid "lobby_menu/buttons/restart-training"
+msgstr "Obnovit výcvik"
+
+msgid "lobby_menu/buttons/settings"
+msgstr "Nastavení"
+
+msgid "lobby_menu/title"
+msgstr "Herní menu"
+
+msgid "login/auto"
+msgstr "Auto"
+
+msgid "login/caps"
+msgstr "Caps"
+
+msgid "login/login"
+msgstr "E-mail:"
+
+msgid "login/ok"
+msgstr "Připojit!"
+
+msgid "login/password"
+msgstr "Heslo:"
+
+msgid "login/quitFromAutoLogin"
+msgstr "Opustit frontu"
+
+msgid "login/recoveryLink"
+msgstr "Nemůžete se přihlásit?"
+
+msgid "login/registrationLink"
+msgstr "Registrovat"
+
+msgid "login/rememberPassword"
+msgstr "Uložit heslo"
+
+msgid "login/rememberPasswordIgr"
+msgstr "Uložit email a heslo (nebezpečné)"
+
+msgid "login/rememberPasswordIgrWarning"
+msgstr "Je nebezpečné používat tuto možnost na veřejných místech."
+
+msgid "login/server"
+msgstr "Server:"
+
+msgid "login/status/ALREADY_ONLINE_LOCALLY"
+msgstr "Klient je již lokálně připojen (např. prohlížení map offline)."
+
+msgid "login/status/CANCELLED"
+msgstr "Uživatel přerušil připojení na server."
+
+msgid "login/status/CLIENT_SERVER_VERSIONS_ARE_DIFFERENT"
+msgstr ""
+"Server je momentálně nedostupný. Aktualizujte prosím svého klienta, nebo "
+"počkejte na plánovanou aktualizaci."
+
+msgid "login/status/CONNECTION_FAILED"
+msgstr "Síť není dostupná."
+
+msgid "login/status/DNS_LOOKUP_FAILED"
+msgstr "Nelze zjisti IP adresu pomocí DNS."
+
+msgid "login/status/LOGIN_BAD_PROTOCOL_VERSION"
+msgstr "Prosím aktualizujte svého klienta."
+
+msgid "login/status/LOGIN_CUSTOM_DEFINED_ERROR"
+msgstr "Server není dostupný. Důvod: %s"
+
+msgid "login/status/LOGIN_MALFORMED_REQUEST"
+msgstr ""
+"Nelze se přihlásit na server. Vaše aplikace je pravděpodobně zastaralá nebo "
+"poškozená."
+
+msgid "login/status/LOGIN_REJECTED_ACTIVATING"
+msgstr "Přihlašování..."
+
+msgid "login/status/LOGIN_REJECTED_ALREADY_LOGGED_IN"
+msgstr "Hráč se stejným jménem již hraje."
+
+msgid "login/status/LOGIN_REJECTED_BAD_DIGEST"
+msgstr "Prosím aktualizujte svého klienta."
+
+msgid "login/status/LOGIN_REJECTED_BAN"
+msgstr "Váš účet byl uzamčen do %(time)s. Důvod: %(reason)s."
+
+msgid "login/status/LOGIN_REJECTED_BAN_UNLIMITED"
+msgstr "Váš účet byl zablokován. Důvod: %(reason)s."
+
+msgid "login/status/LOGIN_REJECTED_BASEAPPMGR_TIMEOUT"
+msgstr "Chyba serveru (BASEAPPMGR_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_OVERLOAD"
+msgstr "Server je zatížen, zkuste to prosím později."
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_TIMEOUT"
+msgstr "Chyba serveru (BASEAPP_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_CELLAPP_OVERLOAD"
+msgstr "Server je zatížen, zkuste to prosím později."
+
+msgid "login/status/LOGIN_REJECTED_DBMGR_OVERLOAD"
+msgstr "Server je zatížen, zkuste to prosím později."
+
+msgid "login/status/LOGIN_REJECTED_DB_GENERAL_FAILURE"
+msgstr "Chyba serveru (DB_GENERAL_FAILURE)"
+
+msgid "login/status/LOGIN_REJECTED_DB_NOT_READY"
+msgstr "Chyba serveru (DB_NOT_READY)"
+
+msgid "login/status/LOGIN_REJECTED_ILLEGAL_CHARACTERS"
+msgstr "Uživatelské jméno nebo heslo obsahují neplatné znaky."
+
+msgid "login/status/LOGIN_REJECTED_INACCESSIBLE_REALM"
+msgstr "Vybraný server je dočasně nedostupný."
+
+msgid "login/status/LOGIN_REJECTED_INVALID_PASSWORD"
+msgstr ""
+"Nesprávný email nebo heslo. <a href='event:passwordRecovery'>Obnovit heslo</"
+"a> "
+
+msgid "login/status/LOGIN_REJECTED_IP_ADDRESS_BAN"
+msgstr "Chyba připojení: přístup do hry z vaší IP adresy je dočasně omezen."
+
+msgid "login/status/LOGIN_REJECTED_LOGINS_NOT_ALLOWED"
+msgstr "Server je dočasně nedostupný, probíhá plánovaná údržba."
+
+msgid "login/status/LOGIN_REJECTED_LOGIN_QUEUE"
+msgstr "Server je zatížen. Čekání na připojení. Vaše pořadí ve frontě: %d."
+
+msgid "login/status/LOGIN_REJECTED_NICKNAME_ALREADY_EXIST"
+msgstr ""
+"Toto uživatelské jméno už používá jiná osoba. Zkuste jiné uživatelské jméno."
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPPS"
+msgstr "Chyba serveru (NO_BASEAPPS)"
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPP_RESPONSE"
+msgstr "Server neodpovídá. Zkuste to později."
+
+msgid "login/status/LOGIN_REJECTED_NO_LOGINAPP_RESPONSE"
+msgstr ""
+"Nepodařilo se připojit k serveru.\n"
+"Server může být nedostupný, nebo můžete mít chybně nastavené vaše síťové "
+"připojení."
+
+msgid "login/status/LOGIN_REJECTED_NO_SUCH_USER"
+msgstr "Špatný e-mail nebo heslo."
+
+msgid "login/status/LOGIN_REJECTED_RATE_LIMITED"
+msgstr "Server je přetížen. Vyčkejte na připojení."
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_ALLOWED"
+msgstr "Registrace je dočasně zakázána."
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_CONFIRMED"
+msgstr ""
+"Nelze se přihlásit. Podívejte se prosím do vaší emailové schránky, najděte "
+"potvrzení registrace a zkuste to znovu."
+
+msgid "login/status/LOGIN_REJECTED_SERVER_NOT_READY"
+msgstr "Server není připraven, zkuste to prosím později."
+
+msgid "login/status/LOGIN_REJECTED_UNABLE_TO_PARSE_JSON"
+msgstr ""
+"Toto uživatelské jméno obsahuje neplatné znaky. Zkuste jiné uživatelské "
+"jméno."
+
+msgid "login/status/LOGIN_REJECTED_USERS_LIMIT"
+msgstr "Server je přetížen. Vyberte si jiný nebo to zkuste později."
+
+msgid "login/status/PUBLIC_KEY_LOOKUP_FAILED"
+msgstr "Nelze nalézt klientský veřejný klíč."
+
+msgid "login/status/SESSION_END"
+msgstr "Relace automatického přihlášení expirovala. Zadejte znovu vaše heslo."
+
+msgid "login/status/UNKNOWN_ERROR"
+msgstr "Došlo k neznámé chybě."
+
+msgid "login/status/accountNotReady"
+msgstr "Účet není připraven. Zkuste to později."
+
+msgid "login/status/centerRestart"
+msgstr ""
+"Server je momentálně nedostupný. Počkejte prosím, než budou servery "
+"restartovány."
+
+msgid "login/status/connecting"
+msgstr "?empty?"
+
+msgid "login/status/disconnected"
+msgstr "Byl jste odpojen od serveru."
+
+msgid "login/status/empty_login"
+msgstr "Prosím zadejte své uživatelské jméno."
+
+msgid "login/status/empty_password"
+msgstr "Prosím zadejte vaše heslo."
+
+msgid "login/status/empty_server"
+msgstr "Vyberte si server."
+
+msgid "login/status/invalid_login"
+msgstr "Pro přihlášení použijte prosím svůj e-mail."
+
+msgid "login/status/invalid_login_length"
+msgstr "Uživatelské jméno musí obsahovat minimálně dva znaky: %(count)d"
+
+msgid "login/status/invalid_nickname"
+msgstr "Uživatelské jméno musí obsahovat alfanumerické znaky a '_'."
+
+msgid "login/status/invalid_password"
+msgstr "Heslo musí mít minimálně 6 znaků a to pouze alfanumerických a '_'."
+
+msgid "login/status/launchernotfound"
+msgstr "Nebyl nalezen soubor WOTLauncher.exe. Spusťte prosím aplikaci znovu."
+
+msgid "login/status/unavailable"
+msgstr "Server není dostupný."
+
+msgid "login/status/versionMismatch"
+msgstr ""
+"Region je momentálně nedostupný. Počkejte prosím na plánovanou aktualizaci."
+
+msgid "login/updateURLAvaialbleAt"
+msgstr "Prosím aktualizujte klientskou aplikaci (%s)."
+
+msgid "login/version"
+msgstr "World of Tanks"
+
+msgid "moduleFits/already_installed"
+msgstr "?empty?"
+
+msgid "moduleFits/credit_error"
+msgstr "?empty?"
+
+msgid "moduleFits/destroyDescr"
+msgstr ""
+"Zničit integrované vybavení\n"
+"kvůli uvolnění pozice pro jinou položku."
+
+msgid "moduleFits/destroyName"
+msgstr "Zničit"
+
+msgid "moduleFits/destroyToolTip"
+msgstr "moduleFits/destroyToolTip"
+
+msgid "moduleFits/gold_error"
+msgstr "?empty?"
+
+msgid "moduleFits/need_turret"
+msgstr "Nekompatibilní věž"
+
+msgid "moduleFits/not_for_current_vehicle"
+msgstr "Nekompatibilní s aktuální konfigurací."
+
+msgid "moduleFits/not_for_this_vehicle_type"
+msgstr "Nekompatibilní dělo"
+
+msgid "moduleFits/not_with_installed_equipment"
+msgstr "Nekompatibilní"
+
+msgid "moduleFits/removeDescr"
+msgstr "Demontovat vybavení a poslat ho do skladu"
+
+msgid "moduleFits/removeName"
+msgstr "Demontovat"
+
+msgid "moduleFits/removeToolTip"
+msgstr "moduleFits/removeToolTip"
+
+msgid "moduleFits/remove_too_heavy"
+msgstr "Moduly jsou příliš těžké."
+
+msgid "moduleFits/too_heavy"
+msgstr "Nedostatečná nosnost"
+
+msgid "moduleFits/too_heavy_chassis"
+msgstr "Moduly jsou příliš těžké."
+
+msgid "moduleFits/unlock_error"
+msgstr "Nevyzkoumáno"
+
+msgid "moduleFits/wrong_slot"
+msgstr "?empty?"
+
+msgid "moduleInfo/additionalInfo"
+msgstr "Vlastnosti granátu závisí na dělu."
+
+msgid "moduleInfo/clipGunLabel"
+msgstr "Systém nabíjení zásobníku"
+
+msgid "moduleInfo/closeBtn"
+msgstr "Zavřít"
+
+msgid "moduleInfo/compatible/clipVehicles"
+msgstr "Vybaveno systémem nabíjení zásobníku na vozidlech:"
+
+msgid "moduleInfo/compatible/guns"
+msgstr "Kompatibilní děla:"
+
+msgid "moduleInfo/compatible/shellGuns"
+msgstr "Kompatibilní děla:"
+
+msgid "moduleInfo/compatible/shells"
+msgstr "Kompatibilní granáty:"
+
+msgid "moduleInfo/compatible/turrets"
+msgstr "Kompatibilní věže:"
+
+msgid "moduleInfo/compatible/uniChargedVehicles"
+msgstr "Použité jako jednoranné dělo na vozidlech:"
+
+msgid "moduleInfo/compatible/vehicles"
+msgstr "Kompatibilní vozidla:"
+
+msgid "moduleInfo/parametersClipGunLabel"
+msgstr "<img src='%s' vspace='-4'/> Pro děla se systémem nabíjení zásobníku:"
+
+msgid "moduleInfo/parametersLabel"
+msgstr "Charakteristiky:"
+
+msgid "moduleInfo/params/aimingTime"
+msgstr "<h>Čas zaměření <p>(s)</p></h>"
+
+msgid "moduleInfo/params/armor"
+msgstr "<h>Pancíř <p>(čelní/boční/zadní mm)</p></h>"
+
+msgid "moduleInfo/params/avgDamage"
+msgstr "<h>Průměrné poškození <p>(HP)</p></h>"
+
+msgid "moduleInfo/params/avgPiercingPower"
+msgstr "<h>Průměrná průbojnost <p>(mm)</p></h>"
+
+msgid "moduleInfo/params/caliber"
+msgstr "<h>Ráže <p>(mm)</p></h>"
+
+msgid "moduleInfo/params/circularVisionRadius"
+msgstr "<h>Dohled <p>(m)</p></h>"
+
+msgid "moduleInfo/params/damage"
+msgstr "<h>Poškození <p>(HP)</p></h>"
+
+msgid "moduleInfo/params/dispertionRadius"
+msgstr "<h>Rozptyl na 100 m <p>(m)</p></h>"
+
+msgid "moduleInfo/params/enginePower"
+msgstr "<h>Výkon motoru <p>(koní)</p></h>"
+
+msgid "moduleInfo/params/explosionRadius"
+msgstr "<h>Rozsah výbuchu <p>(m)</p></h>"
+
+msgid "moduleInfo/params/fireStartingChance"
+msgstr "<h>Pravděpodobnost požáru při zásahu <p></p></h>"
+
+msgid "moduleInfo/params/maxLoad"
+msgstr "<h>Maximální nosnost <p>(t)</p></h>"
+
+msgid "moduleInfo/params/piercingPower"
+msgstr "<h>Průbojnost <p>(mm)</p></h>"
+
+msgid "moduleInfo/params/radioDistance"
+msgstr "<h>Dosah rádia <p>(m)</p></h>"
+
+msgid "moduleInfo/params/reloadMagazineTime"
+msgstr "<h>Doba úplného nabití <p>(s)</p></h>"
+
+msgid "moduleInfo/params/reloadTime"
+msgstr "<h>Rychlost střelby <p>(ran/min)</p></h>"
+
+msgid "moduleInfo/params/rotationSpeed"
+msgstr "<h>Rychlost otáčení <p>(stupňů/s)</p></h>"
+
+msgid "moduleInfo/params/shellReloadingTime"
+msgstr "<h>Doba nabíjení jednoho granátu <p>(s)</p></h>"
+
+msgid "moduleInfo/params/shellsCount"
+msgstr "<h>Granátů v zásobníku <p>(kusů)</p></h>"
+
+msgid "moduleInfo/params/weight"
+msgstr "<h>Hmotnost <p>(kg)</p></h>"
+
+msgid "moduleInfo/title"
+msgstr " "
+
+msgid "nation_tree/title/china"
+msgstr "Čína"
+
+msgid "nation_tree/title/france"
+msgstr "Francie"
+
+msgid "nation_tree/title/germany"
+msgstr "Německo"
+
+msgid "nation_tree/title/japan"
+msgstr "Japonsko"
+
+msgid "nation_tree/title/uk"
+msgstr "Británie"
+
+msgid "nation_tree/title/usa"
+msgstr "USA"
+
+msgid "nation_tree/title/ussr"
+msgstr "SSSR"
+
+msgid "nations/all"
+msgstr "Všechny národy"
+
+msgid "nations/china"
+msgstr "Čína"
+
+msgid "nations/france"
+msgstr "Francie"
+
+msgid "nations/germany"
+msgstr "Německo"
+
+msgid "nations/japan"
+msgstr "Japonsko"
+
+msgid "nations/title"
+msgstr "Národ"
+
+msgid "nations/uk"
+msgstr "Británie"
+
+msgid "nations/usa"
+msgstr "USA"
+
+msgid "nations/ussr"
+msgstr "SSSR"
+
+msgid "opponents"
+msgstr "%(firstOpponent)s vs. %(secondOpponent)s"
+
+msgid "prebattle/CompaniesTitle/ABSOLUTE"
+msgstr "Veteráni"
+
+msgid "prebattle/CompaniesTitle/CHAMPION"
+msgstr "Mazáci"
+
+msgid "prebattle/CompaniesTitle/JUNIOR"
+msgstr "Bažanti"
+
+msgid "prebattle/CompaniesTitle/MIDDLE"
+msgstr "Záklaďáci"
+
+msgid "prebattle/already_in_awaiting_battle"
+msgstr "Již čekáte na další bitvu."
+
+msgid "prebattle/description"
+msgstr "prebattle/description"
+
+msgid "prebattle/exitButton"
+msgstr "Opustit frontu"
+
+msgid "prebattle/groupsLabel"
+msgstr "Rot ve frontě:"
+
+msgid "prebattle/invitations/buttons/cancel"
+msgstr "Storno"
+
+msgid "prebattle/invitations/buttons/search"
+msgstr "Hledat"
+
+msgid "prebattle/invitations/buttons/send"
+msgstr "Pozvat"
+
+msgid "prebattle/invitations/errors/addIgnoredUser"
+msgstr "Nemůžete přidat hráče, které ignorujete."
+
+msgid "prebattle/invitations/errors/existsInReceiveList"
+msgstr "Uživatel již je na seznamu pozvaných."
+
+msgid "prebattle/invitations/errors/notFoundUsers"
+msgstr "Nebyli nalezeni takoví hráči ve hře a zároveň neignorovaní."
+
+msgid "prebattle/invitations/errors/receiverListEmpty"
+msgstr "Seznam pozvaných je prázdný."
+
+msgid "prebattle/invitations/errors/selectUserToAdd"
+msgstr "Vyberte hráče, kterého chcete zařadit mezi pozvané."
+
+msgid "prebattle/invitations/errors/selectUserToRemove"
+msgstr "Vyberte hráče, kterého chcete vyřadit z pozvaných."
+
+msgid "prebattle/invitations/errors/userListEmpty"
+msgstr "Seznam hráčů je prázdný."
+
+msgid "prebattle/invitations/errors/userOffline"
+msgstr "Uživatel musí být ve hře."
+
+msgid "prebattle/invitations/labels/defaultInviteText"
+msgstr "Text pozvánky"
+
+msgid "prebattle/invitations/labels/isOnline"
+msgstr "Zobrazit pouze „Ve hře\""
+
+msgid "prebattle/invitations/labels/mailingList"
+msgstr "Pozvat hráče"
+
+msgid "prebattle/playersLabel"
+msgstr "Hráčů ve frontě:"
+
+msgid "prebattle/sideA"
+msgstr "Strana A"
+
+msgid "prebattle/sideB"
+msgstr "Strana B"
+
+msgid "prebattle/startButton"
+msgstr "Zahájit bitvu"
+
+msgid "prebattle/timerLabel"
+msgstr "Stráveno ve frontě:"
+
+msgid "prebattle/title"
+msgstr "Standardní bitva"
+
+msgid "prebattle/typesCompaniesTitle"
+msgstr "Počet tankových rot dle úrovně"
+
+msgid "prebattle/typesTitle"
+msgstr "Vozidla podle typu"
+
+msgid "premium/buyMessage"
+msgstr "Koupit prémiový účet:"
+
+msgid "premium/buyTitle"
+msgstr "Nákup prémiového účtu"
+
+msgid "premium/cancel"
+msgstr "Storno"
+
+msgid "premium/continueMessage"
+msgstr "Prodloužit prémiový účet:"
+
+msgid "premium/continueTitle"
+msgstr "Prodloužení prémiového účtu"
+
+msgid "premium/gold"
+msgstr "zlaťáků"
+
+msgid "premium/ofCreditsAndExperience"
+msgstr "kredity a zkušenosti"
+
+msgid "premium/perEverButtle"
+msgstr "za každou bitvu"
+
+msgid "premium/periods/days1"
+msgstr "Na jeden den (24 hodin)"
+
+msgid "premium/periods/days180"
+msgstr "Na 6 měsíců (180 dnů)"
+
+msgid "premium/periods/days3"
+msgstr "Na 3 dny (72 hodin)"
+
+msgid "premium/periods/days30"
+msgstr "Na měsíc (30 dnů)"
+
+msgid "premium/periods/days360"
+msgstr "Na 12 měsíců (360 dnů)"
+
+msgid "premium/periods/days7"
+msgstr "Na týden (7 dnů)"
+
+msgid "premium/promoMessage"
+msgstr "Poskytne o 50% více kreditů a zkušeností za bitvu."
+
+msgid "premium/submitBuy"
+msgstr "Koupit"
+
+msgid "premium/submitContinue"
+msgstr "Prodloužit"
+
+msgid "price/credits"
+msgstr " "
+
+msgid "price/gold"
+msgstr " "
+
+msgid "price/received"
+msgstr "<font color='#929290'>Získal jste</font>%s"
+
+msgid "price/spent"
+msgstr "<font color='#929290'>Utratil jste</font>%s"
+
+msgid "profile/clan/label"
+msgstr "Klan:"
+
+msgid "profile/creationTime"
+msgstr "Založen:"
+
+msgid "profile/credits"
+msgstr "Kredity:"
+
+msgid "profile/exchange"
+msgstr "Směna"
+
+msgid "profile/gold"
+msgstr "Zlaťáků:"
+
+msgid "profile/header/clan/joinDate"
+msgstr "Datum vstupu: %s"
+
+msgid "profile/header/clan/position"
+msgstr "Pozice: %s"
+
+msgid "profile/header/clan/position/commander"
+msgstr "Polní velitel"
+
+msgid "profile/header/clan/position/diplomat"
+msgstr "Diplomat"
+
+msgid "profile/header/clan/position/leader"
+msgstr "Velitel"
+
+msgid "profile/header/clan/position/private"
+msgstr "Voják"
+
+msgid "profile/header/clan/position/recruit"
+msgstr "Rekrut"
+
+msgid "profile/header/clan/position/recruiter"
+msgstr "Náborář"
+
+msgid "profile/header/clan/position/treasurer"
+msgstr "Pokladník"
+
+msgid "profile/header/clan/position/vice_leader"
+msgstr "Zástupce velitele"
+
+msgid "profile/header/fights"
+msgstr "Bitev"
+
+msgid "profile/header/lastBattleDateTitle"
+msgstr "Poslední bitva:"
+
+msgid "profile/header/registrationDateTitle"
+msgstr "Založen:"
+
+msgid "profile/header/wins"
+msgstr "Vítězství"
+
+msgid "profile/list/descr"
+msgstr "Výsledky pro %s"
+
+msgid "profile/list/totalName"
+msgstr "Souhrnné výsledky"
+
+msgid "profile/premiumBuy"
+msgstr "Koupit prémiový účet"
+
+msgid "profile/premiumContinue"
+msgstr "Prodloužení prémiového účtu"
+
+msgid "profile/premiunExpirationDate"
+msgstr "Expiruje %s"
+
+msgid "profile/stats/blocks/battleeffect"
+msgstr "Výkony v bitvě"
+
+msgid "profile/stats/blocks/common"
+msgstr "Bitevní zkušenosti"
+
+msgid "profile/stats/blocks/credits"
+msgstr "Zkušenosti"
+
+msgid "profile/stats/blocks/studying"
+msgstr "Výcvik"
+
+msgid "profile/stats/items/avgExperience"
+msgstr "Průměrně zkušeností za bitvu"
+
+msgid "profile/stats/items/battlesCount"
+msgstr "Účast v bitvách"
+
+msgid "profile/stats/items/damageDealt"
+msgstr "Poškození"
+
+msgid "profile/stats/items/defender"
+msgstr "Obránce:"
+
+msgid "profile/stats/items/effectiveShots"
+msgstr "Zásahů"
+
+msgid "profile/stats/items/frags"
+msgstr "Zničeno"
+
+msgid "profile/stats/items/fragsBeast"
+msgstr "Maximum zničených v bitvě"
+
+msgid "profile/stats/items/heroes"
+msgstr "Hrdina bitvy:"
+
+msgid "profile/stats/items/invader"
+msgstr "Útočník:"
+
+msgid "profile/stats/items/lastBattleTime"
+msgstr "Poslední bitva:"
+
+msgid "profile/stats/items/losses"
+msgstr "Porážek"
+
+msgid "profile/stats/items/maxFrags"
+msgstr "Maximum zničených v bitvě"
+
+msgid "profile/stats/items/maxXP"
+msgstr "Maximum zkušeností za bitvu"
+
+msgid "profile/stats/items/medalKay"
+msgstr "Kayova medaile:"
+
+msgid "profile/stats/items/nextSkillBattlesLeft"
+msgstr "Zbývajících bitev (přibližně)"
+
+msgid "profile/stats/items/nextSkillXPLeft"
+msgstr "Zkušenosti pro zlepšení schopnosti:"
+
+msgid "profile/stats/items/ready"
+msgstr "Schopnost k naučení"
+
+msgid "profile/stats/items/readyToLearn"
+msgstr "Dostupné schopnosti a specializace:"
+
+msgid "profile/stats/items/scout"
+msgstr "Průzkumník:"
+
+msgid "profile/stats/items/sniper"
+msgstr "Ostrostřelec:"
+
+msgid "profile/stats/items/steelwall"
+msgstr "Ocelová zeď:"
+
+msgid "profile/stats/items/supporter"
+msgstr "Spojenec:"
+
+msgid "profile/stats/items/survivedBattles"
+msgstr "Přežito bitev"
+
+msgid "profile/stats/items/unknown"
+msgstr "Neznámo"
+
+msgid "profile/stats/items/warrior"
+msgstr "Válečník:"
+
+msgid "profile/stats/items/wins"
+msgstr "Vítězství"
+
+msgid "profile/stats/items/xp"
+msgstr "Celkem zkušeností"
+
+msgid "rating/messages/addToFriends"
+msgstr "Přidat hráče do seznamu přátel"
+
+msgid "rating/messages/addToIgnor"
+msgstr "Přidat hráče do seznamu ignorovaných"
+
+msgid "rating/messages/createPrivate"
+msgstr "Založit soukromý kanál"
+
+msgid "rating/messages/dropFromFriends"
+msgstr "Odstranit tohoto hráče ze seznamu přátel"
+
+msgid "rating/messages/dropFromIgnor"
+msgstr "Odstranit hráče ze seznamu ignorovaných"
+
+msgid "rating/messages/userInfo"
+msgstr "Zobrazit detaily hráče"
+
+msgid "rating/table/headers/c1"
+msgstr "#"
+
+msgid "rating/table/headers/c2"
+msgstr "Jméno hráče"
+
+msgid "rating/table/headers/c3"
+msgstr "Účast v bitvách"
+
+msgid "rating/table/headers/c4"
+msgstr "Zkušenosti"
+
+msgid "rating/table/headers/c5"
+msgstr "Zničeno vozidel"
+
+msgid "rating/table/headers/c6"
+msgstr "Zabito"
+
+msgid "rating/title"
+msgstr "Hodnocení"
+
+msgid "repair/button"
+msgstr "Opravit"
+
+msgid "repair/curiency"
+msgstr "kreditů"
+
+msgid "repair/repairstatus"
+msgstr "Opraveno:"
+
+msgid "research/labels/button/showInHangar"
+msgstr "Zobrazit v garáži"
+
+msgid "research/labels/freeXP"
+msgstr "Volné zkušenosti"
+
+msgid "research/labels/totalXP"
+msgstr "Celkem"
+
+msgid "research/labels/vehXP"
+msgstr "Bitevní zkušenosti"
+
+msgid "research/premium/benefits/fifth"
+msgstr "Zrychlený výcvik posádky dostupný od první bitvy."
+
+msgid "research/premium/benefits/first"
+msgstr "Nevyžaduje žádný výzkum"
+
+msgid "research/premium/benefits/fourth"
+msgstr "Převádění posádky z vozidel stejného typu bez postihu nebo přeškolení"
+
+msgid "research/premium/benefits/head"
+msgstr "Výhody prémiového vozidla:"
+
+msgid "research/premium/benefits/second"
+msgstr "Více kreditů za každou bitvu"
+
+msgid "research/premium/benefits/third"
+msgstr "„Elitní\" stav, který umožňuje získat volné zkušenosti rychleji"
+
+msgid "research/premium/description/titte"
+msgstr "Detaily vozidla:"
+
+msgid "research/special/benefits/head"
+msgstr "Výhody oceněného vozidla:"
+
+msgid "screenshot/save"
+msgstr "Screenshot uložen do %(path)s"
+
+msgid "serverStats/arenasCount"
+msgstr "Bitvy:"
+
+msgid "serverStats/playersCount"
+msgstr "Hráči:"
+
+msgid "serverStats/playersInArenaCount"
+msgstr "V bitvě:"
+
+msgid "shellListItemRenderer/replace"
+msgstr "Změna pořadí munice"
+
+msgid "shop/errors/centerIsDown"
+msgstr "Dočasné nedostupné"
+
+msgid "shop/errors/inHangar"
+msgstr "V garáži"
+
+msgid "shop/errors/unlockNeeded"
+msgstr "Nevyzkoumáno"
+
+msgid "shop/header/equipment/myVehicle"
+msgstr "Spotřební doplňky pro %(vehicle)s:"
+
+msgid "shop/header/equipment/myVehicles"
+msgstr "Spotřební doplňky %(nation)s:"
+
+msgid "shop/header/equipment/otherVehicles"
+msgstr "Spotřební doplňky %(nation)s:"
+
+msgid "shop/header/module/myVehicle"
+msgstr "%(type)s pro %(vehicle)s:"
+
+msgid "shop/header/module/myVehicles"
+msgstr "%(type)s pro má vozidla %(nation)s:"
+
+msgid "shop/header/module/otherVehicles"
+msgstr "%(type)s%(nation)s:"
+
+msgid "shop/header/optionalDevice/myVehicle"
+msgstr "Vybavení pro %(vehicle)s:"
+
+msgid "shop/header/optionalDevice/myVehicles"
+msgstr "Vybavení pro má vozidla %(nation)s:"
+
+msgid "shop/header/optionalDevice/otherVehicles"
+msgstr "Vybavení %(nation)s:"
+
+msgid "shop/header/shell/myInventoryGuns"
+msgstr "Granáty pro má děla ve skladu %(nation)s:"
+
+msgid "shop/header/shell/myVehicleGun"
+msgstr "Granáty pro aktuální dělo na %(vehicle)s:"
+
+msgid "shop/header/shell/myVehiclesInventoryGuns"
+msgstr "Granáty pro všechna má děla %(nation)s:"
+
+msgid "shop/header/shell/otherGuns"
+msgstr "Granáty pro všechna děla%(nation)s:"
+
+msgid "shop/header/vehicle"
+msgstr "Veškeré %(type)s%(nation)s:"
+
+msgid "shop/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/equipment/fits/myVehicles/name"
+msgstr "Mými vozidly"
+
+msgid "shop/menu/equipment/fits/name"
+msgstr "Kompatibilní s:"
+
+msgid "shop/menu/equipment/fits/otherVehicles/name"
+msgstr "Všemi vozidly"
+
+msgid "shop/menu/equipment/name"
+msgstr "Spotřební doplňky"
+
+msgid "shop/menu/module/extra/inHangar/name"
+msgstr "Ve skladu"
+
+msgid "shop/menu/module/extra/locked/name"
+msgstr "Nevyzkoumáno"
+
+msgid "shop/menu/module/extra/name"
+msgstr "Zobrazit:"
+
+msgid "shop/menu/module/extra/onVehicle/name"
+msgstr "Na vozidlech"
+
+msgid "shop/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/module/fits/myVehicles/name"
+msgstr "Mými vozidly"
+
+msgid "shop/menu/module/fits/name"
+msgstr "Kompatibilní s:"
+
+msgid "shop/menu/module/fits/otherVehicles/name"
+msgstr "Všemi vozidly"
+
+msgid "shop/menu/module/name"
+msgstr "Moduly"
+
+msgid "shop/menu/module/types/name"
+msgstr "Typy modulů:"
+
+msgid "shop/menu/module/types/vehicleChassis/name"
+msgstr "Podvozky"
+
+msgid "shop/menu/module/types/vehicleEngine/name"
+msgstr "Motory"
+
+msgid "shop/menu/module/types/vehicleGun/name"
+msgstr "Děla"
+
+msgid "shop/menu/module/types/vehicleRadio/name"
+msgstr "Rádia"
+
+msgid "shop/menu/module/types/vehicleTurret/name"
+msgstr "Věže"
+
+msgid "shop/menu/optionalDevice/extra/name"
+msgstr "Zobrazit:"
+
+msgid "shop/menu/optionalDevice/extra/onVehicle/name"
+msgstr "Na vozidlech"
+
+msgid "shop/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/optionalDevice/fits/myVehicles/name"
+msgstr "Mými vozidly"
+
+msgid "shop/menu/optionalDevice/fits/name"
+msgstr "Kompatibilní s:"
+
+msgid "shop/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "Všemi vozidly"
+
+msgid "shop/menu/optionalDevice/name"
+msgstr "Vybavení"
+
+msgid "shop/menu/shell/fits/myInventoryGuns/name"
+msgstr "Děla ve skladu"
+
+msgid "shop/menu/shell/fits/myVehicleGun/name"
+msgstr "Aktuálním dělem na"
+
+msgid "shop/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "Všemi mými děly"
+
+msgid "shop/menu/shell/fits/name"
+msgstr "Kompatibilní s:"
+
+msgid "shop/menu/shell/fits/otherGuns/name"
+msgstr "Všemi děly"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "AP - Průbojná"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "Podkaliberní"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "Průbojně výbušná"
+
+msgid "shop/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "HE - Explozivní"
+
+msgid "shop/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "HEAT - Kumulativní"
+
+msgid "shop/menu/shell/kinds/name"
+msgstr "Typy granátů:"
+
+msgid "shop/menu/shell/name"
+msgstr "Granáty"
+
+msgid "shop/menu/vehicle/extra/inHangar/name"
+msgstr "V garáži"
+
+msgid "shop/menu/vehicle/extra/locked/name"
+msgstr "Nevyzkoumaná vozidla"
+
+msgid "shop/menu/vehicle/extra/name"
+msgstr "Zobrazit:"
+
+msgid "shop/menu/vehicle/name"
+msgstr "Vozidla"
+
+msgid "shop/menu/vehicle/tags/all/name"
+msgstr "Všechny typy"
+
+msgid "shop/menu/vehicle/tags/at-spg/name"
+msgstr "Stíhače tanků"
+
+msgid "shop/menu/vehicle/tags/heavyTank/name"
+msgstr "Těžké tanky"
+
+msgid "shop/menu/vehicle/tags/lightTank/name"
+msgstr "Lehké tanky"
+
+msgid "shop/menu/vehicle/tags/mediumTank/name"
+msgstr "Střední tanky"
+
+msgid "shop/menu/vehicle/tags/name"
+msgstr "Typ vozidla:"
+
+msgid "shop/menu/vehicle/tags/spg/name"
+msgstr "Dělostřelectvo"
+
+msgid "shop/table/buttonBuy"
+msgstr "Koupit"
+
+msgid "shop/table/buyActionOr"
+msgstr "nebo"
+
+msgid "shop/table/find"
+msgstr "Nalezeno:"
+
+msgid "shop/table/header/count/equipment"
+msgstr "Na vozidle/Ve skladu"
+
+msgid "shop/table/header/count/module"
+msgstr "Na vozidle/Ve skladu"
+
+msgid "shop/table/header/count/optionalDevice"
+msgstr "Na vozidle/Ve skladu"
+
+msgid "shop/table/header/count/shell"
+msgstr "Ve skladu"
+
+msgid "shop/table/header/count/vehicle"
+msgstr "?empty?"
+
+msgid "shop/table/header/price"
+msgstr "Cena"
+
+msgid "skillDropWindow/after"
+msgstr "Po zapomenutí"
+
+msgid "skillDropWindow/applyBtn"
+msgstr "Zapomenout"
+
+msgid "skillDropWindow/before"
+msgstr "Před zapomenutím"
+
+msgid "skillDropWindow/cancelBtn"
+msgstr "Storno"
+
+msgid "skillDropWindow/multiplier"
+msgstr "Zachování zkušeností"
+
+msgid "skillDropWindow/study/creditsLabel"
+msgstr "Vysoké"
+
+msgid "skillDropWindow/study/freeLabel"
+msgstr "Nízké"
+
+msgid "skillDropWindow/study/goldLabel"
+msgstr "Maximální"
+
+msgid "skillDropWindow/title"
+msgstr "Zapomenutí schopností a specializací"
+
+msgid "specPrebetles/listTitle"
+msgstr "Týmové místnosti"
+
+msgid "specPrebetles/ownerTitle"
+msgstr "Velitel"
+
+msgid "specPrebetles/playersTitle"
+msgstr "Hráči"
+
+msgid "specPrebetles/title"
+msgstr "Týmové bitvy"
+
+msgid "steam/cancel"
+msgstr "Storno"
+
+msgid "steam/goldPacketSelect"
+msgstr "Vybrat balíček zlaťáků:"
+
+msgid "steam/otherMethods"
+msgstr "ostatní platební metody"
+
+msgid "steam/submit"
+msgstr "Přijmout"
+
+msgid "steam/title"
+msgstr "Zaplatit přes Steam"
+
+msgid "store/vehicleStates/ammoNotFull"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/battle"
+msgstr "V bitvě"
+
+msgid "store/vehicleStates/buySlot"
+msgstr "Koupit stání"
+
+msgid "store/vehicleStates/buyTank"
+msgstr "Koupit vozidlo"
+
+msgid "store/vehicleStates/buyTankEmptyCount"
+msgstr "Volná místa:"
+
+msgid "store/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/crewNotFull"
+msgstr "Nekompletní posádka"
+
+msgid "store/vehicleStates/damaged"
+msgstr "Opravte své vozidlo"
+
+msgid "store/vehicleStates/destroyed"
+msgstr "Opravte své vozidlo"
+
+msgid "store/vehicleStates/exploded"
+msgstr "Opravte své vozidlo"
+
+msgid "store/vehicleStates/inPrebattle"
+msgstr "V operační jednotce"
+
+msgid "store/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/notpresent"
+msgstr ""
+"Musíte si\n"
+"koupit vozidlo"
+
+msgid "store/vehicleStates/serverRestriction"
+msgstr "Omezení serveru"
+
+msgid "store/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/ammoNotFull"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/battle"
+msgstr "Vozidlo v bitvě"
+
+msgid "tankCarousel/vehicleStates/buySlot"
+msgstr "Koupit stání"
+
+msgid "tankCarousel/vehicleStates/buyTank"
+msgstr "Koupit vozidlo"
+
+msgid "tankCarousel/vehicleStates/buyTankEmptyCount"
+msgstr "Volná místa:"
+
+msgid "tankCarousel/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/crewNotFull"
+msgstr "Nekompletní posádka"
+
+msgid "tankCarousel/vehicleStates/damaged"
+msgstr "Opravte své vozidlo"
+
+msgid "tankCarousel/vehicleStates/destroyed"
+msgstr "Opravte své vozidlo"
+
+msgid "tankCarousel/vehicleStates/exploded"
+msgstr "Opravte své vozidlo"
+
+msgid "tankCarousel/vehicleStates/inPrebattle"
+msgstr "V operační jednotce"
+
+msgid "tankCarousel/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/not_suitable"
+msgstr "Nevhodné"
+
+msgid "tankCarousel/vehicleStates/notpresent"
+msgstr ""
+"Musíte si\n"
+"koupit vozidlo"
+
+msgid "tankCarousel/vehicleStates/serverRestriction"
+msgstr "Omezení serveru"
+
+msgid "tankCarousel/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "tank_params/aimingTime"
+msgstr "<h1>Čas zaměření <p>(s)</p></h1>"
+
+msgid "tank_params/chassisRotationSpeed"
+msgstr "<h1>Rychlost otáčení korby <p>(stupňů/s)</p></h1>"
+
+msgid "tank_params/circularVisionRadius"
+msgstr "<h1>Dohled <p>(m)</p></h1>"
+
+msgid "tank_params/damage"
+msgstr "<h1>Standardní poškození granátu <p></p></h1>"
+
+msgid "tank_params/damageAvg"
+msgstr "<h1>Průměrné poškození za výstřel <p>(HP)</p></h1>"
+
+msgid "tank_params/damageAvgPerMinute"
+msgstr "<h1>Průměrné poškození za minutu <p>(HP/min)</p></h1>"
+
+msgid "tank_params/enginePower"
+msgstr "<h1>Výkon motoru <p>(koní)</p></h1>"
+
+msgid "tank_params/enginePowerPerTon"
+msgstr "<h1>Měrný výkon <p>(koní/t)</p></h1>"
+
+msgid "tank_params/explosionRadius"
+msgstr "<h1>Poloměr výbuchu <p>(m)</p></h1>"
+
+msgid "tank_params/gunRotationSpeed"
+msgstr "<h1>Rychlost nastavení odměru <p>(stupňů/s)</p></h1>"
+
+msgid "tank_params/hullArmor"
+msgstr "<h1>Pancíř korby <p>(čelní/boční/zadní mm)</p></h1>"
+
+msgid "tank_params/maxAmmo"
+msgstr "<h1>Munice <p>(střel)</p></h1>"
+
+msgid "tank_params/maxHealth"
+msgstr "<h1>Výdrž <p></p></h1>"
+
+msgid "tank_params/param12"
+msgstr "<h1>Průchodnost terénem <p></p></h1>"
+
+msgid "tank_params/piercingPower"
+msgstr "<h1>Standardní průbojnost granátu <p>(mm)</p></h1>"
+
+msgid "tank_params/radioDistance"
+msgstr "<h1>Dosah rádia <p>(m)</p></h1>"
+
+msgid "tank_params/reloadTime"
+msgstr "<h1>Rychlost střelby <p>(ran/min)</p></h1>"
+
+msgid "tank_params/reloadTimeSecs"
+msgstr "<h1>Doba nabíjení <p>(s)</p></h1>"
+
+msgid "tank_params/shotDispersionAngle"
+msgstr "<h1>Rozptyl na 100 m <p>(stupňů)</p></h1>"
+
+msgid "tank_params/speedLimits"
+msgstr "<h1>Maximální rychlost <p>(km/h)</p></h1>"
+
+msgid "tank_params/turretArmor"
+msgstr "<h1>Pancíř věže <p>(čelní/boční/zadní mm)</p></h1>"
+
+msgid "tank_params/turretRotationSpeed"
+msgstr "<h1>Rychlost rotace věže <p>(stupňů/s)</p></h1>"
+
+msgid "tank_params/values/param10/value0"
+msgstr "vynikající"
+
+msgid "tank_params/values/param10/value1"
+msgstr "dobrý"
+
+msgid "tank_params/values/param10/value2"
+msgstr "průměrný"
+
+msgid "tank_params/values/param10/value3"
+msgstr "mizerný"
+
+msgid "tank_params/values/param11/value0"
+msgstr "vynikající"
+
+msgid "tank_params/values/param11/value1"
+msgstr "dobrý"
+
+msgid "tank_params/values/param11/value2"
+msgstr "průměrný"
+
+msgid "tank_params/values/param11/value3"
+msgstr "mizerný"
+
+msgid "tank_params/values/param12/value0"
+msgstr "vynikající"
+
+msgid "tank_params/values/param12/value1"
+msgstr "dobrý"
+
+msgid "tank_params/values/param12/value2"
+msgstr "průměrný"
+
+msgid "tank_params/values/param12/value3"
+msgstr "mizerný"
+
+msgid "tank_params/weight"
+msgstr "<h1>Hmotnost/Maximální nosnost <p>(t)</p></h1>"
+
+msgid "tankmanPersonalCase/accelerateTeachingOfSkill"
+msgstr "Zrychlit"
+
+msgid "tankmanPersonalCase/achivs"
+msgstr "Vyznamenání:"
+
+msgid "tankmanPersonalCase/btnReset"
+msgstr "Aktuální vozidlo"
+
+msgid "tankmanPersonalCase/btnRetraining"
+msgstr "Přeškolit"
+
+msgid "tankmanPersonalCase/btnTraining"
+msgstr "Vyškolit"
+
+msgid "tankmanPersonalCase/changeDocsBtn"
+msgstr "Nahradit osobní data"
+
+msgid "tankmanPersonalCase/closeBtn"
+msgstr "Zavřít"
+
+msgid "tankmanPersonalCase/crew"
+msgstr "Posádka:"
+
+msgid "tankmanPersonalCase/docs/info"
+msgstr "?empty?"
+
+msgid "tankmanPersonalCase/dropSkillsButtonLabel"
+msgstr "Zapomenout"
+
+msgid "tankmanPersonalCase/mainSpecialization"
+msgstr "Kvalifikace:"
+
+msgid "tankmanPersonalCase/modifiers/fromCommander"
+msgstr "Velitelův bonus"
+
+msgid "tankmanPersonalCase/modifiers/fromEquipment"
+msgstr "Vybavení a spotřební doplňky"
+
+msgid "tankmanPersonalCase/modifiers/fromSkills"
+msgstr "Schopnosti a specializace"
+
+msgid "tankmanPersonalCase/modifiers/penalty"
+msgstr "Nevhodná specializace"
+
+msgid "tankmanPersonalCase/modifiersHeader"
+msgstr "Specializace:"
+
+msgid "tankmanPersonalCase/modifiersResult"
+msgstr "Konečná úroveň:"
+
+msgid "tankmanPersonalCase/name"
+msgstr "Jméno:"
+
+msgid "tankmanPersonalCase/noAchivs"
+msgstr "Zatím žádné úspěchy nebo vyznamenání získaná v bitvách."
+
+msgid "tankmanPersonalCase/noModifiers"
+msgstr ""
+"Nedostupné se\n"
+"základním výcvikem."
+
+msgid "tankmanPersonalCase/personalDocs"
+msgstr "Osobní data:"
+
+msgid "tankmanPersonalCase/rank"
+msgstr "Hodnost:"
+
+msgid "tankmanPersonalCase/retrainingBtn"
+msgstr "Přeškolit"
+
+msgid "tankmanPersonalCase/retrainingWarning"
+msgstr "Výcvik je efektivní pouze pro základní kvalifikaci."
+
+msgid "tankmanPersonalCase/retrainingWarning2"
+msgstr "Přeškolení na nové vozidlo sníží úroveň základní kvalifikace."
+
+msgid "tankmanPersonalCase/skillsButton/additionText"
+msgstr "(Školení je dostupné po dosažení 100% základního výcviku)"
+
+msgid "tankmanPersonalCase/skillsButton/mainText"
+msgstr "Zobrazit všechny kvalifikace"
+
+msgid "tankmanPersonalCase/skillsDesc"
+msgstr "(Školení je dostupné po dosažení 100% základního výcviku)"
+
+msgid "tankmanPersonalCase/specialization"
+msgstr "Výcvik:"
+
+msgid "tankmanPersonalCase/tabBattleInfo"
+msgstr "Služební záznam"
+
+msgid "tankmanPersonalCase/tabDocs"
+msgstr "Osobní data"
+
+msgid "tankmanPersonalCase/tabSkills"
+msgstr "Schopnosti"
+
+msgid "tankmanPersonalCase/tabTraining"
+msgstr "Výcvik"
+
+msgid "tankmanPersonalCase/title"
+msgstr "Osobní záznam"
+
+msgid "tankmanPersonalCase/trainingBtn"
+msgstr "Zrychlený výcvik"
+
+msgid "tankmanPersonalCase/usingLevel"
+msgstr "Úroveň výcviku:"
+
+msgid "tankmanPersonalCase/vehicle"
+msgstr "Vozidlo:"
+
+msgid "tankmanPersonalCase/vehicleType"
+msgstr "Typ vozidla:"
+
+msgid "tankmanPersonalCase/vehicleTypeID"
+msgstr "Výcvik pro vozidlo:"
+
+msgid "tankmanRecruitRenderer/commander"
+msgstr "Naverbovat velitele"
+
+msgid "tankmanRecruitRenderer/descr"
+msgstr "Naverbovat člena posádky"
+
+msgid "tankmanRecruitRenderer/driver"
+msgstr "Naverbovat řidiče"
+
+msgid "tankmanRecruitRenderer/gunner"
+msgstr "Naverbovat střelce"
+
+msgid "tankmanRecruitRenderer/loader"
+msgstr "Naverbovat nabíječe"
+
+msgid "tankmanRecruitRenderer/personalCase"
+msgstr "Otevřít osobní záznam"
+
+msgid "tankmanRecruitRenderer/radioman"
+msgstr "Naverbovat radistu"
+
+msgid "tankmanRecruitRenderer/unload"
+msgstr "Poslat do kasáren"
+
+msgid "tankmanRetrainingBtn/free"
+msgstr "Zdarma"
+
+msgid "tankmanTrainingButton2/retrainingTo"
+msgstr "Přeškolení na úroveň:"
+
+msgid "tankmanTrainingButton2/trainingTo"
+msgstr "Zaškolení na úroveň:"
+
+msgid "tankmanTrainingWindow/academy"
+msgstr "Tanková akademie"
+
+msgid "tankmanTrainingWindow/closeBtn"
+msgstr "Storno"
+
+msgid "tankmanTrainingWindow/free"
+msgstr "Rychlokurz"
+
+msgid "tankmanTrainingWindow/scool"
+msgstr "Posádkový výcvik"
+
+msgid "tankmanTrainingWindow/title"
+msgstr "Výcvik posádky"
+
+msgid "tankmanTrainingWindow/trainingTo"
+msgstr "Úroveň výcviku:"
+
+msgid "tankmen/AT-SPG"
+msgstr "Stíhač tanků"
+
+msgid "tankmen/SPG"
+msgstr "Dělostřelectvo"
+
+msgid "tankmen/heavyTank"
+msgstr "Těžký tank"
+
+msgid "tankmen/lightTank"
+msgstr "Lehký tank"
+
+msgid "tankmen/lockReason/broken"
+msgstr "(Vozidlo poškozeno)"
+
+msgid "tankmen/lockReason/inbattle"
+msgstr "(V bitvě)"
+
+msgid "tankmen/lockReason/prebattle"
+msgstr "(Čeká na bitvu)"
+
+msgid "tankmen/mediumTank"
+msgstr "Střední tank"
+
+msgid "tankmsnPersonalCase/lackOfSkillsForLearn"
+msgstr "Člen posádky se naučil všechny schopnosti a specializace"
+
+msgid "teachingSkill/after"
+msgstr "Po výcviku"
+
+msgid "teachingSkill/before"
+msgstr "Před výcvikem"
+
+msgid "teachingSkill/cancel"
+msgstr "Storno"
+
+msgid "teachingSkill/cost"
+msgstr "Cena výcviku"
+
+msgid "teachingSkill/freeXpIsTight"
+msgstr ""
+"Nedostatek volných zkušeností k naučení specializace/schopnosti. Konvertujte "
+"bitevní zkušenosti na volné zkušenosti."
+
+msgid "teachingSkill/submit"
+msgstr "Vyškolit"
+
+msgid "teachingSkill/teachToLevel"
+msgstr "Zaškolení na úroveň:"
+
+msgid "teachingSkill/title"
+msgstr "Výcvik za volné zkušenosti"
+
+msgid "teachingSkill/totalPay"
+msgstr "Celkem:"
+
+msgid "technicalMaintenance/ammoTitleEx"
+msgstr "(bedny s granáty pro %d kusů)"
+
+msgid "training/create/battleTime"
+msgstr "Doba trvání bitvy:"
+
+msgid "training/create/closeButton"
+msgstr "Zavřít"
+
+msgid "training/create/createButton"
+msgstr "Založit"
+
+msgid "training/create/description"
+msgstr "Popis:"
+
+msgid "training/create/mapSelect"
+msgstr "Vybrat mapu:"
+
+msgid "training/create/maxPlayers"
+msgstr "Limit hráčů:"
+
+msgid "training/create/privacy"
+msgstr "na pozvánku"
+
+msgid "training/create/title"
+msgstr "Vytvoření výcvikové mapy"
+
+msgid "training/createButton"
+msgstr "Vytvořit mapu"
+
+msgid "training/description"
+msgstr ""
+"Výcvikové bitvy nepřináší žádné kredity nebo zkušenosti. Opravy a vše "
+"ostatní kromě granátů a vybavení je zdarma."
+
+msgid "training/info/deleteButton"
+msgstr "Zrušit mapu"
+
+msgid "training/info/exitButton"
+msgstr "Opustit mapu"
+
+msgid "training/info/inviteButton"
+msgstr "Pozvat…"
+
+msgid "training/info/map"
+msgstr "{%s}:"
+
+msgid "training/info/maxPlayers"
+msgstr "Hráčů:"
+
+msgid "training/info/notUseChat"
+msgstr "ne"
+
+msgid "training/info/otherLabel"
+msgstr "Nerozdělení hráči"
+
+msgid "training/info/owner"
+msgstr "Velitel:"
+
+msgid "training/info/settings/okButton"
+msgstr "Upravit"
+
+msgid "training/info/settings/title"
+msgstr "Nastavení výcvikové mapy"
+
+msgid "training/info/settingsButton"
+msgstr "Nastavení mapy"
+
+msgid "training/info/startButton"
+msgstr "Zahájit bitvu"
+
+msgid "training/info/states/state0"
+msgstr "?empty?"
+
+msgid "training/info/states/state1"
+msgstr "odešel"
+
+msgid "training/info/states/state17"
+msgstr "odpojen"
+
+msgid "training/info/states/state2"
+msgstr "odešel"
+
+msgid "training/info/states/state20"
+msgstr "odpojen"
+
+msgid "training/info/states/state24"
+msgstr "odpojen"
+
+msgid "training/info/states/state4"
+msgstr "?empty?"
+
+msgid "training/info/states/state8"
+msgstr "v bitvě"
+
+msgid "training/info/team1Label"
+msgstr "Spojenci"
+
+msgid "training/info/team2Label"
+msgstr "Protivníci"
+
+msgid "training/info/timeout/label"
+msgstr "Trvání bitvy:"
+
+msgid "training/info/timeout/value"
+msgstr "%d minut"
+
+msgid "training/info/title"
+msgstr "Výcviková mapa (%s)"
+
+msgid "training/info/useCommonVoiceChat"
+msgstr "Globální"
+
+msgid "training/info/useSeparateVoipChat"
+msgstr "Týmová"
+
+msgid "training/info/voiceChat"
+msgstr "Hlasová komunikace:"
+
+msgid "training/invitations/title"
+msgstr "Odeslané pozvánky"
+
+msgid "training/joinButton"
+msgstr "Vstoupit"
+
+msgid "training/listTitle"
+msgstr "Výcvikové mapy"
+
+msgid "training/ownerTitle"
+msgstr "Velitel"
+
+msgid "training/playersLabel"
+msgstr "Hráčů:"
+
+msgid "training/playersTitle"
+msgstr "Hráči"
+
+msgid "training/roomsLabel"
+msgstr "Výcvikových map:"
+
+msgid "training/title"
+msgstr "Týmový výcvik"
+
+msgid "unlocks/exchangeButton"
+msgstr "Konvertovat"
+
+msgid "unlocks/unlockButton"
+msgstr "Vyzkoumat"
+
+msgid "unlocks/xpToTmenCheckbox"
+msgstr "Zrychlit výcvik posádky"
+
+msgid "vehicleInfo/closeBtn"
+msgstr "Zavřít"
+
+msgid "vehicleInfo/params/chassisRotationSpeed"
+msgstr "Rychlost otáčení (stupňů/s)"
+
+msgid "vehicleInfo/params/circularVisionRadius"
+msgstr "Dohled (m)"
+
+msgid "vehicleInfo/params/damage"
+msgstr "Standardní poškození granátu"
+
+msgid "vehicleInfo/params/enginePower"
+msgstr "Výkon motoru (koní)"
+
+msgid "vehicleInfo/params/gunRotationSpeed"
+msgstr "Rychlost nastavení odměru (stupňů/s)"
+
+msgid "vehicleInfo/params/hullArmor"
+msgstr "Pancíř korby (čelní/boční/zadní, mm)"
+
+msgid "vehicleInfo/params/maxHealth"
+msgstr "Výdrž"
+
+msgid "vehicleInfo/params/piercingPower"
+msgstr "Standardní průbojnost granátu (mm)"
+
+msgid "vehicleInfo/params/radioDistance"
+msgstr "Dosah rádia (m)"
+
+msgid "vehicleInfo/params/reloadTime"
+msgstr "Rychlost střelby (ran/min)"
+
+msgid "vehicleInfo/params/speedLimits"
+msgstr "Maximální rychlost (km/h)"
+
+msgid "vehicleInfo/params/turretArmor"
+msgstr "Pancíř věže (čelní/boční/zadní, mm)"
+
+msgid "vehicleInfo/params/turretRotationSpeed"
+msgstr "Rychlost rotace věže (stupňů/s)"
+
+msgid "vehicleInfo/params/weight"
+msgstr "Hmotnost/Maximální nosnost (t)"
+
+msgid "vehicleInfo/stats/avgExperience"
+msgstr "Průměrně zkušeností za bitvu"
+
+msgid "vehicleInfo/stats/battlesCount"
+msgstr "Účast v bitvách"
+
+msgid "vehicleInfo/stats/damageDealt"
+msgstr "Způsobené poškození"
+
+msgid "vehicleInfo/stats/defender"
+msgstr "Obránce"
+
+msgid "vehicleInfo/stats/frags"
+msgstr "Zničeno"
+
+msgid "vehicleInfo/stats/heroes"
+msgstr "Hrdina bitvy"
+
+msgid "vehicleInfo/stats/hits"
+msgstr "Zásahů"
+
+msgid "vehicleInfo/stats/invader"
+msgstr "Útočník"
+
+msgid "vehicleInfo/stats/lastBattleTime"
+msgstr "Poslední bitva"
+
+msgid "vehicleInfo/stats/losses"
+msgstr "Porážek"
+
+msgid "vehicleInfo/stats/medalKay"
+msgstr "Kayova medaile"
+
+msgid "vehicleInfo/stats/scout"
+msgstr "Průzkumník"
+
+msgid "vehicleInfo/stats/shots"
+msgstr "Výstřelů"
+
+msgid "vehicleInfo/stats/sniper"
+msgstr "Odstřelovač"
+
+msgid "vehicleInfo/stats/steelwall"
+msgstr "Ocelová zeď"
+
+msgid "vehicleInfo/stats/supporter"
+msgstr "Spojenec"
+
+msgid "vehicleInfo/stats/survivedBattles"
+msgstr "Přežito bitev"
+
+msgid "vehicleInfo/stats/warrior"
+msgstr "Válečník"
+
+msgid "vehicleInfo/stats/wins"
+msgstr "Vítězství"
+
+msgid "vehicleInfo/stats/xp"
+msgstr "Celkové zkušenosti"
+
+msgid "vehicleInfo/tabs/base"
+msgstr "Konfigurace"
+
+msgid "vehicleInfo/tabs/crew"
+msgstr "Posádka"
+
+msgid "vehicleInfo/tabs/properties"
+msgstr "Charakteristiky"
+
+msgid "vehicleInfo/tabs/statistic"
+msgstr "Služební záznam"
+
+msgid "vehicleInfo/title"
+msgstr "— Charakteristiky"
+
+msgid "vehiclesCarousel/contextMenu/vehicleCheck"
+msgstr "Nastavit jako primární"
+
+msgid "vehiclesCarousel/contextMenu/vehicleInfo"
+msgstr "Zobrazit podrobnosti"
+
+msgid "vehiclesCarousel/contextMenu/vehicleResearch"
+msgstr "Výzkum"
+
+msgid "vehiclesCarousel/contextMenu/vehicleSell"
+msgstr "Prodat"
+
+msgid "vehiclesCarousel/contextMenu/vehicleUncheck"
+msgstr "Nastavit jako rezervní"
