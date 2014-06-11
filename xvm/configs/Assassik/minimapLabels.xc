@@ -4,9 +4,6 @@
  */
 {
   "labels": {
-      // Maximum nickname size for {{short-nick}} macro.
-      // Максимальный размер ника для макроса {{short-nick}}.
-      "nickShrink": 5,
       // {{vehicle-class}} macro substitutions.
       // Подстановки макроса {{vehicle-class}}.
       "vehicleclassmacro": {
@@ -47,7 +44,7 @@
           // Враг.
           "enemy":          "<span class='mm_e'>{{vehicle}}</span>",
           // Взводный.
-          "squad":          "<textformat leading='-2'><span class='mm_s'><i>{{short-nick}}</i>\n{{vehicle}}</span><textformat>",
+          "squad":          "<textformat leading='-2'><span class='mm_s'><i>{{nick%.5s}}</i>\n{{vehicle}}</span><textformat>",
           // Own marker or spectated subject.
           // Свой маркер и маркер приёмника камеры наблюдения в случае смерти.
           "oneself":        "",
@@ -62,7 +59,7 @@
           "lost":           "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_l'><i>{{vehicle}}</i></span>",
           // Out of radio range squadman
           // Взводный, с которым потеряна связь
-          "lostsquad":      "<textformat leading='-4'><span class='mm_dot'>{{vehicle-class}}</span><span class='mm_ls'><i>{{short-nick}}</i>\n   {{vehicle}}</span><textformat>",
+          "lostsquad":      "<textformat leading='-4'><span class='mm_dot'>{{vehicle-class}}</span><span class='mm_ls'><i>{{nick%.5s}}</i>\n   {{vehicle}}</span><textformat>",
           // Мертвый союзник.
           "deadally":       "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_da'></span>",
           // Мертвый тимкиллер.
@@ -70,7 +67,7 @@
           // Мертвый противник.
           "deadenemy":      "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_de'></span>",
           // Мертвый взводный.
-          "deadsquad":      "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_ds'><i>{{short-nick}}</i></span>"
+          "deadsquad":      "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_ds'><i>{{nick%.5s}}</i></span>"
         },
         // CSS style (fonts and colors option)
         // CSS стиль (настройка шрифтов и цветов)
@@ -120,7 +117,7 @@
           "deadsquad":
            { "enabled": true, "color": "0x000000", "distance": 0, "angle": 45, "alpha": 80, "blur": 3, "strength": 3 }
         },
-        // Field offset ralative to current icon (except lost - relative to enemy last seen position).
+        // Field offset relative to current icon (except lost - relative to enemy last seen position).
         // Смещение полей относительно текущей иконки (кроме lost и dead- относительно последних координат видимой позиции).
         "offset": {
           "ally":           {"x": 3, "y": -1},
@@ -176,7 +173,7 @@
         // Increase sizes in case of field being partially cut off.
         // -------------------------------------------------------------------------------------
         // Уменьшайте размеры, если при изменении размера миникарты изображение карты сжимается.
-        // Увеличивайте размеры, если содержмиое поля обрезается.
+        // Увеличивайте размеры, если содержимое поля обрезается.
         "width": 100,
         "height": 30
       }
