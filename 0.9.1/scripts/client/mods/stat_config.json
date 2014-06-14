@@ -1,7 +1,7 @@
 {
     "showStatForBattle": true,
     "battleStatPatterns": [
-        {
+         {
             "pattern": "(Získáno kreditů: )<font color='#C5CFCF'>[\\d ]+",
             "repl": "\\1<font color='{{c:credits}}'>{{credits}}"
         },
@@ -18,6 +18,10 @@
     "<font size='8'> </font>",
     "<textformat tabstops='[105]'><font size='13' color='#F0DDB9'><b>Celkem: <font color='{{c:credits}}'>{{credits}}</font> <img src='img://gui/maps/icons/library/Crab_stats/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'><tab>WN8: <font color='{{c:WN8}}'>{{WN8}}</font> <font color='{{c:XWN8}}'>({{XWN8}})</font></b></font></textformat>"
         ],
+    "overwriteBattleResultBgIcon": false,
+    "bgIconDefeat": "../../scripts/client/mods/Defeat.png",
+    "bgIconDraw": "../../scripts/client/mods/Draw.png",
+    "bgIconWin": "../../scripts/client/mods/Win.png",
     "hideMessagePatterns": [
         "Už 30 dnů",
         "telefonní číslo",
@@ -31,12 +35,14 @@
         "Spotřební doplňky pro",
         "eSport"
     ],
+    "debugBattleResultMessage": false,
     "onlineReloadConfig": true,
-    "ignoreBattleType": [2, 4],
+    "ignoreBattleType": [2, 4, 7],
     "showResetButton": false,
     "textResetButton": "Resetovat",
     "dailyAutoReset": true,
     "dailyAutoResetHour": 6,
+    "enableBattleEndedMessage": true,
     "battleEndedMessageDefeat": "<font color='#FE0E00'>Porážka {{map}} - {{vehicle}}</font>",
     "battleEndedMessageDraw": "<font color='#FE7903'>Remíza {{map}} - {{vehicle}}</font>",
     "battleEndedMessageWin": "<font color='#60FF00'>Vítězství {{map}} - {{vehicle}}</font>",
@@ -63,6 +69,11 @@
 		"<textformat leading='0' tabstops='[58,88,157]'><font face='$FieldFont' size='13'><font color='#F0DDB9'><b>WN8:</b></font><tab><img src='img://gui/maps/icons/library/Crab_stats/WN8.png' width='25' height='25' align='baseline' vspace='-10'><tab><b><font color='{{c:WN8}}'>{{WN8}}</font> <font color='{{c:XWN8}}'>({{XWN8}})</font></b><tab><img src='img://gui/maps/icons/library/Crab_stats/Transp.png' width='1' height='32' align='baseline' vspace='-10'><img src='img://gui/maps/icons/library/Crab_stats/SessionStat/{{c:WN8}}.png' width='32' height='32' align='baseline' vspace='-10'></font></textformat>",
     "<img src='img://gui/maps/icons/library/Crab_stats/Line.png' width='260' height='3' align='middle' vspace='-15'>"
     ],
+    "showStatByTank": true,
+    "textGeneralPageButton": "Tanky",
+    "textByTankPageButton": "Vše",
+    "byTankTitle": "<font size='13' color='#FFCC66'><textformat leading='-4' tabstops='[70,115,160]'>Tank<tab>Vítězství<tab>Poškození<tab>WN8</textformat></font><hr>",
+    "byTankRow": "<font size='12'><textformat leading='-4' tabstops='[70,115,160]'><font color='#FFE6B3'>{{name}}</font><tab><font color='{{g:rWIN}}'>{{winsCount}}/{{battlesCount}}</font><tab><font color='{{g:rDAMAGE}}'>{{avgDamage}}</font><tab><font color='{{g:WN8}}'>{{WN8}} ({{XWN8}})</font></textformat></font>",
     "gradient": {
         "credits": [
             { "value": -1,        "color": "#F02828" },
@@ -70,7 +81,7 @@
             { "value": 1,         "color": "#66CC66" }
         ]
     },
-    "palette" : {
+     "palette" : {
         "WN8": [
 		        { "value": 0,         "color": "#C1AC9C" },
             { "value": 300,       "color": "#BB0000" },
