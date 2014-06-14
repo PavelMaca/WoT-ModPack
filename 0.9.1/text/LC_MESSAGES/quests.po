@@ -99,6 +99,30 @@ msgstr ""
 "Zničení vozidel se speciální kamufláží není požadováno: Barva kamufláže: "
 "%(camos)s"
 
+msgid "details/conditions/clanMembership/any/company"
+msgstr "Všichni hráči v rotě musí být členy klanu."
+
+msgid "details/conditions/clanMembership/any/formation"
+msgstr "Všichni hráči v operační jednotce musí být členy klanu."
+
+msgid "details/conditions/clanMembership/any/squad"
+msgstr "Všichni hráči v četě musí být členy klanu."
+
+msgid "details/conditions/clanMembership/any/team7x7"
+msgstr "Všichni hráči v týmu musí být členy klanu."
+
+msgid "details/conditions/clanMembership/same/company"
+msgstr "Všichni hráči v rotě musí být členy stejného klanu."
+
+msgid "details/conditions/clanMembership/same/formation"
+msgstr "Všichni hráči v operační jednotce musí být členy stejného klanu."
+
+msgid "details/conditions/clanMembership/same/squad"
+msgstr "Všichni hráči v četě musí být členy stejného klanu."
+
+msgid "details/conditions/clanMembership/same/team7x7"
+msgstr "Všichni hráči v týmu musí být členy stejného klanu."
+
 msgid "details/conditions/cumulative/achievements"
 msgstr "Ocenění získaná v bitvě"
 
@@ -112,7 +136,7 @@ msgid "details/conditions/cumulative/damageAssistedRadio"
 msgstr "Poškození způsobené vaší detekcí"
 
 msgid "details/conditions/cumulative/damageAssistedTrack"
-msgstr "Poškození díky střelbě spojenců do pásů"
+msgstr "Poškození způsobené spojenci díky vaší střelbě do pásů"
 
 msgid "details/conditions/cumulative/damageBlockedByArmor"
 msgstr "Poškození zastavené pancířem"
@@ -361,10 +385,10 @@ msgid "details/conditions/title"
 msgstr "Podmínky"
 
 msgid "details/conditions/vehicle"
-msgstr "Požadovaná vozidla:"
+msgstr "Vhodná vozidla:"
 
 msgid "details/conditions/vehicleDescr"
-msgstr "Požadovaná vozidla:"
+msgstr "Vhodná vozidla:"
 
 msgid "details/conditions/vehicleKills"
 msgstr "Zničit:"
@@ -456,7 +480,8 @@ msgid "details/dossier/clan/damageAssistedRadio"
 msgstr "Poškození díky vaší detekci v klanových válkách"
 
 msgid "details/dossier/clan/damageAssistedTrack"
-msgstr "Poškození díky spojencům střílejícím do pásů v klanových válkách"
+msgstr ""
+"Poškození způsobené spojenci díky vaší střelbě do pásů v klanových válkách"
 
 msgid "details/dossier/clan/damageBlockedByArmor"
 msgstr "Poškození zastavené pancířem v klanových válkách"
@@ -521,7 +546,8 @@ msgid "details/dossier/company/damageAssistedRadio"
 msgstr "Poškození díky vaší detekci v režimu bitvy v rotě"
 
 msgid "details/dossier/company/damageAssistedTrack"
-msgstr "Poškození díky spojencům střílejícím do pásů v režimu bitvy v rotě"
+msgstr ""
+"Poškození způsobené spojenci díky vaší střelbě do pásů v režimu bitvy v rotě"
 
 msgid "details/dossier/company/damageBlockedByArmor"
 msgstr "Poškození zastavené pancířem v režimu bitvy v rotě"
@@ -613,7 +639,9 @@ msgid "details/dossier/historical/damageAssistedRadio"
 msgstr "Poškození díky vaší detekci v režimu historické bitvy"
 
 msgid "details/dossier/historical/damageAssistedTrack"
-msgstr "Poškození díky spojencům střílejícím do pásů v režimu historické bitvy"
+msgstr ""
+"Poškození způsobené spojenci díky vaší střelbě do pásů v režimu historické "
+"bitvy"
 
 msgid "details/dossier/historical/damageBlockedByArmor"
 msgstr "Poškození zastavené pancířem v režimu historické bitvy"
@@ -829,7 +857,7 @@ msgid "details/dossier/random/damageAssistedRadio"
 msgstr "Poškození způsobené vaší detekcí"
 
 msgid "details/dossier/random/damageAssistedTrack"
-msgstr "Poškození díky střelbě spojenců do pásů"
+msgstr "Poškození způsobené spojenci díky vaší střelbě do pásů"
 
 msgid "details/dossier/random/damageBlockedByArmor"
 msgstr "Poškození zastavené pancířem"
@@ -940,7 +968,8 @@ msgid "details/dossier/team/damageAssistedRadio"
 msgstr "Poškození díky vaší detekci v režimu týmové bitvy"
 
 msgid "details/dossier/team/damageAssistedTrack"
-msgstr "Poškození díky spojencům střílejícím do pásů v režimu týmové bitvy"
+msgstr ""
+"Poškození způsobené spojenci díky vaší střelbě do pásů v režimu týmové bitvy"
 
 msgid "details/dossier/team/damageBlockedByArmor"
 msgstr "Poškození zastavené pancířem v režimu týmové bitvy"
@@ -1021,44 +1050,40 @@ msgid "details/header/activeDurationTimes"
 msgstr "Trvání: %(times)s od %(startTime)s do %(finishTime)s"
 
 msgid "details/header/completion/daily"
-msgstr "Misí, které lze dokončit jednou za 24 hodin: %(count)d"
+msgstr "Možný počet dokončení mise za 24 hodin: %(count)d"
 
 msgid "details/header/completion/daily/groupByClass"
 msgstr ""
-"Misí, které lze dokončit jednou za 24 hodin: %(count)d s vozidly určitých "
-"typů."
+"Možný počet dokončení mise za 24 hodin: %(count)d s vozidly určitých typů."
 
 msgid "details/header/completion/daily/groupByLevel"
 msgstr ""
-"Misí, které lze dokončit jednou za 24 hodin: %(count)d s vozidly určitých "
-"úrovní."
+"Možný počet dokončení mise za 24 hodin: %(count)d s vozidly určitých úrovní."
 
 msgid "details/header/completion/daily/groupByNation"
 msgstr ""
-"Misí, které lze dokončit jednou za 24 hodin: %(count)d s vozidly určitých "
-"národů."
+"Možný počet dokončení mise za 24 hodin: %(count)d s vozidly určitých národů."
 
 msgid "details/header/completion/daily/groupByVehicle"
-msgstr ""
-"Misí, které lze dokončit jednou za 24 hodin: %(count)d s určitými vozidly."
+msgstr "Možný počet dokončení mise za 24 hodin: %(count)d s určitými vozidly."
 
 msgid "details/header/completion/single"
-msgstr "Misí, které lze dokončit: %(count)d."
+msgstr "Možný počet dokončení mise: %(count)d."
 
 msgid "details/header/completion/single/groupByClass"
-msgstr "Mise, které lze dokončit: %(count)d s vozidly určitých typů."
+msgstr "Možný počet dokončení mise: %(count)d s vozidly určitých typů."
 
 msgid "details/header/completion/single/groupByLevel"
-msgstr "Mise, které lze dokončit: %(count)d s vozidly určitých úrovní."
+msgstr "Možný počet dokončení mise: %(count)d s vozidly určitých úrovní."
 
 msgid "details/header/completion/single/groupByNation"
-msgstr "Mise, které lze dokončit: %(count)d  s vozidly určitých národů."
+msgstr "Možný počet dokončení mise: %(count)d  s vozidly určitých národů."
 
 msgid "details/header/completion/single/groupByVehicle"
-msgstr "Mise, které lze dokončit: %(count)d s určitými vozidly."
+msgstr "Možný počet dokončení mise: %(count)d s určitými vozidly."
 
 msgid "details/header/completion/unlimited"
-msgstr "Misí, které lze dokončit: neomezeně."
+msgstr "Možný počet dokončení mise: neomezený."
 
 msgid "details/header/hasNoVehicles"
 msgstr "Mise není k dispozici: žádná vozidla správného typu."
@@ -1312,10 +1337,13 @@ msgid "details/requirements/premiumAccount"
 msgstr "Mise je k dispozici pouze s prémiovým účtem."
 
 msgid "details/requirements/token"
-msgstr "Dokončení mise: %s"
+msgstr "Dokončete misi: %(questName)s"
+
+msgid "details/requirements/token/N"
+msgstr "Misi %(questName)s lze dokončit: %(count)s krát"
 
 msgid "details/requirements/vehicle/any"
-msgstr "Mise může být dokončena s jakýmkoliv vozidlem."
+msgstr "Misi lze dokončit s jakýmkoliv vozidlem."
 
 msgid "details/requirements/vehicle/notReceivedMultXp"
 msgstr "Mohou bojovat pouze vozidla, která nedostala x%(mult)d."
@@ -1466,10 +1494,10 @@ msgid "details/tasks/nextTask"
 msgstr "Další mise"
 
 msgid "details/tasks/requirements/accountLabel"
-msgstr "Požadavky na bojová vozidla"
+msgstr "Podmínky"
 
 msgid "details/tasks/requirements/vehicleLabel"
-msgstr "Bojová vozidla"
+msgstr "Vhodná vozidla"
 
 msgid "details/tasks/requirements/vehicleLabel/from"
 msgstr "z(e)"
@@ -1607,7 +1635,7 @@ msgid "quests/status/notDone"
 msgstr "Nedokončené"
 
 msgid "quests/table/battlesLeft"
-msgstr "Zbývá bitev:"
+msgstr "Počet:"
 
 msgid "quests/table/inHangar"
 msgstr "K dispozici v garáži"

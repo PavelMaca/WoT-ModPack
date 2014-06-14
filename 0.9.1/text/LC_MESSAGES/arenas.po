@@ -370,9 +370,9 @@ msgstr "Perlová řeka (Pearl River)"
 msgid "63_tundra/description"
 msgstr ""
 "Hora na východě nabízí možnost ovládnout prostor bojiště z vyvýšeného místa, "
-"zatímco centrální část mapy nabízí širokou škálu taktických výhod. Bažina na "
-"západě může posloužit k detekci týlu nepřítele nebo k přípravě překvapivého "
-"útoku."
+"zatímco centrální část mapy nabízí širokou škálu taktických výhod. Vesnice a "
+"objízdná cesta, které jsou na západě, vytváří příležitost k nečekaným "
+"manévrům a taktikám."
 
 msgid "63_tundra/name"
 msgstr "Tundra"
@@ -384,6 +384,15 @@ msgstr ""
 
 msgid "73_asia_korea/name"
 msgstr "Posvátné údolí"
+
+msgid "83_kharkiv/description"
+msgstr ""
+"Městské bloky ve středu mapy mají nejvyšší strategický význam. Mapa také "
+"nabízí dvě alternativní možnosti: Náměstí je ideální pro boj na dlouhou "
+"vzdálenost a otevřená oblast je zase skvělá pro rychlá vozidla."
+
+msgid "83_kharkiv/name"
+msgstr "Charkov"
 
 msgid "84_winter/description"
 msgstr ""
@@ -422,6 +431,12 @@ msgstr ""
 
 msgid "87_ruinberg_on_fire/name"
 msgstr "Ruinberg v plamenech (Ruinberg on Fire)"
+
+msgid "99_himmelball/description"
+msgstr "Vybojujte intenzivní bitvu, abyste vyhráli šampionát Himmelsdorfu!"
+
+msgid "99_himmelball/name"
+msgstr "Himmelsdorfský šampionát"
 
 msgid "type/assault/description1"
 msgstr ""
@@ -468,6 +483,12 @@ msgstr ""
 
 msgid "type/escort/name"
 msgstr "Doprovod"
+
+msgid "type/football/description"
+msgstr "Mise: dejte 3 góly. Délka zápasu: 5 minut."
+
+msgid "type/football/name"
+msgstr "Fotbalový zápas"
 
 msgid "type/nations/description"
 msgstr "Úkol: Obsaďte základnu nebo zničte všechna nepřátelská vozidla."

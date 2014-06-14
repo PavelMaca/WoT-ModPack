@@ -75,7 +75,7 @@ msgid "arena_start_errors/join/WRONG_ARGS"
 msgstr "Chyba připojení, WRONG_ARGS."
 
 msgid "arena_start_errors/join/WRONG_BATTLE_ID"
-msgstr "Chyba při připojení: vybraná historická bitva je nedostupná."
+msgstr "Chyba při připojování: vybraná historická bitva není k dispozici."
 
 msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
 msgstr "Chyba připojení. Vyberte si prosím server '%s'."
@@ -773,6 +773,223 @@ msgstr ""
 "Operace není možná. Všechny vaše zlaťáky budou k dispozici po automatickém "
 "obnovení funkčnosti Peněženky WG."
 
+msgid "fortification/activateOrder"
+msgstr "Záloha %(order)s nasazena. Zbývající čas: %(time)s."
+
+msgid "fortification/addOrder"
+msgstr "Příprava %(count)s záloh(y) začala. Zbývající čas: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr ""
+"Výstavba budovy %(buildingName)s začala. Přepravte požadované množství "
+"průmyslových zdrojů, abyste zajistili nepřetržitou výstavbu."
+
+msgid "fortification/created"
+msgstr ""
+"Gratulujeme!\n"
+"Opevnění bylo úspěšně založeno."
+
+msgid "fortification/demountBuilding"
+msgstr "Budova %(buildingName)s zbourána."
+
+msgid "fortification/directionClosed"
+msgstr "Směr %(direction)s uzavřen."
+
+msgid "fortification/directionOpened"
+msgstr "Směr %(direction)s úspěšně otevřen."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Akce není k dispozici. Už jste přiděleni k této budově."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Akce není k dispozici. Opevnění už je založeno."
+
+msgid "fortification/errors/BAD_DIR"
+msgstr "Akce není k dispozici. Směr neexistuje."
+
+msgid "fortification/errors/BAD_METHOD"
+msgstr "Poslední operace s odřadem byla dokončena s chybou."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr ""
+"Akce není k dispozici. Přepraveno neplatné množství průmyslových zdrojů."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Akce není k dispozici. Podrobnosti o šarvátce nebyly obdrženy."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Akce není k dispozici. Neplatné období příměří."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Akce není k dispozici. Neplatný čas zahájení období příměří."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Nelze odstranit. Opevnění obsahuje budovy."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Akce není k dispozici. Budova není postavena."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Akce není k dispozici. Přeprava není k dispozici."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Akce není k dispozici. Budovu nelze vylepšit."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Akce není k dispozici. Neplatné údaje."
+
+msgid "fortification/errors/DIRECTIONS_STILL_OPEN"
+msgstr "Akce není k dispozici. Opevnění obsahuje směry."
+
+msgid "fortification/errors/DIR_ALREADY_OPEN"
+msgstr "Akce není k dispozici. Směr už je otevřen."
+
+msgid "fortification/errors/DIR_NOT_OPEN"
+msgstr "Akce není k dispozici. Směr ještě není otevřen."
+
+msgid "fortification/errors/DIR_OCCUPIED"
+msgstr "Akce není k dispozici. Směr obsahuje postavené budovy."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Akce není k dispozici. Budova je už postavena."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Akce není k dispozici. Počkejte prosím na dokončení aktuální operace."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Akce není k dispozici. Úroveň opevnění je příliš nízká."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Akce není k dispozici. Nedostatečné oprávnění."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Akce není momentálně k dispozici."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Akce není k dispozici. Nejste přiděleni k budově."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Akce není k dispozici. Hráč není členem klanu."
+
+msgid "fortification/errors/NOT_CREATED"
+msgstr "Akce není k dispozici. Opevnění ještě není založeno."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Akce není k dispozici. Nedostatek hráčů v klanu."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Akce není k dispozici. Nedostatek průmyslových zdrojů."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Akce není k dispozici. Budova není postavena."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Akce není k dispozici. Nejste členem klanu."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Akce není k dispozici. Chybná budova."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Akce není k dispozici. Chybná záloha (NO_ORDER)."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Akce není k dispozici. Chybná záloha (NO_ORDER_DEF)."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Akce není k dispozici. Chybná záloha (NO_ORDER_LEVEL)."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Akce není k dispozici. Záloha je už nasazena."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Akce není k dispozici. Záloha se už připravuje."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Akce není k dispozici. Výcvik není dokončen."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Akce není k dispozici. Skladiště je plné."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr ""
+"Akce není k dispozici. Dosaženo maximálního množství připravených záloh."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Akce není k dispozici. Posádka budovy je plná."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Akce není k dispozici. Překročen limit šarvátek."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Akce není k dispozici. Přeprava není momentálně k dispozici."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Akce není k dispozici. Překročen limit přepravy."
+
+msgid "fortification/errors/UNKNOWN"
+msgstr "Neznámá chyba."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Akce není k dispozici. Nelze zbourat velitelské centrum."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Akce není k dispozici. Nelze postavit budovu v této oblasti."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Jste přiděleni k budově %(buildingName)s."
+
+msgid "fortification/modernizationBuilding"
+msgstr ""
+"Vylepšení úspěšně dokončeno. Úroveň budovy %(buildingName)s se zvýšila na "
+"%(buildingLevel)s."
+
+msgid "fortification/orderIsReady"
+msgstr "Příprava %(count)s záloh(y) %(order)s dokončena."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Přidat zálohu"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Postavit budovu"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Přidat zálohu"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Přidělit hráče k posádce"
+
+msgid "fortification/request/name/CLOSE_DIRECTION"
+msgstr "Zavřít směr"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Založit opevnění"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Vytvořit odřad"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Odstranit budovu"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Odstranit opevnění"
+
+msgid "fortification/request/name/OPEN_DIRECTION"
+msgstr "Otevřít směr"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Získat podrobnosti odřadu"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Přeprava"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Vylepšení budovy"
+
+msgid "fortification/transport"
+msgstr ""
+"Přeprava úspěšně dokončena. %(res)s průmyslových zdrojů bylo přepraveno z "
+"budovy %(fromBuilding)s do budovy %(toBuilding)s."
+
 msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
 msgstr "Operace není k dispozici."
 
@@ -1157,9 +1374,6 @@ msgstr "Velitel vás vyloučil z roty."
 msgid "prebattle/kick/type/unknown"
 msgstr "Velitel vás vyloučil z týmu."
 
-msgid "prebattle/request/isInCoolDown"
-msgstr "Operace \"%(request)s\" je pozastavena na %(coolDown)d sekund."
-
 msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
 msgstr "Nahradit hlasovou komunikaci"
 
@@ -1187,6 +1401,11 @@ msgstr "Nahradit týmy"
 msgid "prebattle/request/name/UNITS_LIST"
 msgstr "Hledat"
 
+msgid "prebattle/teamInvalid/football"
+msgstr ""
+"Četa byla založena nesprávně. Pouze úplná četa, která se skládá ze tří "
+"vozidel T-62A SPORT, se může připojit do bitvy. "
+
 msgid "prebattle/teamInvalid/limit/minCount"
 msgstr ""
 "Do bitev se mohou připojit pouze týmy s minimálním počtem vozidel: "
@@ -1201,7 +1420,7 @@ msgid "prebattle/teamInvalid/limits/level"
 msgstr "Jsou povolena pouze vozidla s úrovní od%(minLevel)d do %(maxLevel)d."
 
 msgid "prebattle/teamInvalid/limits/vehicles"
-msgstr "Špatná národnost vozidla pro tuto bitvu."
+msgstr "Toto vozidlo není vhodné pro tuto bitvu."
 
 msgid "prebattle/vehicleInvalid/limits/ammo"
 msgstr ""
@@ -1358,6 +1577,9 @@ msgstr "Chyba přepisu osobních dat. Vozidlo je uzamčeno."
 
 msgid "replace_tankman/vehicle_need_repair"
 msgstr "Chyba přepisu osobních dat. Opravte vozidlo."
+
+msgid "request/isInCoolDown"
+msgstr "Operace \"%(request)s\" je zmrazena na %(coolDown)s s."
 
 msgid "retraining_crew/empty_list"
 msgstr "Chyba přeškolení posádky. Členové posádky nejsou vybráni."
@@ -1679,6 +1901,9 @@ msgstr "%(userName)s opustil tým."
 
 msgid "unit/warnings/ALREADY_INVITED"
 msgstr "Pozvánka už byla odeslána."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Opustili jste klan."
 
 msgid "unit/warnings/INVITE_REMOVED"
 msgstr "Chyba při připojení k týmu. Byli jste z týmu vyhozeni."

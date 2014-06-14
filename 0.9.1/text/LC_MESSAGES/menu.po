@@ -157,6 +157,9 @@ msgstr "Neznámý"
 msgid "bonusType/1"
 msgstr "Náhodná bitva"
 
+msgid "bonusType/10"
+msgstr "Opevnění"
+
 msgid "bonusType/2"
 msgstr "Týmový výcvik"
 
@@ -283,7 +286,10 @@ msgstr "Výzkum"
 msgid "contextMenu/goToNextVehicle"
 msgstr "Výzkum modulů"
 
-msgid "contextMenu/kickPlayer"
+msgid "contextMenu/kickPlayerFromPrebattle"
+msgstr "Vyloučit z týmu"
+
+msgid "contextMenu/kickPlayerFromUnit"
 msgstr "Vyloučit z týmu"
 
 msgid "contextMenu/lockSlot"
@@ -369,7 +375,7 @@ msgstr "Nastavit jako rezervní"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2014. Všechna práva vyhrazena. [9.0]Crabtr33 rozšířená CZ "
+"Wargaming.net 2008-2014. Všechna práva vyhrazena. [9.1]Crabtr33 rozšířená CZ "
 "v2.21"
 
 msgid "currentVehicleStatus/ammoNotFull"
@@ -561,7 +567,7 @@ msgid "customization/period/days"
 msgstr "na %d dnů"
 
 msgid "customization/period/igr"
-msgstr "na prémium %(igrImg)s"
+msgstr "na %(igrImg)s"
 
 msgid "customization/period/infinity"
 msgstr "trvale"
@@ -832,19 +838,19 @@ msgid "fittingListItemRenderer/unload"
 msgstr "Odmontovat a umístit do skladu"
 
 msgid "fortificationCtx/assignedPlayers"
-msgstr "Закреплённые игроки"
+msgstr "Přidělení hráči"
 
 msgid "fortificationCtx/destroy"
-msgstr "Снос строения"
+msgstr "Zbourání budovy"
 
 msgid "fortificationCtx/directionControl"
-msgstr "Контроль направлений"
+msgstr "Ovládání směru"
 
 msgid "fortificationCtx/modernization"
-msgstr "Модернизация"
+msgstr "Vylepšení"
 
 msgid "fortificationCtx/prepareOrder"
-msgstr "Подготовить приказ"
+msgstr "Připravit zálohu"
 
 msgid "hangar/ammunitionPanel/maitenanceBtn"
 msgstr "Servis"
@@ -983,6 +989,12 @@ msgstr "Bitva v rotě"
 msgid "headerButtons/battle/types/companyLeaveOwner"
 msgstr "Bitva v rotě"
 
+msgid "headerButtons/battle/types/fort"
+msgstr "Opevnění: Bitvy"
+
+msgid "headerButtons/battle/types/fortLeave"
+msgstr "Opevnění: Bitvy"
+
 msgid "headerButtons/battle/types/historicalBattles"
 msgstr "Historická bitva"
 
@@ -997,6 +1009,9 @@ msgstr "Kliknutím opustíte režim."
 
 msgid "headerButtons/battle/types/leaveCompany/descr"
 msgstr "Kliknutím opustíte režim."
+
+msgid "headerButtons/battle/types/leaveFort/descr"
+msgstr "Klikněte pro opuštění režimu."
 
 msgid "headerButtons/battle/types/leaveSpec/descr"
 msgstr "Kliknutím opustíte režim."
@@ -1068,7 +1083,7 @@ msgid "headerButtons/browser"
 msgstr "Prohlížeč"
 
 msgid "headerButtons/forts"
-msgstr "Укрепрайоны"
+msgstr "Opevnění"
 
 msgid "headerButtons/hangar"
 msgstr "Garáž"
@@ -1101,13 +1116,13 @@ msgid "igr/info"
 msgstr "%(igrIcon)s Вы играете в IGR"
 
 msgid "ingame_menu/buttons/back"
-msgstr "Zpět do hry"
+msgstr "Zpět do bitvy"
 
 msgid "ingame_menu/buttons/help"
 msgstr "Nápověda"
 
 msgid "ingame_menu/buttons/logoff"
-msgstr "Návrat do garáže"
+msgstr "Zpět do garáže"
 
 msgid "ingame_menu/buttons/settings"
 msgstr "Nastavení"
@@ -1373,6 +1388,12 @@ msgstr "Týmová bitva"
 msgid "loading/battleTypes/6"
 msgstr "Historická bitva"
 
+msgid "loading/battleTypes/7"
+msgstr "Fotbalový zápas"
+
+msgid "loading/battleTypes/8"
+msgstr "Šarvátky"
+
 msgid "loading/battleTypes/desc/0"
 msgstr " "
 
@@ -1397,6 +1418,12 @@ msgstr " "
 msgid "loading/battleTypes/desc/6"
 msgstr " "
 
+msgid "loading/battleTypes/desc/7"
+msgstr " "
+
+msgid "loading/battleTypes/desc/8"
+msgstr " "
+
 msgid "loading/game"
 msgstr "Nahrává se… Prosím čekejte…"
 
@@ -1405,6 +1432,9 @@ msgstr " "
 
 msgid "loading/helpTip"
 msgstr "Pro nápovědu v bitvě stiskněte F1."
+
+msgid "loading/helpTip/football"
+msgstr "Více detailů"
 
 msgid "loading/team1"
 msgstr "Spojenci"
@@ -1465,6 +1495,9 @@ msgstr "Uložit email a heslo (nebezpečné)"
 
 msgid "login/rememberPasswordIgrWarning"
 msgstr "Je nebezpečné používat tuto možnost na veřejných místech."
+
+msgid "login/rss/readMore"
+msgstr "Detaily"
 
 msgid "login/server"
 msgstr "Server:"
@@ -2260,7 +2293,10 @@ msgid "research/premium/description/titte"
 msgstr "Detaily vozidla:"
 
 msgid "research/special/benefits/head"
-msgstr "Výhody oceněného vozidla:"
+msgstr "Výhody vozidla za odměnu:"
+
+msgid "research/status/historicalModules"
+msgstr "Vozidlo má historickou výbavu."
 
 msgid "screenshot/save"
 msgstr "Screenshot uložen do %(path)s"
