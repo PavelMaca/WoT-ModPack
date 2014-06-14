@@ -1,0 +1,46 @@
+{
+	"config": {
+		"load_error": "<font face='$FieldFont' size='13'>Konfigurační soubor nenalezen. Použito standardní nastavení!</font>",
+		"server_error": "<font face='$FieldFont' size='13'>Server není podporován.</font>",
+		"update": "<font face='$FieldFont' size='13'><b>Aktualizace k dispozici:</b> </font>"
+	},
+	"language": {
+		"error": "<font face='$FieldFont' size='13'>V souboru clanMod.lang nebyl nalezen překlad pro vaše jazykové nastavení. Bude použita angličtina!</font>"
+	},
+	"clanmod": {
+		"online": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Členů klanu online: </b></font>",
+		"button": "Členů online",
+		"print_done": "<font face='$FieldFont' size='13'>Online uživatelé uloženi do souboru: </font>\n",
+		"print_error": "<font face='$FieldFont' size='13'>Chyba při ukládání do souboru. Zkontrolujte soubor python.log!</font>"
+	},
+	"clanwars": {
+		"message": {
+			"title": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Plánovaná CW:</b></font>\n",
+			"message": ["<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'><b>Province:<tab><tab>{{landing}} ( {{income}}</b><img src='img://gui/maps/icons/library/GoldIcon-2.png' width='16' height='16' align='baseline' vspace='-3'><b>)</b></font></textformat>",
+			"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>Čas:<tab><tab>{{time}}</b></font></textformat>",
+			"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Mapa:<tab><tab>{{map}}</font></textformat>",
+			"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Typ:<tab><tab>{{type}}</font></textformat>\n"],
+			"spacer": "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>------------------------------</b></font></textformat>\n",
+			"for_province": "Boj o území",
+			"meeting_engagement": "Boj o hranice",
+			"landing": "Vylodění",
+			"attacker": "Útok",
+			"defender": "Obrana",
+			"approximately": "~",
+			"no_clanwars": "Žádné CW"
+		},
+		"clanID_neterror": "<font face='$FieldFont' size='13'>Chyba při získávání ID klanu. Pravděpodobně došlo k problémům s API nebo sítí.</font>",
+		"clanwar_neterror": "<font face='$FieldFont' size='13'>Chyba při získávání informací o CW. Pravděpodobně došlo k problémům s API nebo sítí.</font>",
+		"clanwar_saveerror": "<font face='$FieldFont' size='13'>Chyba při ukládání informací o CW do souboru. Zkontrolujte soubor python.log!</font>",
+		"clanwar_data_saved": "<font face='$FieldFont' size='13'>Informace o CW aktualizovány!</font>",
+		"button": "Přehled CW"
+	},
+	"provinces": {
+		"no_file": "<font face='$FieldFont' size='13'>Soubor <b>clanMod.prov</b> nenalezen!</font>",
+		"no_province": "<font face='$FieldFont' size='13'>V souboru nebylo nalezeno toto území. Smažte prosím <b>clanMod.prov</b>.</font>",
+		"load_error": "<font face='$FieldFont' size='13'>Chyba při získávání informací z WG API. Pravděpodobně došlo k problémům s API nebo sítí.</font>",
+		"updated": "<font face='$FieldFont' size='13'>Soubor o územích byl vytvořen a data aktualizována!</font>",
+		"save_error": "Chyba při ukládání souboru o územích. Zkontrolujte soubor python.log!",
+		"ovner_get_error": "Chyba při získávání informací o vlastníkovi území."
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"config": {
+		"load_error": "<font face='$FieldFont' size='13'>Config nicht gefunden, benutze standart Einstellungen!</font>",
+		"server_error": "<font face='$FieldFont' size='13'>Server wird nicht unterstützt.</font>",
+		"update": "<font face='$FieldFont' size='13'><b>Update vorhanden:</b> </font>"
+	},
+	"language": {
+		"error": "<font face='$FieldFont' size='13'>Sprache fehlt in der clanMod.lang datei. Es wird nun en benutzt!</font>"
+	},
+	"clanmod": {
+		"online": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Online: </b></font>",
+		"button": "Clan Mod",
+		"print_done": "<font face='$FieldFont' size='13'>Online Member wurden in Datei gespeichert: </font>\n",
+		"print_error": "<font face='$FieldFont' size='13'>Fehler beim speichern der online Member. Überprüfe die Datei python.log!</font>"
+	},
+	"clanwars": {
+		"message": {
+			"title": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>ClanWar Liste:</b></font>\n",
+			"message": ["<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'><b>Province:<tab><tab>{{landing}} ( {{income}}</b><img src='img://gui/maps/icons/library/GoldIcon-2.png' width='16' height='16' align='baseline' vspace='-3'><b>)</b></font></textformat>",
+			"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>Uhrzeit:<tab><tab>{{time}}</b></font></textformat>",
+			"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Karte:<tab><tab>{{map}}</font></textformat>",
+			"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Gefechtsart:<tab><tab>{{type}}</font></textformat>\n"],
+			"spacer": "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>------------------------------</b></font></textformat>\n",
+			"for_province": "Für  Province",
+			"meeting_engagement": "Begegnung",
+			"landing": "Landung",
+			"attacker": "Angriff",
+			"defender": "Verteidigung",
+			"approximately": "~",
+			"no_clanwars": "Keine ClanWar"
+		},
+		"clanID_neterror": "<font face='$FieldFont' size='13'>Fehler beim ermitteln der Clan ID. Eventuell ein Fehler in der Api oder im Netzwerk.</font>",
+		"clanwar_neterror": "<font face='$FieldFont' size='13'>Fehler beim ermitteln der ClanWar Daten. Eventuell ein Fehler in der Api oder im Netzwerk.</font>",
+		"clanwar_saveerror": "<font face='$FieldFont' size='13'>Fehler beim speichern der ClanWar Daten. Überpfrüfe die  python.log!</font>",
+		"clanwar_data_saved": "<font face='$FieldFont' size='13'>ClanWars Daten gespeichert!</font>",
+		"button": "Clan Wars"
+	},
+	"provinces": {
+		"no_file": "File <b>clanMod.prov</b> nicht gefunden!",
+		"no_province": "Province in der Datei nicht gefunden bitte löschen <b>clanMod.prov</b>",
+		"load_error": "Fehler beim laden der Daten über die WG API. Netzwerk oder API Probleme.",
+		"updated": "Province Datei erstellt und Daten aktualisiert!",
+		"save_error": "Fehler beim speichern der Province Datei. Überprüfe die  python.log!",
+		"ovner_get_error": "Fehler beim laden der Province Inhaberdaten."
+	}
+}
