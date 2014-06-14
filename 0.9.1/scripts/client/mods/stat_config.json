@@ -33,7 +33,7 @@
     ],
     "onlineReloadConfig": true,
     "ignoreBattleType": [2, 4],
-    "showResetButton": true,
+    "showResetButton": false,
     "textResetButton": "Resetovat",
     "dailyAutoReset": true,
     "dailyAutoResetHour": 6,
