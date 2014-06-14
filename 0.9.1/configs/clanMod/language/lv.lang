@@ -1,0 +1,48 @@
+{
+    "config": {
+        "load_error": "<font face='$FieldFont' size='13'>Konfigurācijas fails nav atrasts. Lietos standarta uzstādījumus!</font>",
+        "server_error": "<font face='$FieldFont' size='13'>Šis serveris netiek atbalstīts.</font>",
+        "update": "<font face='$FieldFont' size='13'><b>Pieejams atjauninājums:</b> </font>"
+    },
+    "language": {
+        "error": "<font face='$FieldFont' size='13'>Lietotā valoda nav clanMod.lang failā. Tiks lietota angļu!</font>"
+    },
+    "clanmod": {
+        "online": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Tiešsaitē: </b></font>",
+        "button": "Klana biedri",
+        "print_done": "<font face='$FieldFont' size='13'>Tiešsaitē esošie klana biedri saglabāti failā: </font>\n",
+        "print_error": "<font face='$FieldFont' size='13'>Kļūda saglabājot failu. Sīkāk python.log!</font>"
+    },
+    "clanwars": {
+        "message": {
+            "title": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Klanu cīņu saraksts:</b></font>\n",
+            "message": [
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'><b>Province:<tab><tab>{{landing}} ( {{income}}</b><img src='img://gui/maps/icons/library/GoldIcon-2.png' width='16' height='16' align='baseline' vspace='-3'><b>)</b></font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>Laiks:<tab><tab>{{time}}</b></font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Karte:<tab><tab>{{map}}</font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Tips:<tab><tab>{{type}}</font></textformat>\n"
+            ],
+            "spacer": "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>------------------------------</b></font></textformat>\n",
+            "for_province": "Cīņa par provinci",
+            "meeting_engagement": "Sadursmes kauja",
+            "landing": "Izsēšanās",
+            "defender": "Aizstāvēšanās",
+            "attacker": "Uzbrukums",
+            "approximately": "~",
+            "no_clanwars": "Šobrīd nav paredzētas klanu cīņas"
+        },
+        "clanID_neterror": "<font face='$FieldFont' size='13'>Kļūda iegūstot ClanID. Iespējama API vai savienojuma kļūda.</font>",
+        "clanwar_neterror": "<font face='$FieldFont' size='13'>Kļūda iegūstot Klanu cīņu datus. Iespējama API vai savienojuma kļūda.</font>",
+        "clanwar_saveerror": "<font face='$FieldFont' size='13'>Kļūda saglabājot Klanu cīņas failā. Sīkāk python.log!</font>",
+        "clanwar_data_saved": "<font face='$FieldFont' size='13'>Klanu cīņu dati atjaunoti!</font>",
+        "button": "Klanu cīņas"
+    },
+    "provinces": {
+        "no_file": "Fails <b>clanMod.prov</b> nav atrasts!",
+        "no_province": "Šāda province nav atrasta. Atjauniniet provinces failu",
+        "load_error": "Kļūda ielādejot provinces datus no interenat.",
+        "updated": "Provinces atjauninātas!",
+        "save_error": "Kļūda saglabājot provinču failu. Sīkāk python.log!",
+        "ovner_get_error": "Kļūda iegūstot provinces īpašnieku."
+    }
+}
