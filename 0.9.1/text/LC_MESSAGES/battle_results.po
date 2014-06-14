@@ -22,6 +22,12 @@ msgstr "Nebyla zničena ani detekována žádná vozidla."
 msgid "common/battleEfficiency/title"
 msgstr "Bojová efektivita"
 
+msgid "common/battleType/sortie"
+msgstr "Šarvátka s klanem "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
 msgid "common/details/buyPremiumBtn"
 msgstr "Koupit prémiový"
 
@@ -39,6 +45,9 @@ msgstr "S prémiem"
 
 msgid "common/details/progress"
 msgstr "Postup mise"
+
+msgid "common/details/resource"
+msgstr "Průmyslové zdroje"
 
 msgid "common/details/xpTitle"
 msgstr "Zkušenosti"
@@ -194,11 +203,17 @@ msgstr "Automatické opravy vozidla"
 msgid "details/calculations/base"
 msgstr "Obdrženo"
 
+msgid "details/calculations/battlePayments"
+msgstr "Bojové platby"
+
 msgid "details/calculations/event"
 msgstr "Odměna za dokončenou misi"
 
 msgid "details/calculations/firstWin"
 msgstr "Odměna za první vítěznou bitvu dne"
+
+msgid "details/calculations/fortOrder"
+msgstr "Bonus za nasazení rezerv"
 
 msgid "details/calculations/friendlyFireCompensation"
 msgstr "Kompenzace za poškození spojenci"
@@ -206,11 +221,23 @@ msgstr "Kompenzace za poškození spojenci"
 msgid "details/calculations/friendlyFirePenalty"
 msgstr "Pokuta za poškození spojenců"
 
+msgid "details/calculations/heavyTrucks"
+msgstr "Za přepravené zboží"
+
 msgid "details/calculations/igrBonus"
 msgstr "Odměna za hru v %(igrIcon)s"
 
+msgid "details/calculations/intermediateTotal"
+msgstr "Celkový počet za bitvu:"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Za vojenské manévry"
+
 msgid "details/calculations/noPenalty"
 msgstr "Za odvážný odpor"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Za taktický výcvik"
 
 msgid "details/calculations/total"
 msgstr "Celkem:"
@@ -223,6 +250,9 @@ msgstr "Kredity"
 
 msgid "details/prem"
 msgstr "S prémiem"
+
+msgid "details/resource"
+msgstr "Průmyslové zdroje"
 
 msgid "details/stats"
 msgstr "Statistiky"
@@ -305,6 +335,12 @@ msgstr "Řadit podle jména hráče."
 msgid "team/playerHeader/header"
 msgstr "Jméno hráče"
 
+msgid "team/resourceHeader/body"
+msgstr "Řadit podle počtu získaných průmyslových zdrojů."
+
+msgid "team/resourceHeader/header"
+msgstr "Průmyslové zdroje"
+
 msgid "team/squadHeader/body"
 msgstr "Řadit podle čety."
 
@@ -317,8 +353,8 @@ msgstr "Zavřít"
 msgid "team/stats/enemyTeam"
 msgstr "Nepřátelé"
 
-msgid "team/stats/labels_capturePoints"
-msgstr "Bodů za obsazení základny"
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Bodů za obsazování/obranu základny"
 
 msgid "team/stats/labels_damageAssisted"
 msgstr "Asistence při poškození (pásy/detekce)"
@@ -332,17 +368,14 @@ msgstr "Poškození zastavené pancířem"
 msgid "team/stats/labels_damageDealt"
 msgstr "Poškození"
 
-msgid "team/stats/labels_damaged"
-msgstr "Nepřátel poškozeno"
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tpoškození způsobené nepřátelskému týmu"
 
-msgid "team/stats/labels_directHits"
-msgstr "\tpřímých zásahů"
+msgid "team/stats/labels_damagedKilled"
+msgstr "Nepřátelských vozidel poškozeno/zničeno"
 
 msgid "team/stats/labels_directHitsReceived"
 msgstr "Obdrženo zásahů"
-
-msgid "team/stats/labels_droppedCapturePoints"
-msgstr "Bodů za obranu základny"
 
 msgid "team/stats/labels_explosionHits"
 msgstr "\texplozivní poškození"
@@ -350,8 +383,8 @@ msgstr "\texplozivní poškození"
 msgid "team/stats/labels_explosionHitsReceived"
 msgstr "Zásahy obdržené následkem explozí"
 
-msgid "team/stats/labels_kills"
-msgstr "Nepřátel zničeno"
+msgid "team/stats/labels_hits"
+msgstr "\tpřímých zásahů/průstřelů"
 
 msgid "team/stats/labels_mileage"
 msgstr "Ujetá vzdálenost"
@@ -359,14 +392,14 @@ msgstr "Ujetá vzdálenost"
 msgid "team/stats/labels_noDamageDirectHitsReceived"
 msgstr "\tzásahů bez poškození"
 
-msgid "team/stats/labels_piercings"
-msgstr "\tprůstřelů"
-
 msgid "team/stats/labels_piercingsReceived"
 msgstr "\tprůstřelů"
 
 msgid "team/stats/labels_shots"
 msgstr "Vypáleno výstřelů"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\tze vzdálenosti vyšší než 300 metrů"
 
 msgid "team/stats/labels_spotted"
 msgstr "Nepřátel detekováno"
@@ -385,6 +418,11 @@ msgstr "Řadit podle pozice v týmovém panelu"
 
 msgid "team/tankHeader/header"
 msgstr "Vozidla"
+
+msgid "team/teamResourceTotal"
+msgstr ""
+"Průmyslové zdroje získané odřadem: %(color_tag_open)s%(resourceValue)s"
+"%(color_tag_close)s%(resourceIcon)s"
 
 msgid "team/xpHeader/body"
 msgstr "Řadit podle zkušeností"

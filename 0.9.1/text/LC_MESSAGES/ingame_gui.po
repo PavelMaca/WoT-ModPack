@@ -657,12 +657,12 @@ msgid "players_panel/unknown_vehicleState"
 msgstr "------"
 
 msgid "postmortem/tips/exitHangar/label"
-msgstr "Návrat do garáže"
+msgstr "Zpět do garáže"
 
 msgid "postmortem/tips/exitHangar/text"
 msgstr ""
-"Esc > Návrat do garáže.\n"
-"Zahajte bitvu s dalším vozidlem."
+"Esc > Zpět do garáže.\n"
+"Vstupte do bitvy s jiným vozidlem."
 
 msgid "postmortem/tips/observerMode/label"
 msgstr "Režim pozorovatele"

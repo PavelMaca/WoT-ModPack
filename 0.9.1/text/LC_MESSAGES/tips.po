@@ -555,3 +555,8 @@ msgstr "Seznam dostupného vybavení závisí na typu a národnosti vozidla."
 
 msgid "tip99"
 msgstr "Některé vybavení může být demontováno a přesunuto na jiné vozidlo."
+
+msgid "tip_football"
+msgstr ""
+"Vozidla nemohou být poškozena, ale jejich pásy ano. Podmínky vítězství: "
+"dejte 3 góly, nebo buďte na konci zápasu ve vedení."

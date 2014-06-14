@@ -672,8 +672,8 @@ msgstr "Zimní (6 map; od tieru 3)"
 
 msgid "emblem/IGR"
 msgstr ""
-"Na prémium <img src='img://gui/maps/icons/library/igr_32x13.png' width='32' "
-"height='13' vspace='-4'/> "
+"Na <img src='img://gui/maps/icons/library/premium_small.png' width='34' "
+"height='16' vspace='-4'/> "
 
 msgid "emblem/animals"
 msgstr "Zvířata"
@@ -1370,8 +1370,8 @@ msgstr "Píšťala 2"
 
 msgid "inscription/IGR"
 msgstr ""
-"Na prémium <img src='img://gui/maps/icons/library/igr_32x13.png' width='32' "
-"height='13' vspace='-4'/> "
+"Na <img src='img://gui/maps/icons/library/premium_small.png' width='34' "
+"height='16' vspace='-4'/> "
 
 msgid "inscription/IGR/charge"
 msgstr "Charge"
