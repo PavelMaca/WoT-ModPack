@@ -1,9 +1,7 @@
 ﻿/**
  * Main configuration file (hereinafter - the configuration).
  *
- * Attention! You must NOT use the percent symbol in configuration files.
- * Instead, the percent symbol should be written: \u0025
- * Use \n as newline character instead of <br> tag
+ * Attention! Use \n as newline character instead of <br> tag
  *
  * --------------------------------------------------------------------------
  * Esli vy vidite nizhe bessmyslennyj nabor simvolov - smenite kodirovku
@@ -11,9 +9,7 @@
  *
  * Главный конфигурационный файл (далее - конфиг).
  *
- * Внимание! Использование символа процента в файлах конфига не допустимо.
- * Вместо символа процента следует писать: \u0025
- * Для переноса на новую строку используйте \n вместо тэга <br>
+ * Внимание! Для переноса на новую строку используйте \n вместо тэга <br>
  *
  * Внимание! Кодировка файлов должна оставаться UTF8+BOM. В противном случае
  * вместо кириллицы в игре будут пустые глифы.
@@ -62,7 +58,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "22.04.2014",
+    "date": "15.06.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -70,7 +66,7 @@
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "5.1.0"
+    "modMinVersion": "5.3.0"
   },
 
   // Parameters for login screen.

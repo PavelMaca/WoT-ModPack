@@ -16,6 +16,8 @@
     // true - Show totals for your battle efficiency in first page
     // true - Показывать итог по вашей боевой эффективности на первой странице
     "showTotals": true,
+    // true - Show WN8 from your battle in first page
+    "showWn8": true,
     // true - Enable display of "chance to win"
     // true - включить отображение шансов на победу
     "showChances": true,
