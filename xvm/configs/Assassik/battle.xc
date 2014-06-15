@@ -31,7 +31,7 @@
   "fragCorrelation": {
     // true - hide textfields "Allies | Enemies".
     // true - спрятать два текстовых поля "Союзники | Противники".
-    "hideTeamTextFields": true
+    "hideTeamTextFields": false
   },
   // Ingame crits panel by "expert" skill.
   // Внутриигровая панель критов от навыка "эксперт".
