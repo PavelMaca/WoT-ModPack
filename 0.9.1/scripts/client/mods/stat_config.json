@@ -73,7 +73,7 @@
     "textGeneralPageButton": "Tanky",
     "textByTankPageButton": "Vše",
     "byTankTitle": "<font size='13' color='#FFCC66'><textformat leading='-4' tabstops='[70,115,160]'>Tank<tab>Vítězství<tab>Poškození<tab>WN8</textformat></font><hr>",
-    "byTankRow": "<font size='12'><textformat leading='-4' tabstops='[70,115,160]'><font color='#FFE6B3'>{{name}}</font><tab><font color='{{g:rWIN}}'>{{winsCount}}/{{battlesCount}}</font><tab><font color='{{g:rDAMAGE}}'>{{avgDamage}}</font><tab><font color='{{g:WN8}}'>{{WN8}} ({{XWN8}})</font></textformat></font>",
+    "byTankRow": "<font size='12'><textformat leading='-4' tabstops='[70,115,160]'><font color='#FFE6B3'>{{vehicle}}</font><tab><font color='{{g:rWIN}}'>{{winsCount}}/{{battlesCount}}</font><tab><font color='{{g:rDAMAGE}}'>{{avgDamage}}</font><tab><font color='{{g:WN8}}'>{{WN8}} ({{XWN8}})</font></textformat></font>",
     "gradient": {
         "credits": [
             { "value": -1,        "color": "#F02828" },
