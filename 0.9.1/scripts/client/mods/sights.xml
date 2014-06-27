@@ -1,0 +1,7 @@
+<sights.xml>
+  <strategicMode>1</strategicMode>
+  <sniperMode>1</sniperMode>
+  <positionFix>false</positionFix>
+  <positionFixStrategic>false</positionFixStrategic>
+  <settingsFix>False</settingsFix>
+</sights.xml>
