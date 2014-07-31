@@ -44,7 +44,8 @@
 					maintenanceDDRenderer
 					shellItemRenderer
 					artefactRenderer
-					trainingBtn</groups>
+					trainingBtn
+					fortProcessRenderer</groups>
       </positiveCtl>
       <closeCtl>
         <sounds>
@@ -131,7 +132,6 @@
       <fort_building>
         <sounds>
           <over>/GUI/buttons/highlight</over>
-          <out>/GUI/buttons/highlight</out>
           <press>/GUI/ur/building_click</press>
         </sounds>
         <groups>base_building
@@ -149,11 +149,11 @@
   </controls>
   <effects>
     <spend_credits>/GUI/buttons/coins</spend_credits>
-    <transport_constrain>/GUI/ur/empty_event</transport_constrain>
-    <transport_enter>/GUI/ur/empty_event</transport_enter>
-    <transport_exit>/GUI/ur/empty_event</transport_exit>
-    <transport_first_step>/GUI/ur/empty_event</transport_first_step>
-    <transport_next_step>/GUI/ur/empty_event</transport_next_step>
+    <transport_constrain>/GUI/ur/transport_constrain</transport_constrain>
+    <transport_enter>/GUI/ur/transport_enter</transport_enter>
+    <transport_exit>/GUI/ur/transport_exit</transport_exit>
+    <transport_first_step>/GUI/ur/transport_first_step</transport_first_step>
+    <transport_next_step>/GUI/ur/transport_next_step</transport_next_step>
     <transport_approve>/GUI/ur/transport_approve</transport_approve>
     <fort_create>/GUI/ur/fort_create</fort_create>
     <direction_create>/GUI/ur/direction_create</direction_create>
@@ -177,14 +177,14 @@
     <activate_additionalBriefing>/GUI/ur/activate_battlePayments</activate_additionalBriefing>
     <activate_tacticalTraining>/GUI/ur/activate_battlePayments</activate_tacticalTraining>
     <activate_battlePayments>/GUI/ur/activate_battlePayments</activate_battlePayments>
-    <base_building_endPrcBld>/GUI/ur/empty_event</base_building_endPrcBld>
-    <warSchool_building_endPrcBld>/GUI/ur/empty_event</warSchool_building_endPrcBld>
-    <trophy_building_endPrcBld>/GUI/ur/empty_event</trophy_building_endPrcBld>
-    <training_building_endPrcBld>/GUI/ur/empty_event</training_building_endPrcBld>
-    <tankodrom_building_endPrcBld>/GUI/ur/empty_event</tankodrom_building_endPrcBld>
-    <intendancy_building_endPrcBld>/GUI/ur/empty_event</intendancy_building_endPrcBld>
-    <finance_building_endPrcBld>/GUI/ur/empty_event</finance_building_endPrcBld>
-    <car_building_endPrcBld>/GUI/ur/empty_event</car_building_endPrcBld>
+    <base_building_endPrcBld>/GUI/ur/bulding_end_general</base_building_endPrcBld>
+    <warSchool_building_endPrcBld>/GUI/ur/bulding_end_general</warSchool_building_endPrcBld>
+    <trophy_building_endPrcBld>/GUI/ur/bulding_end_general</trophy_building_endPrcBld>
+    <training_building_endPrcBld>/GUI/ur/bulding_end_general</training_building_endPrcBld>
+    <tankodrom_building_endPrcBld>/GUI/ur/bulding_end_general</tankodrom_building_endPrcBld>
+    <intendancy_building_endPrcBld>/GUI/ur/bulding_end_general</intendancy_building_endPrcBld>
+    <finance_building_endPrcBld>/GUI/ur/bulding_end_general</finance_building_endPrcBld>
+    <car_building_endPrcBld>/GUI/ur/bulding_end_general</car_building_endPrcBld>
     <sound_mode_preview01>/ingame_voice/notifications_VO/enemy_hp_damaged_by_projectile_by_player</sound_mode_preview01>
     <sound_mode_preview02>/ingame_voice/notifications_VO/enemy_killed_by_player</sound_mode_preview02>
     <sound_mode_preview03>/ingame_voice/notifications_VO/enemy_fire_started_by_player</sound_mode_preview03>
