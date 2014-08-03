@@ -39,7 +39,7 @@ msgid "tip103"
 msgstr "Schopný nabíječ nabije dělo rychleji."
 
 msgid "tip104"
-msgstr "Úroveň schopnosti velitele určuje váš dohled."
+msgstr "Úroveň výcviku velitele ovlivňuje dohled vozidla."
 
 msgid "tip105"
 msgstr "Schopný radista může komunikovat na delší vzdálenosti."
@@ -62,8 +62,8 @@ msgstr "Elitní stav vozidla nezávisí na schopnostech posádky."
 
 msgid "tip11"
 msgstr ""
-"Používejte křoví a rostlinstvo k zamaskování vašeho stíhače tanků. "
-"Pamatujte, že stojící vozidla jsou méně viditelná."
+"Používejte křoví a rostlinstvo k zamaskování svého stíhače tanků. Pamatujte, "
+"že stojící vozidla jsou méně viditelná."
 
 msgid "tip110"
 msgstr ""
@@ -162,15 +162,17 @@ msgid "tip13"
 msgstr "Dokonce i těžké tanky potřebují podporu."
 
 msgid "tip130"
-msgstr "Seznam příkazů, dostupných v radiálním menu, závisí na vašem cíli."
+msgstr ""
+"Skupina dostupných příkazů v příkazovém menu se mění v závislosti na tom, "
+"zda váš kurzor míří na spojence, na nepřítele, nebo na bod krajiny."
 
 msgid "tip131"
 msgstr ""
-"Pro výběr příkazu v radiálním menu držte Z a pohněte myší tak, abyste "
+"Pro výběr příkazu v příkazovém menu držte Z a pohněte myší tak, abyste "
 "zvýraznili požadovaný příkaz."
 
 msgid "tip132"
-msgstr "Pomocí kláves F2–F8 můžete rychle vybírat příkazy v radiálním menu."
+msgstr "Pomocí kláves F2–F8 můžete rychle vybírat příkazy v příkazovém menu."
 
 msgid "tip133"
 msgstr ""

@@ -59,7 +59,7 @@ msgid "common/quests/noprogress"
 msgstr "V misích nebyly žádné události"
 
 msgid "common/tooltip/assist/description"
-msgstr "Poškození díky vaší asistenci"
+msgstr "Poškození způsobené díky vaší asistenci"
 
 msgid "common/tooltip/assist/header"
 msgstr "Pomoc při poškození"
@@ -222,7 +222,7 @@ msgid "details/calculations/friendlyFirePenalty"
 msgstr "Pokuta za poškození spojenců"
 
 msgid "details/calculations/heavyTrucks"
-msgstr "Za přepravené zboží"
+msgstr "Velkokapacitní transport"
 
 msgid "details/calculations/igrBonus"
 msgstr "Odměna za hru v %(igrIcon)s"
