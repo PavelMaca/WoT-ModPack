@@ -265,6 +265,9 @@ msgstr "Spojení s %s bylo přerušeno."
 msgid "battleSession/memberReady"
 msgstr "%s je připraven k boji pro tým."
 
+msgid "buttons/goToPoll"
+msgstr "Pokračovat na hlasování"
+
 msgid "buy_and_equip_tankman/financial_success"
 msgstr "Člen posádky byl úspěšně naverbován a přesunut. Utraceno %(price)s."
 
@@ -793,10 +796,10 @@ msgid "fortification/demountBuilding"
 msgstr "Budova %(buildingName)s zbourána."
 
 msgid "fortification/directionClosed"
-msgstr "Směr %(direction)s uzavřen."
+msgstr "Zóna %(direction)s uzavřena."
 
 msgid "fortification/directionOpened"
-msgstr "Směr %(direction)s úspěšně otevřen."
+msgstr "Zóna %(direction)s úspěšně otevřena."
 
 msgid "fortification/errors/ALREADY_ATTACHED"
 msgstr "Akce není k dispozici. Už jste přiděleni k této budově."
@@ -805,7 +808,7 @@ msgid "fortification/errors/ALREADY_CREATED"
 msgstr "Akce není k dispozici. Opevnění už je založeno."
 
 msgid "fortification/errors/BAD_DIR"
-msgstr "Akce není k dispozici. Směr neexistuje."
+msgstr "Akce není k dispozici. Zóna neexistuje."
 
 msgid "fortification/errors/BAD_METHOD"
 msgstr "Poslední operace s odřadem byla dokončena s chybou."
@@ -835,20 +838,23 @@ msgstr "Akce není k dispozici. Přeprava není k dispozici."
 msgid "fortification/errors/CANT_UPGRADE"
 msgstr "Akce není k dispozici. Budovu nelze vylepšit."
 
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Operace zamítnuta. Server je dočasně nedostupný."
+
 msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
 msgstr "Akce není k dispozici. Neplatné údaje."
 
 msgid "fortification/errors/DIRECTIONS_STILL_OPEN"
-msgstr "Akce není k dispozici. Opevnění obsahuje směry."
+msgstr "Akce není k dispozici. Opevnění obsahuje zóny."
 
 msgid "fortification/errors/DIR_ALREADY_OPEN"
-msgstr "Akce není k dispozici. Směr už je otevřen."
+msgstr "Akce není k dispozici. Zóna už je otevřena."
 
 msgid "fortification/errors/DIR_NOT_OPEN"
-msgstr "Akce není k dispozici. Směr ještě není otevřen."
+msgstr "Akce není k dispozici. Zóna ještě není otevřena."
 
 msgid "fortification/errors/DIR_OCCUPIED"
-msgstr "Akce není k dispozici. Směr obsahuje postavené budovy."
+msgstr "Akce není k dispozici. Zóna obsahuje postavené budovy."
 
 msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
 msgstr "Akce není k dispozici. Budova je už postavena."
@@ -879,6 +885,9 @@ msgstr "Akce není k dispozici. Nedostatek hráčů v klanu."
 
 msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
 msgstr "Akce není k dispozici. Nedostatek průmyslových zdrojů."
+
+msgid "fortification/errors/NOT_SUPPORTED"
+msgstr "Opevnění nemůže být v tuto chvíli založeno. Zkuste to prosím později."
 
 msgid "fortification/errors/NO_BUILDING"
 msgstr "Akce není k dispozici. Budova není postavena."
@@ -943,11 +952,8 @@ msgstr ""
 "Vylepšení úspěšně dokončeno. Úroveň budovy %(buildingName)s se zvýšila na "
 "%(buildingLevel)s."
 
-msgid "fortification/orderIsReady"
-msgstr "Příprava %(count)s záloh(y) %(order)s dokončena."
-
 msgid "fortification/request/name/ACTIVATE_ORDER"
-msgstr "Přidat zálohu"
+msgstr "Aktivovat zálohu"
 
 msgid "fortification/request/name/ADD_BUILDING"
 msgstr "Postavit budovu"
@@ -959,7 +965,7 @@ msgid "fortification/request/name/ATTACH"
 msgstr "Přidělit hráče k posádce"
 
 msgid "fortification/request/name/CLOSE_DIRECTION"
-msgstr "Zavřít směr"
+msgstr "Zavřít zónu"
 
 msgid "fortification/request/name/CREATE_FORT"
 msgstr "Založit opevnění"
@@ -974,7 +980,7 @@ msgid "fortification/request/name/DELETE_FORT"
 msgstr "Odstranit opevnění"
 
 msgid "fortification/request/name/OPEN_DIRECTION"
-msgstr "Otevřít směr"
+msgstr "Otevřít zónu"
 
 msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
 msgstr "Získat podrobnosti odřadu"
@@ -1383,6 +1389,12 @@ msgstr "Nastavení nahrazení"
 msgid "prebattle/request/name/CHANGE_UNIT_STATE"
 msgstr "Měním"
 
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Změnit režim pozorovatele"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Zamknout slot"
+
 msgid "prebattle/request/name/PREBATTLES_LIST"
 msgstr "Hledat"
 
@@ -1421,6 +1433,9 @@ msgstr "Jsou povolena pouze vozidla s úrovní od%(minLevel)d do %(maxLevel)d."
 
 msgid "prebattle/teamInvalid/limits/vehicles"
 msgstr "Toto vozidlo není vhodné pro tuto bitvu."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Všichni členové týmu nemohou být pozorovatelé."
 
 msgid "prebattle/vehicleInvalid/limits/ammo"
 msgstr ""

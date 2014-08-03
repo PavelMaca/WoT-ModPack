@@ -371,11 +371,11 @@ msgid "contextMenu/vehicleSell"
 msgstr "Prodat"
 
 msgid "contextMenu/vehicleUncheck"
-msgstr "Nastavit jako rezervní"
+msgstr "Zrušit primární označení"
 
 msgid "copy"
 msgstr ""
-"Wargaming.net 2008-2014. Všechna práva vyhrazena. [9.1]Crabtr33 rozšířená CZ "
+"© 2009–2014 Wargaming.net. Všechna práva vyhrazena. [9.2]Crabtr33 rozšířená CZ "
 "v2.21"
 
 msgid "currentVehicleStatus/ammoNotFull"
@@ -844,7 +844,7 @@ msgid "fortificationCtx/destroy"
 msgstr "Zbourání budovy"
 
 msgid "fortificationCtx/directionControl"
-msgstr "Ovládání směru"
+msgstr "Ovládání zóny"
 
 msgid "fortificationCtx/modernization"
 msgstr "Vylepšení"
@@ -1333,6 +1333,12 @@ msgstr "Počet"
 
 msgid "inventory/table/header/price"
 msgstr "Cena"
+
+msgid "legal"
+msgstr "Právní informace"
+
+msgid "legalInfo/closeBtn"
+msgstr "Zavřít"
 
 msgid "levels/1"
 msgstr "1. úroveň"
@@ -2068,7 +2074,7 @@ msgid "profile/header/clan/position"
 msgstr "Pozice: %s"
 
 msgid "profile/header/clan/position/commander"
-msgstr "Polní velitel"
+msgstr "Velitel roty"
 
 msgid "profile/header/clan/position/diplomat"
 msgstr "Diplomat"
@@ -2287,7 +2293,9 @@ msgid "research/premium/benefits/second"
 msgstr "Více kreditů za každou bitvu"
 
 msgid "research/premium/benefits/third"
-msgstr "„Elitní\" stav, který umožňuje získat volné zkušenosti rychleji"
+msgstr ""
+"Elitní stav, umožňující konverzi bojových zkušeností na volné zkušenosti už "
+"od první bitvy"
 
 msgid "research/premium/description/titte"
 msgstr "Detaily vozidla:"
@@ -3076,6 +3084,9 @@ msgstr "Hráčů:"
 msgid "training/info/notUseChat"
 msgstr "ne"
 
+msgid "training/info/observer"
+msgstr "Pozorovatel"
+
 msgid "training/info/otherLabel"
 msgstr "Nerozdělení hráči"
 
@@ -3308,4 +3319,4 @@ msgid "vehiclesCarousel/contextMenu/vehicleSell"
 msgstr "Prodat"
 
 msgid "vehiclesCarousel/contextMenu/vehicleUncheck"
-msgstr "Nastavit jako rezervní"
+msgstr "Zrušit primární označení"

@@ -129,6 +129,9 @@ msgstr "Ocenění získaná v bitvě"
 msgid "details/conditions/cumulative/capturePoints"
 msgstr "Bodů za obsazování základny"
 
+msgid "details/conditions/cumulative/company"
+msgstr "Parametr pro rotu: %(param)s"
+
 msgid "details/conditions/cumulative/damageAssisted"
 msgstr "Bodů poškození díky detekci"
 
@@ -163,10 +166,13 @@ msgid "details/conditions/cumulative/droppedCapturePoints"
 msgstr "Bodů za obranu základny"
 
 msgid "details/conditions/cumulative/explosionHits"
-msgstr "Zásahů bedny s municí"
+msgstr "Zásahů nepřátel následkem explozí"
 
 msgid "details/conditions/cumulative/explosionHitsReceived"
-msgstr "Bodů poškození obdrženého následkem explozí"
+msgstr "Zásahů obdrženo následkem explozí"
+
+msgid "details/conditions/cumulative/formation"
+msgstr "Parametr pro operační jednotku: %(param)s"
 
 msgid "details/conditions/cumulative/freeXP"
 msgstr "Volných zkušeností získáno"
@@ -210,14 +216,17 @@ msgstr "Nepřátelských vozidel poškozeno díky vaší detekci"
 msgid "details/conditions/cumulative/spotted"
 msgstr "Nepřátelských vozidel detekováno"
 
+msgid "details/conditions/cumulative/squad"
+msgstr "Parametr pro četu: %(param)s"
+
 msgid "details/conditions/cumulative/tdamageDealt"
 msgstr "Poškození způsobené spojeneckým vozidlům"
 
+msgid "details/conditions/cumulative/team7x7"
+msgstr "Parametr pro tým: %(param)s"
+
 msgid "details/conditions/cumulative/tkills"
 msgstr "Nepřátelských vozidel zničeno"
-
-msgid "details/conditions/cumulative/unit"
-msgstr "Parametr pro operační jednotku: %(param)s"
 
 msgid "details/conditions/cumulative/xp"
 msgstr "Zkušeností získáno"
@@ -300,6 +309,30 @@ msgstr "%H:%M"
 msgid "details/conditions/postBattle/separator"
 msgstr "V každé bitvě:"
 
+msgid "details/conditions/results/company/alive"
+msgstr "Všichni členové roty musí přežít bitvu."
+
+msgid "details/conditions/results/company/alive/not"
+msgstr "Všichni členové roty musí být zničeni v bitvě."
+
+msgid "details/conditions/results/company/avg"
+msgstr "Průměrná hodnota parametru pro rotu: %(param)s"
+
+msgid "details/conditions/results/company/simple"
+msgstr "Parametr pro rotu: %(param)s"
+
+msgid "details/conditions/results/formation/alive"
+msgstr "Všichni členové jednotky musí přežít bitvu."
+
+msgid "details/conditions/results/formation/alive/not"
+msgstr "Všichni členové operační jednotky musí být zničeni v bitvě."
+
+msgid "details/conditions/results/formation/avg"
+msgstr "Průměrná hodnota parametru pro operační jednotku: %(param)s"
+
+msgid "details/conditions/results/formation/simple"
+msgstr "Parametr pro operační jednotku: %(param)s"
+
 msgid "details/conditions/results/single/avg"
 msgstr "Průměrná hodnota parametru: %(param)s"
 
@@ -366,17 +399,29 @@ msgstr ""
 msgid "details/conditions/results/single/simple"
 msgstr "%(param)s"
 
-msgid "details/conditions/results/unit/alive"
-msgstr "Všichni členové jednotky musí přežít bitvu."
+msgid "details/conditions/results/squad/alive"
+msgstr "Všichni členové čety musí přežít bitvu."
 
-msgid "details/conditions/results/unit/alive/not"
-msgstr "Všichni členové operační jednotky musí být zničeni v bitvě."
+msgid "details/conditions/results/squad/alive/not"
+msgstr "Všichni členové čety musí být zničeni v bitvě."
 
-msgid "details/conditions/results/unit/avg"
-msgstr "Průměrná hodnota parametru pro operační jednotku: %(param)s"
+msgid "details/conditions/results/squad/avg"
+msgstr "Průměrná hodnota parametru pro četu: %(param)s"
 
-msgid "details/conditions/results/unit/simple"
-msgstr "Parametr pro operační jednotku: %(param)s"
+msgid "details/conditions/results/squad/simple"
+msgstr "Parametr pro četu: %(param)s"
+
+msgid "details/conditions/results/team7x7/alive"
+msgstr "Všichni členové týmu musí přežít bitvu."
+
+msgid "details/conditions/results/team7x7/alive/not"
+msgstr "Všichni členové týmu musí být zničeni v bitvě."
+
+msgid "details/conditions/results/team7x7/avg"
+msgstr "Průměrná hodnota parametru pro tým: %(param)s"
+
+msgid "details/conditions/results/team7x7/simple"
+msgstr "Parametr pro tým: %(param)s"
 
 msgid "details/conditions/survive"
 msgstr "Přežijte bitvu"
@@ -397,7 +442,7 @@ msgid "details/conditions/vehiclesKills"
 msgstr "Zničte vozidla"
 
 msgid "details/conditions/vehiclesKills/all"
-msgstr "Zničte všechna vozidla"
+msgstr "Zničte každé vozidlo"
 
 msgid "details/conditions/vehiclesKills/level"
 msgstr "Zničte vozidla úrovně: %(level)s"
