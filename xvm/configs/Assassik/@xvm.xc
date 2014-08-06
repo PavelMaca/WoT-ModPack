@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Main configuration file (hereinafter - the configuration).
  *
  * Attention! Use \n as newline character instead of <br> tag
@@ -58,7 +58,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "15.06.2014",
+    "date": "31.07.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -66,7 +66,7 @@
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "5.3.0"
+    "modMinVersion": "5.3.3"
   },
 
   // Parameters for login screen.
