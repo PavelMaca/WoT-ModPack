@@ -4,8 +4,8 @@
  */
 {
   "def": {
-    "nick": "<font face='Lucida Console' size='12' color='{{c:xwn8}}' alpha='{{alive?#FF|#80}}'>{{xwn8}}</font> {{nick}}</font>",
-    "vehicle": "<font color='{{c:xwn8}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>"
+    "nick": "<font color='{{c:wn8}}' alpha='{{alive?#FF|#80}}'>{{nick}}</font>",
+    "vehicle": "<font color='{{c:t-battles}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>"
   },
 
   "playersPanel": {
