@@ -2,16 +2,18 @@
     "config": {
         "load_error": "<font face='$FieldFont' size='13'>Konfiguracja nie znaleziona. Używam ustawień standardowych!</font>",
         "server_error": "<font face='$FieldFont' size='13'>Serwer nie obsługiwany.</font>",
-        "update": "<font face='$FieldFont' size='13'><b>Update dostępny:</b> </font>"
+        "update": "<font face='$FieldFont' size='13'><b>Update dostępny:</b> </font>",
+        "reload": "<font face=\"$FieldFont\" size=\"13\"><b>Configuration and language files reloaded!</b> </font>"
     },
     "language": {
         "error": "<font face='$FieldFont' size='13'>Brak języka w clanMod.lang. Używam en!</font>"
     },
     "clanmod": {
-        "online": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Online: </b></font>",
+        "online": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Online: {{online}} / {{members}}</b></font>",
         "button": "Wojny Klanów",
         "print_done": "<font face='$FieldFont' size='13'>Użytkownicy będący online, zapisani do pliku: </font>\n",
-        "print_error": "<font face='$FieldFont' size='13'>Błąd podczas zapisywania graczy do pliku. Sprawdź python.log!</font>"
+        "print_error": "<font face='$FieldFont' size='13'>Błąd podczas zapisywania graczy do pliku. Sprawdź python.log!</font>",
+        "not_in_clan": "<font face='$FieldFont' size='13'>You are not in clan. clanMod is switched off!</font>"
     },
     "clanwars": {
         "message": {
@@ -20,6 +22,7 @@
                 "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'><b>Province:<tab><tab>{{landing}} ( {{income}}</b><img src='img://gui/maps/icons/library/GoldIcon-2.png' width='16' height='16' align='baseline' vspace='-3'><b>)</b></font></textformat>",
                 "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>Godzina:<tab><tab>{{time}}</b></font></textformat>",
                 "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Mapa:<tab><tab>{{map}}</font></textformat>",
+				"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='{{color}}'>Owner:<tab><tab><img src='{{icon}}' width='16' height='16' align='baseline' vspace='-3'>{{owner}}</font></textformat>",
                 "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Typ:<tab><tab>{{type}}</font></textformat>\n"
             ],
             "spacer": "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>------------------------------</b></font></textformat>\n",
@@ -29,12 +32,11 @@
             "attacker": "Atakujący",
             "defender": "Broniący",
             "approximately": "~",
-            "no_clanwars": "Brak Wojen Klanów"
+            "none_clan_wars": "Brak Wojen Klanów"
         },
-        "clanID_neterror": "<font face='$FieldFont' size='13'>Błąd podczas pobierania ClanID. Prawdopodobny błąd api lub sieci.</font>",
-        "clanwar_neterror": "<font face='$FieldFont' size='13'>Błąd podczas odczytu danych z Wojen Klanów. Prawdopodobny błąd api lub sieci.</font>",
-        "clanwar_saveerror": "<font face='$FieldFont' size='13'>Błąd podczas zapisywania Wojen Klanów do pliku. Sprawdź python.log!</font>",
-        "clanwar_data_saved": "<font face='$FieldFont' size='13'>Dane Wojen Klanów zaktualizowane!</font>",
+        "net_error": "<font face='$FieldFont' size='13'>Błąd podczas odczytu danych z Wojen Klanów. Prawdopodobny błąd api lub sieci.</font>",
+        "save_error": "<font face='$FieldFont' size='13'>Błąd podczas zapisywania Wojen Klanów do pliku. Sprawdź python.log!</font>",
+        "data_saved": "<font face='$FieldFont' size='13'>Dane Wojen Klanów zaktualizowane!</font>",
         "button": "Wojny Klanów"
     },
     "provinces": {
@@ -43,6 +45,6 @@
         "load_error": "Błąd podczas otrzymywania danych od WG API. Problemy Api lub Net.",
         "updated": "Plik prowincji został utworzony i zaktualizowany!",
         "save_error": "Błąd podczas zapisywania pliku o prowincjach. Sprawdź <b>python.log</b>!",
-        "ovner_get_error": "Błąd podczas otrzymywania danych posiadacza prowincji."
+        "owner_get_error": "Błąd podczas otrzymywania danych posiadacza prowincji."
     }
 }
