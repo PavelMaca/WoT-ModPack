@@ -4,8 +4,8 @@
  */
 {
   "def": {
-    "nick": "<font color='{{c:wn8}}'>{{nick}}</font>",
-    "vehicle": "<font color='{{c:t-battles}}'>{{vehicle}}</font>"
+    "nick": "<font face='Lucida Console' size='12' color='{{c:xwn8}}' alpha='{{alive?#FF|#80}}'>{{xwn8}}</font> {{nick}}</font>",
+    "vehicle": "<font color='{{c:xwn8}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>"
   },
 
   "playersPanel": {
@@ -69,6 +69,8 @@
     // Options for the "none" panels - empty panels.
     // Режим ушей "none" - пустые уши.
     "none": {
+      // false - disable (отключить)
+      "enabled": true,
       // Layout ("vertical" or "horizontal")
       // Размещение ("vertical" - вертикально, или "horizontal" - горизонтально)
       "layout": "vertical",
@@ -146,6 +148,11 @@
     // Options for the "short" panels - panels with frags and vehicle icon.
     // Режим ушей "short" - короткие уши (фраги и иконка танка).
     "short": {
+      // false - disable (отключить)
+      "enabled": true,
+      // Width of the column, 0-250. Default is 0.
+      // Ширина поля, 0-250. По умолчанию: 0.
+      "width": 0,
       // Display format for frags (macros allowed, see readme-en.txt).
       // Формат отображения фрагов (допускаются макроподстановки, см. readme-ru.txt).
       "fragsFormatLeft": "{{frags}}",
@@ -162,6 +169,8 @@
     // Options for the "medium" panels - the first of the medium panels.
     // Режим ушей "medium" - первые средние уши в игре.
     "medium": {
+      // false - disable (отключить)
+      "enabled": true,
       // Minimum width of the player's name column, 0-250. Default is 46.
       // Минимальная ширина поля имени игрока, 0-250. По умолчанию: 46.
       "width": 46,
@@ -187,6 +196,8 @@
     // Options for the "medium2" panels - the second of the medium panels.
     // Режим ушей "medium2" - вторые средние уши в игре.
     "medium2": {
+      // false - disable (отключить)
+      "enabled": true,
       // Maximum width of the vehicle name column, 0-250. Default is 65.
       // Максимальная ширина названия танка, 0-250. По умолчанию: 65.
       "width": 65,
@@ -212,6 +223,8 @@
     // Options for the "large" panels - the widest panels.
     // Режим ушей "large" - широкие уши в игре.
     "large": {
+      // false - disable (отключить)
+      "enabled": true,
       // Minimum width of the player's name column, 0-250. Default is 170.
       // Минимальная ширина имени игрока, 0-250. По умолчанию: 170.
       "width": 170,

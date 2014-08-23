@@ -78,6 +78,16 @@
       { "value": 2570, "alpha": ${"alphaRating.very_good"} },
       { "value": 9999, "alpha": ${"alphaRating.unique"   } }
     ],
+    // Dynamic transparency by WG rating
+    // Динамическая прозрачность по рейтингу WG
+    "wgr": [
+      { "value": 2020,  "alpha": ${"alphaRating.very_bad" } },
+      { "value": 4185,  "alpha": ${"alphaRating.bad"      } },
+      { "value": 6340,  "alpha": ${"alphaRating.normal"   } },
+      { "value": 8525,  "alpha": ${"alphaRating.good"     } },
+      { "value": 9930,  "alpha": ${"alphaRating.very_good"} },
+      { "value": 99999, "alpha": ${"alphaRating.unique"   } }
+    ],
     // Dynamic transparency by TEFF (E) rating
     // Динамическая прозрачность по рейтингу TEFF (E)
     "e": [
