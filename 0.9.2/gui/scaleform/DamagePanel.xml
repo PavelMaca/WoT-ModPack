@@ -54,12 +54,12 @@
 	
 	<!-- Макрос для определения типа снаряда, которым было произведенно попадание - {{shell-type}} -->
 	<configTypeShell>
-		<formatAP> бб</formatAP> <!-- бронебойный снаряд -->
-		<formatAPC> бп</formatAPC> <!-- подкалиберный снаряд -->
-		<formatHE> оф</formatHE> <!-- осколочно-фугасный снаряд -->
-		<formatHC> кс</formatHC> <!-- кумулятивный снаряд -->
-		<formatOther> -/-</formatOther> <!-- тип снаряда определить не удалось -->
-		<formatOtherDamage> -/-</formatOtherDamage> <!-- другой урон (пожар/таран/падение) -->
+		<formatAP> AP</formatAP> <!-- бронебойный снаряд -->
+		<formatAPC> APCR</formatAPC> <!-- подкалиберный снаряд -->
+		<formatHE> HE</formatHE> <!-- осколочно-фугасный снаряд -->
+		<formatHC> HEAT</formatHC> <!-- кумулятивный снаряд -->
+		<formatOther> -</formatOther> <!-- тип снаряда определить не удалось -->
+		<formatOtherDamage> -</formatOtherDamage> <!-- другой урон (пожар/таран/падение) -->
 	</configTypeShell>
 	
 	<!-- Макрос для определения стоимости снаряда, нанесшего урон - {{shell-gold}} -->
@@ -103,8 +103,8 @@
 		<location x = "235" y = "-5" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "500" height = "236"/> <!-- width - ширина элемента. height - высота элемента -->
 		<filter size = "2" angle = "0" distance = "0" color = "0x000000" alpha = "100" strength = "100"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
-        <format><![CDATA[<textformat leading='5' tabstops='[80]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-shortname}}</font>{{tank-team}}</font></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
-        <format_key><![CDATA[<textformat leading='5' tabstops='[80]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-nick}}</font>{{tank-team}}</font></textformat>]]></format_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) в списке истории полученного урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
+        <format><![CDATA[<textformat leading='5' tabstops='[80]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-shortname}}</font>{{tank-team}} <font color='{{clr-shell-gold}}'>{{shell-type}}</font></font></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
+        <format_key><![CDATA[<textformat leading='5' tabstops='[80]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-nick}}</font>{{tank-team}} <font color='{{clr-shell-gold}}'>{{shell-type}}</font></font></textformat>]]></format_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) в списке истории полученного урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
 	</configListLog>
 	
 	<!-- Сообщение о последнем полученном уроне -->
