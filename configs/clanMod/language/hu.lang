@@ -32,6 +32,7 @@
             "attacker": "Támadás",
             "defender": "Védés",
             "approximately": "~",
+            "new_clan_war": "<font face='$FieldFont' size='13'>New Clan War battle!</font>",
             "none_clan_wars": "Nincs KlánHáború"
         },
         "net_error": "<font face='$FieldFont' size='13'>Hiba a KlánHáború adat szerzésben. Talán api vagy hálózati hiba.</font>",

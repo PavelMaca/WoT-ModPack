@@ -32,6 +32,7 @@
             "attacker": "Attaque",
             "defender": "Défense",
             "approximately": "~",
+            "new_clan_war": "<font face='$FieldFont' size='13'>New Clan War battle!</font>",
             "none_clan_wars": "Le clan n'a pas de bataille programmée"
         },
         "net_error": "<font face='$FieldFont' size='13'>Erreur de récupération des données. API possible ou des problèmes de réseau.</font>",
