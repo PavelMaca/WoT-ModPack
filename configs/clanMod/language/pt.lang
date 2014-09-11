@@ -31,6 +31,7 @@
             "attacker": "Atacante",
             "defender": "Defendendo",
             "approximately": "~",
+            "new_clan_war": "<font face='$FieldFont' size='13'>New Clan War battle!</font>",
             "none_clan_wars": "Nenhum ClanWars"
         },
         "net_error": "<font face='$FieldFont' size='13'>Erro na obtenēćo de dados ClanWar. Possķvel API ou problemas de rede.</font>",

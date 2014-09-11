@@ -32,6 +32,7 @@
             "attacker": "Atac",
             "defender": "Aparare",
             "approximately": "~",
+            "new_clan_war": "<font face='$FieldFont' size='13'>New Clan War battle!</font>",
             "none_clan_wars": "Nu este ClanWars"
         },
         "net_error": "<font face='$FieldFont' size='13'>Eroare la obținerea de date ClanWar. Posibile probleme Api sau de rețea.</font>",

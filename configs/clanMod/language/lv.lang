@@ -32,6 +32,7 @@
             "defender": "Aizstāvēšanās",
             "attacker": "Uzbrukums",
             "approximately": "~",
+            "new_clan_war": "<font face='$FieldFont' size='13'>Jauna klanu cīņa!</font>",
             "none_clan_wars": "Šobrīd nav paredzētas klanu cīņas"
         },
         "net_error": "<font face='$FieldFont' size='13'>Kļūda iegūstot Klanu cīņu datus. Iespējama API vai savienojuma kļūda.</font>",
