@@ -1,6 +1,6 @@
 ﻿<?xml version = "1.0" encoding = "utf-8"?>
 
-<!-- Damage Panel by GambitER 0.8.11 v.2 -->
+<!-- Damage Panel 0.9.3 by GambitER -->
 
 <damagePanel>
 
@@ -27,11 +27,16 @@
 		<formatRicochet><![CDATA[]]></formatRicochet> <!-- рикошет -->
 		<formatArmorNotPierced><![CDATA[]]></formatArmorNotPierced> <!-- непробитие -->
 		<formatArmorPiercedNoDamage><![CDATA[]]></formatArmorPiercedNoDamage> <!-- пробитие без урона -->
-		<formatCriticalHit><![CDATA[0]]></formatCriticalHit> <!-- критическое повреждение модуля или экипажа -->
 		<formatArmorPierced><![CDATA[{{dmg-one}}]]></formatArmorPierced> <!-- пробитие с уроном -->
 		<formatSplash><![CDATA[{{dmg-one}}]]></formatSplash> <!-- урон от осколков ОФ снаряда -->
 		<formatOtherDamage><![CDATA[{{dmg-one}}]]></formatOtherDamage> <!-- другой урон (пожар/таран/падение) -->
 	</configReasonHit>
+	
+	<!-- Макрос для определения критического повреждения - {{hit-crit}} -->
+	<configCritHit>
+		<formatCrit><![CDATA[ *]]></formatCrit> <!-- критическое повреждение модуля/экипажа при пробитии/непробитии -->
+		<formatNoCrit><![CDATA[]]></formatNoCrit> <!-- попадание без критического повреждения модуля/экипажа -->
+	</configCritHit>
 	
 	<!-- Макрос для определения части танка, в которую было попадание снаряда - {{tank-part}} -->
 	<configPartTank>
@@ -79,8 +84,9 @@
 		<goldShell goldTrue = "#FFAA55" goldFalse = "#FFFFFF" other = "#999999" otherDamage = "#FFFFFF"/> <!-- {{clr-shell-gold}} - цвета для определения стоимости снаряда, нанесшего урон (goldTrue - покупаемый за золото/серебро, goldFalse - покупаемый за серебро, other - тип снаряда определить не удалось, otherDamage - другой урон (пожар/таран/падение)) -->
 	</configColor>
 	
-	<!-- Значения по умолчанию для данных, значения которых определить не удалось -->
+	<!-- Значения по умолчанию -->
 	<configMacroDefault>
+		<lengthNick>0</lengthNick> <!-- отображаемая длина никнейма атаковавшего игрока (при значении "0" никнейм будет отображаться полностью) -->
 		<formatNick>---/---</formatNick> <!-- {{tank-nick}} - никнейм атаковавшего игрока -->
 		<formatLevel>?</formatLevel> <!-- {{tank-level}} - уровень техники атаковавшего игрока -->
 		<formatName>---/---</formatName> <!-- {{tank-name}} - полное название танка атаковавшего игрока -->
@@ -89,10 +95,11 @@
 		<formatDelayСlip>--.-</formatDelayСlip> <!-- {{clip-delay}} - время перезарядки одного снаряда для орудий с магазинной системой заряжания техники атаковавшего игрока -->
 		<formatSizeСlip>-</formatSizeСlip> <!-- {{clip-size}} - количество снарядов в магазине техники атаковавшего игрока -->
 		<formatSizeBurst>-</formatSizeBurst> <!-- {{burst-size}} - количество снарядов в одной кассете техники атаковавшего игрока -->
+		<formatNumber> ..</formatNumber> <!-- {{number-hit}}, {{number-dmg}}, {{number-nodmg}} -->
 	</configMacroDefault>
 	
 
-	<!-- Блок настройки панели -->
+		<!-- Блок настройки панели -->
 
 	<!-- Список истории полученного урона -->
 	<configListLog visible = "true"> <!-- visible (true, false) - отображает элемент -->
@@ -103,8 +110,8 @@
 		<location x = "235" y = "-5" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "500" height = "236"/> <!-- width - ширина элемента. height - высота элемента -->
 		<filter size = "2" angle = "0" distance = "0" color = "0x000000" alpha = "100" strength = "100"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
-        <format><![CDATA[<textformat leading='5' tabstops='[80]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-shortname}}</font>{{tank-team}} <font color='{{clr-shell-gold}}'>{{shell-type}}</font></font></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
-        <format_key><![CDATA[<textformat leading='5' tabstops='[80]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}</font><tab><font color='{{clr-tank-class}}'>{{tank-nick}}</font>{{tank-team}} <font color='{{clr-shell-gold}}'>{{shell-type}}</font></font></textformat>]]></format_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) в списке истории полученного урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
+		<format><![CDATA[<textformat leading='5' tabstops='[80]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}{{hit-crit}}</font><tab><font color='{{clr-tank-class}}'>{{tank-shortname}}</font>{{tank-team}} <font color='{{clr-shell-gold}}'>{{shell-type}}</font></font></textformat>]]></format> <!-- HTML-строка. Формируется она из макросов и(или) любых символов. Список макросов перечислен в начале конфига -->
+		<format_key><![CDATA[<textformat leading='5' tabstops='[80]'><font face='$fieldFont'><font color='{{clr-shell-gold}}'>{{time-game}}: </font><font color='{{clr-dmg-reason}}'>-{{dmg-one}}{{hit-crit}}</font><tab><font color='{{clr-tank-class}}'>{{tank-nick}}</font>{{tank-team}} <font color='{{clr-shell-gold}}'>{{shell-type}}</font></font></textformat>]]></format_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) в списке истории полученного урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
 	</configListLog>
 	
 	<!-- Сообщение о последнем полученном уроне -->
@@ -115,7 +122,7 @@
 		<filter size = "30" angle = "0" distance = "0" color = "0xFF0000" alpha = "80" strength = "200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 		<delay>5</delay> <!-- время в секундах, по истечении которого сообщение исчезнет -->
 		<format><![CDATA[<font face='$fieldFont'><font size='40' color='{{clr-shell-gold}}'>{{hit-reason}}</font><br /><font size='20' color='#FFFFFF'>{{tank-shortname}}</font></font>]]></format> <!-- текст, который будет отображать строку с последним полученным уроном (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-    </configLastShot>
+	</configLastShot>
 	
 	<!-- Cообщение о пожаре -->
 	<configFireMessage visible = "true"> <!-- visible (true, false) - отображает дополнительное сообщение -->
@@ -148,11 +155,10 @@
 	</configTimerHit>
 	
 	<!-- Ремонт выведенного из строя модуля -->
-	<configRepairAnimation visible = "true"/> <!-- visible (true, false) - отображает стандартную анимацию ремонта -->
 	<configRepairTimer visible = "true"> <!-- visible (true, false) - отображает таймер ремонта -->
 		<location x = "6" y = "4"/> <!-- x, y, - координаты расположения таймера относительно верхнего левого угла изображения иконки модуля -->
 		<size width = "45" height = "39"/> <!-- width - ширина элемента. height - высота элемента -->
-		<text font = "$UniversCondC" size = "12" color = "0xCCCCCC" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста -->
+		<text font = "$UniversCondC" size = "12" color = "0xCCCCCC" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
 		<filter size = "5" angle = "90" distance = "0" color = "0x000000" alpha = "100" strength = "250"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 		<format>sec</format> <!-- формат отображения таймера ремонта модуля (sec - "xx", dsec - "xx.x", csec - "xx.xx") -->
 	</configRepairTimer>
@@ -167,9 +173,10 @@
 	
 	<!-- Название танка -->
 	<configTankName visible = "true"> <!-- visible (true, false) - отображает элемент -->
+		<tankName>full</tankName> <!-- short (short, full) - отображение сокращенной версии названия танка (при short) или полной (при full) -->
 		<location x = "105" y = "4" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "120" height = "22"/> <!-- width - ширина элемента. height - высота элемента -->
-		<text font = "$FieldFont" size = "12" color = "0x7F7D6A" align = "right"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста -->
+		<text font = "$FieldFont" size = "12" color = "0x7F7D6A" align = "right"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
 		<filter size = "1" angle = "90" distance = "1" color = "0x000000" alpha = "100" strength = "100"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 	</configTankName>
 	
@@ -186,7 +193,7 @@
 	<configSpeedUnit visible = "true"> <!-- visible (true, false) - отображает элемент -->
 		<location x = "69" y = "47" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "65" height = "15"/> <!-- width - ширина элемента. height - высота элемента -->
-		<text font = "$FieldFont" size = "8" color = "0x57543E" alpha = "100" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста -->
+		<text font = "$FieldFont" size = "8" color = "0x57543E" alpha = "100" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
 		<filter size = "2" angle = "90" distance = "0" color = "0x000000" alpha = "100" strength = "45"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 		<format>km/h</format> <!-- текст, который будет отображать единицы скорости танка -->
 	</configSpeedUnit>
@@ -195,7 +202,7 @@
 	<configSpeedTank visible = "true"> <!-- visible (true, false) - отображает элемент -->
 		<location x = "65" y = "55" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "30" height = "25"/> <!-- width - ширина элемента. height - высота элемента -->
-		<text font = "$UniversCondC" size = "15" color = "0x888359" alpha = "100" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста -->
+		<text font = "$UniversCondC" size = "15" color = "0x888359" alpha = "100" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
 		<filter size = "2" angle = "90" distance = "0" color = "0x000000" alpha = "100" strength = "45"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 	</configSpeedTank>
 	
@@ -210,17 +217,20 @@
 	
 	<!-- Звуковое сопровождение событий -->
 	<configSound included = "on"> <!-- included (on, off) - общий переключатель -->
-		<developments fireAlert = "on" criticalAmmoBay = "on"/> <!-- fireAlert (on, off) - горение танка. criticalAmmoBay (on, off) - критическое повреждение боеукладки -->
+		<developments fireAlert = "on" criticalAmmoBay = "on"/> <!-- fireAlert (on, off) - горение танка. criticalAmmoBay (on, off) - критическое повреждение боеукладки --> 
 	</configSound>
 	
 </damagePanel>
 
-<!--
+<!-- 
 
 	Список макросов:
 
 	{{tab}} - символ табуляции.
-	{{number}} - порядковый номер полученного урона.
+	{{number}} - порядковый номер в списке полученного урона.
+	{{number-hit}} - порядковый номер полученных попаданий (не учитывается урон от пожара, тарана, падения).
+	{{number-dmg}} - порядковый номер полученных попаданий с уроном (не учитывается урон от пожара, тарана, падения, а так же все попадания без урона).
+	{{number-nodmg}} - порядковый номер полученных попаданий без урона (не учитывается урон от пожара, тарана, падения, а так же все попадания с уроном).
 	{{dmg-one}} - урон, полученный одним попаданием.
 	{{dmg-ratio-one}} - урон в процентах, полученный одним попаданием.
 	{{dmg}} - общее количество полученного урона.
@@ -232,6 +242,7 @@
 	{{hp-max}} - максимальное количество HP.
 	{{dmg-reason}} - тип полученного урона (урон, полученный при пробитии/разрыве снаряда, при пожаре, при таране или при падении).
 	{{hit-reason}} - тип попадания (рикошет, непробитие, пробитие без урона, пробитие с уроном, критическое повреждение модуля или экипажа, сплэш, другой урон (пожар/таран/падение)).
+	{{hit-crit}} - критическое повреждение модуля/экипажа при пробитии/непробитии.
 	{{tank-team}} - команда атаковавшего игрока (союзник или противник).
 	{{tank-nick}} - никнейм атаковавшего игрока.
 	{{tank-level}} - уровень техники атаковавшего игрока.
