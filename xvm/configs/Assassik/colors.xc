@@ -57,10 +57,12 @@
     // Dynamic color by damage kind.
     // Динамический цвет по типу урона.
     "dmg_kind": {
-      "attack": "0xFFAA55",          // attack / атака
+      "shot": "0xFFAA55",            // shot / попадание
       "fire": "0xFF6655",            // fire / пожар
       "ramming": "0x998855",         // ramming / таран
       "world_collision": "0x228855", // world collision / столкновение с объектами, падение
+      "death_zone": "0xCCCCCC",      // TODO: value, description
+      "drowning": "0xCCCCCC",        // TODO: value, description
       "other": "0xCCCCCC"            // other / другое
     },
     // Dynamic color by vehicle type.
@@ -321,6 +323,16 @@
     // Dynamic color by average number of spotted enemies per battle on current tank
     // Динамический цвет по среднему количеству засвеченных врагов за бой на текущем танке
     "tsb": [
+      { "value": 0.6,  "color": ${"def.colorRating.very_bad" } },
+      { "value": 0.8,  "color": ${"def.colorRating.bad"      } },
+      { "value": 1.0,  "color": ${"def.colorRating.normal"   } },
+      { "value": 1.3,  "color": ${"def.colorRating.good"     } },
+      { "value": 2.0,  "color": ${"def.colorRating.very_good"} },
+      { "value": 15,   "color": ${"def.colorRating.unique"   } }
+    ],
+    // Dynamic color by WN8 effective damage
+    // Динамический цвет по эффективному урону по WN8
+    "wn8effd": [
       { "value": 0.6,  "color": ${"def.colorRating.very_bad" } },
       { "value": 0.8,  "color": ${"def.colorRating.bad"      } },
       { "value": 1.0,  "color": ${"def.colorRating.normal"   } },
