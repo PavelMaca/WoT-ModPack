@@ -132,7 +132,7 @@
       <fort_building>
         <sounds>
           <over>/GUI/buttons/highlight</over>
-          <press>/GUI/ur/building_click</press>
+          <press>/fortified_area/gui/building_click</press>
         </sounds>
         <groups>base_building
 					warSchool_building
@@ -141,7 +141,8 @@
 					tankodrom_building
 					intendancy_building
 					finance_building
-					car_building</groups>
+					car_building
+					office_building</groups>
       </fort_building>
     </schemas>
     <overrides>
@@ -149,42 +150,54 @@
   </controls>
   <effects>
     <spend_credits>/GUI/buttons/coins</spend_credits>
-    <transport_constrain>/GUI/ur/transport_constrain</transport_constrain>
-    <transport_enter>/GUI/ur/transport_enter</transport_enter>
-    <transport_exit>/GUI/ur/transport_exit</transport_exit>
-    <transport_first_step>/GUI/ur/transport_first_step</transport_first_step>
-    <transport_next_step>/GUI/ur/transport_next_step</transport_next_step>
-    <transport_approve>/GUI/ur/transport_approve</transport_approve>
-    <fort_create>/GUI/ur/fort_create</fort_create>
-    <direction_create>/GUI/ur/direction_create</direction_create>
-    <direction_close>/GUI/ur/direction_close</direction_close>
+    <transport_constrain>/fortified_area/gui/transport_constrain</transport_constrain>
+    <transport_enter>/fortified_area/gui/transport_enter</transport_enter>
+    <transport_exit>/fortified_area/gui/transport_exit</transport_exit>
+    <transport_first_step>/fortified_area/gui/transport_first_step</transport_first_step>
+    <transport_next_step>/fortified_area/gui/transport_next_step</transport_next_step>
+    <transport_approve>/fortified_area/gui/transport_approve</transport_approve>
+    <fort_create>/fortified_area/gui/fort_create</fort_create>
+    <direction_create>/fortified_area/gui/direction_create</direction_create>
+    <direction_close>/fortified_area/gui/direction_close</direction_close>
     <spend_gold>/GUI/buttons/coins</spend_gold>
     <spend_credits_and_gold>/GUI/buttons/coins</spend_credits_and_gold>
     <select_radial_button>/GUI/buttons/cancelcloseno</select_radial_button>
     <earn_credits>/GUI/buttons/coins</earn_credits>
     <earn_gold>/GUI/buttons/coins</earn_gold>
     <earn_credits_and_gold>/GUI/buttons/coins</earn_credits_and_gold>
-    <fort_entered_foundation_state>/GUI/ur/fort_entered_foundation_state</fort_entered_foundation_state>
-    <fort_fixed_in_building>/GUI/ur/fort_fixed_in_building</fort_fixed_in_building>
-    <fort_upgrade_building>/GUI/ur/fort_upgrade_building</fort_upgrade_building>
-    <fort_demount_building>/GUI/ur/fort_demount_building</fort_demount_building>
-    <fort_order_inprogress>/GUI/ur/fort_order_in_progress</fort_order_inprogress>
-    <fort_order_isready>/GUI/ur/fort_order_isready</fort_order_isready>
-    <activate_requisition>/GUI/ur/activate_battlePayments</activate_requisition>
-    <activate_evacuation>/GUI/ur/activate_battlePayments</activate_evacuation>
-    <activate_heavyTrucks>/GUI/ur/activate_battlePayments</activate_heavyTrucks>
-    <activate_militaryManeuvers>/GUI/ur/activate_battlePayments</activate_militaryManeuvers>
-    <activate_additionalBriefing>/GUI/ur/activate_battlePayments</activate_additionalBriefing>
-    <activate_tacticalTraining>/GUI/ur/activate_battlePayments</activate_tacticalTraining>
-    <activate_battlePayments>/GUI/ur/activate_battlePayments</activate_battlePayments>
-    <base_building_endPrcBld>/GUI/ur/bulding_end_general</base_building_endPrcBld>
-    <warSchool_building_endPrcBld>/GUI/ur/bulding_end_general</warSchool_building_endPrcBld>
-    <trophy_building_endPrcBld>/GUI/ur/bulding_end_general</trophy_building_endPrcBld>
-    <training_building_endPrcBld>/GUI/ur/bulding_end_general</training_building_endPrcBld>
-    <tankodrom_building_endPrcBld>/GUI/ur/bulding_end_general</tankodrom_building_endPrcBld>
-    <intendancy_building_endPrcBld>/GUI/ur/bulding_end_general</intendancy_building_endPrcBld>
-    <finance_building_endPrcBld>/GUI/ur/bulding_end_general</finance_building_endPrcBld>
-    <car_building_endPrcBld>/GUI/ur/bulding_end_general</car_building_endPrcBld>
+    <fort_entered_foundation_state>/fortified_area/gui/fort_entered_foundation_state</fort_entered_foundation_state>
+    <fort_fixed_in_building>/fortified_area/gui/fort_fixed_in_building</fort_fixed_in_building>
+    <fort_upgrade_building>/fortified_area/gui/fort_upgrade_building</fort_upgrade_building>
+    <fort_demount_building>/fortified_area/gui/fort_demount_building</fort_demount_building>
+    <fort_order_inprogress>/fortified_area/gui/fort_order_in_progress</fort_order_inprogress>
+    <fort_order_isready>/fortified_area/gui/fort_order_is_ready</fort_order_isready>
+    <activate_requisition>/fortified_area/gui/activate_battlePayments</activate_requisition>
+    <activate_evacuation>/fortified_area/gui/activate_battlePayments</activate_evacuation>
+    <activate_heavyTrucks>/fortified_area/gui/activate_battlePayments</activate_heavyTrucks>
+    <activate_militaryManeuvers>/fortified_area/gui/activate_battlePayments</activate_militaryManeuvers>
+    <activate_additionalBriefing>/fortified_area/gui/activate_battlePayments</activate_additionalBriefing>
+    <activate_tacticalTraining>/fortified_area/gui/activate_battlePayments</activate_tacticalTraining>
+    <activate_battlePayments>/fortified_area/gui/activate_battlePayments</activate_battlePayments>
+    <activate_specialMission>/fortified_area/gui/activate_battlePayments</activate_specialMission>
+    <activate_defencePeriod>/fortified_area/gui/dp_enable</activate_defencePeriod>
+    <deactivate_defencePeriod>/fortified_area/gui/dp_disable</deactivate_defencePeriod>
+    <enemyDirection_selected>/fortified_area/gui/dp_enemy_dir</enemyDirection_selected>
+    <enemyDirection_hover>/fortified_area/gui/empty_event</enemyDirection_hover>
+    <myDirection_selected>/fortified_area/gui/dp_docking_dir</myDirection_selected>
+    <fortClanWar_declared>/fortified_area/gui/dp_confirm_attack</fortClanWar_declared>
+    <battleRoom_timerAlert>/fortified_area/gui/dp_battle_timer</battleRoom_timerAlert>
+    <fortClanWarResult_win>/fortified_area/music/fa_win</fortClanWarResult_win>
+    <fortClanWarResult_lose>/fortified_area/music/fa_defeat</fortClanWarResult_lose>
+    <fortClanWarResult_draw>/fortified_area/music/fa_draw</fortClanWarResult_draw>
+    <base_building_endPrcBld>/fortified_area/gui/bulding_end_general</base_building_endPrcBld>
+    <warSchool_building_endPrcBld>/fortified_area/gui/bulding_end_general</warSchool_building_endPrcBld>
+    <trophy_building_endPrcBld>/fortified_area/gui/bulding_end_general</trophy_building_endPrcBld>
+    <training_building_endPrcBld>/fortified_area/gui/bulding_end_general</training_building_endPrcBld>
+    <tankodrom_building_endPrcBld>/fortified_area/gui/bulding_end_general</tankodrom_building_endPrcBld>
+    <intendancy_building_endPrcBld>/fortified_area/gui/bulding_end_general</intendancy_building_endPrcBld>
+    <finance_building_endPrcBld>/fortified_area/gui/bulding_end_general</finance_building_endPrcBld>
+    <car_building_endPrcBld>/fortified_area/gui/bulding_end_general</car_building_endPrcBld>
+    <office_building_endPrcBld>/fortified_area/gui/bulding_end_general</office_building_endPrcBld>
     <sound_mode_preview01>/ingame_voice/notifications_VO/enemy_hp_damaged_by_projectile_by_player</sound_mode_preview01>
     <sound_mode_preview02>/ingame_voice/notifications_VO/enemy_killed_by_player</sound_mode_preview02>
     <sound_mode_preview03>/ingame_voice/notifications_VO/enemy_fire_started_by_player</sound_mode_preview03>
