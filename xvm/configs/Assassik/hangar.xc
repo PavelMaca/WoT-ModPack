@@ -27,11 +27,11 @@
       "updateInterval": 10000,
       // Axis field coordinates
       // Положение поля по осям
-      "x": 3,
-      "y": 51,
+      "x": 450,
+      "y": 5,
       // Transparency
       // Прозрачность от 0 до 100
-      "alpha": 80,
+      "alpha": 100,
       // Server to response time text delimiter
       // Разделитель сервера от времени отклика
       "delimiter": ": ",
