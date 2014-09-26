@@ -4,8 +4,8 @@
  */
 {
   "def": {
-    "nick": "<font color='{{c:wn8}}' alpha='{{alive?#FF|#80}}'>{{nick}}</font>",
-    "vehicle": "<font color='{{c:t-battles}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>"
+    "nick": "{{nick%.20s}}",
+    "vehicle": "<font color='{{c:wn8}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>"
   },
 
   "playersPanel": {
@@ -141,7 +141,7 @@
           "height": 25,
           // Set of formats for right panel (extended format supported, see above)
           // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-          "formats": []
+          "formats": [ ]
         }
       }
     },
@@ -227,7 +227,7 @@
       "enabled": true,
       // Minimum width of the player's name column, 0-250. Default is 170.
       // Минимальная ширина имени игрока, 0-250. По умолчанию: 170.
-      "width": 170,
+      "width": 100,
       // Display format for player nickname (macros allowed, see readme-en.txt).
       // Формат отображения имени игрока (допускаются макроподстановки, см. readme-ru.txt).
       "nickFormatLeft": ${"def.nick"},
@@ -244,10 +244,16 @@
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+            { "x": 25, "y": 2, "valign": "center", "h": 21, "w": 105, "bgColor": 0, "alpha": "{{alive?20|0}}" },
+            { "x": 25, "y": 2, "valign": "center", "h": 21, "w": "{{hp-ratio:105}}", "bgColor": "{{c:system}}", "alpha": "{{alive?28|0}}" }
+      ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsRight": []
+      "extraFieldsRight": [
+            { "x": 25, "y": 2, "valign": "center", "h": 21, "w": 105, "bgColor": 0, "alpha": "{{alive?20|0}}" },
+            { "x": 25, "y": 2, "valign": "center", "h": 21, "w": "{{hp-ratio:105}}", "bgColor": "{{c:system}}", "alpha": "{{alive?28|0}}" }
+       ]
     }
   }
 }
