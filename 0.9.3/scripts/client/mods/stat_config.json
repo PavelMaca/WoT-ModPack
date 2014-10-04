@@ -8,6 +8,11 @@
         {
             "pattern": "(Získáno XP: )<font color='#C8C8B5'>[\\d ]+",
             "repl": "\\1<font color='{{g:avgPlace}}'>{{totalXP}}"
+        },
+        {
+            "if": "{{avgXP}} != {{tmenXP}}",
+            "pattern": "(Získáno XP: .*)",
+            "repl": "\\1\n<font color='#929290'>XP posádky: <font color='{{g:medPlace}}'>{{tmenXP}}</font></font>"
         }
     ],
     "battleStatText": [
@@ -83,38 +88,28 @@
     },
      "palette" : {
         "WN8": [
-		        { "value": 0,         "color": "#C1AC9C" },
-            { "value": 300,       "color": "#BB0000" },
-		        { "value": 600,       "color": "#FF0000" },
-		        { "value": 900,       "color": "#FF6600" },
-		        { "value": 1200,      "color": "#F8F400" },
-		        { "value": 1500,      "color": "#99CC00" },
-		        { "value": 1750,      "color": "#00CC00" },
-		        { "value": 2300,      "color": "#66BBFF" },
-		        { "value": 2900,      "color": "#CC66CC" },
-		        { "value": 9999,      "color": "#FF00FF" }
+		    { "value": 0,         "color": "#FE0E00" },
+            { "value": 315,       "color": "#FE7903" },
+		    { "value": 760,       "color": "#F8F400" },
+		    { "value": 1325,       "color": "#60FF00" },
+		    { "value": 1980,      "color": "#02C9B3" },
+		    { "value": 2570,      "color": "#D042F3" }
         ],
         "XWN8": [
-            { "value": 17,        "color": "#BB0000" },
-		        { "value": 29,        "color": "#FF0000" },
-		        { "value": 39,        "color": "#FF6600" },
-		        { "value": 49,        "color": "#F8F400" },
-		        { "value": 60,        "color": "#99CC00" },
-		        { "value": 69,        "color": "#00CC00" },
-		        { "value": 87,        "color": "#66BBFF" },
-		        { "value": 98,        "color": "#CC66CC" },
-		        { "value": 999,       "color": "#FF00FF" }
+            { "value": 0,         "color": "#FE0E00" },
+            { "value": 16.5,       "color": "#FE7903" },
+		    { "value": 33.5,       "color": "#F8F400" },
+		    { "value": 52.5,       "color": "#60FF00" },
+		    { "value": 75.5,      "color": "#02C9B3" },
+		    { "value": 92.5,      "color": "#D042F3" }
         ],
         "avgWinRate": [
-            { "value": 43, 	      "color": "#BB0000" },
-            { "value": 45,	      "color": "#FF0000" },
-            { "value": 47, 	      "color": "#FF6600" },
-            { "value": 51, 	      "color": "#F8F400" },
-            { "value": 53, 	      "color": "#99CC00" },
-            { "value": 55, 	      "color": "#00CC00" },
-            { "value": 59, 	      "color": "#66BBFF" },
-            { "value": 69, 	      "color": "#CC66CC" },
-            { "value": 101, 	    "color": "#FF00FF" }
+            { "value": 0,         "color": "#FE0E00" },
+            { "value": 46.5,       "color": "#FE7903" },
+		    { "value": 48.5,       "color": "#F8F400" },
+		    { "value": 41.5,       "color": "#60FF00" },
+		    { "value": 56.5,      "color": "#02C9B3" },
+		    { "value": 64.5,      "color": "#D042F3" }
         ],
         "gold": [
             { "value": -1,        "color": "#F02828" },
