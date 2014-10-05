@@ -5,4 +5,8 @@
 	<Custom_string_up_to>Pro </Custom_string_up_to>
 	<Custom_skill_number>Skill #</Custom_skill_number>
 	<Custom_basic_skill>Výcvik</Custom_basic_skill>
+	<Custom_SilverReLearn>Přeškolení</Custom_SilverReLearn>
+	<Custom_SilverReLearn_need>za kr. požaduje </Custom_SilverReLearn_need>
+	<Custom_SilverReLearn_ready>za kr. připreveno.</Custom_SilverReLearn_ready>
+	<Custom_Ears_need>XP ~</Custom_Ears_need>
 </crew_extended.xml>
