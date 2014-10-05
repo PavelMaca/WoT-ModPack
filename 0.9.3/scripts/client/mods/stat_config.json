@@ -12,7 +12,7 @@
         {
             "if": "{{avgXP}} != {{tmenXP}}",
             "pattern": "(Získáno XP: .*)",
-            "repl": "\\1\n<font color='#929290'>XP posádky: <font color='{{g:medPlace}}'>{{tmenXP}}</font></font>"
+            "repl": "\\1\n<font color='#929290'>XP posádky: {{tmenXP}}</font>"
         }
     ],
     "battleStatText": [
@@ -78,7 +78,7 @@
     "textGeneralPageButton": "Tanky",
     "textByTankPageButton": "Vše",
     "byTankTitle": "<font size='13' color='#FFCC66'><textformat leading='-4' tabstops='[70,115,160]'>Tank<tab>Vítězství<tab>Poškození<tab>WN8</textformat></font><hr>",
-    "byTankRow": "<font size='12'><textformat leading='-4' tabstops='[70,115,160]'><font color='#FFE6B3'>{{vehicle}}</font><tab><font color='{{g:rWIN}}'>{{winsCount}}/{{battlesCount}}</font><tab><font color='{{g:rDAMAGE}}'>{{avgDamage}}</font><tab><font color='{{g:WN8}}'>{{WN8}} ({{XWN8}})</font></textformat></font>",
+    "byTankRow": "<font size='12'><textformat leading='-4' tabstops='[70,115,160]'><font color='#FFE6B3'>{{vehicle}}</font><tab><font color='{{c:avgWinRate}}'>{{winsCount}}/{{battlesCount}}</font><tab><font color='{{g:rDAMAGE}}'>{{avgDamage}}</font><tab><font color='{{c:WN8}}'>{{WN8}} ({{XWN8}})</font></textformat></font>",
     "gradient": {
         "credits": [
             { "value": -1,        "color": "#F02828" },
@@ -88,38 +88,38 @@
     },
      "palette" : {
         "WN8": [
-		    { "value": 0,         "color": "#FE0E00" },
-            { "value": 315,       "color": "#FE7903" },
-		    { "value": 760,       "color": "#F8F400" },
-		    { "value": 1325,       "color": "#60FF00" },
-		    { "value": 1980,      "color": "#02C9B3" },
-		    { "value": 2570,      "color": "#D042F3" }
+		    { "value": 315,     "color": "#FE0E00" },
+            { "value": 760,     "color": "#FE7903" },
+		    { "value": 1325,    "color": "#F8F400" },
+		    { "value": 1980,    "color": "#60FF00" },
+		    { "value": 2570,    "color": "#02C9B3" },
+		    { "value": 9999,    "color": "#D042F3" }
         ],
         "XWN8": [
-            { "value": 0,         "color": "#FE0E00" },
-            { "value": 16.5,       "color": "#FE7903" },
-		    { "value": 33.5,       "color": "#F8F400" },
-		    { "value": 52.5,       "color": "#60FF00" },
-		    { "value": 75.5,      "color": "#02C9B3" },
-		    { "value": 92.5,      "color": "#D042F3" }
+            { "value": 16.5,    "color": "#FE0E00" },
+            { "value": 33.5,    "color": "#FE7903" },
+		    { "value": 52.5,    "color": "#F8F400" },
+		    { "value": 75.5,    "color": "#60FF00" },
+		    { "value": 92.5,    "color": "#02C9B3" },
+		    { "value": 999,     "color": "#D042F3" }
         ],
         "avgWinRate": [
-            { "value": 0,         "color": "#FE0E00" },
-            { "value": 46.5,       "color": "#FE7903" },
-		    { "value": 48.5,       "color": "#F8F400" },
-		    { "value": 41.5,       "color": "#60FF00" },
-		    { "value": 56.5,      "color": "#02C9B3" },
-		    { "value": 64.5,      "color": "#D042F3" }
+            { "value": 46.5,    "color": "#FE0E00" },
+            { "value": 48.5,    "color": "#FE7903" },
+		    { "value": 51.5,    "color": "#F8F400" },
+		    { "value": 56.5,    "color": "#60FF00" },
+		    { "value": 64.5,    "color": "#02C9B3" },
+		    { "value": 101,     "color": "#D042F3" }
         ],
         "gold": [
-            { "value": -1,        "color": "#F02828" },
-            { "value": 0,         "color": "#C1AC9C" },
-            { "value": 1,         "color": "#66CC66" }
+            { "value": -1,      "color": "#F02828" },
+            { "value": 0,       "color": "#C1AC9C" },
+            { "value": 1,       "color": "#66CC66" }
         ],
         "credits": [
-            { "value": -1,        "color": "#F02828" },
-            { "value": 0,         "color": "#C1AC9C" },
-            { "value": 1,         "color": "#66CC66" }
+            { "value": -1,      "color": "#F02828" },
+            { "value": 0,       "color": "#C1AC9C" },
+            { "value": 1,       "color": "#66CC66" }
         ]
     }
 }
