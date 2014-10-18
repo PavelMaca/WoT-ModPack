@@ -2,8 +2,8 @@
 <crew_extended.xml>
 	<Language>Other</Language> <!-- Tags: [Ru/En/De/Other] ([Other] uses custom strings)-->
 	<OtherLanguage> <!-- Only needed if Language set to [Other]-->
-		<Custom_string_up_to>bis</Custom_string_up_to>
-		<Custom_skill_number>Skill #</Custom_skill_number>
+		<Custom_string_up_to>Pro</Custom_string_up_to>
+		<Custom_skill_number>skill</Custom_skill_number>
 		<Custom_basic_skill>Výcvik</Custom_basic_skill>
 		<Custom_SilverReLearn>Přeškolení</Custom_SilverReLearn>
 		<Custom_SilverReLearn_need>za kr. požaduje </Custom_SilverReLearn_need>
@@ -51,18 +51,13 @@
 	-->
 	<Ears>
 		<specializationLevel>{training-level}</specializationLevel> <!-- поле длинной 7 цифр (only int) -->
-		<rank>[{exp-step-battles}\{exp-step}] {rank}</rank> <!-- string -->
+		<rank>{rank}</rank> <!-- string -->
 		<lastname>{lastname}</lastname> <!-- string -->
 		<firstname>{firstname}</firstname> <!-- string (появляется при наведении мышкой)-->
 		<colored_lastSkillLevel>{lastSkillLevel}</colored_lastSkillLevel> <!-- string html support-->
-		<colored_role><![CDATA[[<font color="#00FF00">{training-battles}</font>\<font color="#FFFF00">{exp-total}</font>]{role}]]></colored_role> <!-- string html support-->
-		<!--	
-			Вариант с подсветкой цветом	
-			<colored_role><![CDATA[[<font color="#00FF00">{training-battles}</font>|<font color="#FFFF00">{exp-total}</font>]{role}]]></colored_role> <!-- string html support-->
-
-			Вариант с иконками
-			<colored_role><![CDATA[{training-battles}<img src="img://gui/maps/icons/library/VehicleEliteIcon.png" width="15" height="15">{exp-total}</img><img src="img://gui/maps/icons/library/multyXp.png" width="15" height="15" >{role}]]></colored_role> <!-- string html support-->
-		-->
+    	
+		<colored_role><![CDATA[{exp-total}</img><img src="img://gui/maps/icons/library/multyXp.png" width="15" height="15" >{role}]]></colored_role> 
+        <!-- string html support-->
 		<colored_vehicleType>{vehicleType}</colored_vehicleType> <!-- string html support-->
 	</Ears>
 </crew_extended.xml>
