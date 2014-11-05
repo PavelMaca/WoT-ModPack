@@ -1,13 +1,16 @@
 <!-- modified by spoter, Kriegstreiber -->
 <crew_extended.xml>
-	<Language>Other</Language> <!-- Tags: [Ru/En/De/Other] ([Other] uses custom strings)-->
+	<Language>En</Language> <!-- Tags: [Ru/En/De/Other] ([Other] uses custom strings)-->
 	<OtherLanguage> <!-- Only needed if Language set to [Other]-->
-		<Custom_string_up_to>Pro</Custom_string_up_to>
-		<Custom_skill_number>skill</Custom_skill_number>
-		<Custom_basic_skill>Výcvik</Custom_basic_skill>
-		<Custom_SilverReLearn>Přeškolení</Custom_SilverReLearn>
-		<Custom_SilverReLearn_need>za kr. požaduje </Custom_SilverReLearn_need>
-		<Custom_SilverReLearn_ready>za kr. připreveno.</Custom_SilverReLearn_ready>
+		<Custom_string_premium_bonus_on>Pramienbonus Erfahrung: Enabled</Custom_string_premium_bonus_on>
+		<Custom_string_premium_bonus_off>Pramienbonus Erfahrung: Disabled</Custom_string_premium_bonus_off>
+		<Custom_string_up_to_exp>Erfahrung bis</Custom_string_up_to_exp>
+		<Custom_string_up_to_btl>Kampfe bis</Custom_string_up_to_btl>
+		<Custom_skill_number>Fertigkeit</Custom_skill_number>
+		<Custom_basic_skill>Grundperk</Custom_basic_skill>
+		<Custom_SilverReLearn>Umschulung</Custom_SilverReLearn>
+		<Custom_SilverReLearn_need>fuer Kredits ben. </Custom_SilverReLearn_need>
+		<Custom_SilverReLearn_ready>fuer Kredits bereit!</Custom_SilverReLearn_ready>
 	</OtherLanguage>
 	<!-- 
 		ABOUT MACROS in EARS
