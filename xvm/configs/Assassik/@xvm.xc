@@ -21,10 +21,6 @@
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
   "configVersion": "5.1.0",
 
-  // Version of the editor.
-  // Версия редактора.
-  "editorVersion": "0.80",
-
   // Language used in mod
   // "auto" - automatically detect language from game client,
   // or specify file name located in res_mods/xvm/l10n/ (ex: "en")
@@ -58,15 +54,15 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "05.10.2014",
+    "date": "05.11.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.9.3",
+    "gameVersion": "0.9.4",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "5.3.6"
+    "modMinVersion": "5.4.1"
   },
 
   // Parameters for login screen.
@@ -92,10 +88,6 @@
   // Ingame crits panel by "expert" skill.
   // Внутриигровая панель критов от навыка "эксперт".
   "expertPanel": ${"battle.xc":"expertPanel"},
-
-  // Options for player statistics.
-  // Блок управлением статистикой.
-  "rating": ${"rating.xc":"rating"},
 
   // Special XVM hotkeys.
   // Специальные горячие клавиши XVM.
