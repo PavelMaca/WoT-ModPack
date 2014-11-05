@@ -24,9 +24,6 @@
     "showTotals": true,
     // true - Show WN8 from your battle in first page
     "showWn8": true,
-    // true - Enable display of "chance to win"
-    // true - включить отображение шансов на победу
-    "showChances": true,
     // true - Enable display of battle tier.
     // true - включить отображение уровня боя.
     "showBattleTier": true
