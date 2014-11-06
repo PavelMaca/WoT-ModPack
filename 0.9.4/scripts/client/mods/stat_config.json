@@ -28,10 +28,11 @@
     "bgIconDraw": "../../scripts/client/mods/Draw.png",
     "bgIconWin": "../../scripts/client/mods/Win.png",
     "hideMessagePatterns": [
-        "Už 30 dnů",
+        "Už 30 dnů jste si nezměnili heslo.",
         "telefonní číslo",
         "Posádka úspěšně přesunuta do kasáren.",
-        "Člen posádky úspěšně přesunut.",
+        "Posádka úspěšně přesunuta.",
+        "Člen posádky úspěšně poslán do kasáren.",
         "úspěšně opraveno",
         "Munice pro",
         "byl přidán",
