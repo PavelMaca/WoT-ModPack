@@ -9,13 +9,14 @@
     "labels": {
         "units": {
           "format": {
-              // Союзник.
               "ally":           "<span class='mm_a'>{{nick%.7s}}</span>",
-              // Тимкиллер.
               "teamkiller":     "<span class='mm_t'>{{nick%.7s}}</span>",
-              // Враг.
-              "enemy":          "<span class='mm_e'>{{nick%.7s}}</span>"
+              "enemy":          "<span class='mm_e'>{{nick%.7s}}</span>",
+              "lostally":       "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_la'><i>{{nick%.7s}}</i></span>",
+              "lostteamkiller": "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_lt'><i>{{nick%.7s}}</i></span>",
+              "lost":           "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_l'><i>{{nick%.7s}}</i></span>"
             }
+          }
         }
     }
   }
