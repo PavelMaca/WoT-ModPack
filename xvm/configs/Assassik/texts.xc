@@ -25,6 +25,14 @@
       "_1": "1",
       "_2": "2",
       "_3": "3"
+    },
+    // Text for {{spotted}} macro.
+    // Текст для макроса {{spotted}}
+    "spotted": {
+      "neverSeen": "",
+      "lost": "<img src='xvmres://Assassik/icons/lost.png' width='20' height='20'>",
+      "revealed": "<img src='xvmres://Assassik/icons/revealed.png' width='20' height='20'>",
+      "dead": ""
     }
   }
 }

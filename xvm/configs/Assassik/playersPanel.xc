@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Parameters of the Players Panels ("ears").
  * Параметры панелей игроков ("ушей").
  */
@@ -7,7 +7,7 @@
     "nick": "<font color='{{c:wn8}}' alpha='{{alive?#FF|#80}}'>{{nick%.23s}}</font>",
     "vehicle": "<font color='{{c:t-battles}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>"
   },
-
+  
   "playersPanel": {
     // Opacity percentage of the panels. 0 - transparent, 100 - opaque.
     // Прозрачность в процентах ушей. 0 - прозрачные, 100 - не прозрачные.
@@ -15,9 +15,15 @@
     // Opacity percentage of icons in the panels. 0 - transparent ... 100 - opaque.
     // Прозрачность в процентах иконок в ушах. 0 - прозрачные, 100 - не прозрачные.
     "iconAlpha": 100,
+    // Opacity percentage of spotted markers in the panels. 0 - transparent (disabled) ... 100 - opaque.
+    // Прозрачность в процентах маркеров засвета в ушах. 0 - полностью прозрачные (отключены), 100 - не прозрачные.
+    "spottedMarkersAlpha": 100,
     // true - Disable Platoon icons.
     // true - убрать отображение иконки взвода.
     "removeSquadIcon": false,
+    // true - disable background of the selected player.
+    // true - убрать подложку выбранного игрока.
+    "removeSelectedBackground": false,
     // true - Remove the Players Panel mode switcher (buttons for changing size).
     // true - убрать переключатель режимов ушей мышкой.
     "removePanelsModeSwitcher": false,
@@ -29,43 +35,7 @@
     "altMode": null,
     // Display options for Team/Clan logos (see battleLoading.xc).
     // Параметры отображения иконки игрока/клана (см. battleLoading.xc).
-    "clanIcon": ${"defines.xc":"clanIcon"},
-    // Enemy spotted status marker at right side panel.
-    // This feature depends on enabled XVM minimap mod
-    // Маркер статуса засвета в правой боковой панели списка игроков.
-    // Фича зависит от включенного XVM мода миникарты
-    "enemySpottedMarker": {
-      // false - Disable.
-      // false - отключить.
-      "enabled": true,
-      // Offset relative to level icon (by X, Y).
-      // Смещение относительно иконки уровня танка (по X, Y).
-      "Xoffset": -35,
-      "Yoffset": -7,
-      // Формат.
-      "format": {
-        // Never seen this enemy.
-        // Этот враг никогда не светился.
-        "neverSeen": "",
-        // This enemy was seen at least once.
-        // Этот враг светился хотя бы один раз и отмечен на миникарте как потерянный.
-        "lost": "<img src='xvmres://Assassik/icons/lost.png' width='20' height='20'>",
-        // Enemy currently revealed at minimap.
-        // Виден на миникарте прямо сейчас.
-        "revealed": "<img src='xvmres://Assassik/icons/revealed.png' width='20' height='20'>",
-        // Dead enemy.
-        // Уничтоженный враг.
-        "dead": "",
-        // Artillery specific values.
-        // Специфичные значения для артиллерии.
-        "artillery": {
-          "neverSeen": "",
-          "lost": "<img src='xvmres://Assassik/icons/lost.png' width='20' height='20'>",
-          "revealed": "<img src='xvmres://Assassik/icons/revealed.png' width='20' height='20'>",
-          "dead": ""
-        }
-      }
-    },
+    "clanIcon": ${"defines.xc":"clanIcon"},    
     // Options for the "none" panels - empty panels.
     // Режим ушей "none" - пустые уши.
     "none": {
@@ -90,7 +60,7 @@
           //   "{{nick}}",
           //   "<img src='xvm://res/img/panel-bg-l-{{alive|dead}}.png' width='318' height='28'>",
           //   // extended format
-          //   { "x": 20, "y": 10, "border": 1, "borderColor": "0xFFFFFF", "format": "{{nick}}" },
+          //   { "x": 20, "y": 10, "borderColor": "0xFFFFFF", "format": "{{nick}}" },
           //   { "x": 200, "src": "xvm://res/contour/{{vehiclename}}.png" }
           // ]
           //
@@ -109,11 +79,13 @@
           //   "y" - y position (macros allowed)
           //   "w" - width (macros allowed)
           //   "h" - height (macros allowed)
+          //   "bindToIcon" - if enabled, x position is binded to vehicle icon (default false)
           //   "alpha" - transparency in percents (0..100) (macros allowed)
           //   "rotation" - rotation in degrees (0..360) (macros allowed)
           //   "align" - horizontal alignment ("left", "center", "right")
           //      for left panel default value is "left"
           //      for right panel default value is "right"
+          //   "scaleX", "scaleY" - scaling (use negative values for mirroring)
           //
           // fields available for TextField format only:
           //   "valign" - vertical alignment ("top", "center", "bottom")
@@ -130,6 +102,9 @@
           //     "strength" (0.0 .. 255.0)
           //    }
           //
+          // fields available for MovieClip format only:
+          //     "highlight" - highlight icon depending on the player state, default false
+          //
           // * all fields are optional
           //
           "formats": []
@@ -141,7 +116,7 @@
           "height": 25,
           // Set of formats for right panel (extended format supported, see above)
           // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-          "formats": [ ]
+          "formats": []
         }
       }
     },
@@ -150,8 +125,8 @@
     "short": {
       // false - disable (отключить)
       "enabled": true,
-      // Width of the column, 0-250. Default is 0.
-      // Ширина поля, 0-250. По умолчанию: 0.
+      // Minimum width of the column, 0-250. Default is 0.
+      // Минимальная ширина поля, 0-250. По умолчанию: 0.
       "width": 0,
       // Display format for frags (macros allowed, see readme-en.txt).
       // Формат отображения фрагов (допускаются макроподстановки, см. readme-ru.txt).
@@ -164,7 +139,9 @@
       "extraFieldsLeft": [],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsRight": []
+      "extraFieldsRight": [
+        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": 0, "y": 5, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
+      ]
     },
     // Options for the "medium" panels - the first of the medium panels.
     // Режим ушей "medium" - первые средние уши в игре.
@@ -191,7 +168,9 @@
       "extraFieldsLeft": [],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsRight": []
+      "extraFieldsRight": [
+        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": 0, "y": 5, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
+      ]
     },
     // Options for the "medium2" panels - the second of the medium panels.
     // Режим ушей "medium2" - вторые средние уши в игре.
@@ -199,7 +178,7 @@
       // false - disable (отключить)
       "enabled": true,
       // Maximum width of the vehicle name column, 0-250. Default is 65.
-      // Максимальная ширина названия танка, 0-250. По умолчанию: 65.
+      // Максимальная ширина поля названия танка, 0-250. По умолчанию: 65.
       "width": 65,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
@@ -218,7 +197,9 @@
       "extraFieldsLeft": [],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsRight": []
+      "extraFieldsRight": [
+        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": 0, "y": 5, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
+      ]
     },
     // Options for the "large" panels - the widest panels.
     // Режим ушей "large" - широкие уши в игре.
@@ -226,7 +207,7 @@
       // false - disable (отключить)
       "enabled": true,
       // Minimum width of the player's name column, 0-250. Default is 170.
-      // Минимальная ширина имени игрока, 0-250. По умолчанию: 170.
+      // Минимальная ширина поля имени игрока, 0-250. По умолчанию: 170.
       "width": 125,
       // Display format for player nickname (macros allowed, see readme-en.txt).
       // Формат отображения имени игрока (допускаются макроподстановки, см. readme-ru.txt).
@@ -252,8 +233,9 @@
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
             { "x": 0, "y": 22, "valign": "right", "h": 3, "w": 220, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-            { "x": 0, "y": 22, "valign": "right", "h": 3, "w": "{{hp-ratio:220}}", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" }
-       ]
+            { "x": 0, "y": 22, "valign": "right", "h": 3, "w": "{{hp-ratio:220}}", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
+        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": 0, "y": 5, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
+      ]
     }
   }
 }
