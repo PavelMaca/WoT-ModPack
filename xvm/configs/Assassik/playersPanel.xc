@@ -234,7 +234,7 @@
       "extraFieldsRight": [
             { "x": 0, "y": 22, "valign": "right", "h": 3, "w": 220, "bgColor": 0, "alpha": "{{alive?30|0}}" },
             { "x": 0, "y": 22, "valign": "right", "h": 3, "w": "{{hp-ratio:220}}", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": 0, "y": 5, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
+        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": -10, "y": 0, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
       ]
     }
   }
