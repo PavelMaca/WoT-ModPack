@@ -5,7 +5,7 @@
 
 <alliestext>$clanLogo &lt;img src='img://gui/maps/icons/formation/clan.png' width='28' height='28' align='baseline' vspace='-11'&gt; Spojenci ($teamHP)</alliestext> <!-- Text describing allied team hp pool. -->
 
-<enemiestext>($enemyHP) Nepřátelé &lt;img src='img://gui/maps/icons/formation/squad.png' width='28' height='28' align='baseline' vspace='-11'&gt; $clanLogo &lt;br/&gt;&lt;font size='10'&gt;&lt;i&gt;          HighCaliber ($HCvalue)&lt;/i&gt;&lt;/font&gt;</enemiestext> <!-- Text describing opposed team hp pool. -->
+<enemiestext>($enemyHP) Nepřátelé &lt;img src='img://gui/maps/icons/formation/squad.png' width='28' height='28' align='baseline' vspace='-11'&gt; $clanLogo &lt;br/&gt;&lt;font size='10'&gt;&lt;i&gt;          Velká ráže ($HCvalue)&lt;/i&gt;&lt;/font&gt;</enemiestext> <!-- Text describing opposed team hp pool. -->
 
 <healthbar>|</healthbar> <!-- Symbol the healthbar is made up of. Default is | -->
 
