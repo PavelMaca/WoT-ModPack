@@ -20,6 +20,10 @@
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
   "configVersion": "5.1.0",
+   
+  // automatically reload config. Can reduce performance.
+  // автоматически перезагружать конфиг. Может понизить производительность.
+  "autoReloadConfig": false,
 
   // Language used in mod
   // "auto" - automatically detect language from game client,

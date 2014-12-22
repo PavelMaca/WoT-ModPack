@@ -44,7 +44,7 @@
           // Враг.
           "enemy":          "<span class='mm_e'>{{vehicle}}</span>",
           // Взводный.
-          "squad":          "<textformat leading='-2'><span class='mm_s'><i>{{nick%.5s}}</i>\n{{vehicle}}</span><textformat>",
+          "squad":          "<textformat leading='-2'><span class='mm_s'><i>{{nick%.5s}}</i>\n{{vehicle}}</span></textformat>",
           // Own marker or spectated subject.
           // Свой маркер и маркер приёмника камеры наблюдения в случае смерти.
           "oneself":        "",
@@ -59,7 +59,7 @@
           "lost":           "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_l'><i>{{vehicle}}</i></span>",
           // Out of radio range squadman
           // Взводный, с которым потеряна связь
-          "lostsquad":      "<textformat leading='-4'><span class='mm_dot'>{{vehicle-class}}</span><span class='mm_ls'><i>{{nick%.5s}}</i>\n   {{vehicle}}</span><textformat>",
+          "lostsquad":      "<textformat leading='-4'><span class='mm_dot'>{{vehicle-class}}</span><span class='mm_ls'><i>{{nick%.5s}}</i>\n   {{vehicle}}</span></textformat>",
           // Мертвый союзник.
           "deadally":       "<span class='mm_dot'>{{vehicle-class}}</span><span class='mm_da'></span>",
           // Мертвый тимкиллер.
@@ -120,10 +120,10 @@
         // Field offset relative to current icon (except lost - relative to enemy last seen position).
         // Смещение полей относительно текущей иконки (кроме lost и dead- относительно последних координат видимой позиции).
         "offset": {
-          "ally":           {"x": 3, "y": -1},
-          "teamkiller":     {"x": 3, "y": -1},
-          "enemy":          {"x": 3, "y": -1},
-          "squad":          {"x": 3, "y": -2},
+          "ally":           {"x": 3, "y": -2},
+          "teamkiller":     {"x": 3, "y": -2},
+          "enemy":          {"x": 3, "y": -2},
+          "squad":          {"x": 3, "y": -3},
           "oneself":        {"x": 0, "y": 0},
           "lostally":       {"x": -5, "y": -11},
           "lostteamkiller": {"x": -5, "y": -11},
