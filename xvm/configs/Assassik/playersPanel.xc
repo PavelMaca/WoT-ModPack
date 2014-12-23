@@ -140,7 +140,7 @@
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": 0, "y": 5, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
+        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": -10, "y": 0, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
       ]
     },
     // Options for the "medium" panels - the first of the medium panels.
@@ -169,7 +169,7 @@
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": 0, "y": 5, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
+        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": -10, "y": 0, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
       ]
     },
     // Options for the "medium2" panels - the second of the medium panels.
@@ -198,7 +198,7 @@
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": 0, "y": 5, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
+        { "alpha": ${"playersPanel.spottedMarkersAlpha"}, "x": -10, "y": 0, "valign": "top", "bindToIcon": true, "format": "{{spotted}}", "shadow": {} }
       ]
     },
     // Options for the "large" panels - the widest panels.
