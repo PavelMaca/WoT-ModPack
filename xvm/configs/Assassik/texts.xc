@@ -32,7 +32,11 @@
       "neverSeen": "",
       "lost": "<img src='xvmres://Assassik/icons/lost.png' width='20' height='20'>",
       "revealed": "<img src='xvmres://Assassik/icons/revealed.png' width='20' height='20'>",
-      "dead": ""
+      "dead": "",
+      "neverSeen_arty": "",
+      "lost_arty": "<img src='xvmres://Assassik/icons/lost.png' width='20' height='20'>",
+      "revealed_arty": "<img src='xvmres://Assassik/icons/revealed.png' width='20' height='20'>",
+      "dead_arty": ""
     }
   }
 }
