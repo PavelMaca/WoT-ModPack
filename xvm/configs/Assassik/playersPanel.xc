@@ -16,10 +16,10 @@
     "alpha": 100,
     // x position.
     // положение по горизонтали.
-    "x": -37,
+    "x": -10,
     // y position.
     // положение по вертикали.
-    "y": -7,
+    "y": 0,
     // true - x position is binded to vehicle icon, false - binded to edge of the screen.
     // true - положение по горизонтали отсчитывается от иконки танка, false - от края экрана.
     "bindToIcon": true,
