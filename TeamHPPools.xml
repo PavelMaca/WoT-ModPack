@@ -13,10 +13,10 @@
 <healthbar>&lt;font face='Arial' size='18'&gt;&#x2593;&lt;/font&gt;</healthbar> 
 
 <!-- Color of the Allied healthbar in HEX. Default is 80FF00 / Цвет союзников-->
-<AlliedBarColor>80FF00</AlliedBarColor>
+<AlliedBarColor>9DFF59</AlliedBarColor>
 
 <!-- Color of the Enemy healthbar in HEX. Default is EF0101 / Цвет противника-->
-<EnemyBarColor>EF0101</EnemyBarColor>
+<EnemyBarColor>EF4545</EnemyBarColor>
 
 </TeamHPPools_config>
 
