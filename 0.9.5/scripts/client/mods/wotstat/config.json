@@ -39,7 +39,8 @@
         "byl odstraněn",
         "hlasovou komunikaci",
         "Spotřební doplňky pro",
-        "eSport"
+        "eSport",
+        "Connected to TeamSpeak server"
     ],
     "debugBattleResultMessage": false,
     "onlineReloadConfig": true,
