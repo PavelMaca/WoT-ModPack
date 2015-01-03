@@ -14,7 +14,7 @@
     },
     "max_characters": 15,
     "snap_to_nearest": true,
-    "snapping_angle_degrees": 7.5,
+    "snapping_angle_degrees": 5,
     "toggleKeyCode": 0,
     "toggleStateOn": true,
     "toggledOffMsg": "<font color='#FF0000'>Autoaim indicator/snapping turned OFF</font>",
