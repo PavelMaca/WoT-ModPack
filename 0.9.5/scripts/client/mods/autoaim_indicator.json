@@ -20,5 +20,6 @@
     "toggledOffMsg": "<font color='#FF0000'>Autoaim indicator/snapping turned OFF</font>",
     "toggledOnMsg": "<font color='#00FF00'>Autoaim indicator/snapping turned ON</font>",
     "use_target_as_text": true,
-    "outline_target": true
+    "outline_target": false,
+    "no_snap_on_autoaim_off_E": true
 }
