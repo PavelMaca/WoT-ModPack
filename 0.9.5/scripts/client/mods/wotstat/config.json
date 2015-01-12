@@ -40,7 +40,8 @@
         "hlasovou komunikaci",
         "Spotřební doplňky pro",
         "eSport",
-        "Connected to TeamSpeak server"
+        "Connected to TeamSpeak server",
+        "Zbývá vyzkoumat:"
     ],
     "debugBattleResultMessage": false,
     "onlineReloadConfig": true,
