@@ -37,6 +37,16 @@
       "lost_arty": "<img src='xvmres://Assassik/icons/lost.png' width='20' height='20'>",
       "revealed_arty": "<img src='xvmres://Assassik/icons/revealed.png' width='20' height='20'>",
       "dead_arty": ""
+    },
+    // Text for {{xvm-user}} macro.
+    // Текст для макроса {{xvm-user}}
+    "xvmuser": {
+      // XVM with enabled statistics / XVM со включенной статистикой.
+      "on": "on",
+      // XVM with disabled statistics / XVM со выключенной статистикой.
+      "off": "off",
+      // Without XVM / Без XVM.
+      "none": "none"
     }
   }
 }
