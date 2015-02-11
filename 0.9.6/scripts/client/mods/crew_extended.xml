@@ -1,0 +1,66 @@
+<!-- modified by spoter, Kriegstreiber -->
+<crew_extended.xml>
+	<Language>Other</Language> <!-- Tags: [Ru/En/De/Other] ([Other] uses custom strings)-->
+	<OtherLanguage> <!-- Only needed if Language set to [Other]-->
+		<Custom_string_premium_bonus_on>Koeficient XP posádky za prémiový tank</Custom_string_premium_bonus_on>
+		<Custom_string_premium_bonus_off></Custom_string_premium_bonus_off>
+		<Custom_string_up_to_exp>XP na</Custom_string_up_to_exp>
+		<Custom_string_up_to_btl>bitev na</Custom_string_up_to_btl>
+		<Custom_skill_number>Skill</Custom_skill_number>
+		<Custom_basic_skill>Výcvik</Custom_basic_skill>
+		<Custom_SilverReLearn>Přeškolení</Custom_SilverReLearn>
+		<Custom_SilverReLearn_need>za Kredity potřebuje: </Custom_SilverReLearn_need>
+		<Custom_SilverReLearn_ready>za Kredity připraveno!</Custom_SilverReLearn_ready>
+	</OtherLanguage>
+	<!-- 
+		ABOUT MACROS in EARS
+		    {training-level} уровень владения в формате XX%, процентное значение, которое показывается в клиенте сейчас
+            {firstname} Имя 
+            {lastname} Фамилия
+            {rank} Звание
+            {exp-total} опыта осталось до полной прокачки перка (до 100%)
+            {training-battles} кол-во боев, оставшееся для полной прокачки (100%) специальности/перка с учетом среднего опыта на танке
+            {training-progress} степень прокачки специальности/перка - линейный процент в формате XX%
+            {role} Должность
+            {CurExp} Набрано опыта на танке
+            {vehicleType} Название танка
+            {exp-step} опыта осталось до роста на 1%
+            {exp-step-battles} боёв осталось до роста на 1%
+            {exp-extra-level} Уровень навыка, на котором будет возможно переобучить танкиста за серебро без штрафа
+            {exp-free} Опыт на текущем % навыка
+            {skillsCnt} Количество скиллов
+            {lastSkillLevel} текущий процент скилла
+            {nxtskillvlv} Следующий процент скилла (Текущий +1)
+			
+			Формат записи макросов без сокращения значений
+			{training-level-int} 
+            {exp-total-int}
+            {training-battles-int}
+            {nxtskillvlv-int}
+            {skillsCnt-int}
+            {training-progress-int}
+            {CurExp-int}
+            {exp-step-int}
+            {exp-step-battles-int}
+            {exp-extra-level-int}
+            {exp-current-int}
+            {lastSkillLevel-int}
+			
+		INT MACROS FOR <specializationLevel> EARS
+		{training-level}, {exp-total}, {training-battles}, {nxtskillvlv}, {skillsCnt}{training-progress}, {CurExp}, {exp-step}, {exp-extra-level}, {exp-extra}, {exp-current}, {lastSkillLevel}
+
+		STRING MACROS FOR ALL OTHER EARS
+		    {training-level},{firstname}, {lastname}, {rank},{exp-total},{training-battles},{nxtskillvlv},{skillsCnt},{training-progress},{role},{CurExp},{vehicleType},{exp-step},{exp-extra-level},{exp-extra},{exp-current},{lastSkillLevel}
+	-->
+	<Ears>
+		<specializationLevel>{training-level}</specializationLevel> <!-- поле длинной 7 цифр (only int) -->
+		<rank>{rank}</rank> <!-- string -->
+		<lastname>{lastname}</lastname> <!-- string -->
+		<firstname>{firstname}</firstname> <!-- string (появляется при наведении мышкой)-->
+		<colored_lastSkillLevel>{lastSkillLevel}</colored_lastSkillLevel> <!-- string html support-->
+    	
+		<colored_role><![CDATA[{exp-total}</img><img src="img://gui/maps/icons/library/multyXp.png" width="15" height="15" >{role}]]></colored_role> 
+        <!-- string html support-->
+		<colored_vehicleType>{vehicleType}</colored_vehicleType> <!-- string html support-->
+	</Ears>
+</crew_extended.xml>
