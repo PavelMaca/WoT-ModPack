@@ -58,11 +58,11 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "03.01.2015",
+    "date": "11.02.2015",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.9.5",
+    "gameVersion": "0.9.6",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
@@ -155,5 +155,9 @@
 
   // Vehicle names mapping.
   // Замена названий танков.
-  "vehicleNames": ${"vehicleNames.xc":"vehicleNames"}
+  "vehicleNames": ${"vehicleNames.xc":"vehicleNames"},
+  
+  // Export data
+  // Выгрузка данных
+  "export": ${"export.xc":"export"}
 }
