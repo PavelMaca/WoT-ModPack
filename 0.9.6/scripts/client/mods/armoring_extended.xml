@@ -1,0 +1,13 @@
+<armoring_extended.xml>
+	<setup>
+		<module_armoring_extended>	true	</module_armoring_extended>
+		<Debug>	false	</Debug>
+	</setup>
+	<armoring_damage_text_settings>
+		<text>	Odrazeno: {AvgDmg}	</text>
+		<text_x>	250.000000	</text_x>
+		<text_y>	18.000000	</text_y>
+		<font>	default_smaller.font 	</font>
+		<color>	#96FF00	</color>
+	</armoring_damage_text_settings>
+</armoring_extended.xml>
