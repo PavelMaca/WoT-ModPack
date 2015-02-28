@@ -20,14 +20,14 @@
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
   "configVersion": "5.1.0",
-   
+
   // automatically reload config. Can reduce performance.
   // автоматически перезагружать конфиг. Может понизить производительность.
   "autoReloadConfig": false,
 
   // Language used in mod
   // "auto" - automatically detect language from game client,
-  // or specify file name located in res_mods/xvm/l10n/ (ex: "en")
+  // or specify file name located in res_mods/mods/shared_resources/xvm/l10n/ (ex: "en")
   // Используемый язык в моде
   // "auto" - автоматически определять язык клиента игры,
   // или укажите имя файла в папке res_mods/xvm/l10n/ (например, "en")
@@ -58,7 +58,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "11.02.2015",
+    "date": "28.02.2015",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -66,7 +66,7 @@
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "5.5.1"
+    "modMinVersion": "5.5.1.1"
   },
 
   // Parameters for login screen.
@@ -156,7 +156,7 @@
   // Vehicle names mapping.
   // Замена названий танков.
   "vehicleNames": ${"vehicleNames.xc":"vehicleNames"},
-  
+
   // Export data
   // Выгрузка данных
   "export": ${"export.xc":"export"}
