@@ -1,66 +1,41 @@
-<!-- modified by spoter, Kriegstreiber -->
 <crew_extended.xml>
-	<Language>Other</Language> <!-- Tags: [Ru/En/De/Other] ([Other] uses custom strings)-->
-	<OtherLanguage> <!-- Only needed if Language set to [Other]-->
-		<Custom_string_premium_bonus_on>Koeficient XP posádky za prémiový tank</Custom_string_premium_bonus_on>
-		<Custom_string_premium_bonus_off></Custom_string_premium_bonus_off>
-		<Custom_string_up_to_exp>XP na</Custom_string_up_to_exp>
-		<Custom_string_up_to_btl>bitev na</Custom_string_up_to_btl>
-		<Custom_skill_number>Skill</Custom_skill_number>
-		<Custom_basic_skill>Výcvik</Custom_basic_skill>
-		<Custom_SilverReLearn>Přeškolení</Custom_SilverReLearn>
-		<Custom_SilverReLearn_need>za Kredity potřebuje: </Custom_SilverReLearn_need>
-		<Custom_SilverReLearn_ready>za Kredity připraveno!</Custom_SilverReLearn_ready>
-	</OtherLanguage>
-	<!-- 
-		ABOUT MACROS in EARS
-		    {training-level} уровень владения в формате XX%, процентное значение, которое показывается в клиенте сейчас
-            {firstname} Имя 
-            {lastname} Фамилия
-            {rank} Звание
-            {exp-total} опыта осталось до полной прокачки перка (до 100%)
-            {training-battles} кол-во боев, оставшееся для полной прокачки (100%) специальности/перка с учетом среднего опыта на танке
-            {training-progress} степень прокачки специальности/перка - линейный процент в формате XX%
-            {role} Должность
-            {CurExp} Набрано опыта на танке
-            {vehicleType} Название танка
-            {exp-step} опыта осталось до роста на 1%
-            {exp-step-battles} боёв осталось до роста на 1%
-            {exp-extra-level} Уровень навыка, на котором будет возможно переобучить танкиста за серебро без штрафа
-            {exp-free} Опыт на текущем % навыка
-            {skillsCnt} Количество скиллов
-            {lastSkillLevel} текущий процент скилла
-            {nxtskillvlv} Следующий процент скилла (Текущий +1)
-			
-			Формат записи макросов без сокращения значений
-			{training-level-int} 
-            {exp-total-int}
-            {training-battles-int}
-            {nxtskillvlv-int}
-            {skillsCnt-int}
-            {training-progress-int}
-            {CurExp-int}
-            {exp-step-int}
-            {exp-step-battles-int}
-            {exp-extra-level-int}
-            {exp-current-int}
-            {lastSkillLevel-int}
-			
-		INT MACROS FOR <specializationLevel> EARS
-		{training-level}, {exp-total}, {training-battles}, {nxtskillvlv}, {skillsCnt}{training-progress}, {CurExp}, {exp-step}, {exp-extra-level}, {exp-extra}, {exp-current}, {lastSkillLevel}
-
-		STRING MACROS FOR ALL OTHER EARS
-		    {training-level},{firstname}, {lastname}, {rank},{exp-total},{training-battles},{nxtskillvlv},{skillsCnt},{training-progress},{role},{CurExp},{vehicleType},{exp-step},{exp-extra-level},{exp-extra},{exp-current},{lastSkillLevel}
-	-->
-	<Ears>
-		<specializationLevel>{training-level}</specializationLevel> <!-- поле длинной 7 цифр (only int) -->
-		<rank>{rank}</rank> <!-- string -->
-		<lastname>{lastname}</lastname> <!-- string -->
-		<firstname>{firstname}</firstname> <!-- string (появляется при наведении мышкой)-->
-		<colored_lastSkillLevel>{lastSkillLevel}</colored_lastSkillLevel> <!-- string html support-->
-    	
-		<colored_role><![CDATA[{exp-total}</img><img src="img://gui/maps/icons/library/multyXp.png" width="15" height="15" >{role}]]></colored_role> 
-        <!-- string html support-->
-		<colored_vehicleType>{vehicleType}</colored_vehicleType> <!-- string html support-->
-	</Ears>
+	<setup>
+		<module_crew_extended>	true	</module_crew_extended>
+		<debug>	false	</debug>
+		<hangar_crew_info>	true	</hangar_crew_info>
+		<barracks_crew_info>	true	</barracks_crew_info>
+		<language>	OTHER	</language>
+		<hint>	support language RU,EN,DE,OTHER	</hint>
+	</setup>
+	<hangar_crew_info>
+		<txt_hangar_firstname>	{firstname}	</txt_hangar_firstname>
+		<txt_hangar_lastname>	{lastname}	</txt_hangar_lastname>
+		<txt_hangar_rank>	{rank}	</txt_hangar_rank>
+		<txt_hangar_colored_lastskilllevel>	{lastSkillLevel}	</txt_hangar_colored_lastskilllevel>
+		<txt_hangar_specializationLevel>	{training-level}	</txt_hangar_specializationLevel>
+		<txt_hangar_colored_role>	<![CDATA[{exp-total}</img><img src="img://gui/maps/icons/library/multyXp.png" width="15" height="15" >{role}]]>	</txt_hangar_colored_role>
+		<txt_hangar_colored_vehicletype>	{vehicleType}	</txt_hangar_colored_vehicletype>
+		<hint>	support macros in txt: {training-level},{firstname},{lastname},{rank},{exp-total},{training-battles},{training-progress},{role},{CurExp},{vehicleType},{exp-step},{exp-step-battles},{exp-extra-level},{exp-free},{skillsCnt},{lastSkillLevel},{nxtskillvlv},{training-level-int},{exp-total-int},{training-battles-int},{nxtskillvlv-int},{skillsCnt-int},{training-progress-int}, {CurExp-int},{exp-step-int}, {exp-step-battles-int},{exp-extra-level-int},{exp-free-int},{lastSkillLevel-int}	</hint>
+	</hangar_crew_info>
+	<barracks_crew_info>
+		<txt_barracks_firstname>	{firstname}	</txt_barracks_firstname>
+		<txt_barracks_lastname>	{lastname}	</txt_barracks_lastname>
+		<txt_barracks_rank>	{role}	</txt_barracks_rank>
+		<txt_barracks_colored_role>	<![CDATA[{exp-total}</img><img src="img://gui/maps/icons/library/multyXp.png" width="15" height="15" >{role}]]>	</txt_barracks_colored_role>
+		<txt_barracks_colored_vehicleType>	{vehicleType}	</txt_barracks_colored_vehicleType>
+		<txt_barracks_lockMessage>	{lockMessage}	</txt_barracks_lockMessage>
+		<hint>	support macros in txt: {skillicons},{lockMessage},{training-level},{firstname},{lastname},{rank},{exp-total},{training-battles},{training-progress},{role},{CurExp},{vehicleType},{exp-step},{exp-step-battles},{exp-extra-level},{exp-free},{skillsCnt},{lastSkillLevel},{nxtskillvlv},{training-level-int},{exp-total-int},{training-battles-int},{nxtskillvlv-int},{skillsCnt-int},{training-progress-int}, {CurExp-int},{exp-step-int}, {exp-step-battles-int},{exp-extra-level-int},{exp-free-int},{lastSkillLevel-int}	</hint>
+	</barracks_crew_info>
+	<other_language>
+		<txt_premium_bonus_on>	Koeficient XP posádky za prémiový tank	</txt_premium_bonus_on>
+		<txt_premium_bonus_off></txt_premium_bonus_off>
+		<txt_up_to_exp>	XP na	</txt_up_to_exp>
+		<txt_up_to_battle>	Bitev na	</txt_up_to_battle>
+		<txt_skill_number>	Skill	</txt_skill_number>
+		<txt_basic_skill>	Výcvik	</txt_basic_skill>
+		<txt_SilverReLearn>	Přeškolení	</txt_SilverReLearn>
+		<txt_SilverReLearn_need>	za Kredity potřebuje:	</txt_SilverReLearn_need>
+		<txt_SilverReLearn_ready>	za Kredity připraveno!	</txt_SilverReLearn_ready>
+		<txt_SilverReLearn_notready>	za Kredity není připraveno	</txt_SilverReLearn_notready>
+	</other_language>
 </crew_extended.xml>
