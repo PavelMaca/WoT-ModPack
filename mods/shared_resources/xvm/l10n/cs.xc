@@ -122,6 +122,7 @@
     "Normal": "Normální",
     "MultiXP": "Násobky",
     "NoMaster": "Bez Hrdiny",
+    "CompleteCrew": "Plná posádka",
     "Error loading comments": "Chyba při načítání komentářů",
     "Error saving comments": "Chyba při ukládání komentářů",
     "Comments disabled": "Komentáře vypnuty",
@@ -136,7 +137,6 @@
     "Hide not available": "Skýt nedostupné",
     "XVM config reloaded": "Konfigurace XVM byla znovu načtena",
     "Config file xvm.xc was not found, using the built-in config": "Konfigurační soubor xvm.xc nenalezen, bude použita zabudovaná konfigurace",
-    "Error loading XVM config": "Chyba v nahrávání konfigurace XVM",
-    "CompleteCrew": "Plná posádka"
+    "Error loading XVM config": "Chyba v nahrávání konfigurace XVM"
   }
 }
