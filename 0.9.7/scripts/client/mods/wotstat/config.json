@@ -50,10 +50,7 @@
     "textResetButton": "Resetovat",
     "dailyAutoReset": true,
     "dailyAutoResetHour": 6,
-    "enableBattleEndedMessage": true,
-    "battleEndedMessageDefeat": "<font color='#FE0E00'>Porážka {{map}} - {{vehicle}}</font>",
-    "battleEndedMessageDraw": "<font color='#FE7903'>Remíza {{map}} - {{vehicle}}</font>",
-    "battleEndedMessageWin": "<font color='#60FF00'>Vítězství {{map}} - {{vehicle}}</font>",
+	"clientReloadReset": false,
     "bgIcon": "../maps/icons/library/YasenKrasen/BG_stats.png",
     "template": [
 		"<font face='$FieldFont' size='13' color='#C1AC9C'><textformat leading='-1' tabstops='[88,162]'><font color='#BFE9FF'><b>Statistika<tab>Celkem<tab>Průměr</b></font></textformat>",
