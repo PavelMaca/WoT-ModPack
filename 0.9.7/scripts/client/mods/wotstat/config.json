@@ -1,0 +1,126 @@
+{
+    "showStatForBattle": true,
+    "battleStatPatterns": [
+         {
+            "pattern": "(Získáno kreditů: )<font color='#C5CFCF'>[\\d ]+",
+            "repl": "\\1<font color='{{c:credits}}'>{{credits}}"
+        },
+        {
+            "pattern": "(Získáno XP: )<font color='#C8C8B5'>[\\d ]+",
+            "repl": "\\1<font color='{{g:avgPlace}}'>{{totalXP}}"
+        },
+        {
+            "if": "{{avgXP}} != {{tmenXP}}",
+            "pattern": "(Získáno XP: .*)",
+            "repl": "\\1\n<font color='#929290'>XP posádky: {{tmenXP}}</font>"
+        }
+    ],
+    "battleStatText": [
+    "<font size='8'> </font>",
+    "     <img src='img://gui/maps/icons/library/Crab_stats/Wrench.png' width='20' height='18' align='baseline' vspace='-14'> <font size='12' color='#F0DDB9'>Opravy:</font>  <font size='12' color='#FFFFFF'><b>{{autoRepair}}</b></font> <img src='img://gui/maps/icons/library/Crab_stats/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'>",
+    "     <img src='img://gui/maps/icons/library/Crab_stats/Shell.png' width='20' height='18' align='baseline' vspace='-14'> <font size='12' color='#F0DDB9'>Munice:</font>  <font size='12' color='#FFFFFF'><b>{{autoLoad}}</b></font> <img src='img://gui/maps/icons/library/Crab_stats/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'>",
+    "     <img src='img://gui/maps/icons/library/Crab_stats/Toolbox.png' width='20' height='18' align='baseline' vspace='-14'> <font size='12' color='#F0DDB9'>Spotř. mat.:</font>  <font size='12' color='#FFFFFF'><b>{{autoEquip}}</b></font> <img src='img://gui/maps/icons/library/Crab_stats/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'>",
+    "<font size='8'> </font>",
+    "<textformat tabstops='[105]'><font size='13' color='#F0DDB9'><b>Celkem: <font color='{{c:credits}}'>{{credits}}</font> <img src='img://gui/maps/icons/library/Crab_stats/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'><tab>WN8: <font color='{{c:WN8}}'>{{WN8}}</font> <font color='{{c:XWN8}}'>({{XWN8}})</font></b></font></textformat>"
+        ],
+    "overwriteBattleResultBgIcon": false,
+    "bgIconDefeat": "../../scripts/client/mods/Defeat.png",
+    "bgIconDraw": "../../scripts/client/mods/Draw.png",
+    "bgIconWin": "../../scripts/client/mods/Win.png",
+    "hideMessagePatterns": [
+        "Už 30 dnů jste si nezměnili heslo.",
+        "telefonní číslo",
+        "Posádka úspěšně přesunuta do kasáren.",
+        "Posádka úspěšně přesunuta.",
+        "Člen posádky úspěšně poslán do kasáren.",
+        "úspěšně opraveno",
+        "Munice pro",
+        "byl přidán",
+        "byl odstraněn",
+        "hlasovou komunikaci",
+        "Spotřební doplňky pro",
+        "eSport",
+        "Connected to TeamSpeak server",
+        "Zbývá vyzkoumat:"
+    ],
+    "debugBattleResultMessage": false,
+    "onlineReloadConfig": true,
+    "ignoreBattleType": [2, 4, 7],
+    "showResetButton": false,
+    "textResetButton": "Resetovat",
+    "dailyAutoReset": true,
+    "dailyAutoResetHour": 6,
+	"clientReloadReset": false,
+    "bgIcon": "../maps/icons/library/YasenKrasen/BG_stats.png",
+    "template": [
+		"<font face='$FieldFont' size='13' color='#C1AC9C'><textformat leading='-1' tabstops='[88,162]'><font color='#BFE9FF'><b>Statistika<tab>Celkem<tab>Průměr</b></font></textformat>",
+		"<img src='img://gui/maps/icons/library/Crab_stats/Line.png' width='260' height='3' align='middle' vspace='-15'>",
+		"<font size='6'> </font>",
+   	"<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Vítězství:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/TournamentBattleResultIcon-3.png' width='14' height='14' align='baseline' vspace='-3'><tab><font color='{{c:avgWinRate}}'><b>{{winsCount}}</b></font><b> / {{battlesCount}}</b><tab><font color='{{c:avgWinRate}}'><b>{{avgWinRate}}%</b></font></textformat>",
+    "<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Zkušenosti:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/maxExp40x32.png' width='19' height='15' align='baseline' vspace='-4'><tab><b>{{totalXP}}<tab>{{avgOriginalXP}}</b></textformat>",
+    "<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Cashflow:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/CreditsIcon1.png' width='16' height='16' align='baseline' vspace='-4'><tab><font color='{{c:credits}}'><b>{{credits}}</b></font> <img src='img://gui/maps/icons/library/Crab_stats/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'><tab><font color='{{c:gold}}'><b>{{gold}}</b></font> <img src='img://gui/maps/icons/library/Crab_stats/GoldIcon.png' width='16' height='16' align='baseline' vspace='-4'></textformat>",
+    "<img src='img://gui/maps/icons/library/Crab_stats/Line.png' width='260' height='3' align='middle' vspace='-15'>",
+		"<font size='6'> </font>",
+		"<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Poškození:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/avgDamage40x32.png' width='19' height='15' align='baseline' vspace='-3'><tab><b>{{totalDmg}}<tab>{{avgDamage}}</b></textformat>",
+		"<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Asistence:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/assist40x32.png' width='19' height='15' align='baseline' vspace='-3'><tab><b>{{totalAssist}}<tab>{{avgAssist}}</b></textformat>",
+		"<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Ef. střelby:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/hits40x32.png' width='19' height='15' align='baseline' vspace='-3'><tab><b>{{totalHits}} / {{totalShots}}<tab>{{avgHitsRate}}%</b></textformat>",
+    "<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Zničeno:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/Zniceno.png' width='19' height='13' align='baseline' vspace='-3'><tab><b>{{totalFrag}}<tab>{{avgFrag}}</b></textformat>",
+		"<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Detekováno:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/Detekce.png' width='16' height='16' align='baseline' vspace='-4'><tab><b>{{totalSpot}}<tab>{{avgSpot}}</b></textformat>",
+    "<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Obrana:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/battles40x32.png' width='18' height='15' align='baseline' vspace='-4'><tab><b>{{totalDef}}<tab>{{avgDef}}</b></textformat>",
+		"<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'>Obsazení:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/wins40x32.png' width='18' height='15' align='baseline' vspace='-4'><tab><b>{{totalCap}}<tab>{{avgCap}}</b></textformat>",
+    "<textformat leading='-2' tabstops='[65,88,162]'><font color='#F0DDB9'><font face='Lucida Console'>\u00F8</font> Tier/B.Tier:</font><tab><img src='img://gui/maps/icons/library/Crab_stats/survival40x32.png' width='19' height='15' align='baseline' vspace='-4'><tab><b>{{avgTier}}<tab>{{avgBattleTier}}</b></textformat>",
+    "<img src='img://gui/maps/icons/library/Crab_stats/Line.png' width='260' height='3' align='middle' vspace='-15'>",
+		"<textformat leading='-2'><font size='6'> </font></textformat>",
+		"<textformat leading='0' tabstops='[58,88,157]'><font face='$FieldFont' size='13'><font color='#F0DDB9'><b>WN8:</b></font><tab><img src='img://gui/maps/icons/library/Crab_stats/WN8.png' width='25' height='25' align='baseline' vspace='-10'><tab><b><font color='{{c:WN8}}'>{{WN8}}</font> <font color='{{c:XWN8}}'>({{XWN8}})</font></b><tab><img src='img://gui/maps/icons/library/Crab_stats/Transp.png' width='1' height='32' align='baseline' vspace='-10'><img src='img://gui/maps/icons/library/Crab_stats/SessionStat/{{c:WN8}}.png' width='32' height='32' align='baseline' vspace='-10'></font></textformat>",
+    "<img src='img://gui/maps/icons/library/Crab_stats/Line.png' width='260' height='3' align='middle' vspace='-15'>"
+    ],
+    "showStatByTank": true,
+    "textGeneralPageButton": "Tanky",
+    "textByTankPageButton": "Vše",
+    "byTankTitle": "<font size='13' color='#FFCC66'><textformat leading='-4' tabstops='[70,115,160]'>Tank<tab>Vítězství<tab>Poškození<tab>WN8</textformat></font><hr>",
+    "byTankRow": "<font size='12'><textformat leading='-4' tabstops='[70,115,160]'><font color='#FFE6B3'>{{vehicle}}</font><tab><font color='{{c:avgWinRate}}'>{{winsCount}}/{{battlesCount}}</font><tab><font color='{{g:rDAMAGE}}'>{{avgDamage}}</font><tab><font color='{{c:WN8}}'>{{WN8}} ({{XWN8}})</font></textformat></font>",
+    "showPopUp": true,
+    "gradient": {
+        "credits": [
+            { "value": -1,        "color": "#F02828" },
+            { "value": 0,         "color": "#C1AC9C" },
+            { "value": 1,         "color": "#66CC66" }
+        ]
+    },
+     "palette" : {
+        "WN8": [
+		    { "value": 315,     "color": "#FE0E00" },
+            { "value": 760,     "color": "#FE7903" },
+		    { "value": 1325,    "color": "#F8F400" },
+		    { "value": 1980,    "color": "#60FF00" },
+		    { "value": 2570,    "color": "#02C9B3" },
+		    { "value": 9999,    "color": "#D042F3" }
+        ],
+        "XWN8": [
+            { "value": 16.5,    "color": "#FE0E00" },
+            { "value": 33.5,    "color": "#FE7903" },
+		    { "value": 52.5,    "color": "#F8F400" },
+		    { "value": 75.5,    "color": "#60FF00" },
+		    { "value": 92.5,    "color": "#02C9B3" },
+		    { "value": 999,     "color": "#D042F3" }
+        ],
+        "avgWinRate": [
+            { "value": 46.5,    "color": "#FE0E00" },
+            { "value": 48.5,    "color": "#FE7903" },
+		    { "value": 51.5,    "color": "#F8F400" },
+		    { "value": 56.5,    "color": "#60FF00" },
+		    { "value": 64.5,    "color": "#02C9B3" },
+		    { "value": 101,     "color": "#D042F3" }
+        ],
+        "gold": [
+            { "value": -1,      "color": "#F02828" },
+            { "value": 0,       "color": "#C1AC9C" },
+            { "value": 1,       "color": "#66CC66" }
+        ],
+        "credits": [
+            { "value": -1,      "color": "#F02828" },
+            { "value": 0,       "color": "#C1AC9C" },
+            { "value": 1,       "color": "#66CC66" }
+        ]
+    }
+}
