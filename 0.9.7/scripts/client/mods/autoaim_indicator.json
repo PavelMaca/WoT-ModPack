@@ -23,5 +23,6 @@
     "use_target_as_text": true,
     "no_snap_on_autoaim_off_E": true,
     "snappingDelay": 0.2,
-    "useDistanceBelowM": 0
+    "useDistanceBelowM": 0,
+    "debug": false
 }
