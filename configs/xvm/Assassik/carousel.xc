@@ -95,6 +95,17 @@
         },
         { "x": -2, "y": -1, "h": 100, "w": "164", "bgColor": "{{v.selected?#FFA759|#000000}}", "alpha": "{{v.selected?5|0}}" },
         {}
-    ]
+    ],
+    // Order of nations.
+    // Порядок наций.
+    //"nations_order": ["ussr", "germany", "usa", "france", "uk", "china", "japan"],
+    "nations_order": [],
+    // Order of types of vehicles.
+    // Порядок классов техники.
+    "types_order":   ["lightTank", "mediumTank", "heavyTank", "AT-SPG", "SPG"],
+    // Tank sorting criteria, available options: (minus = reverse order)
+    // Критерии сортировки танков, доступные значения: (минус = в обратном порядке)
+    // "nation", "type", "level", "maxBattleTier", "premium", "-level", "-maxBattleTier", "-premium"
+    "sorting_criteria": ["nation", "type", "level"]
   }
 }

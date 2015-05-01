@@ -13,13 +13,16 @@
   "enemySpottedMarker": {
     // Opacity percentage of spotted markers in the panels. 0 - transparent (disabled) ... 100 - opaque.
     // Прозрачность в процентах маркеров засвета в ушах. 0 - полностью прозрачные (отключены), 100 - не прозрачные.
-    "alpha": 100,
+    "alpha": "{{a:spotted}}",
     // x position.
     // положение по горизонтали.
     "x": -10,
     // y position.
     // положение по вертикали.
     "y": 0,
+    // Horizontal alignment
+    // Выравнивание по горизонтали
+    "align": "center",
     // true - x position is binded to vehicle icon, false - binded to edge of the screen.
     // true - положение по горизонтали отсчитывается от иконки танка, false - от края экрана.
     "bindToIcon": true,
@@ -96,6 +99,7 @@
           //   "format" - text format (macros allowed)
           //
           // fields available for both MovieClip and TextField formats:
+          //   "enabled" - enable/disable field creation (global macros allowed)
           //   "x" - x position (macros allowed)
           //   "y" - y position (macros allowed)
           //   "w" - width (macros allowed)
