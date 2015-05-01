@@ -99,6 +99,13 @@
 					contextmenu
 					scrollBtn</groups>
       </tabCtl>
+      <numericStepper>
+        <sounds>
+          <limit>/fortified_area/gui/transport_constrain</limit>
+        </sounds>
+        <groups>
+        </groups>
+      </numericStepper>
       <rendererNormal>
         <sounds>
           <over>/GUI/buttons/highlight</over>
@@ -142,7 +149,9 @@
 					intendancy_building
 					finance_building
 					car_building
-					office_building</groups>
+					office_building
+					artillery_building
+					bomber_building</groups>
       </fort_building>
     </schemas>
     <overrides>
@@ -150,7 +159,6 @@
   </controls>
   <effects>
     <spend_credits>/GUI/buttons/coins</spend_credits>
-    <transport_constrain>/fortified_area/gui/transport_constrain</transport_constrain>
     <transport_enter>/fortified_area/gui/transport_enter</transport_enter>
     <transport_exit>/fortified_area/gui/transport_exit</transport_exit>
     <transport_first_step>/fortified_area/gui/transport_first_step</transport_first_step>
@@ -198,6 +206,8 @@
     <finance_building_endPrcBld>/fortified_area/gui/bulding_end_general</finance_building_endPrcBld>
     <car_building_endPrcBld>/fortified_area/gui/bulding_end_general</car_building_endPrcBld>
     <office_building_endPrcBld>/fortified_area/gui/bulding_end_general</office_building_endPrcBld>
+    <artillery_building_endPrcBld>/fortified_area/gui/bulding_end_general</artillery_building_endPrcBld>
+    <bomber_building_endPrcBld>/fortified_area/gui/bulding_end_general</bomber_building_endPrcBld>
     <sound_mode_preview01>/ingame_voice/notifications_VO/enemy_hp_damaged_by_projectile_by_player</sound_mode_preview01>
     <sound_mode_preview02>/ingame_voice/notifications_VO/enemy_killed_by_player</sound_mode_preview02>
     <sound_mode_preview03>/ingame_voice/notifications_VO/enemy_fire_started_by_player</sound_mode_preview03>
@@ -206,5 +216,6 @@
     <cs_animation_division_up>/GUI/notifications_FX/division_up</cs_animation_division_up>
     <cs_animation_division_down>/GUI/notifications_FX/division_down</cs_animation_division_down>
     <cs_animation_division_up_alt>/GUI/notifications_FX/division_up</cs_animation_division_up_alt>
+    <rody_dog>/rudy/dog/dog</rody_dog>
   </effects>
 </gui_sounds.xml>
