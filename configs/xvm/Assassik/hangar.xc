@@ -7,21 +7,27 @@
     // true - Show XWN8 instead of XEFF in company windows
     // true - показывать XWN8 вместо XEFF в окнах рот
     "xwnInCompany": true,
-    // true - Show mastery mark in tech tree
-    // true - Показывать знак мастерства в дереве исследований
-    "masteryMarkInTechTree": true,
+    // true - enable locker for gold
+    // true - включить замок для золота
+    "enableGoldLocker": false,
+    // true - enable locker for free XP
+    // true - включить замок для свободного опыта
+    "enableFreeXpLocker": false,
+    // true - Use credits instead of gold as default currency for ammo and equipment
+    // true - Использовать кредиты, а не золото как валюту по умолчанию для снарядов и снаряжения
+    "defaultBoughtForCredits": false,
     // true - Hide price button in tech tree
     // true - Прятать кнопку с ценой в дереве исследований
     "hidePricesInTechTree": false,
+    // true - Show mastery mark in tech tree
+    // true - Показывать знак мастерства в дереве исследований
+    "masteryMarkInTechTree": true,
     // true - Allow to consider the exchange of experience with gold in tech tree
-    // true - Разрешить учитывать обмен опыта за голду в дереве исследований
+    // true - Разрешить учитывать обмен опыта за золото в дереве исследований
     "allowExchangeXPInTechTree": true,
-    // true - Automatically return previous crew upon vehicle change
-    // true - Автоматически возвращать предыдущий экипаж при смене танка
-    "autoPutPreviousCrewInTanks": false,
-    // true - Show shooting range of artillery and machine guns in carousel and techtree tooltips
-    // true - Показывать дальность стрельбы артиллерии и пулеметов в всплывающих подсказках карусели и дерева исследований
-    "showShootRangeTooltip": false,
+    // true - enable crew auto return function
+    // true - включить функцию автовозврата экипажа
+    "enableCrewAutoReturn": true,
     // true - Enable widgets
     // true - включить виджеты
     "widgetsEnabled": false,
@@ -99,6 +105,19 @@
         "blur": 4,
         "strength": 2
       }
+    },
+    // Show/hide server info or change its parameters
+    // Показать/спрятать информацию о сервере, или изменить ее параметры
+    "serverInfo": {
+      // Show server info in hangar.
+      // Показывать информацию о сервере в ангаре.
+      "enabled": true,
+      // Transparency in percents [0..100].
+      // Прозрачность в процентах [0..100].
+      "alpha": 100,
+      // Rotation in degrees [0..360].
+      // Угол поворота в градусах [0..360].
+      "rotation": 0
     },
     // Parameters for tank carousel
     // Параметры карусели танков
