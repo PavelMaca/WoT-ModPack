@@ -58,7 +58,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "01.05.2015",
+    "date": "02.05.2015",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -135,7 +135,7 @@
 
   // Over-target markers.
   // Маркеры над танками.
-  "markers": ${"markers/markers.xc":"markers"},
+  "markers": ${"markers.xc":"markers"},
 
   // Color settings.
   // Настройки цветов.

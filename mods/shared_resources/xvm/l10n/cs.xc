@@ -146,6 +146,8 @@
     "Hide with honors": "Skýt s vyznamenáním",
     "XVM config reloaded": "Konfigurace XVM byla znovu načtena",
     "Config file xvm.xc was not found, using the built-in config": "Konfigurační soubor xvm.xc nenalezen, bude použita zabudovaná konfigurace",
-    "Error loading XVM config": "Chyba v nahrávání konfigurace XVM"
+    "Error loading XVM config": "Chyba v nahrávání konfigurace XVM",
+    "pitchLimits": "Svislé omezení pohybu děla (stupňů)",
+    "traverseLimits": "Vodorovné omezení pohybu děla (stupňů)"
   }
 }

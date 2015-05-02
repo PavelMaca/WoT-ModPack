@@ -9,13 +9,13 @@
     "xwnInCompany": true,
     // true - enable locker for gold
     // true - включить замок для золота
-    "enableGoldLocker": false,
+    "enableGoldLocker": true,
     // true - enable locker for free XP
     // true - включить замок для свободного опыта
-    "enableFreeXpLocker": false,
+    "enableFreeXpLocker": true,
     // true - Use credits instead of gold as default currency for ammo and equipment
     // true - Использовать кредиты, а не золото как валюту по умолчанию для снарядов и снаряжения
-    "defaultBoughtForCredits": false,
+    "defaultBoughtForCredits": true,
     // true - Hide price button in tech tree
     // true - Прятать кнопку с ценой в дереве исследований
     "hidePricesInTechTree": false,

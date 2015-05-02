@@ -24,8 +24,8 @@
 			"normal": {
 				"$ref": { "path":"sectionTemplate" },
 				"textFields": [
-					${"textFields.xc":"tankName"},
-					${"textFields.xc":"tankHp"}
+					${"markers.textFields.xc":"tankName"},
+					${"markers.textFields.xc":"tankHp"}
 				]
 			},
 			// alive - alternative mode (pressing 'Alt')
@@ -36,9 +36,9 @@
 					"visible": true
 				},
 				"textFields": [
-					${"textFields.xc":"playerName"},
-					${"textFields.xc":"remainHp"},
-					${"textFields.xc":"globalWinRate"}
+					${"markers.textFields.xc":"playerName"},
+					${"markers.textFields.xc":"remainHp"},
+					${"markers.textFields.xc":"globalWinRate"}
 				]
 			}
 		},
@@ -60,8 +60,8 @@
 					"visible": false
 				},
 				"textFields": [
-					${"textFields.xc":"playerName"},
-					${"textFields.xc":"tankNameDead"}
+					${"markers.textFields.xc":"playerName"},
+					${"markers.textFields.xc":"tankNameDead"}
 				]
 			}
 		}
@@ -74,7 +74,7 @@
 		"damageTextPlayer": ${"def.damageText"},
 		"damageTextSquadman": ${"def.damageText"},
 		"contourIcon": ${"def.contourIcon"},
-		"clanIcon": ${"../defines.xc":"clanIcon"},
+		"clanIcon": ${"defines.xc":"clanIcon"},
 		"levelIcon": ${"def.levelIcon"},
 		"actionMarker": ${"def.actionMarker"}
 	},
