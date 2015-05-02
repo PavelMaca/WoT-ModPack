@@ -24,9 +24,9 @@
     "<textformat tabstops='[105]'><font size='13' color='#F0DDB9'><b>Celkem: <font color='{{c:credits}}'>{{credits}}</font> <img src='img://gui/maps/icons/library/Crab_stats/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'><tab>WN8: <font color='{{c:WN8}}'>{{WN8}}</font> <font color='{{c:XWN8}}'>({{XWN8}})</font></b></font></textformat>"
         ],
     "overwriteBattleResultBgIcon": false,
-    "bgIconDefeat": "../../scripts/client/mods/Defeat.png",
-    "bgIconDraw": "../../scripts/client/mods/Draw.png",
-    "bgIconWin": "../../scripts/client/mods/Win.png",
+    "bgIconDefeat": "../../scripts/client/mods/wotstat/img/Defeat.png",
+    "bgIconDraw": "../../scripts/client/mods/wotstat/img/Draw.png",
+    "bgIconWin": "../../scripts/client/mods/wotstat/img/Win.png",
     "hideMessagePatterns": [
         "Už 30 dnů jste si nezměnili heslo.",
         "telefonní číslo",
@@ -89,11 +89,11 @@
     },
      "palette" : {
         "WN8": [
-		    { "value": 315,     "color": "#FE0E00" },
-            { "value": 760,     "color": "#FE7903" },
-		    { "value": 1325,    "color": "#F8F400" },
-		    { "value": 1980,    "color": "#60FF00" },
-		    { "value": 2570,    "color": "#02C9B3" },
+		    { "value": 360,     "color": "#FE0E00" },
+            { "value": 825,     "color": "#FE7903" },
+		    { "value": 1385,    "color": "#F8F400" },
+		    { "value": 2055,    "color": "#60FF00" },
+		    { "value": 2675,    "color": "#02C9B3" },
 		    { "value": 9999,    "color": "#D042F3" }
         ],
         "XWN8": [
