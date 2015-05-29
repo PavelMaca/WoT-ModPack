@@ -4,6 +4,7 @@
 		<debug>	false	</debug>
 		<hangar_crew_info>	true	</hangar_crew_info>
 		<barracks_crew_info>	true	</barracks_crew_info>
+		<basic_training_level>	false	</basic_training_level>
 		<language>	OTHER	</language>
 		<hint>	support language RU,EN,DE,OTHER	</hint>
 	</setup>
