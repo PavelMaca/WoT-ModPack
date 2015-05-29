@@ -1,6 +1,6 @@
 ﻿<?xml version = "1.0" encoding = "utf-8"?>
 
-<!-- 0.9.7 v.2 Damage Panel by GambitER -->
+<!-- 0.9.7 v.1 Damage Panel by GambitER -->
 
 <damagePanel>
 
@@ -274,21 +274,6 @@
         </configFuelTank>
 		
 	</configCtrl> 
-	
-	<!-- Координаты элементов интерфейса -->
-    <configElem>
-		
-        <!-- Панель -->
-        <configDamagePanel>
-            <location x = "0" y = "-230"/> <!-- x, y, - координаты расположения элемента относительно левого нижнего края экрана -->
-        </configDamagePanel>  
-		
-        <!-- Чат -->
-        <configMessenger>
-            <location x = "0" y = "-625"/> <!-- x, y, - координаты расположения элемента относительно левого нижнего края экрана -->
-        </configMessenger>
-		
-	</configElem> 
 	
 </damagePanel>
 
