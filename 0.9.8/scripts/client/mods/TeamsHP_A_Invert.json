@@ -1,7 +1,7 @@
 {
 	"damage" : {
-		"enable" : true, // показывать нанеснный урон
-		"piersiedHits" : true // показывать количество пробитий
+		"enable" : false, // показывать нанеснный урон
+		"piersiedHits" : false // показывать количество пробитий
 	},
 	"hpBar" : {
 		"prebattleTeamNames" : false, // показывать название команд при отсчете
