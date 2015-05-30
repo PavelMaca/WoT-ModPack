@@ -42,9 +42,6 @@
     // Opacity percentage of icons in the panels. 0 - transparent ... 100 - opaque.
     // Прозрачность в процентах иконок в ушах. 0 - прозрачные, 100 - не прозрачные.
     "iconAlpha": 100,
-    // true - Disable Platoon icons.
-    // true - убрать отображение иконки взвода.
-    "removeSquadIcon": false,
     // true - disable background of the selected player.
     // true - убрать подложку выбранного игрока.
     "removeSelectedBackground": false,
@@ -153,8 +150,11 @@
       // Minimum width of the column, 0-250. Default is 0.
       // Минимальная ширина поля, 0-250. По умолчанию: 0.
       "width": 0,
-      // Display format for frags (macros allowed, see readme-en.txt).
-      // Формат отображения фрагов (допускаются макроподстановки, см. readme-ru.txt).
+      // true - disable platoon icons
+      // true - убрать отображение иконок взвода
+      "removeSquadIcon": false,
+      // Display format for frags (macros allowed, see macros.txt).
+      // Формат отображения фрагов (допускаются макроподстановки, см. macros.txt).
       "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
@@ -178,14 +178,17 @@
       // Minimum width of the player's name column, 0-250. Default is 46.
       // Минимальная ширина поля имени игрока, 0-250. По умолчанию: 46.
       "width": 46,
-      // Display format for the left panel (macros allowed, see readme-en.txt).
-      // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
+      // true - disable platoon icons
+      // true - убрать отображение иконок взвода
+      "removeSquadIcon": false,
+      // Display format for the left panel (macros allowed, see macros.txt).
+      // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
       "formatLeft": ${"def.nick"},
-      // Display format for the right panel (macros allowed, see readme-en.txt).
-      // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
+      // Display format for the right panel (macros allowed, see macros.txt).
+      // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
       "formatRight": ${"def.nick"},
-      // Display format for frags (macros allowed, see readme-en.txt).
-      // Формат отображения фрагов (допускаются макроподстановки, см. readme-ru.txt).
+      // Display format for frags (macros allowed, see macros.txt).
+      // Формат отображения фрагов (допускаются макроподстановки, см. macros.txt).
       "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
@@ -209,14 +212,17 @@
       // Maximum width of the vehicle name column, 0-250. Default is 65.
       // Максимальная ширина поля названия танка, 0-250. По умолчанию: 65.
       "width": 65,
-      // Display format for the left panel (macros allowed, see readme-en.txt).
-      // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
+      // true - disable platoon icons
+      // true - убрать отображение иконок взвода
+      "removeSquadIcon": false,
+      // Display format for the left panel (macros allowed, see macros.txt).
+      // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
       "formatLeft": ${"def.vehicle"},
-      // Display format for the right panel (macros allowed, see readme-en.txt).
-      // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatRight":  ${"def.vehicle"},
-      // Display format for frags (macros allowed, see readme-en.txt).
-      // Формат отображения фрагов (допускаются макроподстановки, см. readme-ru.txt).
+      // Display format for the right panel (macros allowed, see macros.txt).
+      // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
+      "formatRight": ${"def.vehicle"},
+      // Display format for frags (macros allowed, see macros.txt).
+      // Формат отображения фрагов (допускаются макроподстановки, см. macros.txt).
       "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
@@ -240,16 +246,19 @@
       // Minimum width of the player's name column, 0-250. Default is 170.
       // Минимальная ширина поля имени игрока, 0-250. По умолчанию: 170.
       "width": 125,
-      // Display format for player nickname (macros allowed, see readme-en.txt).
-      // Формат отображения имени игрока (допускаются макроподстановки, см. readme-ru.txt).
+      // true - disable platoon icons
+      // true - убрать отображение иконок взвода
+      "removeSquadIcon": false,
+      // Display format for player nickname (macros allowed, see macros.txt).
+      // Формат отображения имени игрока (допускаются макроподстановки, см. macros.txt).
       "nickFormatLeft": ${"def.nick"},
       "nickFormatRight": ${"def.nick"},
-      // Display format for vehicle name (macros allowed, see readme-en.txt).
-      // Формат отображения названия танка (допускаются макроподстановки, см. readme-ru.txt).
+      // Display format for vehicle name (macros allowed, see macros.txt).
+      // Формат отображения названия танка (допускаются макроподстановки, см. macros.txt).
       "vehicleFormatLeft": ${"def.vehicle"},
       "vehicleFormatRight": ${"def.vehicle"},
-      // Display format for frags (macros allowed, see readme-en.txt).
-      // Формат отображения фрагов (допускаются макроподстановки, см. readme-ru.txt).
+      // Display format for frags (macros allowed, see macros.txt).
+      // Формат отображения фрагов (допускаются макроподстановки, см. macros.txt).
       "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
