@@ -19,7 +19,7 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
-  "configVersion": "5.1.0",
+  "configVersion": "6.0.0",
 
   // automatically reload config. Can reduce performance.
   // автоматически перезагружать конфиг. Может понизить производительность.
@@ -30,7 +30,7 @@
   // or specify file name located in res_mods/mods/shared_resources/xvm/l10n/ (ex: "en")
   // Используемый язык в моде
   // "auto" - автоматически определять язык клиента игры,
-  // или укажите имя файла в папке res_mods/xvm/l10n/ (например, "en")
+  // или укажите имя файла в папке res_mods/mods/shared_resources/xvm/l10n/ (например, "en")
   "language": "cs",
 
   // Game Region
@@ -58,15 +58,15 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "02.05.2015",
+    "date": "30.05.2015",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.9.7",
+    "gameVersion": "0.9.8",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "6.1.0"
+    "modMinVersion": "6.1.2"
   },
 
   // Parameters for login screen.

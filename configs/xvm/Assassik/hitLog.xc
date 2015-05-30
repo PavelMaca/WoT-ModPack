@@ -26,8 +26,8 @@
         // Header - Only localization macros are allowed, see readme-en.txt.
         // Заголовок - допускаются только макросы перевода, см. readme-ru.txt.
         "header": "<font color='#FFFFFF'>{{l10n:hpLeftTitle}}</font>",
-        // Row in HP list (macros allowed, see readme-en.txt).
-        // Строка в списке попаданий (допускаются макроподстановки, см. readme-ru.txt)
+        // Row in HP list (macros allowed, see macros.txt).
+        // Строка в списке попаданий (допускаются макроподстановки, см. macros.txt)
         "format": "<textformat tabstops='[40,110]'><font color='{{c:hp-ratio}}'>{{hp}}</font><tab> <font color='{{c:vtype}}'>{{vehicle}}<tab> <font size='12'>{{nick}}</font></font></textformat>"
     },
 
@@ -62,11 +62,11 @@
     // Default header format (before first hit). Only localization macros are allowed, see readme-en.txt.
     // Формат заголовка по умолчанию (до первого попадания). Допускаются только макросы перевода, см. readme-ru.txt.
     "defaultHeader":  "<font color='#FFFFFF'>{{l10n:Hits}}:</font> <font size='13'>#0</font>",
-    // Hits header format, including last hit (macros allowed, see readme-en.txt).
-    // Формат заголовка (допускаются макроподстановки, см. readme-ru.txt).
+    // Hits header format, including last hit (macros allowed, see macros.txt).
+    // Формат заголовка (допускаются макроподстановки, см. macros.txt).
     "formatHeader":  "<font color='#FFFFFF'>{{l10n:Hits}}:</font> <font size='13'>{{n}}</font> | <font color='#FFFFFF'>{{l10n:Total}}:</font> <b>{{dmg-total}}</b> | <font color='#FFFFFF'>{{l10n:Last}}:</font> <font color='{{c:dmg-kind}}'><b>{{dmg}}</b> {{dead}}</font>",
-    // List of hits format (macros allowed, see readme-en.txt).
-    // Формат лога попаданий (допускаются макроподстановки, см. readme-ru.txt)
+    // List of hits format (macros allowed, see macros.txt).
+    // Формат лога попаданий (допускаются макроподстановки, см. macros.txt)
     "formatHistory": "<textformat tabstops='[18,70,135,205]'><font size='12'>×{{n-player}}<tab>&nbsp;<font color='{{c:dmg-kind}}'>{{dmg-kind}}</font><tab>&nbsp;<font color='{{c:dmg-kind}}'>-{{dmg}}</font>&nbsp;</font>({{dmg-player}})<tab>&nbsp;<font color='{{c:vtype}}'>{{vehicle}}<tab>&nbsp;<font size='12'>{{nick}}</font>&nbsp;{{dead}}</font></textformat>",
     // Shadow options.
     // Параметры тени.
