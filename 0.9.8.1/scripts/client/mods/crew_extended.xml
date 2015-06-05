@@ -20,10 +20,10 @@
 		<txt_barracks_firstname>	{firstname}	</txt_barracks_firstname>
 		<txt_barracks_lastname>	{lastname}	</txt_barracks_lastname>
 		<txt_barracks_rank>	{rank}	</txt_barracks_rank>
-		<txt_barracks_colored_role>	{role}	</txt_barracks_colored_role>
+		<txt_barracks_colored_role>	{skillicons}{role}	</txt_barracks_colored_role>
 		<txt_barracks_colored_vehicleType>	{vehicleType}	</txt_barracks_colored_vehicleType>
 		<txt_barracks_lockMessage>	{lockMessage}	</txt_barracks_lockMessage>
-		<hint>	support macros in txt: {skillicons},{lockMessage},{training-level},{firstname},{lastname},{rank},{exp-total},{training-battles},{training-progress},{role},{CurExp},{vehicleType},{exp-step},{exp-step-battles},{exp-extra-level},{exp-free},{skillsCnt},{lastSkillLevel},{nxtskillvlv},{training-level-int},{exp-total-int},{training-battles-int},{nxtskillvlv-int},{skillsCnt-int},{training-progress-int}, {CurExp-int},{exp-step-int}, {exp-step-battles-int},{exp-extra-level-int},{exp-free-int},{lastSkillLevel-int}	</hint>
+		<hint>	support macros in txt: {skillicons},{lockMessage},{training-level},{basic-training-level},{firstname},{lastname},{rank},{exp-total},{training-battles},{training-progress},{role},{CurExp},{vehicleType},{exp-step},{exp-step-battles},{exp-extra-level},{exp-free},{skillsCnt},{lastSkillLevel},{nxtskillvlv},{training-level-int},{exp-total-int},{training-battles-int},{nxtskillvlv-int},{skillsCnt-int},{training-progress-int}, {CurExp-int},{exp-step-int}, {exp-step-battles-int},{exp-extra-level-int},{exp-free-int},{lastSkillLevel-int}	</hint>
 	</barracks_crew_info>
 	<other_language>
 		<txt_premium_bonus_on>	Koeficient XP posádky za prémiový tank	</txt_premium_bonus_on>		<txt_premium_bonus_off></txt_premium_bonus_off>
