@@ -19,8 +19,8 @@
 	<barracks_crew_info>
 		<txt_barracks_firstname>	{firstname}	</txt_barracks_firstname>
 		<txt_barracks_lastname>	{lastname}	</txt_barracks_lastname>
-		<txt_barracks_rank>	{role}	</txt_barracks_rank>
-		<txt_barracks_colored_role>	<![CDATA[{exp-total}</img><img src="img://gui/maps/icons/library/multyXp.png" width="15" height="15" >{role}]]>	</txt_barracks_colored_role>
+		<txt_barracks_rank>	{rank}	</txt_barracks_rank>
+		<txt_barracks_colored_role>	{role}	</txt_barracks_colored_role>
 		<txt_barracks_colored_vehicleType>	{vehicleType}	</txt_barracks_colored_vehicleType>
 		<txt_barracks_lockMessage>	{lockMessage}	</txt_barracks_lockMessage>
 		<hint>	support macros in txt: {skillicons},{lockMessage},{training-level},{firstname},{lastname},{rank},{exp-total},{training-battles},{training-progress},{role},{CurExp},{vehicleType},{exp-step},{exp-step-battles},{exp-extra-level},{exp-free},{skillsCnt},{lastSkillLevel},{nxtskillvlv},{training-level-int},{exp-total-int},{training-battles-int},{nxtskillvlv-int},{skillsCnt-int},{training-progress-int}, {CurExp-int},{exp-step-int}, {exp-step-battles-int},{exp-extra-level-int},{exp-free-int},{lastSkillLevel-int}	</hint>
