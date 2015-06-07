@@ -216,6 +216,7 @@
     <cs_animation_division_up>/GUI/notifications_FX/division_up</cs_animation_division_up>
     <cs_animation_division_down>/GUI/notifications_FX/division_down</cs_animation_division_down>
     <cs_animation_division_up_alt>/GUI/notifications_FX/division_up</cs_animation_division_up_alt>
+    <dyn_squad_starting_dynamic_platoon>/GUI/dynamic_platoon/starting_dynamic_platoon</dyn_squad_starting_dynamic_platoon>
     <rody_dog>/rudy/dog/dog</rody_dog>
   </effects>
 </gui_sounds.xml>
