@@ -17,6 +17,7 @@
     "max_characters": 15,
     "no_snap_on_autoaim_off_E": true,
     "snap_to_nearest": true,
+    "snap_continously": false,
     "snappingDelay": 0.2,
     "snapping_angle_degrees": 5.0,
     "toggleKeyCode": 0,
@@ -25,5 +26,9 @@
     "toggledOnMsg": "<font color='#00FF00'>Autoaim indicator/snapping turned ON</font>",
     "useDistanceBelowM": 0,
     "use_target_as_text": true,
-    "follow_me_snapping": true
+    "follow_me_snapping": true,
+    "addon-auto_announce_reload": {
+        "clip_reload": false,
+        "reload_longer_than": 0
+    }
 }
