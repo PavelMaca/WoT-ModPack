@@ -8,10 +8,10 @@
     "lang": "cs",
     "cs": {
         "msg": "<textformat leading='1'><font size='14' color='#7fd47f'>Možnost vyzkoumat:</font></textformat>",
-        "msgItem": "<textformat tabstops='[165]'><font color='#f3f2e8'>%(item)s</font><tab><font face='Wingdings' color='#3abf59'><b>ü</b></font><br><font face='Arial Unicode MS'>\u21b3</font> <font size='12'>%(itemTypeName)s</font></textformat>",
+        "msgItem": "<textformat tabstops='[155]'><font color='#f3f2e8'>%(item)s</font><tab><font face='Wingdings' color='#3abf59'><b>ü</b></font><br><font face='Arial Unicode MS'>\u21b3</font> <font size='12'>%(itemTypeName)s</font></textformat>",
         "warnIfEliteAndNoCrewAcc": "<font color='#F7BB0D'>Zrychlený výcvik posádky je dostupný!</font>",
         "notifyOfLockedModulesMsg": "<textformat leading='1'><font size='14' color='#e7b232'>Zbývá vyzkoumat:</font></textformat>",
-        "notifyOfLockedModulesMsgItem": "<textformat tabstops='[165]'><font color='#a3a295'>%(item)s</font><tab><font color='#d99b24'>%(xp)s</font><img src='img://scripts/client/mods/watchdog/research_watchdog-XpIcon.png' width='16' height='16' align='baseline' vspace='-2'><br><font face='Arial Unicode MS'>\u21b3</font> <font size='12'>%(itemTypeName)s</font></font></textformat>",
+        "notifyOfLockedModulesMsgItem": "<textformat tabstops='[155]'><font color='#a3a295'>%(item)s</font><tab><font color='#d99b24'>%(xp)s</font><img src='img://scripts/client/mods/watchdog/research_watchdog-XpIcon.png' width='16' height='16' align='baseline' vspace='-2'><br><font face='Arial Unicode MS'>\u21b3</font> <font size='12'>%(itemTypeName)s</font></font></textformat>",
         "itemTypeNames": ["rezervováno", "vozidlo", "podvozek", "věž", "dělo", "motor", "palivová nádž", "rádio", "tankista", "volitelné", "munice", "vybavení"]
     }
 }
