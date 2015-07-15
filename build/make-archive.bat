@@ -4,8 +4,8 @@ REM FIX: Post-Build Command are executed from /project dir
 CD ../
 
 REM set variables
-SET game_varsion=0.9.8.1
-SET mod_version=1.6
+SET game_varsion=0.9.9
+SET mod_version=0.1
 SET output_file="%game_varsion%.Assassik.modpack.v%mod_version%.rar"
 SET input_files=%game_varsion% configs mods
 
