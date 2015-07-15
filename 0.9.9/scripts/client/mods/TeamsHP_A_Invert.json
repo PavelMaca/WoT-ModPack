@@ -5,9 +5,9 @@
 		// Основной переключатель, значение false отключит так же piersiedHits и damagePercent
 		"enable" : false,
 		// true - показывать процент нанесенного урона, false - скрыть (Эксперементально)
-		"damagePercent" : false,
+		"damagePercent" : true,
 		// true - показывать количество пробитий, false - скрыть
-		"piersiedHits" : false
+		"piersiedHits" : true
 
 	},
 	"hpBar" : {
@@ -37,7 +37,5 @@
 		"enemyHpBarColor" : "#F30900",
 		// цвет полос противника (режим цветовой слепоты), дефолт #6F6CD3
 		"enemyHpBarColorBlind" : "#6F6CD3"
-	},
-	// Отключить надписи о динамических взводах
-	"disable_dynamic_squad_anoncer": true
+	}
 }
