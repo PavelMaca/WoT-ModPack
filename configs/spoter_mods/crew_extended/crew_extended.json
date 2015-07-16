@@ -1,0 +1,74 @@
+{
+#Секция "language", описывающая Базовые настройки мода
+    "config": {
+        "debug": false,			#Включить\Отключить Отладочные сообщения, может вызывать замедление работы
+        "enable": true,			#Включить\Отключить мод
+        "hangar_crew": true,	#Включить\Отключить показ данных мода в ангарных ушах
+        "barracks_crew": false,	#Включить\Отключить показ даных мода в казарме
+        "language": "cz"	#Переключение языка мода, данные берутся из секции "language" текущего конфига
+    },
+#Секция "language", описывающая языковые и интерфейсные настройки мода
+#Можно добавлять свои собственные языки\интерфейсы
+#In section "language" you may add custom language, or change current
+#Доступные макросы в языковой секции ("hangar_crew" и "barracks_crew" разделы)
+#Avaliable macroses in "language" section ("hangar_crew" and "barracks_crew" sub-sections):
+#{skillicons} : (only in "barracks_crew") иконки умений
+#{training-level} : текущий уровень умений без бонусов
+#{basic-training-level} : текущий уровень умений с бонусами
+#{firstname} : Имя
+#{lastname} : Фамилия
+#{rank} : Звание
+#{exp-total} : общее количество опыта до следующего скилла (округляется)
+#{training-battles} : количество боёв до следующего скилла, с учетом прем-статуса (округляется)
+#{nxtskillvlv} : Следующий доступный уровень умения
+#{skillsCnt} : текущее количество умений
+#{training-progress} : текущий уровень изучаемого на данный момент умения
+#{role} : Должность
+#{curexp} : набраный опыт
+#{vehicleType} : класс техники
+#{exp-step} : количество опыта до следующего уровня изучаемого умения
+#{exp-step-battles} : количество боёв до следующего уровня умения, с учетом прем-статуса (округляется)
+#{exp-free} : свободный, не распределенный опыт
+#{lastSkillLevel} :  текущий уровень умения
+
+
+
+    "language": {
+        "cz": { 			
+            "barracks_crew": {
+                "firstname_string": "{firstname}",
+                "lastname_string": "{lastname}",
+                "rank_string": "{role}",
+                "role_string": "{skillicons}{training-progress}%",
+                "vehicletype_string": "{vehicleType}"
+            },
+            "hangar_crew": {
+                "firstname_string": "{firstname}",
+                "lastname_string": "{lastname}",
+                "rank_string": "{rank}",
+                "role_string": "{exp-total}</img><img src="img://gui/maps/icons/library/multyXp.png" width="15" height="15" >{role}]",
+                "vehicletype_string": "{vehicleType}"
+            },
+            "ordinator": {
+                "1": "st",
+                "2": "nd",
+                "3": "rd",
+                "none": "th"
+            },
+            "personal_file": {
+                "basic_skill": "Výcvik",
+                "premium_bonus_off": "",
+                "premium_bonus_on": "Koeficient XP posádky za prémiový tank",
+                "relearn": "Přeškolení za kredity",
+                "relearn_need": "potřebuje:",
+                "relearn_notready": "není připraveno!",
+                "relearn_ready": "připraveno!",
+                "skill_number": "Skill",
+                "skilldrop": "Nová schopnost po zrušení",
+                "skilldrop_ready": "Zrušení shopnosti za kredity připraveno!",
+                "value_to": "do"
+            }
+        },	
+       
+    }
+}
