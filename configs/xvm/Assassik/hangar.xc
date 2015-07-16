@@ -55,7 +55,7 @@
       // Axis field coordinates
       // Положение поля по осям
       "x": 450,
-      "y": 5,
+      "y": 7,
       // Horizontal alignment of field at screen ("left", "center", "right").
       // Горизонтальное выравнивание поля на экране ("left", "center", "right").
       "hAlign": "left",
@@ -82,7 +82,7 @@
       "topmost": true,
       // true - show title "Ping"
       // true - показывать заголовок "Пинг"
-      "showTitle": true,
+      "showTitle": false,
       // Text style
       // Стиль текста
       "fontStyle": {
