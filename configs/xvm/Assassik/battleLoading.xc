@@ -16,10 +16,10 @@
     "removeSquadIcon": false,
 	// true - disable vehicle level indicator.
     // true - убрать отображение уровня танка.
-    "removeVehicleLevel": false,
+    "removeVehicleLevel": true,
     // true - disable vehicle type icon. This space will be used for formatted vehicle field.
     // true - убрать отображение типа танка. Пустое место будет использовано под форматируемое поле.
-    "removeVehicleTypeIcon": false,
+    "removeVehicleTypeIcon": true,
     // X offset for allies squad icons
     // Cмещение по оси X значка взвода для союзников
     "squadIconOffsetXLeft": 0,
