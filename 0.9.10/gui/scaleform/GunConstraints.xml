@@ -1,45 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <gc>
 
-	<!-- Автор: Shtys -->
+	<!-- Autor: Shtys -->
+	<!-- Editor: J1mB091 -->
 	
-	<!-- Настройка аркадного режима -->
+	<!-- Arcade mode settings -->
 	<arcade>
-		<visible td="true" spg="true" center="false"/> <!-- Видимость маркеров, true/false - включено/выключено. td - УГН для ПТ-САУ. spg - УГН для Арт-САУ. center - видимость центрального маркера. -->
-		<offset constraints="1" center="1"/> <!-- constraints - смещение по вертикали граничных маркеров, "+" вниз, "-" вверх. center - смещение по вертикали центрального маркера, "+" вниз, "-" вверх -->
-		<stat scale="20"/> <!-- scale - количество пикселей в градусе -->
+		<visible td="true" spg="true" center="true"/>
+		<offset constraints="-81" center="-60"/>
+		<stat scale="20"/>
 	</arcade>
 	
-	<!-- Настройка снайперского режима -->
+	<!-- Sniper mode settings -->
 	<sniper>
-		<visible td="true" spg="true" center="false"/> <!-- Видимость маркеров, true/false - включено/выключено. td - УГН для ПТ-САУ. spg - УГН для Арт-САУ. center - видимость центрального маркера. -->
-		<offset constraints="76" center="76"/> <!-- constraints - смещение по вертикали граничных маркеров, "+" вниз, "-" вверх. center - смещение по вертикали центрального маркера, "+" вниз, "-" вверх -->
-		<real enabled="true" scale="18"/> <!-- enabled - включение режима реальных УГН, true/false - включено/выключено. scale - количество пикселей в градусе для режима реальных УГН -->
-		<stat scale="20"/> <!-- scale - количество пикселей в градусе, используется при выключеном режиме реальных УГН -->
+		<visible td="true" spg="false" center="true"/>
+		<offset constraints="5" center="20"/>
+		<real enabled="true" scale="18"/>
+		<stat scale="20"/>
 	</sniper>
 	
-	<!-- Настройка артиллерийского режима -->
+	<!-- Artillery mode settings -->
 	<strategic>
-		<visible td="true" spg="true" center="false"/> <!-- Видимость маркеров, true/false - включено/выключено. td - УГН для ПТ-САУ. spg - УГН для Арт-САУ. center - видимость центрального маркера. -->
-		<offset constraints="0" center="0"/> <!-- constraints - смещение по вертикали граничных маркеров, "+" вниз, "-" вверх. center - смещение по вертикали центрального маркера, "+" вниз, "-" вверх -->
-		<real enabled="true" scale="8.5"/> <!-- enabled - включение режима реальных УГН, true/false - включено/выключено. scale - количество пикселей в метре для режима реальных УГН -->
-		<stat scale="20"/> <!-- scale - количество пикселей в градусе, используется при выключеном режиме реальных УГН -->
+		<visible td="false" spg="true" center="true"/>
+		<offset constraints="0" center="20"/>
+		<real enabled="false" scale="8.5"/>
+		<stat scale="20"/>
 	</strategic>
 	
-	<!-- Настройка граничных маркеров -->
+	<!-- Side markers settings -->
 	<constraints>
-		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
-		<color normal="0x96FF00" critical="0xFF0000"/> <!-- normal - цвет нормального маркера. critical - цвет граничного маркера. Чтобы цвет не применялся удалите его код -->
-		<scale x="100" y="100"/> <!-- x, y - масштаб элемента в процентах. 100 - оригинальный размер -->
-		<type>1</type> <!-- Тип маркеров. 1 - углы > <, 2 - прямоугольные скобки ] [, 3 - дамоклов меч, 4 - круглые скобки ( ), 5 - octagon -->
+		<filter size="4" angle="0" distance="0" color="0x000000" alpha="100" strength="100"/>
+		<color normal="0x76CA08" critical="0xF71408"/>
+		<scale x="100" y="100"/>
+		<type>1</type>
 	</constraints>
 	
-	<!-- Настройка центрального маркера -->
+	<!-- Center marker settings -->
 	<center>
-		<filter size="3" angle="0" distance="0" color="0x000000" alpha="100" strength="200"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени(100 - непрозрачно, 0 - прозрачно). strength - степень нанесения тени в процентах -->
-		<color normal="0x96FF00" critical="0xFF0000"/> <!-- normal - цвет нормального маркера. critical - цвет граничного маркера. Чтобы цвет не применялся удалите его код -->
-		<scale x="100" y="100"/> <!-- x, y - масштаб элемента в процентах. 100 - оригинальный размер -->		
-		<type>3</type> <!-- Тип маркера. 1 - вертикальная черта, 2 - точка, 3 - полый треугольник, 4 - octagon -->
+		<filter size="4" angle="0" distance="0" color="0x000000" alpha="100" strength="100"/>
+		<color normal="0x76CA08" critical="0xF71408"/>
+		<scale x="100" y="100"/>
+		<type>3</type>
 	</center>
 
 </gc>
