@@ -2,6 +2,7 @@
 
 **Pro více informací navštivte wiki**
 - **[Stažení a instalace](../../wiki/Stažení-a-instalace)**
+- **[Screenshoty](../../wiki/Screenshoty)**
 - **[Popis modifikací](../../wiki/Popis-modifikací)**
  - [Hangár](../../wiki/Hangár)
  - [Načítání bitvy](../../wiki/Načítání-bitvy)
