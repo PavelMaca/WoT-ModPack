@@ -1,41 +1,110 @@
 ---
 title: This is my title
-layout: master
+layout: default
 ---
 
+
 <div class="row">
-    <h1>Balíček modů od Assassíka</h1>
+    <h1>Assasikův balíček módů</h1>
     <p>Sbírka modifikací v češtině, zaměřená na poměr jednoduchosti a užitečnosti.</p>
 </div>
+
 <div class="row">
     <div class="col-md-12">
-        <div class="row text-center">
-            <a href="{{site.github.wiki_url}}" class="btn btn-primary">Návody a obrázky ze hry</a>
-        </div>
-        <hr/>
         <div class="row text-center">
             <h3>Aktuální verze</h3>
 
             <h2>{{site.github.releases[0].name}}</h2>
-            <a class="btn btn-success" href="{{site.github.releases[0].assets[0].browser_download_url}}" target="_blank">Stáhnout</a><br/><br/>
-            <small>Datum vydání: {{site.github.releases[0].published_at | date: "%d.%m. %H:%M"}}</small><br/>
+            <a class="btn btn-success" href="{{site.github.releases[0].assets[0].browser_download_url}}"
+               target="_blank">Stáhnout</a><br/><br/>
+            <small>Datum vydání: {{site.github.releases[0].published_at | date: "%d.%m. %H:%M"}}</small>
+            <br/>
             <small>Staženo: {{{site.github.releases[0].assets[0].download_count}}x</small>
         </div>
         <hr/>
         <div class="row">
-            <b>Seznam změn:</b>
-            <div class="text-left">{{site.github.releases[0].body | markdownify}}</div>
-            <a href="{{site.github.releases_url}}" class="btn btn-default">Starší verze</a>
+            <div class="col-md-6">
+                <b>Seznam změn:</b>
+
+                <div class="text-left">{{site.github.releases[0].body | markdownify}}</div>
+                <a href="{{site.github.releases_url}}" class="btn btn-default">Starší verze</a>
+            </div>
+            <div class="col-md-6">
+                Autor: <a href="http://worldoftanks.eu/community/accounts/504298250" target="_blank">Assassik</a><br/>
+                Fórum: <a href="http://forum.worldoftanks.eu/index.php?/topic/523825-" target="_blank">EU</a><br/>
+                Repozitář: <a href="{{site.github.repository_url}}" target="_blank">Github</a>
+            </div>
         </div>
-        <hr/>
-        <div class="row">
-            Autor: <a href="http://worldoftanks.eu/community/accounts/504298250" target="_blank">Assassik</a><br/>
-            Fórum: <a href="http://forum.worldoftanks.eu/index.php?/topic/523825-" target="_blank">EU</a><br/>
-            Repozitář: <a href="{{site.github.repository_url}}" target="_blank">Github</a><br/>
+    </div>
+</div>
+<hr/>
+<div class="row text-center">
+    <a href="{{site.github.wiki_url}}" class="btn btn-primary">Návody a obrázky ze hry</a> <br/>
+    <div id="gallery">
+        <div class="col-xs-6 col-sm-3">
+            <a href="{{site.baseurl}}/screenshots/hangar.jpg" class="thumbnail" data-gallery>
+                <img src="{{site.baseurl}}/screenshots/hangar.jpg">
+            </a>
         </div>
-        <hr/>
-        <div class="row text-center">
-            <a href="{{site.github.wiki_url}}" class="btn btn-primary">Návody a obrázky ze hry</a>
+        <div class="col-xs-6 col-sm-3">
+            <a href="{{site.baseurl}}/screenshots/battle_loading.jpg" class="thumbnail" data-gallery>
+                <img src="{{site.baseurl}}/screenshots/battle_loading.jpg">
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <a href="{{site.baseurl}}/screenshots/battle_dmg.jpg" class="thumbnail" data-gallery>
+                <img src="{{site.baseurl}}/screenshots/battle_dmg.jpg">
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <a href="{{site.baseurl}}/screenshots/battle_enemy.jpg" class="thumbnail" data-gallery>
+                <img src="{{site.baseurl}}/screenshots/battle_enemy.jpg">
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <a href="{{site.baseurl}}/screenshots/battle_arty.jpg" class="thumbnail" data-gallery>
+                <img src="{{site.baseurl}}/screenshots/battle_arty.jpg">
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <a href="{{site.baseurl}}/screenshots/battle_result.jpg" class="thumbnail" data-gallery>
+                <img src="{{site.baseurl}}/screenshots/battle_result.jpg">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
