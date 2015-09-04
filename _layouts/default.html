@@ -12,7 +12,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"  rel="stylesheet">
+    <link href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/assets/styles.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,9 +23,14 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#sidebar">
 
 <div class="container">
+    <div class="row" id="download">
+        <h1>Assasikův balíček módů</h1>
+
+        <p>Sbírka modifikací v češtině, zaměřená na poměr jednoduchosti a užitečnosti.</p>
+    </div>
     {{ content }}
 </div><!-- /.container -->
 
@@ -34,6 +40,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="{{site.baseurl}}/assets/javascript.js"></script>
 
 </body>
 </html>

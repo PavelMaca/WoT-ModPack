@@ -1,0 +1,25 @@
+<div id="installation" class="md">
+    {% capture installation %}{% include wiki/installation.md %}{% endcapture %}
+    {{ installation | markdownify }}
+</div>
+<div id="description"></div>
+<div id="description-hangar" class="md">
+    {% capture hangar %}{% include wiki/hangar.md %}{% endcapture %}
+    {{ hangar | markdownify }}
+</div>
+<div id="description-loading" class="md">
+    {% capture loading %}{% include wiki/loading.md %}{% endcapture %}
+    {{ loading | markdownify }}
+</div>
+<div id="description-battle" class="md">
+    {% capture battle %}{% include wiki/battle.md %}{% endcapture %}
+    {{ battle | markdownify }}
+</div>
+<div id="description-others" class="md">
+    {% capture others %}{% include wiki/others.md %}{% endcapture %}
+    {{ others | markdownify }}
+</div>
+<div id="mod-list" class="md">
+    {% capture modList %}{% include wiki/mod-list.md %}{% endcapture %}
+    {{ modList | markdownify }}
+</div>
