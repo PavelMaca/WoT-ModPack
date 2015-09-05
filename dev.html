@@ -1,0 +1,41 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{site.baseurl}}/assets/showdown.min.js"></script>
+<script>
+    var repository_nwo = '{{site.github.repository_nwo}}';
+    var api_url = '{{site.github.api_url}}';
+
+    $(document).ready(function(){
+        $.getJSON(api_url + '/repos/' +repository_nwo + '/releases', function(result){
+            var lastRelease;
+            for(var i in result){
+                if(result[i].draft == false && result[i].assets.length > 0){
+                    lastRelease = result[i];
+                    break;
+                }
+            }
+
+            console.log(lastRelease.name);
+            console.log(lastRelease.published_at);
+            console.log(lastRelease.assets[0].browser_download_url);
+            console.log(lastRelease.assets[0].download_count);
+            console.log(lastRelease.body);
+
+            var converter = new showdown.Converter();
+            console.log(converter.makeHtml(lastRelease.body));
+        });
+    });
+</script>
+</body>
+</html>
