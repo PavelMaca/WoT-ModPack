@@ -1,11 +1,5 @@
 $(document).ready(function () {
-    $('#sidebar').affix({
-        offset: {
-            top: function () {
-                return (this.top = $('#srollable-content').position().top - 50)
-            }
-        }
-    })
+    setSidebarAffix();
 
 
     $.getJSON(api_url + '/repos/' + repository_nwo + '/releases', function (result) {
@@ -40,6 +34,20 @@ $(document).ready(function () {
         var changelog = converter.makeHtml(lastRelease.body);
         //console.log(changelog);
         $('#rls_changelog').html(changelog);
+        updateSidebarAffix();
     });
-
 });
+
+function setSidebarAffix(){
+    $('#sidebar').affix({
+        offset: {
+            top: function () {
+                return (this.top = $('#srollable-content').position().top - 50)
+            }
+        }
+    });
+}
+
+function updateSidebarAffix(){
+    $('#sidebar').data('bs.affix').options.offset = $('#srollable-content').position().top - 50;
+}
