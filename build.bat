@@ -1,10 +1,13 @@
 @ECHO OFF
 
 REM set variables
-SET game_varsion=0.9.10
+SET game_version=0.9.10
 SET mod_version=1.2
-SET output_file="%game_varsion%.Assassik.modpack.v%mod_version%.rar"
-SET input_files=%game_varsion% configs mods
+SET output_file="%game_version%.Assassik.modpack.v%mod_version%.rar"
+SET input_files=%game_version% configs mods modpack_version.json
+
+REM Gen version file
+ECHO {"game_version": "%game_version%", "mod_version": "%mod_version%"} > modpack_version.json
 
 REM Delete old archive file
 IF EXIST %output_file% (
@@ -13,8 +16,8 @@ IF EXIST %output_file% (
 )
 
 ECHO Creating new archive
-"C:\Program Files\WinRAR\rar.exe" a -ap"res_mods" -x"*\%game_varsion%\res_audio" %output_file% %input_files%
-"C:\Program Files\WinRAR\rar.exe" a -ep -ap"res/audio" %output_file% %game_varsion%/res_audio
+"C:\Program Files\WinRAR\rar.exe" a -ap"res_mods" -x"*\%game_version%\res_audio" %output_file% %input_files%
+"C:\Program Files\WinRAR\rar.exe" a -ep -ap"res/audio" %output_file% %game_version%/res_audio
 REM "C:\Program Files\WinRAR\rar.exe" u %output_file% "../readme.markdown"
 REM "C:\Program Files\WinRAR\rar.exe" c -z"archive-readme.txt" %output_file%
 
