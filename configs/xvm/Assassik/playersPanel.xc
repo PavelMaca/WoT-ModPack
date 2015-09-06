@@ -153,6 +153,9 @@
       // true - disable platoon icons
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
+	  // transparency of vehicle level
+      // прозрачность уровня танка
+      "vehicleLevelAlpha": 100,
       // Display format for frags (macros allowed, see macros.txt).
       // Формат отображения фрагов (допускаются макроподстановки, см. macros.txt).
       "fragsFormatLeft": "{{frags}}",
@@ -181,6 +184,9 @@
       // true - disable platoon icons
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
+	  // transparency of vehicle level
+      // прозрачность уровня танка
+      "vehicleLevelAlpha": 100,
       // Display format for the left panel (macros allowed, see macros.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
       "formatLeft": ${"def.nick"},
@@ -215,6 +221,9 @@
       // true - disable platoon icons
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
+	  // transparency of vehicle level
+      // прозрачность уровня танка
+      "vehicleLevelAlpha": 100,
       // Display format for the left panel (macros allowed, see macros.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
       "formatLeft": ${"def.vehicle"},
@@ -249,6 +258,9 @@
       // true - disable platoon icons
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
+	  // transparency of vehicle level
+      // прозрачность уровня танка
+      "vehicleLevelAlpha": 100,
       // Display format for player nickname (macros allowed, see macros.txt).
       // Формат отображения имени игрока (допускаются макроподстановки, см. macros.txt).
       "nickFormatLeft": ${"def.nick"},
