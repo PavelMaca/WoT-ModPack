@@ -5,7 +5,7 @@ CD ../
 
 REM set variables
 SET game_varsion=0.9.10
-SET mod_version=1.1
+SET mod_version=1.2
 SET output_file="%game_varsion%.Assassik.modpack.v%mod_version%.rar"
 SET input_files=%game_varsion% configs mods
 
