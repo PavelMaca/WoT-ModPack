@@ -1,12 +1,4 @@
-# Balíček módů od Assassika
+# Assasikův balíček módů
 
-**Pro více informací navštivte wiki**
-- **[Stažení a instalace](../../wiki/Stažení-a-instalace)**
-- **[Screenshoty](../../wiki/Screenshoty)**
-- **[Popis modifikací](../../wiki/Popis-modifikací)**
- - [Hangár](../../wiki/Hangár)
- - [Načítání bitvy](../../wiki/Načítání-bitvy)
- - [Bitva](../../wiki/Bitva)
- - [Ostatní](../../wiki/Ostatní)
-- **[Seznam použitých módů](../../wiki/Seznam-použitých-módů)**
-- **[Užitečné odkazy](../../wiki/Užitečné-odkazy)**
+**Pro více informací a návody navštivnte stránku:**  
+[https://pavelmaca.github.io/WoT-ModPack/](https://pavelmaca.github.io/WoT-ModPack/)
