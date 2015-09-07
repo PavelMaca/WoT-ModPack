@@ -19,7 +19,7 @@
     "snap_to_nearest": true,
     "snap_continously": false,
     "snappingDelay": 0.2,
-    "snapping_angle_degrees": 5.0,
+    "snapping_angle_degrees": 15.0,
     "toggleKeyCode": 0,
     "toggleStateOn": true,
     "toggledOffMsg": "<font color='#FF0000'>Autoaim indicator/snapping turned OFF</font>",
@@ -30,5 +30,11 @@
     "addon-auto_announce_reload": {
         "clip_reload": false,
         "reload_longer_than": 0
+    },
+    "addon-repair_with_T": {
+        "devices": {},
+        "other_forcing_large_kit": {},
+        "use_large_kit_when_two_damaged": false,
+        "info": []
     }
 }
