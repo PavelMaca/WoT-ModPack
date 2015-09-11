@@ -5,7 +5,7 @@ $(document).ready(function () {
     $.getJSON(api_url + '/repos/' + repository_nwo + '/releases', function (result) {
         var lastRelease;
         for (var i in result) {
-            if (result[i].draft == false && result[i].assets.length > 0) {
+            if (result[i].prerelease == false && result[i].draft == false && result[i].assets.length > 0) {
                 lastRelease = result[i];
                 break;
             }
