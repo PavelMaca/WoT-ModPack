@@ -1,0 +1,36 @@
+{
+    "info": "words cannot have non-letter characters like . +",
+    "debug": true,
+    "abuseFilter": {
+        "commaSeparatedWords": "jude",
+        "regularExpression": "\\bcancer|whore\\b|\\bgay|\\bkurwo|\\bcunts?|\\bchuj"
+    },
+    "abuserPermaBlock": true,
+    "abusers": [],
+    "abuserReport": true,
+    "offensiveFilter": {
+        "commaSeparatedWords": "l2p,uninstall,tetris,stfu,fu,dick",
+        "regularExpression": "\\bno+bs?\\b|\\bfuck|\\bfck|\\bidio|\\bmor+on|\\bclic?k|\\bz?jeb|\\b(?:re)?tard|\\bkur[vw]|\\bstupid|\\bbrain|\\bpierdol|\\.i\\.|\\bkokot"
+    },
+    "spamFilter": {
+        "commaSeparatedWords": "fail,omg,ts3,lol,boom",
+        "regularExpression": "\\bclan|\\brecru|\\bsearch|^gg$|\\bluck|\\bklan|\\bgold|\\bpo bit|\\bpriv|\\d+\\+|Discount code:"
+    },
+    "exceptionFilter": {
+        "commaSeparatedWords": "sry,sorry,np",
+        "regularExpression": "^thx$|^thanks$|^[a-kA-K][0-9]$"
+    },
+    "minimal": {
+        "info": ["xvm is used when installed, globalRating in other case",
+                 "fraction can be used to relate level to own rating f.e. 0.5 will be a 50% our own rating",
+                 "fraction can be between 0 (excluding) and 1 (including)",
+                 "0 - filtering by rating is disabled",
+                 ">1 - minimal rating is obtained directly f.e. 1000"],
+        "xvm": ["wn8", 0.5],
+        "globalRating": 0.5
+    },
+    "blockDead": false,
+    "logStats": true,
+    "garageChannelsQuarantineSeconds": 15,
+    "garageChannelsNotifyExit": false
+}
