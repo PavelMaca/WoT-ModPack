@@ -3,9 +3,6 @@
     <default>
       <over>/GUI/buttons/highlight</over>
       <press>/GUI/buttons/play</press>
-      <critical_ammoBay>/Damage_Panel/Critical_Module/critical_ammoBay</critical_ammoBay>
-      <fire_alert>/assassik/assassik/firealert</fire_alert>
-      <sixthsense>/assassik/assassik/sixthsense</sixthsense>
       <alert_3min>/assassik/assassik/3min</alert_3min>
       <alert_1min>/assassik/assassik/1min</alert_1min>
       <alert_30sec>/assassik/assassik/30sec</alert_30sec>
