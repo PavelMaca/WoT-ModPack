@@ -1,20 +1,20 @@
 {
     "info": "words cannot have non-letter characters like . +",
-    "debug": true,
+    "debug": true,	
     "abuseFilter": {
-        "commaSeparatedWords": "jude",
-        "regularExpression": "\\bcancer|whore\\b|\\bgay|\\bkurwo|\\bcunts?|\\bchuj"
+        "commaSeparatedWords": "jude,dick,stfu,fu,asshole,bitch,pussy,shit,kunda,pica",
+        "regularExpression": "\\bcancer|\\bwhore\\b|\\bgay|\\bkurwo|\\bcunts?|\\bchuj|\\bfuck|\\bfck|\\bidio|\\bmor+on|\\b(?:re)?tard|\\bkur[vw]|\\bkokote?i?|\\bdebile?|\\bzmrde?i?|\\bimbecile?|\\bbastarde?"
     },
     "abuserPermaBlock": true,
     "abusers": [],
     "abuserReport": true,
     "offensiveFilter": {
-        "commaSeparatedWords": "l2p,uninstall,tetris,stfu,fu,dick",
-        "regularExpression": "\\bno+bs?\\b|\\bfuck|\\bfck|\\bidio|\\bmor+on|\\bclic?k|\\bz?jeb|\\b(?:re)?tard|\\bkur[vw]|\\bstupid|\\bbrain|\\bpierdol|\\.i\\.|\\bkokot"
+        "commaSeparatedWords": "l2p,uninstall,tetris",
+        "regularExpression": "\\bno+bs?\\b|\\bclic?k|\\bz?jeb|\\bstupid|\\bbrain|\\bpierdol|\\bcheat\\S+|\\bhack\\S+|\\lama?o?"
     },
     "spamFilter": {
-        "commaSeparatedWords": "fail,omg,ts3,lol,boom",
-        "regularExpression": "\\bclan|\\brecru|\\bsearch|^gg$|\\bluck|\\bklan|\\bgold|\\bpo bit|\\bpriv|\\d+\\+|Discount code:"
+        "commaSeparatedWords": "fail,omg,ts3,lol,boom,spotted,report",
+        "regularExpression": "\\bclan|\\brecru|\\bsearch|^gg$|\\bsiem\\S+|\\bwitam\\S*|"
     },
     "exceptionFilter": {
         "commaSeparatedWords": "sry,sorry,np",
