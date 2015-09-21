@@ -8,6 +8,6 @@
     // Id звука для шестого чувства (из gui_sounds.xml). Формат: /файл/группа/звук
     "sixthSense": "/assassik/assassik/sixthsense",
 	"fireAlert": "/assassik/assassik/fireAlert",
-	"ammoBay": "/Damage_Panel/Critical_Module/critical_ammoBay"
+	"ammoBay": "/assassik/assassik/ammoBay"
   }
 }
