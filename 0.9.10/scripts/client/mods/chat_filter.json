@@ -1,0 +1,36 @@
+{
+    "info": "words cannot have non-letter characters like . +",
+    "debug": true,	
+    "abuseFilter": {
+        "commaSeparatedWords": "jude,dick,stfu,fu,asshole,bitch,pussy,shit,kunda,pica",
+        "regularExpression": "\\bcancer|\\bwhore\\b|\\bgay|\\bkurwo|\\bcunts?|\\bchuj|\\bfuck|\\bfck|\\bidio|\\bmor+on|\\b(?:re)?tard|\\bkur[vw]|\\bkokote?i?|\\bdebile?|\\bzmrde?i?|\\bimbecile?|\\bbastarde?"
+    },
+    "abuserPermaBlock": true,
+    "abusers": [],
+    "abuserReport": true,
+    "offensiveFilter": {
+        "commaSeparatedWords": "l2p,uninstall,tetris",
+        "regularExpression": "\\bno+bs?\\b|\\bclic?k|\\bz?jeb|\\bstupid|\\bbrain|\\bpierdol|\\bcheat\\S+|\\bhack\\S+|\\lama?o?"
+    },
+    "spamFilter": {
+        "commaSeparatedWords": "fail,omg,ts3,lol,boom,spotted,report",
+        "regularExpression": "\\bclan|\\brecru|\\bsearch|^gg$|\\bsiem\\S+|\\bwitam\\S*|"
+    },
+    "exceptionFilter": {
+        "commaSeparatedWords": "sry,sorry,np",
+        "regularExpression": "^thx$|^thanks$|^[a-kA-K][0-9]$"
+    },
+    "minimal": {
+        "info": ["xvm is used when installed, globalRating in other case",
+                 "fraction can be used to relate level to own rating f.e. 0.5 will be a 50% our own rating",
+                 "fraction can be between 0 (excluding) and 1 (including)",
+                 "0 - filtering by rating is disabled",
+                 ">1 - minimal rating is obtained directly f.e. 1000"],
+        "xvm": ["wn8", 0.5],
+        "globalRating": 0.5
+    },
+    "blockDead": false,
+    "logStats": true,
+    "garageChannelsQuarantineSeconds": 15,
+    "garageChannelsNotifyExit": false
+}
