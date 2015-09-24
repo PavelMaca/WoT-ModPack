@@ -1,11 +1,11 @@
-[img_hangar_clock]:{{site.baseurl}}/images/xvm_clock.jpg
-[img_hangar_ping]:{{site.baseurl}}/images/xvm_ping.jpg
-[img_hangar_research]:{{site.baseurl}}/images/research_watchdog.jpg
-[img_hangar_stats_battle]:{{site.baseurl}}/images/stats1.jpg
-[img_hangar_stats_day1]:{{site.baseurl}}/images/stats3.jpg
-[img_hangar_stats_day2]:{{site.baseurl}}/images/stats2.jpg
-[img_hangar_crew]:{{site.baseurl}}/images/crew_xp.jpg
-[img_hangar_carosel]:{{site.baseurl}}/images/xvm_carosel.jpg
+[img_hangar_clock]:images/xvm_clock.jpg
+[img_hangar_ping]:images/xvm_ping.jpg
+[img_hangar_research]:images/research_watchdog.jpg
+[img_hangar_stats_battle]:images/stats1.jpg
+[img_hangar_stats_day1]:images/stats3.jpg
+[img_hangar_stats_day2]:images/stats2.jpg
+[img_hangar_crew]:images/crew_xp.jpg
+[img_hangar_carosel]:images/xvm_carosel.jpg
 
 ## Hangár
 - Hodiny v pravé horní části

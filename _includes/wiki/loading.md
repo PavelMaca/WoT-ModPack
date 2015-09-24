@@ -1,4 +1,4 @@
-[img_battle_loading]:{{site.baseurl}}/images/battle_loading.jpg
+[img_battle_loading]:images/battle_loading.jpg
 
 ## Načítání bitvy
 

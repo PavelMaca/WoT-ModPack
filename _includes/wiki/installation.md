@@ -1,4 +1,4 @@
-[img_xvm_setting]:{{site.baseurl}}/images/xvm_setting.jpg
+[img_xvm_setting]:images/xvm_setting.jpg
 
 ## Instalace
 Po otevření staženého souboru uvnitř naleznete složky `res_mods` a `res`.

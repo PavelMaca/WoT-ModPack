@@ -1,11 +1,11 @@
-[img_dmg_panel]:{{site.baseurl}}/images/damage_panel.jpg
-[img_scope]:{{site.baseurl}}/images/crosshair.jpg
-[img_icons]:{{site.baseurl}}/images/battle_right_panel.jpg
-[img_dmg_log]:{{site.baseurl}}/images/battle_top.jpg
-[img_minimap]:{{site.baseurl}}/images/minimap.jpg
-[img_dmg_direction]:{{site.baseurl}}/images/damage_direction.jpg
-[img_tank_info]:{{site.baseurl}}/images/tank_info.jpg
-[img_arty]:{{site.baseurl}}/images/arty_crosshair.jpg
+[img_dmg_panel]:images/damage_panel.jpg
+[img_scope]:images/crosshair.jpg
+[img_icons]:images/battle_right_panel.jpg
+[img_dmg_log]:images/battle_top.jpg
+[img_minimap]:images/minimap.jpg
+[img_dmg_direction]:images/damage_direction.jpg
+[img_tank_info]:images/tank_info.jpg
+[img_arty]:images/arty_crosshair.jpg
 
 ## Bitva
 

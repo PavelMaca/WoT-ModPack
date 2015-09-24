@@ -1,4 +1,4 @@
-[img_rails_carts]:{{site.baseurl}}/images/railcard.jpg
+[img_rails_carts]:images/railcard.jpg
 
 ## Ostatní
 
