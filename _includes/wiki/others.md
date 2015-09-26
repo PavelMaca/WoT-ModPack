@@ -10,9 +10,9 @@
  - odpočet do konce bitvy (3min, 1min, 30s, 5s)
  - upozornění na požár a poškozenou munici
 
-### Chat (dočasně neaktivní)
- - ban pro mrtvé nepřátele
- - filtování některých nevhodných slov
+### Chat
+ - skrytí urážek
+ - blokování spamu (opakované blikání na minimapě apod.)
 
 ### Radial menu
  - více druhů zpráv přes Y
