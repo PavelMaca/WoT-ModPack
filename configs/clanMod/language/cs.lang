@@ -19,27 +19,44 @@
 		"message": {
 			"title": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Plánovaná CW:</b></font>\n",
 			"message": [
-                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'><b>Province:<tab><tab>{{landing}} ( {{income}}</b><img src='img://gui/maps/icons/library/GoldIcon-2.png' width='16' height='16' align='baseline' vspace='-3'><b>)</b></font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'><b>Province:<tab><tab>{{landing}}</b></font></textformat>",
                 "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'><b>Čas:<tab><tab>{{time}}</b></font></textformat>",
                 "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Mapa:<tab><tab>{{map}}</font></textformat>",
-				"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Vlastník:<tab><tab><img src='{{icon}}' width='16' height='16' align='baseline' vspace='-3'>{{owner}}</font></textformat>",
+				"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Protivník:<tab><tab><img src='{{icon}}' width='16' height='16' align='baseline' vspace='-3'>{{opponent}}</font></textformat>",
                 "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Typ:<tab><tab>{{type}}</font></textformat>\n"
             ],
 			"spacer": "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>------------------------------</b></font></textformat>\n",
-			"for_province": "Boj o území",
-			"meeting_engagement": "Boj o hranice",
-			"landing": "Vylodění",
-			"attacker": "Útok",
-			"defender": "Obrana",
+			"attack": "Útok",
+			"defense": "Obrana",
 			"approximately": "~",
 			"new_clan_war": "<font face='$FieldFont' size='13'>Nová bitva v CW!</font>",
-			"none_clan_wars": "Žádné CW"
+			"none_battles": "Žádné CW"
 		},
 		"net_error": "<font face='$FieldFont' size='13'>Chyba při získávání informací o CW. Pravděpodobně došlo k problémům s API nebo sítí.</font>",
 		"save_error": "<font face='$FieldFont' size='13'>Chyba při ukládání informací o CW do souboru. Zkontrolujte soubor python.log!</font>",
 		"data_saved": "<font face='$FieldFont' size='13'>Informace o CW aktualizovány!</font>",
-		"button": "Přehled CW"
+		"button": "Bitvy"
 	},
+	"stronghold": {
+        "message": {
+            "title": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Bytvy o Opevnění:</b></font>\n",
+            "message": [
+				"<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='{{color}}'>Protivník:<tab><tab><img src='{{icon}}' width='16' height='16' align='baseline' vspace='-3'>{{opponent}}</font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>Čas:<tab><tab>{{planned_date}}</b></font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Typ:<tab><tab>{{type}}</font></textformat>\n"
+            ],
+            "spacer": "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>------------------------------</b></font></textformat>\n",
+            "attack": "Útok",
+            "defense": "Obrana",
+            "approximately": "~",
+            "date_format": "%Y.%m.%d %H:%M",
+            "new_battle": "<font face='$FieldFont' size='13'>Nová bitva v Opevnění!</font>",
+            "none_battles": "Žádné bitvy v Opevnění<br>"
+        },
+        "net_error": "<font face='$FieldFont' size='13'>Chyba při načítání informací k Opevnění. Pravděpodobně došlo k problémům s API nebo sítí.</font>",
+        "save_error": "<font face='$FieldFont' size='13'>Chyba při ukládání informací k Opevnění do souboru. Zkontrolujte soubor python.log!</font>",
+        "data_saved": "<font face='$FieldFont' size='13'>Informace k Opevnění aktualizována!</font>"
+    },
 	"provinces": {
 		"no_file": "<font face='$FieldFont' size='13'>Soubor <b>clanMod.prov</b> nenalezen!</font>",
 		"no_province": "<font face='$FieldFont' size='13'>V souboru nebylo nalezeno toto území. Smažte prosím <b>clanMod.prov</b>.</font>",
