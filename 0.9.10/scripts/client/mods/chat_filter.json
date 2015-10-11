@@ -33,5 +33,9 @@
     "blockDead": false,
     "logStats": true,
     "garageChannelsQuarantineSeconds": 15,
-    "garageChannelsNotifyExit": false
+    "garageChannelsNotifyExit": false,
+    "antispamDuplicateCount": 2,
+    "antispamDuplicateInterval": 7,
+    "antispamPlayerCount": 3,
+    "antispamPlayerInterval": 7
 }
