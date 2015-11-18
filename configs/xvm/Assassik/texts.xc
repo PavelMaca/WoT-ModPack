@@ -31,11 +31,11 @@
     "spotted": {
       "neverSeen": "",
       "lost": "<img src='xvm://res/Assassik/icons/lost.png' width='20' height='20'>",
-      "revealed": "<img src='xvm://res/Assassik/icons/revealed.png' width='20' height='20'>",
+      "spotted": "<img src='xvm://res/Assassik/icons/revealed.png' width='20' height='20'>",
       "dead": "",
       "neverSeen_arty": "",
       "lost_arty": "<img src='xvmr://res/Assassik/icons/lost.png' width='20' height='20'>",
-      "revealed_arty": "<img src='xvm://res/Assassik/icons/revealed.png' width='20' height='20'>",
+      "spotted_arty": "<img src='xvm://res/Assassik/icons/revealed.png' width='20' height='20'>",
       "dead_arty": ""
     },
     // Text for {{xvm-user}} macro.
@@ -49,12 +49,12 @@
       "none": "none"
     },
     // Text for {{battletype}} macro.
-    // Текст для макроса {{battletype}}
+    // Текст для макроса {{battletype}}.
     "battletype": {
       // Неизвестный бой.
-      "unknown": "unknown",
+      "unknown": "",
       // Случайный бой.
-      "regular": "regular",
+      "regular": "",
       // Тренировочный бой.
       "training": "training",
       // Ротный бой.
@@ -64,18 +64,18 @@
       // Клановый бой.
       "clan": "clan",
       // Учебный бой.
-      "tutorial": "tutorial",
+      "tutorial": "",
       // Командный бой.
       "cybersport": "cybersport",
       // Исторический бой.
-      "historical": "historical",
+      "historical": "",
       // Бой спецрежима (гонки, футбол и т.п.).
-      "event_battles": "event_battles",
+      "event_battles": "",
       // Вылазка.
       "sortie": "sortie",
       // Бой за укрепрайон.
       "fort_battle": "fort_battle",
-      // Киберспортивный командный бой.
+      // Командный бой: ладдер.
       "rated_cybersport": "rated_cybersport"
     },
     // Text for {{topclan}} macro.

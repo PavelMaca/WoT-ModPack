@@ -19,7 +19,7 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
-  "configVersion": "6.0.0",
+  "configVersion": "6.1.0",
 
   // automatically reload config. Can reduce performance.
   // автоматически перезагружать конфиг. Может понизить производительность.
@@ -54,19 +54,19 @@
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
-    "url": "http://www.modxvm.com/",
+    "url": "http://modpack.assassik.cz",
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "06.09.2015",
+    "date": "18.11.2015",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.9.10",
+    "gameVersion": "0.9.12",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "6.1.4.3"
+    "modMinVersion": "6.1.6"
   },
 
   // Parameters for login screen.
