@@ -23,20 +23,21 @@
     // Format set
     // Набор форматов
     "formats": [
-      //${ "minimapLabelsTemplates.xc":"def.vtypeSpotted" },
-      ${ "minimapLabelsTemplates.xc":"def.vehicleSpotted" },
-      ${ "minimapLabelsTemplates.xc":"def.nickSpotted" },
-      {
-        "$ref": { "file": "minimapLabelsTemplates.xc", "path": "def.nickSpotted" },
-        "flags": [ "ally", "teamKiller", "spotted", "alive" ],
-        "format": "<font size='{{battletype?8|0}}' color='{{tk?{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}|#BFBFBF}}'><i>{{name%.7s~..}}</i></font>"
+	  {
+        "$ref": { "file": "minimapLabelsTemplates.xc", "path": "def.vehicleSpotted" },
+        "format": "<font size='8' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{name%.7s}}</font>"
       },
       ${ "minimapLabelsTemplates.xc":"def.vtypeLost" },
-      ${ "minimapLabelsTemplates.xc":"def.vehicleLost" },
-      ${ "minimapLabelsTemplates.xc":"def.nickLost" },
+	  {
+        "$ref": { "file": "minimapLabelsTemplates.xc", "path": "def.vehicleLost" },
+        "format": "<font size='8' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{name%.7s}}</i></font>"
+      },
       ${ "minimapLabelsTemplates.xc":"def.vtypeDead" },
-      ${ "minimapLabelsTemplates.xc":"def.vehicleDead" },
-      ${ "minimapLabelsTemplates.xc":"def.nickDead" }
+	  {
+        "$ref": { "file": "minimapLabelsTemplates.xc", "path": "def.vehicleDead" },
+		"flags": [ "ally", "enemy", "squadman", "teamKiller", "dead" ],
+        "format": "<font size='8' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'><i>{{name%.7s}}</i></font>"
+      }
     ]
   }
 }
