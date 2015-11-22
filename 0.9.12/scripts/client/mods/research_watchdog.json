@@ -3,6 +3,7 @@
     "warnUsingAlertBox": false,
     "notifyOfLockedModules": true,
     "supressSameMsg": false,
+    "keepMsgOnTheListForSeconds": 10,
     "maxCharsPerItem": 25,
     "cutOffSymbol": "..",
     "lang": "cs",
