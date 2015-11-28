@@ -4,10 +4,9 @@
  */
 {
   "sounds": {
-    // Sound id for sixth sense sound (from gui_sounds.xml). Format: /file/group/sound
-    // Id звука для шестого чувства (из gui_sounds.xml). Формат: /файл/группа/звук
     "sixthSense": "/assassik/assassik/sixthsense",
-	"fireAlert": "/assassik/assassik/fireAlert",
-	"ammoBay": "/assassik/assassik/ammoBay"
+    "sixthSenseRudy": "/assassik/assassik/sixthsense",
+    "fireAlert": "/assassik/assassik/fireAlert",
+    "ammoBay": "/assassik/assassik/ammoBay"
   }
 }

@@ -10,21 +10,21 @@
 
     // Show enemy HP left by Alt press
     // Destroyed enemies and enemies HP gets updated only when it markers become visible.
-    // Markers are visible only inside 1000m side square.
-    // Square with 1000 meters side is game engine restriction. Maximum marker show distance.
+    // Markers are visible only inside 564m circle.
+    // Circle with 564 meters radius is game engine restriction. Maximum marker show distance.
     // Particular enemy data will not be updated while you cant see this enemy marker or its wreck.
 
     // Показывать оставшееся HP врагов по нажатию Alt
     // Уничтоженные враги и вражеское HP обновляется только, когда маркеры становятся видимыми.
-    // Маркеры видимы только в квадрате со стороной в 1000м.
-    // Квадрат в 1000 метров это ограничение игрового движка. Максимальная дистанция отрисовки маркеров.
+    // Маркеры видимы только в круге радиусом 564м.
+    // Круг радиусом 564 метров - это ограничение игрового движка. Максимальная дистанция отрисовки маркеров.
     // Данные по конкретному врагу не могут быть обновлены пока не видно его маркер или обломки.
     "hpLeft": {
         // false - Disable.
         // false - отключить.
         "enabled": true,
-        // Header - Only localization macros are allowed, see readme-en.txt.
-        // Заголовок - допускаются только макросы перевода, см. readme-ru.txt.
+        // Header - Only localization macros are allowed, see macros.txt.
+        // Заголовок - допускаются только макросы перевода, см. macros.txt.
         "header": "<font color='#FFFFFF'>{{l10n:hpLeftTitle}}</font>",
         // Row in HP list (macros allowed, see macros.txt).
         // Строка в списке попаданий (допускаются макроподстановки, см. macros.txt)
@@ -59,8 +59,8 @@
     // Подстановка для макроса {{dead}}, когда танк умирает.
     "deadMarker": "<font face='Wingdings'>N</font>",
     "blowupMarker": "<font face='Wingdings'>M</font>",
-    // Default header format (before first hit). Only localization macros are allowed, see readme-en.txt.
-    // Формат заголовка по умолчанию (до первого попадания). Допускаются только макросы перевода, см. readme-ru.txt.
+    // Default header format (before first hit). Only localization macros are allowed, see macros.txt.
+    // Формат заголовка по умолчанию (до первого попадания). Допускаются только макросы перевода, см. macros.txt.
     "defaultHeader":  "<font color='#FFFFFF'>{{l10n:Hits}}:</font> <font size='13'>#0</font>",
     // Hits header format, including last hit (macros allowed, see macros.txt).
     // Формат заголовка (допускаются макроподстановки, см. macros.txt).
