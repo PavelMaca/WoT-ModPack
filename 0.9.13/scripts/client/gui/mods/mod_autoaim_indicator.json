@@ -1,6 +1,6 @@
 {
     "autoaim_indicator_panel": {
-        "background": "autoaim_indicator.dds",
+        "background": "mod_autoaim_indicator.dds",
         "color": "#FFFF00",
         "font": "default_smaller.font",
         "hcentered": true,
@@ -18,7 +18,7 @@
     "no_snap_on_autoaim_off_E": true,
     "snap_to_nearest": true,
     "snap_continously": false,
-    "snappingDelay": 0.20,
+    "snappingDelay": 0.2,
     "snapping_angle_degrees": 15.0,
     "toggleKeyCode": 0,
     "toggleStateOn": true,
