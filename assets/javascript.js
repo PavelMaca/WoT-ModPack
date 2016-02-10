@@ -36,6 +36,17 @@ $(document).ready(function () {
         $('#rls_changelog').html(changelog);
         updateSidebarAffix();
     });
+
+    /** GA tracking */
+    $('#rls_url').on('click', function(){
+        ga('send', {
+            hitType: 'event',
+            eventCategory: 'Modpack',
+            eventAction: 'download',
+            eventLabel:  $('#rls_name').text(),
+        });
+        return true;
+    });
 });
 
 function setSidebarAffix(){
@@ -50,14 +61,4 @@ function setSidebarAffix(){
 
 function updateSidebarAffix(){
     $('#sidebar').data('bs.affix').options.offset = $('#srollable-content').position().top - 50;
-}
-
-function countDownload(){
-    ga('send', {
-        hitType: 'event',
-        eventCategory: 'Modpack',
-        eventAction: 'download',
-        eventLabel:  $('#rls_name').text(),
-    });
-    return true;
 }
