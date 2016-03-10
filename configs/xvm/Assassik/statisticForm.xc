@@ -10,44 +10,53 @@
     // true - Disable Platoon icons.
     // true - убрать отображение иконки взвода.
     "removeSquadIcon": false,
-	// true - disable vehicle level indicator.
+    // true - disable vehicle level indicator.
     // true - убрать отображение уровня танка.
     "removeVehicleLevel": true,
     // true - disable vehicle type icon. This space will be used for formatted vehicle field.
     // true - убрать отображение типа танка. Пустое место будет использовано под форматируемое поле.
     "removeVehicleTypeIcon": true,
+    // Show border for name field (useful for config tuning)
+    // Показывать рамку для поля имени игрока (полезно для настройки конфига)
+    "nameFieldShowBorder": false,
+    // Show border for vehicle field (useful for config tuning)
+    // Показывать рамку для поля имени танка (полезно для настройки конфига)
+    "vehicleFieldShowBorder": false,
+    // Show border for frags field (useful for config tuning)
+    // Показывать рамку для поля фрагов (полезно для настройки конфига)
+    "fragsFieldShowBorder": false,
     // X offset for allies squad icons
-    // Cмещение по оси X значка взвода для союзников
+    // Cмещение по оси X значка взвода союзников
     "squadIconOffsetXLeft": 0,
     // X offset for enemies squad icons field
-    // Cмещение по оси X значка взвода для противников
+    // Cмещение по оси X значка взвода противников
     "squadIconOffsetXRight": 0,
     // X offset for allies player names field
-    // Cмещение по оси X поля ника для союзников
+    // Cмещение по оси X поля ника союзников
     "nameFieldOffsetXLeft": 0,
     // X offset for enemies player names field
-    // Cмещение по оси X поля ника для противников
+    // Cмещение по оси X поля ника противников
     "nameFieldOffsetXRight": 0,
     // X offset for "formatLeftVehicle" field
-    // Cмещение по оси X поля названия танка для союзников
+    // Cмещение по оси X поля названия танка союзников
     "vehicleFieldOffsetXLeft": 0,
     // X offset for "formatRightVehicle" field
-    // Cмещение по оси X поля названия танка для противников
+    // Cмещение по оси X поля названия танка противников
     "vehicleFieldOffsetXRight": 0,
     // X offset for allies vehicle icons
-    // Смещение по оси X иконки танка для союзников
+    // Смещение по оси X иконки танка союзников
     "vehicleIconOffsetXLeft": 0,
     // X offset for enemies vehicle icons
-    // Смещение по оси X иконки танка для противников
+    // Смещение по оси X иконки танка противников
     "vehicleIconOffsetXRight": 0,
-	// X offset for allies frags
-    // Смещение по оси X фрагов для союзников
+    // X offset for allies frags
+    // Смещение по оси X фрагов союзников
     "fragsOffsetXLeft": 5,
     // X offset for enemies frags
-    // Смещение по оси X фрагов для противников
+    // Смещение по оси X фрагов противников
     "fragsOffsetXRight": 0,
-    // Display options for Team/Clan logos (see battleLoading.xc).
-    // Параметры отображения иконки игрока/клана (см. battleLoading.xc).
+    // Display options for Team/Clan logos.
+    // Параметры отображения иконки игрока/клана.
     "clanIcon": ${"defines.xc":"clanIcon"},
     // Display format for the left panel (macros allowed, see macros.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
