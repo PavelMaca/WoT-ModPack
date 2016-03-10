@@ -30,7 +30,7 @@ EXPROMT_MAX Team
 	<postmortemCenterOffsetX>0</postmortemCenterOffsetX>  <!-- Координата Х -->
 	<postmortemCenterOffsetY>0</postmortemCenterOffsetY>  <!-- Координата Y -->
 	<postmortemOldCrosshairData>true</postmortemOldCrosshairData>        <!-- старый прицел - true/false - актуальный прицел -->
-<!-- РАЗНОЕ -->
+	<!-- РАЗНОЕ -->
 	<deegiesSights>false</deegiesSights>                <!-- Инфо о цели в арт прицеле. А-ля Ghost Recon FS арт прицел - true/false - любой другой арт прицел  -->
 	<showPiercingPower>true</showPiercingPower>        <!-- Закрыть данные по бронепробитию из прицела, открыв их для Pmod -->
 </root>
