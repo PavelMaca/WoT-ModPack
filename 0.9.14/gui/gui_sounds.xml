@@ -303,5 +303,6 @@
     <dyn_squad_starting_dynamic_platoon>/GUI/dynamic_platoon/starting_dynamic_platoon</dyn_squad_starting_dynamic_platoon>
     <wwdyn_squad_starting_dynamic_platoon>starting_dynamic_platoon</wwdyn_squad_starting_dynamic_platoon>
     <rody_dog>/rudy/dog/dog</rody_dog>
+    <wwrody_dog>	rudy	</wwrody_dog>
   </effects>
 </gui_sounds.xml>
