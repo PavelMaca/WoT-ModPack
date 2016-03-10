@@ -108,6 +108,10 @@
         },
         { "x": 30, "y": 20, "src": "xvm://res/Assassik/marksOnGun/{{v.marksOnGun|x}}.png"
         },
+		{ "x": 45, "y": 18, 
+			"format": "<b><font size='12' color='#C8C8B5'><font face='Arial'>{{v.damageRating%.1d~%}}</font></b>",
+			"shadow": ${ "def.textFieldShadow" }
+        }, 
         { "x": 37, "y": "{{v.marksOnGun?18|17}}", "align": "center",
           "format": "<b><font size='9' color='#C8C8B5'>{{v.marksOnGun|x}}</font></b>",
           "shadow": ${ "def.textFieldShadow" }
@@ -125,7 +129,7 @@
           "shadow": { "color": "0x73734C", "alpha": 0.8, "blur": 6, "strength": 2, "distance": 0, "angle": 0 }
         },
         { "x": -2, "y": -1, "h": 100, "w": "164", "bgColor": "{{v.selected?#FFA759|#000000}}", "alpha": "{{v.selected?5|0}}" },
-        {}
+		{}
     ],
     // Order of nations.
     // Порядок наций.
