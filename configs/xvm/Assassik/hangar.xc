@@ -31,7 +31,7 @@
     // true - Return crew check box is selected by default
     // true - Включить галочку возврата экипажа по умолчанию
     "crewReturnByDefault": false,
-	// true - Show flags in barracks
+    // true - Show flags in barracks
     // true - Показывать флаги в казарме
     "barracksShowFlags": true,
     // true - Show skills in barracks
@@ -92,13 +92,16 @@
       // true - show server names in list
       // true - показывать названия серверов в списке
       "showServerName": true,
-	  // expand values to this amount of symbols. recommended to use monospace font if this option is set.
+      // expand server names to this amount of symbols. recommended to use monospace font if this option is set.
+      // расширить названия серверов до данного количества символов. рекомендуется использовать моноширинный шрифт если данная опция задана.
+      "minimalNameLength": 4,
+      // expand values to this amount of symbols. recommended to use monospace font if this option is set.
       // расширить значения до данного количества символов. рекомендуется использовать моноширинный шрифт если данная опция задана.
-      "minimalLength": 0,
+      "minimalValueLength": 0,
       // text to show in case of error
       // текст показываемый в случае ошибки
       "errorString": "--",
-	  // List of ignored servers, for example, ["RU1", "RU3"]
+      // List of ignored servers, for example, ["RU1", "RU3"]
       // Список игнорируемых серверов, например, ["RU1", "RU3"]
       "ignoredServers": [],
       // Text style
@@ -120,7 +123,7 @@
         },
         // Mark current server in the list, possible options: "none" (don't mark), "normal", "bold", "italic", "underline"
         // Выделять текущий сервер в списке, доступные опции: "none" (не выделять), "normal", "bold", "italic", "underline"
-		"markCurrentServer": "bold",
+        "markCurrentServer": "bold",
         // Color for server name and delimiter (for example, "0x8080FF"). Empty string "" - use same color as online value
         // Цвет для названия сервера и разделителя (например, "0x8080FF"). Пустая строка "" - использовать цвет значения онлайна
         "serverColor": ""
@@ -189,13 +192,16 @@
       // true - show server names in list
       // true - показывать названия серверов в списке
       "showServerName": true,
-	  // expand values to this amount of symbols. recommended to use monospace font if this option is set.
+      // expand server names to this amount of symbols. recommended to use monospace font if this option is set.
+      // расширить названия серверов до данного количества символов. рекомендуется использовать моноширинный шрифт если данная опция задана.
+      "minimalNameLength": 4,
+      // expand values to this amount of symbols. recommended to use monospace font if this option is set.
       // расширить значения до данного количества символов. рекомендуется использовать моноширинный шрифт если данная опция задана.
-      "minimalLength": 0,
+      "minimalValueLength": 0,
       // text to show in case of error
       // текст показываемый в случае ошибки
       "errorString": "--k",
-	  // List of ignored servers, for example, ["RU1", "RU2"]
+      // List of ignored servers, for example, ["RU1", "RU2"]
       // Список игнорируемых серверов, например, ["RU1", "RU2"]
       "ignoredServers": [],
       // Text style
@@ -217,7 +223,7 @@
         },
         // Mark current server in the list, possible options: "none" (don't mark), "normal", "bold", "italic", "underline"
         // Выделять текущий сервер в списке, доступные опции: "none" (не выделять), "normal", "bold", "italic", "underline"
-		"markCurrentServer": "bold",
+        "markCurrentServer": "bold",
         // Color for server name and delimiter (for example, "0x8080FF"). Empty string "" - use same color as online value
         // Цвет для названия сервера и разделителя (например, "0x8080FF"). Пустая строка "" - использовать цвет значения онлайна
         "serverColor": ""
