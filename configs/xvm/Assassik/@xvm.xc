@@ -58,15 +58,15 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "10.03.2016",
+    "date": "04.04.2016",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.9.14",
+    "gameVersion": "0.9.14.1",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "6.2.1"
+    "modMinVersion": "6.2.1.2"
   },
 
   // Parameters for login screen.
@@ -89,6 +89,10 @@
   // Панель счёта в бою.
   "fragCorrelation": ${"battle.xc":"fragCorrelation"},
 
+  // Total HP of teams.
+  // Общее ХП команд.
+  "totalHP": ${"battle.xc":"totalHP"},
+
   // Ingame crits panel by "expert" skill.
   // Внутриигровая панель критов от навыка "эксперт".
   "expertPanel": ${"battle.xc":"expertPanel"},
@@ -104,7 +108,7 @@
   // Parameters of the Battle Loading screen.
   // Параметры экрана загрузки боя.
   "battleLoading": ${"battleLoading.xc":"battleLoading"},
-  
+
   // Parameters for the alternative view of the Battle Loading screen.
   // Параметры альтернативного представления экрана загрузки боя.
   "battleLoadingTips": ${"battleLoadingTips.xc":"battleLoadingTips"},
