@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Parameters of the Players Panels ("ears").
  * Параметры панелей игроков ("ушей").
  */
@@ -8,8 +8,8 @@
     "vehicle": "<font color='{{c:t-battles}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>"
   },
   
-  // Enemy spotted status marker format for substitutions in extra fields.
-  // Подстановка для дополнительного поля с маркером статуса засвета
+  // Enemy spotted status marker definition.
+  // Шаблон маркера статуса засвета противника.
   "enemySpottedMarker": {
     // Opacity percentage of spotted markers in the panels. 0 - transparent (disabled) ... 100 - opaque.
     // Прозрачность в процентах маркеров засвета в ушах. 0 - полностью прозрачные (отключены), 100 - не прозрачные.
@@ -31,6 +31,13 @@
     "format": "{{spotted}}",
     // shadow (see below).
     // настройки тени (см. ниже).
+    "shadow": {}
+  },
+  // XMQP service marker definition.
+  // Шаблон маркера сервиса XMQP.
+  "xmqpServiceMarker": {
+    "x": 6, "y": 1, "align": "center", "bindToIcon": true, 
+    "format": "<font face='xvm' size='23' color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}|&#x76;}}</font>",
     "shadow": {}
   },
   // Parameters of the Players Panels ("ears").
@@ -153,7 +160,7 @@
       // true - disable platoon icons
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
-	  // transparency of vehicle level
+      // transparency of vehicle level
       // прозрачность уровня танка
       "vehicleLevelAlpha": 100,
       // Display format for frags (macros allowed, see macros.txt).
@@ -164,12 +171,16 @@
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+        // XMQP service marker (see above).
+        // Маркер сервиса XMQP (см. выше).
+        ${"xmqpServiceMarker"}
+      ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
         // enemy spotted status marker (see above).
-        // маркер статуса засвета (см. выше).
+        // маркер статуса засвета противника (см. выше).
         ${"enemySpottedMarker"}
       ]
     },
@@ -184,7 +195,7 @@
       // true - disable platoon icons
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
-	  // transparency of vehicle level
+      // transparency of vehicle level
       // прозрачность уровня танка
       "vehicleLevelAlpha": 100,
       // Display format for the left panel (macros allowed, see macros.txt).
@@ -201,12 +212,16 @@
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+        // XMQP service marker (see above).
+        // Маркер сервиса XMQP (см. выше).
+        ${"xmqpServiceMarker"}
+      ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
         // enemy spotted status marker (see above).
-        // маркер статуса засвета (см. выше).
+        // маркер статуса засвета противника (см. выше).
         ${"enemySpottedMarker"}
       ]
     },
@@ -221,7 +236,7 @@
       // true - disable platoon icons
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,
-	  // transparency of vehicle level
+      // transparency of vehicle level
       // прозрачность уровня танка
       "vehicleLevelAlpha": 100,
       // Display format for the left panel (macros allowed, see macros.txt).
@@ -238,12 +253,16 @@
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
-      "extraFieldsLeft": [],
+      "extraFieldsLeft": [
+        // XMQP service marker (see above).
+        // Маркер сервиса XMQP (см. выше).
+        ${"xmqpServiceMarker"}
+      ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
         // enemy spotted status marker (see above).
-        // маркер статуса засвета (см. выше).
+        // маркер статуса засвета противника (см. выше).
         ${"enemySpottedMarker"}
       ]
     },
@@ -278,15 +297,20 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-            { "x": 0, "y": 22, "valign": "left", "h": 3, "w": 220, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-            { "x": 0, "y": 22, "valign": "left", "h": 3, "w": "{{hp-ratio:220}}", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" }
+        { "x": 0, "y": 22, "valign": "left", "h": 3, "w": 220, "bgColor": 0, "alpha": "{{alive?30|0}}" },
+        { "x": 0, "y": 22, "valign": "left", "h": 3, "w": "{{hp-ratio:220}}", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
+        // XMQP service marker (see above).
+        // Маркер сервиса XMQP (см. выше).
+        ${"xmqpServiceMarker"}
       ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-            { "x": 0, "y": 22, "valign": "right", "h": 3, "w": 220, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-            { "x": 0, "y": 22, "valign": "right", "h": 3, "w": "{{hp-ratio:220}}", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-            ${"enemySpottedMarker"}
+        { "x": 0, "y": 22, "valign": "right", "h": 3, "w": 220, "bgColor": 0, "alpha": "{{alive?30|0}}" },
+        { "x": 0, "y": 22, "valign": "right", "h": 3, "w": "{{hp-ratio:220}}", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
+        // enemy spotted status marker (see above).
+        // маркер статуса засвета противника (см. выше).
+        ${"enemySpottedMarker"}
       ]
     }
   }
