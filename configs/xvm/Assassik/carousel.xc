@@ -20,8 +20,8 @@
     // Spacing between carousel cells.
     // Отступ между ячейками карусели.
     "padding": {
-        "horizontal": 10,   // по горизонтали
-        "vertical": 2       // по вертикали
+      "horizontal": 10,   // по горизонтали
+      "vertical": 2       // по вертикали
     },
     // Background transparency (default - 60)
     // Прозрачность подложки (по умолчанию - 60)
@@ -38,7 +38,7 @@
     // true - hide cell "Buy slot".
     // true - скрыть ячейку "Купить слот".
     "hideBuySlot": false,
-	// true - show total slots count in the "Buy vehicle" cell.
+    // true - show total slots count in the "Buy vehicle" cell.
     // true - показывать общее количество слотов в ячейке "Купить машину".
     "showTotalSlots": false,
     // true - show used slots count in the "Buy slot" cell.
@@ -49,18 +49,17 @@
     "filters": {
       // false - hide filter.
       // false - скрыть фильтр.
-      "nation":   { "enabled": true },  // nation             / страна
-      "type":     { "enabled": true },  // vehicle class      / тип техники
+      "params":   { "enabled": true },  // main params        / основные параметры
+      "bonus":    { "enabled": true },  // x2 bonus           / x2 бонус
       "favorite": { "enabled": true },  // favorite tanks     / основные танки
       "gameMode": { "enabled": true },  // fallout mode tanks / танки для "боя до последнего"
-      "level":    { "enabled": true },  // vehicle level      / уровень техники
       "prefs":    { "enabled": true }   // other filters      / другие фильтры
     },
     // Spacing between filters cells.
     // Отступ между ячейками фильтров.
     "filtersPadding": {
-        "horizontal": 11,   // по горизонтали
-        "vertical": 13      // по вертикали
+      "horizontal": 11,   // по горизонтали
+      "vertical": 13      // по вертикали
     },
     // Standard cell elements.
     // Стандартные элементы ячеек.
