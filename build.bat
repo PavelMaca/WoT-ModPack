@@ -1,8 +1,8 @@
 @ECHO OFF
 
 REM set variables
-SET game_version=0.9.14.1
-SET mod_version=2.0
+SET game_version=0.9.15
+SET mod_version=1.0
 SET output_file="%game_version%.Assassik.modpack.v%mod_version%.rar"
 SET input_files=%game_version% configs mods modpack_version.json
 
