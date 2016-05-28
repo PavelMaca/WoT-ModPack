@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5079C732-89DD-4E06-8865-4583CE29637C}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5079C732-89DD-4E06-8865-4583CE29637C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="sixthsense" ID="{AEC7866F-51DE-4785-8118-61898A27E581}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C71B6FAE-7DCC-40E4-948D-76EACC21D7E0}" ShortID="573691296" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A9DF5E74-1300-47BA-B5CE-F0FB14D52D34}" Global="false">
+									<ObjectRef Name="sixthsense" ID="{5A31B78E-2EFA-4779-9858-6AD8437E8AEC}" WorkUnitID="{8CC0C45A-797D-4554-A192-09DFFE8481FB}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battleEnd_3_min" ID="{3C0DBE98-B7E3-424A-B79E-B95442DBECF9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7BBBA1C7-2610-40ED-92F4-9DDCE0256A6A}" ShortID="430033614" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3A547AA9-3B0F-41D5-942D-EF7640FF9241}" Global="false">
+									<ObjectRef Name="3min" ID="{6B83C82B-D6FB-427E-9AD7-F2938BAA9068}" WorkUnitID="{8CC0C45A-797D-4554-A192-09DFFE8481FB}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battleEnd_1_min" ID="{93A2716C-ED71-48BF-8211-02FA8D26F6D9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{677A0618-4426-4F27-B487-3488CE8CA3CA}" ShortID="1009286867" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B520EFCB-FFE0-4DDF-B8DB-429281BB1840}" Global="false">
+									<ObjectRef Name="1min" ID="{A1A11431-718F-462C-A962-51ABC09246A6}" WorkUnitID="{8CC0C45A-797D-4554-A192-09DFFE8481FB}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battleEnd_30_sec" ID="{8BD33207-17BE-4C41-8B93-6F144C828A4D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F1E6BB95-CE14-400C-A07B-C07B9E459598}" ShortID="911779974" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{62EB3F09-A88F-43BA-9B3B-CDA604AE48E8}" Global="false">
+									<ObjectRef Name="30secs" ID="{916FE3A9-B6F3-49DC-80C3-C3BF3153D98C}" WorkUnitID="{8CC0C45A-797D-4554-A192-09DFFE8481FB}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battleEnd_5_sec" ID="{28193A53-B176-4B24-85E8-D5E290D48693}">
+					<ChildrenList>
+						<Action Name="Play" ID="{33273A9B-4274-4120-A2C7-C42A7B6E2941}" ShortID="322799093" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9AAB579C-7209-40A7-8780-5647BDFAFB87}" Global="false">
+									<ObjectRef Name="5secs" ID="{08079594-9E5B-403E-8743-7A3B6BB81572}" WorkUnitID="{8CC0C45A-797D-4554-A192-09DFFE8481FB}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ammoBay" ID="{B8CDE87B-91AF-48B1-94D0-A690DA8D02B0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{21AD3E81-6821-4DCB-84F6-BE2D82C540F8}" ShortID="611725683" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D656EA70-A0F8-46A5-86B5-B276CB7BC311}" Global="false">
+									<ObjectRef Name="ammoBay" ID="{A6E0E7F5-8517-492D-815E-6B2FF62A3C14}" WorkUnitID="{8CC0C45A-797D-4554-A192-09DFFE8481FB}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="fireAlert" ID="{89EC8F44-F166-46B8-920B-A7F0B3B69042}">
+					<ChildrenList>
+						<Action Name="Play" ID="{10F7D4F0-1EBB-47D6-A820-E2F477329E34}" ShortID="449432948" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{921602F2-B62E-45D2-96E6-45DEFDD54BF8}" Global="false">
+									<ObjectRef Name="firealert" ID="{7CFB7582-49DC-445D-8A7A-A8ECF4FF725B}" WorkUnitID="{8CC0C45A-797D-4554-A192-09DFFE8481FB}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

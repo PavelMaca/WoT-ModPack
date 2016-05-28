@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5880F16A-1A73-4F0D-A95E-9FAC10F58346}" SchemaVersion="70">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{5880F16A-1A73-4F0D-A95E-9FAC10F58346}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_ext_menu_volume_master" ID="{1505EC2A-C7E2-4DC0-BBAF-D877D17ADFF2}"/>
+				<GameParameter Name="RTPC_ext_menu_volume_voice_gui" ID="{81E66909-B5AA-4CA0-8D41-84024F0AB03D}"/>
+				<GameParameter Name="RTPC_ext_menu_volume_music" ID="{2DD8F348-A7BA-4F65-839C-82FB834C2A0B}"/>
+				<GameParameter Name="RTPC_ext_menu_volume_vehicles" ID="{1F179830-FD78-4ECA-ACA7-D665B9101513}"/>
+				<GameParameter Name="RTPC_ext_menu_volume_effects" ID="{65FB6AF3-9AD9-41F7-9D57-5B0144418ABA}"/>
+				<GameParameter Name="RTPC_ext_menu_volume_ambient" ID="{ACB1D961-1A1D-46D0-B22B-A0574CE7B79A}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

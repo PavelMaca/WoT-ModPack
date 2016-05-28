@@ -1,1 +1,10 @@
 !misc/wottools.exe
+
+# Wwise project
+wwise_assassik/.backup
+wwise_assassik/.cache/
+wwise_assassik/GeneratedSoundBanks/
+wwise_assassik/*.validationcache
+wwise_assassik/*.wsettings
+wwise_assassik/*.validationcache
+wwise_assassik/*.wproj_migration.log
