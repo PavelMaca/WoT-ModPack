@@ -71,7 +71,7 @@
     //
     // Clock format.
     // Формат часов.
-    "format": "<font face='$FieldFont'><font size='19'>{{D%02d}}.{{M%02d}}.{{Y}}</font><font size='26'> {{h%02d}}:{{m%02d}}:{{s%02d}}</font></font>",
+    "format": "<font color='#e6e0be' face='$FieldFont'><font size='19'>{{D%02d}}.{{M%02d}}.{{Y}}</font><font size='26'> {{h%02d}}:{{m%02d}}:{{s%02d}}</font></font>",
     // Shadow.
     // Тень.
     "shadow": {
