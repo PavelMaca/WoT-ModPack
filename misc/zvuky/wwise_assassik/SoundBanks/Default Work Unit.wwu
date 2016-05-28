@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9F6CBBB9-CD30-4DE5-B188-0BA73A33A696}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9F6CBBB9-CD30-4DE5-B188-0BA73A33A696}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="assassik" ID="{437E7988-8075-4BE2-8225-511E573BA505}">
+					<ObjectInclusionList>
+						<ObjectRef Name="battleEnd_30_sec" ID="{8BD33207-17BE-4C41-8B93-6F144C828A4D}" WorkUnitID="{5079C732-89DD-4E06-8865-4583CE29637C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="fireAlert" ID="{89EC8F44-F166-46B8-920B-A7F0B3B69042}" WorkUnitID="{5079C732-89DD-4E06-8865-4583CE29637C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="battleEnd_5_sec" ID="{28193A53-B176-4B24-85E8-D5E290D48693}" WorkUnitID="{5079C732-89DD-4E06-8865-4583CE29637C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="battleEnd_1_min" ID="{93A2716C-ED71-48BF-8211-02FA8D26F6D9}" WorkUnitID="{5079C732-89DD-4E06-8865-4583CE29637C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sixthsense" ID="{AEC7866F-51DE-4785-8118-61898A27E581}" WorkUnitID="{5079C732-89DD-4E06-8865-4583CE29637C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ammoBay" ID="{B8CDE87B-91AF-48B1-94D0-A690DA8D02B0}" WorkUnitID="{5079C732-89DD-4E06-8865-4583CE29637C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="battleEnd_3_min" ID="{3C0DBE98-B7E3-424A-B79E-B95442DBECF9}" WorkUnitID="{5079C732-89DD-4E06-8865-4583CE29637C}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

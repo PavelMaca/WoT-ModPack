@@ -1,0 +1,8 @@
+# Wwise project
+/misc/zvuky/wwise_assassik/.backup
+/misc/zvuky/wwise_assassik/.cache/
+/misc/zvuky/wwise_assassik/GeneratedSoundBanks/
+/misc/zvuky/wwise_assassik/*.validationcache
+/misc/zvuky/wwise_assassik/*.wsettings
+/misc/zvuky/wwise_assassik/*.validationcache
+/misc/zvuky/wwise_assassik/*.wproj_migration.log
