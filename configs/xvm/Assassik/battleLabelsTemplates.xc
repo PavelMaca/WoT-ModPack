@@ -136,7 +136,7 @@
      └────────────────────────────┴──────────────────────────────────────────────────────────────────────────
     */
     "winChance": {
-      "enabled": true,
+      "enabled": false,
       "updateEvent": "ON_VEHICLE_DESTROYED",
       "x": 230,
       "y": 2,
@@ -148,7 +148,7 @@
       "format": "{{xvm-stat?{{l10n:Chance to win}}: {{chancesStatic}}{{chancesStatic?&nbsp;/&nbsp;|}}{{chancesLive}}}}"
     },
     "totalHP": {
-      "enabled": true,
+      "enabled": false,
       "updateEvent": "ON_PLAYERS_HP_CHANGED",
       "x": 0,
       "y": 30,
