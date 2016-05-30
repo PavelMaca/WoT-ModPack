@@ -172,6 +172,8 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
+		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
+        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
         // XMQP service marker (see above).
         // Маркер сервиса XMQP (см. выше).
         ${"xmqpServiceMarker"}
@@ -179,6 +181,8 @@
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
+		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
+        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
         // enemy spotted status marker (see above).
         // маркер статуса засвета противника (см. выше).
         ${"enemySpottedMarker"}
@@ -213,6 +217,8 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
+		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
+        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
         // XMQP service marker (see above).
         // Маркер сервиса XMQP (см. выше).
         ${"xmqpServiceMarker"}
@@ -220,6 +226,8 @@
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
+		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
+        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
         // enemy spotted status marker (see above).
         // маркер статуса засвета противника (см. выше).
         ${"enemySpottedMarker"}
@@ -254,6 +262,8 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
+		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
+        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
         // XMQP service marker (see above).
         // Маркер сервиса XMQP (см. выше).
         ${"xmqpServiceMarker"}
@@ -261,6 +271,8 @@
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
+		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
+        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
         // enemy spotted status marker (see above).
         // маркер статуса засвета противника (см. выше).
         ${"enemySpottedMarker"}
