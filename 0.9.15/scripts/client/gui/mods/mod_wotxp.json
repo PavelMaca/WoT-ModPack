@@ -1,0 +1,13 @@
+{
+    "tankmanRankPrefix": "",
+    "tankmanRolePrefix": "[{{nextSkillXpCost}}<img src='img://gui/maps/icons/library/multyXp.png' width='14' height='14' >] ",
+    "tankmanNewSkillRankPrefix": "[+{{freeXp}}<img src='img://gui/maps/icons/library/multyXp.png' width='14' height='14' >] ",
+    "tankmanNewSkillRolePrefix": "",
+    "useFreeXpForModuleResearch": false,
+    "useFreeXpForVehicleResearch": false,
+    "stockVehicle": "",
+    "stockVehicleResearchCompleted": "",
+    "topVehicle": "",
+    "topVehicleResearchCompleted": "",
+    "debug": false
+}
