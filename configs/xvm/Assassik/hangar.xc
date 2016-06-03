@@ -54,14 +54,14 @@
     "pingServers": {
       // true - Enable display of ping to the servers
       // true - показывать пинг до серверов
-      "enabled": false,
+      "enabled": true,
       // Update interval, in ms
       // Интервал обновления, в мс
       "updateInterval": 10000,
       // Axis field coordinates
       // Положение поля по осям
-      "x": 450,
-      "y": 7,
+      "x": 3,
+      "y": 51,
       // Horizontal alignment of field at screen ("left", "center", "right").
       // Горизонтальное выравнивание поля на экране ("left", "center", "right").
       "hAlign": "left",
@@ -70,7 +70,7 @@
       "vAlign": "top",
       // Transparency
       // Прозрачность от 0 до 100
-      "alpha": 100,
+      "alpha": 80,
       // Server to response time text delimiter
       // Разделитель сервера от времени отклика
       "delimiter": ": ",
@@ -148,10 +148,10 @@
         "enabled": true,
         "color": "0x000000",
         "distance": 0,
-        "angle": 0,
-        "alpha": 70,
+        "angle": 45,
+        "alpha": 75,
         "blur": 4,
-        "strength": 2
+        "strength": 6
       }
     },
     "onlineServers": {
