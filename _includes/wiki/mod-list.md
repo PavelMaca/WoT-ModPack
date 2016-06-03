@@ -10,7 +10,7 @@
 - [Pogs contour icon mod](http://forum.worldoftanks.eu/index.php?/topic/543926-) - [(old)](http://forum.worldoftanks.eu/index.php?/topic/401059-)
 - [Enhanced customizeable Radial Menu](http://blogtanker.ru/nastraivaemoe-boevoe-menyu-dlya-world-of-tanks.html)
 - [Team HP Pool Bar](http://forum.worldoftanks.ru/index.php?/topic/1385404-) - [(orig)](http://forum.worldoftanks.eu/index.php?/topic/374447-)
-- [Crew XP](http://expromt-max.ru/forum/spoter/topic-316.html)
+- [Crew XP](http://www.koreanrandom.com/forum/topic/24591-)
 - [Teamspeak mod](http://forum.worldoftanks.eu/index.php?/topic/433614-)
 - [Automatické zaměřování](http://forum.worldoftanks.eu/index.php?/topic/441413-)
 - [Battle Assistant](http://forum.worldoftanks.ru/index.php?/topic/1389614-)
