@@ -30,12 +30,12 @@
     // Текст для макроса {{spotted}}
     "spotted": {
       "neverSeen": "",
-      "lost": "<img src='xvm://res/Assassik/icons/lost.png' width='20' height='20'>",
-      "spotted": "<img src='xvm://res/Assassik/icons/revealed.png' width='20' height='20'>",
+      "lost": "<img src='cfg://Assassik/img/icons/lost.png' width='20' height='20'>",
+      "spotted": "<img src='cfg://Assassik/img/icons/revealed.png' width='20' height='20'>",
       "dead": "",
       "neverSeen_arty": "",
-      "lost_arty": "<img src='xvmr://res/Assassik/icons/lost.png' width='20' height='20'>",
-      "spotted_arty": "<img src='xvm://res/Assassik/icons/revealed.png' width='20' height='20'>",
+      "lost_arty": "<img src='cfg://Assassik/img/icons/lost.png' width='20' height='20'>",
+      "spotted_arty": "<img src='cfg://Assassik/img/icons/revealed.png' width='20' height='20'>",
       "dead_arty": ""
     },
     // Text for {{xvm-user}} macro.

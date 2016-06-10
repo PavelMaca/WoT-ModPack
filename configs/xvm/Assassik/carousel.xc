@@ -103,7 +103,7 @@
         
         { "x": 4, "y": 15, "w": 25, "h": 25, "src": "img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png"
         },
-        { "x": 30, "y": 20, "src": "xvm://res/Assassik/marksOnGun/{{v.marksOnGun|x}}.png"
+        { "x": 30, "y": 20, "src": "cfg://Assassik/img/marksOnGun/{{v.marksOnGun|x}}.png"
         },
 		{ "x": 45, "y": 18, 
 			"format": "<b><font size='12' color='#C8C8B5'><font face='Arial'>{{v.damageRating%.1d~%}}</font></b>",
