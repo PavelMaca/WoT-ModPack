@@ -9,12 +9,12 @@
 		"damageColor" : "#E0E06D",
 		
 		// true - показывать процент нанесенного урона, false - скрыть (Эксперементально)
-		"damagePercent" : true,
+		"damagePercent" : false,
 		// цвет процента нанесенного урона, дефолт #E0E0E0
 		"damagePercentColor" : "#E0E0E0",
 		
 		// true - показывать количество пробитий, false - скрыть
-		"piercedHits" : false,
+		"piercedHits" : true,
 		// цвет пробитий, дефолт #BDE0E0
 		"piercedHitsColor" : "#BDE0E0"
 
@@ -38,7 +38,7 @@
 		// true - Показывать оставшееся ХП по каждому танку при нажатии на Левый ALT, false - скрыть
 		// !!!!!!!!!!!!!  ВНИМАНИЕ включение этой функции может негативно влиять на фпс в момент нажатия ALT !!!!!!!!!!!!!
 		// На старинных допотопных пк включать не рекомендовано. Я вас предупредил.
-		"showRemainHalth" : true,
+		"showRemainHalth" : false,
 		"colors" : {
 			// Цвет остатка хп (значение)
 			"remainHalthColor" : "#E0E06D",
