@@ -1,0 +1,8 @@
+# XVM sound banks
+0.9.15.0.1/audioww/xvm.bnk
+# XVM docs
+mods/shared_resources/xvm/doc/*
+
+# XVM transaltions except czech lang
+mods/shared_resources/xvm/l10n/*.xc
+!mods/shared_resources/xvm/l10n/cs.xc
