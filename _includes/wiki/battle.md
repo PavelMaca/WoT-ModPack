@@ -6,6 +6,8 @@
 [img_dmg_direction]:images/damage_direction.jpg
 [img_tank_info]:images/tank_info.jpg
 [img_arty]:images/arty_crosshair.jpg
+[img_hp_left]:images/hp_left.jpg
+
 
 ## Bitva
 
@@ -60,6 +62,7 @@ Velikost poškození je obarvená podle typu
  - při stisku ALT se změní na tabulky se zbývajicími HP nepřátel
  
 ![img_dmg_log]
+![hp_left]
 
 ### Ukazatel od kud na vás střílí
  - ukazuje čas od zásahu po dobu 10s
