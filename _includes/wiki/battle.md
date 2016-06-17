@@ -62,7 +62,7 @@ Velikost poškození je obarvená podle typu
  - při stisku ALT se změní na tabulky se zbývajicími HP nepřátel
  
 ![img_dmg_log]
-![hp_left]
+![img_hp_left]
 
 ### Ukazatel od kud na vás střílí
  - ukazuje čas od zásahu po dobu 10s
