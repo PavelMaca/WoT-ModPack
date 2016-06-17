@@ -6,7 +6,7 @@
   "camera": {
     // false - disable camera settings.
     // false - отключить настройки камеры.
-    "enabled": false,
+    "enabled": true,
     // Arcade mode
     // Аркадный режим
     "arcade": {
@@ -70,8 +70,8 @@
         "enabled": true,
         // Field position relative to screen center
         // Положение поля относительно центра экрана
-        "x": 150,
-        "y": 30,
+        "x": 205,
+        "y": -98,
         // Field size
         // Размер поля
         "width": 100,
