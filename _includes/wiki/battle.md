@@ -40,14 +40,19 @@ Velikost poškození je obarvená podle typu
 - žlutá = je spatřen na minimapě
 
 **Barva tanku** = počet bitev  
-**Barva jména** = statistiky hráče
+**Barva jména** = statistiky hráče  
+
+- Zbývající HP (postraní svislé proužky)
 
 ![img_icons]
 
 ### Minimapa
  - zvětšení při stisku CTRL
  - poslední pozice nepřátel
- - čtverec se stranami 1 000m (dál nelze spatřit žádný tank)
+ - maximální vykreslovací vzdálenost (bílí)
+ - kruh pro maximálním dohledem (červený)
+ - vlastní dohled (zelený)
+ - 50m pro automatický spot (bílí) 
  
 ![img_minimap]
 
