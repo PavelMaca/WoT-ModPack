@@ -19,6 +19,15 @@
     {% capture others %}{% include wiki/others.md %}{% endcapture %}
     {{ others | markdownify }}
 </div>
+<audio controls>
+  <source src="sounds/sixthsense.waw" type="audio/wav">
+ </audio>
+ <audio controls>
+  <source src="sounds/ammoBay.wav" type="audio/wav">
+</audio>
+ <audio controls>
+  <source src="sounds/firealert.wav" type="audio/wav">
+</audio>
 <div id="mod-list" class="md">
     {% capture modList %}{% include wiki/mod-list.md %}{% endcapture %}
     {{ modList | markdownify }}
