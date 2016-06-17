@@ -18,16 +18,31 @@
 <div id="description-others" class="md">
     {% capture others %}{% include wiki/others.md %}{% endcapture %}
     {{ others | markdownify }}
+	
+	<h3>Zvuky</h3>
+	<ul>
+		<li>
+			šestý smysl
+			<audio controls>
+				<source src="sounds/sixthsense.wav" type="audio/wav">
+			</audio>
+		</li>
+		<li>
+			upozornění na požár
+			<audio controls>
+				<source src="sounds/firealert.wav" type="audio/wav">
+			</audio>
+		</li>
+		<li> upozornění na poškozenou munici
+			<audio controls>
+				<source src="sounds/ammoBay.wav" type="audio/wav">
+			</audio>
+		</li>
+		<li>odpočet do konce bitvy (3min, 1min, 30s, 5s)</li>
+	</ul>
 </div>
-<audio controls>
-  <source src="sounds/sixthsense.waw" type="audio/wav">
- </audio>
- <audio controls>
-  <source src="sounds/ammoBay.wav" type="audio/wav">
-</audio>
- <audio controls>
-  <source src="sounds/firealert.wav" type="audio/wav">
-</audio>
+
+
 <div id="mod-list" class="md">
     {% capture modList %}{% include wiki/mod-list.md %}{% endcapture %}
     {{ modList | markdownify }}
