@@ -3,7 +3,7 @@
 	"template": {
 		//"name": "",
 		//"format": "",                 // Text format (see description of macros in the readme-en.txt)
-		"visible": true,                // false - Disable
+		"enabled": true,                // false - Disable
 		"x": 0,                         // Position on the X axis
 		"y": 0,                         // Position on the Y axis
 		"alpha": 100,                   // Opacity (dynamic transparency allowed, see readme-en.txt)

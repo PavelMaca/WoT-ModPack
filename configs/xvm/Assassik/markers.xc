@@ -3,7 +3,9 @@
  */
 {
 	"markers": {
-        "useStandardMarkers": false,
+		// false - use standard client vehicle markers.
+		// false - использовать стандартные маркеры клиента.
+		"enabled": true,
          // {{turret}} marker display strings.
         // Отображаемые строки {{turret}} маркера.
         "turretMarkers": {
@@ -33,7 +35,7 @@
 				"$ref": { "path":"sectionTemplate" },
 				"contourIcon": {
 					"$ref": { "path":"sectionTemplate.contourIcon" },
-					"visible": true
+					"enabled": true
 				},
 				"textFields": [
 					${"markers.textFields.xc":"playerName"},
@@ -48,7 +50,7 @@
 				"$ref": { "path":"sectionTemplate" },
 				"healthBar": {
 					"$ref": { "path":"sectionTemplate.healthBar" },
-					"visible": false
+					"enabled": false
 				},
 				"textFields": []
 			},
@@ -57,7 +59,7 @@
 				"$ref": { "path":"sectionTemplate" },
 				"healthBar": {
 					"$ref": { "path":"sectionTemplate.healthBar" },
-					"visible": false
+					"enabled": false
 				},
 				"textFields": [
 					${"markers.textFields.xc":"playerName"},
@@ -81,7 +83,7 @@
 		
 	"def": {
 		  "vehicleIcon": {                    // "Type of vehicle" icon (HT / MT / LT / TD / Arty)
-            "visible": true,                  //   false - Disable
+            "enabled": true,                  //   false - Disable
             "showSpeaker": false,             //   true - Show speaker even if visible=false
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
@@ -90,17 +92,20 @@
             "maxScale": 100,                  //   Maximum scale (default is 100)
             "scaleX": 0,                      //   Offset along the X axis (?)
             "scaleY": 16,                     //   Offset along the Y axis (?)
-            "shadow": {                       //   Shadow options
-              "alpha": 100,                   //     Opacity
-              "color": "0x000000",            //     Color
-              "angle": 45,                    //     Offset angle
-              "distance": 0,                  //     Offset distance
-              "size": 6,                      //     Size
-              "strength": 200                 //     Intensity
-            }
+			"shadow": {                     // Shadow options
+				// false - no shadow
+				// false - без тени
+				"enabled": true,
+				"distance": 0,                  // (in pixels)     / offset distance / дистанция смещения
+				"angle": 45,                    // (0.0 .. 360.0)  / offset angle    / угол смещения
+				"color": "0x000000",            // "0xXXXXXX"      / color           / цвет
+				"alpha": 100,                   // (0 .. 100)      / opacity         / прозрачность
+				"blur": 3,                      // (0.0 .. 255.0)  / blur            / размытие
+				"strength": 1                   // (0.0 .. 255.0)  / intensity       / интенсивность
+			}
           },
 		  "healthBar": {                      // Health indicator
-            "visible": true,                  //   false - Disable
+            "enabled": true,                  //   false - Disable
             "x": -41,                         //   Position on the X axis
             "y": -33,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
@@ -123,33 +128,36 @@
             }
           },
 		  "damageText": {                     // Floating damage values
-            "visible": true,                  //   false - Disable
+            "enabled": true,                  //   false - Disable
             "x": 0,                           //   Position on the X axis
             "y": -67,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
-            "font": {                         //   Font options
+            "textFormat": {                         //   Font options
               "name": "$FieldFont",           //     Font name
               "size": 18,                     //     Font size
               "align": "center",              //     Text alignment (left, center, right)
               "bold": false,                  //     Normal (false) or bold (true)
               "italic": false                 //     Normal (false) or italic (true)
             },
-            "shadow": {                       //   Shadow options
-              "alpha": 100,                   //     Opacity
-              "color": "0x000000",            //     Color
-              "angle": 45,                    //     Offset angle
-              "distance": 0,                  //     Offset distance
-              "size": 6,                      //     Size
-              "strength": 200                 //     Intensity
-            },
+			"shadow": {                     // Shadow options
+				// false - no shadow
+				// false - без тени
+				"enabled": true,
+				"distance": 0,                  // (in pixels)     / offset distance / дистанция смещения
+				"angle": 45,                    // (0.0 .. 360.0)  / offset angle    / угол смещения
+				"color": "0x000000",            // "0xXXXXXX"      / color           / цвет
+				"alpha": 100,                   // (0 .. 100)      / opacity         / прозрачность
+				"blur": 3,                      // (0.0 .. 255.0)  / blur            / размытие
+				"strength": 1                   // (0.0 .. 255.0)  / intensity       / интенсивность
+			},
             "speed": 2,                       //   Rising speed of displayed damage (float up speed)
             "maxRange": 40,                   //   Maximimum distance of target for which damage rises
             "damageMessage": "{{dmg}}",       //   Text for normal damage (see description of macros in the readme-en.txt)
             "blowupMessage": "{{l10n:blownUp}}\n{{dmg}}"        //   Text for ammo rack explosion (see description of macros in the readme-en.txt)
           },
 		  "contourIcon": {                    // Vehicle icon
-            "visible": false,                 //   false - Disable
+            "enabled": false,                 //   false - Disable
             "x": 0,                           //   Position on the X axis
             "y": -74,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
@@ -157,13 +165,13 @@
             "amount": 0                       //   Color intensity from 0 to 100. The default is 0 (off).
           },
           "levelIcon": {                      // Vehicle tier
-            "visible": false,                 //   false - Disable
+            "enabled": false,                 //   false - Disable
             "x": 0,                           //   Position on the X axis
             "y": -21,                         //   Position on the Y axis
             "alpha": 100                      //   Opacity
           },
           "actionMarker": {                   // Markers "Help!" and "Attack!"
-            "visible": true,                  //   false - Disable
+            "enabled": true,                  //   false - Disable
             "x": 0,                           //   Position on the X axis
             "y": -67,                         //   Position on the Y axis
             "alpha": 100                      //   Opacity
