@@ -88,7 +88,7 @@
     "alpha": 100,
     // x position.
     // положение по горизонтали.
-    "x": 5,
+    "x": 87,
     // y position.
     // положение по вертикали.
     "y": 0,
@@ -108,7 +108,7 @@
   // XMQP service marker definition.
   // Шаблон маркера сервиса XMQP.
   "xmqpServiceMarker": {
-    "x": 6, "y": 1, "align": "center", "bindToIcon": true,
+    "x": 90, "y": 1, "align": "center", "bindToIcon": true,
     "format": "<font face='xvm' size='23' color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}|&#x76;}}</font>",
     "shadow": {}
   },
