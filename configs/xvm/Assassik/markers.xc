@@ -27,7 +27,9 @@
 				"$ref": { "path":"sectionTemplate" },
 				"textFields": [
 					${"markers.textFields.xc":"tankName"},
-					${"markers.textFields.xc":"tankHp"}
+					${"markers.textFields.xc":"tankHp"},
+					${"markers.textFields.xc":"rating"},
+					${"markers.textFields.xc":"xmqpEvent"}
 				]
 			},
 			// alive - alternative mode (pressing 'Alt')
@@ -100,7 +102,7 @@
           },
 		  "healthBar": {                      // Health indicator
             "enabled": true,                  //   false - Disable
-            "x": -41,                         //   Position on the X axis
+            "x": -37,                         //   Position on the X axis
             "y": -33,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Primary color (dynamic colors allowed, see readme-en.txt)
