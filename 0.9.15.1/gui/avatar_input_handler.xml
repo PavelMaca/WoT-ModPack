@@ -21,6 +21,7 @@
     <ownShotImpulseDelay>0.005</ownShotImpulseDelay>
   </dynamicCameraCommon>
   <postMortemMode>
+    <defaultOffset>0.0 0.0</defaultOffset>
     <camera>
       <advancedCollision>
         <ePower>2.0</ePower>
@@ -87,6 +88,7 @@
     </camera>
   </postMortemMode>
   <arcadeMode>
+    <defaultOffset>0 0.15</defaultOffset>
     <aim>arcade</aim>
     <numScrolls>	1	</numScrolls>
     <camera>
@@ -195,6 +197,7 @@
     </camera>
   </strategicMode>
   <sniperMode>
+    <defaultOffset>0.0 0.0</defaultOffset>
     <aim>sniper</aim>
     <binoculars_usual>
       <background>system/maps/slens_map.dds</background>
@@ -279,6 +282,7 @@
     </camera>
   </sniperMode>
   <videoMode>
+    <defaultOffset>0.0 0.0</defaultOffset>
     <camera>
       <sensitivity>0.15</sensitivity>
       <scrollSensitivity>0.25</scrollSensitivity>
