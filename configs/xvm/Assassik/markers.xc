@@ -88,21 +88,15 @@
             "x": 0,                           //   Position on the X axis
             "y": -16,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity
-            "color": null,                    //   Color (currently not in use)
-            "maxScale": 100,                  //   Maximum scale (default is 100)
-            "scaleX": 0,                      //   Offset along the X axis (?)
-            "scaleY": 16,                     //   Offset along the Y axis (?)
-			"shadow": {                     // Shadow options
-				// false - no shadow
-				// false - без тени
-				"enabled": true,
-				"distance": 0,                  // (in pixels)     / offset distance / дистанция смещения
-				"angle": 45,                    // (0.0 .. 360.0)  / offset angle    / угол смещения
-				"color": "0x000000",            // "0xXXXXXX"      / color           / цвет
-				"alpha": 100,                   // (0 .. 100)      / opacity         / прозрачность
-				"blur": 3,                      // (0.0 .. 255.0)  / blur            / размытие
-				"strength": 1                   // (0.0 .. 255.0)  / intensity       / интенсивность
-			}
+			// Maximum scale (default is 100).
+			// Максимальный масштаб (по умолчанию 100).
+            "maxScale": 100,
+			// Offset along the X axis (?)
+			// Смещение по оси X (?)
+			"offsetX": 0,
+			// Offset along the Y axis (?)
+			// Смещение по оси Y (?)
+			"offsetY": 0
           },
 		  "healthBar": {                      // Health indicator
             "enabled": true,                  //   false - Disable

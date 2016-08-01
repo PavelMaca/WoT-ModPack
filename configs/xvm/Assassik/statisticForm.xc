@@ -84,7 +84,7 @@
     "formatLeftVehicle": ${"defines.xc":"formatLeft"},
     // Display format for the right panel (macros allowed, see macros.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
-    "formatRightVehicle": ${"defines.xc":"formatRight"}
+    "formatRightVehicle": ${"defines.xc":"formatRight"},
     // Display format for the left panel (macros allowed, see macros.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
     "formatLeftFrags": "{{frags}}",

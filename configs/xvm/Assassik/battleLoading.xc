@@ -76,7 +76,7 @@
     "formatLeftVehicle": ${"defines.xc":"formatLeft_loading"},
     // Display format for the right panel (macros allowed, see macros.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
-    "formatRightVehicle": ${"defines.xc":"formatRight"}
+    "formatRightVehicle": ${"defines.xc":"formatRight"},
     // TODO
     // Extra fields. Fields are placed one above the other.
     // Дополнительные поля. Поля располагаются друг над другом.
