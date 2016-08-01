@@ -15,7 +15,7 @@
 		"timerColorEndBattle" : "#F30900"	// цвет таймера конец боя, меньше 2х минут
 	},
 	"damage" : {
-		"showDamage" : true,				// true - показывать нанеснный урон, false - скрыть.
+		"showDamage" : false,				// true - показывать нанеснный урон, false - скрыть.
 		"showLastDamage" : false,			// true - показывать последний урон, false - скрыть.
 		"damagePercent" : false,			// true - показывать процент нанесенного урона, false - скрыть
 		"piercedHits" : false,				// true - показывать количество пробитий, false - скрыть
