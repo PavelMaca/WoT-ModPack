@@ -13,7 +13,7 @@
     "soundBanks": {
       //"hangar": "xvm.bnk",
       //"battle": "xvm.bnk"
-	  "hangar": "assassik.bnk",
+      "hangar": "assassik.bnk",
       "battle": "assassik.bnk"
     },
     // Enable sound events logging in the xvm.log
@@ -53,21 +53,21 @@
       // Sound events added by XVM
       // Звуковые события, добавленные в XVM
       //
-      // Perk SixthSense
+      // Sixth sense perk
       // Перк Шестое чувство
       "xvm_sixthSense": "sixthsense",
-      // Perk SixthSense (On vehicle Т-34-85 Rudy)
-      // Перк Шестое чувство (На технике Т-34-85 Rudy)
+      // Sixth sense perk for Т-34-85 Rudy
+      // Перк Шестое чувство для Т-34-85 Rudy
       "xvm_sixthSenseRudy": "sixthsense",
       // Enemy detection (Use in together with disable original enemy detection event) 
       // Обнаружение противника (Используйте вместе с отключением оригинального звука обнаружения противника)
       "xvm_enemySighted": "",      
       //"xvm_enemySighted": "enemySighted",      
-      // Fire alert
-      // Пожар
+      // Fire alert (Use in together with disable original event)
+      // Пожар (Используйте вместе с отключением оригинального звука)
       "xvm_fireAlert": "fireAlert",
-      // Damage ammoBay
-      // Повреждение боеукладки
+      // Damage ammoBay (Use in together with disable original event)
+      // Повреждение боеукладки (Используйте вместе с отключением оригинального звука)
       "xvm_ammoBay": "ammoBay",
       // Notifications informing about the imminent end of the battle (Use in together with disable original event)
       // Оповещения сообщающие о скором завершении боя (Используйте вместе с отключением оригинального звука)

@@ -143,15 +143,18 @@
         // Values above define bad response
         // Значения более считаются плохим откликом
       },
+      // Shadow options
       // Параметры тени
       "shadow": {
+        // false - no shadow
+        // false - без тени
         "enabled": true,
-        "color": "0x000000",
-        "distance": 0,
-        "angle": 45,
-        "alpha": 75,
-        "blur": 4,
-        "strength": 6
+        "distance": 0,             // (in pixels)     / offset distance / дистанция смещения
+        "angle": 45,                // (0.0 .. 360.0)  / offset angle    / угол смещения
+        "color": "0x000000",       // "0xXXXXXX"      / color           / цвет
+        "alpha": 75,               // (0 .. 100)      / opacity         / прозрачность
+        "blur": 4,                 // (0.0 .. 255.0)  / blur            / размытие
+        "strength": 6              // (0.0 .. 255.0)  / intensity       / интенсивность
       }
     },
     "onlineServers": {
@@ -227,7 +230,7 @@
         // Color for server name and delimiter (for example, "0x8080FF"). Empty string "" - use same color as online value
         // Цвет для названия сервера и разделителя (например, "0x8080FF"). Пустая строка "" - использовать цвет значения онлайна
         "serverColor": ""
-     },
+      },
       // Threshold values defining server online and thus shorter battle queue
       // Пороговые значения, определяющие количество человек онлайн и следовательно меньшую очередь в бой
       "threshold": {
@@ -237,12 +240,13 @@
         //below this value the queue might be long
         //ниже этого значения очередь может быть долгой
       },
+      // Shadow options
       // Параметры тени
       "shadow": {
         "enabled": true,
-        "color": "0x000000",
         "distance": 0,
-        "angle": 0,
+        "angle": 0,        
+        "color": "0x000000",
         "alpha": 70,
         "blur": 4,
         "strength": 2
