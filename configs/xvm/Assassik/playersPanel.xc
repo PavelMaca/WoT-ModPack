@@ -102,8 +102,8 @@
 		"y": 22, 
 		"valign": "left", 
 		"h": "-{{hp-ratio:21}}", 
-		"w": "4", "bgColor": 
-		"{{c:system}}", 
+		"w": "4", 
+		"bgColor": "{{c:system}}", 
 		"alpha": "{{alive?38|0}}"
 	},
         
@@ -154,7 +154,7 @@
 		"enabled": false,
 		"x": 10, "y": 5, "bindToIcon": true,
 		"src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
-	  },
+	  }
   },
   // Parameters of the Players Panels ("ears").
   // Параметры панелей игроков ("ушей").
@@ -311,7 +311,7 @@
 		${"def.hpBarBg"},
 		${"def.clanIcon"},
         ${"def.xvmUserMarker"},
-        ${"def.enemySpottedMarker"},
+        ${"def.enemySpottedMarker"}
       ]
     },
     // Options for the "medium" panels - the first of the medium panels.
