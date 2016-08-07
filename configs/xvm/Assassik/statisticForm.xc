@@ -91,7 +91,6 @@
     // Display format for the right panel (macros allowed, see macros.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
     "formatRightFrags": "{{frags}}",
-    // TODO
     // Extra fields. Fields are placed one above the other.
     // Дополнительные поля. Поля располагаются друг над другом.
     // Set of formats for left panel (extended format supported, see above)
@@ -99,8 +98,8 @@
     "extraFieldsLeft": [
       ${"defines.xc":"clanIcon"}
     ],
-    // Set of formats for right panel (extended format supported, see above)
-    // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
+    // Set of formats for right panel (extended format supported, see playersPanel.xc)
+    // Набор форматов для правой панели (поддерживается расширенный формат, см. playersPanel.xc)
     "extraFieldsRight": [
       ${"defines.xc":"clanIcon"}
     ]

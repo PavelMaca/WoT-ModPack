@@ -27,11 +27,9 @@
  *      for left panel default value is "left"
  *      for right panel default value is "right"
  *   "scaleX", "scaleY" - scaling (use negative values for mirroring)
- *
- *   "hotKeyCode"        keyboard key code (see list in hotkeys.xc), when pressed - switches text field to show and apply configured html in "format", or hide;
- *                       when defined, text field will not be shown until key is pressed, to disable define null value or delete parameter
- *   "onHold"            false - take action by key click; true - while key is remains pressed (default: false)
- *   "visibleOnHotKey"   true - field visible on hot key pressed; false - vice versa (default: true)
+ *   "hotKeyCode" - keyboard key code (see list in hotkeys.xc), when pressed - switches text field to show and apply configured html in "format", or hide; when defined, text field will not be shown until key is pressed, to disable define null value or delete parameter
+ *   "onHold" - take action by key click (false) or while key is remains pressed (true); (default: false)
+ *   "visibleOnHotKey" - field visible on hot key pressed (true) or vice versa (false); (default: true)
  *
  * fields available for TextField format only:
  *   "valign" - vertical alignment ("top", "center", "bottom")
@@ -40,6 +38,18 @@
  *   "bgColor" - if set, draw background with specified color (macros allowed)
  *   "antiAliasType" - anti aliasing mode ("advanced" or "normal")
  *
+ * fields available for MovieClip format only:
+ *   "highlight" - highlight icon depending on the player state, default false
+ *
+ * fields available for players panel and statistic form only:
+ *   "layer": field z-order
+ *     values:
+ *     "substrate": put field behind all standard fields, x value depends on the players panel width
+ *     "bottom": put field behind all standard fields, x value does not depend on the players panel width
+ *     "normal": put field above vehicle icon but behind standard text fields (default)
+ *     "top": put field above standard fields
+ *
+ * text format and shadow:
  *   http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/text/TextFormat.html
  *   "textFormat": {
  *     "font"
@@ -70,62 +80,81 @@
  *     "knockout"
  *     "hideObject"
  *   }
- *
- * fields available for players panel only:
- *   "substrate": put field behind all standard fields, x value depends of players panel width
  */
 {
+  // Definitions
+  // Шаблоны
   "def": {
-    "nick": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{nick%.23s}}</font>",
-    "vehicle": "<font color='{{c:t-battles}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>"
-  },
+	"nick": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{nick%.23s}}</font>",
+	"vehicle": "<font color='{{c:t-battles}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
+	
+	"hpBar": { 
+		"x": 0, 
+		"y": 0, 
+		"valign": "left", 
+		"h": 21, 
+		"w": 4, 
+		"bgColor": 0, 
+		"alpha": "{{alive?30|0}}" 
+	},
+    "hpBarBg":{ 
+		"x": 0, 
+		"y": 22, 
+		"valign": "left", 
+		"h": "-{{hp-ratio:21}}", 
+		"w": "4", "bgColor": 
+		"{{c:system}}", 
+		"alpha": "{{alive?38|0}}"
+	},
+        
   
-  // Enemy spotted status marker definition.
-  // Шаблон маркера статуса засвета противника.
-  "enemySpottedMarker": {
-    // Opacity percentage of spotted markers in the panels. 0 - transparent (disabled) ... 100 - opaque.
-    // Прозрачность в процентах маркеров засвета в ушах. 0 - полностью прозрачные (отключены), 100 - не прозрачные.
-    "alpha": 100,
-    // x position.
-    // положение по горизонтали.
-    "x": 87,
-    // y position.
-    // положение по вертикали.
-    "y": 0,
-    // Horizontal alignment
-    // Выравнивание по горизонтали
-    "align": "center",
-    // true - x position is binded to vehicle icon, false - binded to edge of the screen.
-    // true - положение по горизонтали отсчитывается от иконки танка, false - от края экрана.
-    "bindToIcon": true,
-    // enemy spotted status marker format.
-    // формат маркера статуса засвета.
-    "format": "{{spotted}}",
-    // shadow (see below).
-    // настройки тени (см. ниже).
-    "shadow": {}
-  },
-  // XMQP service marker definition.
-  // Шаблон маркера сервиса XMQP.
-  "xmqpServiceMarker": {
-    "x": 90, "y": 1, "align": "center", "bindToIcon": true,
-    "format": "<font face='xvm' size='23' color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}|&#x76;}}</font>",
-    "shadow": {}
-  },
-  // Clan icon definition.
-  // Шаблон иконки клана.
-  "clanIcon": {
-    "enabled": false,
-    "x": 65, "y": 6, "width": 16, "height": 16, "align": "center", "alpha": 90, "bindToIcon": true,
-    "src": "{{clanicon}}"
-    //"format": "<img src='{{clanicon}}' width='16' height='16'>"
-  },
-  // Is XVM user marker definition.
-  // Шаблон маркера пользователя XVM.
-  "xvmUserMarker": {
-    "enabled": false,
-    "x": 10, "y": 5, "bindToIcon": true,
-    "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
+	  // Enemy spotted status marker definition.
+	  // Шаблон маркера статуса засвета противника.
+	  "enemySpottedMarker": {
+		// Opacity percentage of spotted markers in the panels. 0 - transparent (disabled) ... 100 - opaque.
+		// Прозрачность в процентах маркеров засвета в ушах. 0 - полностью прозрачные (отключены), 100 - не прозрачные.
+		"alpha": 100,
+		// x position.
+		// положение по горизонтали.
+		"x": 88,
+		// y position.
+		// положение по вертикали.
+		"y": 0,
+		// Horizontal alignment
+		// Выравнивание по горизонтали
+		"align": "center",
+		// true - x position is binded to vehicle icon, false - binded to edge of the screen.
+		// true - положение по горизонтали отсчитывается от иконки танка, false - от края экрана.
+		"bindToIcon": true,
+		// enemy spotted status marker format.
+		// формат маркера статуса засвета.
+		"format": "{{spotted}}",
+		// shadow (see below).
+		// настройки тени (см. ниже).
+		"shadow": {}
+	  },
+	  // XMQP service marker definition.
+	  // Шаблон маркера сервиса XMQP.
+	  "xmqpServiceMarker": {
+		"x": 88, "y": 1, "align": "center", "bindToIcon": true,
+        "format": "<font face='xvm' size='23' color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}}}</font>",
+		"shadow": {}
+	  },
+	  // Clan icon.
+      // Иконка клана.
+	  "clanIcon": {
+		"enabled": false,
+		"x": 65, "y": 6, "width": 16, "height": 16, "align": "center", "alpha": 90, "bindToIcon": true,
+		"src": "{{clanicon}}"
+		//"format": "<img src='{{clanicon}}' width='16' height='16'>"
+	  },
+	  // XVM user marker.
+      // Маркер пользователя XVM.
+	  "xvmUserMarker": {
+		"enabled": false,
+		"x": 10, "y": 5, "bindToIcon": true,
+		"src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
+	  },
   },
   // Parameters of the Players Panels ("ears").
   // Параметры панелей игроков ("ушей").
@@ -173,17 +202,16 @@
           // Set of formats for left panel
           // Набор форматов для левой панели
           // example:
-          // "format": [
+          // "formats": [
           //   // simple format (just a text)
           //   "{{nick}}",
           //   "<img src='xvm://res/img/panel-bg-l-{{alive|dead}}.png' width='318' height='28'>",
           //   // extended format
           //   { "x": 20, "y": 10, "borderColor": "0xFFFFFF", "format": "{{nick}}" },
-          //   { "x": 200, "src": "xvm://res/contour/{{vehiclename}}.png" }
+          //   { "x": 200, "src": "xvm://res/contour/{{vehiclename}}.png" },
+          //   { "x": 200, "src": "img://gui/maps/icons/vehicle/{{vehiclename}}.png" }
+          //   { "x": 200, "src": "cfg://user/img/{{vehiclename}}.png" }
           // ]
-          //
-          // fields available for MovieClip format only:
-          //     "highlight" - highlight icon depending on the player state, default false
           //
           // * all fields are optional
           //
@@ -270,24 +298,20 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-        ${"clanIcon"},
-        ${"xvmUserMarker"},
-        // XMQP service marker (see above).
-        // Маркер сервиса XMQP (см. выше).
-        ${"xmqpServiceMarker"}
+		${"def.hpBar"},
+		${"def.hpBarBg"},
+		${"def.clanIcon"},
+        ${"def.xvmUserMarker"},
+        ${"def.xmqpServiceMarker"}
       ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-        ${"clanIcon"},
-        ${"xvmUserMarker"},
-        // enemy spotted status marker (see above).
-        // маркер статуса засвета противника (см. выше).
-        ${"enemySpottedMarker"}
+	    ${"def.hpBar"},
+		${"def.hpBarBg"},
+		${"def.clanIcon"},
+        ${"def.xvmUserMarker"},
+        ${"def.enemySpottedMarker"},
       ]
     },
     // Options for the "medium" panels - the first of the medium panels.
@@ -358,24 +382,20 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-        ${"clanIcon"},
-        ${"xvmUserMarker"},
-        // XMQP service marker (see above).
-        // Маркер сервиса XMQP (см. выше).
-        ${"xmqpServiceMarker"}
+	    ${"def.hpBar"},
+		${"def.hpBarBg"},
+	    ${"def.clanIcon"},
+        ${"def.xvmUserMarker"},
+        ${"def.xmqpServiceMarker"}
       ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-        ${"clanIcon"},
-        ${"xvmUserMarker"},
-        // enemy spotted status marker (see above).
-        // маркер статуса засвета противника (см. выше).
-        ${"enemySpottedMarker"}
+		${"def.hpBar"},
+		${"def.hpBarBg"},
+		${"def.clanIcon"},
+        ${"def.xvmUserMarker"},
+        ${"def.enemySpottedMarker"}
       ]
     },
     // Options for the "medium2" panels - the second of the medium panels.
@@ -446,24 +466,20 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-        ${"clanIcon"},
-        ${"xvmUserMarker"},
-        // XMQP service marker (see above).
-        // Маркер сервиса XMQP (см. выше).
-        ${"xmqpServiceMarker"}
+		${"def.hpBar"},
+		${"def.hpBarBg"},
+		${"def.clanIcon"},
+        ${"def.xvmUserMarker"},
+        ${"def.xmqpServiceMarker"}
       ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-        ${"clanIcon"},
-        ${"xvmUserMarker"},
-        // enemy spotted status marker (see above).
-        // маркер статуса засвета противника (см. выше).
-        ${"enemySpottedMarker"}
+		${"def.hpBar"},
+		${"def.hpBarBg"},
+		${"def.clanIcon"},
+        ${"def.xvmUserMarker"},
+        ${"def.enemySpottedMarker"}
       ]
     },
     // Options for the "large" panels - the widest panels.
@@ -531,24 +547,20 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-        ${"clanIcon"},
-        ${"xvmUserMarker"},
-        // XMQP service marker (see above).
-        // Маркер сервиса XMQP (см. выше).
-        ${"xmqpServiceMarker"}
+		${"def.hpBar"},
+		${"def.hpBarBg"},
+		${"def.clanIcon"},
+        ${"def.xvmUserMarker"},
+        ${"def.xmqpServiceMarker"}
       ],
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-		{ "x": 0, "y": 0, "valign": "left", "h": 21, "w": 4, "bgColor": 0, "alpha": "{{alive?30|0}}" },
-        { "x": 0, "y": 22, "valign": "left", "h": "-{{hp-ratio:21}}", "w": "4", "bgColor": "{{c:system}}", "alpha": "{{alive?38|0}}" },
-        ${"clanIcon"},
-        ${"xvmUserMarker"},
-        // enemy spotted status marker (see above).
-        // маркер статуса засвета противника (см. выше).
-        ${"enemySpottedMarker"}
+		${"def.hpBar"},
+		${"def.hpBarBg"},
+		${"def.clanIcon"},
+        ${"def.xvmUserMarker"},
+        ${"def.enemySpottedMarker"}
       ]
     }
   }
