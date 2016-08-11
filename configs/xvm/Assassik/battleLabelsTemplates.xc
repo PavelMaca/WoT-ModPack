@@ -199,8 +199,8 @@
       "height": 20,
       "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
 	  "textFormat": { "size": 15 },
-      "format": "{{xvm-stat?{{l10n:Team strength}}: {{chancesStatic}}{{chancesStatic? / |}}{{chancesLive}}}}"
-    },
+      "format": "{{xvm-stat?{{l10n:Team strength}}: {{py:xvm.team_strength('{{allyStrengthStatic}}','{{enemyStrengthStatic}}')}} / {{py:xvm.team_strength('{{allyStrengthLive}}','{{enemyStrengthLive}}')}}}}"
+	},
     "test": {
       "enabled": false,
       "y": -170,
