@@ -191,6 +191,9 @@
       // Layout ("vertical" or "horizontal")
       // Размещение ("vertical" - вертикально, или "horizontal" - горизонтально)
       "layout": "vertical",
+	  // true - don't change players positions on dead (default false)
+      // true - не изменять позиции игроков при уничтожении (по умолчанию false)
+      "fixedPosition": false,
       // Extra fields.
       // Дополнительные поля.
       "extraFields": {
@@ -266,6 +269,10 @@
       // Формат отображения фрагов (допускаются макроподстановки, см. macros.txt).
       "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
+	  // Shadow for frags field (default null = no shadow, as in vanillas client).
+      // Тень для поля фрагов (по умолчанию null = без тени, как в чистом клиенте).
+      "fragsShadowLeft": null,
+      "fragsShadowRight": null,
       // Offset of X value for player name column.
       // Смещение координаты X для поля имени игрока.
       "nickXOffsetLeft": 0,
@@ -280,6 +287,10 @@
       // Формат отображения имени игрока (допускаются макроподстановки, см. macros.txt).
       "nickFormatLeft": ${"def.nick"},
       "nickFormatRight": ${"def.nick"},
+	  // Shadow for player name field (default null = no shadow, as in vanillas client).
+      // Тень для поля имени игрока (по умолчанию null = без тени, как в чистом клиенте).
+      "nickShadowLeft": null,
+      "nickShadowRight": null,
       // Offset of X value for vehicle name column.
       // Смещение координаты X для поля названия танка.
       "vehicleXOffsetLeft": 0,
@@ -291,6 +302,10 @@
       // Формат отображения названия танка (допускаются макроподстановки, см. macros.txt).
       "vehicleFormatLeft": ${"def.vehicle"},
       "vehicleFormatRight": ${"def.vehicle"},
+	  // Shadow for vehicle name field (default null = no shadow, as in vanillas client).
+      // Тень для поля названия танка (по умолчанию null = без тени, как в чистом клиенте).
+      "vehicleShadowLeft": null,
+      "vehicleShadowRight": null,
       // Extra fields. Each field have default size 350x25.
       // Fields are placed one above the other.
       // Дополнительные поля. Каждое поле имеет размер по умолчанию 350x25.
@@ -352,6 +367,10 @@
       // Формат отображения фрагов (допускаются макроподстановки, см. macros.txt).
       "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
+	  // Shadow for frags field (default null = no shadow, as in vanillas client).
+      // Тень для поля фрагов (по умолчанию null = без тени, как в чистом клиенте).
+      "fragsShadowLeft": null,
+      "fragsShadowRight": null,
       // Offset of X value for player name column.
       // Смещение координаты X для поля имени игрока.
       "nickXOffsetLeft": 0,
@@ -366,6 +385,10 @@
       // Формат отображения имени игрока (допускаются макроподстановки, см. macros.txt).
       "nickFormatLeft": ${"def.nick"},
       "nickFormatRight": ${"def.nick"},
+	  // Shadow for player name field (default null = no shadow, as in vanillas client).
+      // Тень для поля имени игрока (по умолчанию null = без тени, как в чистом клиенте).
+      "nickShadowLeft": null,
+      "nickShadowRight": null,
       // Offset of X value for vehicle name column.
       // Смещение координаты X для поля названия танка.
       "vehicleXOffsetLeft": 0,
@@ -377,6 +400,10 @@
       // Формат отображения названия танка (допускаются макроподстановки, см. macros.txt).
       "vehicleFormatLeft": ${"def.vehicle"},
       "vehicleFormatRight": ${"def.vehicle"},
+	  // Shadow for vehicle name field (default null = no shadow, as in vanillas client).
+      // Тень для поля названия танка (по умолчанию null = без тени, как в чистом клиенте).
+      "vehicleShadowLeft": null,
+      "vehicleShadowRight": null,
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
@@ -436,6 +463,10 @@
       // Формат отображения фрагов (допускаются макроподстановки, см. macros.txt).
       "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
+	  // Shadow for frags field (default null = no shadow, as in vanillas client).
+      // Тень для поля фрагов (по умолчанию null = без тени, как в чистом клиенте).
+      "fragsShadowLeft": null,
+      "fragsShadowRight": null,
       // Offset of X value for player name column.
       // Смещение координаты X для поля имени игрока.
       "nickXOffsetLeft": 0,
@@ -450,6 +481,10 @@
       // Формат отображения имени игрока (допускаются макроподстановки, см. macros.txt).
       "nickFormatLeft": ${"def.nick"},
       "nickFormatRight": ${"def.nick"},
+	  // Shadow for player name field (default null = no shadow, as in vanillas client).
+      // Тень для поля имени игрока (по умолчанию null = без тени, как в чистом клиенте).
+      "nickShadowLeft": null,
+      "nickShadowRight": null,
       // Offset of X value for vehicle name column.
       // Смещение координаты X для поля названия танка.
       "vehicleXOffsetLeft": 0,
@@ -461,6 +496,10 @@
       // Формат отображения названия танка (допускаются макроподстановки, см. macros.txt).
       "vehicleFormatLeft": ${"def.vehicle"},
       "vehicleFormatRight": ${"def.vehicle"},
+	  // Shadow for vehicle name field (default null = no shadow, as in vanillas client).
+      // Тень для поля названия танка (по умолчанию null = без тени, как в чистом клиенте).
+      "vehicleShadowLeft": null,
+      "vehicleShadowRight": null,
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
@@ -517,6 +556,10 @@
       // Формат отображения фрагов (допускаются макроподстановки, см. macros.txt).
       "fragsFormatLeft": "{{frags}}",
       "fragsFormatRight": "{{frags}}",
+	  // Shadow for frags field (default null = no shadow, as in vanillas client).
+      // Тень для поля фрагов (по умолчанию null = без тени, как в чистом клиенте).
+      "fragsShadowLeft": null,
+      "fragsShadowRight": null,
       // Offset of X value for player name column.
       // Смещение координаты X для поля имени игрока.
       "nickXOffsetLeft": 0,
@@ -531,6 +574,10 @@
       // Формат отображения имени игрока (допускаются макроподстановки, см. macros.txt).
       "nickFormatLeft": ${"def.nick"},
       "nickFormatRight": ${"def.nick"},
+	  // Shadow for player name field (default null = no shadow, as in vanillas client).
+      // Тень для поля имени игрока (по умолчанию null = без тени, как в чистом клиенте).
+      "nickShadowLeft": null,
+      "nickShadowRight": null,
       // Offset of X value for vehicle name column.
       // Смещение координаты X для поля названия танка.
       "vehicleXOffsetLeft": 0,
@@ -542,6 +589,10 @@
       // Формат отображения названия танка (допускаются макроподстановки, см. macros.txt).
       "vehicleFormatLeft": ${"def.vehicle"},
       "vehicleFormatRight": ${"def.vehicle"},
+	  // Shadow for vehicle name field (default null = no shadow, as in vanillas client).
+      // Тень для поля названия танка (по умолчанию null = без тени, как в чистом клиенте).
+      "vehicleShadowLeft": null,
+      "vehicleShadowRight": null,
       // Extra fields. Each field have size 350x25. Fields are placed one above the other.
       // Дополнительные поля. Каждое поле имеет размер 350x25. Поля располагаются друг над другом.
       // Set of formats for left panel (extended format supported, see above)
