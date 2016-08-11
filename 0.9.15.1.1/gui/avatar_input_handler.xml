@@ -222,7 +222,7 @@
       <keySensitivity>0.01</keySensitivity>
       <sensitivity>0.005</sensitivity>
       <scrollSensitivity>0.0025</scrollSensitivity>
-      <zooms>2 4 8</zooms>
+      <zooms>2 4 8 16 25</zooms>
       <aimingSystem>
         <T>0.5 0.5 0.4</T>
         <deviation>-0.0 0.0</deviation>
@@ -277,7 +277,7 @@
         <impulsePartToRoll>0.5</impulsePartToRoll>
         <pivotShift>0.0</pivotShift>
         <aimMarkerDistance>1.0</aimMarkerDistance>
-        <zoomExposure>0.6 0.5 0.4</zoomExposure>
+        <zoomExposure>0.6 0.5 0.4 0.3 0.2</zoomExposure>
       </dynamics>
     </camera>
   </sniperMode>
