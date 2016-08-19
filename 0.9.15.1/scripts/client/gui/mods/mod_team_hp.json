@@ -2,20 +2,20 @@
 	// UNIX UTF-8-BOM
 	// Редактировать только в Notepad++ !!! https://notepad-plus-plus.org/
 	"debugPanel" : {
-		"showModDebug" : false,				// true - показывать дебаг панель, false - стандарная.
+		"showModDebug" : true,				// true - показывать дебаг панель, false - стандарная.
 		"fpsColor" : "#E0E06D",				// цвет цвет фпс
 		"pingColor" : "#E0E06D",			// цвет пинга если все нормально
 		"pingLagColor" : "#F30900"			// цвет пинга если лагает
 	},
 	"battleTimer" : {
-		"showClock" : false,					// true - показывать часы возле таймера, false - стандартный таймер.
+		"showClock" : true,					// true - показывать часы возле таймера, false - стандартный таймер.
 		"clockColor" : "#E0E0E0",			// цвет часов
 		"clockFormat" : "%H:%M",			// Форматирование времени, доступные символы смотри в конце конфига. И файле ридми.
 		"timerColor" : "#E0E06D",			// цвет таймера
 		"timerColorEndBattle" : "#F30900"	// цвет таймера конец боя, меньше 2х минут
 	},
 	"damage" : {
-		"showDamage" : false,				// true - показывать нанеснный урон, false - скрыть.
+		"showDamage" : true,				// true - показывать нанеснный урон, false - скрыть.
 		"showLastDamage" : false,			// true - показывать последний урон, false - скрыть.
 		"damagePercent" : false,			// true - показывать процент нанесенного урона, false - скрыть
 		"piercedHits" : false,				// true - показывать количество пробитий, false - скрыть
@@ -31,7 +31,7 @@
 		"hpBarsTransparency": 0.7,			// прозрачность полос хп от 0 до 1, 0- прозрачно полностью, 1- не прозрачно. 0.5 - прозрачно на 50%. примеры. 0, 0.1, 0.2, 0.3, 0.4, .... 0.9, 1
 		"differenceHP" : true,				// true - Показывать разницу по хп под счетом. false - Отключить модуль.
 		"angleHpOn" : false,				// true - Стрелки работают относительно ХП, false - Стрелки работают относительно Счета.
-		"showAliveCount": true,			// true - показывать вместо Счета - выживших. false - показывать Счет.
+		"showAliveCount": false,			// true - показывать вместо Счета - выживших. false - показывать Счет.
 		"showMainGun" : true,				// true - показывать продвижение медали "оновной калибр", false - скрыть
  		"mainGunDynamic" : true,			// true - динамический расчет оставшегося урона до получения медали "Основной Калибр", false - без расчета
 		"colors" : {
