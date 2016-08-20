@@ -247,6 +247,23 @@
       "shadow": { "distance": 1, "angle": 90, "alpha": 80, "strength": 8},
       "textFormat": { "color": "0x60FF00", "size": 15, "align": "center", "marginLeft": 2, "marginRight": 2},
       "format": "<font color='#FFFFFF'><b>Info text field (WN8: <font color='{{c:wn8}}'>{{wn8}}</font>)</b></font><br/>Battle tier:<font color='#ff1aff'> {{battletier}}</font> <p align='right'>My vehicle: <font color='#ff1aff'>{{my-vehicle}}</font> (<font color='{{c:t-winrate}}'>{{t-winrate%2d}}%</font>)</p>"
-    }
+    },
+	"info_panel": {
+	  "enabled": true,
+      "hotKeyCode": 56, // LEFT ALT
+      "y": -250,
+	  "x": 250,
+      "width": 310,
+      "height": 150,
+      "alpha": 70,
+      "screenHAlign": "center",
+      "screenVAlign": "bottom",
+      "bgColor": null,
+      "borderColor": null,
+      "shadow": { "distance": 1, "angle": 90, "alpha": 80, "strength": 8},
+      "textFormat": { "color": "0xF4EFE8", "size": 15, "align": "center", "marginLeft": 2, "marginRight": 2},
+      "updateEvent": "ON_TARGET_IN, ON_TARGET_OUT",
+      "format": "{{py:vinfo.name()}}\nNabití: {{py:vinfo.gun_reload()}}\nDohled: {{py:vinfo.vision_radius()}}"
+	}
   }
 }
