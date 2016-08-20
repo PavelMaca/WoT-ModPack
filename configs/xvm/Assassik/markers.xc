@@ -35,13 +35,14 @@
 			// alive - alternative mode (pressing 'Alt')
 			"extended": {
 				"$ref": { "path":"sectionTemplate" },
-				"contourIcon": {
-					"$ref": { "path":"sectionTemplate.contourIcon" },
-					"enabled": true
-				},
+				//"contourIcon": {
+				//	"$ref": { "path":"sectionTemplate.contourIcon" },
+				//	"enabled": false
+				//},
 				"textFields": [
 					${"markers.textFields.xc":"playerName"},
 					${"markers.textFields.xc":"remainHp"},
+					${"markers.textFields.xc":"rating"},
 					${"markers.textFields.xc":"globalWinRate"}
 				]
 			}
@@ -154,11 +155,11 @@
           },
 		  "contourIcon": {                    // Vehicle icon
             "enabled": false,                 //   false - Disable
-            "x": 0,                           //   Position on the X axis
-            "y": -74,                         //   Position on the Y axis
+            "x": 6,                           //   Position on the X axis
+            "y": -85,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
-            "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
-            "amount": 0                       //   Color intensity from 0 to 100. The default is 0 (off).
+            "color": null,              //   Color (dynamic colors allowed, see readme-en.txt)
+            "amount": 100                     //   Color intensity from 0 to 100. The default is 0 (off).
           },
           "levelIcon": {                      // Vehicle tier
             "enabled": false,                 //   false - Disable
