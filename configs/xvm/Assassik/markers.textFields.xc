@@ -8,12 +8,12 @@
 		"y": 0,                         // Position on the Y axis
 		"alpha": 100,                   // Opacity (dynamic transparency allowed, see readme-en.txt)
 		"color": null,                  // Color (dynamic colors allowed, see readme-en.txt)
+		"align": "center",            //   Text alignment (left, center, right)
 		// Font options.
 		// Параметры шрифта.
 		"textFormat": {
 			"name": "$FieldFont",         //   Font name
 			"size": 13,                   //   Font size
-			"align": "center",            //   Text alignment (left, center, right)
 			"bold": false,                //   Normal (false) or bold (true)
 			"italic": false               //   Normal (false) or italic (true)
 		},
@@ -93,11 +93,11 @@
 		"x": -33,
 		"y": -20,
 		"alpha": "{{xvm-stat?100|0}}",
+		"align": "right",
 		"textFormat": {
 			"font": "xvm",
 			"size": 16,
 			"color": "{{c:r|#999999}}",
-			"align": "right",
 			"bold": false,
 			"italic": false
 		},
@@ -120,13 +120,13 @@
       "x": 0,                         //  положение по оси X
       "y": "{{battletype?-71|{{squad?-71|-56}}}}",  //  положение по оси Y
       "alpha": 100,                   //  прозрачность (допускается использование динамической прозрачности, см. macros.txt)
-      // Font options.
+      "align": "center",              //  выравнивание текста (left, center, right)
+	  // Font options.
       // Параметры шрифта.
       "textFormat": {
         "font": "xvm",                //  название
         "size": 23,                   //  размер
         "color": "0xFFBB00",          //  цвет (допускается использование динамического цвета, см. macros.txt)
-        "align": "center",            //  выравнивание текста (left, center, right)
         "bold": false,                //  обычный (false) или жирный (true)
         "italic": false               //  обычный (false) или курсив (true)
       },
