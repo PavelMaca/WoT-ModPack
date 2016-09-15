@@ -1,0 +1,117 @@
+﻿/*
+
+    {name-tank}	        - название танка
+    {name-ico}			- название иконки танка
+	{name-gun}		    - название орудия танка цели	
+    {reload}	        - примерное время перезарядки орудия танка
+    {vision}			- радиус обзора танка цели (для 100% экипажа)
+	{weight}		    - масса танка выбранной цели в тоннах
+	{hull-front}		- лобовое бронирование корпуса танка цели
+	{hull-side}			- бортовое бронирование корпуса танка цели
+	{hull-back}			- бронирование кормы корпуса танка цели
+	{turret-front}		- лобовое бронирование башни танка цели
+	{turret-side}		- бортовое бронирование башни танка цели
+	{turret-back}		- бронирование кормы башни танка цели
+	{damage-1}			- урон первого типа снаряда танка цели
+	{damage-2}			- урон второго типа снаряда танка цели
+	{damage-3}			- урон третьего типа снаряда танка цели
+	{power-1}			- бронепробиваемость первого типа снаряда танка цели
+	{power-2}			- бронепробиваемость второго типа снаряда танка цели
+	{power-3}			- бронепробиваемость третьего типа снаряда танка цели
+	{type-1}			- первый тип снаряда танка цели
+	{type-2}			- второй тип снаряда танка цели
+	{type-3}			- третий тип снаряда танка цели	
+	{speed-forward}		- максимальная скорость вперед, км/ч
+	{speed-backward}	- максимальная скорость назад, км/ч
+	{speed-turn}		- скорость поворота	
+	{count-burst}	    - количество снарядов выпускаемых за 1 очередь
+	{count-clip}		- количество снарядов в барабане
+    {weight-color}      - Цвета зависящим от соотношения масс цели и танка игрока
+
+*/
+{
+    "background": {
+        "alpha": 15,
+        "enable": false,
+        "height": 250,
+        "image": "gui/maps/bg.png",
+        "width": 180,
+        "x": 0,
+        "y": 0
+    },
+    "position": {
+        "arcade": {
+            "alignX": "center",
+            "alignY": "center",
+            "x": -250,
+            "y": 250
+        },
+        "postmortem": {
+            "alignX": "center",
+            "alignY": "center",
+            "x": -250,
+            "y": 250
+        },
+        "sniper": {
+            "alignX": "center",
+            "alignY": "center",
+            "x": -359,
+            "y": 230
+        },
+        "strategic": {
+            "alignX": "center",
+            "alignY": "center",
+            "x": -250,
+            "y": 250
+        }
+    },
+    "settings": {
+        "dragEnable": true,
+        "reloadKey": "KEY_LALT and KEY_5",
+		"alignTextCenterX": false
+    },
+    "shadow": {
+        "alpha": 100,
+        "angle": 90,
+        "color": "#000000",
+        "distance": 0,
+        "enable": true,
+        "size": 2,
+        "strength": 200
+    },
+    "shell_type": {
+        "AP": "AP",
+        "CR": "CR",
+        "HC": "HC",
+        "HE": "HE"
+    },
+    "text": {
+        "alpha": 100,
+		"enable": true,
+        "dead": {
+            "delay": 10,
+            "enable": true,
+            "format": "<font face='$TitleFont'>{name-tank}<br/><textformat leading = '-20'>{reload}s</textformat><br/>    <br/><textformat tabstops='[95]' leading = '2' >{vision}m</textformat></font>"
+        },
+        "enemy": {
+            "delay": 10,
+            "enable": true,
+            "format": "<font face='$TitleFont'>{name-tank}<br/><textformat leading = '-20'>{reload}s</textformat><br/>    <br/><textformat tabstops='[95]' leading = '2' >{vision}m</textformat></font>"
+        },
+        "player": {
+            "enable": true,
+            "format": "<font face='$TitleFont'>{name-tank}<br/><textformat leading = '-20'>{reload}s</textformat><br/>    <br/><textformat tabstops='[95]' leading = '2' >{vision}m</textformat></font>",
+            "hotKeys": "KEY_LALT"
+        },
+        "team": {
+            "delay": 10,
+            "enable": true,
+            "format": "<font face='$TitleFont'>{name-tank}<br/><textformat leading = '-20'>{reload}s</textformat><br/>    <br/><textformat tabstops='[95]' leading = '4' >{vision}m</textformat></font>"
+        }
+    },
+    "weight_color": {
+        "badly": "#ff0000",
+        "good": "#00FF00",
+        "poor": "#FFFF00"
+    }
+}
