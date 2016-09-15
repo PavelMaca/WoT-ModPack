@@ -130,10 +130,10 @@
             "y": -67,                         //   Position on the Y axis
             "alpha": 100,                     //   Opacity (dynamic transparency allowed, see readme-en.txt)
             "color": null,                    //   Color (dynamic colors allowed, see readme-en.txt)
-            "textFormat": {                         //   Font options
+            "align": "center",              //     Text alignment (left, center, right)
+			"textFormat": {                         //   Font options
               "name": "$FieldFont",           //     Font name
               "size": 18,                     //     Font size
-              "align": "center",              //     Text alignment (left, center, right)
               "bold": false,                  //     Normal (false) or bold (true)
               "italic": false                 //     Normal (false) or italic (true)
             },
