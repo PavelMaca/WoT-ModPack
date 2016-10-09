@@ -29,12 +29,13 @@
      │                            │   ON_MODULE_DESTROYED
      │                            │   ON_MODULE_REPAIRED
      │                            │   ON_DAMAGE_CAUSED
-	 │                            │   ON_DAMAGE_CAUSED_ALLY
+     │                            │   ON_DAMAGE_CAUSED_ALLY
      │                            │   ON_TARGET_IN  - aim at the vehicle
      │                            │   ON_TARGET_OUT - aim not at the vehicle
      │                            │   ON_PANEL_MODE_CHANGED
      │                            │   ON_EVERY_FRAME           * can reduce performance
      │                            │   ON_EVERY_SECOND          * can reduce performance
+     │                            │   PY(event_name)  - event from python, sent by as_event(event_name)
      ├────────────────────────────┼──────────────────────────────────────────────────────────────────────────
      │ "hotKeyCode"               │ keyboard key code (see list in hotkeys.xc), when pressed - switches text field to show and apply configured html in "format", or hide;
      │                            │ when defined, text field will not be shown until key is pressed, to disable define null value or delete parameter
@@ -185,7 +186,7 @@
       "width": 500,
       "height": 1000,
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
-	  "format": "{{hitlog-header}}"
+      "format": "{{hitlog-header}}"
       // Format of the full hitlog (header and body)
       // Формат полного хит-лога (шапка и тело)
       // "format": "{{hitlog-header}}\n{{hitlog-body}}"
@@ -207,12 +208,12 @@
       "x": 0,
       "y": 30,
       "screenHAlign": "center",
-	  "align": "center",
+      "align": "center",
       "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
-	  "textFormat": { "font": "mono", "size": 18, "align": "center" },
+      "textFormat": { "font": "mono", "size": 18, "align": "center" },
       "format": "{{py:xvm.total_hp.text()}}"
     },
-	"avgDamage": {
+    "avgDamage": {
       "enabled": true,
       "updateEvent": "ON_DAMAGE_CAUSED",
       "x": -170,
@@ -239,9 +240,9 @@
       "x": 230,
       "y": 2,
       "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
-	  "textFormat": { "size": 15 },
+      "textFormat": { "size": 15 },
       "format": "{{xvm-stat?{{l10n:Team strength}}: {{py:xvm.team_strength('{{allyStrengthStatic}}','{{enemyStrengthStatic}}')}} / {{py:xvm.team_strength('{{allyStrengthLive}}','{{enemyStrengthLive}}')}}}}"
-	},
+    },
     "test": {
       "enabled": false,
       "y": -170,
