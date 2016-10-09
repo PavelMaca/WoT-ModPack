@@ -8,7 +8,7 @@
   "def": {
     // Text fields shadow.
     // Тень текстовых полей.
-    "textFieldShadow": { "enabled": true, "color": "0x000000", "alpha": 80, "blur": 2, "strength": 2, "distance": 0, "angle": 0 }
+    "textFieldShadow": { "enabled": true, "color": "{{v.premium?0x994400|0x000000}}", "alpha": 80, "blur": 2, "strength": 2, "distance": 0, "angle": 0 }
   },
   "normal": {
     // Cell width
@@ -34,13 +34,13 @@
       "tankType": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Vehicle level.
       // Уровень техники
-      "level":    { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
+      "level":    { "enabled": false, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Double XP icon
       // Иконка не сбитого опыта за первую победу в день.
       "xp":       { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Vehicle name.
       // Название танка.
-      "tankName": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
+      "tankName": { "enabled": false, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       // Vehicle rent info text.
       // Инфо текст аренды танка.
       "rentInfo": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
@@ -63,54 +63,49 @@
     // Extra cell fields (see playersPanel.xc).
     // Дополнительные поля ячеек (см. playersPanel.xc).
     "extraFields": [
-      // Подложка слота
-      // Slot background
-      { "x": 1, "y": 1, "layer": "substrate", "width": 160, "height": 100, "bgColor": "0x0A0A0A" },
-      // Средний урон
-      // Average damage
-      {
-        "enabled": true,
-        "x": 1, "y": 28, "width": 18, "height": 18, "alpha": "{{v.tdb?|0}}",
-        "src": "xvm://res/icons/carousel/damage.png"
+	  // Elite status
+      { 
+	    "x": 155, "y": 15, "w": 50, "h": 20, 
+		"align": "right", 
+		"format": "{{v.xpToElite?{{v.xpToEliteLeft%'d}}}}", 
+		"shadow": ${ "def.textFieldShadow" } 
       },
-      {
-        "enabled": true,
-        "x": 17, "y": 28,
-        "format": "<b><font face='$FieldFont' size='12' color='{{v.c_xtdb|#CFCFCF}}'>{{v.tdb%d}}</font></b>",
+      // Sight of mastery
+      { 
+	    "x": 4, "y": 15, "w": 25, "h": 25, 
+	    "src": "img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png"
+	  },
+	  // Marks on gun icon
+      { 
+	    "x": 30, "y": 20, 
+		"src": "cfg://Assassik/img/marksOnGun/{{v.marksOnGun|x}}.png"
+      },
+	  // DMG rating
+	  { 
+	    "x": 45, "y": 18, 
+	    "format": "<b><font size='12' color='#C8C8B5'><font face='Arial'>{{v.damageRating%.1d~%}}</font></b>",
+	    "shadow": ${ "def.textFieldShadow" }
+      }, 
+	  //  Marks on gun text
+      { 
+	    "x": 37, "y": "{{v.marksOnGun?18|17}}", "align": "center",
+        "format": "<b><font size='9' color='#C8C8B5'>{{v.marksOnGun|x}}</font></b>",
         "shadow": ${ "def.textFieldShadow" }
       },
-      // Sign of mastery.
-      // Знак мастерства.
-      {
-        "enabled": true,
-        "x": 1, "y": 12, "width": 23, "height": 23,
-        "src": "img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png"
-      },
-      // Количество боёв
-      // Battles count
-      {
-        "enabled": true,
-        "x": 158, "y": 17, "align": "right", "width": 13, "height": 13, "alpha": "{{v.battles?|0}}",
-        "src": "xvm://res/icons/carousel/battles.png"
-      },
-      {
-        "enabled": true,
-        "x": 145, "y": 14, "align": "right",
-        "format": "<b><font face='$FieldFont' size='12' color='#CFCFCF' alpha='#F0'>{{v.battles}}</font></b>",
+      { 
+	    "x": 21, "y": 0,
+        "format": "<b><font size='12' color='#C8C8B5'><font face='Arial'>{{v.rlevel}}</font>  {{v.battletiermin}}-{{v.battletiermax}}</font></b>",
         "shadow": ${ "def.textFieldShadow" }
       },
-      // Процент побед
-      // Winrate
+	  // // Vehicle name
       {
-        "enabled": true,
-        "x": 158, "y": 32, "align": "right", "width": 13, "height": 13, "alpha": "{{v.winrate?|0}}",
-        "src": "xvm://res/icons/carousel/wins.png"
+		"x": 158, "y": 77, "align": "right", "alpha": "100",
+        "format": "<font size='15' color='{{v.premium?#FEA659|#C8C8B5}}'>{{v.name}}</font>",
+        "shadow": { "color": "{{v.premium?0xFC3700|0x73734C}}", "alpha": "{{v.premium?1|0.8}}", "blur": 6, "strength": 2, "distance": 0, "angle": 0 }
       },
-      {
-        "enabled": true,
-        "x": 145, "y": 28, "align": "right",
-        "format": "<b><font face='$FieldFont' size='12' color='{{v.c_winrate|#CFCFCF}}'>{{v.winrate%2d~%}}</font></b>",
-        "shadow": ${ "def.textFieldShadow" }
+      { 
+	    "x": -2, "y": -1, "h": 100, "w": "164", 
+		"bgColor": "{{v.selected?#FFA759|#000000}}", "alpha": "{{v.selected?5|0}}"
       }
     ]
   }
