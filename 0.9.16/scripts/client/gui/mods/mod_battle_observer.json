@@ -1,0 +1,188 @@
+﻿{
+	// UNIX UTF-8-BOM Редактировать только в Notepad++ !!! https://notepad-plus-plus.org/
+	"debugMode": false,
+	"healthLog" : false,					// Лог полученного урона (скрипт не доделан demo версия, с багами) true - включить
+	"hideChatInRandom" : false,				// полностью отключить чат в случайных боях. (убирает форму чата и все что с ней связано, полезно для вододелов которые закрывают чат картинкой)
+	"teamBasesPanel" : true,				// true - включить полосы захвата встроенные в мод. false - отображать стандартные/xvm
+	"dynamic_zoom" : {
+		"enableDZoom" : true,				// автоматическая кратность зума при переходе в снайперский режим false - отключить автозум.
+		"defZoomOnly" : false,				// использовать только defZoom, enableDZoom - должен быть включен.
+		"maxZoom" : 35.0,					// максимальная кратность приближения до 35.0
+		"minZoom" : 2.0,					// минимальная кратность приближения от 2.0
+		"defZoom" : 4.0,					// зум по умолчанию при дистанции с выше 564 метров или defZoomOnly
+		"zoomXMetrs" : 16					// Шаги зума в зависимости от расстояния до цели, по умолчанию каждые 16 метров зум +1(чем меньше показатель тем больше зум на средних дистанциях)
+	},
+	"debugPanel" : {
+		"showModDebug" : true,				// true - показывать дебаг панель, false - стандарная.
+		"fpsColor" : "0xE0E06D",			// цвет фпс
+		"pingColor" : "0xE0E06D",			// цвет пинга если все нормально
+		"pingLagColor" : "0xF30900"			// цвет пинга если лагает
+	},
+	"battleTimer" : {
+		"showClock" : true,					// true - показывать часы возле таймера, false - стандартный таймер.
+		"clockColor" : "0xE0E0E0",			// цвет часов
+		"clockFormat" : "%H:%M",			// Форматирование времени, доступные символы смотри в конце конфига. И файле ридми.
+		"timerColor" : "0xE0E06D",			// цвет таймера
+		"timerColorEndBattle" : "0xF30900"	// цвет таймера конец боя, меньше 2х минут
+	},
+	"damage" : {
+		"showDamage" : true,				// true - показывать нанеснный урон, false - скрыть.
+		// готовый шаблон дамаг, натанковано, засвет (сверху на панеле)
+		"position_x" : 160,					// позиция по оси Х (от левого края)
+		"position_y" : 0,					// позиция по оси Y (от верхего края)
+		"template" : "<textformat leading='-3'>{{damageIcon}}<font color='{{tankDamageAvgColor}}'>{{playerDamage}}</font>  {{blockedIcon}}{{blockedDamage}}  {{assistIcon}}{{assistDamage}}</textformat>",
+		
+		// готовый шаблон дамаг, натанковано, засвет (под левым ухом) убрать лишние // вначале следующих 3х строк. и поставить на аналогичные параметры 1го шаблона.
+		//"position_x" : 0,						// позиция по оси Х (от левого края)
+		//"position_y" : 450,					// позиция по оси Y (от верхего края)
+		//"template" : "<textformat leading='-3'>{{damageIcon}}<font color='{{tankDamageAvgColor}}'>{{playerDamage}}</font>\n{{blockedIcon}}{{blockedDamage}}\n{{assistIcon}}{{assistDamage}}</textformat>",
+		
+		"colors" : {
+			"damageColor" : "#E0E06D",			// цвет нанесенного урона, дефолт #E0E06D
+			"lastDamageColor" : "#E0E0E0",		// Цвет последнего попадания
+			"damagePercentColor" : "#E0E0E0",	// цвет процента нанесенного урона, дефолт #E0E0E0
+			"piercedHitsColor" : "#BDE0E0"		// цвет пробитий, дефолт #BDE0E0
+		},
+		"colorAvgDmg": {
+			"very_bad" : "#FF2600",				// very bad   - очень плохо
+			"bad" : "#FF8B00",					// bad        - плохо
+			"normal" : "#FFC900",				// normal     - средне
+			"good" : "#98EA00",					// good       - хорошо
+			"very_good" : "#02D0CE",			// very good  - очень хорошо
+			"unique" : "#D04AF3"				// unique     - уникально
+		}
+	},
+	"mainGun":{
+		"showMainGun" : true,				// true - показывать продвижение медали "оновной калибр", false - скрыть
+		"mainGunDynamic" : true,			// true - динамический расчет оставшегося урона до получения медали "Основной Калибр", false - без расчета
+		// Шаблон строки основного калибра.
+		"template" : "{{mainGunIcon}}{{mainGunDoneIcon}}{{mainGunFailureIcon}}<font color='{{mainGunColor}}'>{{mainGun}}</font>",
+		"position_x" : 215,					// позиция по оси Х (от центра экрана)
+		"position_y" : 0,					// Позиция по оси Y (от верхего края)
+		"mainGunColor" : "#E0E06D"			// Цвет счетчика "оновной калибр", дефолт #E0E06D
+	},
+	"hpBar" : {
+		"background" : false,				// true - Отображать фон панели. false - без фона.
+		"backgroundTransparency" : 0.15,		// прозрачность фона панели.
+		"hpBarsTransparency": 0.8,			// прозрачность полос хп от 0 до 1, 0- прозрачно полностью, 1- не прозрачно. 0.5 - прозрачно на 50%. примеры. 0.0, 0.1, 0.2, 0.3, 0.4, .... 0.9, 1.0
+		"differenceHP" : true,				// true - Показывать разницу по хп на месте стрелок. false - Показывать стрелки. (Стрелки отключены - не нарисовал :()
+		"showAliveCount": false,			// true - показывать вместо Счета - выживших. false - показывать Счет.
+		"showAngle" : true,					// true - велючить стрелки счета. false - отключить.
+		"showMarkers" : true,				// true - включить маркеры под панелью. false - отключить.
+		"colors" : {
+			// Настройка цвета перевеса
+			"differenceHPAllyClolr" : "0x5ACB00",		// У союзников больше
+			"differenceHPEnemyClolr" : "0xF30900",		// У противника больше
+			"differenceHPEnemyClolrBlind" : "0x6F6CD3",	// У противника больше (цветовая слепота)
+			"alliesHpBarColor" : "0x5ACB00",			// цвет полос союзников, дефолт 0x5ACB00
+			"enemyHpBarColor" : "0xF30900",				// цвет полос противника, дефолт 0xF30900
+			"enemyHpBarColorBlind" : "0x6F6CD3"			// цвет полос противника (режим цветовой слепоты), дефолт 0x6F6CD3
+		}
+	},
+	"hpTools" : {
+		"TanksList":{
+			"showTanksList" : true,				// true - Показывать оставшееся ХП по каждому танку при нажатии на Левый ALT, false - скрыть
+			// Шапка остатков ХП
+			// Союзники
+			"allyHeader":"<p align='center'><textformat leading='2'><font face='$TitleFont' size='16'><font color='{{allyColor}}'>ТТ</font>-{{HT}} <font color='{{allyColor}}'>СТ</font>-{{MT}} <font color='{{allyColor}}'>ПТ</font>-{{AT-SPG}} <font color='{{allyColor}}'>САУ</font>-{{SPG}} <font color='{{allyColor}}'>ЛТ</font>-{{LT}}</font></textformat></p>",
+			// Противник
+			"enemyHeader":"<p align='center'><textformat leading='2'><font face='$TitleFont' size='16'><font color='{{enemyColor}}'>ТТ</font>-{{HT}} <font color='{{enemyColor}}'>СТ</font>-{{MT}} <font color='{{enemyColor}}'>ПТ</font>-{{AT-SPG}} <font color='{{enemyColor}}'>САУ</font>-{{SPG}} <font color='{{enemyColor}}'>ЛТ</font>-{{LT}}</font></textformat></p>",
+							
+			// Форматирование полей
+			// Стартовый тэг (применяется для общего форматирования такого как tabstops) можно не использовать. Если не нужны разделения по столбцам оставить пустым.
+			"listStartTagAlly":"<textformat leading='-3' tabstops='[20, 120, 220, 255, 290]'>",
+			"listStartTagEnemy":"<textformat leading='-3' tabstops='[20, 120, 220, 255, 290]'>",
+			// Списки танков (шаблон)
+
+			"ListTemplateAlly":"<b>{{TankLevel}}\t<font color='{{TankNameColor}}'>{{TypeIcon}} {{TankName}}</font></b>\t<font color='{{UserNameColor}}'>{{UserName}}</font>\t<b><font color='{{TankHealthColor}}'>{{TankHealth}}</font>\t{{TankHealthPercent}}%\t{{DamageIcon}} <font color='{{TankDamageColor}}'>{{TankDamage}}</font></b>\n",
+			"ListTemplateEnemy":"<b>{{TankLevel}}\t<font color='{{TankNameColor}}'>{{TypeIcon}} {{TankName}}</font></b>\t<font color='{{UserNameColor}}'>{{UserName}}</font>\t<b><font color='{{TankHealthColor}}'>{{TankHealth}}</font>\t{{TankHealthPercent}}%\t{{DamageIcon}} <font color='{{TankDamageColor}}'>{{TankDamage}}</font></b>\n",
+			
+			// Закрывающий тэг (если не используется listStartTag - очистить)
+			"listEndTagAlly":"</textformat>",
+			"listEndTagEnemy":"</textformat>"
+		},
+
+		"allyPosition_x" : -220,			// Позиция Союзников по X от центра экрана (расширяется равномерно от координаты ширина/2).
+		"enemyPosition_x" : 220,			// Позиция Противника по X от центра экрана (расширяется равномерно от координаты ширина/2).
+		"position_y" : 150,					// позиция списков по оси Y(вертикали) вызываемых по нажатию горячих клавиш. Отсчет от верхнего края экрана.
+		"backgroundTransparency": 0.4,		// прозрачность заднего фона списков вызываемых по нажатию горячих клавиш. от 0 до 1. 0- прозрачно полностью, 1- не прозрачно. 0.5 - прозрачно на 50%. примеры. 0, 0.1, 0.2, 0.3, 0.4, .... 0.9, 1
+		"colors" : {
+			"remainHalthColor" : "#E0E06D",			// Цвет остатка хп (значение)
+			//Цвета названий танков
+			"allyTankNameColor" : "#5ACB00",		// Союзники
+			"enemyTankNameColor" : "#F30900",		// Противник
+			"enemyTankNameColorBlind" : "#6F6CD3",	// Противник цветовая слепота
+			"squadmanColor" : "#FF9200",
+			"userNameColor" : "#E0E0E0",
+			"deadColor" : "#858585"
+		}
+	}
+}
+//
+// Доступные макросы для урона
+// {{damagePercent}} - процент урона
+// {{damagePercentColor}} - цвет процента урона
+// {{piercedHits}} - пробития
+// {{piercedHitsColor}} - цвет пробитий
+// {{damageColor}} - цвет(общий урон и урон танков в списке альт {{TankDamage}})
+// {{damageIcon}} - иконка урона
+// {{playerDamage}} - общий урон
+// {{lastDamage}} - последний урон
+// {{lastDamageColor}} - цвет (последний урон)
+// {{tankDamageAvgColor}} - Динамический цвет урона в зависимости от нанесенного урона к среднему на текущем танке по вашему аккауту настройка в "colorAvgDmg"
+// {{tankAvgDamage}} - средний показатель на текущем танке по вашему аккауту
+// {{blockedIcon}} - иконка щита (заблокированный урон)
+// {{blockedDamage}} - заблокированный урон
+// {{assistIcon}} - Иконка урона по развед.данным
+// {{assistDamage}} - Урон по развед.данным
+//
+// Доступные макросы для основного калибра
+// {{mainGunIcon}} - Иконка основного калибра
+// {{mainGunDoneIcon}} - зеленая иконка в виде птички(появляется только если условия выполнены)
+// {{mainGunFailureIcon}} - Иконка которая отображается если вас убили или вы стрельнули по союзнику
+// {{mainGun}} - Счетчик основного калибра
+// {{mainGunColor}} - Цвет счетчика "оновной калибр".
+//
+// Список макросов для сприсков команд
+// Основные списки
+// {{TankLevel}} - Уровень танка
+// {{TypeIcon}} - иконка типа
+// {{TankName}} - название танка
+// {{TankNameColor}} - Динамический цвет настройка секция (colors)
+// {{UserName}} - имя игрока
+// {{UserNameColor}} - Меняется в зависимости от того есть ли взводный.
+// {{TankHealth}} - остаток хп
+// {{TankHealthColor}} -  remainHalthColor
+// {{TankHealthPercent}} - процент хп
+// {{DamageIcon}} - иконка урона
+// {{TankDamage}} - нанесенный урон
+// {{TankDamageColor}} - цвет для нанесенного урона
+//
+// Только для шапки списков команд.
+// {{allyColor}} - Цвет союзников
+// {{enemyColor}} - Цвет противника
+// {{HT}} {{MT}} {{AT-SPG}} {{SPG}} {{LT}} - Число оставшихся танков по типу (только для шапки)
+// {{allyAlive}} {{enemyAlive}} - общее кол-во живых танков
+//		Форматирование времени.
+//	%a	Сокращенное название дня недели
+//	%A	Полное название дня недели
+//	%b	Сокращенное название месяца
+//	%B	Полное название месяца
+//	%c	Дата и время
+//	%d	День месяца [01,31]
+//	%H	Час (24-часовой формат) [00,23]
+//	%I	Час (12-часовой формат) [01,12]
+//	%j	День года [001,366]
+//	%m	Номер месяца [01,12]
+//	%M	Число минут [00]
+//	%p	До полудня или после (при 12-часовом формате)
+//	%S	Число секунд [00]
+//	%U	Номер недели в году (нулевая неделя начинается с воскресенья) [00,53]
+//	%w	Номер дня недели [0(Sunday),6]
+//	%W	Номер недели в году (нулевая неделя начинается с понедельника) [00,53]
+//	%x	Дата
+//	%X	Время [00:00:00]
+//	%y	Год без века [00,99]
+//	%Y	Год с веком
+//	%Z	Временная зона
+//	%%	Знак '%'
