@@ -5,7 +5,7 @@
 	"hideChatInRandom" : false,				// полностью отключить чат в случайных боях. (убирает форму чата и все что с ней связано, полезно для вододелов которые закрывают чат картинкой)
 	"teamBasesPanel" : true,				// true - включить полосы захвата встроенные в мод. false - отображать стандартные/xvm
 	"dynamic_zoom" : {
-		"enableDZoom" : true,				// автоматическая кратность зума при переходе в снайперский режим false - отключить автозум.
+		"enableDZoom" : false,				// автоматическая кратность зума при переходе в снайперский режим false - отключить автозум.
 		"defZoomOnly" : false,				// использовать только defZoom, enableDZoom - должен быть включен.
 		"maxZoom" : 35.0,					// максимальная кратность приближения до 35.0
 		"minZoom" : 2.0,					// минимальная кратность приближения от 2.0
@@ -26,7 +26,7 @@
 		"timerColorEndBattle" : "0xF30900"	// цвет таймера конец боя, меньше 2х минут
 	},
 	"damage" : {
-		"showDamage" : true,				// true - показывать нанеснный урон, false - скрыть.
+		"showDamage" : false,				// true - показывать нанеснный урон, false - скрыть.
 		// готовый шаблон дамаг, натанковано, засвет (сверху на панеле)
 		"position_x" : 160,					// позиция по оси Х (от левого края)
 		"position_y" : 0,					// позиция по оси Y (от верхего края)
@@ -81,7 +81,7 @@
 	},
 	"hpTools" : {
 		"TanksList":{
-			"showTanksList" : true,				// true - Показывать оставшееся ХП по каждому танку при нажатии на Левый ALT, false - скрыть
+			"showTanksList" : false,				// true - Показывать оставшееся ХП по каждому танку при нажатии на Левый ALT, false - скрыть
 			// Шапка остатков ХП
 			// Союзники
 			"allyHeader":"<p align='center'><textformat leading='2'><font face='$TitleFont' size='16'><font color='{{allyColor}}'>ТТ</font>-{{HT}} <font color='{{allyColor}}'>СТ</font>-{{MT}} <font color='{{allyColor}}'>ПТ</font>-{{AT-SPG}} <font color='{{allyColor}}'>САУ</font>-{{SPG}} <font color='{{allyColor}}'>ЛТ</font>-{{LT}}</font></textformat></p>",
